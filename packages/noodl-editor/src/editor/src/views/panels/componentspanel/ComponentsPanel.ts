@@ -79,7 +79,7 @@ export class ComponentsPanelView extends View {
       isSelected: boolean;
       isPage: boolean;
       isCloudFunction: boolean;
-      isRoot: boolean;
+            isRoot: boolean;
       isVisual: boolean;
       isComponentFolder: boolean;
       canBecomeRoot: boolean;
@@ -124,7 +124,7 @@ export class ComponentsPanelView extends View {
     } else if (this._lockCurrentSheetName === '__playground__') {
       return 'playground';
     }
-
+    
     const currentSheetName = this.currentSheet.name;
     // Neue TODO: Cleanup turnery
     return currentSheetName === '#__cloud__'
@@ -702,7 +702,7 @@ export class ComponentsPanelView extends View {
         isSelected: this.nodeGraphEditor?.getActiveComponent() === c,
         isPage: iconType === ComponentIconType.Page,
         isCloudFunction: iconType === ComponentIconType.CloudFunction,
-        isRoot: ProjectModel.instance.getRootNode() && ProjectModel.instance.getRootNode().owner.owner == c,
+                isRoot: ProjectModel.instance.getRootNode() && ProjectModel.instance.getRootNode().owner.owner == c,
         isVisual: iconType === ComponentIconType.Visual,
         isComponentFolder: false,
         canBecomeRoot: c.allowAsExportRoot,
@@ -729,7 +729,7 @@ export class ComponentsPanelView extends View {
         isSelected: Boolean(f.component) && this.nodeGraphEditor?.getActiveComponent() === f.component,
         isPage: iconType === ComponentIconType.Page,
         isCloudFunction: iconType === ComponentIconType.CloudFunction,
-        isVisual: iconType === ComponentIconType.Visual,
+                isVisual: iconType === ComponentIconType.Visual,
         isRoot:
           Boolean(f.component) &&
           ProjectModel.instance.getRootNode() &&

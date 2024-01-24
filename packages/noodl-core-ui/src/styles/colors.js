@@ -6,6 +6,7 @@ export const base_color_names = {
   '--base-color-node-green': 'Node Green',
   '--base-color-node-grey': 'Node Gray',
   '--base-color-node-blue': 'Node Blue',
+  '--base-color-node-blue': 'Node Orange',
   '--base-color-teal': 'Teal',
   '--base-color-yellow': 'Yellow',
   '--base-color-gray': 'Gray'

@@ -17,7 +17,7 @@ declare module '*.scss' {
 
 type TSFixme = any;
 
-type NodeColor = 'data' | 'visual' | 'logic' | 'component' | 'javascript';
+type NodeColor = 'data' | 'visual' | 'logic' | 'component' | 'javascript' | 'neue';
 
 interface Window {
   noodlEditorPreviewRoute: string;

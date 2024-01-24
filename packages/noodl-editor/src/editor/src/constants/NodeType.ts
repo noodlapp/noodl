@@ -4,5 +4,6 @@ export enum NodeType {
   Data = 'data',
   Connection = 'component',
   Custom = 'javascript',
+  Neue = 'Neue',
   None = 'none'
 }

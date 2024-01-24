@@ -196,6 +196,15 @@ function generateNodeLibrary(nodeRegister) {
           outlineHighlighted: '#d57bab',
           text: '#e4cfd9'
         },
+        neue: {
+          base: '#de8954',
+          baseHighlighted: '#de8954',
+          header: '#dc8045',
+          headerHighlighted: '#dc8045',
+          outline: '#dc8045',
+          outlineHighlighted: '#d57bab',
+          text: '#e4cfd9'
+        },
         default: {
           base: '#4C4F59',
           baseHighlighted: '#62656e',
@@ -458,7 +467,8 @@ function generateNodeLibrary(nodeRegister) {
         },
         {
           name: 'Logic',
-          items: ['Boolean To String', 'Switch', 'And', 'Or', 'Condition', 'Inverter']
+          items: [
+            'Boolean To String', 'Switch', 'And', 'Or', 'Condition', 'Inverter']
         },
         {
           name: 'Events',
@@ -591,7 +601,26 @@ function generateNodeLibrary(nodeRegister) {
           items: ['noodl.playground.aggregate']
         }
       ]
-    }
+    },
+    {
+      name: 'Neue',
+      description: 'Custom Neue nodes',
+      type: 'Neue',
+      subCategories: [
+        {
+          name: 'Sensors',
+          items: [
+            'Neue Node'
+          ]
+        },
+        {
+          name: 'Hardware',
+          items: [
+            'Device Node'
+          ]
+        },
+      ]
+    },
   ];
 
   obj.nodeIndex = {

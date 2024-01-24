@@ -278,6 +278,10 @@
   &.is-custom {
     background-color: var(--base-color-node-pink-600);
   }
+
+  &.is-neue {
+    background-color: var(--base-color-node-orange-600);
+  }
 }
 
 .PromptTagRoot {
@@ -297,6 +301,10 @@
 
   &.is-custom {
     background-color: var(--base-color-node-pink-600);
+  }
+
+  &.is-neue {
+    background-color: var(--base-color-node-orange-600);
   }
 }
 
@@ -528,6 +536,10 @@
 
   &.is-visual:before {
     border: 1px solid var(--base-color-node-blue-700);
+  }
+
+  &.is-neue:before {
+    border: 1px solid var(--base-color-node-orange-700);
   }
 }
 

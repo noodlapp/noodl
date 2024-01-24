@@ -23,6 +23,7 @@ import { SearchPanel } from './views/panels/search-panel/search-panel';
 import { UndoQueuePanel } from './views/panels/UndoQueuePanel/UndoQueuePanel';
 import { VersionControlPanel_ID } from './views/panels/VersionControlPanel';
 import { VersionControlPanel } from './views/panels/VersionControlPanel/VersionControlPanel';
+import { iENBLPanel } from './views/panels/iENBLPanel/iENBLPanel';
 
 export interface SetupEditorOptions {
   isLesson: boolean;
@@ -60,7 +61,7 @@ export function installSidePanel({ isLesson }: SetupEditorOptions) {
       // This is a temporary solution so we can keep the state of open folder etc
       options: {
         showSheetList: true,
-        hideSheets: ['__cloud__']
+        hideSheets: ['__cloud__','__neue__']
       }
     },
     panel: ComponentsPanel
@@ -81,6 +82,26 @@ export function installSidePanel({ isLesson }: SetupEditorOptions) {
     order: 5,
     icon: IconName.StructureCircle,
     panel: VersionControlPanel
+  });
+
+  SidebarModel.instance.register({
+    id: 'neue',
+    name: 'iENBL Devices',
+    order: 2,
+    icon: IconName.Code,
+    onOpen: () => {
+      if (appRegistry.CurrentDocumentId !== EditorDocumentProvider.ID) {
+        appRegistry.openDocument(EditorDocumentProvider.ID);
+      }
+    },
+    panelProps: {
+      // This is a temporary solution so we can keep the state of open folder etc
+      options: {
+        showSheetList: true,
+        hideSheets: ['__cloud__']
+      }
+    },
+    panel: iENBLPanel
   });
 
   SidebarModel.instance.register({

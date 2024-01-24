@@ -59,6 +59,9 @@ function getStyleFromNodeType(nodeType) {
     case NodeType.Connection:
       colorName = 'purple';
       break;
+    case NodeType.Neue:
+        colorName = 'orange';
+      break;
     case NodeType.Custom:
       colorName = 'pink';
       break;
@@ -103,7 +106,9 @@ export function returnWarningItems(warnings: WarningItem[], nodeGraphContext: No
   return insertDividerBetweenAllItems(
     sortedWarnings.map((warning) => {
       function endSlot() {
-        const componentName = warning.ref.component?.name.replace('/#__cloud__', '');
+        //Neue
+        let componentName = warning.ref.component?.name.replace('/#__cloud__', '');
+        componentName = warning.ref.component?.name.replace('/#__neue__', '');
         const isCloudComponent = isComponentModel_CloudRuntime(warning.ref.component);
 
         if (isMergeConflictWarning(warning)) {

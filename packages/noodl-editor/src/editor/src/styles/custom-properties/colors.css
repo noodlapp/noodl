@@ -115,6 +115,20 @@
   --base-color-node-blue-800: #173e5d;
   --base-color-node-blue-900: #002a47;
   --base-color-node-blue-1000: #00142f;
+
+  
+    /*Neue*/
+    /*Node-Orange */
+    --base-color-node-orange-100: #f5f6f8;
+    --base-color-node-orange-200: #ded6cf;
+    --base-color-node-orange-300: #c6b7ad;
+    --base-color-node-orange-400: #ae968b;
+    --base-color-node-orange-500: #987d6b;
+    --base-color-node-orange-600: #ac7754;
+    --base-color-node-orange-700: #a8713c;
+    --base-color-node-orange-800: #c27823;
+    --base-color-node-orange-900: #c4681d;
+    --base-color-node-orange-1000: #c56205;
 }
 
 /* THEME COLOR TOKENS. USE THESE. */
@@ -160,6 +174,15 @@
   --theme-color-node-visual-shy: var(--base-color-node-blue-300);
   --theme-color-node-visual-dim: var(--base-color-node-blue-1000);
   --theme-color-node-visual-3: var(--base-color-node-blue-600);
+  
+  /*Neue*/
+  --theme-color-node-neue-1: var(--base-color-node-orange-800);
+  --theme-color-node-neue-2: var(--base-color-node-orange-700);
+  --theme-color-node-neue-2-highlight: var(--base-color-node-orange-600);
+  --theme-color-node-neue-highlight: var(--base-color-node-orange-100);
+  --theme-color-node-neue-default: var(--base-color-node-orange-200);
+  --theme-color-node-neue-shy: var(--base-color-node-orange-300);
+  --theme-color-node-neue-dim: var(--base-color-node-orange-1000);
 
   --theme-color-node-custom-1: var(--base-color-node-pink-800);
   --theme-color-node-custom-2: var(--base-color-node-pink-700);

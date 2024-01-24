@@ -30,6 +30,7 @@ import OptionsOld from './nodes-deprecated/controls/options.jsx';
 import RadioButtonOld from './nodes-deprecated/controls/radiobutton.jsx';
 import RangeOld from './nodes-deprecated/controls/range.jsx';
 import TextInputOld from './nodes-deprecated/controls/text-input.jsx';
+import shNode from './nodes/std-library/shNodes/shNode';
 
 export default function registerNodes(noodlRuntime) {
   [
@@ -147,7 +148,11 @@ export default function registerNodes(noodlRuntime) {
     require('./nodes-deprecated/std-library/data/dbmodelnode'),
     require('./nodes-deprecated/std-library/data/dbcollectionnode'),
     require('./nodes-deprecated/std-library/data/collectionnode'),
-    require('./nodes-deprecated/std-library/scriptdownloader')
+    require('./nodes-deprecated/std-library/scriptdownloader'),
+
+    //Neue
+    // require('./nodes/std-library/shNodes/shNode'),
+
   ].forEach(function (nodeDefinition) {
     noodlRuntime.registerNode(nodeDefinition);
   });
@@ -187,4 +192,8 @@ export default function registerNodes(noodlRuntime) {
   noodlRuntime.registerNode(NavigationStack);
   noodlRuntime.registerNode(Page);
   noodlRuntime.registerNode(Router);
+
+  //Neue
+  // noodlRuntime.registerNode(shNode);
+
 }

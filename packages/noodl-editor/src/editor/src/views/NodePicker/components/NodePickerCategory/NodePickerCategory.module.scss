@@ -36,7 +36,9 @@
   &--is-theme-javascript {
     border-left-color: var(--theme-color-node-custom-2);
   }
-
+  &--is-theme-Neue {
+    border-left-color: var(--theme-color-node-neue-2);
+  }
   .Root--is-highlighted & {
     background-color: var(--theme-color-bg-3);
   }
