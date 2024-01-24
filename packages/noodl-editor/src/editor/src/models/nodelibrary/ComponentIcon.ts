@@ -5,7 +5,8 @@ import { IconName } from '@noodl-core-ui/components/common/Icon';
 export enum ComponentIconType {
   Page = IconName.File,
   CloudFunction = IconName.CloudFunction,
-  Visual = 2
+  Visual = 2,
+  Neue = IconName.Code,
 }
 
 const typenames: { [key: string]: ComponentIconType } = {

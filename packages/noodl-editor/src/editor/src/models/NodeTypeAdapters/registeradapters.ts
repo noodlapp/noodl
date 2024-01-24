@@ -9,6 +9,7 @@ import { RouterNavigateAdapter } from '@noodl-models/NodeTypeAdapters/RouterNavi
 import { ProjectModel } from '@noodl-models/projectmodel';
 
 import { EventDispatcher } from '../../../../shared/utils/EventDispatcher';
+import { NeueTypeAdapter } from './NeueTypeAdapter';
 
 const _adapters = {
   Router: () => RouterAdapter,
@@ -17,6 +18,7 @@ const _adapters = {
   DbCollection2: () => QueryRecordsAdapter,
   FilterDBModels: () => FilterRecordsAdapter,
   CloudFunction2: () => CloudFunctionAdapter,
+  NeueTypeAdapter: () => NeueTypeAdapter,
   AggregateRecords: () => AggregateRecordsAdapter
 };
 

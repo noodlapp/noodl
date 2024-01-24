@@ -84,7 +84,7 @@ class LogicComponentTemplate extends ComponentTemplate {
     super('Logic Component', IconName.Component);
 
     this.parentTypes = ['folder', 'component'];
-    this.runtimeTypes = ['cloud', 'browser'];
+    this.runtimeTypes = ['cloud', 'browser','neue'];
 
     this.template = {
       connections: [],
@@ -201,6 +201,34 @@ class DeviceComponentTemplate extends ComponentTemplate {
   }
 }
 
+//Neue Code
+
+class NeueComponentTemplate extends ComponentTemplate {
+  constructor() {
+    super('Neue Component', IconName.Code);
+
+    this.parentTypes = ['folder'];
+    this.runtimeTypes = ['neue'];
+
+    this.template = {
+      connections: [],
+      roots: [
+        {
+          id: 'xxx',
+          type: 'Group',
+          x: 0,
+          y: 0,
+          parameters: {},
+          ports: [],
+          dynamicports: [],
+          children: []
+        }
+      ]
+    };
+
+  }
+}
+
 class PageComponentTemplate extends ComponentTemplate {
   constructor() {
     super('Page Component', IconName.File);
@@ -283,7 +311,7 @@ export class ComponentTemplates {
       new VisualComponentTemplate(),
       new LogicComponentTemplate(),
       new CloudFunctionComponentTemplate(),
-      new DeviceComponentTemplate()
+      new NeueComponentTemplate()
     ];
   }
 

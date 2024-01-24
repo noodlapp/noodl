@@ -126,6 +126,26 @@ export function onDrop(editor: NodeGraphEditor, dragItem: DragItem, position: IV
 
       return true;
     }
+
+    //Neue
+    if (!activeBackend && newBackend && newIcon === ComponentIconType.Neue) {
+      const neueComponent = NodeLibrary.instance.types.find((x) => x.name === 'NeueTypeAdapter');
+      if (!neueComponent) {
+        console.error("Cannot find 'Cloud Function' component.");
+        return;
+      }
+
+      const functionName = dragItem.component.name.slice('/#__neue__/'.length);
+
+      // Create a reference component to the cloud function component.
+      editor.createNewNode(neueComponent, position, {
+        parameters: {
+          function: functionName
+        }
+      });
+
+      return true;
+    }
   }
 
   // Create the component

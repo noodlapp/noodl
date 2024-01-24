@@ -89,6 +89,10 @@ export function registerOrUpdate_Javascript2(node: NodeGraphNode, runtimeType: R
     case RuntimeType.Cloud:
       pkg.setLib(['es2020']);
       break;
+//Neue
+      case RuntimeType.Neue:
+        pkg.setLib(['es2020']);
+        break;
   }
 
   // Try get the model

@@ -3,6 +3,7 @@ import { IconName } from '@noodl-core-ui/components/common/Icon';
 export enum PopupItemType {
   Visual = 'is-visual',
   Data = 'is-data',
+  Neue = 'is-neue',
   Custom = 'is-custom'
 }
 
@@ -43,6 +44,25 @@ export const promptToNodeCommands: CommandMetadata[] = [
       // 'A group that contains two columns. First column has the text "Left column" and the other column the text "Right column". Left column is twice the size of the right one.'
     ]
   },
+  {
+    title: '/Neue',
+    tag: 'Neue Prompt',
+    description: 'Create Neue nodes',
+    placeholder: 'What should it be?',
+    type: PopupItemType.Neue,
+    icon: IconName.Code,
+    availableOnFrontend: false,
+    availableOnBackend: true,
+    requireGPT4: true,
+    examples: [
+      'Create config for temperature sensor'
+
+      // 'A vertical list with five popular car brands. Each list item should have the brand name, most popular vechicle name and type, and a button that says "view". The items should use a horizontal layout.',
+      // 'Pokemon card creator form',
+      // 'A group that contains two columns. First column has the text "Left column" and the other column the text "Right column". Left column is twice the size of the right one.'
+    ]
+  },
+  //Neue
   {
     title: '/Image',
     tag: 'Image Prompt',

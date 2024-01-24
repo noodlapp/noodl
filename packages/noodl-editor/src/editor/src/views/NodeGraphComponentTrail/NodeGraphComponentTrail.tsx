@@ -127,7 +127,8 @@ function Item({ item, onSwitchToComponent }: ItemProps) {
   }
 
   if (name === '#__cloud__') return null;
-  
+  if (name === '#__neue__') return null;
+
   const rootComponent = getDefaultComponent();
   let isRootComponent = false;
 

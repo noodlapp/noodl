@@ -334,7 +334,7 @@ export class SidebarModel extends Model<SidebarModelEvent, SidebarModelEventEven
       this.previousActiveId = undefined;
     } else {
       const isFrontend = NodeGraphContextTmp.active === 'frontend';
-      const newPanel = isFrontend ? 'components' : 'cloud-functions';
+      const newPanel = isFrontend ? 'components' : (NodeGraphContextTmp.active === 'neue'? 'neue' : 'cloud-functions');
       this.switch(newPanel);
     }
   }

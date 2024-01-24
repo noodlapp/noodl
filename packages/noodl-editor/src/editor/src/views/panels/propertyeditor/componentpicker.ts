@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom';
 import { ComponentModel } from '@noodl-models/componentmodel';
 import { getComponentIconType, ComponentIconType } from '@noodl-models/nodelibrary/ComponentIcon';
 import { ProjectModel } from '@noodl-models/projectmodel';
-import { isComponentModel_CloudRuntime } from '@noodl-utils/NodeGraph';
+import { isComponentModel_CloudRuntime, isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
 
 import { IconName } from '@noodl-core-ui/components/common/Icon';
 import { MenuDialog, MenuDialogProps, MenuDialogWidth } from '@noodl-core-ui/components/popups/MenuDialog';
@@ -59,7 +59,10 @@ export class ComponentPicker {
         if (folder) {
           folder = folder.replace('/#__cloud__', '');
         }
-
+        //** Neue
+        if (folder) {
+          folder = folder.replace('/#__neue__', '');
+        }
         if (folder === '/') {
           folder = undefined;
         }
@@ -120,8 +123,12 @@ export class ComponentPicker {
       if (isShowingFrontend) {
         return !isCloud;
       } else {
-        //don't allow references to cloud functions, only cloud components
-        return isCloud && getComponentIconType(c) !== ComponentIconType.CloudFunction;
+        if(isCloud){
+          return isCloud && getComponentIconType(c) !== ComponentIconType.CloudFunction;
+
+        }
+        const isNeue = isComponentModel_NeueRuntime(c);
+        return isNeue && getComponentIconType(c) !== ComponentIconType.Neue;
       }
     });
 

@@ -68,8 +68,13 @@ export function DiffList({ diff, fileChanges, componentDiffTitle, actions, commi
   const cloudservices = diff?.cloudservices ? getChangedObjectProperties(diff.cloudservices) : [];
 
   const cloudKey = '/#__cloud__';
+  const neueKey = '/#__neue__';
+
   const frontendComponents = components.filter((x) => !x.component.name.startsWith(cloudKey));
   const backendComponents = components.filter((x) => x.component.name.startsWith(cloudKey));
+
+  //Neue
+  const neueComponents = components.filter((x) => x.component.name.startsWith(neueKey));
 
   useEffect(() => {
     //make sure the active component exists in the diff. This can be false if a component is reset
@@ -146,6 +151,31 @@ export function DiffList({ diff, fileChanges, componentDiffTitle, actions, commi
             {backendComponents.map((change) => (
               <ListItem
                 key={'cloud_component_' + componentId(change.component)}
+                text={change.component.name.substring(cloudKey.length)}
+                variant={
+                  componentId(activeComponent) === componentId(change.component)
+                    ? ListItemVariant.Active
+                    : ListItemVariant.Default
+                }
+                {...getFileStatusIconProps(change.status)}
+                {...getActionProps(actions?.component, change)}
+                onClick={() => onComponentClicked(change)}
+              />
+            ))}
+          </Section>
+        )}
+
+        {/* Neue */}
+        {Boolean(neueComponents?.length > 0) && (
+          <Section
+            title="Changed Neue Components"
+            variant={SectionVariant.PanelShy}
+            hasBottomSpacing
+            hasVisibleOverflow
+          >
+            {neueComponents.map((change) => (
+              <ListItem
+                key={'neue_component_' + componentId(change.component)}
                 text={change.component.name.substring(cloudKey.length)}
                 variant={
                   componentId(activeComponent) === componentId(change.component)

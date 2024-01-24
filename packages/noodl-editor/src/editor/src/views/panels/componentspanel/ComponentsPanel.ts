@@ -79,7 +79,8 @@ export class ComponentsPanelView extends View {
       isSelected: boolean;
       isPage: boolean;
       isCloudFunction: boolean;
-            isRoot: boolean;
+      isNeue: boolean;
+      isRoot: boolean;
       isVisual: boolean;
       isComponentFolder: boolean;
       canBecomeRoot: boolean;
@@ -124,14 +125,12 @@ export class ComponentsPanelView extends View {
     } else if (this._lockCurrentSheetName === '__playground__') {
       return 'playground';
     }
-    
+    if (this._lockCurrentSheetName === '__neue__') {
+      return 'neue';
+    }
+
     const currentSheetName = this.currentSheet.name;
-    // Neue TODO: Cleanup turnery
-    return currentSheetName === '#__cloud__'
-      ? 'cloud'
-      : currentSheetName === '#__playground__'
-      ? 'playground'
-      : 'browser';
+    return currentSheetName === '#__cloud__' ? 'cloud' : (currentSheetName==='#__neue__'?'neue':'browser');
   }
 
   setNodeGraphEditor(nodeGraphEditor: NodeGraphEditor) {
@@ -702,7 +701,8 @@ export class ComponentsPanelView extends View {
         isSelected: this.nodeGraphEditor?.getActiveComponent() === c,
         isPage: iconType === ComponentIconType.Page,
         isCloudFunction: iconType === ComponentIconType.CloudFunction,
-                isRoot: ProjectModel.instance.getRootNode() && ProjectModel.instance.getRootNode().owner.owner == c,
+        isNeue: iconType === ComponentIconType.Neue,
+        isRoot: ProjectModel.instance.getRootNode() && ProjectModel.instance.getRootNode().owner.owner == c,
         isVisual: iconType === ComponentIconType.Visual,
         isComponentFolder: false,
         canBecomeRoot: c.allowAsExportRoot,
@@ -729,7 +729,8 @@ export class ComponentsPanelView extends View {
         isSelected: Boolean(f.component) && this.nodeGraphEditor?.getActiveComponent() === f.component,
         isPage: iconType === ComponentIconType.Page,
         isCloudFunction: iconType === ComponentIconType.CloudFunction,
-                isVisual: iconType === ComponentIconType.Visual,
+        isNeue: iconType === ComponentIconType.Neue,
+        isVisual: iconType === ComponentIconType.Visual,
         isRoot:
           Boolean(f.component) &&
           ProjectModel.instance.getRootNode() &&
@@ -1652,6 +1653,15 @@ export class ComponentsPanelView extends View {
     root.addFolder(
       new ComponentsPanelFolder({
         name: '#__playground__',
+        folders: [],
+        components: []
+      })
+    );
+
+    //Neue
+    root.addFolder(
+      new ComponentsPanelFolder({
+        name: '#__neue__',
         folders: [],
         components: []
       })

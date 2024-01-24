@@ -4,6 +4,8 @@ const fs = require('fs');
 const rimraf = require('rimraf');
 const electron = require('electron');
 const app = electron.app || require('@electron/remote').app;
+const console = require('console');
+app.console = new console.Console(process.stdout, process.stderr);
 
 function fileNameForKey(key) {
   const keyFileName = path.basename(key, '.json') + '.json';

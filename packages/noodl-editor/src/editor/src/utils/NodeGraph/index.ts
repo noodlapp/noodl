@@ -10,6 +10,10 @@ export function getComponentModelRuntimeType(node: ComponentModel) {
   } else if (name.startsWith('/#__playground__/')) {
     return RuntimeType.Playground;
   }
+  //Neue
+  else if(name.startsWith('/#__neue__/')){
+    return RuntimeType.Neue;
+  }
 
   return RuntimeType.Browser;
 }
@@ -21,11 +25,10 @@ export const isComponentModel_CloudRuntime = (node: ComponentModel) =>
 export const isComponentModel_PlaygroundRuntime = (node: ComponentModel) =>
   getComponentModelRuntimeType(node) === RuntimeType.Playground;
 
+//Neue
+export const isComponentModel_NeueRuntime = (node: ComponentModel) =>
+  getComponentModelRuntimeType(node) === RuntimeType.Neue;
+
 export function getNodeGraphNodeRuntimeType(node: NodeGraphNode): RuntimeType {
-  // Neue TODO: Cleanup double ternary
-  return node?.owner?.owner?.name?.startsWith('/#__cloud__')
-    ? RuntimeType.Cloud
-    : node?.owner?.owner?.name?.startsWith('/#__playground__')
-    ? RuntimeType.Playground
-    : RuntimeType.Browser;
+  return node?.owner?.owner?.name?.startsWith('/#__cloud__') ? RuntimeType.Cloud : (node?.owner?.owner?.name?.startsWith('/#__neue__')? RuntimeType.Neue :RuntimeType.Browser);
 }

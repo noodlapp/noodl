@@ -1,10 +1,10 @@
 export enum RuntimeType {
   Browser = 'browser',
   Cloud = 'cloud',
-  Playground = 'playground'
+  Neue = 'neue'
 }
 
-export const RuntimeTypes: RuntimeType[] = [RuntimeType.Browser, RuntimeType.Cloud, RuntimeType.Playground];
+export const RuntimeTypes: RuntimeType[] = [RuntimeType.Browser, RuntimeType.Cloud, RuntimeType.Neue];
 
 export interface NodeLibraryDataNode {
   name: string;
@@ -67,6 +67,7 @@ export interface NodeLibraryData {
       data: NodeLibraryDataNodeColors;
       javascript: NodeLibraryDataNodeColors;
       default: NodeLibraryDataNodeColors;
+      neue:NodeLibraryDataNodeColors;
     };
     connections: {
       signal: NodeLibraryDataConnectionColors;

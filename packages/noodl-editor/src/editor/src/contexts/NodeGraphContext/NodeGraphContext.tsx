@@ -2,13 +2,13 @@ import React, { createContext, useContext, useCallback, useState, useEffect } fr
 
 import { ComponentModel } from '@noodl-models/componentmodel';
 import { SidebarModel } from '@noodl-models/sidebar';
-import { isComponentModel_CloudRuntime } from '@noodl-utils/NodeGraph';
+import { isComponentModel_CloudRuntime, isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
 
 import { Slot } from '@noodl-core-ui/types/global';
 
 import { CenterToFitMode, NodeGraphEditor } from '../../views/nodegrapheditor';
 
-type NodeGraphID = 'frontend' | 'backend';
+type NodeGraphID = 'frontend' | 'backend' | 'neue';
 
 interface NodeGraphControlSwitchOptions {
   pushHistory: boolean;
@@ -91,7 +91,12 @@ export function NodeGraphContextProvider({ children }: NodeGraphContextProviderP
         if (SidebarModel.instance.ActiveId === 'components') {
           SidebarModel.instance.switch('cloud-functions');
         }
-      } else {
+      } else if(isComponentModel_NeueRuntime(model)){
+        setActive('neue');
+        if (SidebarModel.instance.ActiveId === 'neue') {
+          SidebarModel.instance.switch('neue');
+        }
+      }else{
         setActive('frontend');
         if (SidebarModel.instance.ActiveId === 'cloud-functions') {
           SidebarModel.instance.switch('components');

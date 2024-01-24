@@ -53,9 +53,9 @@ export function createModel(options: createModelOptions, node: NodeGraphNode): E
         modules.push(GetOrCreateViewerCloudModel());
         break;
       // Neue
-      case RuntimeType.Playground:
-        modules.push(GetOrCreateViewerPlaygroundModel());
-        break;
+      case RuntimeType.Neue:
+          modules.push(GetOrCreateViewerCloudModel());
+          break;
     }
 
     switch (node.typename) {
@@ -80,7 +80,13 @@ export function createModel(options: createModelOptions, node: NodeGraphNode): E
           case RuntimeType.Browser:
             defaultLibs.push('dom', 'es2020');
             break;
+<<<<<<< HEAD
 
+=======
+            case RuntimeType.Neue:
+              defaultLibs.push( 'es2020');
+              break;
+>>>>>>> 56a7b1f... neue runtime added with neue component
           case RuntimeType.Cloud:
             defaultLibs.push('es2020');
             break;
