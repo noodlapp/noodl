@@ -1,9 +1,10 @@
 export enum RuntimeType {
   Browser = 'browser',
-  Cloud = 'cloud'
+  Cloud = 'cloud',
+  Playground = 'playground'
 }
 
-export const RuntimeTypes: RuntimeType[] = [RuntimeType.Browser, RuntimeType.Cloud];
+export const RuntimeTypes: RuntimeType[] = [RuntimeType.Browser, RuntimeType.Cloud, RuntimeType.Playground];
 
 export interface NodeLibraryDataNode {
   name: string;

@@ -121,10 +121,17 @@ export class ComponentsPanelView extends View {
   private getRuntimeType() {
     if (this._lockCurrentSheetName === '__cloud__') {
       return 'cloud';
+    } else if (this._lockCurrentSheetName === '__playground__') {
+      return 'playground';
     }
 
     const currentSheetName = this.currentSheet.name;
-    return currentSheetName === '#__cloud__' ? 'cloud' : 'browser';
+    // Neue TODO: Cleanup turnery
+    return currentSheetName === '#__cloud__'
+      ? 'cloud'
+      : currentSheetName === '#__playground__'
+      ? 'playground'
+      : 'browser';
   }
 
   setNodeGraphEditor(nodeGraphEditor: NodeGraphEditor) {
@@ -1637,6 +1644,14 @@ export class ComponentsPanelView extends View {
     root.addFolder(
       new ComponentsPanelFolder({
         name: '#__cloud__',
+        folders: [],
+        components: []
+      })
+    );
+    // Neue
+    root.addFolder(
+      new ComponentsPanelFolder({
+        name: '#__playground__',
         folders: [],
         components: []
       })

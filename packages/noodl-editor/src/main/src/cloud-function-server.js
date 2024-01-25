@@ -65,8 +65,8 @@ function startCloudFunctionServer(app, cloudServicesGetActive, mainWindow) {
     console.log('starting cloud runtime');
 
     hasLoadedProject = false;
-
-    sandbox.loadURL('file:///' + appPath + '/src/external/cloudruntime/index.html');
+    // Neue TODO: Move to seperate runtime function
+    sandbox.loadURL('file:///' + appPath + '/src/external/playgroundruntime/index.html');
     sandbox.webContents.on('did-start-loading', () => {
       //window has been refreshed, we need to wait for the viewer to get the export and load the components before handling the requests
       hasLoadedProject = false;

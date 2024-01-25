@@ -143,7 +143,8 @@ export class NodeLibraryImporter {
     this.clients.import(clientId, runtimeType, library.nodetypes);
 
     console.debug('[nodelib] Received', runtimeType, ` (nodes: ${library.nodetypes.length})`);
-
+    // Neue DEBUG
+    console.log('[nodelib] Received', runtimeType, ` (nodes: ${library.nodetypes.length})`, library);
     // Assign or update the new library into our current version.
     let updated = false;
     if (!this.currentNodeLibrary) {

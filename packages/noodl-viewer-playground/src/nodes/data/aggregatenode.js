@@ -1,6 +1,6 @@
 const { Node, EdgeTriggeredInput } = require('@noodl/runtime');
 
-const CloudStore = require('@noodl/runtime/src/api/playgroundstore'),
+const CloudStore = require('@noodl/runtime/src/api/cloudstore'),
   JavascriptNodeParser = require('@noodl/runtime/src/javascriptnodeparser'),
   QueryUtils = require('@noodl/runtime/src/api/queryutils');
 

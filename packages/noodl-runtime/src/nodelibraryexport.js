@@ -583,11 +583,12 @@ function generateNodeLibrary(nodeRegister) {
       subCategories: [
         {
           name: '',
-          items: ['noodl.cloud.request', 'noodl.cloud.response']
+          // Neue NOTE: This does not show up in the library export. Is it not getting web packed correctly?
+          items: ['noodl.playground.request', 'noodl.playground.response']
         },
         {
           name: 'Cloud Data',
-          items: ['noodl.cloud.aggregate']
+          items: ['noodl.playground.aggregate']
         }
       ]
     }

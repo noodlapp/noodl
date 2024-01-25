@@ -2,7 +2,7 @@ const NoodlRuntime = require('@noodl/runtime');
 const EventEmitter = require('@noodl/runtime/src/events');
 //const guid = require('../../../guid');
 const Model = require('@noodl/runtime/src/model');
-const CloudStore = require('@noodl/runtime/src/api/playgroundstore');
+const CloudStore = require('@noodl/runtime/src/api/cloudstore');
 
 class UserService {
   constructor(modelScope) {

@@ -1,5 +1,5 @@
 const Model = require('@noodl/runtime/src/model');
-const CloudStore = require('@noodl/runtime/src/api/playgroundstore');
+const CloudStore = require('@noodl/runtime/src/api/cloudstore');
 const NoodlRuntime = require('@noodl/runtime');
 const RecordsAPI = require('@noodl/runtime/src/api/records');
 

@@ -1,4 +1,4 @@
-const CloudStore = require('@noodl/runtime/src/api/playgroundstore');
+const CloudStore = require('@noodl/runtime/src/api/cloudstore');
 
 const files = {
   async delete(fileName) {

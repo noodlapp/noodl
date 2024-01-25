@@ -1,4 +1,4 @@
-//import CloudStore from '@noodl/runtime/src/api/playgroundstore'
+//import CloudStore from '@noodl/runtime/src/api/cloudstore'
 
 import NoodlRuntime from '@noodl/runtime';
 import ConfigService from '@noodl/runtime/src/api/configservice';

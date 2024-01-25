@@ -15,6 +15,7 @@ import { GetOrCreateViewerReactModel } from '@noodl-utils/CodeEditor/typescript/
 import { getNodeGraphNodeRuntimeType } from '@noodl-utils/NodeGraph';
 
 import { codeEditorTypeToLanguageId } from './mappings';
+import { GetOrCreateViewerPlaygroundModel } from './typescript/viewer-playground';
 
 export interface createModelOptions {
   type: string;
@@ -50,6 +51,10 @@ export function createModel(options: createModelOptions, node: NodeGraphNode): E
 
       case RuntimeType.Cloud:
         modules.push(GetOrCreateViewerCloudModel());
+        break;
+      // Neue
+      case RuntimeType.Playground:
+        modules.push(GetOrCreateViewerPlaygroundModel());
         break;
     }
 

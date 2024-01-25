@@ -165,6 +165,41 @@ class CloudFunctionComponentTemplate extends ComponentTemplate {
     };
   }
 }
+// Neue
+class DeviceComponentTemplate extends ComponentTemplate {
+  constructor() {
+    super('Device Component', IconName.CloudFunction);
+
+    this.parentTypes = ['folder'];
+    this.runtimeTypes = ['playground'];
+
+    this.template = {
+      connections: [],
+      roots: [
+        {
+          id: 'A',
+          type: 'noodl.cloud.request',
+          x: 0,
+          y: 0,
+          parameters: {},
+          ports: [],
+          dynamicports: [],
+          children: []
+        },
+        {
+          id: 'B',
+          type: 'noodl.cloud.response',
+          x: 300,
+          y: 0,
+          parameters: {},
+          ports: [],
+          dynamicports: [],
+          children: []
+        }
+      ]
+    };
+  }
+}
 
 class PageComponentTemplate extends ComponentTemplate {
   constructor() {
@@ -247,7 +282,8 @@ export class ComponentTemplates {
       new PageComponentTemplate(),
       new VisualComponentTemplate(),
       new LogicComponentTemplate(),
-      new CloudFunctionComponentTemplate()
+      new CloudFunctionComponentTemplate(),
+      new DeviceComponentTemplate()
     ];
   }
 
