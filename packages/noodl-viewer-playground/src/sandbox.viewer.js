@@ -1,9 +1,9 @@
-import { CloudRunner } from '.';
+import { PlaygroundRunner } from '.';
 
-console.log('Noodl Editor Cloud Runtime!');
+console.log('Noodl Editor Playground Runtime!');
 console.log('Version: ' + _noodl_playground_runtime_version);
 
-const _runner = new CloudRunner({
+const _runner = new PlaygroundRunner({
   webSocketClass: WebSocket,
   connectToEditor: true,
   editorAddress: 'ws://localhost:8574',
