@@ -19,7 +19,7 @@
     "events": "^3.3.0",
     "lodash.difference": "^4.5.0",
     "lodash.isequal": "^4.5.0",
-    "react-draggable": "^4.4.5",
+    "react-draggable": "^4.4.6",
     "react-rnd": "^10.3.7",
     "stream-browserify": "^3.0.0",
     "timers-browserify": "^2.0.12",
