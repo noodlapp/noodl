@@ -15,7 +15,7 @@
     "test:ci": "webpack-cli --config=webpackconfigs/webpack.test-ci.js && electron test.js"
   },
   "build": {
-    "appId": "noodl.net.noodl",
+    "appId": "noodl.net.noodl-editor",
     "protocols": {
       "name": "noodl",
       "schemes": [
