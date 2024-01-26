@@ -64,7 +64,7 @@ export function BaseWindow({
           variant={variant === BaseWindowVariant.Shallow ? TitleBarVariant.Shallow : TitleBarVariant.Default}
           version={platform.getVersionWithTag()}
           state={newVersionAvailable ? TitleBarState.UpdateAvailable : TitleBarState.Default}
-          isWindows={process.platform === 'win32'}
+          isWindows={['win32', 'linux'].includes(process.platform)}
           onMinimizeClicked={() => App.instance.minimize()}
           onMaximizeClicked={() => App.instance.maximize()}
           onCloseClicked={() => App.instance.close()}
