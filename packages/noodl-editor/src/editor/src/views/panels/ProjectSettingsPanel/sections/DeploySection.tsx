@@ -37,7 +37,7 @@ export function DeploySection() {
         text="All these settings are temporary and will be moved to another place in a future version."
       />
       <Box hasBottomSpacing>
-        <Text>The Base Url will be automatically filled in when deploying to Noodl hosting.</Text>
+        <Text>The Base Url.</Text>
       </Box>
       <PropertyPanelRow label="Custom Base Url">
         <PropertyPanelTextInput value={baseUrl} onChange={handleBaseUrl} />
