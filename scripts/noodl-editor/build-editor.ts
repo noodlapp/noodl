@@ -70,7 +70,7 @@ import { getCurrentPlatform } from '../helper';
   // NOTE: Getting error "Cannot set properties of null (setting 'dev')" here,
   //       It basically means that some package is not relative to this path.
   console.log("--- Run 'npm install' ...");
-  execSync(`npm install --arch=${arch} --scope Noodl`, {
+  execSync(`npm install --arch=${arch} --scope Noodl-Editor`, {
     stdio: 'inherit',
     env: process.env
   });
@@ -89,7 +89,7 @@ import { getCurrentPlatform } from '../helper';
   // Build: Replace "dugite"
   // Build: Replace "desktop-trampoline"
   console.log("--- Run 'npm run build' ...");
-  execSync('npx lerna exec --scope Noodl -- npm run build', {
+  execSync('npx lerna exec --scope Noodl-Editor -- npm run build', {
     stdio: 'inherit',
     env: {
       ...process.env,

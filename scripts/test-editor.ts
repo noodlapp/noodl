@@ -25,7 +25,7 @@ console.log(
 );
 console.log("---");
 
-execSync("npx lerna exec --scope Noodl -- npm run test", {
+execSync("npx lerna exec --scope Noodl-Editor -- npm run test", {
   cwd: CWD,
   stdio: "inherit",
   env: {
