@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./Inter-Regular.ttf');
+}
+
+body,
+html {
+  font-family: 'Inter';
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar-panel-header {
+  width: 100%;
+  height: 35px;
+  line-height: 30px;
+  cursor: default;
+  background-color: #2e2e2e;
+  border-bottom: 2px solid #000000;
+  display: flex;
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+.titlebar-icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titlebar-icon-external {
+  content: url('./icons/external.svg');
+}
+
+.titlebar-icon-debug {
+  content: url('./icons/debug.svg');
+}
+
+.titlebar-icon-refresh {
+  content: url('./icons/refrsh_24.svg');
+}
+
+.titlebar-icon-inspect {
+  content: url('./icons/inspect_22.svg');
+}
+
+.titlebar-icon-close {
+  content: url('./icons/close_20.svg');
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  color: #a7a7a7;
+  font-size: 12px;
+  position: relative;
+  -webkit-app-region: no-drag;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.icon-container:hover {
+  opacity: 1;
+  color: #f8f8f8;
+  background-color: #555555;
+}
+
+.viewer-no-root-alert {
+  background-color: #755000;
+  color: #eeeeee;
+  margin: 5px;
+  padding: 10px;
+  -webkit-transition: opacity 500ms;
+  visibility: hidden;
+}
+
+.viewer-no-root-alert-asterisk {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+}
+
+.viewer-icon-highlighted {
+  opacity: 1;
+}
+
+.title {
+  display: block;
+  color: #ccc;
+  margin-left: 16px;
+  font-size: 12px;
+  line-height: 35px;
+}
+
+.title:hover {
+  color: white;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.webview-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  background-color: var(--theme-color-bg-1);
+  background-image: linear-gradient(45deg, var(--theme-color-bg-0) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--theme-color-bg-0) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--theme-color-bg-0) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--theme-color-bg-0) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+.dialog-layer {
+  position: absolute;
+  z-index: 666;
+}

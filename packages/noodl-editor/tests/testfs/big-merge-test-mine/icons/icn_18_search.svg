@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icn_18_search</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.5%" y="-30.0%" width="107.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.325994318 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.530226935">
+        <g id="Homescreen" transform="translate(-24.000000, -111.000000)" fill="#000000">
+            <g id="Group-4" filter="url(#filter-1)" transform="translate(16.000000, 100.000000)">
+                <g id="icn_18_search" transform="translate(12.000000, 13.000000)">
+                    <path d="M6.00160757,11.0031438 C3.23986782,11.0031438 1.00026793,8.76350386 1.00026793,6.00171478 C1.00026793,3.23992569 3.23986782,1.0002858 6.00160757,1.0002858 C8.76334733,1.0002858 11.0029472,3.23992569 11.0029472,6.00171478 C11.0029472,8.76350386 8.76334733,11.0031438 6.00160757,11.0031438 M13.8537108,13.1467562 L10.5818344,9.87482138 C11.4670715,8.82952272 12.0032151,7.4791369 12.0032151,6.00171478 C12.0032151,2.68676765 9.31649549,0 6.00160757,0 C2.68671966,0 0,2.68676765 0,6.00171478 C0,9.3166619 2.68671966,12.0034296 6.00160757,12.0034296 C7.4790033,12.0034296 8.82936501,11.4672764 9.87464499,10.5820234 L13.1465214,13.8539583 C13.2435474,13.950986 13.3715817,14 13.499616,14 C13.6276503,14 13.7556846,13.950986 13.8537108,13.8539583 C14.0487631,13.6579023 14.0487631,13.3418119 13.8537108,13.1467562" id="🎨Color1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

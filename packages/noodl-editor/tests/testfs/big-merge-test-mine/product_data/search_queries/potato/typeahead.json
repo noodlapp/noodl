@@ -1,0 +1,152 @@
+[
+    {
+        "title": "Simply Perfect Russet Potatoes, 5lb bag",
+        "img": "https://i5.walmartimages.com/asr/4eb3e02d-3afa-4046-8c47-de3681016fd3_1.4acacafcdf69b0b534608a1eeb971f59.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Simply Perfect Russet Potatoes, 5lb bag:</b><ul><li>5-pound bag of russet potatoes</li><li>Perfect for mashing, frying, baking, soups, and French fries</li><li>Rich in potassium, vitamins C and B6</li><li>Cholesterol, fat, and sodium free</li><li>Versatile, flavorful kitchen staple</li></ul>",
+            "short": "<ul><li>5-pound bag of russet potatoes</li><li>Perfect for mashing, frying, baking, soups, and French fries</li><li>Rich in potassium, vitamins C and B6</li></ul>"
+        },
+        "price": 2.27,
+        "reviews": {
+            "customerRating": 3.9,
+            "numReviews": 42
+        },
+        "size": {
+            "karfGroceryType": "Russet Potatoes",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "5.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10447837",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Vegetables",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Vegetables",
+                    "url": "/cp/1001435"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Russet Baking Potatoes, each",
+        "img": "https://i5.walmartimages.com/asr/fc7e12f7-08f9-4604-9822-69ca5e87a0f4_1.92a28272bc66b3cdf9aa461254bc9013.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Russet Baking Potatoes, each:</b><ul><li>Ideal addition to every pantry</li><li>Make crispy hash browns or add to an omelet</li><li>Serve garlic mashed potatoes or a loaded baked potato</li><li>Great for potato salad or homestyle French fries</li><li>Explore all the delicious ways to serve these satisfying potatoes</li></ul>",
+            "short": "<ul><li>Ideal addition to every pantry</li><li>Make crispy hash browns or add to an omelet</li><li>Serve garlic mashed potatoes or a loaded baked potato</li></ul>"
+        },
+        "price": 0.78,
+        "reviews": {
+            "customerRating": 3.7,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Russet Potatoes",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44391004",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Vegetables",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Vegetables",
+                    "url": "/cp/1001435"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Sweet Potatoes, each",
+        "img": "https://i5.walmartimages.com/asr/4feb8920-d061-49d8-bef0-8df5f6581d32_1.5fe2c6c2ea9392abc727fbde423f529c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Sweet Potatoes, each:</b><ul><li>Wholesome & delicious</li><li>Ideal ingredient for a variety of dishes</li><li>Make seasoned sweet potato fries or a flavorful hummus dip</li><li>Use them for a sweet potato casserole or sweet potato & brown sugar ice cream</li><li>Versatile & hearty</li></ul>",
+            "short": "<ul><li>Wholesome & delicious</li><li>Ideal ingredient for a variety of dishes</li><li>Make seasoned sweet potato fries or a flavorful hummus dip</li></ul>"
+        },
+        "price": 1.18,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 12
+        },
+        "size": {
+            "karfGroceryType": "Yams & Sweet Potatoes",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44390964",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Vegetables",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Vegetables",
+                    "url": "/cp/1001435"
+                }
+            ]
+        }
+    }
+]

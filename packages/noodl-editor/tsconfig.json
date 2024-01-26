@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "es2020",
+    "paths": {
+      "@noodl-core-ui/*": ["../noodl-core-ui/src/*"],
+      "@noodl-hooks/*": ["./src/editor/src/hooks/*"],
+      "@noodl-utils/*": ["./src/editor/src/utils/*"],
+      "@noodl-models/*": ["./src/editor/src/models/*"],
+      "@noodl-constants/*": ["./src/editor/src/constants/*"],
+      "@noodl-contexts/*": ["./src/editor/src/contexts/*"],
+      "@noodl-types/*": ["./src/editor/src/types/*"],
+      "@noodl-store/*": ["./src/editor/src/store/*"]
+    }
+  },
+  "include": ["src/editor", "src/shared", "src/main", "@include-types"],
+  "exclude": ["dist", "src/external", "build", "build-tmp", "webpackconfigs", "**/*.stories.tsx"]
+}

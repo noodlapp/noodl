@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Spalding NBA 60\" Glass Arena View H Series In-Ground Hoop System",
+        "img": "https://i5.walmartimages.com/asr/5aae331b-8552-4950-a355-b6275d118588_1.0efd7f2f9abcceb9a888421d27afa87e.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Spalding NBA 60\" Glass Arena View H Series In-Ground Adjustable Basketball Hoop System</li> <li>Backboard size: 60\" x 38\"</li> <li>Tempered glass board; 3' offset</li> <li>Steel board frame with aluminum trim</li> <li>Positive Lock breakaway rim</li> <li>7' to 10' height adjustment; U-Turn Pro lift; Detachable handle</li> <li>6\" square steel pole with heavy-duty padding</li> <li>Adjustable Basketball Hoop system designed for outdoor residential play</li> </ul>",
+            "short": "<ul><li>Board size: 60\" x 38\"</li><li>Tempered glass board; 3' offset</li><li>Adjustable Basketball Hoop system, adjusts from 7' to 10' feet in height; U-Turn Pro lift; Detachable handle</li></ul>",
+            "medium": "The Spalding 86604HGP Arena View 60\" Glass In-Ground Basketball System can be installed in your backyard or on your driveway for hours of basketball fun. This system will have young and old alike living a more active lifestyle. This unique Spalding basketball system has a 60\" glass backboard that is reinforced with a solid steel H-frame for added strength. This makes it appropriate for even very tall adults. The height of the rim is easily adjustable with the U-turn height adjustment crank, allowing you to customize the basketball backboard system for young or old players. You can adjust the height anywhere from 7' to 10'. This height-adjustment basketball device comes with a 6\" square pole and a pole pad that helps to protect players for added safety. Have fun for years to come and get your daily exercise with this basketball backboard system."
+        },
+        "price": 1599,
+        "reviews": {
+            "customerRating": 3.7,
+            "numReviews": 3
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1588273200000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "FREIGHT"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_freight_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "9919143",
+        "category": {
+            "categoryPath": "Home Page/Sports & Outdoors/Sports/Basketball/Basketball Nets",
+            "path": [
+                {
+                    "name": "Sports & Outdoors",
+                    "url": "/cp/4125"
+                },
+                {
+                    "name": "Sports",
+                    "url": "/cp/4161"
+                },
+                {
+                    "name": "Basketball",
+                    "url": "/cp/4165"
+                },
+                {
+                    "name": "Basketball Nets",
+                    "url": "/cp/1075705"
+                }
+            ]
+        }
+    }
+]

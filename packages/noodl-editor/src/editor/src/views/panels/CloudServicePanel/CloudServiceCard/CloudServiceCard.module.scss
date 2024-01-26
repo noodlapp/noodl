@@ -1,0 +1,127 @@
+@use '@scss-variables/animation';
+
+.Root {
+  position: relative;
+  transition: background-color var(--speed-turbo) var(--easing-base);
+  border: 1px solid transparent;
+  border-bottom: 1px solid var(--theme-color-bg-1);
+
+  &:hover:not(.is-open) {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.is-alerting {
+    animation: border-alert 3000ms animation.$easing-base both;
+  }
+
+  &:not(.is-editor-environment) {
+    order: 1;
+  }
+  &.is-editor-environment {
+    order: 0;
+  }
+}
+
+.Inner {
+  padding: 8px 16px 14px;
+
+  &:not(.is-always-open) {
+    cursor: pointer;
+  }
+}
+
+@keyframes border-alert {
+  15%,
+  45%,
+  75% {
+    border-top: 1px solid var(--theme-color-notice);
+    border-bottom: 1px solid var(--theme-color-notice);
+    border-right: 1px solid var(--theme-color-notice);
+    border-left: 1px solid var(--theme-color-notice);
+  }
+
+  0%,
+  30%,
+  60%,
+  90%,
+  100% {
+    border-top: 1px solid var(--theme-color-bg-2);
+    border-bottom: 1px solid var(--theme-color-bg-1);
+    border-right: 1px solid var(--theme-color-bg-2);
+    border-left: 1px solid var(--theme-color-bg-2);
+  }
+}
+
+.MetaBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.ToggleContainer {
+  transform: translateX(8px);
+}
+
+.TypeDisplay {
+  color: var(--theme-color-fg-muted);
+  font-weight: var(--font-weight-semibold);
+  font-size: 10px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
+  path {
+    fill: var(--theme-color-fg-muted);
+  }
+}
+
+.ActiveIndicator {
+  display: inline-block;
+  margin-left: 5px;
+  color: var(--theme-color-notice);
+  text-transform: none;
+}
+
+.ArchivedDisplay,
+.UsedInEditorDisplay {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.ArchivedDisplay {
+  color: var(--theme-color-danger);
+}
+
+.UsedInEditorDisplay {
+  color: var(--theme-color-success);
+}
+
+.CloudIcon {
+  margin-right: 8px;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+}
+
+.Drawer {
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+
+  &.has-no-top-padding {
+    padding-top: 0;
+  }
+}
+
+.AdjacentInputs {
+  margin-left: -16px;
+  display: flex;
+
+  & > * {
+    margin-left: 16px;
+    width: 50%;
+  }
+}

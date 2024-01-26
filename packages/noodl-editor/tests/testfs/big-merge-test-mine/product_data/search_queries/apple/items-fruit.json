@@ -1,0 +1,657 @@
+[
+    {
+        "title": "Gala Apples, each",
+        "img": "https://i5.walmartimages.com/asr/f46d4fa7-6108-4450-a610-cc95a1ca28c5_3.38c2c5b2f003a0aafa618f3b4dc3cbbd.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Gala Apples, each:</b><ul><li>Sweet & mild with a subtle floral aroma</li><li>Creamy white flesh with low acidity</li><li>Excellent snacking apple</li><li>Low in calories</li><li>Make a creamy smoothie or a nutritious juice blend</li><li>Serve with your pancake breakfast</li><li>Adds flavor to a variety of recipes</li><li>Make apple butter or applesauce</li><li>Make sweet desserts like apple cobbler, apple crisp & apple pie</li></ul>",
+            "short": "<ul><li>Sweet & mild with a subtle floral aroma</li><li>Creamy white flesh with low acidity</li><li>Excellent snacking apple</li></ul>"
+        },
+        "price": 0.97,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 12
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44390953",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Gala Apples, 3 lb Bag",
+        "img": "https://i5.walmartimages.com/asr/e97d7a3f-ed34-4801-aafd-a7008550d36b_2.876fc609cfa3a382b2c033a63d49c14b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Gala Apples, 3 lb bag:</b><ul><li>Sweet and mild with a subtle floral aroma</li><li>Perfect for breakfast, lunch, dinner, and dessert</li><li>Chop them up and add to a salad, add them to a smoothie or juice blend, or serve with peanut butter</li><li>Perfect for snacking</li><li>They have a creamy white flesh with low acidity</li></ul>",
+            "short": "<ul><li>Sweet and mild with a subtle floral aroma</li><li>Perfect for breakfast, lunch, dinner, and dessert</li><li>Chop them up and add to a salad, add them to a smoothie or juice blend, or serve with peanut butter</li></ul>"
+        },
+        "price": 3.94,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 20
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44390958",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Honeycrisp Apples, each",
+        "img": "https://i5.walmartimages.com/asr/fdffb720-8b75-43df-bffe-4ffc4e9369d8_3.d4460fa9146eb9716b5804d61d4b26b9.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Honeycrisp Apples, Each:</b><ul><li>Crisp and aromatic with a pleasant sweet but tart flavor</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, dice and top with oats, spices, and butter for an apple crisp, or serve with a dollop of peanut butter</li><li>Great for caramel apples</li></ul>",
+            "short": "<ul><li>Crisp and aromatic with a pleasant sweet but tart flavor</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, dice and top with oats, spices, and butter for an apple crisp, or serve with a dollop of peanut butter</li></ul>"
+        },
+        "price": 2.22,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44390950",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Honeycrisp Apples, 3 lb bag",
+        "img": "https://i5.walmartimages.com/asr/723b6688-38d2-4113-a788-894cc1905d82_2.6e8c32faa8bbb7fb35697f4508a7205c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Apples, Honey Crisp</li><li>More than just delicious. US Extra Fancy 2-1/2 inch min. Great Lakes, great flavors. Apples have been coated with a food grade vegetable or food grade LAC-resin wax. Produce of USA.</li></ul>",
+            "short": "<ul><li> Shock-Absorbing & Weather Resistant</li><li> Fit tablet with Slim Cases</li><li> Protect from Dirt, Dust, Scratches and Bumps </li></ul>"
+        },
+        "price": 5.66,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 8
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "151762086",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Fuji Apples, 3 lb Bag",
+        "img": "https://i5.walmartimages.com/asr/aa8fba7c-7f08-499a-91e9-2a6ec3f59519_3.e5415b1154aad1108196fe24fab9798a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Fuji Apples, 3 lb Bag:</b><ul><li>Sweet, crisp & juicy</li><li>Fan favorite</li><li>Excellent snacking apple</li><li>Make a creamy smoothie or a nutritious juice blend</li><li>Serve with your pancake breakfast</li><li>Adds flavor to a variety of recipes</li><li>Make apple butter or applesauce</li><li>Make sweet desserts like apple cobbler, apple crisp & apple pie</li></ul>",
+            "short": "<ul><li>Sweet, crisp & juicy</li><li>Fan favorite</li><li>Excellent snacking apple</li></ul>"
+        },
+        "price": 2.74,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44391639",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Fuji Apples, each",
+        "img": "https://i5.walmartimages.com/asr/3ec17a04-0333-424f-8076-e2414e013cbd_1.b3e1ec5d2514a86e0492ce1d5d6bb353.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Fuji Apples, each:</b><ul><li>Crunchy, crisp & sweet flavor</li><li>Low in calories</li><li>Enjoy on their own or in a variety of recipes</li><li>Make a creamy yogurt parfait</li><li>Serve with your pancake breakfast</li><li>Adds flavor to a variety of recipes</li><li>Make apple butter or applesauce</li><li>Make sweet desserts like apple cobbler, apple crisp & apple pie</li></ul>",
+            "short": "<ul><li>Crunchy, crisp & sweet flavor</li><li>Low in calories</li><li>Enjoy on their own or in a variety of recipes</li></ul>"
+        },
+        "price": 0.92,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 8
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "43923182",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Ambrosia Apples, each",
+        "img": "https://i5.walmartimages.com/asr/6ba3d69b-4c3e-4d74-b875-e565b7bab40f_2.4077a6a330f2ce5a08708847a6e011c0.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Jazz Apples, each:</b><ul><li>Crisp with dense flesh and a fruity-sweet tartness</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, slice and plate them up on the side of your breakfast, or serve with a dollop of peanut butter</li><li>Add them to a cheese board for a sweet and salty combination</li></ul>",
+            "short": "<ul><li>Crisp with dense flesh and a fruity-sweet tartness</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, slice and plate them up on the side of your breakfast, or serve with a dollop of peanut butter</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 1.97,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44391093",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Pink Lady Apples, 3lb Bag",
+        "img": "https://i5.walmartimages.com/asr/a5042818-ede7-4483-88a5-414a6e4533b0_3.ffe852d4af61d554f41ba01b0d81e6e3.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Pink Lady Apples, 3lb Bag:</b><ul><li>Includes 3 pounds of tart, crisp apples</li><li>Tart taste with a sweet finish</li><li>Pair them with sharp cheeses and crackers for a stunning appetizer board</li><li>Can be enjoyed fresh or cooked into both savory and sweet dishes</li></ul>",
+            "short": "<ul><li>Includes 3 pounds of tart, crisp apples</li><li>Tart taste with a sweet finish</li><li>Pair them with sharp cheeses and crackers for a stunning appetizer board</li></ul>"
+        },
+        "price": 4.47,
+        "reviews": {
+            "customerRating": 3.3,
+            "numReviews": 3
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "51259209",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Pink Lady Apple, each",
+        "img": "https://i5.walmartimages.com/asr/cdd76f9f-6369-4c64-89f5-2c967893b8b3_1.7041557f94d0c4e5149ab83fa91f7d90.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Pink Lady Apples, Each:</b><ul><li>Crisp and aromatic with a pleasant sweet but tart flavor</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, dice and top with oats, spices, and butter for an apple crisp, or serve with a dollop of peanut butter</li><li>Versatile ingredient great for a variety of dishes</li></ul>",
+            "short": "<ul><li>Crunchy texture with a pleasant sweet but tart flavor</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, dice and top with oats, spices, and butter for an apple crisp, or serve with a dollop of peanut butter</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 1.77,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 4
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44390980",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Organic Gala Apples, 3 lb bag",
+        "img": "https://i5.walmartimages.com/asr/06d02b73-3330-44f5-b975-ebc69c31a2fc_3.7bab3881e471006cc9d0c111b579cd1d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Organic Gala Apples, 3 lb bag:</b><ul><li>Sweet and mild with a subtle floral aroma</li><li>Perfect for breakfast, lunch, dinner, and dessert</li><li>Chop them up and add to a salad, add them to a smoothie or juice blend, or serve with peanut butter</li><li>Perfect for snacking</li><li>They have a creamy white flesh with low acidity</li></ul>",
+            "short": "<ul><li>Sweet and mild with a subtle floral aroma</li><li>Perfect for breakfast, lunch, dinner, and dessert</li><li>Chop them up and add to a salad, add them to a smoothie or juice blend, or serve with peanut butter</li></ul>"
+        },
+        "price": 3.34,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 3
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "3"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "46491702",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Jazz Apples, 3 lb Bag",
+        "img": "https://i5.walmartimages.com/asr/b8167932-fd33-42e6-9023-0fa59aa7ec52_3.dbb0a83524d3d3e3de0e026c354fc80f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Jazz Apples, 3 lb Bag:</b><ul><li>Sweet, crisp & juicy</li><li>Mild lemon-citrus undertones</li><li>Excellent snacking apple</li><li>Make a creamy smoothie or a nutritious juice blend</li><li>Serve with your pancake breakfast</li><li>Adds flavor to a variety of recipes</li><li>Make apple butter or applesauce</li><li>Make sweet desserts like apple cobbler, apple crisp & apple pie</li></ul>",
+            "short": "<ul><li>Sweet, crisp & juicy</li><li>Mild lemon-citrus undertones</li><li>Excellent snacking apple</li></ul>"
+        },
+        "price": 4.47,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 3
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "366779633",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Red Delicious Apples, 5 lb Bag",
+        "img": "https://i5.walmartimages.com/asr/da655f92-7aee-462c-bd7c-542266e8f40c_6.044446c4c25d760a1518740a29684053.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Red Delicious Apples, 5 lb Bag:</b><ul><li>Sweet, crisp & juicy</li><li>Creamy white flesh with low acidity</li><li>Excellent snacking apple</li><li>Higher antioxidants due to the rich, deep red skin</li><li>Make a creamy smoothie or a nutritious juice blend</li><li>Serve with your pancake breakfast</li><li>Adds flavor to a variety of recipes</li><li>Make apple butter or applesauce</li><li>Make sweet desserts like apple cobbler, apple crisp & apple pie</li></ul>",
+            "short": "<ul><li>Sweet, crisp & juicy</li><li>Creamy white flesh with low acidity</li><li>Excellent snacking apple</li></ul>"
+        },
+        "price": 5.47,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 9
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "5.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "363800188",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Organic Honeycrisp Apples, 2 lb bag",
+        "img": "https://i5.walmartimages.com/asr/836de28a-d05d-4522-9c6a-b3382636f47c_2.acac6a8c3a6bd54ba0be931bf39ad6a2.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Organic Honeycrisp Apples, 2 lb Bag:</b><ul><li>Crisp and aromatic with a pleasant sweet but tart flavor</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, dice and top with oats, spices, and butter for an apple crisp, or serve with a dollop of peanut butter</li><li>Great for caramel apples</li></ul>",
+            "short": "<ul><li>Crisp and aromatic with a pleasant sweet but tart flavor</li><li>Great morning, noon, or night</li><li>Chop them up and add to a salad, dice and top with oats, spices, and butter for an apple crisp, or serve with a dollop of peanut butter</li></ul>"
+        },
+        "price": 4.96,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 8
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "2.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "269332623",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    }
+]

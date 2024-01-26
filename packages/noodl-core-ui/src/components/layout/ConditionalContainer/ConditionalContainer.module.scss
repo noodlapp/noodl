@@ -1,0 +1,22 @@
+.Loader {
+  color: var(--theme-color-fg-muted);
+  box-sizing: border-box;
+
+  &.is-loader-type-block {
+    width: 100%;
+    padding: 16px;
+  }
+
+  &.is-loader-type-inline {
+    display: inline-block;
+  }
+
+  .LoaderInner {
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}

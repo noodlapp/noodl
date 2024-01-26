@@ -1,0 +1,67 @@
+:global(.help-center-layer) {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.Root {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  background-color: var(--theme-color-bg-4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px var(--theme-color-bg-1-transparent);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.SearchHit {
+  padding: 16px;
+  background-color: var(--theme-color-bg-2);
+  margin-bottom: 16px;
+}
+
+.HitTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.MessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40vh;
+  background-color: var(--theme-color-bg-2);
+  margin-top: 32px;
+}
+
+.Buttons {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+:global(.ais-InfiniteHits-list),
+:global(.ais-Hits-list) {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+
+  > :first-child {
+    padding-top: 16px;
+  }
+}
+
+:global(.ais-Highlight-highlighted) {
+  background: transparent;
+  color: var(--theme-color-primary);
+}

@@ -1,0 +1,191 @@
+/* BASE COLORS. DO NOT USE. USE THE THEME COLORS INSTEAD. */
+
+:root {
+  /* Success */
+  --base-color-success-100: #e8f9ee;
+  --base-color-success-200: #9ce4b9;
+  --base-color-success-300: #62cb91;
+  --base-color-success-400: #41ac74;
+  --base-color-success-500: #1b8f59;
+  --base-color-success-600: #007442;
+  --base-color-success-700: #005c2c;
+  --base-color-success-800: #004619;
+  --base-color-success-900: #003001;
+  --base-color-success-1000: #001900;
+
+  /* Error */
+  --base-color-error-100: #fff2f0;
+  --base-color-error-200: #fcc8c0;
+  --base-color-error-300: #f4a196;
+  --base-color-error-400: #e8786b;
+  --base-color-error-500: #cc594f;
+  --base-color-error-600: #af3f38;
+  --base-color-error-700: #942725;
+  --base-color-error-800: #7c0a13;
+  --base-color-error-900: #590000;
+  --base-color-error-1000: #000000;
+
+  /* Node-Pink */
+  --base-color-node-pink-100: #f9f4f6;
+  --base-color-node-pink-200: #e4cfd9;
+  --base-color-node-pink-300: #d0adbe;
+  --base-color-node-pink-400: #bb8ba3;
+  --base-color-node-pink-500: #a66b8b;
+  --base-color-node-pink-600: #944e74;
+  --base-color-node-pink-700: #7e3660;
+  --base-color-node-pink-800: #67214b;
+  --base-color-node-pink-900: #500837;
+  --base-color-node-pink-1000: #30001b;
+
+  /* Node-Purple */
+  --base-color-node-purple-100: #f8f5f9;
+  --base-color-node-purple-200: #dbd0e4;
+  --base-color-node-purple-300: #c2b0d1;
+  --base-color-node-purple-400: #a98fbe;
+  --base-color-node-purple-500: #8f71ab;
+  --base-color-node-purple-600: #79559b;
+  --base-color-node-purple-700: #643d8b;
+  --base-color-node-purple-800: #4e2877;
+  --base-color-node-purple-900: #371360;
+  --base-color-node-purple-1000: #1d0047;
+
+  /* Node-Green */
+  --base-color-node-green-100: #f6f6f3;
+  --base-color-node-green-200: #d2d6c5;
+  --base-color-node-green-300: #b3ba9e;
+  --base-color-node-green-400: #939e77;
+  --base-color-node-green-500: #758353;
+  --base-color-node-green-600: #5b6a37;
+  --base-color-node-green-700: #465524;
+  --base-color-node-green-800: #314110;
+  --base-color-node-green-900: #1f2c00;
+  --base-color-node-green-1000: #0c1700;
+
+  /* Node-Gray */
+  --base-color-node-grey-100: #f5f5f5;
+  --base-color-node-grey-200: #d3d4d6;
+  --base-color-node-grey-300: #b6b7bb;
+  --base-color-node-grey-400: #97999f;
+  --base-color-node-grey-500: #7b7d85;
+  --base-color-node-grey-600: #62656e;
+  --base-color-node-grey-700: #4c4f59;
+  --base-color-node-grey-800: #373b45;
+  --base-color-node-grey-900: #252832;
+  --base-color-node-grey-1000: #11141d;
+
+  /* Node-Blue */
+  --base-color-node-blue-100: #f5f6f8;
+  --base-color-node-blue-200: #cfd5de;
+  --base-color-node-blue-300: #adb8c6;
+  --base-color-node-blue-400: #8b9bae;
+  --base-color-node-blue-500: #6b7f98;
+  --base-color-node-blue-600: #4d6784;
+  --base-color-node-blue-700: #315272;
+  --base-color-node-blue-800: #173e5d;
+  --base-color-node-blue-900: #002a47;
+  --base-color-node-blue-1000: #00142f;
+
+  /* Secondary */
+  --base-color-teal-100: #f0f7f9;
+  --base-color-teal-200: #b6dbe3;
+  --base-color-teal-300: #7ec2cf;
+  --base-color-teal-400: #2ba7ba;
+  --base-color-teal-500: #008a9d;
+  --base-color-teal-600: #006f82;
+  --base-color-teal-700: #005769;
+  --base-color-teal-800: #004153;
+  --base-color-teal-900: #002c3d;
+  --base-color-teal-1000: #001623;
+
+  /* Primary */
+  --base-color-yellow-100: #fff4e2;
+  --base-color-yellow-200: #fccd75;
+  --base-color-yellow-300: #e5ae32;
+  --base-color-yellow-400: #c39108;
+  --base-color-yellow-500: #a37500;
+  --base-color-yellow-600: #875d00;
+  --base-color-yellow-700: #6d4800;
+  --base-color-yellow-800: #583400;
+  --base-color-yellow-900: #431e00;
+  --base-color-yellow-1000: #330000;
+
+  /* UI Greys */
+  --base-color-grey-100: #f5f5f5;
+  --base-color-grey-100-transparent: #f5f5f522;
+  --base-color-grey-200: #d4d4d4;
+  --base-color-grey-300: #b8b8b8;
+  --base-color-grey-400: #9a9999;
+  --base-color-grey-500: #7e7d7d;
+  --base-color-grey-600: #666565;
+  --base-color-grey-700: #504f4f;
+  --base-color-grey-800: #3c3c3c;
+  --base-color-grey-900: #292828;
+  --base-color-grey-1000: #151414;
+  --base-color-grey-1000-transparent: #151414b3;
+  --base-color-grey-1000-transparent-2: #00000069;
+}
+
+/* THEME COLOR TOKENS. USE THESE. */
+
+:root {
+  --theme-color-bg-0: #000000;
+  --theme-color-bg-1: var(--base-color-grey-1000);
+  --theme-color-bg-1-transparent: var(--base-color-grey-1000-transparent);
+  --theme-color-bg-1-transparent-2: var(--base-color-grey-1000-transparent-2);
+  --theme-color-bg-2: var(--base-color-grey-900);
+  --theme-color-bg-3: var(--base-color-grey-800);
+  --theme-color-bg-4: var(--base-color-grey-700);
+
+  --theme-color-fg-highlight: var(--base-color-grey-100);
+  --theme-color-fg-default-contrast: var(--base-color-grey-200);
+  --theme-color-fg-default: var(--base-color-grey-300);
+  --theme-color-fg-default-shy: var(--base-color-grey-400);
+  --theme-color-fg-muted: var(--base-color-grey-500);
+  --theme-color-fg-transparent: var(--base-color-grey-100-transparent);
+
+  --theme-color-primary: var(--base-color-yellow-300);
+  --theme-color-primary-highlight: var(--base-color-yellow-200);
+  --theme-color-primary-dim: var(--base-color-yellow-500);
+  --theme-color-on-primary: var(--base-color-grey-1000);
+
+  --theme-color-secondary: var(--base-color-teal-700);
+  --theme-color-secondary-dim: var(--base-color-teal-800);
+  --theme-color-secondary-highlight: var(--base-color-teal-600);
+  --theme-color-secondary-bright: var(--base-color-teal-500);
+  --theme-color-secondary-as-fg: var(--base-color-teal-300);
+  --theme-color-on-secondary: var(--base-color-teal-100);
+
+  --theme-color-node-data-1: var(--base-color-node-green-800);
+  --theme-color-node-data-2: var(--base-color-node-green-700);
+  --theme-color-node-data-3: var(--base-color-node-green-600);
+  --theme-color-node-data-dim: var(--base-color-node-green-1000);
+
+  --theme-color-node-visual-1: var(--base-color-node-blue-800);
+  --theme-color-node-visual-2: var(--base-color-node-blue-700);
+  --theme-color-node-visual-2-highlight: var(--base-color-node-blue-600);
+  --theme-color-node-visual-highlight: var(--base-color-node-blue-100);
+  --theme-color-node-visual-default: var(--base-color-node-blue-200);
+  --theme-color-node-visual-shy: var(--base-color-node-blue-300);
+  --theme-color-node-visual-dim: var(--base-color-node-blue-1000);
+
+  --theme-color-node-custom-1: var(--base-color-node-pink-800);
+  --theme-color-node-custom-2: var(--base-color-node-pink-700);
+  --theme-color-node-custom-dim: var(--base-color-node-pink-1000);
+
+  --theme-color-node-logic-1: var(--base-color-node-grey-800);
+  --theme-color-node-logic-2: var(--base-color-node-grey-700);
+  --theme-color-node-logic-dim: var(--base-color-node-grey-1000);
+
+  --theme-color-node-component-1: var(--base-color-node-purple-800);
+  --theme-color-node-component-2: var(--base-color-node-purple-700);
+  --theme-color-node-component-dim: var(--base-color-node-purple-1000);
+
+  /* TODO: Ask for dim and highlight colors for statuses */
+  --theme-color-success: #5bf59e;
+  --theme-color-notice: var(--base-color-yellow-300);
+  --theme-color-danger: #f57569;
+  --theme-color-danger-light: #f89387;
+
+  --theme-color-signal: var(--base-color-yellow-300);
+  --theme-color-data: var(--base-color-teal-600);
+}

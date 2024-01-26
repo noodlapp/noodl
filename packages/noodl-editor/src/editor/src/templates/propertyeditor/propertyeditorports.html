@@ -1,0 +1,428 @@
+<div>
+  <!-- Group template -->
+  <div class="property-group" data-template="group">
+    <div style="display: inline-flex;" data-click="onGroupClicked">
+      <div class="property-group-label" style="height:30px; position:relative; flex-shrink: 1;">
+        <label style="margin-left:10px; line-height:30px;" data-text="name"></label>
+      </div>
+      <!-- <div style="flex-grow: 1; display: flex; align-items: center; margin-right: 10px;">
+        <i class="fa fa-caret-down" data-class="isExpanded:fa-caret-down,!isExpanded:fa-caret-right" style="color: #7A7A7A"></i>
+      </div> -->
+    </div>
+
+    <div class="properties" data-class="!isExpanded:hidden" style="padding-bottom: 10px;">
+    </div>
+  </div>
+
+  <!-- Tab (for tab groups) template -->
+  <div class="property-tab" data-template="tab-group-tab" data-click="onTabClicked">
+    <div class="property-tab-icon"></div>
+  </div>
+
+  <!-- Tab Group template -->
+  <div class="property-tab-group" data-template="tab-group">
+    <div style="display: flex; flex-direction: row; justify-content: flex-end; align-items: center; margin-bottom:4px; margin-right:6px;" class="tabs">
+
+    </div>
+
+    <div class="properties">
+    </div>
+  </div>
+
+  <!-- Popout Group template -->
+  <div class="property-popout-group" data-template="popout-group" style="height:35px; position:relative;">
+    <label class="property-label" data-text="label"></label>
+
+    <div class="property-value">
+      <button type="button" data-identifier="" style="width:100%; height:100%;" class="property-codeeditor-button" data-click="onPopoutClicked">Edit</button>
+    </div>
+  </div>
+
+  <!-- Variable type  -->
+  <div data-template="variable-type" style="height:35px; position:relative;">
+    <div class="property-view" style="position:absolute; width:100%; height:100%">
+    </div>
+
+    <div class="sidebar-panel-dark-input property-number-units" style="position:absolute; left:25px; width:33px; top:1px; bottom:1px;padding:0" data-click="onTypeDropDownClicked" tabindex="1">
+      <span data-class="isFocused:property-input-focused,isDefault:property-input-default" style="line-height:35px;" data-text="propertyType"></span>
+      <div style="position:absolute; top:35px; left:0px; width:100%; display:none;" class="property-input-dropdown" style="display:none;">
+      </div>
+    </div>
+  </div>
+
+  <!-- Basic type property template -->
+  <div data-template="number" style="height:35px; position:relative;" >
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value" >
+      <input type="string" data-identifier="" class="sidebar-panel-dark-input" style="position:absolute; width:100%; height:100%" data-class="isConnected:property-input-connected,isFocused:property-input-focused,isDefault:property-input-default" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Number with units type property template -->
+  <div data-template="number-units" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+
+    <!-- input -->
+    <div class="property-value" style="right:45px;">
+      <input type="string" class="sidebar-panel-dark-input" style="position:absolute; width:100%; height:100%" data-class="isConnected:property-input-connected,isFocused:property-input-focused,isDefault:property-input-default" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <!-- units -->
+    <div class="sidebar-panel-dark-input property-number-units" style="position:absolute; right:10px; width:33px; top:1px; bottom:1px;padding:0" data-click="onDropDownClicked" tabindex="1">
+      <span data-class="isFocused:property-input-focused,isDefault:property-input-default" style="line-height:35px;" data-text="unit"></span>
+      <div style="position:absolute; top:35px; left:0px; width:100%; display:none;" class="property-input-dropdown" style="display:none;">
+      </div>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Dimension template -->
+  <div data-template="dimension" style="height:35px; position:relative; display: flex; padding-right: 10px; padding-top: 1px; padding-bottom: 1px;">
+    <div style="display: flex; flex: 10000 0 80px; max-width: 150px; margin-right: 10px;">
+      <label class="property-label" style="width:auto;position:relative;flex-grow:1;padding: 0;" data-text="displayName" data-tooltip="path:tooltip.dimension"></label>
+    </div>
+
+
+    <!-- input -->
+    <div class="property-value" style="position:relative; left: unset; right: unset; top: unset; bottom: unset; flex: 1; min-width: 45px;">
+      <input type="string" class="sidebar-panel-dark-input" style="width:100%; height:100%" data-class="isConnected:property-input-connected,isFocused:property-input-focused,isDefault:property-input-default" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <!-- units -->
+    <div class="sidebar-panel-dark-input property-number-units" style="position: relative; width: 33px; margin-left: 1px; padding:0; flex-shrink: 0;" data-click="onDropDownClicked" tabindex="1">
+      <span data-class="isFocused:property-input-focused,isDefault:property-input-default" style="line-height:35px;" data-text="unit"></span>
+      <div style="position:absolute; top:35px; left:0px; width:100%; display:none;" class="property-input-dropdown" style="display:none;">
+      </div>
+    </div>
+
+    <!-- fixed  -->
+    <div style="display: flex; flex: 0 0 auto" data-class="!isPercent:property-dimension-fixed-disabled">
+      <label class="property-label" style="position: relative; width: auto; margin-left: 10px" data-tooltip="path:tooltip.fixed">Fixed</label>
+      <div class="sidebar-panel-dark-input property-value" style="width:33px; position: relative; left: unset; right: unset; top: unset; bottom: unset;" data-click="onBoxClicked">
+        <i class="fa fa-check" data-class="!isFixed:hidden" style="position:absolute; left:10px; top:10px"></i>
+      </div>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- String property template -->
+  <div data-template="string" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value" >
+      <input type="string" data-identifier="" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Sizemode property -->
+  <div data-template="sizemode" style="height:50px; position:relative; display: flex; justify-content: center;">
+    <div style="display:flex; position: relative; top: 2px;">
+      <!-- Explicit sizing -->
+      <div class="size-icon" data-tooltip="path:tooltip.explicit" data-value="explicit" >
+          <div class="resizing-border" style="width:30px; height:30px; position:relative;">
+              <div class="resizing-top resizing-bottom resizing-vline" style="position:absolute; top:2px; left: 10px; width: 10px; height: 22px;"></div>
+              <div class="resizing-left resizing-right resizing-hline" style="position:absolute; top:10px; left:2px; width:22px; height:10px;"></div>
+          </div>
+      </div>
+
+      <!-- Explicit width -->
+      <div class="size-icon" data-tooltip="path:tooltip.contentHeight" data-value="contentHeight">
+        <div class="resizing-border" style="width:30px; height:30px; position:relative;">
+            <div class="resizing-left resizing-right resizing-hline" style="position:absolute; top:10px; left:2px; width:22px; height:10px;"></div>
+        </div>
+    </div>
+
+      <!-- Explicit height -->
+      <div class="size-icon" data-tooltip="path:tooltip.contentWidth" data-value="contentWidth">
+        <div class="resizing-border" style="width:30px; height:30px; position:relative;">
+          <div class="resizing-top resizing-bottom resizing-vline" style="position:absolute; top:2px; left: 10px; width: 10px; height: 22px;"></div>
+        </div>
+    </div>
+
+      <!-- Content size -->
+      <div class="size-icon" data-tooltip="path:tooltip.contentSize" data-value="contentSize">
+        <div class="resizing-border" style="width:30px; height:30px; position:relative;">
+        </div>
+    </div>
+  </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot" style="top: 12px;"></span>
+  </div>
+
+  <!-- Enum property -->
+  <div data-template="enum" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+
+    <div class="sidebar-panel-dark-input property-value" data-click="onDropDownClicked">
+      <div style="position:absolute; left:0px; right:0px; top:0px; bottom:0px">
+        <input type="string" style="position:absolute; width:100%; height:100%;" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" readonly></input>
+      </div>
+
+      <i class="property-input-dropdown-arrow fa fa-caret-down" style="position:absolute; right:10px; top:10px"></i>
+
+      <div style="position:absolute; top:35px; left:0px; width:100%; display:none;" class="property-input-dropdown" style="display:none;">
+      </div>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Boolean property template -->
+  <div data-template="boolean" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+
+    <div class="sidebar-panel-dark-input property-value" style="width:33px;" data-class="isConnected:property-input-connected" data-click="onBoxClicked">
+      <i class="fa fa-check" data-class="!value:hidden,isDefault:property-input-default" style="position:absolute; left:10px; top:10px"></i>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Image property template -->
+  <div data-template="image" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value">
+      <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Icon property template -->
+  <div data-template="icon" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+
+      <div class="property-value" style="right:45px;">
+        <div class="sidebar-panel-dark-input" style="position: relative; height: 32px; width: 33px; top: 1px; bottom: 1px; padding:0;  display: flex; align-items: center; justify-content: center;" data-click="onLaunchClicked">
+          <span id="iconThumbnail" style="color: white; font-size: 20px; display: inline-block;"></span>
+        </div>
+      </div>
+
+      <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Font property template -->
+  <div data-template="font" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value">
+      <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+   <!-- Text style property template -->
+   <div data-template="textStyle" style="height:35px; position:relative; margin-bottom: 10px;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value">
+      <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Component property template -->
+  <div data-template="component" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value">
+      <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Identifier property template -->
+  <div data-template="identifier" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value">
+      <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Source property template -->
+  <div data-template="source" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+    <div class="property-value">
+      <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isDefault:property-input-default,isConnected:property-input-connected" data-val="value" data-change="onPropertyChanged"></input>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- Vec 2 property template -->
+  <div data-template="vec2" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName"></label>
+
+    <div class="property-value" style="right:0;top:0;height:35px">
+      <!-- First component -->
+      <div style="position:absolute; width:50%; height:100%; left:0">
+        <label style="position:absolute; left:0px; width:10px;" class="property-label" data-text="comps.0.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:5px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.0.isConnected:property-input-connected,comps.0.isDefault:property-input-default" data-veccomp="0" data-val="comps.0.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+
+      <!-- Second component -->
+      <div style="position:absolute; width:50%; height:100%; left:50%">
+        <label style="position:absolute; left:0px; width:10px;" class="property-label" data-text="comps.1.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:10px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.1.isConnected:property-input-connected,comps.1.isDefault:property-input-default" data-veccomp="1" data-val="comps.1.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Vec 3 property template -->
+  <div data-template="vec3" style="height:70px; position:relative;">
+    <label class="property-label" data-text="displayName"></label>
+
+    <div class="property-value" style="right:0;top:0;height:35px">
+      <!-- First component -->
+      <div style="position:absolute; width:50%; height:100%; left:0px">
+        <label style="position:absolute; left:0px; width:10px;" class="property-label" data-text="comps.0.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:5px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.0.isConnected:property-input-connected,comps.0.isDefault:property-input-default" data-veccomp="0" data-val="comps.0.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+
+      <!-- Second component -->
+      <div style="position:absolute; width:50%; height:100%; left:50%">
+        <label style="position:absolute; left:0px; width:10px;" class="property-label" data-text="comps.1.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:10px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.1.isConnected:property-input-connected,comps.1.isDefault:property-input-default" data-veccomp="1" data-val="comps.1.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+    </div>
+
+    <div class="property-value" style="right:0;bottom:0;top:35px">
+      <!-- Third component -->
+      <div style="position:absolute; width:50%; height:100%; left:0px">
+        <label style="position:absolute; left:0; width:10px;" class="property-label" data-text="comps.2.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:5px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.2.isConnected:property-input-connected,comps.2.isDefault:property-input-default" data-veccomp="2" data-val="comps.2.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Vec 4 property template -->
+  <div data-template="vec4" style="height:70px; position:relative;">
+    <label class="property-label" data-text="displayName"></label>
+
+    <div class="property-value" style="right:0;top:0;height:35px">
+      <!-- First component -->
+      <div style="position:absolute; width:50%; height:100%; left:0px">
+        <label style="position:absolute; left:0px; width:10px;" class="property-label" data-text="comps.0.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:5px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.0.isConnected:property-input-connected,comps.0.isDefault:property-input-default" data-veccomp="0" data-val="comps.0.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+
+      <!-- Second component -->
+      <div style="position:absolute; width:50%; height:100%; left:50%">
+        <label style="position:absolute; left:0px; width:10px;" class="property-label" data-text="comps.1.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:10px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.1.isConnected:property-input-connected,comps.1.isDefault:property-input-default" data-veccomp="1" data-val="comps.1.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+    </div>
+
+    <div class="property-value" style="right:0;bottom:0;top:35px">
+      <!-- Third component -->
+      <div style="position:absolute; width:50%; height:100%; left:0px">
+        <label style="position:absolute; left:0; width:10px;" class="property-label" data-text="comps.2.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:5px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.2.isConnected:property-input-connected,comps.2.isDefault:property-input-default" data-veccomp="2" data-val="comps.2.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+
+      <!-- Fourth component -->
+      <div style="position:absolute; width:50%; height:100%; left:50%">
+        <label style="position:absolute; left:0px; width:10px;" class="property-label" data-text="comps.3.displayName"></label>
+
+        <div style="position:absolute; left:20px; right:10px; top:1px; bottom:1px">
+          <input type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="comps.3.isConnected:property-input-connected,comps.3.isDefault:property-input-default" data-veccomp="3" data-val="comps.3.value" data-change="onPropertyChanged"></input>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- Color property template -->
+  <div data-template="color" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName" data-tooltip="path:tooltip"></label>
+
+      <!-- Text rep of color -->
+      <div class="property-value" style="right:45px;">
+        <input id="stringInput" data-identifier="" data-type="color" type="string" style="position:absolute; width:100%; height:100%" class="sidebar-panel-dark-input" data-class="isConnected:property-input-connected,isFocused:property-input-focused,isDefault:property-input-default" data-val="value" data-change="onStringInputChanged"></input>
+      </div>
+
+      <!-- Color input -->
+      <div class="color-thumbnail" style="position:absolute; right:10px;top:1px; bottom:1px;padding:0" data-click="onLaunchClicked">
+        <div class="color-thumbnail-content"></div>
+      </div>
+
+      <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- text area -->
+  <div data-template="textarea" style="position:relative;display: flex">
+    <label class="property-label" data-text="displayName" style="position: relative;flex-grow: 0;" data-tooltip="path:tooltip"></label>
+
+    <div class="property-input-textarea-bg" style="">
+      <textarea style="width:100%" data-identifier="" class="sidebar-panel-dark-input property-input-textarea" data-class="isConnected:property-input-connected,isFocused:property-input-focused,isDefault:property-input-default" data-val="value" data-change="onPropertyChanged"></textarea>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- curve -->
+  <div data-template="curve" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName"></label>
+
+    <div class="property-value">
+      <button type="button" data-interaction=""  data-identifier="" style="width:100%; height:100%;" class="property-codeeditor-button" data-click="onEditClicked">Edit</button>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+  <!-- query -->
+  <div data-template="query" style="height:35px; position:relative;">
+    <label class="property-label" data-text="displayName"></label>
+
+    <div class="property-value">
+      <button type="button" style="width:100%; height:100%;"  data-identifier="" class="property-codeeditor-button" data-click="onEditClicked">Edit</button>
+    </div>
+
+    <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+  </div>
+
+    <!-- proplist -->
+    <div data-template="proplist" style="position:relative;">
+         <div class="props"></div>
+    </div>
+
+  <div class="groups">
+  </div>
+</div>

@@ -1,0 +1,1314 @@
+[
+    {
+        "title": "Revlon 1875W Compact Travel Hair Dryer, Black",
+        "img": "https://i5.walmartimages.com/asr/1a0ae606-13be-4201-90f1-f828f5da1595_1.a0f5e7d8391b6f55d9f470686b77772c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p class=\"MsoListParagraph\"></p><ul><li>This lightweight, compact hair dryer is great for travel.<br></li><li>&nbsp;Quickly dry and style your hair with 2 heat and speed settings to customize your style.<br></li><li>&nbsp;Use the cool shot setting to set the perfect style for longer-lasting results.&nbsp;</li><li>Features a hanging ring for easy storage, and protective anti-slip bumpers.<br></li></ul><p></p><p class=\"MsoListParagraph\"><o:p></o:p></p>",
+            "short": "<p class=\"MsoNormal\"><ul><li>Lightweight compact hair dryer great for travel<br></li><li>Powerful 1875 watts for faster styling<br></li><li>Cool Shot button to set hairstyle<br></li></ul><o:p></o:p></p> <p class=\"MsoNormal\"><o:p></o:p></p> <p class=\"MsoNormal\"><o:p></o:p></p>",
+            "medium": "Quickly and easily dry and style your hair with the help of the Style by Revlon 1875 Watt Dryer. It is constructed of sturdy and durable materials and features two heat/speed settings to suit your personal needs. This Revlon hair dryer is equipped with a Cold Shot setting that will help set the style. It is easy to use and care for."
+        },
+        "price": 10.97,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 711
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586113200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_two_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "14551419",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-white": {
+                        "id": "actual_color-white",
+                        "name": "White",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/f6e3ea97-eafc-49c7-9694-118f1b8522ac_1.6e88c1b101f36536fe10efb8607549f0.jpeg",
+                        "products": [
+                            "542HPP9RQVUD"
+                        ],
+                        "images": [
+                            "07D427F20110409D967AFA5327A80EE0",
+                            "60E1C76CFEB44ACE80DCF1317CADE4FF",
+                            "68CE1D8D58F34A7DBC6C8BF59A11F9B0",
+                            "F5AA1F05E347494391980F83B2E6C111",
+                            "71CA684B2C2547E5A28FAA9501154F8B",
+                            "3189F846421A461F913B3D639FE578CB"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-black": {
+                        "id": "actual_color-black",
+                        "name": "Black",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/19848ed3-8910-40fb-b28a-bb17a1c0390f_1.1dcfbbb88589782e9a41c91c12d8473d.jpeg",
+                        "products": [
+                            "5N0NQKW2DV6V"
+                        ],
+                        "images": [
+                            "667453A46B0C4DC6ACABF17A86252BB1",
+                            "2D4205DA635D488990967F3E5C02DDE5",
+                            "3BBCD36CEE3A4F719FA42B6BDE8F56CD",
+                            "C984C62B953B4FADB38DCBCEAA69DCC5",
+                            "113100628D1B44EB9E87B29F3C333F30"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Revlon Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Revlon Hair Styling Tools",
+                    "url": "/cp/9903324"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Revlon Fast Style & Shine Infrared Hair Dryer, 1875W, Pearlized White",
+        "img": "https://i5.walmartimages.com/asr/6873d2cc-9c4b-4e1b-9450-8e769e8ee0f1_1.dcf61d2024604c301e2c961835470afe.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p class=\"MsoListParagraph\"><ul><li>The Revlon Pro Collection? Salon Infrared Hair Dryer and Styler creates flawlessly gorgeous blowouts!&nbsp;</li><li>Designed with Infrared Heat Technology which taps into your hair?s natural moisture and helps prevent over-drying to deliver maximum shine.&nbsp;</li><li>This professional infrared hair dryer combines three layers of Ceramic Coating to help reduce heat damage.&nbsp;</li><li>Boosted with Tourmaline IONIC TECHNOLOGY®, for perfect hair and smooth results.&nbsp;</li><li>Plus, added Concentrator and Volumizing Finger Diffuser attachments give you maximum precision for truly customized hairstyles.</li></ul><o:p></o:p></p>",
+            "short": "<p class=\"MsoNormal\"></p><ul><li>Tourmaline IONIC<br></li><li>Concentrator and Diffuser attachments included<br></li><li>Infrared Heat Technology TECHNOLOGY® reduces frizz, enhances shine<br></li></ul><p></p> <p class=\"MsoNormal\"><o:p></o:p></p> <p class=\"MsoNormal\"><span style=\"font-family:&quot;Arial&quot;,sans-serif;color:red\"><o:p></o:p></span></p>",
+            "medium": "</p>Revlon Healthy Hair Laser Brilliance Hairdryer with Ceramic Ionic Infrared heat which penetrates hair quickly and evenly from the inside-out, drying hair in a fraction of the time with superior results.</p>"
+        },
+        "price": 21.99,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 224
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586113200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_two_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "32427579",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/All Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "All Hair Dryers",
+                    "url": "/cp/5767156"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Conair 1875 Watt Mid-Size Dryer for Powerful Drying and Styling",
+        "img": "https://i5.walmartimages.com/asr/79258502-ee63-42dc-b796-17b26795e89d_1.7d9ea1ee485ebf5095fdb3425d4e7e89.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Product Features</b><ul><li>Convenient mid-size design</li><li>Powerful 1875 watts for high-powered fast drying&nbsp;</li><li>2 heat/speed custom settings for all hair types</li><li>Hang ring for easy storage</li><li>Ergonomic handle for comfortable styling and drying</li></ul>",
+            "short": "<li>2 heat and speed settings</li><li>Hang ring for easy storage</li>",
+            "medium": "</p>"
+        },
+        "price": 9.98,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 34
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "46368131",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Travel Size Beauty/Travel Size Hair Care/Travel Size Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Travel Size Beauty",
+                    "url": "/cp/8097138"
+                },
+                {
+                    "name": "Travel Size Hair Care",
+                    "url": "/cp/1650011"
+                },
+                {
+                    "name": "Travel Size Hair Dryers",
+                    "url": "/cp/9038095"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Revlon 1875W Quick Dry Lightweight Hair Dryer",
+        "img": "https://i5.walmartimages.com/asr/fcec073e-2672-41c7-b18e-c0e3ef325fb4_1.f6fe299356dbc06f84e3b72a32d86fff.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b><br>Revlon 1875 Watt Hair Dryer:</b><ul><li>Get results you'll love, fast with 1875 watts of perfect heat</li><li>3 heat/3 speed settings for complete drying and styling flexibility</li><li>The cool shot button releases cool air to lock in the style</li><li>Use the concentrator attachment for precise drying and styling</li><li>Includes a removable end cap for easy cleaning to extend motor life</li><li>2 year limited warranty</li><li>Model RV408</li></ul>",
+            "short": "<li>Get results you'll love, fast with 1875 watts of perfect heat</li><li>3 heat/3 speed settings</li><li>Cool shot button</li>",
+            "medium": "Revlon RV408 Hair Dryer 1875 Watt"
+        },
+        "price": 14.97,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 29
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "14324430",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Here for Every Beauty/Hair Care & Hair Tools/Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Here for Every Beauty",
+                    "url": "/cp/7192911"
+                },
+                {
+                    "name": "Hair Care & Hair Tools",
+                    "url": "/cp/7737658"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/5152410"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Remington Damage Protection Hair Dryer, Purple, D3190D",
+        "img": "https://i5.walmartimages.com/asr/c4d97cef-b0f2-4dd6-8225-830df5d3bdb2_1.d2d9fea15d0e8cfe2c24da582ca5e447.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Damage Protection: Experience 3X more protection* with micro-conditioners and Advanced Coating Technology.</li><li>3X More Protection*: The grill is infused with an Advanced Coating Technology that helps protect hair during styling.</li><li>Healthier Hair*: Our proprietary technology releases micro-conditioners through the styler?s airflow for less damage and healthier hair*.</li><li>1875W Max Power: Dry hair fast with 1875 watts max power.</li><li>Ionic + Ceramic + Tourmaline Technology: The styler grill is coated with a trio of technologies to dry hair faster with less frizz*.</li><li>Concentrator &amp; Diffuser Included: The concentrator is great for perfecting straight hairstyles and the diffuser helps enhance natural curls and waves.</li><li>Removable Air Filter: The removable air filter is easy to clean, and keeps the styler working at peak efficiency.</li><li>3 Heat + 2 Speed Settings + Cool Shot: Find the heat and airflow you prefer for your hair type, then use the cool shot button to lock in your gorgeous style.</li></ul>",
+            "short": "<ul><li>Damage Protection Hair Dryer for Shiny, Healthy Hair</li><li>3X More Protection* with Advanced Coating Technology</li><li>Healthier Hair* with Proprietary Micro-Conditioner Technology</li><li>1875W for Fast Drying Power</li><li>Ceramic + Ionic + Tourmaline Grill for Faster Drying with Less Frizz*</li></ul>",
+            "medium": "Get great looking hair with this Remington Damage Control Ceramic Hair Dryer (available in purple). It features three heat settings, two speed settings and a cool shot, giving you flexible control of your results. The micro-conditioners help prevent heat damage and increase the shine of your hair. This ionic hair dryer also helps to heal previously damaged hair while reducing static and frizz. The ceramic technology prevents hair damage while allowing for a faster dry time. Powerful enough for thick and wavy hair, the diffuser enhances your natural curls and waves while the removable filter allows for easy cleaning to extend the motor life. The semiprecious gemstone technology works in conjunction with the ceramic technology, producing far-infrared energy, which protects the hair cuticle from over-heating, preventing brittleness and cracking. This Remington Damage Control Ceramic Hair Dryer is dependable and reliable and is made with high quality for long lasting use."
+        },
+        "price": 19.84,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 195
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "34788344",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/All Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "All Hair Dryers",
+                    "url": "/cp/5767156"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Remington Pro Pearl Ceramic Hair Dryer with Soft Touch Finish, Pink/Black, AC2015E",
+        "img": "https://i5.walmartimages.com/asr/cea41e02-4c4e-40dd-b094-face23a1b9de_1.0ef6821c4e9758a45de81aed81649c10.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Professional Pearl Ceramic - Infused with real crushed pearls, this advanced ceramic formula is emitted into the airflow during styling, giving you fast, luxurious, and professional results.</li><li>1875W Salon Performance AC Motor - The professional quality AC motor delivers salon performance, with 1875W max power to dry hair fast.</li><li>50% Faster* Dry Time - The powerful airflow activates the Pearl Ceramic to dry hair fast with a lustrous finish.</li><li>Luxurious Finish, Professional Results - Professional Pearl Ceramic combines with powerful airflow and constant heat performance to create faster* salon results.</li><li>The Ionic Generator - Achieve 90% less frizz** with the built-in ionic generator which transfers negative ions during styling, helping reduce frizz for smooth results.</li><li>Soft Touch Finish - The dryer exterior features a soft touch finish for easy handling.</li></ul>",
+            "short": "<ul><li>Professional Pearl Ceramic for Less Damage and Fast, Salon Results*</li><li>1875W Salon Performance AC Motor</li><li>Optimized Airflow for 50% Faster* Dry Time</li><li>Crushed Pearl Infused Grill for Smooth Results</li><li>Ionic Generator for 90% Less Frizz**</li></ul>",
+            "medium": "<p>Style your hair with the Remington AC2015 Hair Dryer for a smooth salon finish. The high-quality motor in the Remington professional dryer has ceramic pearl technology, which features nourishing micro-conditioners. When you use theRemington AC2015 Hair Dryer, these micro conditioners are activated by heated airflow and are immediately transferred to your hair and seal the cuticle to give your hair a lustrous finish. This highly efficient 1875 watt salon-quality dryer dries your hair 40% faster than normal household dryers. The generator in the Remington Ceramic Pearl Hair Dryer bathes you hair with positive ions to give you super soft and shiny hair. With two speeds and three radiant ceramic heat settings, the Remington professional dryer helps you create a variety of hair styles effortlessly. This salon quality dryer comes with various hair styling tools, including a concentrator and a diffuser. Get this amazing professional hair dryer and forget all about bad hair days.</p>"
+        },
+        "price": 24.92,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 280
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "14978534",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/All Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "All Hair Dryers",
+                    "url": "/cp/5767156"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Conair 1875 Watt Double Ceramic Hair Dryer",
+        "img": "https://i5.walmartimages.com/asr/3e65d5f0-b94b-40aa-bee4-031a23273e50_1.7272fe10053e6babd356530ecbc2ed73.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"302\" style=\"background-color: rgb(255, 255, 255); width: 226pt;\"><colgroup><col width=\"302\" style=\"mso-width-source:userset;mso-width-alt:10723;width:226pt\"></colgroup><tbody><tr height=\"19\" style=\"height:14.4pt\"><td height=\"19\" width=\"302\" style=\"height:14.4pt;width:226pt\"><div><b>Conair 1875 Watt Double Ceramic Hair Dryer Product Features:</b><br></div><ul><li>Double ceramic technology: Infrared heat provides uniform heat for fast hair drying and less hair damage</li></ul></td></tr><tr height=\"19\" style=\"height:14.4pt\"><td height=\"19\" style=\"height:14.4pt\"><ul><li>Conditioning ions: Natural ion output helps to fight frizz and brings out your hair?s natural shine</li></ul></td></tr><tr height=\"19\" style=\"height:14.4pt\"><td height=\"19\" style=\"height:14.4pt\"><ul><li>1875 watts for fast hair drying</li><li>Cool shot button to lock hair styles in place</li><li>Rocker switches</li><li>3 heat/2 speed blow dryer settings provide custom settings for different hair types</li></ul></td></tr><tr height=\"19\" style=\"height:14.4pt\"><td height=\"19\" class=\"xl65\" style=\"height:14.4pt\"><ul><li>Removable filter prevents lint buildup, extending the hair dryer?s motor life</li></ul></td></tr><tr height=\"19\" style=\"height:14.4pt\"><td height=\"19\" class=\"xl65\" style=\"height:14.4pt\"><ul><li>Concentrator included for focused airflow to make hair smooth and sleek</li></ul></td></tr></tbody></table>",
+            "short": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"302\" style=\"background-color: rgb(255, 255, 255); width: 226pt;\"><tbody><tr height=\"19\" style=\"height: 14.4pt;\"><td height=\"19\" width=\"302\" style=\"height: 14.4pt; width: 226pt;\"><ul><li>Double ceramic technology: Infrared heat provides uniform heat for fast hair drying and less hair damage</li></ul></td></tr><tr height=\"19\" style=\"height: 14.4pt;\"><td height=\"19\" style=\"height: 14.4pt;\"><ul><li>Conditioning ions: Natural ion output helps to fight frizz and brings out your hair?s natural shine</li></ul></td></tr><tr height=\"19\" style=\"height: 14.4pt;\"><td height=\"19\" style=\"height: 14.4pt;\"><ul><li>1875 watts for fast hair drying</li></ul></td></tr></tbody></table>"
+        },
+        "price": 30.73,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 127
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "904421764",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Conair Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Conair Hair Styling Tools",
+                    "url": "/cp/1561411"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Conair 1875 Watt Mid-Size Hair Dryer",
+        "img": "https://i5.walmartimages.com/asr/247d6107-d4b5-4fc9-910e-63151a7f083b_1.c4e26ce8b027c6e5fa322664b56e34e7.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Product Features</b><br><ul style=\"\"><li style=\"font-weight: bold;\">1875 Watts</li><li style=\"font-weight: bold;\">2 heat/speed settings</li><li style=\"font-weight: bold;\">Ergonomic handle</li><li style=\"\"><b>Hanging ring</b><br></li><li style=\"\"><b>5 foot power cord</b><br></li><li style=\"\"><b>Concentrator attachment for smooth styles</b></li><li style=\"\"><b>Compact and fast drying</b><br></li><li style=\"\"><b>Cool shot button locks styles in place</b><br></li></ul>",
+            "short": "<ul><li>Two heat and speed settings</li><li>Concentrator for pinpoint styling</li><li>Cool shot button locks style in place</li></ul>",
+            "medium": "<p>Treat yourself to fast and thorough drying after showers with the Conair 1875-Watt Dryer Model 247WB. This hair dryer features 1875 watts of power with two heat options and two speed settings so that you can have control and customize your blow drying experience. This mid-size black hair dryer is made with a concentrator nozzle for additional drying power and more directed air flow. It comes equipped with an ergonomic handle that fits comfortably in your hands. A cool shot is included and can be used to quickly cool hair after you heat style it, providing a more long-lasting style. This product weighs 1.2 pounds and plugs into the wall, with no batteries necessary. The chassis has black with white lettering and a blue cool shot button. The cord has a built in ring near the Conair dryer for easy hanging.</p>"
+        },
+        "price": 12.84,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 65
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_two_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "35259232",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Conair Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Conair Hair Styling Tools",
+                    "url": "/cp/1561411"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Conair Compact Folding Handle Hair Dryer, 1875W, 124TLN",
+        "img": "https://i5.walmartimages.com/asr/1c9cbbd9-ceb8-4f5c-837b-5f9b32017150_1.229f1cd24b37aba6a25f959ebb927803.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<li>The Conair 1875 Watt Compact Folding Handle Dryer has a full 1875 watts of drying power</li> <li> Folding Handle for compact storage and travel</li> <li> 2 Heat/speed Settings&nbsp;or hair drying and styling versatility&nbsp;</li> <li> Cool-shot Button Lock in style</li> <li>Dual Voltage For Worldwide Travel</li>",
+            "short": "<ul><li>Folding handle dryer great for travel and storage</li><li>2 heat/speed settings</li><li>cool shot for locking style in place</li></ul>",
+            "medium": "Look your best even when traveling away from home with the Conair Folding Handle Hair Dryer. It's a convenient choice for use in bathrooms with less storage space. This travel hair dryer has a professional length cord with two heat/speed settings and a cool shot for locking style in place. It folds to a compact size, so it's easy to pack in your suitcase or put away in a bathroom drawer."
+        },
+        "price": 14.99,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 106
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "9906752",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Conair Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Conair Hair Styling Tools",
+                    "url": "/cp/1561411"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Conair Turbo Styler Ionic Hair Dryer",
+        "img": "https://i5.walmartimages.com/asr/5629c637-b98d-4a21-94f9-c8af4df5bcb3_1.fab9ea220bc3d070fa40e81f48c685d8.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b><br />Conair Turbo Styler Ionic Hair Dryer Product Features:</b><br /><ul><li>Ionic technology helps fight frizz for healthy-looking hair</li><li>Included Attachments: Diffuser and Concentrator</li><li>Powerful but quiet motor that reduces 75% of noise</li><li>Cool shot button to lock in style</li><li>Conair hair dryer with hang loop for easy storage</li><li>Excellent for all types of hair</li></ul>",
+            "short": "<ul><li>Ionic technology helps fight frizz for healthy looking hair</li><li>Included Attachments: Diffuser and Concentrator</li><li>Powerful but quiet motor that reduces 75% of noise</li></ul>",
+            "medium": "Diffuser for curly or textured hair. Promotes shiny, healthy looking hair & prevents heat damage.  How the ionic dryer works to keep hair shiny and healthy: Clouds of negatively-charged ions neutralize positive charges that are in the air and reduce the static electricity that causes fly-away frizzies and dulls hair. Hair becomes shinier and more manageable.  Conair, Ionic Turbo Styler, MODEL #146RX"
+        },
+        "price": 19.36,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 275
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "9906787",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Conair Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Conair Hair Styling Tools",
+                    "url": "/cp/1561411"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Revlon Essentials Volume Booster Hair Dryer RVDR5036 1875W Ionic Technology®, Teal with 2 Attachments",
+        "img": "https://i5.walmartimages.com/asr/968444d4-e2c2-4250-8215-b2fbcd6b1923_1.2a899daf17129dfed7b74f5d7ade681d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>1875 watts for a power airflow and faster styling&nbsp;</li><li>Airflow concentrator for focused drying and styling control&nbsp;</li><li>Volumizing diffuser for max volume&nbsp;</li><li>Cold shot button to set the style&nbsp;</li><li>3 heat/2 speed settings for precise styling&nbsp;</li><li>Removable end cap for easy cleaning prolonging the dryer?s life&nbsp;</li><li>Convenient hanging ring</li></ul>",
+            "short": "<div><ul><li>3 heat/2 speed settings for styling control</li><li>Volumizing diffuser and smoothing concentrator attachments</li><li>Cold shot button to set the style</li></ul></div>",
+            "medium": "<p>Ions have been scientifically proven to eliminate static electricity caused by brushing of hair. Revlon????s internal ion generator delivers 30% more frizz-eliminating ions than standard dryers, quickly leaving a frizz-free, sleek, shiny look.</p>"
+        },
+        "price": 15.94,
+        "reviews": {
+            "customerRating": 3.3,
+            "numReviews": 41
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586199600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "19400346",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/Revlon Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "Revlon Hair Dryers",
+                    "url": "/cp/5000830"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Remington Pro Hair Dryer with Color Care Technology, Champagne/Gray, AC8A630",
+        "img": "https://i5.walmartimages.com/asr/e3a1e157-92be-4e00-8cb1-5132d664ce79_1.d6b2dd97aa3fd49fba8365b04bfcdd5b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Color Care Technology: Color Care Technology uses a heat control sensor to prevent overheating and protect color treated hair from damage and color fading*.</li><li>Ceramic +Titanium Coating: The Ceramic + Titanium Coating delivers fast, even and consistent heat for our best drying experience.</li><li>Professional Motor: The professional quality AC motor lasts longer* and delivers salon performance to dry hair in no time.</li><li>3 Heat + 2 Speed Settings + Cool Shot: Find the right heat and airflow for your hair type, then use the cool shot button to lock in your gorgeous style.</li><li>1875 Watts Max Power: Dry hair fast with 1875 watts max power.</li></ul>",
+            "short": "<ul><li>Color Care Technology - Protects color treated hair from damage and fading* while styling</li><li>Ceramic + Titanium for Fast, Even Heat - The Ceramic + Titanium Coating delivers fast, even and consistent heat for our best drying experience.</li><li>Professional Quality AC Motor with Longer Life* - The professional quality AC motor lasts longer* and delivers salon performance to dry hair in no time.</li><li>3 Heat + 2 Speed Settings + Cool Shot - Find the right heat and airflow for your hair type, then use the cool shot button to lock in your gorgeous style.</li><li>1875 Watts Max Power - Dry hair fast with 1875 watts max power.</li></ul>"
+        },
+        "price": 26.24,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 41
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "147232663",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/All Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "All Hair Dryers",
+                    "url": "/cp/5767156"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Revlon Shine Booster, RV484, 1875W Ionic Ceramic Hair Dryer, Silver",
+        "img": "https://i5.walmartimages.com/asr/9835d326-f4f0-47c5-b7ac-167acf155c61_1.cb35f2ada76c141c5a1557748c886f8d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><b>Revlon Shine Booster, RV484, 1875 W Ionic Ceramic Hair Dryer, Silver:</b><br /> <ul><li>ON/OFF ion generator for smooth blowout or maximum volume</li><li>Ionic technology and 3x ceramic coating for less damage and smooth results with less frizz</li><li>2 heat and 2 speed settings and cool shot button for maximum styling control</li><li>Smoothing concentrator attachment and volumizing diffuser included</li><li>Revlon RV484 has a removable end cap and hanging ring for storage </li><li>Hair dryer uses 1875W of power </li></ul>",
+            "short": "<p class=\"MsoNormal\"><ul><li>Concentrator and Diffuser attachments included<br></li><li>Ion on/off switch for complete styling control<br></li><li>3x ceramic coating and disk for less damage<br></li></ul><o:p></o:p></p> <p class=\"MsoNormal\"><o:p></o:p></p>",
+            "medium": "<p>The Revlon Ionic Pro Stylist 1875-Watt Dryer provides even heat distribution to help create shiny, healthier-looking hair. Using an internal ceramic disc technology, it lets you style with three different heat settings, two speed settings as well as a cold-shot button. Included attachments like the concentrator give you even more precision. This ionic hair dryer comes in a silver finish with burgundy accents. </p>"
+        },
+        "price": 19.34,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 170
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586199600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "10965521",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/All Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "All Hair Dryers",
+                    "url": "/cp/5767156"
+                }
+            ]
+        }
+    },
+    {
+        "title": "InfinitiPro by Conair Ion Choice Hair Dryer, 1875 Watt, Rainbow, Model 490",
+        "img": "https://i5.walmartimages.com/asr/f7b991e4-a803-46a9-aa1e-cd1be7430e8a_1.6b0cb527f0238db61683d31238b5a887.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2><ul><li><span style=\"text-indent: -0.31in; font-size: 16pt; font-family: Calibri; color: black;\">Dry your hair like a pro with ion choice for added shine: Ions ON for sleek, smooth and shiny hair; ions OFF for fullness, curls and added volume</span></li></ul></h2> <div style=\"margin-top: 0pt; margin-bottom: 0pt; margin-left: 0.31in; text-indent: -0.31in; direction: ltr; unicode-bidi: embed; word-break: normal;\"><span style=\"font-size:16.0pt\"><span style=\"mso-special-format:bullet;font-family:Arial\">?</span></span><span style=\"font-size:16.0pt;font-family:Calibri;mso-ascii-font-family:Calibri; mso-fareast-font-family:+mn-ea;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font: minor-latin;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi; color:black;mso-color-index:1;mso-font-kerning:12.0pt;language:en-US; mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:text1; mso-style-textfill-fill-color:black;mso-style-textfill-fill-alpha:100.0%\">Powerful professional AC motor dries hair up to 50% faster</span></div> <div style=\"margin-top: 0pt; margin-bottom: 0pt; margin-left: 0.31in; text-indent: -0.31in; direction: ltr; unicode-bidi: embed; word-break: normal;\"><span style=\"font-size:16.0pt\"><span style=\"mso-special-format:bullet;font-family:Arial\">?</span></span><span style=\"font-size:16.0pt;font-family:Calibri;mso-ascii-font-family:Calibri; mso-fareast-font-family:+mn-ea;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font: minor-latin;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi; color:black;mso-color-index:1;mso-font-kerning:12.0pt;language:en-US; mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:text1; mso-style-textfill-fill-color:black;mso-style-textfill-fill-alpha:100.0%\">Ceramic Technology, uniform heat for fast &amp; gentle drying</span></div> <div style=\"margin-top: 0pt; margin-bottom: 0pt; margin-left: 0.31in; text-indent: -0.31in; direction: ltr; unicode-bidi: embed; word-break: normal;\"><span style=\"font-size:16.0pt\"><span style=\"mso-special-format:bullet;font-family:Arial\">?</span></span><span style=\"font-size:16.0pt;font-family:Calibri;mso-ascii-font-family:Calibri; mso-fareast-font-family:+mn-ea;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font: minor-latin;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi; color:black;mso-color-index:1;mso-font-kerning:12.0pt;language:en-US; mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:text1; mso-style-textfill-fill-color:black;mso-style-textfill-fill-alpha:100.0%\">3 heat/2 speed settings for different hair types</span></div> <div style=\"margin-top: 0pt; margin-bottom: 0pt; margin-left: 0.31in; text-indent: -0.31in; direction: ltr; unicode-bidi: embed; word-break: normal;\"><span style=\"font-size:16.0pt\"><span style=\"mso-special-format:bullet;font-family:Arial\">?</span></span><span style=\"font-size:16.0pt;font-family:Calibri;mso-ascii-font-family:Calibri; mso-fareast-font-family:+mn-ea;mso-bidi-font-family:+mn-cs;mso-ascii-theme-font: minor-latin;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:minor-bidi; color:black;mso-color-index:1;mso-font-kerning:12.0pt;language:en-US; mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:text1; mso-style-textfill-fill-color:black;mso-style-textfill-fill-alpha:100.0%\">Diffuser and concentrator attachments </span><span style=\"font-size:16.0pt;font-family: Calibri;mso-ascii-font-family:Calibri;mso-fareast-font-family:+mn-ea; mso-bidi-font-family:+mn-cs;mso-ascii-theme-font:minor-latin;mso-fareast-theme-font: minor-fareast;mso-bidi-theme-font:minor-bidi;color:black;mso-color-index:1; mso-font-kerning:12.0pt;language:en-US;mso-style-textfill-type:solid; mso-style-textfill-fill-themecolor:text1;mso-style-textfill-fill-color:black; mso-style-textfill-fill-alpha:100.0%\">included</span></div>",
+            "short": "<ul><li>AC motor dries hair up to 50% faster</li><li>Ceramic Technology</li><li>3 heat/2 speed settings</li></ul>"
+        },
+        "price": 30.92,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 160
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "728497708",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Here for Every Beauty/Hair Care & Hair Tools/Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Here for Every Beauty",
+                    "url": "/cp/7192911"
+                },
+                {
+                    "name": "Hair Care & Hair Tools",
+                    "url": "/cp/7737658"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/5152410"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Remington Impact Resistant Hair Dryer, Black, D4200",
+        "img": "https://i5.walmartimages.com/asr/4c038aad-8ae1-48b9-adcc-b8d4aa0bfc52_1.67eb1d16b364a5af8418a05a9d65a61b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Impact Resistant Design: The shock absorbing, soft touch rubber wrap makes this one durable hair dryer. It?s perfect for everyday use you can depend on.</li><li>3 Heat Settings + Cool Shot: Find the best heat for your hair type, then use the cool shot button to lock in your gorgeous style.</li><li>2 Speed Settings: High and low speed settings for your most comfortable and efficient performance with this dryer.</li><li>Impact Resistant Design: The advanced design features a soft touch rubber wrap that increases durability*, and a 5 year limited warranty for added peace of mind.</li><li>Tourmaline + Titanium + Ceramic Technology: This combination of technologies helps reduce damage to hair*, making it easy to get fast drying and styling results anytime.</li><li>Attachments: The concentrator is great for perfecting straight hairstyles and the diffuser helps enhance natural curls and waves.</li><li>1875 Watts Max Power: The advanced 1875 watts max power dryer delivers powerful airflow for fast, effective drying.</li><li>Hang Loop: The integrated hang loop ensures convenient storage.</li><li>Five Year Limited Warranty: The Impact Resistant Hair Dryer is backed by a five year limited warranty.</li></ul>",
+            "short": "<ul><li>Impact Resistant Design with Increased Durability*</li><li>Shock Absorbing Soft Touch Rubber Wrap</li><li>Tourmaline + Titanium + Ceramic Technology</li><li>3 Heat + 2 Speed Settings + Cool Shot</li><li>1875 Watts Max Power</li></ul>"
+        },
+        "price": 18.99,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 63
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.00"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "435754397",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Here for Every Beauty/Hair Care & Hair Tools/Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Here for Every Beauty",
+                    "url": "/cp/7192911"
+                },
+                {
+                    "name": "Hair Care & Hair Tools",
+                    "url": "/cp/7737658"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/5152410"
+                }
+            ]
+        }
+    }
+]

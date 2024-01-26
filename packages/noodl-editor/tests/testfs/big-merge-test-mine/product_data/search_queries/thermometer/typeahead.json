@@ -1,0 +1,274 @@
+[
+    {
+        "title": "Vicks Speed-Read Thermometer with Fever InSight, V912",
+        "img": "https://i5.walmartimages.com/asr/9a2fbc2f-f649-4a97-9c1a-2c438db136f5_1.914ab7931f669cd797b66dbaaccadd8c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><b>Vicks SpeedRead Thermometer:</b><ul><li>Oral, rectal or underarm use</li><li>Accurate readings within +/- 0.2F</li><li>8-second readings</li><li>Fever InSight helps you understand the meaning of temperature readings using a color-coded display</li><li>Waterproof for easy, thorough cleaning</li><li>Automatic shutoff for longer battery life</li><li>Memory feature recalls and displays last temperature taken</li><li>Storage case and batteries included with digital instant read thermometer</li><li>Lifetime warranty under normal use</li></ul>",
+            "short": "<li>Faster readings in as fast as 8 seconds </li> <li>Professional accuracy </li> <li>Fever InSight large backlit display </li> <li>Waterproof for easy, thorough cleaning </li>",
+            "medium": "Vicks Speed Read Thermometer provides accurate readings in only 8 seconds. Unique Fever InSight uses color-coded displays to help you better understand the meaning of the reading. A green display suggests that there is no fever, yellow signifies a slightly elevated temperature and a red display indicates a fever. The V912US can be used orally, rectally or under the arm."
+        },
+        "price": 8.27,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 362
+        },
+        "size": {
+            "karfGroceryType": "Thermometers",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "9875669",
+        "category": {
+            "categoryPath": "Home Page/Baby/Health & Safety/Baby Health",
+            "path": [
+                {
+                    "name": "Baby",
+                    "url": "/cp/5427"
+                },
+                {
+                    "name": "Health & Safety",
+                    "url": "/cp/132943"
+                },
+                {
+                    "name": "Baby Health",
+                    "url": "/cp/3241797"
+                }
+            ]
+        }
+    },
+    {
+        "title": "LYUMO Digital Infrared IR Thermometer, LCD Digital Ear Forehead Infrared Thermometer Temperature Monitor Non-contact for Kids Adult",
+        "img": "https://i5.walmartimages.com/asr/4bc02643-d9c1-47fe-97f0-9622702a3c54_1.af9a3e41ba00c3c73942bda6ecc2dc31.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Rapid temperature measurement in one second, and comes with prompt tone when measurement is finished</li><li>Fever prompt function: when the temperature is more than 37.5℃, the thermometer will issue</li><li>3 Backlight. The 3 backlight will remind whether the temperature is normal, high, and feverish. When the temperature is below 37.5℃, the backlight turn green; when the temperature is between 37.6℃~38.0℃, the backlight turn yellow; when the temperature is</li><li>No operation in 60 seconds, the device will record the last measuring data and shut down automatically</li></ul>",
+            "short": "<ul><li>Fever prompt function: when the temperature is more than 37.5℃, the thermometer will issue</li><li>Rapid temperature measurement in one second, and comes with prompt tone when measurement is finished</li><li>Memory function. This thermometer can store 12 readings to help you track </li></ul>"
+        },
+        "price": 72.98,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "159722678",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "DROPDOWN",
+                "variants": {
+                    "actual_color-purple": {
+                        "id": "actual_color-purple",
+                        "name": "Purple",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "2OCAOAO5T9GR"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-pink": {
+                        "id": "actual_color-pink",
+                        "name": "Pink",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "15EOINKF13VO"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-green": {
+                        "id": "actual_color-green",
+                        "name": "Green",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "3GXTYAIDC9H1"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 72.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 72.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-blue": {
+                        "id": "actual_color-blue",
+                        "name": "Blue",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "1LSOP200IEJU"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 79.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 79.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Ear Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Ear Thermometers",
+                    "url": "/cp/1499722"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Braun ThermoScan 5 Digital Ear Thermometer, IRT6500, White",
+        "img": "https://i5.walmartimages.com/asr/b9e209e3-47e4-4431-ad30-64c051e4673f_1.17fd3d0804d2bbb14933caab37514c93.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p></p><p class=\"MsoNoSpacing\"><ul><li>Accurate readings in just seconds<br></li><li>The Thermoscan thermometer is proven more accurate than forehead or rectal<br></li><li>Pre-warmed tip provides accurate measurements time after time<br></li><li>ExactTemp system uses a light &amp; beep to confirm proper positioning<br></li><li>Large, easy to read display<br></li><li>Lens filters ensure accuracy and hygiene<br></li><li>Small, soft speculum for gentleness in-ear<br></li><li>Braun Thermoscan Ear Thermometer is recommended for infants, children and adults<br></li><li>Includes: 2 AA batteries, 21 lens filters and protective case with lens filter storage<br></li></ul><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p>",
+            "short": "<div><ul><li>Accurate readings in just seconds<br></li><li>The Thermoscan thermometer is proven more accurate than forehead or rectal<br></li><li>Pre-warmed tip provides accurate measurements time after time<br></li><li>ExactTemp system uses a light &amp; beep to confirm proper positioning</li></ul></div>"
+        },
+        "price": 44.54,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 147
+        },
+        "size": {
+            "karfGroceryType": "Thermometers",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "54778797",
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Ear Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Ear Thermometers",
+                    "url": "/cp/1499722"
+                }
+            ]
+        }
+    }
+]

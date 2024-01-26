@@ -1,0 +1,511 @@
+[
+    {
+        "title": "Kraft Individually Wrapped Caramel Candy , 11 oz Bag",
+        "img": "https://i5.walmartimages.com/asr/5f44600b-3c45-4144-8140-bb6e720ec048_3.2299adafc3b94605797dbb298d6a2451.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One 11 oz. bag of Kraft Individually Wrapped Caramel Candy</li><li>Enjoy the chewy goodness and unforgettable flavor of Kraft Individually Wrapped Caramels</li><li>Made with sugar and skim milk for a rich, creamy flavor</li><li>Deliciously poppable and individually wrapped caramel candies</li><li>Enjoy these bite sized candies as a quick snack, or use them as an ingredient for sweet treats</li><li>Certified Kosher caramel candies</li><li>An American classic from the Kraft candy kitchen, bringing you delicious candies since 1940</li></ul>",
+            "short": "<ul><li>vanilla caramels",
+            "medium": "<B>Note:</b> Because this item is temperature-sensitive, we recommend shipping it using Expedited Shipping (2 to 3 business days) or Rush Shipping (1 business day).<BR><BR><p>Looking for a rich and creamy snack? Enjoy a few bite-sized chewy Kraft Vanilla Caramels. From the Kraft candy kitchen since 1940.</p>"
+        },
+        "price": 1.98,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 210
+        },
+        "size": {
+            "karfGroceryType": "Caramels",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "11.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "24705332",
+        "category": {
+            "categoryPath": "Home Page/Food/Seasonal Grocery/Halloween Candy & Treats/Halloween Candy/Halloween Chocolate",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Seasonal Grocery",
+                    "url": "/cp/1567409"
+                },
+                {
+                    "name": "Halloween Candy & Treats",
+                    "url": "/cp/2107086"
+                },
+                {
+                    "name": "Halloween Candy",
+                    "url": "/cp/6041305"
+                },
+                {
+                    "name": "Halloween Chocolate",
+                    "url": "/cp/2967282"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Goetze Original Caramel Creams, 12 Oz.",
+        "img": "https://i5.walmartimages.com/asr/6836c5be-a1e8-44d9-bd96-bb766e6b2fae_1.d95603fffeae0272178983e50ba14893.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Quality since 1895America's kitchen-fresh candy",
+            "short": "&nbsp;12oz Caramel Creams<br>",
+            "medium": "</p>"
+        },
+        "price": 2.48,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 51
+        },
+        "size": {
+            "karfGroceryType": "Soft Candies",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "12.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10320822",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Gummy Candy & Jelly Beans/Caramels & Taffys",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Gummy Candy & Jelly Beans",
+                    "url": "/cp/1224975"
+                },
+                {
+                    "name": "Caramels & Taffys",
+                    "url": "/cp/5726639"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Storck Werther's Original Soft Caramel Candies, 4.51 Oz.",
+        "img": "https://i5.walmartimages.com/asr/7f1a8fbb-8701-414b-b21c-a4ead84ee189_1.ab4397537c3b316d442526e455605111.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Werther's Original Soft Caramels, 4.51 oz",
+            "short": "<li>Soft and creamy caramels with the one-of-a-kind Werther's taste</li><li>Made with real butter and fresh cream</li>",
+            "medium": "</p>"
+        },
+        "price": 2.18,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 29
+        },
+        "size": {
+            "karfGroceryType": "Caramels",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "4.51"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "45589868",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Gummy Candy & Jelly Beans/Werther's Originals",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Gummy Candy & Jelly Beans",
+                    "url": "/cp/1224975"
+                },
+                {
+                    "name": "Werther's Originals",
+                    "url": "/cp/3575295"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Werther's Original Soft Caramels, 2.22 oz",
+        "img": "https://i5.walmartimages.com/asr/8692da0a-02a1-404a-a5b2-67feada22799_1.327441c9aa142dfdf988bc4c89033251.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Werther's Original Soft Caramels, 3 Ct",
+            "short": "<li>Soft and creamy caramels with the one-of-a-kind Werther's taste</li><li>Made with real butter and fresh cream</li>",
+            "medium": "</p>"
+        },
+        "price": 1,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 13
+        },
+        "size": {
+            "karfGroceryType": "Soft Candies",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "2.22"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "46829713",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Gummy Candy & Jelly Beans/Caramels & Taffys",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Gummy Candy & Jelly Beans",
+                    "url": "/cp/1224975"
+                },
+                {
+                    "name": "Caramels & Taffys",
+                    "url": "/cp/5726639"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Mamba Wo Hard 12oz",
+        "img": "https://i5.walmartimages.com/asr/b794d4db-194d-4a13-91f9-9bc784be8b1c_1.2ae062b437eaf2a5ae4f001b343e647b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Hard Candies, Caramel</li><li>33% more! New pack size. The old world recipe. The classic candy made with real butter and fresh cream. A long time ago, in the small European village of Werther, candy-maker Gustav Nebel created his finest candy. He used the best ingredients-real butter, fresh cream, white and brown sugars, a pinch of salt and a lot of time-to create a treasure worthy of being wrapped in gold. Because they turned out especially well, they were named Werther's Original in honor of the little village. Crafting this smooth, creamy caramel became a family tradition handed down through generations. Today, people all around the world enjoy the unique taste of Werther's Original. Part of your world. 70 calories per serving. 3 piece per serving. Made with real butter and fresh cream. www.werthers-original.us. www.storck.us. Made in Germany.</li></ul>",
+            "short": "Mamba Wo Hard 12oz"
+        },
+        "price": 3.98,
+        "reviews": {},
+        "size": {
+            "pricePerUnitUom": "OZ",
+            "pricePerUnitQuantity": "12.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "449929500",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Gummy Candy & Jelly Beans/Caramels & Taffys",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Gummy Candy & Jelly Beans",
+                    "url": "/cp/1224975"
+                },
+                {
+                    "name": "Caramels & Taffys",
+                    "url": "/cp/5726639"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Toffifay Hazelnut Caramel Cream Chocolate Box, 3.5 Oz.",
+        "img": "https://i5.walmartimages.com/asr/e5d90b47-5f62-4e6e-93b5-b39aa5ce638e_1.ff67ecc5176d50c44974b7ca79a00509.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Hazelnut, Caramel, ChocolateA whole hazelnut, caramel, hazelnut , chocolate. Yum! www.Storck.US. We spin chewy caramel into a little cup, drop in a whole hazelnut, cover it with chocolate hazelnut filling and top it with a drop of delicious chocolate. Part of your world. Guarantee: Each package of Toffifay is produced with the strictest quality control and should reach you in perfect condition. If it does not, please return the product and its packaging stating when and where it was purchased. Made in Germany.",
+            "short": "Mamba Toffifay 12 Piece Box  Pack 8"
+        },
+        "price": 2.18,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 1408
+        },
+        "size": {
+            "karfGroceryType": "Nut Candy",
+            "pricePerUnitUom": "OZ",
+            "pricePerUnitQuantity": "3.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "114262161",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Gummy Candy & Jelly Beans/Caramels & Taffys",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Gummy Candy & Jelly Beans",
+                    "url": "/cp/1224975"
+                },
+                {
+                    "name": "Caramels & Taffys",
+                    "url": "/cp/5726639"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Storck Werther's Original Vanilla Cr&acuteme Soft Caramels, 4.51 Oz.",
+        "img": "https://i5.walmartimages.com/asr/29d5d784-3052-412f-895c-2bb8668a37f9_1.0de284dd51af236858e3be149023c798.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Werther's Original Soft Vanilla Creme",
+            "short": "Werthers Original Wo Sft Van Creme 4.51oz"
+        },
+        "price": 1.98,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 10
+        },
+        "size": {
+            "karfGroceryType": "Caramels",
+            "pricePerUnitUom": "OZ",
+            "pricePerUnitQuantity": "4.5100"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "751695014",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Gummy Candy & Jelly Beans/Caramels & Taffys",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Gummy Candy & Jelly Beans",
+                    "url": "/cp/1224975"
+                },
+                {
+                    "name": "Caramels & Taffys",
+                    "url": "/cp/5726639"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Goetze, Caramel Creams Candy, 40 Oz.",
+        "img": "https://i5.walmartimages.com/asr/d5375d39-2524-4316-8ca3-ae937841d624_1.a55928783c6506ca81d58e897dce293b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Cholesterol Free</li><li>Low Sodium</li><li>Made with Milk &amp; Cream</li><li>Caramel Creams®</li></ul>",
+            "short": "Goetze Crml Crm Su"
+        },
+        "price": 7.68,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 13
+        },
+        "size": {
+            "karfGroceryType": "Caramels",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "40.00"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "507347407",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Gummy Candy & Jelly Beans/Caramels & Taffys",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Gummy Candy & Jelly Beans",
+                    "url": "/cp/1224975"
+                },
+                {
+                    "name": "Caramels & Taffys",
+                    "url": "/cp/5726639"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Russell Stover Sugar Free Assorted Caramels with Stevia, 17.85 oz. Bag",
+        "img": "https://i5.walmartimages.com/asr/4e283f3b-8f39-452f-acf2-449c1a6928d2_1.34b9b72e5228d8ddd1c83fc69173a4aa.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "An assorted mix of sugar-free dark chocolate caramels, caramel crispies and creamy caramels covered in chocolate candy makes a great snack to take on-the-go&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br><br>&nbsp;Made with stevia extract – guarantee of quality of freshness&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br><br>Russell Stover Sugar Free delivers the taste and tradition you remember, without the sugar.",
+            "short": "Russell Stover SF Caramel Mix Gusset Bag"
+        },
+        "price": 7.98,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 5
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.00"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "522435686",
+        "category": {
+            "categoryPath": "Home Page/Food/Chocolate, Candy & Gum/Chocolate/Shop All Chocolate",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Chocolate, Candy & Gum",
+                    "url": "/cp/1096070"
+                },
+                {
+                    "name": "Chocolate",
+                    "url": "/cp/1224976"
+                },
+                {
+                    "name": "Shop All Chocolate",
+                    "url": "/cp/2323697"
+                }
+            ]
+        }
+    }
+]

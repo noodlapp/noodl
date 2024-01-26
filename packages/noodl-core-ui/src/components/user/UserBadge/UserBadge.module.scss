@@ -1,0 +1,35 @@
+.Root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  user-select: none;
+
+  color: var(--theme-color-fg-highlight);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-semibold);
+
+  &.is-size-medium {
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  &.is-size-small {
+    width: 24px;
+    height: 24px;
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  &.is-size-tiny {
+    width: 18px;
+    height: 18px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  &.has-right-spacing {
+    margin-right: 8px;
+  }
+}

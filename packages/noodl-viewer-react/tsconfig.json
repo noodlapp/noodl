@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["ES2019", "DOM", "DOM.Iterable", "ESNext"],
+    "target": "es5",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "module": "es6",
+    "moduleResolution": "node"
+  },
+  "include": ["src", "typings"],
+  "exclude": ["static", "tests", "webpack-configs", "**/*.stories.tsx"]
+}

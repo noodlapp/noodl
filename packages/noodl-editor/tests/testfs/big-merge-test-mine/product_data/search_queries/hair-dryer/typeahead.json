@@ -1,0 +1,357 @@
+[
+    {
+        "title": "Revlon 1875W Compact Travel Hair Dryer, Black",
+        "img": "https://i5.walmartimages.com/asr/1a0ae606-13be-4201-90f1-f828f5da1595_1.a0f5e7d8391b6f55d9f470686b77772c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p class=\"MsoListParagraph\"></p><ul><li>This lightweight, compact hair dryer is great for travel.<br></li><li>&nbsp;Quickly dry and style your hair with 2 heat and speed settings to customize your style.<br></li><li>&nbsp;Use the cool shot setting to set the perfect style for longer-lasting results.&nbsp;</li><li>Features a hanging ring for easy storage, and protective anti-slip bumpers.<br></li></ul><p></p><p class=\"MsoListParagraph\"><o:p></o:p></p>",
+            "short": "<p class=\"MsoNormal\"><ul><li>Lightweight compact hair dryer great for travel<br></li><li>Powerful 1875 watts for faster styling<br></li><li>Cool Shot button to set hairstyle<br></li></ul><o:p></o:p></p> <p class=\"MsoNormal\"><o:p></o:p></p> <p class=\"MsoNormal\"><o:p></o:p></p>",
+            "medium": "Quickly and easily dry and style your hair with the help of the Style by Revlon 1875 Watt Dryer. It is constructed of sturdy and durable materials and features two heat/speed settings to suit your personal needs. This Revlon hair dryer is equipped with a Cold Shot setting that will help set the style. It is easy to use and care for."
+        },
+        "price": 10.97,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 711
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586113200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_two_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "14551419",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-white": {
+                        "id": "actual_color-white",
+                        "name": "White",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/f6e3ea97-eafc-49c7-9694-118f1b8522ac_1.6e88c1b101f36536fe10efb8607549f0.jpeg",
+                        "products": [
+                            "542HPP9RQVUD"
+                        ],
+                        "images": [
+                            "07D427F20110409D967AFA5327A80EE0",
+                            "60E1C76CFEB44ACE80DCF1317CADE4FF",
+                            "68CE1D8D58F34A7DBC6C8BF59A11F9B0",
+                            "F5AA1F05E347494391980F83B2E6C111",
+                            "71CA684B2C2547E5A28FAA9501154F8B",
+                            "3189F846421A461F913B3D639FE578CB"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-black": {
+                        "id": "actual_color-black",
+                        "name": "Black",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/19848ed3-8910-40fb-b28a-bb17a1c0390f_1.1dcfbbb88589782e9a41c91c12d8473d.jpeg",
+                        "products": [
+                            "5N0NQKW2DV6V"
+                        ],
+                        "images": [
+                            "667453A46B0C4DC6ACABF17A86252BB1",
+                            "2D4205DA635D488990967F3E5C02DDE5",
+                            "3BBCD36CEE3A4F719FA42B6BDE8F56CD",
+                            "C984C62B953B4FADB38DCBCEAA69DCC5",
+                            "113100628D1B44EB9E87B29F3C333F30"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Revlon Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Revlon Hair Styling Tools",
+                    "url": "/cp/9903324"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Revlon Fast Style & Shine Infrared Hair Dryer, 1875W, Pearlized White",
+        "img": "https://i5.walmartimages.com/asr/6873d2cc-9c4b-4e1b-9450-8e769e8ee0f1_1.dcf61d2024604c301e2c961835470afe.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p class=\"MsoListParagraph\"><ul><li>The Revlon Pro Collection? Salon Infrared Hair Dryer and Styler creates flawlessly gorgeous blowouts!&nbsp;</li><li>Designed with Infrared Heat Technology which taps into your hair?s natural moisture and helps prevent over-drying to deliver maximum shine.&nbsp;</li><li>This professional infrared hair dryer combines three layers of Ceramic Coating to help reduce heat damage.&nbsp;</li><li>Boosted with Tourmaline IONIC TECHNOLOGY®, for perfect hair and smooth results.&nbsp;</li><li>Plus, added Concentrator and Volumizing Finger Diffuser attachments give you maximum precision for truly customized hairstyles.</li></ul><o:p></o:p></p>",
+            "short": "<p class=\"MsoNormal\"></p><ul><li>Tourmaline IONIC<br></li><li>Concentrator and Diffuser attachments included<br></li><li>Infrared Heat Technology TECHNOLOGY® reduces frizz, enhances shine<br></li></ul><p></p> <p class=\"MsoNormal\"><o:p></o:p></p> <p class=\"MsoNormal\"><span style=\"font-family:&quot;Arial&quot;,sans-serif;color:red\"><o:p></o:p></span></p>",
+            "medium": "</p>Revlon Healthy Hair Laser Brilliance Hairdryer with Ceramic Ionic Infrared heat which penetrates hair quickly and evenly from the inside-out, drying hair in a fraction of the time with superior results.</p>"
+        },
+        "price": 21.99,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 224
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_two_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "32427579",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/All Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "All Hair Dryers",
+                    "url": "/cp/5767156"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Revlon 1875W Quick Dry Lightweight Hair Dryer",
+        "img": "https://i5.walmartimages.com/asr/fcec073e-2672-41c7-b18e-c0e3ef325fb4_1.f6fe299356dbc06f84e3b72a32d86fff.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b><br>Revlon 1875 Watt Hair Dryer:</b><ul><li>Get results you'll love, fast with 1875 watts of perfect heat</li><li>3 heat/3 speed settings for complete drying and styling flexibility</li><li>The cool shot button releases cool air to lock in the style</li><li>Use the concentrator attachment for precise drying and styling</li><li>Includes a removable end cap for easy cleaning to extend motor life</li><li>2 year limited warranty</li><li>Model RV408</li></ul>",
+            "short": "<li>Get results you'll love, fast with 1875 watts of perfect heat</li><li>3 heat/3 speed settings</li><li>Cool shot button</li>",
+            "medium": "Revlon RV408 Hair Dryer 1875 Watt"
+        },
+        "price": 14.97,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 29
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "14324430",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Here for Every Beauty/Hair Care & Hair Tools/Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Here for Every Beauty",
+                    "url": "/cp/7192911"
+                },
+                {
+                    "name": "Hair Care & Hair Tools",
+                    "url": "/cp/7737658"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/5152410"
+                }
+            ]
+        }
+    }
+]

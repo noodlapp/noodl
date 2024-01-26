@@ -1,0 +1,154 @@
+[
+    {
+        "title": "Gala Apples, 3 lb Bag",
+        "img": "https://i5.walmartimages.com/asr/e97d7a3f-ed34-4801-aafd-a7008550d36b_2.876fc609cfa3a382b2c033a63d49c14b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Gala Apples, 3 lb bag:</b><ul><li>Sweet and mild with a subtle floral aroma</li><li>Perfect for breakfast, lunch, dinner, and dessert</li><li>Chop them up and add to a salad, add them to a smoothie or juice blend, or serve with peanut butter</li><li>Perfect for snacking</li><li>They have a creamy white flesh with low acidity</li></ul>",
+            "short": "<ul><li>Sweet and mild with a subtle floral aroma</li><li>Perfect for breakfast, lunch, dinner, and dessert</li><li>Chop them up and add to a salad, add them to a smoothie or juice blend, or serve with peanut butter</li></ul>"
+        },
+        "price": 3.94,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 20
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44390958",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Honeycrisp Apples, 3 lb bag",
+        "img": "https://i5.walmartimages.com/asr/723b6688-38d2-4113-a788-894cc1905d82_2.6e8c32faa8bbb7fb35697f4508a7205c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Apples, Honey Crisp</li><li>More than just delicious. US Extra Fancy 2-1/2 inch min. Great Lakes, great flavors. Apples have been coated with a food grade vegetable or food grade LAC-resin wax. Produce of USA.</li></ul>",
+            "short": "<ul><li> Shock-Absorbing & Weather Resistant</li><li> Fit tablet with Slim Cases</li><li> Protect from Dirt, Dust, Scratches and Bumps </li></ul>"
+        },
+        "price": 5.66,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 8
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "151762086",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Fuji Apples, 3 lb Bag",
+        "img": "https://i5.walmartimages.com/asr/aa8fba7c-7f08-499a-91e9-2a6ec3f59519_3.e5415b1154aad1108196fe24fab9798a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Fuji Apples, 3 lb Bag:</b><ul><li>Sweet, crisp & juicy</li><li>Fan favorite</li><li>Excellent snacking apple</li><li>Make a creamy smoothie or a nutritious juice blend</li><li>Serve with your pancake breakfast</li><li>Adds flavor to a variety of recipes</li><li>Make apple butter or applesauce</li><li>Make sweet desserts like apple cobbler, apple crisp & apple pie</li></ul>",
+            "short": "<ul><li>Sweet, crisp & juicy</li><li>Fan favorite</li><li>Excellent snacking apple</li></ul>"
+        },
+        "price": 2.74,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {
+            "karfGroceryType": "Apples",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "3.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44391639",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Fruit",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Fruit",
+                    "url": "/cp/1001437"
+                }
+            ]
+        }
+    }
+]

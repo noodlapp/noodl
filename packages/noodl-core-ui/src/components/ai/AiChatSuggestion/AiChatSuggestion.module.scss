@@ -1,0 +1,23 @@
+.Root {
+  padding: 12px 16px;
+  border: 1px solid var(--theme-color-bg-3);
+  border-radius: 2px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--theme-color-bg-3);
+  }
+}
+
+.Mounted {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: background-color 100ms ease, opacity 500ms ease, transform 0.5s ease;
+}
+
+.Mounting {
+  transform: translateY(8px);
+  opacity: 0;
+}

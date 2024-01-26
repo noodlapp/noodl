@@ -1,0 +1,20 @@
+.textstyles-edit-style {
+  width: 33px;
+  height: 33px;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #292929;
+}
+
+.textstyles-edit-style::before {
+  content: url('../assets/icons/editor/edit-controls.svg');
+  opacity: 0.6;
+  line-height: 0;
+}
+
+.textstyles-edit-style:hover::before {
+  opacity: 1;
+}

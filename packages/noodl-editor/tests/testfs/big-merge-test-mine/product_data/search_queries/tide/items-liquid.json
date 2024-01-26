@@ -1,0 +1,342 @@
+[
+    {
+        "title": "Tide plus Febreze Sport Odor Defense HE Turbo Clean Liquid Laundry Detergent, Active Fresh Scent, 74 loads, 115 oz",
+        "img": "https://i5.walmartimages.com/asr/a5bb885a-8cb9-4c2b-b446-61d581c9a10d_1.43b547fb0dfd8a4cd693bcd9d008fa7c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide plus Febreze Sport Odor Defense HE Turbo Clean Liquid Laundry Detergent, Active Fresh Scent, 74 loads, 115 oz</h2> <ul> <li>Fights odors + stains in one wash</li> <li>It is formulated with HE Turbo Clean technology for 10x cleaning power*. *Stain removal of one dose of Tide in quick cycle vs 10 doses of the leading bargain liquid detergent in normal cycle.</li> <li>Cleans, freshens, whitens, and brightens</li> <li>Measure with cap. For medium loads, fill to bar 1. For large loads, fill to bar 3. For HE full loads, fill to bar 5. Add clothes, pour into dispenser, start washer.</li> <li>Part of the Sport Odor Defense Collection</li> <li>Tide HE Turbo contains quick-collapsing Smart Suds while still targeting tough stains. So you get amazing results without the extra rinse cycles to remove the suds.</li> </ul>",
+            "short": "<ul><li>Fights odors + stains in one wash</li><li>It is formulated with HE Turbo Clean technology for 10x cleaning power*. *Stain removal of one dose of Tide in quick cycle vs 10 doses of the leading bargain liquid detergent in normal cycle.</li></ul>"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 3.7,
+            "numReviews": 318
+        },
+        "size": {
+            "karfGroceryType": "Liquids",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "115"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "154285308",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-115oz": {
+                        "id": "size-115oz",
+                        "name": "115 oz",
+                        "categoryId": "size",
+                        "products": [
+                            "4HNUQCCFYQMV"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.104,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.104,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Plus Downy April Fresh HE, Liquid Laundry Detergent, 92 Fl Oz 59 loads",
+        "img": "https://i5.walmartimages.com/asr/5e529609-ce31-42c1-ba15-038f5ee51934_1.f471db760a585eb2633108121c756519.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Plus Downy April Fresh HE, Liquid Laundry Detergent, 92 Fl Oz 59 loads:</h2><ul><li>Tide + Downy liquid detergent offers Tide's powerful cleaning and freshness plus the color protection of Downy.</li> <li>Loaded with softening ingredients that add a smooth layer of comfort to the fibers in your fabrics.</li> <li>With a more concentrated formula, you get more cleaning agents and less water in every drop. *vs. previous formula</li> <li>Works in laundry loads for both HE and non-HE washing machines.</li> </ul>",
+            "short": "<ul><li>Tide + Downy liquid detergent offers Tide's powerful cleaning and freshness plus the color protection of Downy.</li><li>Loaded with softening ingredients that add a smooth layer of comfort to the fibers in your fabrics.</li></ul>",
+            "medium": "<p>Tide HE Turbo Clean Plus Downy April Fresh Scent Liquid Laundry Detergent delivers the amazing clean you expect from Tide and is loaded with softening ingredients that add a smooth layer of comfort to the fibers in your fabrics. Cozy up to a fresher, softer clean (1) with added scent pearls that leave behind a long-lasting, comforting scent. It's specially reformulated with HE Turbo Clean technology for 6X the cleaning power in half the time (2). Unlike many HE compatible detergents that can slow machines down with over-sudsing, this turbo-charged formula quickly collapses suds and targets tough stains. So you'll save time without sacrificing results. As part of the Tide Plus Collection, Tide HE Turbo Clean Plus Downy April Fresh Scent gives you the great Tide clean you expect plus more of what you love! (1) vs. Tide Original (2) 1 dose of Tide HE Turbo Clean in quick cycle vs. 6 doses of the next leading liquid HE compatible detergent in normal cycle.</p>"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 538
+        },
+        "size": {
+            "karfGroceryType": "Liquids",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "33963183",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Plus Bleach Alternative HE, 59 Loads Liquid Laundry Detergent, 92 Fl Oz",
+        "img": "https://i5.walmartimages.com/asr/799048c5-6846-4d38-bb08-ae40a42de8ac_1.ec13c074514e27ab6014ef49ec470292.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Plus Bleach Alternative HE, Liquid Laundry Detergent, 92 Fl Oz 59 loads:</h2> <ul> <li>More Whitening & Brightening for your money* (*vs. Tide Original)</li> <li>Color Safe</li> <li>Acti-Lift Crystals</li> <li>10x the cleaning power - 1 dose of Tide HE Turbo Clean in quick cycle vs. 10 doses of the next leading liquid HE compatible detergent in normal cycle</li> <li>HE Turbo technology gives you 10x cleaning power in the quick cycle vs. next leading detergent in normal cycle</li> <li>Specially designed for regular and high efficiency machines ? #1 recommended by washing machine manufacturers***based on co-marketing agreements</li> </ul>",
+            "short": "<ul><li>More Whitening & Brightening for your money* (*vs. Tide Original)</li><li>Color Safe</li></ul>",
+            "medium": "<p>Tide Plus Bleach Alternative laundry detergent delivers the amazing clean you expect from Tide and helps your fabrics look brighter and whiter after just one wash.* It allows you to look bright in your whites while also protecting your colors, thanks to even more cleaning ingredients that revive dingy fabrics and prevent the dirty wash water from soaking back into them. As part of the Tide Plus Collection, Tide Plus Bleach Alternative laundry detergent gives you the amazing Tide clean you expect plus more of what you love! *vs previous formula</p>"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 334
+        },
+        "size": {
+            "karfGroceryType": "Liquids",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "92.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "33963187",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide plus Downy, Liquid Laundry Detergent, April Fresh, 24 Loads 37 fl oz",
+        "img": "https://i5.walmartimages.com/asr/3f1a5be3-0c7d-4e9d-b0bd-7cb29694f86d_1.d3dab0dcc43899c43adc0d08d3934087.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide plus Downy, Liquid Laundry Detergent, April Fresh, 24 Loads 37 fl oz:</h2><ul><li>Tide + Downy liquid detergent offers Tide's powerful cleaning and freshness plus the color protection of Downy.</li><li>Loaded with softening ingredients that add a smooth layer of comfort to the fibers in your fabrics.</li><li>With a more concentrated formula, you get more cleaning agents and less water in every drop. *vs. previous formula</li><li>Works in laundry loads for both HE and non-HE washing machines.</li><li>Part of the trusted Tide Plus Collection.</li></ul>",
+            "short": "<ul><li>Tide + Downy liquid detergent offers Tide's powerful cleaning and freshness plus the color protection of Downy.</li><li>Loaded with softening ingredients that add a smooth layer of comfort to the fibers in your fabrics.</li></ul>"
+        },
+        "price": 5.24,
+        "reviews": {
+            "customerRating": 3.9,
+            "numReviews": 13
+        },
+        "size": {
+            "karfGroceryType": "Liquids",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "37.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "208828668",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Liquid Laundry Detergent/Tide Liquid Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Liquid Laundry Detergent",
+                    "url": "/cp/5250095"
+                },
+                {
+                    "name": "Tide Liquid Laundry Detergent",
+                    "url": "/cp/8010767"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Liquid Laundry Detergent, Original, 74 Loads 115 fl oz",
+        "img": "https://i5.walmartimages.com/asr/901aa8cb-d0c2-4288-b217-ad84d289dc8b_1.5d57c68ee199c21c3e8986b8ccba759e.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Tide Liquid Laundry Detergent, Original, 74 Loads, 115 fl oz:</strong><br /><ul><li>Now with 40% more stain and odor removal power per drop vs. previous formula</li><li>Get more cleaning agents and less water in every drop</li><li>Odor remover detergent infused with the Original Scent you love</li><li>Also try the small but powerful Tide PODS laundry pacs</li><li>Measure your loads with the cap</li><li>For medium loads, fill to bar 1</li><li>For large loads, fill to bar 3</li><li>For HE full loads, fill to bar 5</li><li>Add clothes, pour into the dispenser and start the washer</li><li>Specifically designed to cover your many laundry needs</li><li>This 115 fl oz bottle of Tide original liquid laundry detergent can accommodate 74 loads</li></ul>",
+            "short": "Tide Lq 2x He Orig 4/115z 74ld"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 3
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "74"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "528064308",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Liquid Laundry Detergent/Tide Liquid Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Liquid Laundry Detergent",
+                    "url": "/cp/5250095"
+                },
+                {
+                    "name": "Tide Liquid Laundry Detergent",
+                    "url": "/cp/8010767"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Plus Febreze Freshness Botanical Rain HE Turbo Clean Liquid Laundry Detergent, 92 fl oz 59 loads",
+        "img": "https://i5.walmartimages.com/asr/69860882-c606-443a-9702-18df6d8c294a_1.727f6e7ca3f6849ee7dd5964ab485323.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Plus Febreze Freshness Botanical Rain HE Turbo Clean Liquid Laundry Detergent, 92 fl oz 59 loads:</h2> <ul> <li>Tide's #1 odor remover</li> <li>Reformulated to remove even week-old sweat odors</li> <li>Provides freshness that lasts 3x longer (vs. Tide Original)</li> <li>10X cleaning power (Stain removal of one Tide PODS® in quick cycle vs. 10 doses of the leading bargain liquid detergent, base variant, in normal wash cycle)</li> <li>Cleans, freshens, whitens, brightens + more odor-fighting power</li> <li>Works in all washing machines</li> <li>Keep out of reach of children</li> </ul>",
+            "short": "<ul><li>Tide's #1 odor remover</li><li>Reformulated to remove even week-old sweat odors</li></ul>"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 4.7246,
+            "numReviews": 138
+        },
+        "size": {
+            "karfGroceryType": "Liquids",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "92"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "740722741",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/High Efficiency Laundry Detergent/High Efficiency Liquid Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "High Efficiency Laundry Detergent",
+                    "url": "/cp/1277425"
+                },
+                {
+                    "name": "High Efficiency Liquid Laundry Detergent",
+                    "url": "/cp/4641237"
+                }
+            ]
+        }
+    }
+]

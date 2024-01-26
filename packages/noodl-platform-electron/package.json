@@ -1,0 +1,16 @@
+{
+  "name": "@noodl/platform-electron",
+  "version": "2.7.0",
+  "main": "src/index.ts",
+  "description": "Cross platform implementation of platform specific features.",
+  "author": "Noodl <info@noodl.net>",
+  "homepage": "https://noodl.net",
+  "dependencies": {
+    "@noodl/platform": "file:../noodl-platform",
+    "@noodl/platform-node": "file:../noodl-platform-node"
+  },
+  "peerDependencies": {
+    "@electron/remote": ">=2.0.8",
+    "electron": ">=20.1.0"
+  }
+}

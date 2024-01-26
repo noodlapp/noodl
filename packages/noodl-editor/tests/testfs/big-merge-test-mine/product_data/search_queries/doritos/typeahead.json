@@ -1,0 +1,147 @@
+[
+    {
+        "title": "Doritos Spicy Nacho Flavored Tortilla Chips, 1.375 oz Bag",
+        "img": "https://i5.walmartimages.com/asr/9b2ec0fb-e1c0-4d9f-8deb-26668c6bebdf_1.01ba3fe88250cd1304a0471e5827c8ec.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Delicious spicy nacho flavor<br></li><li>Perfect for enjoying on-the-go or packing in school lunches<br></li><li>Snack boldly<br></li></ul>",
+            "short": "Doritos Spicy Nacho Svl-r 1.375z"
+        },
+        "price": 0.49,
+        "reviews": {},
+        "size": {
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "1.375"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "900174865",
+        "category": {
+            "categoryPath": "Home Page/Food/Snacks, Cookies & Chips/Chips/All Chips",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Snacks, Cookies & Chips",
+                    "url": "/cp/976787"
+                },
+                {
+                    "name": "Chips",
+                    "url": "/cp/1001390"
+                },
+                {
+                    "name": "All Chips",
+                    "url": "/cp/2774520"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Frito-Lay Doritos & Cheetos Variety Pack, 1 oz, 40 CT",
+        "img": "https://i5.walmartimages.com/asr/dbebd6af-6f8d-4a5d-891e-0330472ef3c5_2.8be3579daf2582024a215844f1d723c1.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "This Doritos and Cheetos Mix Variety Pack provides the perfect portion size and variety to keep your entire family happy. From the pantry to the lunch box, all you have to do is grab a pack and go! The Doritos and Cheetos Variety Pack features the following classic flavors: Cheetos Puffs, Cheetos Crunchy Cheese Flavored Snacks, Doritos Nacho Cheese, and Doritos Cool Ranch Flavored Tortilla Chips.",
+            "short": "<ul><li>Variety pack of Doritos and Cheetos favorites with classic flavors in one convenient package</li> <li>With four different varieties, there's sure to be something everyone will love</li> <li>40 count pack featuring 10 each of these classic favorites - Cheetos Puffs, Cheetos Crunchy Cheese Flavored Snacks, Doritos Nacho Cheese, and Doritos Cool Ranch Flavored Tortilla Chips</li> <li>These much loved treats are fun to enjoy at lunch, as an after-school snack, or party refreshment</li> <li>Easy to carry, easy to store, and easy to pack</li> </ul>"
+        },
+        "price": 13.98,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 55
+        },
+        "size": {
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "40"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "838468775",
+        "category": {
+            "categoryPath": "Home Page/Food/Snacks, Cookies & Chips/Chips/Variety Pack Chips",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Snacks, Cookies & Chips",
+                    "url": "/cp/976787"
+                },
+                {
+                    "name": "Chips",
+                    "url": "/cp/1001390"
+                },
+                {
+                    "name": "Variety Pack Chips",
+                    "url": "/cp/9634100"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Doritos Ultimate Cheddar Flavored Tortilla Chips, 9.75 oz Bag",
+        "img": "https://i5.walmartimages.com/asr/d5b78f48-459f-49b5-b26d-3f1aeab98638_1.7fb7524a0f10cace54b51197d5637e6e.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Delicious cheddar flavor<br></li><li>Large bag is perfect for sharing<br></li><li>Snack boldly<br></li></ul>",
+            "short": "Doritos Ultimate Cheddar Xxl 9.75oz"
+        },
+        "price": 2.98,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "9.75"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "418958052",
+        "category": {
+            "categoryPath": "Home Page/Food/Snacks, Cookies & Chips/Chips/All Chips",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Snacks, Cookies & Chips",
+                    "url": "/cp/976787"
+                },
+                {
+                    "name": "Chips",
+                    "url": "/cp/1001390"
+                },
+                {
+                    "name": "All Chips",
+                    "url": "/cp/2774520"
+                }
+            ]
+        }
+    }
+]

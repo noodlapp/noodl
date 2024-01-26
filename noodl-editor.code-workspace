@@ -1,0 +1,140 @@
+{
+  "folders": [
+    {
+      "path": "./",
+      "name": "Monorepo"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "EditorConfig.EditorConfig",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "stylelint.vscode-stylelint",
+      "hektorw.create-react-folder-component"
+    ]
+  },
+  "settings": {
+    "files.eol": "\r\n",
+    "editor.tabSize": 2,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "npm.packageManager": "npm",
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "html",
+      "typescriptreact",
+      "typescript"
+    ],
+    "css.validate": false,
+    "scss.validate": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    },
+    "search.exclude": {
+      "deps": true,
+      "**/node_modules": true,
+      "**/build": true,
+      "**/bundles": true,
+      "**/assets/lib": true
+    },
+    "[markdown]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "createreactfoldercomponent.templateLanguage": "TypeScript",
+    "createreactfoldercomponent.typeScriptStyledComponentTemplate": [
+      "import React from 'react'",
+      "import css from './$COMPONENT_NAME.module.scss'",
+      "",
+      "export interface $COMPONENT_NAMEProps {",
+      "}",
+      "",
+      "export function $COMPONENT_NAME({}: $COMPONENT_NAMEProps) {",
+      "  return <div className={css['Root']}>TODO</div>",
+      "}"
+    ],
+    "createreactfoldercomponent.typeScriptIndexTemplate": [
+      "export * from './$COMPONENT_NAME'"
+    ],
+    "createreactfoldercomponent.typeScriptComponentTemplate": [
+      "import React from 'react'",
+      "",
+      "interface $COMPONENT_NAMEProps {",
+      "}",
+      "",
+      "export function $COMPONENT_NAME({}: $COMPONENT_NAMEProps) {",
+      "}"
+    ],
+    "createreactfoldercomponent.typeScriptStyleFileNameTemplate": "$COMPONENT_NAME.module.scss",
+    "createreactfoldercomponent.typeScriptStyleTemplate": [
+      ".Root {",
+      "    font-family: var(--font-family);",
+      "    color: var(--theme-color-fg-default);",
+      "}"
+    ],
+    "createreactfoldercomponent.customFiles": [
+      {
+        "filename": "$COMPONENT_NAME.stories.tsx",
+        "outputForLanguage": "TypeScript",
+        "contents": [
+          "import React from 'react';",
+          "import { ComponentStory, ComponentMeta } from '@storybook/react';",
+          "",
+          "import { $COMPONENT_NAME } from './$COMPONENT_NAME';",
+          "",
+          "export default {",
+          "  title: 'CATEGORY_HERE/$COMPONENT_NAME',",
+          "  component: $COMPONENT_NAME,",
+          "  argTypes: {},",
+          "} as ComponentMeta<typeof $COMPONENT_NAME>;",
+          "",
+          "const Template: ComponentStory<typeof $COMPONENT_NAME> = (args) => <$COMPONENT_NAME {...args} />;",
+          "",
+          "export const Common = Template.bind({});",
+          "Common.args = {};"
+        ]
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start editor",
+        "type": "shell",
+        "command": "npm run start",
+        "problemMatcher": [],
+        "presentation": {
+          "group": "one"
+        }
+      }
+    ]
+  }
+}

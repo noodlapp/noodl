@@ -1,0 +1,151 @@
+.Root {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 64px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  background-color: var(--theme-color-bg-2);
+  text-align: left;
+
+  cursor: pointer;
+  user-select: none;
+
+  font-family: var(--font-family);
+
+  &:not(.has-no-bottom-border) {
+    border-bottom: 1px solid var(--theme-color-bg-1);
+  }
+
+  .Label {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: var(--theme-color-fg-default);
+  }
+
+  small {
+    color: var(--theme-color-fg-default-shy);
+  }
+
+  &.is-inactive {
+    cursor: default;
+  }
+
+  &.has-top-divider {
+    border-top: 1px solid var(--theme-color-bg-1);
+  }
+
+  &:hover:not(&.is-inactive) {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.is-variant-background {
+    padding-right: 18px;
+    cursor: progress;
+    background-color: var(--theme-color-bg-2);
+
+    &:hover {
+      background-color: var(--theme-color-bg-2);
+    }
+  }
+
+  &.is-variant-background-action {
+    padding-right: 18px;
+    cursor: progress;
+    background-color: var(--theme-color-bg-3);
+
+    &:hover {
+      background-color: var(--theme-color-bg-4) !important;
+    }
+  }
+
+  &.is-variant-user-action {
+    background-color: var(--theme-color-primary);
+
+    &:hover {
+      background-color: var(--theme-color-primary-highlight) !important;
+    }
+
+    path {
+      fill: var(--theme-color-on-primary);
+    }
+
+    p,
+    small {
+      color: var(--theme-color-on-primary);
+    }
+  }
+
+  &.is-variant-downloading {
+    &:hover {
+      background-color: var(--theme-color-secondary-highlight);
+    }
+  }
+
+  &.is-variant-proud {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.is-variant-on-bg-2 {
+    background-color: var(--theme-color-bg-3);
+
+    &:hover {
+      background-color: var(--theme-color-bg-4) !important;
+    }
+  }
+
+  &.is-variant-secondary {
+    background-color: var(--theme-color-secondary-dim);
+
+    &:hover {
+      background-color: var(--theme-color-secondary) !important;
+    }
+  }
+}
+
+.Container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Icon {
+  display: flex;
+  justify-content: center;
+
+  padding: 16px;
+
+  &.is-disabled {
+    opacity: 0.5;
+  }
+}
+
+.Text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 8px;
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-weight: var(--font-weight-semibold);
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  small {
+    margin: 0;
+    padding: 0;
+    font-weight: var(--font-weight-regular);
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

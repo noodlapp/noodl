@@ -1,0 +1,27 @@
+.Root {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+  user-select: none;
+}
+
+.Label {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  padding-right: 8px;
+  font-size: 12px;
+  width: 37%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-overflow: ellipsis;
+  max-height: 28px;
+  line-clamp: 2;
+
+  &.is-changed {
+    color: var(--theme-color-secondary-as-fg);
+  }
+}
+
+.InputContainer {
+  flex: 1 1 auto;
+}

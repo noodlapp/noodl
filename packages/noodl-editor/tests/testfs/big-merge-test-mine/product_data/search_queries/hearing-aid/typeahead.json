@@ -1,0 +1,286 @@
+[
+    {
+        "title": "Hearing Assist Rechargeable Hearing Aid for Both Ears, FDA Registered HA-302 Model with Charging Case, Behind-the-Ear Hearing Aids, Beige",
+        "img": "https://i5.walmartimages.com/asr/42056504-3cf2-4a76-a9a5-7b1784457d52_1.e6bcf1ec80c992515497be592e5c69bc.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong><br />Hearing Assist HA-302 Rechargeable BTE Hearing Aid for Both Ears, FDA Registered<br /></strong><ul><li>Kit contains 2 fully assembled hearing aids, charging base and additional accessories</li><li>Rechargeable </li><li>Convenient and easy to use</li><li>4-channel digital signal processor</li><li>Directional microphones</li><li>Outstanding customer service ready to assist</li><li>46dB of crystal clear digital amplification power</li><li>FDA-registered</li><li>Rechargeable hearing aid discreetly fits behind the ear</li><li>4 program levels: quiet environments (such as home or office), social environments, TV mode and outdoors</li><li>For individuals who have mild to moderate hearing loss</li><li>Comes in beige and gray</li></ul>",
+            "short": "<div>&nbsp;1. FDA Register Hearing Aid for All Adults : The same quality you get from an audiologist for a fraction of the price!</div><div>2. 100% Rechargeable Hearing Aid : Save money with our rechargeable magnetic charging station that?s easy and convenient!</div><div><div>3. Clear Digital Sound : 4 adjustable volume controls for different environments. Easily adjust volume with just one finger.</div><div>4. The Hearing Assist Recharge is a BTE Hearing Aid (Behind the Ear) making it discrete and easy to put on/off.</div></div>"
+        },
+        "price": 498.88,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 130
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "536255316",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-gray": {
+                        "id": "actual_color-gray",
+                        "name": "Gray",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/13eb855f-251b-4e4b-979d-fa3fcdbde4be_1.c23aa90a990d8099353bb3fc31912b88.jpeg",
+                        "products": [
+                            "50AKWXRI2Q7L"
+                        ],
+                        "images": [
+                            "B1A6F93287B246E482E857CB5052620B"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-beige": {
+                        "id": "actual_color-beige",
+                        "name": "Beige",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/2aa3f308-7e96-4006-985b-74ccdb386603_1.c0ad1b7fbac9ce951605487b43ea1cdd.jpeg",
+                        "products": [
+                            "1JL862QQTBH7"
+                        ],
+                        "images": [
+                            "538A248ABD4E47AAB5076FE90F7B86AE",
+                            "9BB13B78DCD4469AAED63750717AE4AB",
+                            "9D9E20DFD0944EF2AC921845AAA30AD1",
+                            "FF9221601C6C49ECAEC5FAB0A3EBC0DA",
+                            "B5EFFF4B78944C85967406592519CA11",
+                            "3E3CFFE5273B43209C3076763625E41D",
+                            "D93727C72B764EAF90608A1FA2C3364E"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids",
+                    "url": "/cp/6949790"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Hearing Assist Bluetooth Rechargeable Hearing Aid for Both Ears, App Enabled FDA Registered HA 802 Model with Charging Case, Behind-the-Ear Hearing Aids, Beige",
+        "img": "https://i5.walmartimages.com/asr/30869383-e5cd-4d58-837a-433ece56f5c7_7.6915bc6e55d05bcd18013caa49c22ff3.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Hearing Assist Hearing Amplifier to Aid Hearing, App Enabled, FDA Registered, with Charging Case, Beige for Both Ears",
+            "short": "<ul><li>Two Hearing Aids per kit</li><li>Rechargeable</li><li>Controlled via Hearing Assist app&nbsp;</li></ul>"
+        },
+        "price": 599.97,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 101
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "171302026",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids",
+                    "url": "/cp/6949790"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Eargo Neo - Virtually Invisible Hearing Aid",
+        "img": "https://i5.walmartimages.com/asr/a161f585-3b47-4ddb-81be-ee2aa03e85bd_1.2d80a7e325b431905253b8ea26f73871.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li><h3>Virtually Invisible</h3><div><br></div><div>Eargos are beautifully designed to never be seen, so your little secret stays a secret.</div></li><li><h3>Rechargeable</h3><p>Our on-the-go rechargeable case makes sure you?re powered up for whatever life throws at you next.</p><p></p></li><li><h3>Comfortable</h3><p>Eargos are so comfortable, you?ll forget they?re there, helping you out decibel after decibel.</p><p></p></li><li><h3>Your Ears Are in Good Company</h3><p>Our team of licensed hearing professionals will be with you every step of the way.</p><p></p></li><li><h3>Connected</h3><p>With the Eargo app you and your Personal Hearing Professional can fine-tune your Eargo Neo's settings to match your unique lifestyle.</p><p></p></li></ul>",
+            "short": "SAY HELLO TO A WORLD OF SOUND. Life doesn?t stop with hearing loss. Eargo Neo is the rechargeable, comfortable, and nearly invisible hearing aid that helps you hear with crystal clarity and live your life, uninterrupted. Eargo Neo is FDA cleared for mild to severe high-frequency loss.<br><br>LIFETIME SUPPORT. We pair you with a licensed hearing professional from day one. Plus, with our telehealth service, you can get Eargo Neo hearing aids and connect with a hearing health professional all from the comfort of your own home without ever having to travel to a hearing clinic or pay another co-pay. After receiving your Eargos, we?ll be on hand to help you get set up virtually and answer any and all of your questions, along with providing valuable tips to help you make the most of your Eargos. And it doesn't stop there; you'll have free and unlimited support throughout your hearing journey.<br>"
+        },
+        "price": 2350,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 25,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "415239317",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids & Amplifiers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids & Amplifiers",
+                    "url": "/cp/5260629"
+                }
+            ]
+        }
+    }
+]

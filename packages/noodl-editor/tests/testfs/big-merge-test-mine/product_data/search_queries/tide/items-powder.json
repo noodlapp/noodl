@@ -1,0 +1,195 @@
+[
+    {
+        "title": "Tide Powder Laundry Detergent, Original, 40 loads, 56 oz",
+        "img": "https://i5.walmartimages.com/asr/ce4d5e8a-af0a-41de-949a-12ee95b32e13_1.8c8cd8519b34e5c371d0965181a5cd5b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Powder Laundry Detergent, Original, 40 loads, 56 oz:</h2><ul><li>2 scoop of Tide = 10 scoops of detergent with Oxi</li><li>Attacks Even 7 Day-Old Stains</li><li>Acti-Lift Crystals</li><li>10x the cleaning power - 1 dose of Tide HE Turbo Clean in quick cycle vs. 10 doses of the next leading liquid HE compatible detergent in normal cycle</li><li>HE Turbo technology gives you 10x cleaning power in the quick cycle vs. next leading detergent in normal cycle</li><li>Specially designed for regular and high efficiency machines - #1 recommended by washing machine manufacturers***based on co-marketing agreements</li></ul>",
+            "short": "<ul><li>2 scoop of Tide = 10 scoops of detergent with Oxi</li><li>Attacks Even 7 Day-Old Stains</li></ul>",
+            "medium": "<p>Keep your clothes clean and smelling fresh with Ultra Tide Original HE Powder Laundry Detergent, 56 oz. The Tide Powder Laundry Detergent will wash up to 40 loads and is designed for high-efficiency washing machines. One scoop of Tide HE Laundry Detergent will help remove almost any type of stain, even those that are days old.</p>"
+        },
+        "price": 8.96,
+        "reviews": {
+            "customerRating": 3.2,
+            "numReviews": 144
+        },
+        "size": {
+            "karfGroceryType": "Powder",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "56"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "21675362",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Plus Bleach 80 Loads, Powder Laundry Detergent, 144 Oz",
+        "img": "https://i5.walmartimages.com/asr/7e2496ef-58cf-4e3a-b576-e7a0f495435c_1.7608ccde3693596f9cb660caf71c860d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Plus Bleach 80 Loads, Powder Laundry Detergent, 144 Oz:</h2> <ul> <li>Tide Plus Bleach powder detergent brightens your whites and colors in every wash.</li> <li>Using active enzymes, Tide Plus Bleach breaks down stains and whitens whites without chlorine bleach.</li> <li>The cleaning power you love, with a great new look.</li> <li>Tide Plus Bleach reduces chlorine in the water, which keeps your colors from fading.</li> <li>The smart alternative to chlorine bleach.</li> </ul>",
+            "short": "<ul><li>Tide Plus Bleach powder detergent brightens your whites and colors in every wash.</li><li>Using active enzymes, Tide Plus Bleach breaks down stains and whitens whites without chlorine bleach.</li></ul>",
+            "medium": "Use this Ultra Tide Plus Bleach Original Scent Powder Laundry Detergent for more whitening and brightening power for your money. It features a high-efficiency formula and is color safe. The scented laundry detergent is concentrated and has Acti-Lift crystals. One small scoop helps remove virtually every type of stain."
+        },
+        "price": 18.96,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 1507
+        },
+        "size": {
+            "karfGroceryType": "Powder",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "144"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "34763227",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-80loads": {
+                        "id": "size-80loads",
+                        "name": "80 loads",
+                        "categoryId": "size",
+                        "products": [
+                            "0RN4G8WDT275"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 18.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.132,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 18.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.132,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide With a Touch of Downy HE Turbo Powder Laundry Detergent, Clean Breeze, 80 Loads, 148 oz",
+        "img": "https://i5.walmartimages.com/asr/81a1ecc8-02e2-42bc-82f9-586bc42c95fb_1.f53ea5e957bdf0b1617c873f0ac024a4.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide With a Touch of Downy HE Turbo Powder Laundry Detergent, Clean Breeze, 80 Loads, 148 oz:</h2> <p></p> <ul><li>Added Softness for your Money</li><li>Acti-Lift Crystals</li><li>6x the cleaning power in half the time* (*1 dose of Tide HE Turbo Clean in quick cycle vs. 6 doses of the next leading liquid HE compatible detergent in normal cycle)</li><li>HE Turbo technology gives you 6x cleaning power in the quick cycle vs. next leading detergent in normal cycle</li><li>Specially designed for high efficiency machines - #1 recommended by washing machine manufacturers* (*based on co-marketing agreements)</li></ul>",
+            "short": "<ul><li>Added Softness for your Money</li> <li>Acti-Lift Crystals</li></ul>",
+            "medium": "Ultra Tide Plus a Touch of Downy Clean Breeze Powder Laundry Detergent will give you a clean you can trust. Wash up to 80 loads of laundry with the 148-oz pack of Tide Laundry Detergent. This Tide Ultra Powder laundry detergent can clean a variety of stains, including stains that are up to seven days old. Get clothes clean and fresh with Ultra Tide Plus a Touch of Downy Clean Breeze Powder Laundry Detergent."
+        },
+        "price": 34.52,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 25
+        },
+        "size": {
+            "karfGroceryType": "Powder",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "148.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "21675353",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Powder Laundry Detergent/Tide Powder Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Powder Laundry Detergent",
+                    "url": "/cp/2590354"
+                },
+                {
+                    "name": "Tide Powder Laundry Detergent",
+                    "url": "/cp/2511591"
+                }
+            ]
+        }
+    }
+]

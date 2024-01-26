@@ -1,0 +1,1107 @@
+{
+    "name": "Mapbox_Directions_API",
+    "components": [
+        {
+            "name": "/App",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "5888a1a4-10b7-c0dd-a5c4-10a31654434c",
+                        "fromProperty": "map",
+                        "toId": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "toProperty": "Map"
+                    },
+                    {
+                        "fromId": "5888a1a4-10b7-c0dd-a5c4-10a31654434c",
+                        "fromProperty": "mapLoaded",
+                        "toId": "cae40af1-c935-bc08-2ddb-4ee4cd85a8c6",
+                        "toProperty": "Mount Click Event"
+                    },
+                    {
+                        "fromId": "5888a1a4-10b7-c0dd-a5c4-10a31654434c",
+                        "fromProperty": "map",
+                        "toId": "cae40af1-c935-bc08-2ddb-4ee4cd85a8c6",
+                        "toProperty": "Mapbox Object"
+                    },
+                    {
+                        "fromId": "cae40af1-c935-bc08-2ddb-4ee4cd85a8c6",
+                        "fromProperty": "Clicked",
+                        "toId": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "toProperty": "CreateRoute"
+                    },
+                    {
+                        "fromId": "cae40af1-c935-bc08-2ddb-4ee4cd85a8c6",
+                        "fromProperty": "Clicked Longitude",
+                        "toId": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "toProperty": "endLongitude"
+                    },
+                    {
+                        "fromId": "cae40af1-c935-bc08-2ddb-4ee4cd85a8c6",
+                        "fromProperty": "Clicked Latitute",
+                        "toId": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "toProperty": "endLatitute"
+                    },
+                    {
+                        "fromId": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "fromProperty": "Steps",
+                        "toId": "174b3737-1001-d28b-6a1f-8525d14d7565",
+                        "toProperty": "items"
+                    },
+                    {
+                        "fromId": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "fromProperty": "Duration",
+                        "toId": "5ce50c95-dabc-3b92-5523-4d7f42517223",
+                        "toProperty": "duration"
+                    },
+                    {
+                        "fromId": "5ce50c95-dabc-3b92-5523-4d7f42517223",
+                        "fromProperty": "formatted",
+                        "toId": "2bf1c283-6ae9-49cc-a8f0-18b960f07325",
+                        "toProperty": "text"
+                    },
+                    {
+                        "fromId": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "fromProperty": "Steps",
+                        "toId": "47fe11ef-3e79-5a64-9cb1-d83fdc221c44",
+                        "toProperty": "value"
+                    },
+                    {
+                        "fromId": "47fe11ef-3e79-5a64-9cb1-d83fdc221c44",
+                        "fromProperty": "result",
+                        "toId": "78d38c66-9b68-4a66-c6a0-a34fd5e1038a",
+                        "toProperty": "visible"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "246f9453-a119-ac78-171e-3806cf596ecc",
+                        "type": "Group",
+                        "x": -111.4681915301291,
+                        "y": 311.4376377651178,
+                        "parameters": {
+                            "backgroundColor": "#FFFFFF"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "5888a1a4-10b7-c0dd-a5c4-10a31654434c",
+                                "type": "Mapbox Map",
+                                "parameters": {
+                                    "longitude": 13.00051400697093,
+                                    "zoom": 14,
+                                    "latitute": 55.59900890612954
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "78d38c66-9b68-4a66-c6a0-a34fd5e1038a",
+                                "type": "Group",
+                                "parameters": {
+                                    "position": "absolute",
+                                    "marginTop": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    },
+                                    "backgroundColor": "#FFFFFF",
+                                    "sizeMode": "contentSize",
+                                    "paddingLeft": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    },
+                                    "paddingTop": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    },
+                                    "paddingRight": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    },
+                                    "paddingBottom": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": [
+                                    {
+                                        "id": "2bf1c283-6ae9-49cc-a8f0-18b960f07325",
+                                        "type": "Text",
+                                        "parameters": {},
+                                        "ports": [],
+                                        "dynamicports": [],
+                                        "children": []
+                                    },
+                                    {
+                                        "id": "174b3737-1001-d28b-6a1f-8525d14d7565",
+                                        "type": "For Each",
+                                        "parameters": {
+                                            "template": "/Step Item"
+                                        },
+                                        "ports": [],
+                                        "dynamicports": [
+                                            {
+                                                "name": "inputMappingScript",
+                                                "type": {
+                                                    "name": "string",
+                                                    "codeeditor": "javascript"
+                                                },
+                                                "displayName": "Script",
+                                                "group": "Input Mapping",
+                                                "default": "// Here you add mappings between the properties of the item objects and the inputs of the components.\n// 'myComponentInput': 'myObjectProperty',\n// 'anotherComponentInput': function () { return object.get('someProperty') + ' ' + object.get('otherProp') }\n// These are the default mappings based on the selected template component.\nmap({\n\t'maneuver': 'maneuver',\n})\n",
+                                                "plug": "input",
+                                                "index": 6
+                                            }
+                                        ],
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0a1bfe24-ad9d-3116-4718-819d8a4902bf",
+                        "type": "Javascript2",
+                        "label": "Create Route",
+                        "x": 508.53180846987084,
+                        "y": 297.4376377651178,
+                        "parameters": {
+                            "code": "// This function makes a Mapbox Directions API request\nasync function getRoute(map, start, end) {\n  const accessToken = Noodl.getProjectSettings().mapboxAccessToken;\n\n  // make a directions request using cycling profile\n  // an arbitrary start will always be the same\n  // only the end or destination will change\n  const query = await fetch(\n    `https://api.mapbox.com/directions/v5/mapbox/cycling/${start[0]},${start[1]};${end[0]},${end[1]}?steps=true&geometries=geojson&access_token=${accessToken}`,\n    { method: \"GET\" }\n  );\n  const json = await query.json();\n  const data = json.routes[0];\n  const route = data.geometry.coordinates;\n  const geojson = {\n    type: \"Feature\",\n    properties: {},\n    geometry: {\n      type: \"LineString\",\n      coordinates: route,\n    },\n  };\n  // if the route already exists on the map, we'll reset it using setData\n  if (map.getSource(\"route\")) {\n    map.getSource(\"route\").setData(geojson);\n  }\n  // otherwise, we'll make a new request\n  else {\n    map.addLayer({\n      id: \"route\",\n      type: \"line\",\n      source: {\n        type: \"geojson\",\n        data: geojson,\n      },\n      layout: {\n        \"line-join\": \"round\",\n        \"line-cap\": \"round\",\n      },\n      paint: {\n        \"line-color\": \"#3887be\",\n        \"line-width\": 5,\n        \"line-opacity\": 0.75,\n      },\n    });\n  }\n\n  return data;\n}\n\n//\n// Start of Noodl Script\n//\n\nScript.Inputs = {\n  map: {\n    displayName: \"Mapbox Object\",\n    type: \"*\",\n  },\n\n  startLongitude: {\n    displayName: \"Start Longitude\",\n    type: \"number\",\n    group: \"Coordinates\",\n    default: 0,\n  },\n  startLatitute: {\n    displayName: \"Start Latitude\",\n    type: \"number\",\n    group: \"Coordinates\",\n    default: 0,\n  },\n\n  endLongitude: {\n    displayName: \"End Longitude\",\n    type: \"number\",\n    group: \"Coordinates\",\n    default: 0,\n  },\n  endLatitute: {\n    displayName: \"End Latitude\",\n    type: \"number\",\n    group: \"Coordinates\",\n    default: 0,\n  },\n\n  // You can read more about Routing profiles here:\n  // https://docs.mapbox.com/api/navigation/directions/#routing-profiles\n  routingProfile: {\n    displayName: \"Routing Profile\",\n    type: {\n      name: \"enum\",\n      enums: [\n        {\n          label: \"Driving Traffic\",\n          value: \"mapbox/driving-traffic\",\n        },\n        {\n          label: \"Driving\",\n          value: \"mapbox/driving\",\n        },\n        {\n          label: \"Walking\",\n          value: \"mapbox/walking\",\n        },\n        {\n          label: \"Cycling\",\n          value: \"mapbox/cycling\",\n        },\n      ],\n    },\n    default: \"mapbox/cycling\",\n  },\n};\n\nScript.Outputs = {\n  Steps: \"array\",\n  Duration: \"number\",\n};\n\nScript.Signals.CreateRoute = function () {\n  const map = Script.Inputs.Map;\n  const startCoords = [\n    Script.Inputs.startLongitude,\n    Script.Inputs.startLatitute,\n  ];\n  const endCoords = [Script.Inputs.endLongitude, Script.Inputs.endLatitute];\n\n  // Add starting point to the map\n  map.addLayer({\n    id: \"point\",\n    type: \"circle\",\n    source: {\n      type: \"geojson\",\n      data: {\n        type: \"FeatureCollection\",\n        features: [\n          {\n            type: \"Feature\",\n            properties: {},\n            geometry: {\n              type: \"Point\",\n              coordinates: startCoords,\n            },\n          },\n        ],\n      },\n    },\n    paint: {\n      \"circle-radius\": 10,\n      \"circle-color\": \"#3887be\",\n    },\n  });\n\n  const endPoint = {\n    type: \"FeatureCollection\",\n    features: [\n      {\n        type: \"Feature\",\n        properties: {},\n        geometry: {\n          type: \"Point\",\n          coordinates: endCoords,\n        },\n      },\n    ],\n  };\n\n  if (map.getLayer(\"end\")) {\n    map.getSource(\"end\").setData(endPoint);\n  } else {\n    map.addLayer({\n      id: \"end\",\n      type: \"circle\",\n      source: {\n        type: \"geojson\",\n        data: {\n          type: \"FeatureCollection\",\n          features: [\n            {\n              type: \"Feature\",\n              properties: {},\n              geometry: {\n                type: \"Point\",\n                coordinates: endCoords,\n              },\n            },\n          ],\n        },\n      },\n      paint: {\n        \"circle-radius\": 10,\n        \"circle-color\": \"#f30\",\n      },\n    });\n  }\n\n  // make an directions request that\n  getRoute(map, startCoords, endCoords).then((data) => {\n    // Extract the steps / instructions\n    const steps = data.legs[0].steps;\n    Script.Outputs.Steps = steps;\n\n    Script.Outputs.Duration = Math.floor(data.duration / 60);\n  });\n};\n",
+                            "startLatitute": 55.59900890612954,
+                            "startLongitude": 13.00051400697093
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "map",
+                                "plug": "input",
+                                "displayName": "Mapbox Object",
+                                "type": "*",
+                                "index": 5
+                            },
+                            {
+                                "name": "startLongitude",
+                                "plug": "input",
+                                "displayName": "Start Longitude",
+                                "type": "number",
+                                "group": "Coordinates",
+                                "default": 0,
+                                "index": 6
+                            },
+                            {
+                                "name": "startLatitute",
+                                "plug": "input",
+                                "displayName": "Start Latitude",
+                                "type": "number",
+                                "group": "Coordinates",
+                                "default": 0,
+                                "index": 7
+                            },
+                            {
+                                "name": "endLongitude",
+                                "plug": "input",
+                                "displayName": "End Longitude",
+                                "type": "number",
+                                "group": "Coordinates",
+                                "default": 0,
+                                "index": 8
+                            },
+                            {
+                                "name": "endLatitute",
+                                "plug": "input",
+                                "displayName": "End Latitude",
+                                "type": "number",
+                                "group": "Coordinates",
+                                "default": 0,
+                                "index": 9
+                            },
+                            {
+                                "name": "routingProfile",
+                                "plug": "input",
+                                "displayName": "Routing Profile",
+                                "type": {
+                                    "name": "enum",
+                                    "enums": [
+                                        {
+                                            "label": "Driving Traffic",
+                                            "value": "mapbox/driving-traffic"
+                                        },
+                                        {
+                                            "label": "Driving",
+                                            "value": "mapbox/driving"
+                                        },
+                                        {
+                                            "label": "Walking",
+                                            "value": "mapbox/walking"
+                                        },
+                                        {
+                                            "label": "Cycling",
+                                            "value": "mapbox/cycling"
+                                        }
+                                    ]
+                                },
+                                "default": "mapbox/cycling",
+                                "index": 10
+                            },
+                            {
+                                "name": "CreateRoute",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 11
+                            },
+                            {
+                                "name": "Steps",
+                                "type": {
+                                    "name": "array"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 12
+                            },
+                            {
+                                "name": "Duration",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 13
+                            },
+                            {
+                                "name": "Map",
+                                "displayName": "Map",
+                                "plug": "input",
+                                "type": "*",
+                                "group": "Inputs",
+                                "index": 14
+                            }
+                        ],
+                        "children": [],
+                        "metadata": {
+                            "merge": {
+                                "soureCodePorts": [
+                                    "code"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "id": "cae40af1-c935-bc08-2ddb-4ee4cd85a8c6",
+                        "type": "Javascript2",
+                        "label": "Mapbox On Click",
+                        "x": 214.53180846987084,
+                        "y": 207.4376377651178,
+                        "parameters": {
+                            "code": "Script.Outputs = {\n  [\"Mapbox Object\"]: \"*\",\n  [\"Clicked\"]: \"signal\",\n  [\"Clicked Longitude\"]: \"number\",\n  [\"Clicked Latitute\"]: \"number\"\n};\n\nScript.Signals[\"Mount Click Event\"] = function () {\n  // Listen to the Mapbox on click event\n  // NOTE: This might cause some memory leaks,\n  //       Not sure how Mapbox is handling it.\n  Script.Inputs[\"Mapbox Object\"].on(\"click\", (event) => {\n    // Get the coordinates that the user pressed on\n    const coords = Object.keys(event.lngLat).map((key) => event.lngLat[key]);\n    \n    // Set the Noodl outputs\n    Script.Outputs[\"Clicked Longitude\"] = coords[0];\n    Script.Outputs[\"Clicked Latitute\"] = coords[1];\n\n    // Send the click signal\n    Script.Outputs[\"Clicked\"]();\n  });\n};\n"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "Mount Click Event",
+                                "plug": "input",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "group": "Inputs",
+                                "index": 5
+                            },
+                            {
+                                "name": "Mapbox Object",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 6
+                            },
+                            {
+                                "name": "Clicked",
+                                "type": {
+                                    "name": "signal"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 7
+                            },
+                            {
+                                "name": "Clicked Longitude",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 8
+                            },
+                            {
+                                "name": "Clicked Latitute",
+                                "type": {
+                                    "name": "number"
+                                },
+                                "plug": "output",
+                                "group": "Outputs",
+                                "index": 9
+                            },
+                            {
+                                "name": "Mapbox Object",
+                                "displayName": "Mapbox Object",
+                                "plug": "inputs",
+                                "type": "*",
+                                "group": "Inputs",
+                                "index": 10
+                            }
+                        ],
+                        "children": [],
+                        "metadata": {
+                            "merge": {
+                                "soureCodePorts": [
+                                    "code"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "id": "5ce50c95-dabc-3b92-5523-4d7f42517223",
+                        "type": "String Format",
+                        "x": 240.39216977332705,
+                        "y": 636.3443761457655,
+                        "parameters": {
+                            "format": "Trip duration: {duration} min ð´ "
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "duration",
+                                "type": "string",
+                                "plug": "input",
+                                "index": 2
+                            }
+                        ],
+                        "children": []
+                    },
+                    {
+                        "id": "47fe11ef-3e79-5a64-9cb1-d83fdc221c44",
+                        "type": "Expression",
+                        "x": 245.8584778700897,
+                        "y": 527.0182142105168,
+                        "parameters": {
+                            "expression": "!!value"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "value",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 2
+                            }
+                        ],
+                        "children": [],
+                        "metadata": {
+                            "merge": {
+                                "soureCodePorts": [
+                                    "expression"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasSize": {
+                    "width": "1039px",
+                    "height": "751px"
+                },
+                "canvasPos": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "name": "/Step Item",
+            "id": "5ecebdb7-3c7b-3fc7-e6ca-47eb44aa5eab",
+            "graph": {
+                "connections": [
+                    {
+                        "fromId": "29ef3a32-14fa-c4c5-4849-4c7b3d14aaae",
+                        "fromProperty": "maneuver",
+                        "toId": "1345f2e5-06d9-e6e8-c77b-79897247db70",
+                        "toProperty": "maneuver"
+                    },
+                    {
+                        "fromId": "1345f2e5-06d9-e6e8-c77b-79897247db70",
+                        "fromProperty": "result",
+                        "toId": "cedd825a-80df-4f45-872e-0aad22adbc67",
+                        "toProperty": "text"
+                    }
+                ],
+                "roots": [
+                    {
+                        "id": "29ef3a32-14fa-c4c5-4849-4c7b3d14aaae",
+                        "type": "Component Inputs",
+                        "x": -458.5,
+                        "y": 78.5,
+                        "parameters": {},
+                        "ports": [
+                            {
+                                "name": "maneuver",
+                                "plug": "output",
+                                "type": {
+                                    "name": "*"
+                                },
+                                "index": 2
+                            }
+                        ],
+                        "dynamicports": [],
+                        "children": []
+                    },
+                    {
+                        "id": "1345f2e5-06d9-e6e8-c77b-79897247db70",
+                        "type": "Expression",
+                        "x": -205.5,
+                        "y": 67.5,
+                        "parameters": {
+                            "expression": "maneuver.instruction"
+                        },
+                        "ports": [],
+                        "dynamicports": [
+                            {
+                                "name": "maneuver",
+                                "type": {
+                                    "name": "*",
+                                    "editAsType": "string"
+                                },
+                                "plug": "input",
+                                "index": 2
+                            }
+                        ],
+                        "children": [],
+                        "metadata": {
+                            "merge": {
+                                "soureCodePorts": [
+                                    "expression"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "id": "36b8eabc-071e-bee2-b3a8-129bbd9c3e3d",
+                        "type": "Group",
+                        "x": 51.5,
+                        "y": 60.5,
+                        "parameters": {
+                            "flexDirection": "row"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "43cb53ed-8410-9778-b4cb-4a35d21278ea",
+                                "type": "net.noodl.visual.icon",
+                                "parameters": {
+                                    "iconIconSource": {
+                                        "class": "material-icons",
+                                        "code": "circle"
+                                    },
+                                    "iconColor": "Light Gray",
+                                    "iconSize": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    },
+                                    "alignY": "center",
+                                    "marginRight": {
+                                        "value": 16,
+                                        "unit": "px"
+                                    },
+                                    "marginLeft": {
+                                        "value": 8,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "cedd825a-80df-4f45-872e-0aad22adbc67",
+                                "type": "Text",
+                                "parameters": {
+                                    "sizeMode": "contentSize"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 1119,
+                    "y": 0
+                }
+            }
+        }
+    ],
+    "settings": {
+        "mapboxAccessToken": "pk.eyJ1IjoiZXJ0dXYiLCJhIjoiY2w0N2ZubWdpMDVhYTNkbzh6NTJlbm0xaCJ9.Rt2gRXVrbFeEc8aanZclSw"
+    },
+    "rootNodeId": "246f9453-a119-ac78-171e-3806cf596ecc",
+    "version": "3",
+    "metadata": {
+        "dbCollections": [],
+        "styles": {
+            "colors": {
+                "Primary": "#5836F5",
+                "Light Gray": "#C6C6C6",
+                "Dark Gray": "#434B53",
+                "Primary Dark": "#3F22B8",
+                "Dark": "#1F1F1F",
+                "Primary Light": "#C9BFFC"
+            },
+            "text": {
+                "Body Text": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "18",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                },
+                "Button Label": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "16",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                },
+                "Label Text": {
+                    "fontFamily": "fonts/Roboto/Roboto-Regular.ttf",
+                    "fontSize": {
+                        "value": "14",
+                        "unit": "px"
+                    },
+                    "color": "#000000"
+                }
+            }
+        }
+    },
+    "variants": [
+        {
+            "typename": "net.noodl.controls.button",
+            "parameters": {
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "sizeMode": "contentWidth",
+                "backgroundColor": "Primary",
+                "iconIconSource": {
+                    "class": "material-icons",
+                    "code": "home"
+                },
+                "iconSize": {
+                    "value": 22,
+                    "unit": "px"
+                },
+                "iconSpacing": {
+                    "value": 6,
+                    "unit": "px"
+                },
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "textStyle": "Button Label",
+                "paddingTop": {
+                    "value": 5,
+                    "unit": "px"
+                },
+                "paddingLeft": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingBottom": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "color": "#FFFFFF",
+                "fontFamily": "fonts/Roboto/Roboto-Medium.ttf"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "backgroundColor": "Primary Dark"
+                },
+                "pressed": {
+                    "backgroundColor": "Primary Light",
+                    "color": "Primary Dark"
+                },
+                "disabled": {
+                    "backgroundColor": "Light Gray"
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "pressed": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.radiobutton",
+            "parameters": {
+                "width": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "height": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "useLabel": true,
+                "labeltextStyle": "Label Text",
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "value": "0",
+                "useIcon": false,
+                "fillColor": "transparent",
+                "borderColor": "#1F1F1F7F",
+                "labelfontSize": {
+                    "value": 16,
+                    "unit": "px"
+                }
+            },
+            "stateParamaters": {
+                "checked": {
+                    "fillColor": "Primary",
+                    "borderColor": "Primary",
+                    "borderWidth": {
+                        "value": 2,
+                        "unit": "px"
+                    },
+                    "backgroundColor": "#FFFFFF",
+                    "width": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "height": {
+                        "value": 24,
+                        "unit": "px"
+                    }
+                },
+                "hover": {
+                    "backgroundColor": "transparent",
+                    "borderColor": "Primary",
+                    "width": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "height": {
+                        "value": 24,
+                        "unit": "px"
+                    }
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "checked": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "Text",
+            "parameters": {
+                "textStyle": "Body Text"
+            },
+            "stateParamaters": {},
+            "stateTransitions": {}
+        },
+        {
+            "typename": "net.noodl.controls.range",
+            "parameters": {
+                "thumbColor": "Primary",
+                "thumbBorderRadius": {
+                    "value": 100,
+                    "unit": "%"
+                },
+                "trackHeight": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "trackActiveColor": "Primary",
+                "trackColor": "Primary Light",
+                "width": {
+                    "value": 100,
+                    "unit": "%"
+                }
+            },
+            "stateParamaters": {},
+            "stateTransitions": {}
+        },
+        {
+            "typename": "net.noodl.controls.checkbox",
+            "parameters": {
+                "width": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "height": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "useIcon": false,
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "useLabel": true,
+                "labeltextStyle": "Label Text",
+                "borderRadius": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderColor": "#0000007F",
+                "labelfontSize": {
+                    "value": 16,
+                    "unit": "px"
+                },
+                "labelcolor": "Dark"
+            },
+            "stateParamaters": {
+                "checked": {
+                    "useIcon": true,
+                    "iconIconSource": {
+                        "class": "material-icons",
+                        "code": "check"
+                    },
+                    "backgroundColor": "Primary",
+                    "borderColor": "Primary",
+                    "iconSize": {
+                        "value": 16,
+                        "unit": "px"
+                    }
+                },
+                "disabled": {
+                    "opacity": 0.5
+                },
+                "hover": {
+                    "borderColor": "Primary"
+                },
+                "pressed": {}
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "hover": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "checked": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.textinput",
+            "parameters": {
+                "useLabel": true,
+                "sizeMode": "explicit",
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "textStyle": "Body Text",
+                "borderStyle": "solid",
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderColor": "#1F1F1F7F",
+                "labeltextStyle": "Label Text",
+                "paddingLeft": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "labelSpacing": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "placeholder": "Type here",
+                "labelcolor": "#1F1F1F7F",
+                "labeltextTransform": "uppercase",
+                "labelfontSize": {
+                    "value": 12,
+                    "unit": "px"
+                },
+                "labelfontFamily": "fonts/Roboto/Roboto-Medium.ttf"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "labelcolor": "#000000",
+                    "borderColor": "Dark",
+                    "borderStyle": "solid"
+                },
+                "focused": {
+                    "borderColor": "Primary",
+                    "labelcolor": "Primary",
+                    "borderWidth": {
+                        "value": 2,
+                        "unit": "px"
+                    },
+                    "boxShadowEnabled": false,
+                    "boxShadowColor": "Primary",
+                    "borderStyle": "solid"
+                },
+                "disabled": {
+                    "labelcolor": "Light Gray",
+                    "backgroundColor": "Light Gray",
+                    "borderWidth": {
+                        "value": 1,
+                        "unit": "px"
+                    },
+                    "borderColor": "Light Gray"
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "focused": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        },
+        {
+            "typename": "net.noodl.controls.options",
+            "parameters": {
+                "sizeMode": "explicit",
+                "height": {
+                    "value": 40,
+                    "unit": "px"
+                },
+                "borderWidth": {
+                    "value": 2,
+                    "unit": "px"
+                },
+                "borderRadius": {
+                    "value": 4,
+                    "unit": "px"
+                },
+                "borderColor": "#1F1F1F7F",
+                "boxShadowColor": "Dark Gray",
+                "useIcon": true,
+                "iconIconSource": {
+                    "class": "material-icons",
+                    "code": "expand_more"
+                },
+                "iconPlacement": "right",
+                "iconSize": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "paddingRight": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "textStyle": "Body Text",
+                "paddingLeft": {
+                    "value": 8,
+                    "unit": "px"
+                },
+                "marginTop": {
+                    "value": 24,
+                    "unit": "px"
+                },
+                "width": {
+                    "value": 75,
+                    "unit": "%"
+                },
+                "iconColor": "#1F1F1F7F"
+            },
+            "stateParamaters": {
+                "hover": {
+                    "borderColor": "Dark",
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    },
+                    "iconColor": "Dark",
+                    "iconSize": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "iconPlacement": "right"
+                },
+                "focused": {
+                    "borderColor": "Primary",
+                    "boxShadowColor": "Primary",
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    },
+                    "useIcon": true,
+                    "iconColor": "Primary",
+                    "iconIconSource": {
+                        "class": "material-icons",
+                        "code": "keyboard_arrow_up"
+                    },
+                    "iconSize": {
+                        "value": 24,
+                        "unit": "px"
+                    },
+                    "iconPlacement": "right"
+                },
+                "pressed": {
+                    "borderRadius": {
+                        "value": 4,
+                        "unit": "px"
+                    }
+                }
+            },
+            "stateTransitions": {},
+            "defaultStateTransitions": {
+                "neutral": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                },
+                "focused": {
+                    "curve": [
+                        0,
+                        0,
+                        0.58,
+                        1
+                    ],
+                    "dur": 300,
+                    "delay": 0
+                }
+            }
+        }
+    ]
+}

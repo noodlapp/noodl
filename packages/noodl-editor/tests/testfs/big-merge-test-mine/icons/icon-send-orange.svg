@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon-send</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Content-02" transform="translate(-17.000000, -475.000000)" fill="#F47420">
+            <g id="Past-Orders-Card" transform="translate(0.000000, 452.000000)">
+                <g id="Text" transform="translate(17.000000, 20.000000)">
+                    <g id="icon-send" transform="translate(0.000000, 3.000000)">
+                        <path d="M17.9121,0.0879 C17.8302,0.0054 17.7072,-0.0216 17.5977,0.018 L0.1977,6.318 C0.0843,6.3591 0.0063,6.4644 0.0003,6.585 C-0.0057,6.7056 0.0612,6.8181 0.1701,6.8706 L6.4359,9.8781 L12.0957,5.6946 C12.2343,5.5923 12.408,5.766 12.3054,5.9043 L8.1222,11.5641 L11.1297,17.8299 C11.1798,17.934 11.2851,18 11.4,18 C11.4051,18 11.4099,18 11.415,17.9997 C11.5356,17.9934 11.6409,17.9157 11.6823,17.8023 L17.9823,0.4023 C18.0216,0.2928 17.9943,0.1701 17.9121,0.0879 Z" id="Icon-Color"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

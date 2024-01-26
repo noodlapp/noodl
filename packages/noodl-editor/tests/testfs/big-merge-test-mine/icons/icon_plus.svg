@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>icon_plus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon_plus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Bounds" x="0" y="0" width="16" height="16"></rect>
+        <path d="M8,1 C8.25641792,1 8.46775358,1.1930201 8.49663613,1.44168944 L8.5,1.5 L8.5,7.5 L14.5,7.5 C14.7761424,7.5 15,7.72385763 15,8 C15,8.25641792 14.8069799,8.46775358 14.5583106,8.49663613 L14.5,8.5 L8.5,8.5 L8.5,14.5 C8.5,14.7761424 8.27614237,15 8,15 C7.74358208,15 7.53224642,14.8069799 7.50336387,14.5583106 L7.5,14.5 L7.5,8.5 L1.5,8.5 C1.22385763,8.5 1,8.27614237 1,8 C1,7.74358208 1.1930201,7.53224642 1.44168944,7.50336387 L1.5,7.5 L7.5,7.5 L7.5,1.5 C7.5,1.22385763 7.72385763,1 8,1 Z" id="🎨-Color" fill="#FFFFFF"></path>
+    </g>
+</svg>

@@ -1,0 +1,118 @@
+.Root {
+  display: flex;
+  box-shadow: 0 0 15px 0 var(--theme-color-bg-1-transparent-2);
+}
+
+.HistoryControls {
+  display: flex;
+  background-color: var(--theme-color-bg-2);
+  align-items: center;
+  border-right: 1px solid var(--theme-color-bg-1);
+}
+
+.HistoryButton {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TrailContainer {
+  align-self: stretch;
+  position: relative;
+  overflow: hidden;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    height: 80%;
+    box-shadow: 0 0 10px 10px var(--theme-color-bg-2), 0 0 10px 0px var(--theme-color-bg-2);
+    width: 50px;
+    border-radius: 50%;
+    top: 10%;
+  }
+
+  &:before {
+    left: -50px;
+  }
+
+  &:after {
+    right: -50px;
+  }
+}
+
+.Trail {
+  display: flex;
+  align-items: stretch;
+  overflow-y: hidden;
+  overflow-x: overlay;
+  scroll-behavior: smooth;
+  z-index: 0;
+
+  > *:last-child {
+    border: none;
+  }
+}
+
+.ItemTrigger {
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.Item {
+  padding: 12px 18px 12px 12px;
+  background-color: var(--theme-color-bg-2);
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  flex-grow: 1;
+  border-right: 1px solid var(--theme-color-bg-1);
+
+  &.is-component {
+    cursor: pointer;
+  }
+
+  &.is-current {
+    background-color: var(--theme-color-secondary);
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.Label {
+  flex-shrink: 0;
+  flex-grow: 1;
+
+  .Item.is-current &,
+  .Item.is-component:hover & {
+    color: var(--theme-color-fg-highlight);
+  }
+}
+
+.Icon {
+  margin-right: 4px;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  flex-shrink: 0;
+
+  .Item:not(.is-current) & {
+    path {
+      fill: var(--theme-color-fg-default);
+    }
+  }
+
+  .Item.is-current & {
+    path {
+      fill: var(--theme-color-fg-highlight);
+    }
+  }
+
+  .Item:not(.is-folder):hover & {
+    path {
+      fill: var(--theme-color-fg-highlight);
+    }
+  }
+}

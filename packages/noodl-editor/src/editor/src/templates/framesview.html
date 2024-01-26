@@ -1,0 +1,15 @@
+<div>
+    <!-- top bar -->
+    <div id="top-bar">
+        <div style="color: #aaa; font-size: 12px; position: absolute; left: 50%; transform: translateX(-50%);" data-text="title"></div>
+        <div style="color: #c4c4c4; font-size: 11px; margin-right: 10px" data-text="versionInTopBar"></div>
+        <div data-class="!platformIsWindows:hidden" style="display: flex; height: 100%;">
+            <div class="win-icon win-minimize dark" data-click="onWindowMinimizeClicked"></div>
+            <div class="win-icon win-maximize dark" data-click="onWindowMaximizeClicked"></div>
+            <div class="win-icon win-close dark" data-click="onWindowCloseClicked"></div>
+        </div>
+    </div>
+
+    <!-- frames -->
+    <div id="frames"></div>
+</div>

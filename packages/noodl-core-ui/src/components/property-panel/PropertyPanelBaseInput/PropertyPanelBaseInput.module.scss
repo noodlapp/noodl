@@ -1,0 +1,54 @@
+@use '../../../styles/scss-variables/length.scss';
+
+.Root {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  background-color: var(--theme-color-bg-3);
+  line-height: 1;
+  border: none;
+  padding: length.$property-panel-input-padding;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  transition: background-color var(--speed-turbo), color var(--speed-turbo);
+
+  &:hover {
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &:focus,
+  &.is-faux-focused {
+    background-color: var(--theme-color-bg-1);
+    color: var(--theme-color-fg-highlight);
+    outline: none;
+  }
+
+  &.is-changed {
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-connected {
+    outline: 1px solid var(--theme-color-primary-dim);
+  }
+
+  &.has-hidden-caret {
+    caret-color: transparent;
+  }
+
+  &[type='number'] {
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      appearance: none;
+      margin: 0;
+    }
+  }
+
+  &.has-small-text {
+    font-size: 10px;
+    padding-left: length.$property-panel-small-xy-padding;
+    padding-right: length.$property-panel-small-xy-padding;
+    text-align: center;
+  }
+}

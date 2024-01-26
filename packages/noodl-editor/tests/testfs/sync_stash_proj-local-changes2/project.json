@@ -1,0 +1,64 @@
+{
+    "name": "Untitled",
+    "components": [
+        {
+            "name": "/Main",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "2d3ccd33-f1ef-2dc5-3e1a-ca9d61cd222b",
+                        "type": "Group",
+                        "label": "Root",
+                        "x": 264,
+                        "y": 278,
+                        "parameters": {
+                            "fill": "parent"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "74ff47fa-4f5e-889c-6273-c4eba923c0bc",
+                                "type": "Image",
+                                "version": 2,
+                                "x": 343,
+                                "y": 303.5,
+                                "parameters": {
+                                    "image": "loginsplash.jpg",
+                                    "fillMode": "aspectFit",
+                                    "sizeMode": "explicit"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "189062e3-73dc-05ee-617c-55a3c2f1cc31",
+                                "type": "Text",
+                                "x": 304,
+                                "y": 301,
+                                "parameters": {
+                                    "alignX": "center",
+                                    "alignY": "top",
+                                    "text": "Hello World",
+                                    "fontSize": 150,
+                                    "color": "#000000",
+                                    "sizeMode": "childSize",
+                                    "y": 300
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {
+    },
+    "rootNodeId": "2d3ccd33-f1ef-2dc5-3e1a-ca9d61cd222b",
+    "version": "1"
+}

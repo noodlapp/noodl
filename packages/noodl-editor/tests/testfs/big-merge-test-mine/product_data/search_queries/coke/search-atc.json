@@ -1,0 +1,57 @@
+[
+    {
+        "title": "Coca-Cola Soda, 12 Fl. Oz., 24 Count",
+        "img": "https://i5.walmartimages.com/asr/0989e352-9f15-4f08-9fe1-05995a889dc5_1.dbf60d0b8b5348fa5085ce68a01f2b18.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Coca-Cola Cola:</strong><br /><ul><li>140 calories per can</li><li>34mg caffeine per can</li><li>Coke soda with low sodium</li><li>No artificial flavors</li><li>No preservatives added</li><li>39g sugar per can</li></ul>",
+            "short": "<li>140 calories per can</li><li>34mg caffeine per can</li><li>Low sodium</li>",
+            "medium": "<p>Coca-Cola Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.</p>"
+        },
+        "price": 8.78,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 53
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "288"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10535216",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    }
+]

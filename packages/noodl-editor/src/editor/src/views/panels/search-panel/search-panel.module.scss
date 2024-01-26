@@ -1,0 +1,36 @@
+.SearchResultItem {
+  padding: 18px;
+  transition: background-color var(--speed-turbo) var(--easing-base);
+  cursor: pointer;
+
+  &:not(:first-child) {
+    border-top: 1px solid var(--theme-color-bg-1);
+  }
+
+  &:hover {
+    background-color: var(--theme-color-bg-4);
+
+    p,
+    h2 {
+      color: var(--theme-color-on-secondary);
+    }
+  }
+
+  &.is-active {
+    background-color: var(--theme-color-secondary);
+
+    &:hover {
+      background-color: var(--theme-color-secondary-highlight);
+    }
+  }
+}
+
+.SearchInput {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--theme-color-bg-1);
+}
+
+.SearchResults {
+  overflow: hidden overlay;
+}

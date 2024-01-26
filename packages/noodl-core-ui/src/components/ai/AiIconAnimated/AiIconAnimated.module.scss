@@ -1,0 +1,259 @@
+.Root {
+  // MIX BLEND MODE LIGTHEN MUST BE SET ON THE PARENT
+  //mix-blend-mode: lighten;
+  filter: brightness(150%);
+  padding: 6px;
+  transition: filter var(--speed-quick) var(--easing-base);
+
+  width: 30px;
+  height: 30px;
+  mix-blend-mode: lighten;
+
+  &.__isDimmed {
+    filter: brightness(110%);
+  }
+
+  span {
+    font-family: var(--font-family);
+    user-select: none;
+  }
+}
+
+.HeroLogoWrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: inherit;
+  opacity: 1;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(0deg, var(--base-color-teal-400) 0%, var(--base-color-node-purple-600)) 45%;
+    animation: circle 3s linear infinite;
+    filter: saturate(120%) brightness(120%);
+  }
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.HeroLogoWrapper > .LogoIdleCircle {
+  box-shadow: 0 0 10px 10px white;
+}
+
+.HeroLogo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  background: black;
+  mix-blend-mode: multiply;
+
+  > span {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: var(--font-weight-semibold);
+  }
+}
+
+.LogoIdleCircleContainer {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 0;
+  left: 0;
+  transform: scale(1);
+  transition: transform var(--speed-quick) var(--easing-base);
+
+  .Root.__isListening & {
+    transform: scale(0);
+  }
+}
+
+.LogoIdleCircleInner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 23px;
+  height: 23px;
+  animation: shine 5s var(--easing-base) infinite;
+}
+
+.LogoIdleCircle {
+  position: absolute;
+  border: 4px dotted white;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  animation: round 100s linear infinite reverse;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0%,
+  50% {
+    transform: scale(1);
+    filter: blur(0px) brightness(100%);
+  }
+
+  25% {
+    transform: scale(0.95);
+    filter: blur(0.5px) brightness(200%) saturate(200%);
+  }
+}
+
+.LogoLoader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: round 40s linear infinite;
+}
+
+.LogoLoaderInner {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: transform var(--speed-quick) var(--easing-base);
+
+  .Root.__isListening & {
+    transform: scale(1);
+  }
+}
+
+.Circle1 {
+  position: absolute;
+  transform: rotate(45deg);
+}
+
+.Circle2 {
+  position: absolute;
+  transform: rotate(225deg);
+}
+
+.SpinningBalls {
+  color: #ffffff;
+  font-size: 16px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  transform: translateZ(0);
+  animation: mltShdSpin 2.5s infinite ease, round 2.5s infinite ease;
+  display: block;
+}
+
+$_val1: calc(-0.83em * 1);
+$_ballSizeMod: 10;
+
+@keyframes mltShdSpin {
+  0% {
+    box-shadow: 0 $_val1 0 calc(-0.4em * $_ballSizeMod), 0 $_val1 0 -0.42em, 0 $_val1 0 -0.44em, 0 $_val1 0 -0.46em,
+      0 $_val1 0 -0.477em;
+  }
+
+  5%,
+  95% {
+    box-shadow: 0 $_val1 0 calc(-0.4em), 0 $_val1 0 -0.42em, 0 $_val1 0 -0.44em, 0 $_val1 0 -0.46em, 0 $_val1 0 -0.477em;
+  }
+
+  10%,
+  59% {
+    box-shadow: 0 $_val1 0 calc(-0.4em), -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em,
+      -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+
+  20% {
+    box-shadow: 0 $_val1 0 calc(-0.4em), -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em,
+      -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+
+  38% {
+    box-shadow: 0 $_val1 0 calc(-0.4em), -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em,
+      -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+
+  100% {
+    box-shadow: 0 $_val1 0 calc(-0.4em), 0 $_val1 0 -0.42em, 0 $_val1 0 -0.44em, 0 $_val1 0 -0.46em, 0 $_val1 0 -0.477em;
+  }
+}
+
+@keyframes round-half {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50%,
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes round {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// @keyframes mltShdSpin {
+//     0% {
+//         box-shadow: 0 $_val1 0 calc(-0.4em * $_ballSizeMod),
+//             0 $_val1 0 -0.42em, 0 $_val1 0 -0.44em,
+//             0 $_val1 0 -0.46em, 0 $_val1 0 -0.477em;
+//     }
+
+//     2.5%,
+//     47.5% {
+//         box-shadow: 0 $_val1 0 calc(-0.4em),
+//             0 $_val1 0 -0.42em, 0 $_val1 0 -0.44em,
+//             0 $_val1 0 -0.46em, 0 $_val1 0 -0.477em;
+//     }
+
+//     5%,
+//     29.5% {
+//         box-shadow: 0 $_val1 0 calc(-0.4em),
+//             -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em,
+//             -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+//     }
+
+//     10% {
+//         box-shadow: 0 $_val1 0 calc(-0.4em), -0.338em -0.758em 0 -0.42em,
+//             -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em,
+//             -0.749em -0.34em 0 -0.477em;
+//     }
+
+//     19% {
+//         box-shadow: 0 $_val1 0 calc(-0.4em), -0.377em -0.74em 0 -0.42em,
+//             -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em,
+//             -0.82em -0.09em 0 -0.477em;
+//     }
+
+//     50%, 100% {
+//         box-shadow: 0 $_val1 0 calc(-0.4em), 0 $_val1 0 -0.42em,
+//             0 $_val1 0 -0.44em, 0 $_val1 0 -0.46em, 0 $_val1 0 -0.477em;
+//     }
+// }

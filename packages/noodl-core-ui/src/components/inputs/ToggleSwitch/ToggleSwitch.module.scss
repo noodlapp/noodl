@@ -1,0 +1,38 @@
+.Root {
+}
+
+.Track {
+  box-sizing: border-box;
+  height: 24px;
+  width: 42px;
+  border-radius: 12px;
+  background-color: var(--theme-color-bg-1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.Indicator {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: var(--theme-color-bg-3);
+  transition: transform var(--speed-quick) var(--easing-base),
+    background-color var(--speed-quick) var(--easing-base);
+
+  &.is-checked {
+    transform: translateX(100%);
+  }
+
+  &.is-always-active-color,
+  &.is-checked {
+    background-color: var(--theme-color-secondary-bright);
+  }
+}
+
+.Input {
+  display: none;
+}

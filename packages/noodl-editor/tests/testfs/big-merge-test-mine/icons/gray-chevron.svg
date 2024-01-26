@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="8px" viewBox="0 0 16 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>gray-chevron</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Cart-Container-+-Personalization-•-UPDATED-[APR-9]-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cart-Card-Collapsed-Suggestions" transform="translate(-318.000000, -109.000000)">
+            <g id="Card---In-Person-Delivery">
+                <g id="Header">
+                    <g id="Header---Category" transform="translate(0.000000, 96.000000)">
+                        <g id="1.Core-Components/Icons/General/Arrow-Down-18" transform="translate(317.000000, 8.000000)">
+                            <g id="icn_18_down-arrow">
+                                <rect id="boundry" x="0" y="0" width="18" height="18"></rect>
+                                <path d="M15.64625,5.14625 L8.99925,11.79225 L2.35325,5.14625 C2.15825,4.95125 1.84125,4.95125 1.64625,5.14625 C1.45125,5.34125 1.45125,5.65825 1.64625,5.85325 L8.64625,12.85325 C8.74425,12.95125 8.87225,13.00025 8.99925,13.00025 C9.12725,13.00025 9.25525,12.95125 9.35325,12.85325 L16.35325,5.85325 C16.54825,5.65825 16.54825,5.34125 16.35325,5.14625 C16.15825,4.95125 15.84125,4.95125 15.64625,5.14625 Z" id="🎨Color" fill="#949499"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

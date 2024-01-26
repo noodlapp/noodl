@@ -1,0 +1,59 @@
+.Root {
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: var(--font-family);
+
+  &.has-bottom-spacing {
+    margin-bottom: 8px;
+  }
+
+  &.is-size-default {
+    font-size: 14px;
+  }
+
+  &.is-size-large {
+    font-size: 18px;
+  }
+
+  &.is-size-medium {
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &.is-size-small {
+    font-size: 10px;
+  }
+
+  &.is-centered {
+    text-align: center;
+  }
+
+  &.is-inline {
+    display: inline-block;
+  }
+
+  &.is-variant-default {
+    color: var(--theme-color-fg-default);
+  }
+
+  &.is-variant-default-contrast {
+    color: var(--theme-color-fg-default-contrast);
+  }
+
+  &.is-variant-highlighted {
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-variant-danger {
+    color: var(--theme-color-danger);
+  }
+
+  &.is-variant-success {
+    color: var(--theme-color-success);
+  }
+
+  &.is-variant-notice {
+    color: var(--theme-color-primary);
+  }
+}

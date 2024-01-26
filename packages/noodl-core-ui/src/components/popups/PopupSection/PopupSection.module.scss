@@ -1,0 +1,37 @@
+.Root {
+  background-color: var(--theme-color-bg-4);
+
+  &.has-bottom-border {
+    border-bottom: 1px solid var(--theme-color-bg-4);
+  }
+}
+
+.Header {
+  padding: 8px 10px;
+  background-color: var(--theme-color-bg-3);
+}
+
+.Content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &.has-y-padding {
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+
+  &.is-centering-children {
+    align-items: center;
+  }
+}
+
+.Title {
+  color: #ccc;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-semibold);
+}

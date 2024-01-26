@@ -1,0 +1,179 @@
+<div class="sidebar-panel">
+  <div class="sidebar-panel-title">Components</div>
+  <!-- component template -->
+  <div data-template="item" data-class="isSelected:components-panel-item-selected"
+    class="components-panel-item attach-popup-here"
+    data-click="onItemClicked"
+    style="position:relative;">
+    <!-- <div data-class="isSelected:sidebar-panel-item-selected"></div> -->
+    <div class="indent-line-container"></div>
+    <!-- indented by setting left: X px from code -->
+    <div class="indent-me drag-handle drop-target">
+      <!-- Icon -->
+      <div data-class="!isRoot:hidden,isSelected:components-panel-item-selected" class="components-panel-core-ui-icon is-home-icon"
+        data-tooltip="The root component" data-tooltip-position="bottom">
+      </div>
+      <div
+        data-class="isRoot:hidden,isSelected:components-panel-item-selected,isPage:is-page-icon,isCloudFunction:is-cloud-function-icon,isVisual:is-visual"
+        class="components-panel-component-icon components-panel-core-ui-icon"
+      ></div>
+
+      <div class="item-mode-edit" style="position:absolute; left:20px; right:40px; top:1px; bottom:1px; display:none;">
+        <input type="string" data-class="isSelected:components-panel-item-selected" class="components-panel-input sidebar-input" style="width:100%; height:100%;" data-val="name"></input>
+      </div>
+
+      <span data-class="isSelected:components-panel-item-selected"
+        class="item-mode-default components-panel-item-label" data-text="name"
+        data-bind="watch"></span>
+
+      <!--  <i class="fa fa-asterisk components-panel-isroot" data-class="!isRoot:hidden"></i> -->
+    </div>
+
+    <div style="position:absolute; right:50px; top:1px; bottom:2px;" data-tooltip="This component has warnings">
+      <div class="components-panel-warnings-icon" data-class="!hasWarnings:hidden,isSelected:components-panel-item-selected"></div>
+    </div>
+
+    <button type="button" class="item-mode-default components-panel-item-dropdown components-panel-item-show-on-hover"
+      data-click="onComponentActionsClicked"><i class="fa fa-ellipsis-h"></i></button>
+  </div>
+
+  <!-- folder template -->
+  <div data-template="folder">
+    <div
+      class="components-panel-item attach-popup-here drag-handle drop-target"
+      data-class="isSelected:components-panel-item-selected,isComponentFolder:is-folder-component"
+      data-click="onItemClicked"
+    >
+      <div class="indent-line-container"></div>
+      <!-- indented by setting left: X px from code -->
+      <div class="indent-me">
+        <div class="caret-icon-container">
+          <div class="caret-icon" data-class="isOpen:is-open,!isOpen:is-closed" data-click="onCaretClicked"></div>
+        </div>
+
+        <!-- Icon -->
+        <div data-class="!isRoot:hidden,isSelected:components-panel-item-selected" class="components-panel-core-ui-icon is-home-icon"
+          data-tooltip="The root component" data-tooltip-position="bottom">
+        </div>
+        <div
+          class="components-panel-core-ui-icon is-folder-or-component"
+          data-class="isRoot:hidden,isOpen:is-open,!isOpen:is-closed,isComponentFolder:is-folder-component,isPage:is-page-icon,isCloudFunction:is-cloud-function-icon,isVisual:is-visual"
+          data-click="onCaretClicked"
+        ></div>
+
+        <div class="item-mode-edit"
+          style="position:absolute; left:20px; right:40px; top:2px; bottom:2px; display:none;">
+          <input type="string" class="components-panel-input sidebar-input" data-val="name" style="width:100%; height:100%;"></input>
+        </div>
+
+        <span data-class="isSelected:components-panel-item-selected" class="item-mode-default components-panel-folder-label" data-text="name"
+          data-bind="watch"></span>
+
+      </div>
+
+      <div style="position:absolute; right:50px; top:1px; bottom:2px;" data-tooltip="This component has warnings">
+        <div class="components-panel-warnings-icon" data-class="!hasWarnings:hidden,isSelected:components-panel-item-selected"></div>
+      </div>
+
+      <button type="button"
+        class="item-mode-default  components-panel-item-dropdown components-panel-item-show-on-hover"
+        data-click="onFolderActionsClicked"><i class="fa fa-ellipsis-h"></i></button>
+
+    </div>
+
+    <div class="subfolders" data-class="!isOpen:hidden">
+    </div>
+  </div>
+
+  <!-- sheet template -->
+  <div data-template="sheet-item" class="components-panel-item components-panel-sheet-item" data-click="onSheetClicked" style="position:relative;">
+    <div data-class="!isSelected:hidden" class="components-panel-checkmark-icon" style="position:absolute; top:10px; left:7px;"></div>
+    <div data-class="isSelected:components-panel-sheet-item-selected" class="drop-target" style="margin-left: 30px; line-height:36px;" data-text="name" data-bind="watch"></div>
+
+    <!-- edit mode -->
+    <div class="item-mode-edit name-edit-container"
+      style="position:absolute; width:100%;height:100%;top: 0px;left:0px; display:none;">
+      <input type="string" class="components-panel-input name-edit" style="padding-left: 30px" data-val="name"></input>
+    </div>
+
+    <button type="button" data-class="isDefault:hidden"  class="components-panel-item-dropdown components-panel-item-show-on-hover"
+      data-click="onSheetActionsClicked"><i class="fa fa-ellipsis-h"></i></button>
+
+  </div>
+
+
+  <!-- components can be dropped here to move up to project root level -->
+  <!-- <div class="components-project-drop-target" style="position:absolute; top:0px; left:0px; bottom:0px; right:0px;">
+    <div class="drop-target" style="position:absolute; top:0px; left:0px; bottom:0px; right:0px;"></div>
+  </div> -->
+
+  <!-- Sheets -->
+  <div data-class="!showSheetList:hidden">
+    <div class="components-panel-header" style="position:relative;">
+      Sheets
+
+      <button type="button" style="position:absolute; right:5px;" class="components-panel-edit-button"
+        data-click="onAddSheetClicked" data-tooltip="Add new sheet"><div class="sidebar-add-icon"></div></button>
+
+    <!--    <button type="button" data-class="sheetSelectorOpen:hidden" style="position:absolute; right:5px;" class="components-panel-edit-button"
+        data-click="onSheetSelectorClicked"><div class="components-panel-expand-more-icon"
+        style="position:relative;"></div></button>
+
+        <button type="button" data-class="!sheetSelectorOpen:hidden" style="position:absolute; right:5px;" class="components-panel-edit-button"
+        data-click="onSheetSelectorClicked"><div class="components-panel-expand-less-icon"
+        style="position:relative;"></div></button>
+  -->
+    </div>
+    <div class="layout-panel-divider" style="position:relative;"></div>
+    <div data-class="!sheetSelectorOpen:hidden" class="sheets" style="max-height:250px; margin-bottom:10px; overflow: hidden overlay;"></div>
+    <div data-class="sheetSelectorOpen:hidden" class="components-panel-item">
+      <div class="components-panel-checkmark-icon" style="position:absolute; top:7px; left:7px;"></div>
+      <div class="components-panel-sheet-item-selected" style="margin-left: 30px; line-height:30px;" data-text="currentSheetName" data-bind="watch"></div>
+    </div>
+  </div>
+
+  <!-- Components header -->
+  <div class="components-panel-header attach-popup-here" style="position:relative;">
+    <span data-text="componentTitle">Components</span>
+
+    <button type="button" style="position:absolute; right:5px;" class="components-panel-edit-button"
+    data-click="onAddComponentClicked" data-tooltip="Component actions"><div class="sidebar-add-icon"></div></button>
+
+ <!--   <button type="button" style="position:absolute; right:25px;" class="components-panel-edit-button"
+    data-click="onAddFolderClicked"><div class="components-panel-add-folder-icon"
+    style="position:relative;"></div></button> -->
+
+   <!-- <div class="layout-panel-sheet-selector" style="position:absolute; top:0px; right:5px; height:100%; display:flex;"
+      data-click="onSheetSelectorClicked">
+      <div class="layout-panel-sheet-label" style="position:relative; height:100%;" data-text="currentSheetName"
+        data-bind="watch">
+      </div>
+
+    </div>-->
+  </div>
+  <div class="layout-panel-divider" style="position:relative;"></div>
+
+  <div style="display: flex;flex-direction: column;align-items: stretch;overflow: hidden; flex-grow: 1;">
+
+    <div class="components-scroller">
+      <!-- project pane -->
+      <div class="components">
+        <!-- components will be inserted here -->
+      </div>
+      <div class="top-folder-drop-target"></div>
+    </div>
+
+  <!--  <div class="sidebar-panel-footer-placeholder">
+    </div> -->
+
+  <!--  <div class="sidebar-panel-footer" style="align-self: flex-end;">
+      <button type="button" style="border-left:0px;" class="sidebar-panel-footer-button attach-popup-here"
+        data-click="onAddComponentClicked" data-popup-position="top"><i
+          class="fa fa-plus sidebar-panel-footer-button-icon"></i><span>Component</span></button>
+      <button type="button" style="border-right:0px; border-left:0px;"
+        class="sidebar-panel-footer-button attach-popup-here" data-click="onAddFolderClicked"
+        data-popup-position="top"><i
+          class="fa fa-plus sidebar-panel-footer-button-icon"></i><span>Folder</span></button>
+    </div>
+  </div> -->
+</div>

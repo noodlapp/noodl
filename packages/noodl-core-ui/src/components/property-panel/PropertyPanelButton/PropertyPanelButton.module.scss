@@ -1,0 +1,32 @@
+@use '../../../styles/scss-variables/length.scss';
+
+.Root {
+  display: flex;
+  flex-direction: column;
+}
+
+.Button {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  font-size: 12px;
+  text-align: center;
+  background-color: var(--theme-color-bg-3);
+  padding: length.$property-panel-input-padding;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--theme-color-bg-1);
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-primary {
+    font-weight: 600;
+    color: var(--theme-color-bg-1);
+    background-color: var(--theme-color-primary);
+
+    &:hover {
+      background-color: var(--theme-color-primary-highlight);
+    }
+  }
+}

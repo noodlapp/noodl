@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>info</title>
+    <desc>Created with Sketch.</desc>
+    <g id="info" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="boundry" x="0" y="0" width="18" height="18"></rect>
+        <g id="icn_18_info" transform="translate(1.000000, 1.000000)" fill="#000000">
+            <path d="M8,0 C12.411,0 16,3.589 16,8 C16,12.411 12.411,16 8,16 C3.589,16 0,12.411 0,8 C0,3.589 3.589,0 8,0 Z M8,1 C4.141,1 1,4.141 1,8 C1,11.859 4.141,15 8,15 C11.859,15 15,11.859 15,8 C15,4.141 11.859,1 8,1 Z M9,6 L9,11 L10,11 L10,12 L7,12 L7,11 L8,11 L8,7 L7.5,7 C7.224,7 7,6.776 7,6.5 C7,6.224 7.224,6 7.5,6 L7.5,6 L9,6 Z M8.5,4 C8.776,4 9,4.224 9,4.5 C9,4.776 8.776,5 8.5,5 C8.224,5 8,4.776 8,4.5 C8,4.224 8.224,4 8.5,4 Z" id="🎨Color"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,282 @@
+[
+    {
+        "title": "Tide Pods Spring Meadow 96 Ct, Laundry Detergent Pacs",
+        "img": "https://i5.walmartimages.com/asr/71d4c3f9-4c2e-4cc0-8a03-b99f4df0575e_2.3d85aab7570aca7c74146a5aa2768527.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Tide Pods Spring Meadow, Laundry Detergent Pacs, 96 ct. : Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li><li>10X cleaning power (Stain removal of one Tide PODS in quick cycle vs. 10 doses of the leading bargain liquid detergent, base variant, in normal wash cycle)</li><li>Dissolves completely in any water conditions</li><li>Works in all washing machines</li><li>Keep out of reach of children</li></ul>",
+            "short": "<ul><li>Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li></ul>"
+        },
+        "price": 21.44,
+        "reviews": {
+            "customerRating": 3.9,
+            "numReviews": 2929
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "96"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "608526496",
+        "variantCategoriesMap": {
+            "count_per_pack": {
+                "id": "count_per_pack",
+                "name": "Count Per Pack",
+                "type": "DROPDOWN",
+                "variants": {
+                    "count_per_pack-42": {
+                        "id": "count_per_pack-42",
+                        "name": "42",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "3MX7P2MF7XR7"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.285,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.285,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "count_per_pack-96": {
+                        "id": "count_per_pack-96",
+                        "name": "96",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "374L5A9YO20I"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 21.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 23.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.223,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 21.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 23.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.223,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "count_per_pack-42"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide plus Febreze Sport Odor Defense HE Turbo Clean Liquid Laundry Detergent, Active Fresh Scent, 74 loads, 115 oz",
+        "img": "https://i5.walmartimages.com/asr/a5bb885a-8cb9-4c2b-b446-61d581c9a10d_1.43b547fb0dfd8a4cd693bcd9d008fa7c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide plus Febreze Sport Odor Defense HE Turbo Clean Liquid Laundry Detergent, Active Fresh Scent, 74 loads, 115 oz</h2> <ul> <li>Fights odors + stains in one wash</li> <li>It is formulated with HE Turbo Clean technology for 10x cleaning power*. *Stain removal of one dose of Tide in quick cycle vs 10 doses of the leading bargain liquid detergent in normal cycle.</li> <li>Cleans, freshens, whitens, and brightens</li> <li>Measure with cap. For medium loads, fill to bar 1. For large loads, fill to bar 3. For HE full loads, fill to bar 5. Add clothes, pour into dispenser, start washer.</li> <li>Part of the Sport Odor Defense Collection</li> <li>Tide HE Turbo contains quick-collapsing Smart Suds while still targeting tough stains. So you get amazing results without the extra rinse cycles to remove the suds.</li> </ul>",
+            "short": "<ul><li>Fights odors + stains in one wash</li><li>It is formulated with HE Turbo Clean technology for 10x cleaning power*. *Stain removal of one dose of Tide in quick cycle vs 10 doses of the leading bargain liquid detergent in normal cycle.</li></ul>"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 3.7,
+            "numReviews": 318
+        },
+        "size": {
+            "karfGroceryType": "Liquids",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "115"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "154285308",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-115oz": {
+                        "id": "size-115oz",
+                        "name": "115 oz",
+                        "categoryId": "size",
+                        "products": [
+                            "4HNUQCCFYQMV"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.104,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.104,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Powder Laundry Detergent, Original, 40 loads, 56 oz",
+        "img": "https://i5.walmartimages.com/asr/ce4d5e8a-af0a-41de-949a-12ee95b32e13_1.8c8cd8519b34e5c371d0965181a5cd5b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Powder Laundry Detergent, Original, 40 loads, 56 oz:</h2><ul><li>2 scoop of Tide = 10 scoops of detergent with Oxi</li><li>Attacks Even 7 Day-Old Stains</li><li>Acti-Lift Crystals</li><li>10x the cleaning power - 1 dose of Tide HE Turbo Clean in quick cycle vs. 10 doses of the next leading liquid HE compatible detergent in normal cycle</li><li>HE Turbo technology gives you 10x cleaning power in the quick cycle vs. next leading detergent in normal cycle</li><li>Specially designed for regular and high efficiency machines - #1 recommended by washing machine manufacturers***based on co-marketing agreements</li></ul>",
+            "short": "<ul><li>2 scoop of Tide = 10 scoops of detergent with Oxi</li><li>Attacks Even 7 Day-Old Stains</li></ul>",
+            "medium": "<p>Keep your clothes clean and smelling fresh with Ultra Tide Original HE Powder Laundry Detergent, 56 oz. The Tide Powder Laundry Detergent will wash up to 40 loads and is designed for high-efficiency washing machines. One scoop of Tide HE Laundry Detergent will help remove almost any type of stain, even those that are days old.</p>"
+        },
+        "price": 8.96,
+        "reviews": {
+            "customerRating": 3.2,
+            "numReviews": 144
+        },
+        "size": {
+            "karfGroceryType": "Powder",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "56"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "21675362",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    }
+]

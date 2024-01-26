@@ -1,0 +1,51 @@
+@use '../../../styles/scss-variables/length.scss';
+
+.Root {
+  display: flex;
+  position: relative;
+}
+
+.Checkbox {
+  position: absolute;
+  width: length.$property-panel-input-size;
+  height: length.$property-panel-input-size;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.FauxCheckbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: length.$property-panel-input-size;
+  height: length.$property-panel-input-size;
+  background-color: var(--theme-color-bg-3);
+  cursor: pointer;
+
+  svg {
+    pointer-events: none;
+
+    path {
+      stroke: var(--theme-color-fg-default);
+    }
+  }
+
+  &.is-connected {
+    outline: 1px solid var(--theme-color-primary-dim);
+  }
+
+  &.is-changed,
+  &:hover {
+    svg path {
+      stroke: var(--theme-color-fg-highlight);
+    }
+  }
+
+  .Checkbox:focus + & {
+    background-color: var(--theme-color-bg-1);
+
+    svg path {
+      stroke: var(--theme-color-fg-highlight);
+    }
+  }
+}

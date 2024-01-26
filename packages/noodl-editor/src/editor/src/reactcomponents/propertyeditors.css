@@ -1,0 +1,66 @@
+.propertyeditor-item {
+    color: #f8f8f8;
+    min-height: 33px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.propertyeditor-item-input {
+    background-color: #222222;
+    color: #dddddd;
+    border: none;
+    display: block;
+    padding:0 0 0 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    align-self: stretch;
+    margin-left: 10px;
+    min-width: 10px;
+}
+
+.propertyeditor-color-preview {
+    width: 33px;
+    align-self: stretch;
+    flex-shrink: 0;
+}
+
+.propertyeditor-enums-dropdown {
+    left: 0;
+    right: 0;
+    top: 33px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0
+}
+
+.propertyeditor-unit-dropdown {
+    margin-top: 1px;
+    width: 33px;
+    height: 33px;
+    align-self: stretch;
+    position: relative;
+    line-height: 33px;
+    margin-left: 2px;
+    padding-left: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0
+}
+
+.propertyeditor-unit-dropdown-list {
+    width: 100%;
+    top: 33px;
+    right: 0;
+    line-height: 33px;
+}
+
+.propertyeditor-unit-dropdown-list > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}

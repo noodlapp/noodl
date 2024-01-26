@@ -1,0 +1,9 @@
+:root {
+    --easing-base: cubic-bezier(0.45, 0, 0.18, 0.99);
+    --easing-equal: ease-in-out;
+
+    --speed-turbo: 100ms;
+    --speed-quick: 400ms;
+    --speed-base: 800ms;
+    --speed-slow: 1200ms;
+}

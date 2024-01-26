@@ -1,0 +1,26 @@
+.Root {
+  font-family: var(--font-family);
+  padding: 14px;
+  max-width: 160px;
+
+  span {
+    text-align: center;
+    white-space: break-spaces;
+  }
+}
+
+.FineType {
+  padding: 0 8px 8px;
+  margin-top: -6px;
+  text-align: center;
+}
+
+.Trigger {
+  &.is-block {
+    display: block;
+  }
+
+  &.is-inline {
+    display: inline-block;
+  }
+}

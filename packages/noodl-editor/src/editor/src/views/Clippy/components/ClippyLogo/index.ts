@@ -1,0 +1,1 @@
+export { ClippyLogo } from './ClippyLogo';

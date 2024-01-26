@@ -1,0 +1,193 @@
+@use '@scss-variables/color';
+
+%overlay {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.signalIcon {
+  content: url('../assets/icons/flash.svg');
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+}
+
+.popup {
+  width: 200px;
+  height: 400px;
+  outline: 2px solid var(--theme-color-bg-3);
+  background-color: var(--theme-color-bg-2);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.popupHeader {
+  padding: 12px 16px;
+  color: var(--theme-color-fg-highlight);
+  background-color: var(--theme-color-bg-3);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: var(--font-weight-semibold);
+  position: relative;
+
+  &.disabled {
+    color: #ffffff80;
+  }
+}
+
+.popupScroll {
+  background-color: var(--theme-color-bg-2);
+  padding: 2px;
+  margin-right: 2px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden auto;
+  position: relative;
+  flex-grow: 1;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+    background-color: var(--theme-color-bg-2);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--theme-color-fg-muted);
+  }
+}
+
+.bar {
+  flex-grow: 1;
+  width: 100%;
+  position: relative;
+
+  &.disabled::after {
+    @extend %overlay;
+    background-color: #00000060;
+  }
+}
+
+.noPortsMessage {
+  padding: 10px;
+  color: #ccc;
+}
+
+.listElement {
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &.enabled {
+    cursor: pointer;
+
+    &:hover {
+      color: var(--theme-color-fg-highlight);
+    }
+
+    &:hover .signalIcon {
+      opacity: 1;
+    }
+  }
+
+  &.disabled {
+    color: #ffffff40;
+
+    .signalIcon {
+      opacity: 0.3;
+    }
+  }
+
+  &.selected {
+    color: var(--theme-color-fg-highlight);
+
+    &::before {
+      @extend %overlay;
+      background-color: #ffffff33;
+    }
+  }
+}
+
+.listElementPort {
+  @extend .listElement;
+  //background-color: #ffffff33;
+  color: var(--theme-color-fg-highlight);
+  opacity: 0.7;
+
+  &.enabled:hover {
+    background-color: var(--local--port-hover-color);
+  }
+
+  .signalIcon {
+    opacity: 0.75;
+  }
+}
+
+.listElementGroup {
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #ffffffaa;
+}
+
+.groupLabel {
+  flex-grow: 1;
+}
+
+.docs {
+  height: 300px;
+  margin-top: 2px;
+}
+
+.docsPopup {
+  width: 300px;
+  background-color: #171717;
+  padding: 10px;
+  color: #fff;
+}
+
+.docsType {
+  margin-left: 5px;
+  color: #72babb;
+}
+
+.docsHeader {
+  margin-bottom: 5px;
+}
+
+.docsBody {
+  color: #ccc;
+}
+
+.docsEnumValue {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  padding: 8px 0 8px 8px;
+}
+
+.searchInput {
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+
+  &,
+  &::placeholder {
+    color: rgba(255,255,255,0.6);
+  }
+}
+
+.searchIcon {
+  opacity: 0.6;
+}

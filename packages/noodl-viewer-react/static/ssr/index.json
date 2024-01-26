@@ -1,0 +1,5 @@
+[
+  {"url":"index.js", "injectExport": true},
+  {"url":"noodl.deploy.js"},
+  {"url":"package.json"}
+]

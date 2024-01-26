@@ -1,0 +1,122 @@
+.Root {
+  padding: 4px;
+  border: 0;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color var(--speed-turbo) var(--easing-base);
+
+  path {
+    transition: fill var(--speed-turbo) var(--easing-base);
+  }
+
+  &:disabled {
+    background-color: var(--theme-color-bg-2);
+
+    path {
+      fill: var(--theme-color-fg-default-shy);
+    }
+  }
+
+  &.is-variant-default {
+    background-color: var(--theme-color-bg-3);
+
+    path {
+      fill: var(--theme-color-fg-default);
+    }
+
+    &.is-state-active,
+    &:not(:disabled):hover {
+      background-color: var(--theme-color-bg-1);
+
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+    }
+  }
+
+  &.is-variant-semi-transparent {
+    background-color: var(--theme-color-fg-transparent);
+
+    path {
+      fill: var(--theme-color-fg-highlight);
+    }
+
+    &.is-state-active,
+    &:not(:disabled):hover {
+      background-color: var(--theme-color-bg-1-transparent);
+
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+    }
+  }
+
+  &.is-variant-transparent {
+    background-color: transparent !important;
+
+    path {
+      fill: var(--theme-color-fg-default);
+    }
+
+    &:disabled {
+      path {
+        fill: var(--theme-color-bg-4);
+      }
+    }
+
+    &.is-state-active,
+    &:not(:disabled):hover {
+      background-color: var(--theme-color-bg-1-transparent);
+
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+    }
+  }
+
+  &.is-variant-opaque-on-hover {
+    background-color: transparent;
+
+    path {
+      fill: var(--theme-color-fg-default);
+    }
+
+    &:not(:disabled):hover {
+      background-color: var(--theme-color-bg-3);
+
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+    }
+
+    &:disabled {
+      path {
+        fill: var(--theme-color-bg-4);
+      }
+    }
+  }
+
+  &.is-button-size-bigger {
+    padding: 6px;
+  }
+}
+
+.Icon {
+  transition: transform var(--speed-quick) var(--easing-base);
+
+  .Root.is-state-rotated & {
+    transform: rotate(180deg);
+  }
+
+  .Root.is-icon-variant-notice:hover & {
+    path {
+      fill: var(--theme-color-primary-highlight) !important;
+    }
+  }
+}
+
+.Label {
+  margin-left: 4px;
+}

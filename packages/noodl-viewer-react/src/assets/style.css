@@ -1,0 +1,271 @@
+.ndl-visual-text {
+  font-weight: 400;
+  margin: 0;
+}
+
+.ndl-controls-pointer,
+.ndl-controls-pointer * {
+  cursor: pointer;
+}
+
+.ndl-controls-abs-center {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+/** Button **/
+.ndl-controls-button {
+  outline: none;
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 5px 20px 5px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ndl-controls-button:disabled {
+  cursor: default;
+}
+
+/** Deprecated checkbox **/
+.ndl-controls-checkbox {
+  margin: 0;
+  border: 1px solid #000000;
+  border-radius: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.ndl-controls-checkbox:checked {
+  background-color: #000000;
+}
+
+.ndl-controls-checkbox:disabled {
+  cursor: default;
+}
+
+/** Deprecated radio button **/
+.ndl-controls-radiobutton {
+  margin: 0;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  background-color: transparent;
+  -webkit-appearance: none;
+  outline: none;
+  width: 32px;
+  height: 32px;
+  display: block;
+  cursor: pointer;
+}
+
+.ndl-controls-radiobutton:checked {
+  background-color: #000000;
+}
+
+.ndl-controls-radiobutton:disabled {
+  cursor: default;
+}
+
+/** New radio button **/
+.ndl-controls-radio-2 {
+  opacity: 0;
+  position: absolute;
+  margin: 0;
+}
+
+.ndl-controls-radio-2:disabled {
+  cursor: default;
+}
+
+/** New checkbox **/
+.ndl-controls-checkbox-2 {
+  opacity: 0;
+  position: absolute;
+  margin: 0;
+}
+
+.ndl-controls-checkbox-2:disabled {
+  cursor: default;
+}
+
+/** Options **/
+.ndl-controls-select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 0;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+
+  /* Stack above custom arrow */
+  z-index: 1;
+
+  /* Remove dropdown arrow in IE10 & IE11
+      @link https://www.filamentgroup.com/lab/select-css.html */
+  /*  &::-ms-expand {
+      display: none;
+    }*/
+
+  /* Remove focus outline, will add on alternate element */
+  outline: none;
+}
+
+.ndl-controls-select:disabled {
+  cursor: default;
+}
+
+/** Range **/
+.ndl-controls-range2 {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.ndl-controls-range2::-webkit-slider-thumb {
+  height: 100%;
+  border: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ndl-controls-range2::-moz-range-thumb {
+  height: 100%;
+  border: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.ndl-controls-range2::-webkit-slider-runnable-track {
+  border: none;
+  height: 100%;
+}
+
+.ndl-controls-range2::-moz-range-track {
+  border: none;
+  height: 100%;
+}
+
+.ndl-controls-range2:disabled {
+  cursor: default;
+}
+
+/* Old range */
+
+.ndl-controls-range {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ndl-controls-range::-webkit-slider-thumb {
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+
+.ndl-controls-range::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.ndl-controls-range::-ms-thumb {
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 0px;
+  /*Needed to keep the Edge thumb centred*/
+}
+
+.ndl-controls-range::-webkit-slider-runnable-track {
+  background: #f0f0f0;
+  border: none;
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  top: 4px;
+  margin-top: 5px;
+}
+
+.ndl-controls-range:focus::-webkit-slider-runnable-track {
+  background: #f0f0f0;
+}
+
+.ndl-controls-range::-moz-range-track {
+  background: #f0f0f0;
+  border: none;
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+}
+
+.ndl-controls-range::-ms-track {
+  background: transparent;
+  border-color: transparent;
+  border-width: 5px 0;
+  color: transparent;
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+}
+
+.ndl-controls-range::-ms-fill-lower {
+  background: #f0f0f0;
+  border: none;
+}
+.ndl-controls-range::-ms-fill-upper {
+  background: #f0f0f0;
+  border: none;
+}
+
+/** Field Set **/
+.ndl-controls-fieldset {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/** Text Input **/
+.ndl-controls-textinput {
+  outline: none;
+  border-style: none;
+  background-color: transparent;
+}
+
+.ndl-controls-textinput::placeholder {
+  color: inherit;
+  opacity: 0.5;
+}

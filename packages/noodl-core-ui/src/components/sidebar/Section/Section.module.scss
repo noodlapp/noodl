@@ -1,0 +1,89 @@
+.Root {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  &.has-visible-overflow {
+    overflow: visible;
+  }
+
+  &.is-variant-default {
+    background-color: var(--theme-color-bg-2);
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--theme-color-bg-1);
+    }
+
+    &.has-top-divider {
+      border-top: 1px solid var(--theme-color-bg-1);
+    }
+  }
+
+  &.is-variant-panel,
+  &.is-variant-panel-shy {
+    background-color: var(--theme-color-bg-2);
+  }
+
+  &.is-variant-panel-shy {
+    &:not(:first-child),
+    &.has-top-divider {
+      border-top: 1px solid var(--theme-color-bg-1);
+    }
+  }
+
+  &.is-variant-in-modal {
+    background-color: var(--theme-color-bg-4);
+  }
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* consistency */
+  flex: 0 0 36px;
+  min-height: 36px;
+  padding: 0 10px 0 16px;
+
+  user-select: none;
+
+  &.is-variant-panel {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.is-variant-panel-shy {
+    background-color: transparent;
+  }
+
+  &.is-variant-in-modal {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.is-collapsable {
+    padding-right: 0;
+    cursor: pointer;
+  }
+}
+
+.Body {
+  /* allow scrolling */
+  overflow: hidden overlay;
+  padding-top: 8px;
+
+  &.is-variant-in-modal {
+    padding: 0;
+  }
+
+  &.has-visible-overflow {
+    overflow: visible;
+  }
+
+  &.has-bottom-spacing {
+    padding-bottom: 12px;
+  }
+
+  &.has-gutter {
+    padding: 15px;
+  }
+}

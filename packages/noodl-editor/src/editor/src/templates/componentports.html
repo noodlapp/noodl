@@ -1,0 +1,69 @@
+<div class="sidebar-panel">
+  <!-- port template -->
+  <div data-template="item" class="component-ports-item sidebar-panel-item">
+    <!-- rename port -->
+    <div class="show-on-edit name-edit-container">
+      <input type="string" class="sidebar-panel-dark-input name-edit" data-val="label"></input>
+    </div>
+
+    <span class="drop-target drag-handle hide-on-edit component-ports-label" data-text="label" data-bind="watch" data-click="onRenameClicked"></span>
+
+    <div class="sidebar-panel-edit-bar hide-on-edit">
+      <!-- rename -->
+      <button type="button" class="sidebar-panel-edit-button" data-click="onRenameClicked"><i class="fa fa-pencil-square-o"></i></button>
+
+      <!-- delete -->
+      <button type="button" class="sidebar-panel-edit-button" data-click="onDeleteClicked"><i class="fa fa-trash-o"></i></button>
+    </div>
+
+    <!-- drop indicator -->
+    <div class="drop-indicator" style="display:none; position:absolute;width:100%;height:3px;background-color:#6c6c6c;pointer-events: none"/>
+
+  </div>
+
+  <!-- group template -->
+  <div data-template="group" class="component-ports-group-item sidebar-panel-item">
+    <div style="position:relative; top:15px; height:35px;">
+      <!-- rename port -->
+      <div class="show-on-edit name-edit-container">
+        <input type="string" class="sidebar-panel-dark-input name-edit" data-val="label"></input>
+      </div>
+
+      <span class="drop-target drag-handle hide-on-edit component-ports-group-label" data-text="label" data-bind="watch" data-click="onRenameClicked"></span>
+
+      <di class="sidebar-panel-edit-bar hide-on-edit">
+        <!-- rename -->
+        <button type="button" class="component-ports-group-button sidebar-panel-edit-button" data-click="onRenameGroupClicked"><i class="fa fa-pencil-square-o"></i></button>
+
+        <!-- delete -->
+        <button type="button" class="component-ports-group-button sidebar-panel-edit-button" data-click="onDeleteGroupClicked"><i class="fa fa-trash-o"></i></button>
+      </di>
+    </div>
+
+    <!-- drop indicator -->
+    <div class="drop-indicator" style="display:none; position:absolute;top:0px;width:100%;height:3px;background-color:#6c6c6c; pointer-events: none"/>
+
+  </div>
+
+
+
+  <!-- header -->
+  <div class="sidebar-panel-header">
+    <span class="sidebar-panel-header-label" data-text="title"></span>
+  </div>
+
+  <!-- ports -->
+  <div style="overflow-y: auto;">
+    <div class="ports">
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="sidebar-panel-footer-placeholder">
+  </div>
+
+  <div class="sidebar-panel-footer">
+    <button type="button" class="sidebar-panel-footer-button" data-click="onAddPortClicked"><i class="fa fa-plus"></i><span>Port</span></button>
+    <button type="button" class="add-group-button sidebar-panel-footer-button" data-click="onAddGroupClicked"><i class="fa fa-plus"></i><span>Group</span></button>
+  </div>
+</div>

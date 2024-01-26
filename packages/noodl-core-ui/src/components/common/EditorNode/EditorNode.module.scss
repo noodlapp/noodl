@@ -1,0 +1,29 @@
+.Root {
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 100%;
+  word-break: break-word;
+  background-color: var(--baseColor);
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-height: 36px;
+
+  &.is-highlighted {
+    background-color: var(--highlightColor);
+  }
+}
+
+.Label {
+  color: var(--textColor);
+  display: block;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+
+  &.is-after-icon {
+    margin-left: 8px;
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Content-02" transform="translate(-327.000000, -466.000000)">
+            <g id="Past-Orders-Card" transform="translate(0.000000, 452.000000)">
+                <g id="Shape">
+                    <rect id="Elevation" fill-rule="nonzero" x="10" y="3" width="355" height="70" rx="6"></rect>
+                    <rect id="Background" fill-opacity="0.0401005245" fill="#000000" x="0" y="0" width="375" height="60"></rect>
+                    <circle id="Oval" fill-opacity="0.25" fill="#000000" cx="342.5" cy="29.5" r="15.5"></circle>
+                    <path d="M337.808721,33.1658659 C337.394951,33.5796358 336.724097,33.5796358 336.310327,33.1658659 C335.896558,32.752096 335.896558,32.0812425 336.310327,31.6674727 L342.667471,25.3103288 C343.068585,24.9092153 343.714456,24.8951813 344.132614,25.2784929 L350.489758,31.1058749 C350.921111,31.5012812 350.950251,32.1715014 350.554844,32.6028537 C350.159438,33.0342061 349.489218,33.0633461 349.057865,32.6679398 L343.448534,27.5260526 L337.808721,33.1658659 Z" id="Path-94" fill="#FFFFFF" transform="translate(343.416671, 29.238097) scale(-1, 1) rotate(-90.000000) translate(-343.416671, -29.238097) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

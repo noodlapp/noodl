@@ -1,0 +1,1842 @@
+[
+    {
+        "title": "Hearing Assist Rechargeable Hearing Aid for Both Ears, FDA Registered HA-302 Model with Charging Case, Behind-the-Ear Hearing Aids, Beige",
+        "img": "https://i5.walmartimages.com/asr/42056504-3cf2-4a76-a9a5-7b1784457d52_1.e6bcf1ec80c992515497be592e5c69bc.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong><br />Hearing Assist HA-302 Rechargeable BTE Hearing Aid for Both Ears, FDA Registered<br /></strong><ul><li>Kit contains 2 fully assembled hearing aids, charging base and additional accessories</li><li>Rechargeable </li><li>Convenient and easy to use</li><li>4-channel digital signal processor</li><li>Directional microphones</li><li>Outstanding customer service ready to assist</li><li>46dB of crystal clear digital amplification power</li><li>FDA-registered</li><li>Rechargeable hearing aid discreetly fits behind the ear</li><li>4 program levels: quiet environments (such as home or office), social environments, TV mode and outdoors</li><li>For individuals who have mild to moderate hearing loss</li><li>Comes in beige and gray</li></ul>",
+            "short": "<div>&nbsp;1. FDA Register Hearing Aid for All Adults : The same quality you get from an audiologist for a fraction of the price!</div><div>2. 100% Rechargeable Hearing Aid : Save money with our rechargeable magnetic charging station that?s easy and convenient!</div><div><div>3. Clear Digital Sound : 4 adjustable volume controls for different environments. Easily adjust volume with just one finger.</div><div>4. The Hearing Assist Recharge is a BTE Hearing Aid (Behind the Ear) making it discrete and easy to put on/off.</div></div>"
+        },
+        "price": 498.88,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 130
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "536255316",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-gray": {
+                        "id": "actual_color-gray",
+                        "name": "Gray",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/13eb855f-251b-4e4b-979d-fa3fcdbde4be_1.c23aa90a990d8099353bb3fc31912b88.jpeg",
+                        "products": [
+                            "50AKWXRI2Q7L"
+                        ],
+                        "images": [
+                            "B1A6F93287B246E482E857CB5052620B"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-beige": {
+                        "id": "actual_color-beige",
+                        "name": "Beige",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/2aa3f308-7e96-4006-985b-74ccdb386603_1.c0ad1b7fbac9ce951605487b43ea1cdd.jpeg",
+                        "products": [
+                            "1JL862QQTBH7"
+                        ],
+                        "images": [
+                            "538A248ABD4E47AAB5076FE90F7B86AE",
+                            "9BB13B78DCD4469AAED63750717AE4AB",
+                            "9D9E20DFD0944EF2AC921845AAA30AD1",
+                            "FF9221601C6C49ECAEC5FAB0A3EBC0DA",
+                            "B5EFFF4B78944C85967406592519CA11",
+                            "3E3CFFE5273B43209C3076763625E41D",
+                            "D93727C72B764EAF90608A1FA2C3364E"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 498.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids",
+                    "url": "/cp/6949790"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Hearing Assist Bluetooth Rechargeable Hearing Aid for Both Ears, App Enabled FDA Registered HA 802 Model with Charging Case, Behind-the-Ear Hearing Aids, Beige",
+        "img": "https://i5.walmartimages.com/asr/30869383-e5cd-4d58-837a-433ece56f5c7_7.6915bc6e55d05bcd18013caa49c22ff3.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Hearing Assist Hearing Amplifier to Aid Hearing, App Enabled, FDA Registered, with Charging Case, Beige for Both Ears",
+            "short": "<ul><li>Two Hearing Aids per kit</li><li>Rechargeable</li><li>Controlled via Hearing Assist app&nbsp;</li></ul>"
+        },
+        "price": 599.97,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 101
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "171302026",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids",
+                    "url": "/cp/6949790"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Eargo Neo - Virtually Invisible Hearing Aid",
+        "img": "https://i5.walmartimages.com/asr/a161f585-3b47-4ddb-81be-ee2aa03e85bd_1.2d80a7e325b431905253b8ea26f73871.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li><h3>Virtually Invisible</h3><div><br></div><div>Eargos are beautifully designed to never be seen, so your little secret stays a secret.</div></li><li><h3>Rechargeable</h3><p>Our on-the-go rechargeable case makes sure you?re powered up for whatever life throws at you next.</p><p></p></li><li><h3>Comfortable</h3><p>Eargos are so comfortable, you?ll forget they?re there, helping you out decibel after decibel.</p><p></p></li><li><h3>Your Ears Are in Good Company</h3><p>Our team of licensed hearing professionals will be with you every step of the way.</p><p></p></li><li><h3>Connected</h3><p>With the Eargo app you and your Personal Hearing Professional can fine-tune your Eargo Neo's settings to match your unique lifestyle.</p><p></p></li></ul>",
+            "short": "SAY HELLO TO A WORLD OF SOUND. Life doesn?t stop with hearing loss. Eargo Neo is the rechargeable, comfortable, and nearly invisible hearing aid that helps you hear with crystal clarity and live your life, uninterrupted. Eargo Neo is FDA cleared for mild to severe high-frequency loss.<br><br>LIFETIME SUPPORT. We pair you with a licensed hearing professional from day one. Plus, with our telehealth service, you can get Eargo Neo hearing aids and connect with a hearing health professional all from the comfort of your own home without ever having to travel to a hearing clinic or pay another co-pay. After receiving your Eargos, we?ll be on hand to help you get set up virtually and answer any and all of your questions, along with providing valuable tips to help you make the most of your Eargos. And it doesn't stop there; you'll have free and unlimited support throughout your hearing journey.<br>"
+        },
+        "price": 2350,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 25,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "415239317",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids & Amplifiers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids & Amplifiers",
+                    "url": "/cp/5260629"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Digital Hearing Amplifiers - Rechargeable BTE Personal Sound Amplifier Pair with USB Dock - Premium Gold Behind the Ear Sound Amplification - By NewEar",
+        "img": "https://i5.walmartimages.com/asr/78b94eed-6cd2-457a-a784-968f36a09d2c_1.3ced2b3c53d7dbcbbf17a6aff4fad9f0.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Digital Hearing Amplifiers - Rechargeable BTE Personal Sound Amplifier Pair with USB Dock - Premium Gold Behind the Ear Sound Amplification - By MEDca",
+            "short": "Ensure that your hearing devices are always ready to use with this rechargeable BTE personal sound amplifier pair. Featuring complete background noise reduction and cancellation technology this MEDca hearing amplifier is compact, lightweight, and discreet and comes with a USB recharging dock. Durabl"
+        },
+        "price": 42.73,
+        "reviews": {
+            "customerRating": 2.6,
+            "numReviews": 32
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "772347670",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids",
+                    "url": "/cp/6949790"
+                }
+            ]
+        }
+    },
+    {
+        "title": "MEDca - Great Value Digital Hearing Amplifier - Behind the Ear - Rechargeable, comes with Dual Chargers - Double Value Pair Pack â€“ Left and Right ear Specific",
+        "img": "https://i5.walmartimages.com/asr/1d0525d2-eda8-4d50-ad37-f79bfeaada66_1.25eb19a43fcb6677fd24415237503b08.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "MEDca - Great Value Digital Hearing Amplifier - Behind the Ear - Rechargeable, comes with Dual Chargers - Double Value Pair Pack â€“ Left and Right ear Specific",
+            "short": "Merchandise"
+        },
+        "price": 58.89,
+        "reviews": {
+            "customerRating": 3,
+            "numReviews": 3
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "721756167",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "MEDca Hearing Amplifiers | BTE Personal Sound Amplifier Pair with USB Dock | Premium Behind the Ear Sound Amplification",
+        "img": "https://i5.walmartimages.com/asr/66499864-eaa1-4b69-9445-4ad3ad791643_1.38e3def6ff1f1634c9f3b72f6af7ab33.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Hearing Amplifiers - BTE Personal Sound Amplifier Pair with USB Dock - Premium Behind the Ear Sound Amplification - By MEDca",
+            "short": "Merchandise"
+        },
+        "price": 35.99,
+        "reviews": {
+            "customerRating": 3.2,
+            "numReviews": 6
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "511457644",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids & Amplifiers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids & Amplifiers",
+                    "url": "/cp/5260629"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Rechargeable MEDca High Quality Digital Ear Hearing Amplifier \"FDA Approved\" NEW Model!",
+        "img": "https://i5.walmartimages.com/asr/ea3c3678-a494-420e-ae61-e6e40eda8778_1.7d94cd5c2fdb57a9ee57bf1719506886.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "NEW RECHARGEABLE FEATURE: Our device is simple and user-friendly. It runs with high quality rechargeable battery, literally lowering the lifetime expenses on battery in the long run. Its great battery offers around 40 hours continuously using after fully charged",
+            "short": "Merchandise"
+        },
+        "price": 39.99,
+        "reviews": {
+            "customerRating": 3.3,
+            "numReviews": 3
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "0.40"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "205485195",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Digital Hearing Amplifier - (Pair of 2) Personal Hearing Enhancement Sound Amplifier, Rechargeable Digital Hearing Amplifier with All-Day Battery Life, Modern Blue",
+        "img": "https://i5.walmartimages.com/asr/57616732-6bc1-404a-9f5f-6b3ffc320d62_1.567700491fc07287c0818e71f98e885a.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>NEVER MISS OUT ON HEARING AGAIN! INTRODUCING A NEW KIND OF DIGITAL SOUND AMPLIFIER: The MEDca rechargeable digital amplifier is the best industry leading hearing amplifier to instantly experience superior sound. With introducing our latest in digital smart chip technology including Active Digital Noise reduction you will clearly hear conversations so you easily understand everything being said and enjoy life again. With MEDca, you'll love the fact that everything instantly sounds better.</li><li>CRITICAL! OVER 500+ HOURS OF BATTERY LIFE: Our digital hearing amplifier contains a rechargeable which means that you will not have to constantly change batteries right in the middle of a conversation or suffer from running out of batteries again! Which is why through extensive research, we made it a priority to create a hearing amplifier that has the longest battery life in the industry. Without changing batteries all the time you will be free to do the things you love.</li><li>LATEST REVOLUTIONARY READY TO USE TECHNOLOGY: The problem with other BTE Hearing amplifiers is they need complicated programing. Our MEDca digital hearing amplifier solves that problem! That's because our hearing sound amplifiers has a digital smart chip which means that no programing is needed and ready to use right out of the box. Never suffer from complicated hearing amplifiers again!</li><li>DESIGNED & RECOMMENDED: Finally a hearing sound amplifier to make your life easier. With our simple to use one touch digital frequency control. Change the volume with ease in just one touch. Featuring six modes for precision amplification, that allows you to modify tone and volume for best results and maximum clarity.</li><li>EVERYTHING YOU'RE LOOKING FOR IN A HEARING AMPLIFIER Plus OUR INDUSTRY LEADING 100% MONEY BACK GUARANTEE: Customer is our top priority. If you're not satisfied for any reason with our non-programable hearing amplifiers set, we'll refund your money. No questions asked!</li></ul>",
+            "short": "Have You Been Searching For A Rechargeable High Quality Behind The Ear Digital Hearing Amplifier?NewEar would like to share this amazing news with you. The MEDca rechargeable hearing amplifier is the most popular behind the ear sound amplification device for speech frequencies of the human voice wit"
+        },
+        "price": 40.99,
+        "reviews": {
+            "customerRating": 3.3,
+            "numReviews": 25
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586199600000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 55,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "173810948",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids",
+                    "url": "/cp/6949790"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Rechargeable Digital Hearing Amplifier - Hearing Amplifiers Set with New Digital Technology - Almost Invisible BTE Design with Quick Recharge - Personal Sound Amplifier by MEDca",
+        "img": "https://i5.walmartimages.com/asr/b858d062-def1-4fa5-b04d-4b51e498394d_1.1b0e7ef7e86395a9012a8074c277e023.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>TRUE DIGITAL HEARING AMPLIFIER TECHNOLOGY: Designed and Recommended by audiologists. With the NewEar BTE hearing amplifiers you will say goodbye to static, fuzz, humming or unwanted sounds. The revolutionary digital hearing technology so you can experience sounds the way they were meant to be. Highly advanced mini micro processor technology makes this pair a superior hearing amplifier. The device has full digital circuitry and a digital volume control for convenience.</li><li>STOP CHANGING YOUR HEARING AID BATTERIES ALL THE TIME: Picture yourself using a personal hearing amplification device that is simple, user-friendly and rechargeable. You'll love the high quality rechargeable battery that will literally lower your lifetime replacement battery expenses in the long run because now you wont have to worry anymore.</li><li>COMFORTABLE & LIGHT WEIGHT DESIGN YOU WILL FORGET THEY'RE EVEN THERE: Finally a digital hearing amplifier that is comfortable in both of your ears. With a full digital tone quality for low audio distortion and clearer voice making this device the most superior choice on the market today. It also has a noise reduction feature that helps the user hear with maximum clarity.</li><li>EXTENDED ALL DAY BATTERY LIFE: The NewEar rechargeable hearing amplifier battery offers an amazing 40 hours of continuous using after fully being charged. This hearing amplifier comes with low power consumption for up to 6 times power saving over analog models. It's superior to other hearing amplifiers in the same range. The NewEar Digital amplifier is the best solution for people with any hearing condition or those just wanting to watch tv while not disturbing their partner in the other room.</li><li>HIGH QUALITY DURABLE DESIGN BACK BY OUR SATISFACTION GUARANTEE: We have delivered to over +10,000 customers with an amazing 4.9 rating so you can see why customers timelessly place their confidence in our best hearing amplifiers. We want to make sure that you're completely satisfied and thats why NewEar is your best hearing amplification device that precisely boosts the frequencies associated with the human voice.</li></ul>",
+            "short": "COMFORTABLE & LIGHT WEIGHT DESIGN YOU WILL FORGET THEY'RE EVEN THERE: Finally a digital hearing amplifier that is comfortable in both of your ears. With a full digital tone quality for low audio distortion and clearer voice making this device the most superior choice on the market today. It also has"
+        },
+        "price": 39.99,
+        "reviews": {
+            "customerRating": 2.3,
+            "numReviews": 4
+        },
+        "size": {
+            "pricePerUnitUom": "1",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586199600000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 55,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "436843700",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Amplifiers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Amplifiers",
+                    "url": "/cp/9633793"
+                }
+            ]
+        }
+    },
+    {
+        "title": "HearClear HCR3 Rechargeable Hearing Aid - Both Ears",
+        "img": "https://i5.walmartimages.com/asr/c42a419e-11e8-413e-910a-74ae14faeb87_1.f4bbd6619589e9d8c02bd7070b47789a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "HearClear HCR3 Rechargeable Hearing Aid - Both Ears",
+            "short": "Rechargeable hearing aids to help you hear more clearly for an affordable, budget friendly price from advancedhearing.com. They are shipped direct to you and ready for use with a simple click of the on/off button, with no doctors or office visits required. These convenient, behind the ear HCR3 recha"
+        },
+        "price": 518,
+        "reviews": {
+            "customerRating": 3,
+            "numReviews": 2
+        },
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 4,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 25,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "487992300",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-left": {
+                        "id": "size-left",
+                        "name": "Left",
+                        "categoryId": "size",
+                        "products": [
+                            "14HR79S7DWCE"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 269,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 269,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-right": {
+                        "id": "size-right",
+                        "name": "Right",
+                        "categoryId": "size",
+                        "products": [
+                            "2WHP1DF57FYV"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 269,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 269,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-both": {
+                        "id": "size-both",
+                        "name": "Both",
+                        "categoryId": "size",
+                        "products": [
+                            "1VS52UX94VCU"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 518,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 518,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "2019 NEW Rechargeable In Ear Hearing Aids Adjustable Tone In visible Digital Sound Amplifier Kit Volume Voice Assisted Listening Device",
+        "img": "https://i5.walmartimages.com/asr/7a026f5d-5f24-43f8-ae5d-2957aeebdc02_1.12eeb798709c89557cfdfcbdfa6252d3.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>1. Package included: 1 Hearing Aid, 1 US Adapter, 1 Charge indicator, 3 Earplug(S,M,L), 1 Volume adjustment bar, 1 Cleaning brush & User Manual.</li><li>2. Frequency response r ange: 100-4000HZ.</li><li>3. Features: battery power type, with noise reduction and cancellation, small size, 10-15 h s uper long working time.</li></ul>",
+            "short": "<ul><li>3. Features: battery power type, with noise reduction and cancellation, small size, 10-15 h s uper long working time.</li><li>2. Frequency response r ange: 100-4000HZ.</li><li>1. Package included: 1 Hearing Aid, 1 US Adapter, 1 Charge indicator, 3 Earplug(S,M,L), 1 Volume adjustmen</li></ul>"
+        },
+        "price": 30.66,
+        "reviews": {
+            "customerRating": 1,
+            "numReviews": 1
+        },
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586372400000,
+                        "latestDeliveryDate": 1586890800000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "448218133",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-beige": {
+                        "id": "actual_color-beige",
+                        "name": "Beige",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/be4ff59a-4b08-4179-8650-e6114c4452d2_1.eb462e7a6aa0d5fc460c3f0e5ac32583.jpeg",
+                        "products": [
+                            "2NAP26GQPVGY"
+                        ],
+                        "images": [
+                            "ED23B1260BD74B018040154B18C94EDE",
+                            "78B5B87EE31A4C12A46CCFD43E670E2F",
+                            "347F2E6003B54E6BA9CBCF44C3659D3C",
+                            "701E0C5D5A704AC0AE11D00C182383A1",
+                            "F5AB06DC9F714C108EB4F5B0A4AC1626",
+                            "E8B62F86A5704BEC98267C3F76F3E85E",
+                            "A59D02D935BE431D866B8ADFF0292B4D",
+                            "A14F01E80CA04B30AFA3201AF30FF491",
+                            "82ECA1F2F1E7417F92A1F213C93EF813",
+                            "265CF782533241C1B4C1C9B7ECF4D794",
+                            "E94BD0D4ADD445B2B8AEED9C71D94819",
+                            "7FD1585AFD4B4A2984448B2CAD075E9C",
+                            "9785E5A75467486DBCBF2B8C3621C8D3"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 30.66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 73.58,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 30.66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 73.58,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Digital Hearing Amplifier - Personal Hearing Enhancement Sound Amplifier, Rechargeable BTE Digital Hearing Amplifier, Behind the Ear with All-Day Battery Life, Modern Blue",
+        "img": "https://i5.walmartimages.com/asr/479d1aad-e877-4991-b72c-05b01e00595d_1.6aa2bb6cb5376821e06f020d4cc93da0.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>NEVER MISS OUT ON HEARING AGAIN! INTRODUCING A NEW KIND OF DIGITAL SOUND AMPLIFIER: The MEDca rechargeable digital amplifier is the best industry leading hearing amplifier to instantly experience superior sound. Introducing our latest in digital smart chip technology including Active Digital Noise reduction you will clearly hear conversations so you can easily understand everything being said and enjoy life again. With MEDca, you'll love the fact that everything instantly sounds better.</li><li>CRITICAL! OVER 500+ HOURS OF BATTERY LIFE: Our digital hearing amplifier is rechargeable which means that you will not have to constantly change batteries right in the middle of a conversation or suffer from running out of batteries again! Which is why through extensive research, we made it a priority to create a hearing amplifier that has the longest battery life in the industry. Without changing batteries all the time you will be free to do the things you love.</li><li>LATEST REVOLUTIONARY READY TO USE TECHNOLOGY: The problem with other BTE Hearing amplifiers is they need complicated programing. Our MEDca digital hearing amplifier solves that problem! That's because our hearing sound amplifiers has a digital smart chip which means that no programing is needed and ready to use right out of the box. Never suffer from complicated hearing amplifiers again!</li><li>DESIGNED & RECOMMENDED: Finally a hearing sound amplifier to make your life easier. With our simple to use one touch digital frequency control. Change the volume with ease in just one touch. Featuring six modes for precision amplification, that allows you to modify tone and volume for best results and maximum clarity.</li><li>EVERYTHING YOU'RE LOOKING FOR IN A HEARING AMPLIFIER Plus OUR INDUSTRY LEADING 100% MONEY BACK GUARANTEE: Customer is our top priority. If you're not satisfied for any reason with our non-programable personal hearing amplifiers set, we'll refund your money. No questions asked!</li></ul>",
+            "short": "DESIGNED & RECOMMENDED: Finally a hearing sound amplifier to make your life easier. With our simple to use one touch digital frequency control. Change the volume with ease in just one touch. Featuring six modes for precision amplification, that allows you to modify tone and volume for best results a"
+        },
+        "price": 26.99,
+        "reviews": {
+            "customerRating": 3,
+            "numReviews": 12
+        },
+        "size": {
+            "pricePerUnitUom": "1",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586372400000,
+                        "latestDeliveryDate": 1586804400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "552595338",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Personal Ear Hearing Aid Booster Sound Hearing Amplifier Digital Rechargeable",
+        "img": "https://i5.walmartimages.com/asr/1107f90b-5d1a-4f22-a574-9248d9fcfdad_1.2d66c919baa950f30f4274bf31d5e8b5.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Built in AM/FM Radio.</li><li>Small,discreet design.</li><li>Personal sound booster.</li><li>Cancels background noise.</li><li>It&apos;s the best gift for the elderly.</li><li>Enhances vocals with new technology.</li><li>Great for movies and outdoor activities.</li><li>Picks up sounds the human ear wouldn?t normally hear.</li></ul>",
+            "short": "<ul><li>Small,discreet design.</li><li>Enhances vocals with new technology.</li><li>Picks up sounds the human ear wouldn?t normally hear.</li><li>Cancels background noise.</li><li>Built in AM/FM Radio.</li><li>It's the best gift for the elderly.</li><li>Great for movies and outdoor activit</li></ul>"
+        },
+        "price": 16.45,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586977200000,
+                        "latestDeliveryDate": 1587495600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "918452806",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "\"Rechargeable\" NewEar High Quality Digital Ear Hearing Amplifier \"FDA Approved\" NEW Model!",
+        "img": "https://i5.walmartimages.com/asr/ecb87535-084f-4373-a0cb-5a581a9004fd_1.d7855216ffe25c08e80c7af1cc397855.gif?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p>The rechargeable hearing amplifier is lightweight and small in size to keep you comfortable all day long. It can be used in either ear, and the device comes with three earplugs of different sizes. This NewEar hearing amplifier is ideal for people who have been dealing with mild to moderate hearing loss and it helps them function normally and be productive again. Engage in conversations with your loved ones, enjoy outdoor activities, be alert to your surroundings and much more with this high-quality device.<b><br />\"Rechargeable\" NewEar High Quality Digital Ear Hearing Aid Amplifier \"FDA Approved\" NEW Model!:</b></p><ul><li>\"New\" rechargeable feature: Our device is simple and user-friendly. It runs with high quality rechargeable battery, literally lowering the lifetime expenses on battery in the long run. Its powerful battery offers around 40 hours continuously using after fully charged</li><li>Superior design: Our hearing amplifier is designed by an audiologist. It has been innovated keeping in mind the hearing requirements and limits of an individual. The device has a sleek and stylish design, and comes with a very attractive golden receiver</li><li>Comfortable: The amplifier is comfortable in either of the ears. It has a full digital tone quality for low audio distortion and clearer voice. It also has a noise reduction feature that helps the user hear with maximum clarity</li><li>Exceptional functions: This hearing amplifier comes with low power consumption for up to 6 times power saving over analog models. It's superior to other hearing amplifiers in the same range. Its digital volume and mode controls enhances this already top model</li><li>Digital hearing amplifier: NewEar Digital amplifier is the best solution for people with hearing condition. The device has full digital circuitry and a digital volume control for convenience</li><li>NewEar rechargeable hearing amplifiers is FDA approved</li></ul>",
+            "short": "<ul><li>EXCEPTIONAL FUNCTIONS: This hearing amplifier comes with low power consumption for up to 6 times power saving over analog models. It's superior to other hearing amplifiers in the same range. Its digital volume and mode controls enhances this already top model.</li><li>DIGITAL HEARI</li></ul>"
+        },
+        "price": 40.99,
+        "reviews": {
+            "customerRating": 2,
+            "numReviews": 3
+        },
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 55,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "389184037",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Digital Hearing Amplifier - Personal Hearing Enhancement Sound Amplifier Pair, Rechargeable Digital Hearing Amplifier with All-Day Battery Life, Modern Blue",
+        "img": "https://i5.walmartimages.com/asr/2ed65ca3-475c-4ec6-8008-c6d8edfc6dd8_1.ff3d442cc6dd1126d885fdc51411323e.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>NEVER MISS OUT ON HEARING AGAIN! INTRODUCING A NEW KIND OF DIGITAL SOUND AMPLIFIER: The MEDca rechargeable digital amplifier is the best industry leading hearing amplifier to instantly experience superior sound. With introducing our latest in digital smart chip technology including Active Digital Noise reduction you will clearly hear conversations so you easily understand everything being said and enjoy life again. With MEDca, you'll love the fact that everything instantly sounds better.</li><li>CRITICAL! OVER 500+ HOURS OF BATTERY LIFE: Our digital hearing amplifier contains a rechargeable which means that you will not have to constantly change batteries right in the middle of a conversation or suffer from running out of batteries again! Which is why through extensive research, we made it a priority to create a hearing amplifier that has the longest battery life in the industry. Without changing batteries all the time you will be free to do the things you love.</li><li>LATEST REVOLUTIONARY READY TO USE TECHNOLOGY: The problem with other BTE Hearing amplifiers is they need complicated programing. Our MEDca digital hearing amplifier solves that problem! That's because our hearing sound amplifiers has a digital smart chip which means that no programing is needed and ready to use right out of the box. Never suffer from complicated hearing amplifiers again!</li><li>DESIGNED & RECOMMENDED: Finally a hearing sound amplifier to make your life easier. With our simple to use one touch digital frequency control. Change the volume with ease in just one touch. Featuring six modes for precision amplification, that allows you to modify tone and volume for best results and maximum clarity.</li><li>EVERYTHING YOU'RE LOOKING FOR IN A HEARING AMPLIFIER Plus OUR INDUSTRY LEADING 100% MONEY BACK GUARANTEE: Customer is our top priority. If you're not satisfied for any reason with our non-programable hearing amplifiers set, we'll refund your money. No questions asked!</li></ul>",
+            "short": "Hear people better with this modern blue hearing amplifier"
+        },
+        "price": 49.99,
+        "reviews": {
+            "customerRating": 2.8,
+            "numReviews": 5
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "0.42"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586286000000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "313967811",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "MEDca High-Quality Rechargeable Ear Hearing Amplifier Sound Amplifier with Rapid Charger | Premium Behind the Ear Sound Amplification",
+        "img": "https://i5.walmartimages.com/asr/1d3f688d-f19e-484d-b8a7-54b514ed0ed4_1.76cf82b931426947537f2bf0fb144d94.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>NEVER MISS OUT ON HEARING AGAIN! INTRODUCING A NEW KIND OF DIGITAL SOUND AMPLIFIER: The MEDca rechargeable digital amplifier is the best industry-leading hearing amplifier to instantly experience superior sound. With introducing our latest in digital smart chip technology including Active Digital Noise reduction you will clearly hear conversations so you easily understand everything being said and enjoy life again. With MEDca, you'll love the fact that everything instantly sounds better.</li><li>CRITICAL! OVER 500+ HOURS OF BATTERY LIFE: Our digital hearing amplifier contains a rechargeable which means that you will not have to constantly change batteries right in the middle of a conversation or suffer from running out of batteries again! Which is why through extensive research, we made it a priority to create a hearing amplifier that has the longest battery life in the industry. Without changing batteries all the time you will be free to do the things you love.</li><li>LATEST REVOLUTIONARY READY TO USE TECHNOLOGY: The problem with other BTE Hearing amplifiers is they need complicated programming. Our MEDca digital hearing amplifier solves that problem! That's because our hearing sound amplifiers have a digital smart chip which means that no programming is needed and ready to use right out of the box. Never suffer from complicated hearing amplifiers again!</li><li>DESIGNED &amp; RECOMMENDED: Finally a hearing sound amplifier to make your life easier. With our simple to use one-touch digital frequency control. Change the volume with ease in just one touch. Featuring six modes for precision amplification, that allows you to modify tone and volume for best results and maximum clarity.</li><li>EVERYTHING YOU'RE LOOKING FOR IN A HEARING AMPLIFIER Plus OUR INDUSTRY-LEADING 100% MONEY BACK GUARANTEE: Customer is our top priority. If you're not satisfied for any reason with our non-programable hearing amplifiers set, we'll refund your money. No questions asked!</li></ul>",
+            "short": "This is the same famous sound amplification device that has been nationally publicized on TV and in leading publications- similar to those that have been sold in Europe for much, much more. High technology so small fits right behind your ear. Don't be fooled by small size or ap"
+        },
+        "price": 28.99,
+        "reviews": {
+            "customerRating": 3.5,
+            "numReviews": 15
+        },
+        "size": {
+            "pricePerUnitUom": "1",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586199600000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 55,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "439233431",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids & Amplifiers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids & Amplifiers",
+                    "url": "/cp/5260629"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Hearing Assist Recharge | Rechargeable BTE Hearing Aid (Both Ears) | FDA Registered with Charging Case | TV Offer | Beige",
+        "img": "https://i5.walmartimages.com/asr/bfe76732-1c6c-4e07-81a4-0591e9f19f03_1.e04335aa8ed093a688591b1ec8fc77ca.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p><strong>FDA Registed Hearing Aid</strong> for All Adults:</p> <p>The same quality you get from an audiologist for a fraction of the price!<br>? 100% Rechargeable Hearing Aid : Save money with our rechargeable magnetic charging station that?s easy and convenient!</p> <p>? Free Technical support from our highly trained customer service personnel with 60-Day moneyback guarantee &amp; 1 Year product warranty.</p> <p>? Clear Digital Sound : 4 adjustable volume controls for different environments. Easily adjust volume with just one finger.</p> <p>? The Hearing Assist Recharge is a BTE Hearing Aid (Behind the Ear) making it discrete and easy to put on/off.</p>",
+            "short": "<ul><li>This is an FDA Registered Hearing Aid of professional quality, with a magnetic charge dock for ease of dexterity. Never change a battery again<br></li><li>Our hearing aids are programmed to amplify the frequencies most commonly associated with hearing loss Our ReCharge! HA-302 BTE has four preset amplification<br></li></ul>"
+        },
+        "price": 599.97,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 130
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "852083543",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "DROPDOWN",
+                "variants": {
+                    "actual_color-gray": {
+                        "id": "actual_color-gray",
+                        "name": "Gray",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "4RC0E9DJ84BB"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 599.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 599.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-beige": {
+                        "id": "actual_color-beige",
+                        "name": "Beige",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "3Q8RL6XRO5XF"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 599.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 599.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Hearing Aids",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Hearing Aids",
+                    "url": "/cp/6949790"
+                }
+            ]
+        }
+    },
+    {
+        "title": "MEDca  BTE Behind Ear Hearing Sound Amplifier Set Enhancer | Rechargeable Voice Amplifier Volume Control Super Mini Size Device",
+        "img": "https://i5.walmartimages.com/asr/2f3aaef3-5104-4309-b87a-de2ca4466aee_1.6c8fedb93ed6fdab51f7927de5ac1336.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>UNMATCHED PERFORMANCE! HEAR EVERYTHING UP TO 100 FEET AWAY: Imagine being able to hear anything from up to 100 feet away? Well, if you've been looking for a device that allows you to hear everything, then your search is over! That's because our personal audio amplifier has volume and tone controls which means that you can hear the front door open or hear a conversation with a friend, guaranteed!</li><li>LIGHT-WEIGHT & EASY TO USE: Don't worry about carrying extra weight around. Because our voice enhancer is small and light-weight, you'll be able to fit it in your pocket or clip it to your belt, hat or other gear. This is great for you because it is versatile hand-held and can be taken anywhere! Don't be limited to just your house! This personal audio amplifier also contains new and improved mini earphone which means that provides crystal clear voice and sound both indoors and outdoors!</li><li>HIGHLY EFFECTIVE BUILT-IN MICROPHONE: The problem with other hearing devices for hard of hearing is they are inferior quality and have an external microphone. Our voice enhancer solves that problem! Why? That's because our personal audio amplifier made of top quality construction making it extra durable. It even has a built-in microphone which means you won't lose the microphone. You can hear with clarity. So you will never suffer not hearing your favorite TV shows again!</li><li>SUPERIOR PERFORMANCE: This voice enhancer device has new and improved mini earphones. It also offers you a light-weight, belt clip, and is powered by 2 AAA batteries. Hear things in a pinch! This personal audio amplifier can be used anywhere as it has superior sound clarity so you can even use it inside or outdoors!</li><li>EVERYTHING THAT YOU NEED IN A VOICE ENHANCER DEVICE! Plus OUR 100 % SATISFACTION GUARANTEE: Check the Reviews and see what other customers have to say! You can be confident that your satisfaction is always our #1 priority and that we'll do everything in our power to make sure you have an excellent customer experience. It's that simple.</li></ul>",
+            "short": "UNMATCHED PERFORMANCE! HEAR EVERYTHING UP TO 100 FEET AWAY: Imagine being able to hear anything from up to 100 feet away? Well, if you've been looking for a device that allows you to hear everything, then your search is over! That's because our personal audio amplifier has volume and tone controls w"
+        },
+        "price": 27.99,
+        "reviews": {
+            "customerRating": 3.6,
+            "numReviews": 10
+        },
+        "size": {
+            "pricePerUnitUom": "1",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 55,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "376100811",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "PYLE PHLHA54.7 - Digital Hearing Assistance Aid - Hearing Impaired Ear Amplifier with Built-in Rechargeable Battery",
+        "img": "https://i5.walmartimages.com/asr/2b55e5ac-3414-4ac3-81c8-1e43c8f0098e_1.8fa34767997cd19ab1d9d00c5ef8f587.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Digital Hearing Amplifier</li><li>Universal Size: Fits Behind the Ear</li><li>Built-in Rechargeable Lithium Battery</li><li>Charges via Included USB Dock</li><li>Interchangeable Ear Tip to Seal-Out the Noise</li><li>Selectable Listening Modes: Normal and Noisy</li><li>Unique Ergonomic Design to Prevent Occlusion Effect</li><li>Can be Used for Left or Right Ears</li></ul>",
+            "short": "Merchandise"
+        },
+        "price": 39.06,
+        "reviews": {
+            "customerRating": 1,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "632973826",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Mimitakara 6K5C-Right Mimitakara FDA Registered Rechargeable Bluetooth Personal Hearing Amplifier - Black & Silver",
+        "img": "https://i5.walmartimages.com/asr/7cef35c7-74b7-4999-b120-9a320004e4fb_1.73ace0b2d9c64cc4cf58530d6c8eb9b3.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Mimitakara 6K5C-Right Mimitakara FDA Registered Rechargeable Bluetooth Personal Hearing Amplifier - Black & Silver",
+            "short": "Features<ul><li>Mimitakara Classic Bluetooth Hearing Amplifier</li><li>Two methods to recharge- through AA battery or through USB Adaptor</li><li>Either way can provide the Obsidian with continious 11 hours of use per charge</li><li>Bluetooth Function</li><li>Pair up with your mobile devic</li></ul>"
+        },
+        "price": 63.74,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 9.92,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586545200000,
+                        "latestDeliveryDate": 1586977200000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 3,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_price",
+                "titlePrice": {
+                    "price": 9.92,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "493567632",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Bluetooth Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Bluetooth Hearing Devices",
+                    "url": "/cp/3353259"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Premium Digital Hearing Amplifier – Advanced Rechargeable Sound Enhancement Device for Adults and Seniors with Recharging Dock, Noise Reduction and Dual Directional Microphone",
+        "img": "https://i5.walmartimages.com/asr/7bb3159e-6b6f-4e4a-97fe-db405ae989c5_1.d0641c7aec4638d64aefee0548d72721.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>ADVANCED. PREMIUM QUALITY: This advanced behind the ear hearing amplifier is simple, affordable, rechargeable and offers you the same technology comparable to the more costly and overly-priced digital amplifiers. Using dual microphones, this personal sound amplifier provides crystal clear sound and makes speech easier to understand better than ever before</li><li>CONVENIENT. RECHARGEABLE CARRYING CASE: No more fumbling around for batteries. This advanced hearing amplifier set has a rechargeable battery that lasts up to 16-21 hours on a single charge. The portable charging case has a built-in lithium-ion battery that provides 3 full charges. It's like having a power bank for your hearing amplifier. They switch on automatically when removed from the charger and turn off when placed back in the charging case<p></p></li><li>INNOVATIVE. DUAL MICROPHONE SYSTEM: The digital adaptive sound chip and dual microphones use dynamic range compression . Which means it minimizes background sounds while actually clarifying the human voice you want to hear. Great for when you're in restaurants, meetings, watching TV, driving or during outdoor activities<p></p></li><li>DISCREET. COMFORTABLE DESIGN: We value your well-being so we've created this advanced digital hearing amplifier with you in mind. You will love the discreet, comfortable, lightweight open-fit design. With a stylish model this sophisticated you'll be amazed at the feel and sound of this MEDca Advanced Digital Amplifier Set right out of the box<p></p></li><li>TRUSTED BRAND. SATISFACTION GUARANTEED: When choosing MEDca you receive our Unlimited Satisfaction Guarantee as our promise to you. While other brands claim a 6 or 12 month guarantee. We are confident in the quality of our product that we back it with a limited 2-year product warranty. You also get technical support with our highly trained customer experience team<p></p></li></ul>",
+            "short": "TRUSTED BRAND. SATISFACTION GUARANTEED: When choosing MEDca you receive our Unlimited Satisfaction Guarantee as our promise to you. While other brands claim a 6 or 12 month guarantee. We are confident in the quality of our product that we back it with a limited 2-year product warranty. You also get"
+        },
+        "price": 399,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 55,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "251173193",
+        "category": {
+            "categoryPath": "Home Page/Health/Home Health Care/Hearing Aids, Amplifiers & Accessories/Rechargeable Hearing Devices",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Home Health Care",
+                    "url": "/cp/1005860"
+                },
+                {
+                    "name": "Hearing Aids, Amplifiers & Accessories",
+                    "url": "/cp/5455166"
+                },
+                {
+                    "name": "Rechargeable Hearing Devices",
+                    "url": "/cp/5985461"
+                }
+            ]
+        }
+    }
+]

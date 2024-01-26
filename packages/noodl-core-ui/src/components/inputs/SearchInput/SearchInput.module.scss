@@ -1,0 +1,41 @@
+$_search-bar-height: 45px;
+
+.Root {
+  position: relative;
+  display: flex;
+  background-color: var(--theme-color-bg-1);
+}
+
+.SearchInputIcon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  pointer-events: none;
+  opacity: 0.6;
+  transition: opacity 200ms ease-in-out 1000ms; // we lose focus for short amounts of time, make it less noticable
+
+  .SearchInput:focus + & {
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+  }
+}
+
+.SearchInput {
+  background-color: transparent;
+  color: var(--theme-color-fg-highlight);
+  font-size: 14px;
+  font-weight: 500;
+  height: $_search-bar-height;
+  line-height: $_search-bar-height;
+  border: none;
+  flex-grow: 1;
+  padding-left: 40px;
+
+  &::placeholder {
+    color: var(--theme-color-fg-default-shy);
+    padding-left: 5px;
+  }
+}

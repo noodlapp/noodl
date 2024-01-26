@@ -1,0 +1,950 @@
+[
+    {
+        "title": "Vicks Speed-Read Thermometer with Fever InSight, V912",
+        "img": "https://i5.walmartimages.com/asr/9a2fbc2f-f649-4a97-9c1a-2c438db136f5_1.914ab7931f669cd797b66dbaaccadd8c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><b>Vicks SpeedRead Thermometer:</b><ul><li>Oral, rectal or underarm use</li><li>Accurate readings within +/- 0.2F</li><li>8-second readings</li><li>Fever InSight helps you understand the meaning of temperature readings using a color-coded display</li><li>Waterproof for easy, thorough cleaning</li><li>Automatic shutoff for longer battery life</li><li>Memory feature recalls and displays last temperature taken</li><li>Storage case and batteries included with digital instant read thermometer</li><li>Lifetime warranty under normal use</li></ul>",
+            "short": "<li>Faster readings in as fast as 8 seconds </li> <li>Professional accuracy </li> <li>Fever InSight large backlit display </li> <li>Waterproof for easy, thorough cleaning </li>",
+            "medium": "Vicks Speed Read Thermometer provides accurate readings in only 8 seconds. Unique Fever InSight uses color-coded displays to help you better understand the meaning of the reading. A green display suggests that there is no fever, yellow signifies a slightly elevated temperature and a red display indicates a fever. The V912US can be used orally, rectally or under the arm."
+        },
+        "price": 8.27,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 362
+        },
+        "size": {
+            "karfGroceryType": "Thermometers",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "9875669",
+        "category": {
+            "categoryPath": "Home Page/Baby/Health & Safety/Baby Health",
+            "path": [
+                {
+                    "name": "Baby",
+                    "url": "/cp/5427"
+                },
+                {
+                    "name": "Health & Safety",
+                    "url": "/cp/132943"
+                },
+                {
+                    "name": "Baby Health",
+                    "url": "/cp/3241797"
+                }
+            ]
+        }
+    },
+    {
+        "title": "LYUMO Digital Infrared IR Thermometer, LCD Digital Ear Forehead Infrared Thermometer Temperature Monitor Non-contact for Kids Adult",
+        "img": "https://i5.walmartimages.com/asr/4bc02643-d9c1-47fe-97f0-9622702a3c54_1.af9a3e41ba00c3c73942bda6ecc2dc31.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Rapid temperature measurement in one second, and comes with prompt tone when measurement is finished</li><li>Fever prompt function: when the temperature is more than 37.5℃, the thermometer will issue</li><li>3 Backlight. The 3 backlight will remind whether the temperature is normal, high, and feverish. When the temperature is below 37.5℃, the backlight turn green; when the temperature is between 37.6℃~38.0℃, the backlight turn yellow; when the temperature is</li><li>No operation in 60 seconds, the device will record the last measuring data and shut down automatically</li></ul>",
+            "short": "<ul><li>Fever prompt function: when the temperature is more than 37.5℃, the thermometer will issue</li><li>Rapid temperature measurement in one second, and comes with prompt tone when measurement is finished</li><li>Memory function. This thermometer can store 12 readings to help you track </li></ul>"
+        },
+        "price": 72.98,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "159722678",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "DROPDOWN",
+                "variants": {
+                    "actual_color-pink": {
+                        "id": "actual_color-pink",
+                        "name": "Pink",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "15EOINKF13VO"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-purple": {
+                        "id": "actual_color-purple",
+                        "name": "Purple",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "2OCAOAO5T9GR"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 80.28,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-green": {
+                        "id": "actual_color-green",
+                        "name": "Green",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "3GXTYAIDC9H1"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 72.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 72.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-blue": {
+                        "id": "actual_color-blue",
+                        "name": "Blue",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "1LSOP200IEJU"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 79.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 79.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Ear Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Ear Thermometers",
+                    "url": "/cp/1499722"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Braun ThermoScan 5 Digital Ear Thermometer, IRT6500, White",
+        "img": "https://i5.walmartimages.com/asr/b9e209e3-47e4-4431-ad30-64c051e4673f_1.17fd3d0804d2bbb14933caab37514c93.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p></p><p class=\"MsoNoSpacing\"><ul><li>Accurate readings in just seconds<br></li><li>The Thermoscan thermometer is proven more accurate than forehead or rectal<br></li><li>Pre-warmed tip provides accurate measurements time after time<br></li><li>ExactTemp system uses a light &amp; beep to confirm proper positioning<br></li><li>Large, easy to read display<br></li><li>Lens filters ensure accuracy and hygiene<br></li><li>Small, soft speculum for gentleness in-ear<br></li><li>Braun Thermoscan Ear Thermometer is recommended for infants, children and adults<br></li><li>Includes: 2 AA batteries, 21 lens filters and protective case with lens filter storage<br></li></ul><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p> <p class=\"MsoNoSpacing\"><o:p></o:p></p>",
+            "short": "<div><ul><li>Accurate readings in just seconds<br></li><li>The Thermoscan thermometer is proven more accurate than forehead or rectal<br></li><li>Pre-warmed tip provides accurate measurements time after time<br></li><li>ExactTemp system uses a light &amp; beep to confirm proper positioning</li></ul></div>"
+        },
+        "price": 44.54,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 147
+        },
+        "size": {
+            "karfGroceryType": "Thermometers",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "54778797",
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Ear Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Ear Thermometers",
+                    "url": "/cp/1499722"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Handheld Meter Temperature Non-contact Digital Infrared Thermometer",
+        "img": "https://i5.walmartimages.com/asr/23b8db68-4141-45ad-9e03-ca00a9faf3fb_1.7e96481f80c876cc3750342dea7564cb.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Package Included:</li><li>1 x LCD Infrared Thermometer</li><li>1 x User Manual</li></ul>",
+            "short": "<ul><li>1 x LCD Infrared Thermometer</li><li>Package Included:</li><li>1 x User Manual</li></ul>"
+        },
+        "price": 14.52,
+        "reviews": {
+            "customerRating": 0,
+            "numReviews": 0
+        },
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "258288332",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-pink": {
+                        "id": "actual_color-pink",
+                        "name": "Pink",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/2de04637-c78d-4eea-9213-e104749bdf05_1.09c63a94d1902851ce98297eb9a841cd.jpeg",
+                        "products": [
+                            "759D8Z8LH4J8"
+                        ],
+                        "images": [
+                            "4144779246134A89BBEA3C20892013A1"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 15.05,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 15.05,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-purple": {
+                        "id": "actual_color-purple",
+                        "name": "Purple",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/8c21a44c-0392-4ff1-86fa-2137d3393d71_1.9098c02020d80cd74075e4c549e994f9.jpeg",
+                        "products": [
+                            "3E9OJKCA7VIA"
+                        ],
+                        "images": [
+                            "4A132DA0636E4596BCF4213BD2812430"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 16.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 16.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-thermometer": {
+                        "id": "actual_color-thermometer",
+                        "name": "Thermometer",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/6914bd65-69d9-429b-abe0-af8153c46b5f_1.8bb8d61598a469614dfe4b14ad94d515.jpeg",
+                        "products": [
+                            "6Z4XIFOC2N61"
+                        ],
+                        "images": [
+                            "6A3BB4E345F947F38C548C01CDB2FD07",
+                            "211EBA50AB0F4C50929BB5E58721B7A7",
+                            "8C8721681AEB42CCACBFF509D0F6862F",
+                            "2FFBA7AA43544AEDA4008B3716ED6160"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000005,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 69.87,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 69.87,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-gray": {
+                        "id": "actual_color-gray",
+                        "name": "Gray",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "/static/img/no-image-sm.jpg",
+                        "products": [
+                            "4YE7OXSTHM3S"
+                        ],
+                        "images": [
+                            "101C05C3B6CA4ED2874CE98FE9F180ED",
+                            "3FF535AE8D9B449BA043108F43FBF2BA",
+                            "AA8513E58DD74A2CA03383DE61DAC7CC"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 14.52,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 14.52,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-green": {
+                        "id": "actual_color-green",
+                        "name": "Green",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/9e31c9d6-0af7-49d7-a0e4-2de61a88892c_1.26d371a24e36ac5ccec0349177b77aa2.jpeg",
+                        "products": [
+                            "6U0OOOOEWJJ5"
+                        ],
+                        "images": [
+                            "D47CDFC4D42E42B59DFB98AC88F2E947"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 15.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 15.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-blue": {
+                        "id": "actual_color-blue",
+                        "name": "Blue",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/49c4253c-a06b-45f6-a442-55834fff9014_1.0d726aa243690eb59da058f769e057be.jpeg",
+                        "products": [
+                            "0VLOESNSR1PC"
+                        ],
+                        "images": [
+                            "780CD97EB1524B70BDF8184EE5CF3A2C",
+                            "AE04A6B204814A7D9834A866F1DE95B1"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 15.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 15.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Ear Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Ear Thermometers",
+                    "url": "/cp/1499722"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Forehead Thermometer, Non-contact Infared Digital LCD Display For Baby/Adult Digital Ear Body Thermometer Temperature Measuring CE",
+        "img": "https://i5.walmartimages.com/asr/dcb305f7-8574-4f1f-ab5e-ac77ff7600a0_1.f073f5e8417faa00ec5dfc2865a44ad4.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Intelligent three color backlights alarm to indicate the result.",
+            "short": "<ul><li>Imported sensor and advanced IR temperature measurement technology, no radiation, safe and precise measurement, fast readout.</li><li>Two measuring units: ℃ and ℉ / Measuring time: 1s / Measuring distance: 1-3cm</li><li>Intelligent three color backlights alarm to indicate the resul</li></ul>"
+        },
+        "price": 86.29,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "716315059",
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Ear Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Ear Thermometers",
+                    "url": "/cp/1499722"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Safety 1st 3-in-1 Flexible Tip Nursery Thermometer, Arctic",
+        "img": "https://i5.walmartimages.com/asr/b12ac4e9-4281-4d96-8ed4-31d3cd420acd_1.b7c8a53aa17ed8079791ea159e3369c4.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Accurate reading in 30 seconds (°F/C)</li><li>3 modes of use: oral, rectal, or underarm</li><li>Beeps when reading is complete</li><li>Flexible tip for comfort</li><li>Over-insertion gauge for rectal use</li></ul>",
+            "short": "<ul><li>Accurate reading in 30 seconds (°F/C)</li><li>3 modes of use: oral, rectal, or underarm</li><li>Beeps when reading is complete</li><li>Flexible tip for comfort</li><li>Over-insertion gauge for rectal use</li><li>Recalls last reading</li><li>Protective storage case</li><li>°F/°C Switchable</li><li>Auto shut-off</li><li>1 long-life (LR41) battery included </li></ul>",
+            "medium": "<p>The Safety 1st 3-in-1 Nursery Thermometer lets you choose the best way to check temperature when your child isn't feeling well. It can be used orally, rectally, or under the arm and beeps when the reading is complete. The flexible tip is more comfortable for baby during a rectal reading and features an over-insertion gauge that gives parents added confidence while checking for fevers, so that they can focus on helping baby feel better. The Safety 1st 3-in-1 Nursery Thermometer includes both a protective storage case and a long life battery.</p>"
+        },
+        "price": 5.49,
+        "reviews": {
+            "customerRating": 3.3,
+            "numReviews": 7
+        },
+        "size": {
+            "karfGroceryType": "Thermometers",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44926104",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "DROPDOWN",
+                "variants": {
+                    "actual_color-arctic": {
+                        "id": "actual_color-arctic",
+                        "name": "Arctic",
+                        "categoryId": "actual_color",
+                        "products": [
+                            "3OTGU9FIBDEF"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 5.49,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 5.49,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Baby/Health & Safety/Baby Health",
+            "path": [
+                {
+                    "name": "Baby",
+                    "url": "/cp/5427"
+                },
+                {
+                    "name": "Health & Safety",
+                    "url": "/cp/132943"
+                },
+                {
+                    "name": "Baby Health",
+                    "url": "/cp/3241797"
+                }
+            ]
+        }
+    },
+    {
+        "title": "ReliOn 60 Second Digital Thermometer",
+        "img": "https://i5.walmartimages.com/asr/7920a2b5-12de-4d71-adc1-a6293216dafc_1.67732d725d3f9571757a4f5bc04511fa.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>60-second digital thermometer</li><li>Lifetime limited warranty</li><li>Easy to use and delivers quick and accurate results in 60 seconds</li><li>Audible signal with memory recall</li><li>Proven clinical accuracy</li><li>Suitable for the whole family</li><li>Designed for oral, underarm, or rectal use</li><li>Features an on and off button with auto shut-off</li><li>LCD display</li><li>Convenient clear storage case</li></ul>",
+            "short": "<li>Auto shut off</li><li>Memory recall</li>",
+            "medium": "</p>"
+        },
+        "price": 3.58,
+        "reviews": {
+            "customerRating": 2.1,
+            "numReviews": 68
+        },
+        "size": {
+            "karfGroceryType": "Thermometers",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "144.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "35327362",
+        "category": {
+            "categoryPath": "Home Page/Health/Caregiver/Personal Aids/Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Caregiver",
+                    "url": "/cp/2915579"
+                },
+                {
+                    "name": "Personal Aids",
+                    "url": "/cp/5093072"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/9731238"
+                }
+            ]
+        }
+    },
+    {
+        "title": "6 Pack - Duro-Med Tiny Temp Digital Thermometer  1 ea",
+        "img": "https://i5.walmartimages.com/asr/8827420c-0c47-4422-8c5d-4bf5271f7193_1.d1a938bb6a20d3ff06ec04ba1f4e9810.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<li><b>Pack of 6</b> for the UPC: 767056156982</li>Tiny Temp Digital Thermometer:<li> Records body temperature in approximately 60 seconds. </li><li> Easy to read digital display. </li><li> Waterproof for easy cleaning. </li><li> Includes instructions. </li><li> Can be used orally, under arm or rectally. </li>",
+            "short": "<ul><li>Duro-Med</li><li></li><li>Free Shipping</li><li>Pack of 6</li></ul>"
+        },
+        "price": 31.01,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "592383523",
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Digital Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Digital Thermometers",
+                    "url": "/cp/7721184"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Single-Use Latex-Free Clinical Thermometers, Box/100NexTemp thermometers are easier to use and read By NEXTEMP",
+        "img": "https://i5.walmartimages.com/asr/9acb1728-155a-405b-87b0-ac809ab1b0a4_1.42000cf14b10822a60860f06dcc373f5.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>can be used for oral, axillary and with the NexTemp sheath, for rectal temperatures</li><li>Individually wrapped NexTemp thermometers</li><li>NexTemp thermometers are easier to use and read</li></ul>",
+            "short": "<ul><li>NexTemp thermometers are easier to use and read</li><li>Individually wrapped NexTemp thermometers</li><li>can be used for oral, axillary and with the NexTemp sheath, for rectal temperatures</li></ul>"
+        },
+        "price": 22.89,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "655440920",
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Digital Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Digital Thermometers",
+                    "url": "/cp/7721184"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Kids Margo Moo Animal Shaped Digital Thermometer for Oral, Rectal or Underarm Temperature Readings for Kids, Children and Adults, Purple, Margo Moo is a friendly.., By HealthSmart",
+        "img": "https://i5.walmartimages.com/asr/c32b1f14-a78a-4561-8875-62635bb2d386_1.f2a3cd0674cb1419a5b67938d23d208f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Margo Moo is a friendly cow who makes it more fun for kids to have their temperatures taken. She may help put a smile on their faces even when they are sick.</li><li>It has all the features youâ€™d want in a digital thermometer! Super fast readings help you take temperatures quickly: 20 seconds for oral, 15 seconds for rectal and 30 seconds for underarm.</li><li>The soft, flexible tip adds toWalmartfort. The large display is easy to read. The memory recalls the last reading. Plus, a special tone indicates temperatures above 100 degrees F.</li><li>You can switch it between Fahrenheit and Celsius and itâ€™s water resistant for easy cleaning. It also has a low battery indicator and auto shutoff.</li><li>Includes: protective case for safe storage, 5 probe covers, instructions in English and Spanish and replaceable LR41 battery</li></ul>",
+            "short": "<ul><li>You can switch it between Fahrenheit and Celsius and itâ€™s water resistant for easy cleaning. It also has a low battery indicator and auto shutoff.</li><li>It has all the features youâ€™d want in a digital thermometer! Super fast readings help you take temperatures quickly: 20 sec</li></ul>"
+        },
+        "price": 9.99,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "960549160",
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Digital Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Digital Thermometers",
+                    "url": "/cp/7721184"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Equate Children's 30-Second Digital Thermometer",
+        "img": "https://i5.walmartimages.com/asr/58b09625-6cdc-4e1d-8e49-2b5dcd616a02_1.992f2c2854c8d5d8bbcdf81bda38cdff.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Equate Children's 30-Second Digital Thermometer:</b><ul><li>Clinically accurate</li><li>30-second readout</li><li>Rigid tip</li><li>Oral, rectal or underarm use</li><li>Peak temperature tone</li><li>Last reading memory recall</li><li>Automatic shut-off</li><li>Low-battery icon</li></ul>",
+            "short": "<ul><li>Clinically accurate</li><li>30-second readout</li><li>Rigid tip</li></ul>"
+        },
+        "price": 4.88,
+        "reviews": {
+            "customerRating": 2,
+            "numReviews": 4
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "736207193",
+        "category": {
+            "categoryPath": "Home Page/Health/Medicine Cabinet/Thermometers/Thermometer Top Brands/Equate Thermometers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Medicine Cabinet",
+                    "url": "/cp/976798"
+                },
+                {
+                    "name": "Thermometers",
+                    "url": "/cp/641101"
+                },
+                {
+                    "name": "Thermometer Top Brands",
+                    "url": "/cp/6008275"
+                },
+                {
+                    "name": "Equate Thermometers",
+                    "url": "/cp/5380628"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Safety 1st 3-in-1 Nursery Thermometer, Sea Stone Aqua",
+        "img": "https://i5.walmartimages.com/asr/160a1d39-dcfe-4d45-a7e5-c1a86c2a3a42_2.f435689c7568cc2807ad239fc18067b9.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Accurate reading in 30 seconds ( Degrees in F)</li><li>3 modes of use: oral, rectal, or underarm</li><li>Beeps when reading is complete</li><li>Flexible tip for comfort</li></ul>",
+            "short": "<ul><li>Accurate reading in 30 seconds ( Degrees in F)</li><li>3 modes of use: oral, rectal, or underarm</li><li>Beeps when reading is complete</li><li>Flexible tip for comfort</li></ul>"
+        },
+        "price": 4.84,
+        "reviews": {
+            "customerRating": 2,
+            "numReviews": 8
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "680830239",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-seastoneaqua": {
+                        "id": "actual_color-seastoneaqua",
+                        "name": "Sea Stone Aqua",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/1c57da91-bf64-4e0d-a90a-f9640d2e0a0b_1.d71727f28c97bd59ac6a8634a4631f8d.png",
+                        "products": [
+                            "36RTA7IY8R0P"
+                        ],
+                        "images": [
+                            "A4B1DD28789D49A498A0BE63703B4651",
+                            "DFBCFA468FE94298A1B5D9B8DE8BFE95",
+                            "5CA06D614B0448739C9909E61BF5ADE0"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Baby/Health & Safety/Baby Health",
+            "path": [
+                {
+                    "name": "Baby",
+                    "url": "/cp/5427"
+                },
+                {
+                    "name": "Health & Safety",
+                    "url": "/cp/132943"
+                },
+                {
+                    "name": "Baby Health",
+                    "url": "/cp/3241797"
+                }
+            ]
+        }
+    }
+]

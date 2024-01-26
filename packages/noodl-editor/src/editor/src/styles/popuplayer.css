@@ -1,0 +1,534 @@
+/* -------------------------------------------------------------------
+   Popup layer
+
+   TODO: Clean up order of layers
+   ------------------------------------------------------------------- */
+.popup-layer {
+  pointer-events: none;
+  z-index: 10;
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.popup-layer.dim {
+  background-color: #0000007f;
+  transition: background-color 0.2s linear;
+  pointer-events: all;
+}
+
+.popup-menu {
+  background-color: var(--theme-color-bg-3);
+}
+
+.popup-layer-popup {
+  background-color: var(--theme-color-bg-4);
+  filter: drop-shadow(0 4px 15px var(--theme-color-bg-1-transparent-2));
+  box-shadow: 0 0 10px -5px var(--theme-color-bg-1-transparent-2);
+  pointer-events: all;
+  z-index: 2;
+}
+
+.popup-layer-popup-content {
+  position: absolute;
+}
+
+.popup-layer-popup-arrow.top {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: var(--theme-color-bg-3);
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.popup-layer-popup-arrow.right {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-left-color: var(--theme-color-bg-4);
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+.popup-layer-popup-arrow.bottom {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: var(--theme-color-bg-4);
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.popup-layer-popup-arrow.left {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: var(--theme-color-bg-4);
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+.popup-layer-popup-arrow.dark {
+  border-bottom-color: rgba(0, 0, 0, 0.7);
+}
+
+/** popout **/
+
+.popup-layer-popout {
+  background-color: var(--theme-color-bg-4);
+  /* This filter breaks Chromium? causes an internal div in monaco to not be clipped by it's parent correctly, breaking mouse event when resizing */
+  /* filter: drop-shadow(0 4px 15px var(--theme-color-bg-1-transparent-2)); */
+  box-shadow: 0 5px 20px 5px var(--theme-color-bg-1-transparent);
+  pointer-events: all;
+  z-index: 2;
+  display: inline;
+}
+
+.popup-layer-popout-content {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.popup-layer-popout-arrow.top {
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #333;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.popup-layer-popout-arrow.right {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-left-color: #333;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+.popup-layer-popout-arrow.bottom {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #333;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+.popup-layer-popout-arrow.left {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: #333;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+/** modal **/
+
+.popup-layer-modal {
+  position: absolute;
+  background-color: var(--theme-color-bg-3);
+  filter: drop-shadow(0 4px 15px var(--theme-color-bg-1-transparent-2));
+  box-shadow: 0 0 10px -5px var(--theme-color-bg-1-transparent-2);
+  pointer-events: all;
+  z-index: 21;
+  top: 50%;
+  left: 50%;
+}
+
+.popup-layer-react-modal {
+  pointer-events: all;
+  z-index: 2;
+}
+
+.popup-layer-popup-menu {
+  min-width: 208px;
+  cursor: default;
+}
+
+.popup-layer-popup-menu-divider {
+  height: 0px;
+  border-top: 2px #333 solid;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.popup-layer-toast {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  border-color: rgba(0, 0, 0, 0.7);
+  border-width: 3px;
+  padding: 5px;
+  color: white;
+  opacity: 0;
+  transition: opacity 500ms;
+  font-size: 15px;
+  z-index: 90;
+}
+
+.popup-layer-dragger {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+  border-width: 3px;
+  color: white;
+  font-size: 12px;
+  -webkit-transition: opacity 0.25s ease-out;
+  padding: 5px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+:root {
+  --popup-layer-tooltip-border-color: var(--theme-color-secondary);
+  --popup-layer-tooltip-background-color: var(--theme-color-secondary);
+}
+
+.popup-layer-tooltip {
+  box-sizing: border-box;
+  font-weight: bold;
+  background-color: var(--popup-layer-tooltip-background-color);
+  border-radius: 2px;
+  border-color: var(--popup-layer-tooltip-border-color);
+  border-width: 1px;
+  padding: 12px 16px;
+  color: white;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 2000;
+  box-shadow: -4px 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.popup-layer-tooltip-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* These classes are sent in HTML from the viewer */
+.popup-layer-tooltip-content h3 {
+  font-weight: bold;
+  padding: 0;
+  font-size: 12px;
+  margin: 0;
+}
+
+.popup-layer-tooltip-content p {
+  opacity: 0.75;
+  margin: 4px 0 0 0;
+  padding: 0;
+  font-weight: normal;
+  max-width: 268px;
+}
+
+.popup-layer-image-row {
+  display: flex;
+  margin-top: 20px;
+  column-gap: 16px;
+}
+
+.popup-layer-image-item {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.popup-layer-image-item img {
+  margin: 0 auto;
+}
+
+.popup-layer-image-item p {
+  max-width: 128px; /* width of images */
+  text-align: center;
+}
+
+.popup-layer-image-item h3 {
+  margin-top: 4px;
+  padding: 0;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* Tooltip arrows */
+
+.popup-layer-tooltip-arrow {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-width: 5px;
+}
+
+.popup-layer-tooltip-arrow.bottom {
+  bottom: 100%;
+  left: 50%;
+  border-bottom-color: var(--popup-layer-tooltip-border-color);
+  margin-left: -5px;
+}
+
+.popup-layer-tooltip-arrow.left {
+  left: 100%;
+  top: 50%;
+  border-left-color: var(--popup-layer-tooltip-border-color);
+  margin-top: -5px;
+}
+
+.popup-layer-tooltip-arrow.top {
+  top: 100%;
+  left: 50%;
+  border-top-color: var(--popup-layer-tooltip-border-color);
+  margin-left: -5px;
+}
+
+.popup-layer-tooltip-arrow.right {
+  right: 100%;
+  top: 50%;
+  border-right-color: var(--popup-layer-tooltip-border-color);
+  margin-top: -5px;
+}
+
+.popup {
+  padding-bottom: 3px;
+  color: #aaaaaa;
+}
+
+.popup p {
+  padding: 5px;
+  margin: 0px;
+}
+
+.popup-group-label {
+  display: block;
+  color: #cccccc;
+  background-color: #272727;
+  padding: 5px;
+}
+
+.popup-text {
+  display: block;
+  color: #777777;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.popup-file-drop {
+  background-color: #000000;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-file-drop-msg {
+  margin: auto;
+  color: #eeeeee;
+  width: 400px;
+  background-color: transparent;
+  border-color: #aaaaaa;
+  border-width: 2px;
+  border-style: dashed;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 25px;
+}
+
+.popup-layer-activity {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  border-color: rgba(0, 0, 0, 0.7);
+  border-width: 3px;
+  padding: 10px;
+  color: white;
+  opacity: 0;
+  transition: opacity 500ms;
+  font-size: 15px;
+  z-index: 90;
+}
+
+.popup-layer-activity-spinner {
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  opacity: 0.7;
+  margin: 0px;
+}
+
+.popup-layer-activity-progress {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
+  opacity: 0.5;
+  height: 10px;
+  display: none;
+}
+
+.popup-layer-activity-progress-bar {
+  width: 0%;
+  height: 100%;
+  background-color: #cccccc;
+}
+
+.popup-title {
+  display: block;
+  color: #aaaaaa;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.popup-title > strong {
+  color: #cccccc;
+}
+
+.popup-message {
+  display: block;
+  color: #aaa;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.popup-message > strong {
+  color: #ddd;
+}
+
+.popup-button {
+  border: none;
+  padding: 0px;
+  background-color: #d49517;
+  color: #171717;
+  padding: 2px 15px 2px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.popup-button:hover {
+  background-color: #fdb314;
+}
+
+.popup-button-grey {
+  border: none;
+  padding: 0px;
+  background-color: #333333;
+  color: #999999;
+  padding: 2px 15px 2px 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.popup-button-grey:hover {
+  background-color: #555555;
+}
+
+.popup-small-docs {
+  position: absolute;
+  background-color: #171717;
+  z-index: 2;
+  bottom: 2px;
+}
+
+/* Confim modal */
+.confirm-modal {
+  color: #c4c4c4;
+  max-width: 70vw;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.confirm-modal label {
+  display: block;
+  background-color: #272727;
+  padding: 5px 10px;
+}
+
+.confirm-modal p {
+  margin: 16px 16px;
+  padding: 0;
+}
+
+.confirm-modal .confirm-buttons {
+  display: flex;
+  gap: 16px;
+  margin: 16px 16px;
+}
+
+.confirm-modal button {
+  line-height: 24px;
+  border: none;
+  padding: 0px 16px;
+  font-weight: 600;
+}
+
+.confirm-modal .confirm-button {
+  background-color: #f67465;
+  color: #1d1f20;
+}
+
+.confirm-modal .confirm-button:hover {
+  background-color: #f89387;
+}
+
+.confirm-modal .cancel-button {
+  background-color: #1d1f20;
+  color: #c4c4c4;
+}
+
+.confirm-modal .cancel-button:hover {
+  background-color: #2f3335;
+}

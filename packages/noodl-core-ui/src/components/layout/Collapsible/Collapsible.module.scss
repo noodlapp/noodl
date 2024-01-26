@@ -1,0 +1,8 @@
+.Root {
+  display: block;
+}
+
+.Inner {
+  display: flow-root;
+  position: static;
+}

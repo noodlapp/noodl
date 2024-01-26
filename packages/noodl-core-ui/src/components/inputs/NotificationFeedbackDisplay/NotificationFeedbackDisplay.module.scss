@@ -1,0 +1,44 @@
+.Root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid;
+  pointer-events: none;
+
+  &.is-type {
+    &-success {
+      border-color: var(--theme-color-success);
+    }
+
+    &-danger {
+      border-color: var(--theme-color-danger);
+    }
+
+    &-notice {
+      border-color: var(--theme-color-notice);
+    }
+  }
+
+  &.is-display-mode {
+    &-fade-quick {
+      opacity: 1;
+      animation: fade 2000ms 200ms forwards;
+    }
+
+    &-fade-slow {
+      opacity: 1;
+      animation: fade 2000ms 3000ms forwards;
+    }
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

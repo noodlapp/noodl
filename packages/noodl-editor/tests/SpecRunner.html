@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Noodl Jasmine Spec Runner</title>
+
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.7.1/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="lib/jasmine-3.7.1/jasmine.css">
+
+  <!-- libs needed for some of the views -->
+  <script type="text/javascript" src="../src/assets/lib/jquery-min.js"></script>
+  <script type="text/javascript" src="../src/assets/lib/jquery.autosize.min.js"></script>
+
+  <script type="text/javascript">
+    var fs = require('fs');
+    ['.html', '.css'].forEach(ext => {
+      require.extensions[ext] = function (module, filename) {
+        module.exports = fs.readFileSync(filename, 'utf8');
+      };
+    });
+    require.extensions['.json'] = function (module, filename) {
+      module.exports = JSON.parse(fs.readFileSync(filename, 'utf8'));
+    };
+  </script>
+
+  <script type="text/javascript" src="lib/jasmine-3.7.1/jasmine.js"></script>
+  <script type="text/javascript" src="lib/jasmine-3.7.1/jasmine-html.js"></script>
+  <script type="text/javascript" src="lib/jasmine-3.7.1/boot.js"></script>
+
+  <script type="text/javascript">
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 60 * 1000;
+  </script>
+
+  <script defer type="text/javascript" src="http://localhost:8081/index.bundle.js" onload="document.querySelector('#loader').remove()"></script>
+</head>
+
+<body>
+  <div id="loader">Waiting for webpack...</div>
+</body>
+
+</html>

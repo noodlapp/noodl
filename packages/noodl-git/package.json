@@ -1,0 +1,14 @@
+{
+  "name": "@noodl/git",
+  "version": "2.7.0",
+  "main": "src/index.ts",
+  "description": "",
+  "author": "Noodl <info@noodl.net>",
+  "homepage": "https://noodl.net",
+  "dependencies": {
+    "desktop-trampoline": "https://github.com/desktop/desktop-trampoline/archive/refs/tags/v0.9.8.tar.gz",
+    "dugite": "^1.106.0",
+    "double-ended-queue": "^2.1.0-0",
+    "split2": "^4.1.0"
+  }
+}

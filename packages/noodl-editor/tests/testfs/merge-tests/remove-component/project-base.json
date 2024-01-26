@@ -1,0 +1,141 @@
+{
+    "name": "Component merge test",
+    "components": [
+        {
+            "name": "/App",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+                        "type": "Group",
+                        "x": 177,
+                        "y": 141.5,
+                        "parameters": {
+                            "backgroundColor": "#FFFFFF"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "60e27c50-600e-2e40-3aa4-46ad349bbaa4",
+                                "type": "Text",
+                                "parameters": {
+                                    "fontFamily": "Arial",
+                                    "fontSize": {
+                                        "value": 32,
+                                        "unit": "px"
+                                    },
+                                    "text": "Hello"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "fb1003da-7d3c-f198-b84e-00c31db19927",
+                                "type": "Text",
+                                "parameters": {
+                                    "fontFamily": "Arial",
+                                    "fontSize": {
+                                        "value": 18,
+                                        "unit": "px"
+                                    },
+                                    "color": "#666666",
+                                    "text": "Welcome to Noodl"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasSize": {
+                    "width": "375px",
+                    "height": "667px"
+                },
+                "canvasPos": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        },
+        {
+            "name": "/Component One",
+            "id": "5df50138-b4a9-b35a-b69e-9362aa6c306c",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "cb8b0612-9513-d3b7-9224-9d21f879f830",
+                        "type": "Group",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "baaf815f-661b-2d13-f088-9281890e6938",
+                                "type": "Text",
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 550,
+                    "y": 10
+                }
+            }
+        },
+        {
+            "name": "/Component Two",
+            "id": "73dbe3df-f3aa-b29d-5564-229bab95f790",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "9101c02b-3d96-c916-cb18-a60f903982e8",
+                        "type": "Group",
+                        "x": 0,
+                        "y": 0,
+                        "parameters": {},
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "fe5ef35a-69b5-918f-f18a-98d02a63ea0f",
+                                "type": "Button",
+                                "parameters": {},
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasPos": {
+                    "x": 1040,
+                    "y": -2
+                }
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+    "version": "1",
+    "metadata": {
+        "dbCollections": []
+    }
+}

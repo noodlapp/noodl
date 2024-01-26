@@ -1,0 +1,16 @@
+.Root {
+  flex: 0 0 36px;
+  padding: 0 16px;
+  min-height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:not(._hasNoHeaderDivider) {
+    border-bottom: 1px solid var(--theme-color-bg-1);
+  }
+}
+
+.Children {
+  display: flex;
+}

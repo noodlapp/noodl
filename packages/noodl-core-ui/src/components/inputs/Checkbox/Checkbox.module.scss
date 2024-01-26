@@ -1,0 +1,72 @@
+.Root {
+  font-family: var(--font-family);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+
+  &.has-bottom-spacing {
+    margin-bottom: 15px;
+  }
+}
+
+.Checkbox {
+  display: none;
+}
+
+.FauxCheckbox {
+  background-color: var(--theme-color-bg-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.is-size-small {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.is-size-large {
+    // Placeholder styles here atm, should match the look of checkboxes in the Property Panel
+    width: 33px;
+    height: 33px;
+  }
+
+  &.has-right-margin {
+    margin-right: 10px;
+  }
+
+  .Root.is-variant-sidebar & {
+    background-color: var(--theme-color-bg-1);
+  }
+
+  .Root.is-variant-light & {
+    background-color: var(--theme-color-bg-4);
+  }
+}
+
+.CheckMark {
+  transition: opacity var(--speed-turbo);
+  pointer-events: none;
+
+  &.is-checked {
+    opacity: 1;
+  }
+
+  &.is-unchecked {
+    opacity: 0;
+  }
+}
+
+.Label {
+  padding-left: 16px;
+  font-size: 14px;
+  color: var(--theme-color-fg-default);
+  transition: color var(--speed-turbo);
+
+  .Root:hover & {
+    color: var(--theme-color-fg-highlight);
+  }
+}
+
+.ChildContainer {
+  padding-left: 16px;
+}

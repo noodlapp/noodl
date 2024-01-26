@@ -1,0 +1,75 @@
+<div style="position:relative; height:150px;">
+ <!-- <div class="marginpadding-outer" style="position:absolute; top:5px; left:5px; right:5px; bottom:5px">
+  </div>-->
+
+  <div class="marginpadding-border" style="position:absolute; top:39px; left:60px; right:60px; bottom:39px">
+  </div>
+
+<!--  <div class="marginpadding-inner" style="position:absolute; top:80px; left:120px; right:120px; bottom:80px">
+  </div> -->
+
+  <!-- Margin -->
+  <!-- top -->
+  <div class="marginpadding-label drag-handle" data-comp="margin-top" style="position:absolute; left:50%; transform:translateX(-50%); top:10px" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- bottom -->
+  <div class="marginpadding-label drag-handle" data-comp="margin-bottom" style="position:absolute; left:50%; transform:translateX(-50%); bottom:10px" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- left -->
+  <div class="marginpadding-label drag-handle" data-comp="margin-left" style="position:absolute; top:50%; transform:translate(-50%,-50%); left:32px;" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- right -->
+  <div class="marginpadding-label drag-handle" data-comp="margin-right" style="position:absolute; top:50%; transform:translate(50%,-50%); right:32px;" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- Padding -->
+  <!-- top -->
+  <div class="marginpadding-label drag-handle" data-comp="padding-top" style="position:absolute; left:50%; transform:translateX(-50%); top:46px" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- bottom -->
+  <div class="marginpadding-label drag-handle" data-comp="padding-bottom" style="position:absolute; left:50%; transform:translateX(-50%); bottom:46px" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- left -->
+  <div class="marginpadding-label drag-handle" data-comp="padding-left" style="position:absolute; top:50%; transform:translate(-50%,-50%); left:90px;" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- right -->
+  <div class="marginpadding-label drag-handle" data-comp="padding-right" style="position:absolute; top:50%; transform:translate(50%,-50%); right:90px;" data-click="onLabelClicked">
+
+  </div>
+
+  <!-- edit box -->
+  <div id="editbox" style="display:none;" data-click="onHideEditBoxClicked">
+    <div class="marginpadding-dim" style="position:absolute; top:0px; left:0px; right:0px; bottom:0px;"></div>
+
+    <div id="editbox-editor" class="marginpadding-editbox" style="position:absolute; top:15px; left:15px; width:110px; height:35px;">
+      <!-- input -->
+      <div class="property-value" style="left:0px; top:1px; bottom:1px; right:36px;">
+        <input type="string" class="sidebar-panel-dark-input" style="position:absolute; width:100%; height:100%" data-class="isConnected:property-input-connected,isFocused:property-input-focused,isDefault:property-input-default"
+          data-val="value" data-change="onPropertyChanged"></input>
+      </div>
+
+      <!-- units -->
+      <div class="sidebar-panel-dark-input property-number-units" style="position:absolute; right:1px; width:33px; top:1px; bottom:1px;padding:0"
+        data-click="onDropDownClicked" tabindex="1">
+        <span data-class="isFocused:property-input-focused,isDefault:property-input-default" style="line-height:35px;" data-text="unit"></span>
+        <div style="position:absolute; top:35px; left:0px; width:100%; display:none;" class="property-input-dropdown" style="display:none;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <span data-class="isDefault:hidden" class="property-changed-dot"></span>
+</div>

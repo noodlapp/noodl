@@ -1,0 +1,75 @@
+@use '../../../styles/scss-variables/length.scss';
+
+.Root {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  position: relative;
+
+  input {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &.has-caret {
+    input {
+      padding-right: length.$property-panel-input-size;
+    }
+  }
+}
+
+.Caret {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: length.$property-panel-input-size;
+  transition: transform var(--speed-quick) var(--easing-base);
+  pointer-events: none;
+
+  .Root:hover & {
+    path {
+      fill: var(--theme-color-fg-highlight);
+    }
+  }
+
+  &.is-indicating-close {
+    transform: rotate(180deg);
+  }
+}
+
+.Options {
+  background-color: var(--theme-color-bg-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  user-select: none;
+}
+
+.Option {
+  padding: length.$property-panel-input-padding;
+  border-bottom: 1px solid var(--theme-color-bg-2);
+  font-size: 12px;
+  color: var(--theme-color-fg-default);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-disabled {
+    cursor: not-allowed;
+    color: var(--theme-color-fg-muted) !important;
+  }
+
+  &.has-small-text {
+    font-size: 10px;
+    padding-left: length.$property-panel-small-xy-padding;
+    padding-right: length.$property-panel-small-xy-padding;
+    text-align: center;
+  }
+}

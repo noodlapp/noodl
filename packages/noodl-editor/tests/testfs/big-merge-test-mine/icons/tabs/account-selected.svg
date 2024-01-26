@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>account-selected</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-84.000000, -143.000000)" fill="#306FC1" stroke="#306FC1" stroke-width="1.5">
+            <path d="M99.3111441,156.753885 C100.638519,155.672731 101.499708,153.536095 101.499708,149.499708 C101.499708,146.461041 99.0380841,144 95.9994165,144 C92.9613324,144 90.4997083,146.461041 90.4997083,149.499708 C90.4997083,153.454994 91.3918209,155.626638 92.7594547,156.737548 C89.1449106,157.539225 85,159.554501 85,162.779876 L85,166 L107,166 L107,162.779876 C107,159.575505 102.909351,157.566647 99.3111441,156.753885 Z" id="account-selected"></path>
+        </g>
+    </g>
+</svg>

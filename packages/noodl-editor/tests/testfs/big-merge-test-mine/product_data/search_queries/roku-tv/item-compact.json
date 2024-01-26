@@ -1,0 +1,384 @@
+[
+    {
+        "title": "Hisense 32\" Class 720P HD LED Roku Smart TV 32H4030F1",
+        "img": "https://i5.walmartimages.com/asr/57c1a580-fd3d-4a8c-9d5d-482608a7f760_1.7ee21de8330144e8c4a0e5ceebd8b06c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<div>Roku OS: Entertain Your Options</div><div>You can enjoy easy access to 5,000+ channels – and 500,000&nbsp; movies and TV episodes – with Roku TV™. But endless&nbsp; streaming is only the beginning. An intuitive interface and&nbsp; simplified remote help you get the most out of your current&nbsp; cable or satellite subscription. Or, cut the cord altogether while&nbsp; still catching live news, sports and more in striking high&nbsp; resolution. Whatever your setup, the H4030F1 Roku TV makes&nbsp; every day a great day to experience the entertainment you love&nbsp; and discover must-see shows.</div><div><br></div><div>Motion Rate: Eyes on the Prize</div><div>Blinked and you missed it? Think again. The H4030F1 is built&nbsp; with motion in mind. Motion Rate image processing makes it&nbsp; so you can keep your eye on the ball, chase scene, or multi-&nbsp; player battle. Gamers see lag times drop and viewers see all&nbsp; the key moments in live sports or action movies. Captivating&nbsp; scenes grab your attention – and keep it with smooth motion.</div><div><br></div><div>Game Mode: Game On</div><div>Game Mode offers super-low latency that reduces input lag, so&nbsp; signals travel faster from your fingers to movement on screen.&nbsp; Fast responses to each button press make sure the action in&nbsp; video games is processed quickly and you finish at the top of&nbsp; the leaderboard.</div><div><br></div><div>Fast &amp; Easy Search: A Search Party</div><div>Enjoy fast and easy Universal Search that discovers content far&nbsp; and wide, then displays it all in one place. Simply name a title,&nbsp; actor or director to find movies and shows featuring their work.&nbsp; That’s all the H4030F1 needs to tell you which items are free or&nbsp; premium, then point you to where to watch—including on-demand&nbsp; or live TV. It’s just as fun as it sounds.</div><div><br></div><div>DTS Trusurround Sound: Immersive sound</div><div>What good is a beautiful picture if the sound is tinny and thin?&nbsp; You’ll be blown away by the full and detailed sound of the&nbsp; integrated DTS Trusurround sound.</div><div><br></div><div>*HDR viewing experience will vary by model,&nbsp; content availability and internet connection.</div>",
+            "short": "Hisense 32\" Class 720P HD LED Roku Smart TV 32H4030F1"
+        },
+        "price": 115,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 176
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "823810078",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    },
+    {
+        "title": "TCL 32\" Class 1080P FHD LED Roku Smart TV 3 Series 32S327",
+        "img": "https://i5.walmartimages.com/asr/e9e39848-9d8b-4da5-ae88-e7209e3814a9_1.de89759c02c6438fff092a47f237b410.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Smart Functionality offers access to over 5, 000 streaming channels featuring more than 500, 000 movies and TV episodes via Roku TV</li><li>Dimensions (w x H x D): TV without stand: 28.8\" x 17.1\" x 3.0\", TV with stand: 28.8\" x 19.1\" x 7.1\"</li><li>Direct-lit LED produces great picture quality with 120Hz refresh Rate for fast moving action scenes with virtually no Motion blur</li><li>1080p Full HD Resolution for a lifelike picture</li><li>Inputs: 3 HDMI, 1 USB, RF, Composite, Headphone Jack, Optical audio Out</li></ul>",
+            "short": "TCL 3 32S327 31.5\" 1080p Smart LED-LCD TV - 16:9 - HDTV - Black"
+        },
+        "price": 159.99,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 69
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_two_day_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "409693367",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    },
+    {
+        "title": "TCL 32\" Class 720P HD LED Roku Smart TV 3 Series 32S321",
+        "img": "https://i5.walmartimages.com/asr/fe7464f9-9701-41c5-86d8-09ee4738cf00_1.da520b520a0c87f5249a1bf74e3ab2df.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><br />TCL 32\" Class HD (720P) Roku Smart LED TV (32S321):<br /><ul><li>High definition (720p) resolution</li><li>TCL 32\" smart TV has a simple, intuitive Roku interface</li><li>Stream over 500,000 movies and TV episodes</li><li>TCL 32\" TV includes a dual-band Wi-Fi easy-to-use remote</li><li>3 HDMI 1.4 inputs (1 ARC) </li><li>Search across top streaming channels with Roku Search</li><li>Works with Alexa and Google Assistant</li></ul>",
+            "short": "<ul><li>High definition (720p) resolution</li><li>TCL 32\" smart TV has a simple, intuitive Roku interface</li><li>Screen over 500,000 movies and TV episodes</li><li>TCL 32\" TV includes a dual-band Wi-Fi easy-to-use remote</li><li>3 HDMI 1.4 inputs (1 ARC)</li></ul>"
+        },
+        "price": 118,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 734
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "712021234",
+        "variantCategoriesMap": {
+            "configuration": {
+                "id": "configuration",
+                "name": "Configuration",
+                "type": "DROPDOWN",
+                "variants": {
+                    "configuration-32s331": {
+                        "id": "configuration-32s331",
+                        "name": "32S331",
+                        "categoryId": "configuration",
+                        "products": [
+                            "6OVC72F7R5QF"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 118,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 118,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "configuration-32s321": {
+                        "id": "configuration-32s321",
+                        "name": "32S321",
+                        "categoryId": "configuration",
+                        "products": [
+                            "60R8ZDOQCUAS"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 118,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 199.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 118,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 199.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    },
+    {
+        "title": "RCA 32\" Class HD 720P Roku Smart LED TV RTR3260-W",
+        "img": "https://i5.walmartimages.com/asr/4cd9dfef-6d9e-461a-ac1e-79c6fc40c341_6.a7b41cfc74f054f5602632cea205c6e7.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b><br></b><div><b>RCA 32\" Class HD (720P) HD Roku Smart LED TV (RTR3260-W):</b></div><div><b>Key Features:<span style=\"white-space:pre\"> </span></b></div><div><ul><li>Screen Size (Diag.): 31.5\"<br></li><li>Backlight Type: LED<br></li><li>Resolution: 720P<br></li><li>Effective Refresh Rate: 60Hz<br></li><li>Smart Functionality: Yes<br></li><li>Aspect Ratio: 16:9<br></li><li>Dynamic Contrast Ratio: 3000:1<br></li><li>Viewable Angle (H/V):<span style=\"white-space: pre;\"> </span>170°/170°<br></li><li>Number of Colors:<span style=\"white-space: pre;\"> </span>16.7 M<br></li><li>OSD Language:<span style=\"white-space: pre;\"> </span>English, Spanish, French?German<br></li><li>Speakers/Power Output: 8W x 2<br></li></ul></div><div><b>Connectivity:</b><span style=\"white-space:pre\"> </span>&nbsp;</div><div><ul><li>Component/Composite Video: 1?Only Composite?<br></li><li>HDMI: 3<br></li><li>Headphone: 1<br></li><li>Optical Digital Audio: 1<br></li><li>RCA Audio L+R:<span style=\"white-space: pre;\"> </span>1<br></li><li>RF : 1<br></li><li>USB 2.0: 1<br></li><li>Assembled Product Dims: 731.2*482.8*203.5mm<br></li></ul></div><div><b>What's In The Box:<span style=\"white-space:pre\"> </span>&nbsp;</b></div><div><ul><li>Remote Control<br></li></ul></div><div><b>Wall-mountable:</b><span style=\"white-space:pre\"> </span>&nbsp;</div><div><ul><li>Mount Pattern: 200*200mm<br></li><li>Screw Size: M6<br></li><li>Screw Length: 45mm?thread: 10mm)<br></li></ul></div>",
+            "short": "<ul><li>Diagonal Screen Size: 31.5\"</li><li>Backlight Type: LED</li><li>Refresh Rate: 60Hz</li><li>Smart Functionality: Yes</li></ul>"
+        },
+        "price": 129.99,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 505
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "723086968",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    },
+    {
+        "title": "TCL 32\" Class 720P HD LED Roku Smart TV 3 Series 32S325",
+        "img": "https://i5.walmartimages.com/asr/4a01b51d-c38e-4f0d-81a7-fe9a10bcb332_2.ac0cdeddd6c541fb7b8a7ca3d2973fe0.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Smart functionality delivers all your favorite content with over 500,000 movies and TV episodes, accessible through the simple and intuitive Roku TV</li><li>Dimensions (W x H x D): TV without stand: 28.8 x 17.1 x 3.1 Inches, TV with stand:28.8 x 19 x 6.8 Inches</li><li>Direct lit LED produces great picture quality. USB File Format Compatibility - Video- MKV (H.264), MP4, MOV (H.264), TS (H.264) Music- AAC, MP3, WMA, WAV (PCM), AIFF, FLAC, AC3 Photo- JPG, PNG, GIF</li><li>720p HD resolution for a crisp picture</li><li>Inputs: 3 HDMI 2.0 with HDCP 2.2 (one with HDMI ARC), 1 USB (media player), RF, Composite, Headphone Jack, Optical Audio Out</li></ul>",
+            "short": "<p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Diagonal Screen Size: 31.5?<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">High definition (720p) resolution<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Simple, intuitive Roku interface<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Stream over 500,000 movies &amp; TV episodes<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">3 HDMI 1.4 inputs (1 ARC)<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Dual-band Wi-Fi Easy-to-use remote<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Thousands of streaming channels<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Search across top streaming channels with Roku Search<o:p></o:p></span></p>"
+        },
+        "price": 127.88,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 104
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "975507003",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    }
+]

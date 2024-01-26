@@ -1,0 +1,41 @@
+.Root {
+  display: flex;
+
+  &.is-direction-horizontal {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &.is-direction-vertical {
+    flex-direction: column;
+  }
+
+  &.is-fill {
+    width: 100%;
+    height: 100%;
+  }
+
+  &.has-left-spacing {
+    margin-left: 15px;
+  }
+
+  &.has-right-spacing {
+    margin-right: 15px;
+  }
+
+  &.has-top-spacing {
+    margin-top: 15px;
+  }
+
+  &.has-bottom-spacing {
+    margin-bottom: 15px;
+  }
+
+  &.has-space-between {
+    justify-content: space-between;
+  }
+
+  &.has-space-between.is-direction-vertical {
+    height: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+:root {
+  --font-family: 'Inter';
+
+  --font-family-code: Menlo, Monaco, 'Courier New', monospace;
+
+  --font-weight-light: 200;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}

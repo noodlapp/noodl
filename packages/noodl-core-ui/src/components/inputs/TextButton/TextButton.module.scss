@@ -1,0 +1,70 @@
+.Root {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 4px;
+  transition: box-shadow var(--speed-turbo) var(--easing-base), background-color var(--speed-turbo) var(--easing-base);
+
+  &:hover {
+    box-shadow: 0 0 0 4px var(--theme-color-fg-transparent);
+    background-color: var(--theme-color-fg-transparent);
+  }
+
+  p {
+    transition: color var(--speed-turbo);
+  }
+
+  path {
+    transition: fill var(--speed-turbo);
+  }
+
+  &.is-size-default p {
+    font-size: 14px;
+  }
+
+  &.is-size-small p {
+    font-size: 12px;
+  }
+
+  &.has-left-spacing {
+    margin-left: 15px;
+  }
+
+  &.has-right-spacing {
+    margin-right: 15px;
+  }
+
+  &.is-variant {
+    &-default path {
+      fill: var(--theme-color-fg-default);
+    }
+
+    &-default-contrast path {
+      fill: var(--theme-color-fg-default-contrast);
+    }
+
+    &-proud path {
+      fill: var(--theme-color-fg-highlight);
+    }
+
+    &-shy path {
+      fill: var(--theme-color-fg-muted);
+    }
+
+    &-success path {
+      fill: var(--theme-color-success);
+    }
+
+    &-notice path {
+      fill: var(--theme-color-notice);
+    }
+
+    &-danger path {
+      fill: var(--theme-color-danger);
+    }
+  }
+}

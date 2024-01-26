@@ -1,0 +1,84 @@
+$_search-bar-height: 45px;
+$_header-height: 63px;
+$_scroll-bar-width: 4px;
+
+.Root {
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchContainer {
+  flex: 0 0 $_search-bar-height;
+  padding: 0 15px 16px;
+}
+
+.Content {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+  max-height: calc(100% - #{$_header-height});
+  background-color: var(--theme-color-bg-2);
+  position: relative;
+  border-top: 1px solid var(--theme-color-bg-1);
+  box-sizing: border-box;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    left: 280px; // TODO: make this dynamic in the future maybe
+    top: 0;
+    bottom: 0;
+    background-color: var(--theme-color-bg-1);
+    z-index: 20;
+  }
+}
+
+.Navbar {
+  flex: 0 0 35%;
+  overflow-y: overlay;
+  overflow-x: hidden;
+  z-index: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.NavbarInner {
+  align-items: stretch;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--theme-color-bg-2);
+  justify-content: space-between;
+}
+
+.ScrollbarContainer {
+  &::-webkit-scrollbar {
+    width: $_scroll-bar-width;
+    height: 6px;
+    cursor: pointer;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #575757;
+  }
+}
+
+.FullDocsButton {
+  display: inline-block;
+  position: absolute;
+  right: 32px;
+}
+
+.Docs {
+  flex-grow: 1;
+  padding: 20px 32px;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  z-index: 0;
+  background-color: var(--theme-color-bg-2);
+  position: relative;
+}

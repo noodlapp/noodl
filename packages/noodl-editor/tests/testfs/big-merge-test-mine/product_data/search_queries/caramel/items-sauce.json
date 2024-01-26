@@ -1,0 +1,382 @@
+[
+    {
+        "title": "Hershey's Caramel Topping, 14 Oz.",
+        "img": "https://i5.walmartimages.com/asr/1f888b6e-ad15-4b34-807b-cca3084884bb_1.f4670faffde2cfca2b9156056c8d1391.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Hershey's Caramel Topping, 14 oz:</strong><br /><ul><li>Delicious as an ice cream topping, whether warmed or enjoyed right out of the jar</li><li>Use Hershey's caramel topping to top all kinds of desserts</li><li>Use as a mouthwatering dip for fresh fruit</li><li>Caramel ice cream topping is a gluten-free dessert topping</li><li>Available in 1-count</li></ul>",
+            "short": "<ul><li>Delicious as an ice cream topping, whether warmed or enjoyed right out of the jar<br></li><li>Use HERSHEY'S Caramel Topping to top all kinds of desserts<br></li><li>Use as a mouthwatering dip for fresh fruit<br></li><li>A gluten-free dessert topping</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 1.98,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 24
+        },
+        "size": {
+            "karfGroceryType": "Caramel Toppings",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "14"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "20702796",
+        "category": {
+            "categoryPath": "Home Page/Food/Baking/Baking Mixes/Frosting, Toppings & Decorations",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Baking",
+                    "url": "/cp/976780"
+                },
+                {
+                    "name": "Baking Mixes",
+                    "url": "/cp/1001368"
+                },
+                {
+                    "name": "Frosting, Toppings & Decorations",
+                    "url": "/cp/1044127"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Great Value Caramel Syrup, 24 Oz.",
+        "img": "https://i5.walmartimages.com/asr/60f66cc2-4c94-4e40-9809-4b9d37896948_1.6efea741924ab329a6acdbf35a87e79f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Naturally & artificially flavoredDrizzly fun!Kosher - Dairy",
+            "short": "<ul><li>Dessert topping</li><li>Easy squeeze bottle</li><li>Great on baked goods</li><li>Net weight 24 oz</li></ul>"
+        },
+        "price": 1.38,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 7
+        },
+        "size": {
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "24"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "896722099",
+        "category": {
+            "categoryPath": "Home Page/Food/Baking/Baking Mixes/Frosting, Toppings & Decorations",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Baking",
+                    "url": "/cp/976780"
+                },
+                {
+                    "name": "Baking Mixes",
+                    "url": "/cp/1001368"
+                },
+                {
+                    "name": "Frosting, Toppings & Decorations",
+                    "url": "/cp/1044127"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Hershey's, Caramel Syrup, 22 Oz.",
+        "img": "https://i5.walmartimages.com/asr/6e6361d8-b0e5-4133-b7c4-89cd98e05fa1_2.df8db2d885ad38bfcdf5e70cd5ca4901.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Perfect for topping desserts, mixing into drinks, and adding caramel flavor to baked goods</li><li>Genuine caramel flavor</li><li>Delicious drizzled directly over desserts or incorporated into recipes</li><li>Gluten-free and kosher syrup</li></ul>",
+            "short": "<ul> <li>Perfect for topping desserts, mixing into drinks, and adding caramel flavor to baked goods<br></li><li>Genuine caramel flavor&nbsp;<br></li><li>Delicious drizzled directly over desserts or incorporated into recipes<br></li><li>Gluten-free and kosher syrup</li> </ul>",
+            "medium": "<p>Hershey's Dulce De Leche Syrup tastes great in many ways; in milk, on ice cream, cakes and other desserts, and in milkshakes.</p>"
+        },
+        "price": 2.28,
+        "reviews": {
+            "customerRating": 4.5965,
+            "numReviews": 57
+        },
+        "size": {
+            "karfGroceryType": "Caramel Toppings",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.47"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10311921",
+        "category": {
+            "categoryPath": "Home Page/Food/Condiments, Sauces & Spices/Syrups & Sweeteners",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Condiments, Sauces & Spices",
+                    "url": "/cp/976786"
+                },
+                {
+                    "name": "Syrups & Sweeteners",
+                    "url": "/cp/1008040"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Smucker's Caramel Flavored Syrup, 20-Ounce",
+        "img": "https://i5.walmartimages.com/asr/b1599d84-3f02-456c-939a-3759fe32e82c_1.3992d9ea2cecf39ebd9d6d41371b9a80.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Squeeze bottle</li><li>No mess cap</li><li>Fat Free</li></ul>",
+            "short": "&nbsp;",
+            "medium": "</p>"
+        },
+        "price": 2.58,
+        "reviews": {
+            "customerRating": 4.4286,
+            "numReviews": 28
+        },
+        "size": {
+            "karfGroceryType": "Caramel Toppings",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "20.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10534945",
+        "category": {
+            "categoryPath": "Home Page/Food/Baking/Baking Mixes/Frosting, Toppings & Decorations",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Baking",
+                    "url": "/cp/976780"
+                },
+                {
+                    "name": "Baking Mixes",
+                    "url": "/cp/1001368"
+                },
+                {
+                    "name": "Frosting, Toppings & Decorations",
+                    "url": "/cp/1044127"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Torani Puremade Caramel Sauce, 16.5 Oz.",
+        "img": "https://i5.walmartimages.com/asr/1dfa6ac0-85bf-4fa9-86e1-0c777ed95d4d_1.f2b81a91dcd564cd9a532ac1fdc404b7.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Authentic coffeehouse flavorKosher sauceContains milk and soyServings per container: 12Calories per serving: 140Enjoyed around the world for over 85 yearsPackaged in a convenient plastic squeeze bottle with a spout for easy pouring",
+            "short": "<li>Authentic coffeehouse flavor</li><li>Kosher</li>",
+            "medium": "<p>Now you can create authentic caramel mochas and cocoas. Simply blend Torani Caramel Sauce with milk and coffee or espresso and enjoy. For over 85 years, Torani has used the best ingredients to bring its family recipes to coffeehouses around the world.</p>"
+        },
+        "price": 4.98,
+        "reviews": {
+            "customerRating": 4.8795,
+            "numReviews": 83
+        },
+        "size": {
+            "karfGroceryType": "Caramel",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "16.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "30869640",
+        "category": {
+            "categoryPath": "Home Page/Food/Baking/Baking Mixes/Frosting, Toppings & Decorations",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Baking",
+                    "url": "/cp/976780"
+                },
+                {
+                    "name": "Baking Mixes",
+                    "url": "/cp/1001368"
+                },
+                {
+                    "name": "Frosting, Toppings & Decorations",
+                    "url": "/cp/1044127"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Smucker's Caramel Flavored Spoonable Topping, 12.25-Ounce",
+        "img": "https://i5.walmartimages.com/asr/42c55785-fe4b-42ec-9a0c-cb95253aa9c1_1.cd24a2de122dd8d54af8b1cff2cd96a7.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Spoonable Jar</li><li>Perfect for a Sundae or Your Favorite Snack</li><li>Fat Free</li></ul>",
+            "short": "&nbsp;",
+            "medium": "</p>"
+        },
+        "price": 1.98,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 14
+        },
+        "size": {
+            "karfGroceryType": "Caramel Toppings",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "12.25"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10534936",
+        "category": {
+            "categoryPath": "Home Page/Food/Baking/Baking Mixes/Frosting, Toppings & Decorations",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Baking",
+                    "url": "/cp/976780"
+                },
+                {
+                    "name": "Baking Mixes",
+                    "url": "/cp/1001368"
+                },
+                {
+                    "name": "Frosting, Toppings & Decorations",
+                    "url": "/cp/1044127"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Walden Farms Caramel Dip, 12 oz (Pack of 6)",
+        "img": "https://i5.walmartimages.com/asr/1be8d3b2-aaef-4c19-8821-60d85ca7f4fb_1.8e03f396a6393b598db3befc88caeceb.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<B>Walden Farms Caramel Dip:</b><ul><li>Made with rich natural caramel flavor and a hint of pure vanilla<li>Great with fresh fruit, ice cream or to make a smoothie<li>Sugar free<li>Kosher<li>Calorie free<li>Fat free</ul>",
+            "short": "<li>Great with fresh fruit, ice cream or to make a smoothie</li><li>Sugar free</li>",
+            "medium": "</p>"
+        },
+        "price": 26.14,
+        "reviews": {
+            "customerRating": 3.6,
+            "numReviews": 5
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "72.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1587754800000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "19475452",
+        "category": {
+            "categoryPath": "Home Page/Food/Baking/Baking Mixes/Frosting, Toppings & Decorations",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Baking",
+                    "url": "/cp/976780"
+                },
+                {
+                    "name": "Baking Mixes",
+                    "url": "/cp/1001368"
+                },
+                {
+                    "name": "Frosting, Toppings & Decorations",
+                    "url": "/cp/1044127"
+                }
+            ]
+        }
+    }
+]

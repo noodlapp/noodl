@@ -1,0 +1,273 @@
+/* -------------------------------------------------------------------
+  Deploy popup
+   ------------------------------------------------------------------- */
+.deploy-header {
+  padding: 3px;
+  padding-left: 10px;
+  background-color: #373737;
+  color: #ccc;
+}
+
+.deploy-tabs {
+  display:flex;
+  margin: -9px -9px 0px;
+}
+
+.deploy-tab {
+  margin: 1px;
+  background-color: #373737;
+  color: #999;
+  flex-grow: 1;
+  height:40px;
+  text-align: center;
+  line-height:40px;
+}
+
+.deploy-tab.selected {
+  background-color: #242424;
+  color: #fff;
+}
+
+.deploy-tab-content {
+  padding: 10px;
+  display:flex;
+  flex-direction: column;
+}
+
+.deploy-desc {
+  color: #aaa;
+}
+
+.deploy-input-header {
+  color: #ccc;
+  font-size: 14px;
+  margin-top:20px;
+  margin-bottom:2px;
+}
+
+.deploy-input-label {
+  color: #999;
+  margin-bottom:2px;
+}
+
+.deploy-delimiter {
+  margin-top:20px;
+  background-color: #333;
+  height:1px;
+  width:1000px;
+  margin-left:-20px;
+}
+
+.deploy-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  height: 30px;
+  color: #ccc;
+  font-family: var(--font-family-regular);
+}
+
+.deploy-textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  height: 70px;
+  color: #ccc;
+  font-family: var(--font-family-regular);
+}
+
+.deploy-button {
+  background-color: #D3942B;
+  color:#000;
+  height:30px;
+  line-height:30px;
+  text-align: center;
+  font-family: var(--font-family-bold);
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.deploy-button:hover {
+  background-color: #e4b057;
+}
+
+.deploy-button.disabled {
+  background-color: #37383A;
+  color: #999;
+}
+
+.deploy-cloud-item {
+  display:flex;
+  padding:10px;
+  border-top: 1px solid #373737
+}
+
+.deploy-cloud-item.top {
+  border-top: none;
+}
+
+.deploy-cloud-item-thumb {
+  width:72px;
+  height:72px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right:10px;
+  flex-shrink: 0;
+}
+
+.deploy-cloud-desc {
+  display:flex;
+  flex-direction: column;
+}
+
+.deploy-cloud-item-label {
+  color: #ccc;
+  margin-bottom: 3px;
+  word-break: break-all;
+}
+
+.deploy-cloud-item-desc {
+  word-break: break-all;
+  color: #999;
+  margin-bottom: 3px;
+  flex-grow:1;
+  flex-shrink:1;
+  margin-right:20px;
+  word-break: break-all;
+}
+
+.deploy-cloud-item-url {
+  color: #ccc;
+  background-color: #373737;
+  padding:3px;
+  display:flex;
+  align-items: center;
+}
+
+.deploy-cloud-item-url:hover {
+  color: #fff;
+}
+
+.deploy-clipboard-icon {
+  content:url("../assets/icons/clipboard.svg");
+  width:14px;
+  height:14px;
+  opacity:0.6;
+  margin-left:10px;
+}
+
+.deploy-cloud-item-url:hover .deploy-clipboard-icon {
+    opacity:1;
+}
+
+.deploy-cloud-item-controls {
+  visibility: hidden;
+}
+
+.deploy-cloud-item:hover .deploy-cloud-item-controls {
+  visibility: visible;
+}
+
+.deploy-cloud-item-button {
+  color: #999;
+  background-color: #373737;
+  padding:2px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.deploy-cloud-item-button:hover {
+  color: #ccc;
+}
+
+.deploy-lock-icon {
+  content:url("../assets/icons/lock.svg");
+  width:12px;
+  height:12px;
+  position:relative;
+  top:-2px;
+}
+
+
+
+
+
+  .deploy-item {
+     margin-bottom: 10px;
+  }
+
+  .deploy-item.expanded {
+    padding-bottom: 30px;
+  }
+
+  .deploy-item-thumb {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+  }
+
+  .deploy-item-disabled {
+    opacity: 0.6;
+  }
+
+  .deploy-item-name {
+    font-size: 12px;
+    color: #fff;
+  }
+
+  .deploy-item-desc {
+    font-size: 12px;
+    color: #aaaaaa;
+  }
+
+  .deploy-url {
+    color: #ccc;
+    font-size: 12px;
+  }
+
+  .deploy-item:hover {
+    background-color: #555555;
+  }
+
+  .deploy-item-button {
+    display:none;
+    font-size: 11px;
+    color: #888888;
+    background-color: #333333;
+    padding: 1px 10px 1px 10px;
+  }
+
+  .deploy-item:hover .deploy-item-button {
+    display:block;
+  }
+
+  .deploy-item-button:hover {
+    color: #fff;
+  }
+
+  .deploy-item-hover-icon {
+    display: none;
+    color: #222;
+    background-color: #555;
+    padding: 3px 5px;
+  }
+
+  .deploy-item-hover-icon:hover {
+    display: none;
+    color: #aaaaaa;
+  }
+
+  .deploy-item:hover .deploy-item-hover-icon {
+    display:block;
+  }
+
+  .deploy-selectable {
+    user-select: text;
+  }
+

@@ -1,0 +1,253 @@
+[
+    {
+        "title": "Coca-Cola Soda, 16.9 Fl Oz, 6 Count",
+        "img": "https://i5.walmartimages.com/asr/74b4aa65-65ba-4daf-a178-0d68ebff66e6_2.e31ea1d83a331abf7a7ea7f4cfe98a2e.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world</li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton, Coca-Cola was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola syrup with carbonated water</li><li>Bring home the refreshing taste of Coca-Cola</li><li>Perfect size for drinking with meals, on the go, or any time</li><li>For crisp, cold taste, serve chilled at 37 degrees</li></ul>",
+            "short": "<ul style=\"color: rgb(34, 34, 34); font-family: proxima-nova, &quot;Helvetica Neue&quot;, Helvetica, Helvetica, Arial, sans-serif;\"><li>Coca-Cola&nbsp;is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world<br></li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton,&nbsp;Coca-Cola&nbsp;was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola&nbsp;syrup with carbonated water</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 2.5,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 103
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "101.4"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10535170",
+        "variantCategoriesMap": {
+            "multipack_quantity": {
+                "id": "multipack_quantity",
+                "name": "Pack Size",
+                "type": "DROPDOWN",
+                "categoryType": "TRANSACTIONAL_TILE",
+                "categoryTypeAllValues": "TRANSACTIONAL_TILE",
+                "variants": {
+                    "multipack_quantity-4": {
+                        "id": "multipack_quantity-4",
+                        "name": "4 Pack",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "5OVKJ9BPUB1P"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 4,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 13.32,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.033,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 13.32,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.033,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "multipack_quantity-1": {
+                        "id": "multipack_quantity-1",
+                        "name": "Single",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "5H0S6TDBCDRD"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 1,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 2.5,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.025,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 2.5,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.025,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "multipack_quantity-1"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Soda, 12 Fl. Oz., 24 Count",
+        "img": "https://i5.walmartimages.com/asr/0989e352-9f15-4f08-9fe1-05995a889dc5_1.dbf60d0b8b5348fa5085ce68a01f2b18.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Coca-Cola Cola:</strong><br /><ul><li>140 calories per can</li><li>34mg caffeine per can</li><li>Coke soda with low sodium</li><li>No artificial flavors</li><li>No preservatives added</li><li>39g sugar per can</li></ul>",
+            "short": "<li>140 calories per can</li><li>34mg caffeine per can</li><li>Low sodium</li>",
+            "medium": "<p>Coca-Cola Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.</p>"
+        },
+        "price": 8.78,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 53
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "288"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10535216",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Soda, 2L",
+        "img": "https://i5.walmartimages.com/asr/f77327f1-ebf6-4cf3-8e96-69063cb94281_1.ed17b3ae7d1bb3a6897cb4e6c019d29f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong><br />Coca-Cola Soda, 2L:<br /></strong><ul><li>Great with meals, on the go or to share</li><li>For crisp, cold taste, serve this Coca-Cola Soda chilled at 37 degrees</li><li>No artificial flavors or preservatives added since 1886 </li><li>Made with carbonated water, sucrose, caramel color, phosphoric acid, natural flavors and caffeine</li><li>140 calories per serving</li><li>Serving size: 12 fl oz</li><li>Caffeine content: 34mg</li><li>Color: caramel</li><li>Size: 2 liters</li><li>Low sodium</li></ul>",
+            "short": "<li>Most popular and biggest-selling soft drink in history</li><li>The best-known brand in the world</li>",
+            "medium": "<p>Coca-Cola Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.</p>"
+        },
+        "price": 4.81,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 119
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "16618684",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    }
+]

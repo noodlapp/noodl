@@ -1,0 +1,57 @@
+<div class="sidebar-panel">
+    <!-- path template -->
+    <div data-template="path" style="height:30px" class="create-node-path-item">
+        <span style="line-height:30px" data-text="path">
+        </span>
+    </div>
+
+    <!-- Item template -->
+    <div data-template="item" style="height:100px; position:relative;">
+        <div class="node-bg node-panel-item drag-handle" style="position:absolute; top:5px; left:5px; bottom:5px; right:5px;">
+            <div class="node-title" style="position:absolute; left:0px; right:0px; top:0px; height:30px;">
+                <div style="margin-left:5px; margin-top:5px;" data-text="name"></div>
+            </div>
+
+            <div class="node-plate-darken" style="position:absolute; left:0px; right:0px; top:30px; bottom:0px; background-color:black; opacity:0.07">
+            </div>
+
+            <div class="node-plate" style="position:absolute; left:0px; right:0px; top:30px; bottom:0px;">
+                <div style="margin-left:5px; margin-top:5px; opacity:0.25; font-weight:lighter;" data-text="desc"></div>
+            </div>
+           <div class="node-panel-lighten" style="position:absolute; top:0px; left:0px; bottom:0px; right:0px; background-color:white; pointer-events:none;"></div>
+        </div>
+
+    </div>
+
+
+    <div style="display: flex;flex-direction: column;align-items: stretch;height: 100%;">
+        <!-- search -->
+        <div style="position:relative; height:35px;margin:2px;display: flex;" class="search search-bg">
+            <div style="flex-grow: 0;width:35px;display: flex;justify-content: center;align-items: center;">
+                <i style="vertical-align: middle;margin: 0 auto" class="fa fa-search search-icon"></i>
+            </div>
+
+            <input id="search" type="string" class="sidebar-panel-dark-input search-bg" style="flex-grow: 1; width:100%;"
+            />
+        </div>
+
+        <!-- nodes -->
+        <div class="nodes-scroller" style="flex:1;overflow-y: auto;">
+            <div class="nodeTypes">
+            </div>
+        </div>
+
+        <!-- search results -->
+        <div class="search-results-scroller" style="flex:1; display:none;">
+            <div class="search-results-items">
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+</div>

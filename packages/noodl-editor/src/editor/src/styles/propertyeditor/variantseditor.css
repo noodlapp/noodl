@@ -1,0 +1,246 @@
+.variants-editor {
+  border-bottom: 1px solid var(--theme-color-bg-1);
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.variants-section {
+  padding: 5px 10px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  min-height: 50px;
+  box-sizing: border-box;
+}
+
+.variants-name-section {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.variants-section label {
+  display: block;
+  color: var(--theme-color-fg-default);
+}
+
+.variants-name-section:hover label {
+  color: var(--theme-color-fg-highlight);
+}
+
+.variants-add-icon {
+  width: 16px;
+  height: 16px;
+  opacity: 0.56;
+  margin-left: auto;
+}
+
+.variants-pick-icon {
+  content: url('../assets/icons/editor/up-down-arrows.svg');
+  margin-top: 2px;
+  opacity: 0.7;
+  margin-left: 4px;
+}
+
+.variants-input {
+  border: none;
+  outline: none;
+  color: var(--theme-color-fg-default);
+  padding: 0 0 0 10px;
+  height: 33px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 0; /* need to set this, otherwise the input will refuse to shrink beyond a certain size */
+}
+
+.variants-name-section:hover .variants-add-icon,
+.variants-name-section:hover .variants-pick-icon {
+  opacity: 1;
+}
+
+.variants-header {
+  color: var(--theme-color-fg-default);
+  background-color: var(--theme-color-bg-2);
+  padding: 4px 4px 4px 16px;
+  display: flex;
+  align-items: center;
+  min-height: 27px;
+}
+
+.variants-header span {
+  margin-top: -1px;
+  font-weight: var(--font-weight-semibold);
+  font-size: 12px;
+}
+
+.variants-header .fa {
+  padding-top: 2px;
+}
+
+.variants-add-header > i.fa {
+  margin-left: auto;
+  margin-right: 3px;
+}
+
+.variants-add-header .add-button {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.variants-add-input {
+  border: none;
+  outline: none;
+  background-color: var(--theme-color-bg-1);
+  color: var(--theme-color-fg-default);
+  padding: 2px;
+  padding-left: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+.variants-name {
+  background-color: var(--theme-color-bg-1);
+  color: --fg-def;
+  padding: 5px;
+  height: 20px;
+  width: 100%;
+}
+
+.variants-name:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.variants-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.variants-input {
+  background-color: var(--theme-color-bg-2);
+  height: 27px;
+  margin-right: 4px;
+}
+
+.variants-button {
+  background-color: var(--theme-color-bg-3);
+  color: var(--theme-color-fg-default);
+  padding: 5px 8px;
+  border-radius: 1px;
+  font-size: 11px;
+  line-height: 17px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-width: 78px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: var(--font-weight-semibold);
+}
+
+.variants-button:hover {
+  background-color: var(--theme-color-bg-1);
+}
+
+.variants-button.primary {
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-on-primary);
+}
+
+.variants-button.primary:hover {
+  background-color: var(--theme-color-primary-highlight);
+}
+
+.variants-button.teal {
+  background-color: var(--theme-color-secondary);
+  color: var(--theme-color-on-secondary);
+}
+
+.variants-button.teal:hover {
+  background-color: var(--theme-color-secondary-highlight);
+}
+
+.variants-pick-variant-item {
+  --hover-bg-color: var(--theme-color-bg-3);
+  color: var(--theme-color-fg-default-contrast);
+  border-top: 1px solid var(--theme-color-bg-3);
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 33px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.variants-pick-variant-item.is-page {
+  padding: 4px;
+}
+
+.variants-pick-variant-inner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.variants-pick-variant-item.is-page:hover .variants-pick-variant-inner {
+  background-color: var(--hover-bg-color);
+  color: var(--theme-color-fg-highlight);
+  fill: var(--theme-color-fg-highlight);
+}
+
+.variant-item-name {
+  flex-grow: 1;
+  padding: 7px 0 7px 10px;
+  overflow-wrap: anywhere; /* force words to break arbitrarily to always leave room for the icons next to the name */
+}
+
+.variants-pick-variant-item:not(.is-page):hover {
+  color: var(--theme-color-fg-highlight);
+  background-color: var(--hover-bg-color);
+}
+
+.variants-item-icon {
+  color: var(--theme-color-fg-default-shy);
+  visibility: hidden;
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.variants-pick-variant-item:hover .variants-item-icon {
+  visibility: visible;
+}
+
+.variants-item-icon:hover {
+  color: var(--theme-color-fg-highlight);
+}
+
+.variants-edit-mode-header {
+  height: 33px;
+  background-color: var(--theme-color-secondary);
+  color: var(--theme-color-on-secondary);
+  line-height: 33px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.variants-sidepanel-edit-mode:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 2px;
+  bottom: 0;
+  pointer-events: none;
+  border: 2px solid var(--theme-color-secondary);
+}

@@ -1,0 +1,78 @@
+.DraggableItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &.is-not-active {
+    background-color: var(--theme-color-bg-2);
+
+    path {
+      fill: var(--theme-color-fg-default);
+    }
+
+    p {
+      color: var(--theme-color-fg-default);
+    }
+
+    &:hover {
+      background-color: var(--theme-color-bg-4);
+
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+
+      p {
+        color: var(--theme-color-fg-highlight);
+      }
+    }
+  }
+
+  &.is-active {
+    background-color: var(--theme-color-secondary);
+
+    path {
+      fill: var(--theme-color-on-secondary);
+    }
+
+    p {
+      color: var(--theme-color-on-secondary);
+    }
+
+    &:hover {
+      background-color: var(--theme-color-secondary-highlight);
+
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+
+      p {
+        color: var(--theme-color-fg-highlight);
+      }
+    }
+  }
+}
+
+.Item {
+  display: flex;
+  align-items: center;
+  height: 38px;
+}
+
+.ItemText {
+  padding-left: 4px;
+}
+
+.EndSlotContainer {
+  opacity: 0;
+  padding-right: 6px;
+
+  &,
+  * {
+    pointer-events: all !important;
+  }
+
+  .DraggableItem:hover &,
+  &:hover {
+    opacity: 1;
+  }
+}

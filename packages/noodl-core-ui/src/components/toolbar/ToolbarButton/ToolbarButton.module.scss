@@ -1,0 +1,32 @@
+.Root {
+  background: transparent;
+  border: none;
+  height: 100%;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  cursor: default;
+  
+  &.actionable {
+    color: #9F9F9F !important;
+    cursor: pointer;
+    
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  }
+}
+
+.Text {
+  /* Color is slightly different in the popout */
+  color: #7a7a7a;
+
+  /* TODO: Bug there Text doesnt have a font family */
+  font-family: 'OpenSans';
+
+  &.actionable {
+    color: #9F9F9F !important;
+  }
+}

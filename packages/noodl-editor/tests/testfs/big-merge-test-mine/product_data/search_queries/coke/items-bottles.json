@@ -1,0 +1,533 @@
+[
+    {
+        "title": "Coca-Cola Soda, 16.9 Fl Oz, 6 Count",
+        "img": "https://i5.walmartimages.com/asr/74b4aa65-65ba-4daf-a178-0d68ebff66e6_2.e31ea1d83a331abf7a7ea7f4cfe98a2e.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world</li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton, Coca-Cola was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola syrup with carbonated water</li><li>Bring home the refreshing taste of Coca-Cola</li><li>Perfect size for drinking with meals, on the go, or any time</li><li>For crisp, cold taste, serve chilled at 37 degrees</li></ul>",
+            "short": "<ul style=\"color: rgb(34, 34, 34); font-family: proxima-nova, &quot;Helvetica Neue&quot;, Helvetica, Helvetica, Arial, sans-serif;\"><li>Coca-Cola&nbsp;is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world<br></li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton,&nbsp;Coca-Cola&nbsp;was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola&nbsp;syrup with carbonated water</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 2.5,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 103
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "101.4"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10535170",
+        "variantCategoriesMap": {
+            "multipack_quantity": {
+                "id": "multipack_quantity",
+                "name": "Pack Size",
+                "type": "DROPDOWN",
+                "categoryType": "TRANSACTIONAL_TILE",
+                "categoryTypeAllValues": "TRANSACTIONAL_TILE",
+                "variants": {
+                    "multipack_quantity-4": {
+                        "id": "multipack_quantity-4",
+                        "name": "4 Pack",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "5OVKJ9BPUB1P"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 4,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 13.32,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.033,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 13.32,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.033,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "multipack_quantity-1": {
+                        "id": "multipack_quantity-1",
+                        "name": "Single",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "5H0S6TDBCDRD"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 1,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 2.5,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.025,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 2.5,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.025,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "multipack_quantity-1"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Soda, 2L",
+        "img": "https://i5.walmartimages.com/asr/f77327f1-ebf6-4cf3-8e96-69063cb94281_1.ed17b3ae7d1bb3a6897cb4e6c019d29f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong><br />Coca-Cola Soda, 2L:<br /></strong><ul><li>Great with meals, on the go or to share</li><li>For crisp, cold taste, serve this Coca-Cola Soda chilled at 37 degrees</li><li>No artificial flavors or preservatives added since 1886 </li><li>Made with carbonated water, sucrose, caramel color, phosphoric acid, natural flavors and caffeine</li><li>140 calories per serving</li><li>Serving size: 12 fl oz</li><li>Caffeine content: 34mg</li><li>Color: caramel</li><li>Size: 2 liters</li><li>Low sodium</li></ul>",
+            "short": "<li>Most popular and biggest-selling soft drink in history</li><li>The best-known brand in the world</li>",
+            "medium": "<p>Coca-Cola Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.</p>"
+        },
+        "price": 4.81,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 119
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "16618684",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Soda, 12 Fl Oz, 8 Count",
+        "img": "https://i5.walmartimages.com/asr/1f6a6423-8968-41b5-8b8f-bad4e7117960_4.0c8d35b57e706a539be548e7d961d648.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Enjoy the original taste of Coca-Cola</li><li>Serve chilled at 37 degrees</li><li>Low sodium</li><li>Perfect size for drinking with meals, on the go, or any time</li><li>Eight (8), 12 fl oz bottles</li></ul>",
+            "short": "&nbsp;",
+            "medium": "<p>12 ounces each</p>"
+        },
+        "price": 4.28,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "96"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10291579",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Diet Coke Soda, 12 Fl Oz, 12 Count",
+        "img": "https://i5.walmartimages.com/asr/3db017bd-b9c4-4e0e-85c7-dfb3ab54cfe6_3.8c669c4a8d2b1b779a6d54d4baac5b1a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Diet Coke is a delicious, crisp tasting, no calorie sparkling cola that gives you the refreshment you want throughout the day</li><li>Bring home the refreshing taste of Diet Coca-Cola</li><li>Perfect for at-home meals with family and friends</li><li>No calories, but plenty of taste</li></ul>",
+            "short": "<li><br></li>",
+            "medium": "<p>Diet Coke Cola is the most popular sugar-free soft drink in America. It's the original sparkling beverage for those who want great flavor without the calories--a drink for those with great taste.</p>"
+        },
+        "price": 4.99,
+        "reviews": {
+            "customerRating": 4.7037,
+            "numReviews": 27
+        },
+        "size": {
+            "karfGroceryType": "Diet",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "144"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10291610",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Diet Coke Soda, 16.9 Fl Oz, 6 Count",
+        "img": "https://i5.walmartimages.com/asr/fefbae69-092a-4ae5-bcb6-16872b23da6a_2.b5e5c3d89c99184597117224c91cbe06.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Diet Coke is a delicious, crisp tasting, no calorie sparkling cola that gives you the refreshment you want throughout the day</li><li>Diet Coke was the first branded line extension from Coke Trademark and is the #2 beverage brand in the United States</li><li>With Diet Coke naturally flavored feisty cherry, ginger lime, twisted mango, and zesty blood orange, there's a whole flavor adventure waiting for you. Break out of your comfort zone and give them a try.</li><li>We took ordinary fruit flavors and dialed them to 11. we struck the perfect balance of crisp + refreshing. then we put them all in sleek new cans.</li><li>No Sugar & No Calories</li></ul>",
+            "short": "<li>0 calories per bottle</li><li>Low sodium</li>",
+            "medium": "</p>"
+        },
+        "price": 2.5,
+        "reviews": {
+            "customerRating": 4.1351,
+            "numReviews": 37
+        },
+        "size": {
+            "karfGroceryType": "Diet",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "101.4"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "16935929",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/Diet Coke",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "Diet Coke",
+                    "url": "/cp/8202110"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Diet Coke Soda, 2 L",
+        "img": "https://i5.walmartimages.com/asr/2a2af749-287a-4420-b118-60cc010d0b97_1.b117ace124e5dc1901f726fb0535334a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Diet Coke is a delicious, crisp tasting, no calorie sparkling cola that gives you the refreshment you want throughout the dayBring home the refreshing taste of Diet Coca-ColaPerfect for at-home meals with family and friendsNo calories, but plenty of tasteLow Sodium",
+            "short": "<li>Refreshing uplift any time of day</li><li>Most popular sugar-free soft drink </li><li>Great flavor without the calories</li>"
+        },
+        "price": 4.81,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 69
+        },
+        "size": {
+            "karfGroceryType": "Diet",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "15610624",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/Diet Coke",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "Diet Coke",
+                    "url": "/cp/8202110"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Soda, 1.25 L",
+        "img": "https://i5.walmartimages.com/asr/7b673a21-d6e8-4445-a32c-afdcda21b4d8_1.97ecaa927b4f963cee1f015aeadced8a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Coca-Cola Soda, 1.25 L: </strong><br /><ul><li>With meals, on the go or to share</li><li>For crisp, cold taste, serve chilled at 37 degrees</li><li>No artificial flavors or preservatives added since 1886</li><li>Low sodium</li><li>Party beverage </li><li>No fat</li><li>Caffeinated and carbonated</li><li>Family-sized soda bottle sealed with twistable cap</li></ul>",
+            "short": "<li>Low sodium</li><li>No artificial flavors</li><li>No preservatives added</li>",
+            "medium": "<p>Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.</p>"
+        },
+        "price": 3.74,
+        "reviews": {
+            "customerRating": 4,
+            "numReviews": 4
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "42.27"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "17670814",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Zero Sugar Diet Soda, 16.9 Fl Oz, 6 Count",
+        "img": "https://i5.walmartimages.com/asr/858a6158-f55e-46fc-bc2e-7fa7dfeec9e0_2.a7c0a709c5330b772aa2d99ba49bbc38.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Coca-Cola Zero Sugar has more real Coca-Cola flavor, still without any sugar</li><li>Perfect size for drinking with meals, on the go, or any time</li><li>For crisp, cold taste, serve chilled at 37 degrees</li><li>Improved real Coca-Cola taste ? without the sugar and calories</li></ul>",
+            "short": "<li>Offers Coca-Cola taste with zero calories</li><li>Very low sodium</li>",
+            "medium": "</p>"
+        },
+        "price": 2.5,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 10
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "101.4"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10535134",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    }
+]

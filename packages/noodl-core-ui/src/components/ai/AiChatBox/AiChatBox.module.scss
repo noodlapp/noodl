@@ -1,0 +1,58 @@
+.ScrollContainer {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.ScrollArea {
+  display: flex;
+  flex-direction: column;
+  // padding-top: 8px;
+  // padding-bottom: 8px;
+  overflow-y: scroll;
+  overflow-y: overlay;
+}
+
+.JumpToPresentContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.JumpToPresent {
+  display: none;
+
+  padding: 4px;
+  background-color: var(--theme-color-bg-2);
+  border: 1px solid var(--theme-color-bg-3);
+
+  cursor: pointer;
+  user-select: none;
+  pointer-events: all;
+
+  transition: background-color 100ms ease;
+  transform: translate(0, 20%);
+  animation: slide 500ms forwards;
+
+  &:hover {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.is-past {
+    display: block;
+  }
+}
+
+@keyframes slide {
+  100% {
+    transform: translate(0, 0);
+  }
+}

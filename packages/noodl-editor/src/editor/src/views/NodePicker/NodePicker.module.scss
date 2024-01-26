@@ -1,0 +1,61 @@
+@use '@scss-variables/animation';
+
+.Root {
+  position: relative;
+  background-color: var(--theme-color-bg-2);
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+
+  > * {
+    height: 100%;
+  }
+}
+
+.ShadowWrapper {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.Shadow {
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+  box-shadow: 0 0 30px 5px var(--theme-color-bg-2), 0 0 40px 0 var(--theme-color-bg-2),
+    0 0 20px 0 var(--theme-color-bg-2);
+  z-index: 10;
+  opacity: 0.8;
+}
+
+.Blocker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  background-color: var(--theme-color-bg-2);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity animation.$speed-turbo animation.$easing-equal;
+
+  &.is-visible {
+    opacity: 0.5;
+    pointer-events: all;
+  }
+}
+
+.TabOverride {
+  > div {
+    height: 555px; //yeah, this is a hack
+
+    > * {
+      height: 100%;
+    }
+  }
+}

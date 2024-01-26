@@ -1,0 +1,83 @@
+{
+    "name": "Merge problem",
+    "components": [
+        {
+            "name": "/App",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+                        "type": "Group",
+                        "x": 125.10979936305301,
+                        "y": 79.08480924382782,
+                        "parameters": {
+                            "backgroundColor": "#FFFFFF"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "60e27c50-600e-2e40-3aa4-46ad349bbaa4",
+                                "type": "Text",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "fontFamily": "Arial",
+                                    "fontSize": {
+                                        "value": 64,
+                                        "unit": "px"
+                                    },
+                                    "text": "Hello"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            },
+                            {
+                                "id": "fb1003da-7d3c-f198-b84e-00c31db19927",
+                                "type": "Text",
+                                "x": 20,
+                                "y": 92,
+                                "parameters": {
+                                    "fontFamily": "Arial",
+                                    "fontSize": {
+                                        "value": 18,
+                                        "unit": "px"
+                                    },
+                                    "color": "#666666",
+                                    "text": "Welcome to Noodl"
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            "metadata": {
+                "canvasSize": {
+                    "width": "375px",
+                    "height": "667px"
+                },
+                "canvasPos": {
+                    "x": 0,
+                    "y": 0
+                }
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+    "version": "1",
+    "metadata": {
+        "dbCollections": [],
+        "cloudservices": {
+            "instanceId": "048c3cdd-b861-9a85-5f2f-992488987021",
+            "workspaceId": "noodl-dev",
+            "endpoint": "http://localhost:1337/parse",
+            "appId": "cz-backend"
+        }
+    }
+}
