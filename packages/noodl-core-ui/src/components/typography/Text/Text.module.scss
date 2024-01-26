@@ -1,0 +1,80 @@
+.Root {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: var(--font-family);
+
+  a {
+    font-weight: 700;
+    color: var(--theme-color-primary);
+    text-decoration: underline;
+  }
+
+  &.has-bottom-spacing {
+    margin-bottom: 16px;
+  }
+}
+
+.is-type {
+  &-default {
+    color: var(--theme-color-fg-default);
+  }
+
+  &-default-contrast {
+    color: var(--theme-color-fg-default-contrast);
+  }
+
+  &-proud {
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &-shy {
+    color: var(--theme-color-fg-muted);
+  }
+
+  &-secondary {
+    color: var(--theme-color-secondary-as-fg);
+  }
+
+  &-success {
+    color: var(--theme-color-success);
+  }
+
+  &-notice {
+    color: var(--theme-color-notice);
+  }
+
+  &-danger {
+    color: var(--theme-color-danger);
+  }
+
+  &-success,
+  &-notice,
+  &-danger {
+    a {
+      color: inherit;
+    }
+  }
+}
+
+.is-size {
+  &-default {
+    font-size: 12px;
+  }
+
+  &-small {
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &-medium {
+    font-size: 11px;
+  }
+}
+
+.is-inline {
+  display: inline;
+}
+
+.is-centered {
+  text-align: center;
+}

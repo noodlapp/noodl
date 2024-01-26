@@ -1,0 +1,24 @@
+/* -------------------------------------------------------------------
+   String list
+   ------------------------------------------------------------------- */
+.proplist-add-button-container {
+    position: relative;
+    padding-right: 0;
+  }
+  
+  .proplist-default-label {
+    color: #666666;
+  }
+
+.proplist-item {
+    cursor: default;
+    color: #f8f8f8;
+    position: relative;
+    line-height: 35px;    
+}
+
+.proplist-header {
+    background-color: #1f1f1f;
+    margin-bottom:2px;
+    margin-top:2px;
+}

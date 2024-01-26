@@ -1,0 +1,56 @@
+<div class="create-node-popup" style="width:900px; height:400px; position:relative;" >
+  <!-- path template -->
+  <div data-template="path">
+    <div style="height:30px" class="create-node-path-item">
+      <span style="line-height:30px" data-text="path">
+      </span>
+    </div>
+    <div class="content" style="display:flex; flex-wrap:wrap;">
+
+    </div>
+  </div>
+
+  <!-- Item template -->
+  <div data-template="item" style="width:120px; margin:2px;" class="create-node-list-item" data-click="itemClicked">
+    <span style="line-height:15px" class="create-node-item" data-text="name">
+    </span>
+  </div>
+
+  <!-- quick bar item -->
+  <div data-template="quickbar-item" class="create-node-quickbar-icon" style="position:relative; margin: 5px 2px 5px 2px;" data-click="quickbarItemClicked">
+  </div>
+
+   <!-- quick bar -->
+   <div style="position:absolute; left:210px; height:40px;display: flex;" class="quick-bar">
+      <div style="width:100%; display:flex; padding:0px;" class="quickbar-items">
+       
+      </div>
+    </div>
+
+  <!-- search -->
+  <div style="position:relative; height:30px; top:5px; left:3px;width:210px; display: flex;" class="create-node-search-bg">
+    <div style="flex-grow: 0;width:35px;display: flex;justify-content: center;align-items: center;">
+      <i style="vertical-align: middle;margin: 0 auto" class="fa fa-search create-node-search-icon"></i>
+    </div>
+ 
+    <input id="search" type="string" class="create-node-dark-input" style="flex-grow: 1; width:100%;"/>
+  </div>
+
+  <!-- docs -->
+  <div class="docs create-node-docs create-node-light-bg" style="position:absolute; top:42px; left:420px; right:0px; bottom:0px; padding:10px; overflow-y: scroll;">
+  </div>
+
+  <div style="position:absolute; top:30px; left:0px; width:420px; bottom:0px;">
+    <!-- library -->
+    <div class="library" style="overflow:hidden; position:relative; margin-top:12px;">
+      <div class="nodeTypes create-node-light-bg create-node-scrollbar" style="height:358px;width:420px; overflow-y: auto; ">
+      </div>
+    </div>
+
+    <!-- search results -->
+    <div class="search-results" style="overflow:hidden; position:relative; margin-top:12px;">
+      <div class="search-results-items create-node-light-bg create-node-scrollbar" style="height: 358px; width:420px; overflow-y: auto">
+      </div>
+    </div>
+  </div>
+</div>

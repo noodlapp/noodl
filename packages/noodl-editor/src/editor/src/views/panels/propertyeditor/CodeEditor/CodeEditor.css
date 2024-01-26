@@ -1,0 +1,10 @@
+.code-editor__inline__error {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.code-editor__line__error {
+  background: #f00;
+  width: 5px !important;
+  margin-left: 3px;
+}

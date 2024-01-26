@@ -1,0 +1,61 @@
+.Root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--theme-color-bg-4);
+  max-width: 810px;
+  max-height: 90vh;
+  width: 80vw;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    right: 0;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 25px 10px var(--theme-color-bg-4);
+  }
+}
+
+.CloseButtonContainer {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.Header {
+  padding: 20px 40px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &.has-divider {
+    border-bottom: 1px solid var(--theme-color-bg-3);
+  }
+}
+
+.Footer {
+  padding: 20px 40px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &.has-divider {
+    border-top: 1px solid var(--theme-color-bg-3);
+  }
+}
+
+.TitleWrapper {
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.Content {
+  padding: 0 40px 40px;
+  padding-top: 16px;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}

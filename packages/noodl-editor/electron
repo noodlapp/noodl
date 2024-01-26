@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Electron bin file which is used by our merge driver in DEV mode is calling
+# this file.
+# 
+# The original file caused issues on Windows because it is using cygpath
+# which is not installed by default on Windows.
+#
+# File: node_modules\.bin\electron
+#
+# > GitError: C:\GitHub\noodl-editor\node_modules\.bin\electron: line 5: cygpath: command not found
+# > node:internal/modules/cjs/loader:936
+# >   throw err;
+# >   ^
+# > 
+# > Error: Cannot find module 'C:\electron\cli.js'
+# >     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+# >     at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+# >     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+# >     at node:internal/main/run_main_module:17:47 {
+# >   code: 'MODULE_NOT_FOUND',
+# >   requireStack: []
+# > }
+#
+# Solution is to just run the Electron cli.js directly,
+# since this will only run on DEV we can expect that the user has NODE installed.
+#
+# The first argument will the the path to noodl-editor,
+# where $PWD is the working directory, which in this case is the git repository.
+exec node "$1/../../node_modules/electron/cli.js" "$@"

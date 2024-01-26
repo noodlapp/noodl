@@ -1,0 +1,81 @@
+$pin-icon-size: 14px;
+
+.Root {
+  background-color: #383838;
+  max-height: 300px;
+  max-width: 500px;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid #2a2a2a;
+}
+
+.ValueContainer {
+  overflow: auto;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 16px; /* Give some space for the copy icon */
+
+  span,
+  div {
+    font-family: var(--font-family-code);
+  }
+
+  :global(.collapsed-icon),
+  :global(.expanded-icon) {
+    svg {
+      width: 0.8em !important;
+      height: 0.8em !important;
+      padding-top: 0.1em;
+    }
+
+    svg,
+    path {
+      color: #a0a0a0 !important;
+      fill: #a0a0a0 !important;
+    }
+  }
+
+  :global(.object-key) {
+    span {
+      color: #ffffff;
+    }
+  }
+
+  :global(.node-ellipsis) {
+    font-size: 1em !important;
+  }
+}
+
+.ValueInspector {
+  font-family: monospace;
+  color: #f6f6f6;
+  white-space: pre;
+  cursor: text;
+  user-select: text;
+  display: flex;
+
+  img {
+    margin: 0 auto;
+    max-width: 100px;
+    max-height: 50px;
+  }
+}
+
+.PinButton {
+  -webkit-mask: url(../assets/icons/editor/push_pin_black_24dp-outline.svg);
+  -webkit-mask-size: $pin-icon-size $pin-icon-size;
+  width: $pin-icon-size;
+  height: $pin-icon-size;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: #b9b9b9;
+  flex-shrink: 0;
+
+  &.is-pinned {
+    -webkit-mask: url(../assets/icons/editor/push_pin_black_24dp-filled.svg);
+    -webkit-mask-size: $pin-icon-size $pin-icon-size;
+  }
+}

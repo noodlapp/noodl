@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <title>{{#title#}}</title>
+
+{{#customHeadCode#}}
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: white;
+      }
+
+      .body-scroll {
+        overflow: hidden auto;
+      }
+
+      img {
+        -webkit-user-drag: none;
+      }
+
+      * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
+
+      #root {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: fixed;
+      }
+
+      .body-scroll > #root {
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        flex-direction: column;
+        overflow: initial;
+        position: initial;
+      }
+
+      @font-face {
+        font-family: "Open Sans";
+        src: url(ndl_assets/OpenSans-Regular.ttf);
+      }
+
+      @font-face {
+        font-family: "Open Sans";
+        src: url(ndl_assets/OpenSans-Bold.ttf);
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+
+    <div id="root"></div>
+
+    <script src="/react.production.min.js"></script>
+    <script src="/react-dom.production.min.js"></script>
+
+    <%modules_dependencies%>
+
+    <script type="application/javascript">
+      window.__noodl_modules = [];
+      window.Noodl = {
+        defineModule: function (m) {
+          window.__noodl_modules.push(m);
+        },
+        deployed: false,
+        Env: {}
+      };
+    </script>
+
+    <%modules_main%>
+
+    <script src="/noodl.viewer.js"></script>
+    <script type="application/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            const root = document.getElementById('root');
+            window.Noodl._viewerReact.render(root, __noodl_modules, { isLocal: true });
+        });
+    </script>
+  </body>
+</html>

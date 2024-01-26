@@ -1,0 +1,593 @@
+[
+    {
+        "title": "HP Chromebook 15 , 15.6\" Full HD Touchscreen, Intel Core i3-8130U, Intel® UHD Graphics 620, 4GB SDRAM, 128GB eMMC, Audio by B&O, Ceramic White/Cloud Blue, Backlit Keyboard, 15-de0517wm",
+        "img": "https://i5.walmartimages.com/asr/ec6b6d95-6576-46ba-82f7-c84364aedd0b_2.bcbf45d801f47805a5e580c3fcf430cc.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<div><b>Key Features:</b></div><ul><li>Processor: 8th Generation Intel Core i3-8130U </li><li>Display: 15.6-inch diagonal FHD IPS micro-edge WLED-backlit touchscreen (1920 x 1080)</li><li>Memory: 4 GB DDR4-2133 SDRAM (onboard) </li><li>Internal storage: 128 GB eMMC </li><li>Graphics: Intel UHD Graphics 620 </li><li>Sound: B&amp;O with dual speakers </li><li>Wireless: Intel Wireless-AC 802.11b/g/n/ac (2x2) Wi-Fi and Bluetooth 4.2 Combo </li><li>Camera: HP Wide Vision HD Camera with integrated dual array digital microphone </li><li>Product weight: 3.99 lb </li><li>Keyboard: Full-size island-style cloud blue backlit keyboard with numeric keypad</li></ul>",
+            "short": "<ul><li>Chrome with integrated Intel® UHD Graphics 620<br></li><li>8th Generation Intel® Core? i3-8130U Processor, Dual-Core 2.2 GHz up to 3.4 GHz<br></li><li>Up to 13 hours mixed usage<br></li><li>Micro-edge FHD IPS touchscreen<br></li><li>2 USB 3.1 Gen 1 Type-C?, USB 3.1 Gen 1 Type-A<br></li><li>Thin &amp; portable 14.11 x 9.69 x .70 in; 3.99 lb<br></li></ul>"
+        },
+        "price": 414.99,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 23
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "urgentQuantity": 5,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 24.96,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1586286000000
+                    },
+                    "urgentQuantity": 5,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 109.96,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 5,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "urgentQuantity": 5,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "836683677",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Google Chromebooks",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Google Chromebooks",
+                    "url": "/cp/1103213"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Acer Chromebook 15 CB3-532-C42P - 15.6\" - Celeron N3060 - 4 GB RAM - 16 GB SSD - US",
+        "img": "https://i5.walmartimages.com/asr/31d07303-5e03-4e2f-9a5b-e277743b1c1f_1.4860c316e56020bbecd8b1626af43755.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong>Acer Chromebook 15 CB3-532-C42P - 15.6\" - Celeron N3060 - 4 GB RAM - 16 GB SSD - US:</strong><br /><ul><li>USB 3.0 ports for rapid transfer speeds</li><li>Chrome OS</li><li>Supports fast 802.11ac WiFi</li><li>HD Graphics 400 and large color screen and ComfyView technology</li><li>SD card slot</li><li>Built-in speakers</li><li>Celeron chromebook includes long-lasting 3-cell battery</li></ul>",
+            "short": "Acer CB3-532-C42P 15.6\" Chromebook w/ Intel Celeron N3060, 4GB RAM & 16GB Flash"
+        },
+        "price": 341.02,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 9
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 9.98,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1586286000000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 84.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "urgentQuantity": 3,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "989218540",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Google Chromebooks",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Google Chromebooks",
+                    "url": "/cp/1103213"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Chromebook 15 CB3-532-C8DF Chromebook",
+        "img": "https://i5.walmartimages.com/asr/e15e08a9-f2e4-4d36-847a-84a0fffc63f8_1.80c01d9170e2075e6a28021edcdd6840.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Acer Chromebook 15 CB3-532-C8DF 15.6\" LCD Chromebook - Intel Celeron N3060 Dual-core (2 Core) 1.60 GHz - 4 GB LPDDR3 - 16 GB Flash Memory - Chrome OS - 1366 x 768 - ComfyView - Granite Gray - Intel HD Graphics 400 LPDDR3 - Bluetooth - English (US) Keyboard - Front Camera/Webcam - IEEE 802.11ac - HDMI - 2 x USB 3.0 Ports",
+            "short": "Always newStart in seconds and have that new computer feeling -- every time. Chromebook's cloud-based Chrome OS and built-in virus protection refresh on reboot. No updates to track, no discs to insert, and backups are automatic, too. Unlike other computers, Chromebooks get better with age. Plus, Chr"
+        },
+        "price": 239.99,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "1",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 14.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 69.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 2,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "905738702",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Google Chromebooks",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Google Chromebooks",
+                    "url": "/cp/1103213"
+                }
+            ]
+        }
+    },
+    {
+        "title": "HP Chromebook 15.6\" Full HD Touchscreen, Intel Core i3-8130U, 4GB SDRAM, 128GB eMMC, Audio by B&O, Ceramic White/Cloud Blue, Backlit Keyboard, 15-de0518wm",
+        "img": "https://i5.walmartimages.com/asr/dfc9a917-90df-4641-badf-11ae01b3a25d_2.bcbf45d801f47805a5e580c3fcf430cc.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "? Operating system: Chrome ? Processor: 8th Generation Intel® Core? i3-8130U ? Display: 15.6-inch diagonal FHD IPS micro-edge WLED-backlit touchscreen (1920 x 1080) ? Memory: 4 GB DDR4-2133 SDRAM (onboard) ? Internal storage: 128 GB eMMC ? Graphics: Intel® UHD Graphics 620 ? Sound: B&O with dual speakers ? Battery life: Up to 13 hours (mixed usage) ? Wireless: Intel® Wireless-AC 802.11b/g/n/ac (2x2) Wi-Fi and Bluetooth® 4.2 Combo ? Camera: HP Wide Vision HD Camera with integrated dual array digital microphone ? Product weight: 3.99 lb ? Keyboard: Full-size island-style cloud blue backlit keyboard with numeric keypad.",
+            "short": "<ul><li>Chrome with integrated Intel® UHD Graphics 620<br></li><li>8th Generation Intel® Core? i3-8130U Processor, Dual-Core 2.2 GHz up to 3.4 GHz<br></li><li>Up to 13 hours mixed usage<br></li><li>Micro-edge FHD IPS touchscreen<br></li><li>2 USB 3.1 Gen 1 Type-C?, USB 3.1 Gen 1 Type-A<br></li><li>Thin &amp; portable 14.11 x 9.69 x .70 in; 3.99 lb<br></li></ul>"
+        },
+        "price": 419,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 12
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 19.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 79.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 499,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585681200000,
+                        "latestDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "787288737",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Touchscreen Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Touchscreen Laptops",
+                    "url": "/cp/1101633"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Acer Spin 15 2-in-1 Full HD Multitouch Chromebook 32GB eMMC Flash Memory Silver",
+        "img": "https://i5.walmartimages.com/asr/31a254f1-8fc0-4987-bfef-9a50cd568227_1.b248a4dc62bba518665fe64310c6ce90.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Acer Spin 15 2-in-1 Full HD Multitouch Chromebook 32GB eMMC Flash Memory Silver",
+            "short": "Acer Spin 15 2-in-1 Full HD Multitouch Chromebook 32GB eMMC Flash Memory Silver"
+        },
+        "price": 470.95,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1586286000000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 39.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 2,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "992776713",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Touchscreen Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Touchscreen Laptops",
+                    "url": "/cp/1101633"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Acer 15.6\" HD Chomebook, Intel Celeron N3060, Intel HD Graphics 400, 4GB, 32GB HDD, CB3-532-C4ZZ",
+        "img": "https://i5.walmartimages.com/asr/51acc017-33cd-4488-9bfd-861a5249e94b_1.fa9d4ff7bc53b4545f8497c242b40b39.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "The Acer Chromebook 15 is a feature-rich, ultra-affordable large screen Chromebook. Enjoy immersive visuals on the large 15.6 display, which is the largest display on any Chromebook. With Intel dual-core processing and dual-band, the 802.11ac wireless technology it loads content-rich web pages quickly provides brilliant video playback and lets you multitask effortlessly while delivering amazing 12 hours of battery life. And, thanks to two full-sized upward-facing speakers, movies, and your favorite songs sound pitch perfect. It all adds up to the right mix of features to make you think bigger and reimagine whats possible with a Chromebook.ÃÂ Because Performance Matters <br /> <ul><li>Share and Play All-day Built with the technology to help you work all-day on millions of apps and then chat using the webcam.</li><li>All Day Productivity With a battery life of up to 12-hours1, your laptop is designed to stay at your side for the entirety of the day.</li><li>Google Play2 Get access to more than 2 million Android apps from Google Play to learn and do more2.</li><li>Wide-Angle Webcam Stop crowding around the laptop and let more of the room be seen with the 88ÃÂ° wide-angle webcam.</li><li>Wide Angle Display Share what's on your screen with friends and family as colors stay true no matter what angle you're viewing from.</li><li>Top-Facing Speakers Hear sounds in greater immersive clarity when they're delivered up.</li><li>Operating System Chrome OS</li><li>Processor Intel Celeron N3060 1.6 GHz</li><li>Memory LPDDR3 4 GB (standard)</li><li>Card Reader SD Card SDXC</li><li>Storage 32 GB flash drive</li><li>Screen 15.6\" HD (1366 x 768) resolution ComfyView</li><li>Graphics Intel HD Graphics 400 LPDDR3 Shared graphics memory</li><li>Connectivity 802.11ac wireless LAN</li><li>Audio & Video 1280 x 720 webcam Two speakers</li><li>Ports & Connectors 2x USB 3.0 HDMI Output</li><li>Input Devices TouchPad</li><li>Battery 3-cell 3920 mAh Li-Polymer</li><li>Adapter 45 W</li><li>Dimensions (W x D x H) 15.08\" x 10.08\" x 0.95\"</li><li>Weight (Approximate) 4.30 lb</li><li>Package Contents Chromebook 15 CB3-532-C4ZZ Chromebook Lithium Polymer Battery AC Adapter</li></ul>",
+            "short": "<ul><li>15.6\" HD Widescreen Display<br></li><li>4GB Memory &amp; 32GB Internal Storage</li><li>Google Chrome Operating System<br></li></ul>"
+        },
+        "price": 359.96,
+        "reviews": {
+            "customerRating": 4.1,
+            "numReviews": 42
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586286000000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "56147311",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/All Laptop Computers",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "All Laptop Computers",
+                    "url": "/cp/132960"
+                }
+            ]
+        }
+    }
+]

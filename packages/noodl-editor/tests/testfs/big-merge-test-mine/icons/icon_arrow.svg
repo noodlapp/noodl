@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>arrrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Prototype-Flow-2-|-Prioritized" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="FLOW-3---Screen-1" transform="translate(-346.000000, -114.000000)" stroke="#000000" stroke-width="1.5">
+            <g id="Group-9" transform="translate(16.000000, 114.000000)">
+                <g id="arrrow" transform="translate(337.000000, 7.500000) rotate(-180.000000) translate(-337.000000, -7.500000) translate(331.000000, 1.000000)">
+                    <line x1="-1.25e-07" y1="0.812499883" x2="11.9324994" y2="12.7449994" id="Stroke-3"></line>
+                    <polyline id="Stroke-5" points="0.682499697 12.7449994 11.9324994 12.7449994 11.9324994 1.4949997"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

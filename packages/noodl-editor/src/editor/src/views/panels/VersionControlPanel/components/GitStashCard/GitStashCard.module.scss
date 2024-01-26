@@ -1,0 +1,34 @@
+@use '@scss-variables/animation';
+
+.Root {
+  position: relative;
+  transition: background-color var(--speed-turbo) var(--easing-base);
+  border-bottom: 1px solid var(--theme-color-bg-1);
+
+  &:hover:not(.is-open) {
+    background-color: var(--theme-color-bg-3);
+  }
+}
+
+.Inner {
+  padding: 8px 16px 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.IconContainer {
+  flex-basis: 40px;
+}
+
+.ToggleContainer {
+  transform: translateX(8px);
+}
+
+.Drawer {
+  display: flex;
+  flex-direction: column;
+}

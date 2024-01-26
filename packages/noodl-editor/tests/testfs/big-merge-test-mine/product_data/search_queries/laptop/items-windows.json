@@ -1,0 +1,913 @@
+[
+    {
+        "title": "HP 15.6\" Laptop Bundle, AMD A4-9125, 4GB SDRAM, 500GB HDD, Wireless Mouse, Sleeve, Berry Mauve, 15-db0094wm",
+        "img": "https://i5.walmartimages.com/asr/94bf61b9-1556-4ad5-be2e-6e57f637eb5f_1.dae83bd3c652a55e000bd7682ab56637.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>HP 15-db0094wm Laptop Bundle, Berry Mauve:</b><ul><li>Includes a zipper-less, reversible sleeve and a wire-less mouse</li><li>Operating system: Windows 10 Home</li><li>Processor: AMD A4-9125 Dual-Core</li><li>Display: 15.6-inch diagonal HD SVA BrightView WLED-backlit (1366x768)</li><li>Memory: 4 GB DDR4-1866 SDRAM (1 x 4 GB)</li><li>Internal storage: 500 GB 5400 RPM SATA hard drive</li><li>Graphics: AMD Radeon R3 Graphics</li><li>Battery life: Up to 9 hours (mixed usage) Up to 6 hours and 30 minutes (video playback) Up to 5 hours and 45 minutes (wireless streaming)</li><li>Camera: HP TrueVision HD Camera with integrated digital microphone</li><li>Product weight: 4.04 lb</li></ul>",
+            "short": "<ul><li>Windows 10 Home with integrated AMD Radeon R3 Graphics<br /></li><li>AMD A4-9125 Processor, Dual-Core 2.3 GHz up to 2.6 GHz<br /></li><li>Up to 9 hours mixed usage, 6.5 hours video playback, 5.75 hours wireless streaming<br /></li><li></li><li>Includes Reversible Sleeve & Wireless Mouse X3700, BrightView panel, 10-key numpad</li><li></li><li>2 USB 3.1 Gen 1, USB 2.0, HDMI 1.4b, RJ-45, headphone/microphone</li><li>Thin & portable 14.80 x 9.69 x .89 in; 4.04 lb; 5.49 lb with accessories</li></ul>"
+        },
+        "price": 289,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 83
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "305886954",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-hpfinishinpalegoldandashsilverinaverticalbrushedpattern": {
+                        "id": "actual_color-hpfinishinpalegoldandashsilverinaverticalbrushedpattern",
+                        "name": "HP finish in pale gold and ash silver in a vertical brushed pattern",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/e94b650e-b35e-44d4-9409-343b5c485c2f_1.1ff41e6d4a7fee8eb2a93d0585e79c50.png",
+                        "products": [
+                            "4LLO6WXW05YF"
+                        ],
+                        "images": [
+                            "C470A24B7E4647F5A9C5C535F3C9F64B",
+                            "D26A2F1D57C24D28AE4056EAB8233029",
+                            "6CA91AA3F70B4FBF9D707AB303730116",
+                            "DC865441D5C94DC496FF0D5F20B2812D",
+                            "3AD9C40661954F7AAE0EF44737ECEF3D",
+                            "BCBCAA1644B446B99730E847C77C4C3A",
+                            "F691F092B6564EAD92A10221D7C2283B",
+                            "53C5215CA1E94ADD9B7A0DC99C406D0D",
+                            "653F8A19AFBE4B109CBC6984C79B54D7"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-hpfinishinlumiereblueandashsilverinameshknitverticalbrushedpattern": {
+                        "id": "actual_color-hpfinishinlumiereblueandashsilverinameshknitverticalbrushedpattern",
+                        "name": "HP finish in lumiere blue and ash silver in a mesh knit vertical brushed pattern",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/5ce66314-a13e-48df-9218-4ed1cb0e885a_1.b4c1399ea64a5fd0ad832ce1b1ff74a5.png",
+                        "products": [
+                            "786L7DAZO3R6"
+                        ],
+                        "images": [
+                            "23A6CFE7E5064073A0E011151D9F4170",
+                            "455BAF0AA90E4C16B180CC36842E4403",
+                            "C44AB3AB52E6487E83287E6EEF2CF4E7",
+                            "F1AF042BDC5A466684F4E231940D726E",
+                            "D86259137EC94FC7AACB83EA6C7549FE",
+                            "6D2F8C3BA40E404387C348C0CC7747F5",
+                            "FF7435BD521C4855A3D02C57279AFC02",
+                            "1D758F825E544CB2ACD8521C8700501B",
+                            "E24AD983D7F54308BE2DEFEBD0268936"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-hpfinishinberrymauveandashsilverinameshknitverticalbrushedpattern": {
+                        "id": "actual_color-hpfinishinberrymauveandashsilverinameshknitverticalbrushedpattern",
+                        "name": "HP finish in berry mauve and ash silver in a mesh knit vertical brushed pattern",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/13d04adf-f38c-45ad-acd3-809f7dc1590b_1.ec463e9b14e3fb4eaccea870ac1d35fc.png",
+                        "products": [
+                            "1S24QYDOLJBK"
+                        ],
+                        "images": [
+                            "A72EC8FC16D74DE4BDF02F133A30D82F",
+                            "645F7E880BBD45CB8D49BE5FA8D3B6E4",
+                            "1D77EEC7E90243A5B115A42EC78C2F8F",
+                            "7FC9B477967D45FBA3CFEF02F776EB38",
+                            "EF2EB03DF45249F59BC7B72A389745B1",
+                            "9B5F5400B03F45B2A19BEE225FF4F621",
+                            "FE9C61F0B8464F2F93320CCE5CEF5D32",
+                            "653591A445464474A70AF16CA0BE882E",
+                            "12F12FC1FC55470E99A24DBC32F05C49"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-hpfinishinnaturalsilverandashsilverinaverticalbrushedpattern": {
+                        "id": "actual_color-hpfinishinnaturalsilverandashsilverinaverticalbrushedpattern",
+                        "name": "HP finish in natural silver and ash silver in a vertical brushed pattern",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/63c2bcfd-5eb2-4994-be8c-fe807968c452_1.d2ce571c560c775d5a3cb58f65cd3e28.png",
+                        "products": [
+                            "46TIR7F4YOTZ"
+                        ],
+                        "images": [
+                            "9BEC7B9AF6B74ED5A209AF7EECC6BCCC",
+                            "73780F7C966F420DBDDBDC2C7FD98E92",
+                            "84206584FADC48DDBEDA25247441EB2F",
+                            "2B0EEE2D05BB46ED9B3732A0D1099609",
+                            "F68DB3A341C84770B4DA1F0D130B6825",
+                            "D87BA971379745E59938750E0943C560",
+                            "37D8BBDD8C314DC38934C5C96FF660A1",
+                            "DC82D89C773D4090B2C75A5D68187C88",
+                            "98FE23D0A2EC401484FCE87292AAB46E"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 289,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 349,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Electronics/Walmart Exclusive Electronics/Only at Walmart Electronics",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Walmart Exclusive Electronics",
+                    "url": "/cp/7838866"
+                },
+                {
+                    "name": "Only at Walmart Electronics",
+                    "url": "/cp/7148103"
+                }
+            ]
+        }
+    },
+    {
+        "title": "EVOO Gaming Laptop 15\" FHD 144Hz Display, THX Spatial Audio, Tuned by THX Display, 9th Gen Intel i7-9750H, Nvidia GTX 1650, 256GB SSD, 16GB Memory, Windows 10 Home, Black",
+        "img": "https://i5.walmartimages.com/asr/5a0f4c08-3c74-42dc-8c8d-3fa17c136524_1.cd71eb1cbfacb0547f7cd588cbc6acf6.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Gaming Laptop</li><li>15.6\", FHD 144Hz</li><li>THX Spatial Audio</li><li>Tuned by THX Display</li><li>9th Gen Intel i7-9750H</li><li>Nvidia GTX 1650</li><li>256GB SSD</li><li>16GB Memory</li><li>Windows 10 Home</li><li>Black</li></ul>",
+            "short": "<ul><li>Free copy of PLAYERUNKNOWN'S BATTLEGROUNDS with exclusive in-game item from Intel</li><li>9th Gen Intel i7-9750H (8 cores, up to 4.70GHz)</li><li>Nvidia GeForce GTX 1650</li><li>256GB SSD</li><li>16GB RAM Memory</li></ul>"
+        },
+        "price": 789,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 21
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "545386564",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/PC Gaming/Gaming Desktops & Laptops/Gaming Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "PC Gaming",
+                    "url": "/cp/7052607"
+                },
+                {
+                    "name": "Gaming Desktops & Laptops",
+                    "url": "/cp/1849032"
+                },
+                {
+                    "name": "Gaming Laptops",
+                    "url": "/cp/1094888"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Acer Nitro 5 15\" Gaming Laptop, AMD Ryzen 5 2500U Processor, AMD Radeon RX 560X Graphics, 8GB RAM, 1TB Hard Drive, AN515-42-R5ED",
+        "img": "https://i5.walmartimages.com/asr/df241938-e272-4c85-ad11-a6d8a77c8fcf_1.3745e9760ab9e5cadb27c6bfce456f3f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p><b>Key Features and Benefits:</b></p><ul><li><b>Breaking the sound barrier</b><br>Invigorate your gaming and enjoy crushing audio as Acer's TrueHarmony meets Dolby Audio Premium.</li><li><b>Intensity at every angle</b><br>Share the exhilaration of your screen's true colors with the full high definition IPS display.</li><li><b>The power of wireless</b><br>Maintain a strong, consistent wireless signal with the strategically placed 802.11ac wireless antenna.</li><li><b>Ports for all occasions</b><br>Expand the Nitro 5's functionality with a plethora of ports to connect almost any secondary device.</li><li><b>Powerful processing</b><br>Smoothly and quickly play games and watch videos with a powerful processor.</li><li><b>Kick in the cooling</b><br>When heavy use requires an added boost, take control of the cooling process with Acer CoolBoost.</li></ul><p><b>What's Included:</b></p><ul><li>Acer Nitro 5 515-42-R5ED</li><li>4-cell battery</li><li>Power adapter</li><li>Sleeve</li></ul>",
+            "short": "<ul><li>AMD Ryzen 5 2500U Processor (4 cores, 3.6GHz max clock speed)</li><li>AMD Radeon RX 560X Graphics Card</li><li>&nbsp;8GB DDR4 RAM</li><li>1TB Hard Drive</li></ul>"
+        },
+        "price": 499,
+        "reviews": {
+            "customerRating": 4.1,
+            "numReviews": 14
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586199600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "820048669",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/PC Gaming/Gaming Desktops & Laptops/Gaming Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "PC Gaming",
+                    "url": "/cp/7052607"
+                },
+                {
+                    "name": "Gaming Desktops & Laptops",
+                    "url": "/cp/1849032"
+                },
+                {
+                    "name": "Gaming Laptops",
+                    "url": "/cp/1094888"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Lenovo IdeaPad 330 Laptop 15.6\" HD LCD AMD A6-9225 2.60GHz 8GB 128GB DVD+RW W10H REFURBISHED",
+        "img": "https://i5.walmartimages.com/asr/8d42c053-58db-45f5-a20a-d1b25f662878_1.9478f4a3f3a3956d5680893fdf13b87a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Lenovo IdeaPad 330 Laptop 15.6\" HD LCD AMD A6-9225 2.60GHz 8GB 128GB DVD+RW W10H REFURBISHED",
+            "short": "LENOVO IDEAPAD 330-15AST NOTEBOOK - 15.6\" HD (1366 X 768) LCD - AMD A6-9225 2.60GHz - 8GB RAM - 128GB SSD - AMD RADEON R4 GRAPHICS - Wifi/Bluetooth - Webcam - W10H - PLATINUM GRAY - 81D600K2US REFURBISHED"
+        },
+        "price": 249.99,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "733678536",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Windows 10 Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Windows 10 Laptops",
+                    "url": "/cp/1230457"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Lenovo 2019 IdeaPad Flex 5 15 2-in-1 Laptop, 15.6in FHD Touchscreen, Intel Core i7-8550U, 16G DDR4, 512G SSD, NVIDIA MX130, Fingerprint Reader, Webcam Windows 10 (Renewed)",
+        "img": "https://i5.walmartimages.com/asr/33fcae7e-9b2d-471a-b574-18da92e7551f_1.c7947e83cd53911706151b868a1f8189.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Lenovo 2019 IdeaPad Flex 5 15 2-in-1 Laptop, 15.6in FHD Touchscreen, Intel Core i7-8550U, 16G DDR4, 512G SSD, NVIDIA MX130, Fingerprint Reader, Webcam Windows 10 (Renewed)",
+            "short": "PRODUCTÂ&nbsp;OVERVIEW Gorgeous video. Enhanced, immersive audio. Optimized video chat features. It's all here in the Flex 5, a stylish 2in1 laptop with a powerful processor, longlasting battery life and pen capability. Boost your experience even more, with cuttingedge features like a fingerprint re"
+        },
+        "price": 1184.44,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586286000000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "234798654",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/All Laptop Computers",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "All Laptop Computers",
+                    "url": "/cp/132960"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Lenovo Ideapad 330s 15.6\" Laptop, Windows 10, AMD Ryzen 5 2500U Quad-Core Processor, 8GB Memory, 256GB Storage, Platinum Grey - 81FB00HKUS",
+        "img": "https://i5.walmartimages.com/asr/03571a85-1841-4634-a4c9-e66517cd9e56_2.70588ed2c093fa2cc4b63728743f06c2.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Lenovo Ideapad 330s 15.6\" Laptop, Windows 10, AMD Ryzen 5 2500U Quad-Core Processor, 8GB Memory, 256GB Storage, Platinum Grey - 81FB00HKUS:</b><ul><li>Operating system: Windows 10</li><li>Processor: AMD Ryzen 5 2500U Quad-Core Processor</li><li>Display: 15.6\" HD IPS LED Backlit Anti-Glare Display</li><li>Memory: 8GB DDR4 2400 MHz RAM (4GB OnBoard + 4GB DIMM)</li><li>Internal storage: 256GB PCIe SSD Storage</li><li>Graphics: Integrated Radeon Vega 8 Graphics</li><li>Optical Drive: None</li><li>Battery Life: Up to 7 Hours</li><li>Audio: 2 x 2W Speakers with Dolby Audio Premium</li><li>Wireless: 802.11AC Wi-Fi and Bluetooth 4.1 Combo</li><li>Webcam: Front-Facing HD Webcam with integrated dual array microphone</li><li>Product weight: 3.96 lbs</li><li>Color: Platinum Grey</li></ul>",
+            "short": "<ul><li>Operating system: Windows 10</li><li>Processor: AMD Ryzen 5 2500U Quad-Core Processor</li><li>Display: 15.6\" HD IPS LED Backlit Anti-Glare Display</li></ul>"
+        },
+        "price": 429,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 3036
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "273186587",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops By Brand/Lenovo Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops By Brand",
+                    "url": "/cp/1230093"
+                },
+                {
+                    "name": "Lenovo Laptops",
+                    "url": "/cp/1230101"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Dell Inspiron 15 3567 Laptop, 15.6\", Intel® Core™ i5-7200U, Intel® HD graphics, 256GB SSD, 8GB RAM, i3567-5949BLK-PUS",
+        "img": "https://i5.walmartimages.com/asr/50bca601-6ee3-4f83-b91f-b60e014519f1_1.9a7392243db38d319e24e2684fddd202.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Dell Inspiron 15 3567 Laptop, 15.6\", Intel Core i5-7200U, Intel HD Graphics, 256GB SSD, 8GB RAM, i3567-5949BLK-PUS:</strong><br /><ul><li>Inspiron 15 3000 Series, 3567</li><li>15.6\" HD 1366 x 768 Truelife LED-backlit, On-Cell touch display</li><li>7th Generation Intel Core i5-7200U processor, 3MB cache, up to 3.1 GHz</li><li>8GB 2400MHz DDR4, up to 16GB, additional memory sold separately</li><li>256GB SSD</li><li>Intel HD graphics, 620 shared graphics memory</li><li>Dell Inspiron i3567 with Windows 10 Home operating system</li><li>Color: black</li></ul>",
+            "short": "Dell Computer 226611 Dell Nb I3567-5949blk-pus-nf 15.6 I5-7200u 8g 256g W10h New Brown Box"
+        },
+        "price": 547.93,
+        "reviews": {
+            "customerRating": 3,
+            "numReviews": 2
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 10,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 70,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "urgentQuantity": 3,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "100025226",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Touchscreen Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Touchscreen Laptops",
+                    "url": "/cp/1101633"
+                }
+            ]
+        }
+    },
+    {
+        "title": "HP Workstation Zbook 15 G2 15.6\" Laptop, Windows 10 Pro, Intel Core i7-4810QM 2.8GHz, 16GB RAM, 500GB Solid State Drive, DVDRW",
+        "img": "https://i5.walmartimages.com/asr/58cd45e4-70ec-474b-914c-57b29bc3f245_1.4bc8f047acd4536e9975de3b5153d241.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Intel Core i7-4810QM 2.8GHz</li><li>16GB DDR3 SDRAM system memory (expandable to 32GB)</li><li>500GB Solid State Drive</li><li>DVD-RW</li><li>Intel HD Graphics</li></ul>",
+            "short": "Merchandise"
+        },
+        "price": 545.99,
+        "reviews": {
+            "customerRating": 1,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586286000000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "437999998",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops By Brand/HP Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops By Brand",
+                    "url": "/cp/1230093"
+                },
+                {
+                    "name": "HP Laptops",
+                    "url": "/cp/1230099"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Dell Inspiron 15 3580 Laptop, 15.6\", Intel Core i5-8265U, Intel UHD Graphics 620, 1TB 5400 RPM HDD, 8GB RAM, i3580-5127BLK-PUS",
+        "img": "https://i5.walmartimages.com/asr/ea09a3cb-9540-40c8-84b5-a4998a918324_1.21e5c04f1d966ca9ec42caf09cfdc5e0.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br><br><ul><li>Dell Inspiron 15 3580 Laptop</li><li>15.6'' HD (1366 x 768) Anti-Glare LED-Backlit Non-touch Display&nbsp;<br></li><li>8th Generation Intel Core i5-8265U Processor (6MB Cache, up to 3.9 GHz)&nbsp;<br></li><li>8GB 2400MHz DDR4, 8GBx1&nbsp;<br></li><li>1TB 5400 RPM [SATA] (HDD) 2.5-inch</li><li>Intel UHD Graphics 620, with shared graphics memory</li></ul>",
+            "short": "<ul><li>Dell Inspiron 15 3580 Laptop&nbsp;</li><li>15.6\"</li><li>Intel Core i5-8265U&nbsp;</li><li>Intel UHD Graphics 620</li><li>1TB 5400 RPM HDD&nbsp;</li><li>8GB RAM</li><li>i3580-5127BLK-PUS</li></ul>"
+        },
+        "price": 597.99,
+        "reviews": {
+            "customerRating": 3.7,
+            "numReviews": 1175
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "563145202",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops By Brand/Dell Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops By Brand",
+                    "url": "/cp/1230093"
+                },
+                {
+                    "name": "Dell Laptops",
+                    "url": "/cp/1230102"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Dell Inspiron 15 Laptop, 15.6\", Intel® Pentium® Silver N5000, Intel® UHD Graphics 605, 500GB HDD Storage, 4GB RAM, i3573-P269BLK-PUS",
+        "img": "https://i5.walmartimages.com/asr/41685988-8540-4b6f-97e6-bae2aafc95bf_1.a6138a0212db0fcbc22d07470dbaae47.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "•Inspiron 15 3000 Series (3573) •15.6-inch HD (1366 x 768) Anti-Glare, LED-Backlit Display •Intel® Pentium® Silver N5000 Processor (4M Cache, up to 2.7 GHz) •4GB 2400MHz DDR4 RAM •500GB 5400 RPM [SATA] HDD •Intel® UHD Graphics 605, shared graphics memory",
+            "short": "perating System: Windows 10 Home 64Bit English Display: 15.6\" HD (1366 x 768) Energyefficient LED Backlight Display Processor: Intel Pentium N5000 Quad Core Memory: 4GB DDR4 RAM Hard Drive: 500GB HDD Hard Drive Optical Drive: NO Ports: 2 X USB 3.0 Gen 1 TypeA, 1 X USB 2.0, 1 X HDMI, Headphone Output"
+        },
+        "price": 419.98,
+        "reviews": {
+            "customerRating": 1,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 42,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 70,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 130,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "218997243",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops By Brand/Dell Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops By Brand",
+                    "url": "/cp/1230093"
+                },
+                {
+                    "name": "Dell Laptops",
+                    "url": "/cp/1230102"
+                }
+            ]
+        }
+    }
+]

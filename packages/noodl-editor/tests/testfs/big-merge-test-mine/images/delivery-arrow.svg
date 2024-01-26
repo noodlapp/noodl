@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>delivery-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-/-NU--Session-2" transform="translate(-327.000000, -166.000000)">
+            <g id="Past-Orders-Card" transform="translate(0.000000, 143.000000)">
+                <g id="Text" transform="translate(17.000000, 17.000000)">
+                    <g id="Group" transform="translate(33.000000, 0.000000)">
+                        <g id="delivery-arrow" transform="translate(277.000000, 6.000000)">
+                            <circle id="Oval" fill-opacity="0.25" fill="#000000" cx="15.5" cy="15.5" r="15.5"></circle>
+                            <path d="M10.8087206,19.1658659 C10.3949507,19.5796358 9.72409724,19.5796358 9.31032739,19.1658659 C8.89655754,18.752096 8.89655754,18.0812425 9.31032739,17.6674727 L15.6674713,11.3103288 C16.0685848,10.9092153 16.7144562,10.8951813 17.1326143,11.2784929 L23.4897582,17.1058749 C23.9211106,17.5012812 23.9502506,18.1715014 23.5548443,18.6028537 C23.159438,19.0342061 22.4892177,19.0633461 22.0578654,18.6679398 L16.4485338,13.5260526 L10.8087206,19.1658659 Z" id="Path-94" fill="#FFFFFF" transform="translate(16.416671, 15.238097) scale(-1, 1) rotate(-90.000000) translate(-16.416671, -15.238097) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

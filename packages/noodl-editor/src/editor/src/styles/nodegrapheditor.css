@@ -1,0 +1,21 @@
+/* -------------------------------------------------------------------
+   Node Graph Editor
+   ------------------------------------------------------------------- */
+.nodegrapgeditor-bg {
+  background-color: var(--theme-color-bg-1);
+  cursor: default;
+  overflow: hidden;
+}
+
+.nodegraph-component-trail-root {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: calc(100% - 68px);
+}
+
+#nodegraph-dom-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

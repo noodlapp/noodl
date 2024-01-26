@@ -1,0 +1,186 @@
+[
+    {
+        "title": "Hershey's Caramel Topping, 14 Oz.",
+        "img": "https://i5.walmartimages.com/asr/1f888b6e-ad15-4b34-807b-cca3084884bb_1.f4670faffde2cfca2b9156056c8d1391.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Hershey's Caramel Topping, 14 oz:</strong><br /><ul><li>Delicious as an ice cream topping, whether warmed or enjoyed right out of the jar</li><li>Use Hershey's caramel topping to top all kinds of desserts</li><li>Use as a mouthwatering dip for fresh fruit</li><li>Caramel ice cream topping is a gluten-free dessert topping</li><li>Available in 1-count</li></ul>",
+            "short": "<ul><li>Delicious as an ice cream topping, whether warmed or enjoyed right out of the jar<br></li><li>Use HERSHEY'S Caramel Topping to top all kinds of desserts<br></li><li>Use as a mouthwatering dip for fresh fruit<br></li><li>A gluten-free dessert topping</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 1.98,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 24
+        },
+        "size": {
+            "karfGroceryType": "Caramel Toppings",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "14"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "20702796",
+        "category": {
+            "categoryPath": "Home Page/Food/Baking/Baking Mixes/Frosting, Toppings & Decorations",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Baking",
+                    "url": "/cp/976780"
+                },
+                {
+                    "name": "Baking Mixes",
+                    "url": "/cp/1001368"
+                },
+                {
+                    "name": "Frosting, Toppings & Decorations",
+                    "url": "/cp/1044127"
+                }
+            ]
+        }
+    },
+    {
+        "title": "International Delight Caramel Macchiato Coffee Creamer, 1 Quart",
+        "img": "https://i5.walmartimages.com/asr/a1e66b52-3572-458e-9f9c-2d8eea30bae1_1.3a6a5f36b9cc9fdeccc25bc308c8d896.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Non-dairy</li><li>0g trans fat</li><li>Lactose-free</li><li>Gluten-free</li><li>Kosher</li><li>Creamy swirl of pure, fragrant delight</li><li>caramel macchiato flavor</li><li>Delicious 32-oz coffee creamer</li></ul>",
+            "short": "<ul><li>Non-Dairy</li><li>0g trans fat</li><li>Lactose free</li><li>Gluten free</li><li>Kosher</li></ul>",
+            "medium": "<p>Create an original coffeehouse indulgence with bold caramel flavor and notes of sweet cream. It's just what you need to stir up a moment of sweet inspiration and make each cup your own with International Delight.</p>"
+        },
+        "price": 3.18,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 34
+        },
+        "size": {
+            "karfGroceryType": "Dairy-Free",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "32"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "17619683",
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Kraft Individually Wrapped Caramel Candy , 11 oz Bag",
+        "img": "https://i5.walmartimages.com/asr/5f44600b-3c45-4144-8140-bb6e720ec048_3.2299adafc3b94605797dbb298d6a2451.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One 11 oz. bag of Kraft Individually Wrapped Caramel Candy</li><li>Enjoy the chewy goodness and unforgettable flavor of Kraft Individually Wrapped Caramels</li><li>Made with sugar and skim milk for a rich, creamy flavor</li><li>Deliciously poppable and individually wrapped caramel candies</li><li>Enjoy these bite sized candies as a quick snack, or use them as an ingredient for sweet treats</li><li>Certified Kosher caramel candies</li><li>An American classic from the Kraft candy kitchen, bringing you delicious candies since 1940</li></ul>",
+            "short": "<ul><li>vanilla caramels",
+            "medium": "<B>Note:</b> Because this item is temperature-sensitive, we recommend shipping it using Expedited Shipping (2 to 3 business days) or Rush Shipping (1 business day).<BR><BR><p>Looking for a rich and creamy snack? Enjoy a few bite-sized chewy Kraft Vanilla Caramels. From the Kraft candy kitchen since 1940.</p>"
+        },
+        "price": 1.98,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 210
+        },
+        "size": {
+            "karfGroceryType": "Caramels",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "11.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "24705332",
+        "category": {
+            "categoryPath": "Home Page/Food/Seasonal Grocery/Halloween Candy & Treats/Halloween Candy/Halloween Chocolate",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Seasonal Grocery",
+                    "url": "/cp/1567409"
+                },
+                {
+                    "name": "Halloween Candy & Treats",
+                    "url": "/cp/2107086"
+                },
+                {
+                    "name": "Halloween Candy",
+                    "url": "/cp/6041305"
+                },
+                {
+                    "name": "Halloween Chocolate",
+                    "url": "/cp/2967282"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,23 @@
+.Root {
+  color: var(--theme-color-fg-default-shy);
+  background-color: var(--theme-color-bg-1);
+  padding: 3px 18px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 150%;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-active {
+    color: var(--theme-color-on-secondary);
+    background-color: var(--theme-color-secondary);
+
+    &:hover {
+      background-color: var(--theme-color-secondary-highlight);
+    }
+  }
+}

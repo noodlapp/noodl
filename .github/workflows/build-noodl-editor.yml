@@ -1,0 +1,76 @@
+name: Build noodl-editor
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+        
+  # Allows you to run this workflow from another workflow
+  workflow_call:
+
+  # release:
+  #   types: [created]
+    
+jobs:
+  build_noodl_editor:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - node: 16
+            os: windows-latest
+            platform: win32-x64
+          - node: 16
+            os: macos-latest
+            platform: darwin-arm64
+          - node: 16
+            os: macos-latest
+            platform: darwin-x64
+          # - node: 16
+          #   os: ubuntu-latest
+          #   platform: linux-x64
+
+    steps:
+      - if: ${{ matrix.platform == 'darwin-arm64' }} 
+        name: Setup
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' 
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      # - name: Clean up
+      #   continue-on-error: true
+      #   run: |
+      #     npx rimraf node_modules
+      #     npx lerna clean --yes
+
+      - name: Install dependencies 🏗
+        run: npm install
+
+      - name: Build Noodl Viewer (build bundles and copy them to Noodl Editor)
+        run: npm run build:editor:_viewer
+        env:
+          WORKSPACE_PATH: .
+
+      - name: Build Noodl Editor (build bundles etc and signing)
+        run: npm run build:editor:_editor
+        env:
+          WORKSPACE_PATH: .
+          TARGET_PLATFORM: ${{ matrix.platform }}
+
+      - run: npm run build:editor:pack
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: noodl-editor-${{ matrix.platform }}-${{ github.head_ref }}-${{ github.sha }}
+          path: publish
+          retention-days: "12"

@@ -1,0 +1,41 @@
+name: Test noodl/platform-node
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - 'packages/noodl-platform/**'
+      - 'packages/noodl-platform-node/**'
+      - 'packages/noodl-platform-electron/**'
+
+  pull_request:
+    paths:
+      - 'packages/noodl-platform/**'
+      - 'packages/noodl-platform-node/**'
+      - 'packages/noodl-platform-electron/**'
+      
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  test_platform:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies 🏗
+        run: npm install
+
+      - name: Run tests
+        run: npx lerna exec --scope @noodl/platform-node -- npm run test
+
+      - name: Print coverage
+        run: npx lerna exec --scope @noodl/platform-node -- npm run test:coverage

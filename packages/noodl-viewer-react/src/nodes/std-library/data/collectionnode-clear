@@ -1,0 +1,56 @@
+const Collection = require('@noodl/runtime/src/collection');
+
+const CollectionClearNode = {
+  name: 'CollectionClear',
+  docs: 'https://docs.noodl.net/nodes/data/array/clear-array',
+  displayNodeName: 'Clear Array',
+  category: 'Data',
+  usePortAsLabel: 'collectionId',
+  color: 'data',
+  inputs: {
+    collectionId: {
+      type: {
+        name: 'string',
+        identifierOf: 'CollectionName',
+        identifierDisplayName: 'Array Ids'
+      },
+      displayName: 'Array Id',
+      group: 'General',
+      set: function (value) {
+        if (value instanceof Collection) value = value.getId(); // Can be passed as collection as well
+        this.setCollectionID(value);
+      }
+    },
+    clear: {
+      displayName: 'Do',
+      group: 'Actions',
+      valueChangedToTrue() {
+        this.scheduleAfterInputsHaveUpdated(() => {
+          const collection = this._internal.collection;
+
+          collection.set([]);
+          this.sendSignalOnOutput('modified');
+        });
+      }
+    }
+  },
+  outputs: {
+    modified: {
+      group: 'Events',
+      type: 'signal',
+      displayName: 'Done'
+    }
+  },
+  methods: {
+    setCollectionID: function (id) {
+      this.setCollection(Collection.get(id));
+    },
+    setCollection: function (collection) {
+      this._internal.collection = collection;
+    }
+  }
+};
+
+module.exports = {
+  node: CollectionClearNode
+};

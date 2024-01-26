@@ -1,0 +1,111 @@
+.Root {
+  container-name: editortopbar;
+  height: 36px;
+  background-color: var(--theme-color-bg-2);
+  border-bottom: 2px solid var(--theme-color-bg-1);
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.LeftSide,
+.RightSide {
+  display: flex;
+  align-items: stretch;
+
+  // please use these general selectors with great caution
+  > div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.LeftSide {
+  flex-grow: 1;
+}
+
+.is-padded-s {
+  padding: 0 4px;
+}
+
+.is-padded {
+  padding: 0 8px;
+}
+
+.is-padded-l {
+  padding: 0 16px;
+}
+
+.LeftSide {
+  > div:not(:last-child) {
+    border-right: 1px solid var(--theme-color-bg-1);
+  }
+}
+
+.RightSide {
+  > div:not(:first-child) {
+    border-left: 1px solid var(--theme-color-bg-1);
+  }
+}
+
+.UrlBarWrapper {
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 500px;
+  margin-right: -1px;
+}
+
+.UrlBarTextInput {
+  width: 100%;
+
+  svg {
+    cursor: pointer;
+
+    &:hover {
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+    }
+  }
+}
+
+.TooltipPositioner {
+  height: 32px;
+  padding-bottom: 1px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TopbarSelect {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  * {
+    color: var(--theme-color-fg-default);
+    fill: var(--theme-color-fg-default);
+  }
+
+  &:hover * {
+    color: var(--theme-color-fg-highlight);
+    fill: var(--theme-color-fg-highlight);
+  }
+}
+
+.ZoomSelect {
+  padding-right: 4px;
+  padding-left: 8px;
+}
+
+.DesignPreviewModeButton {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.DeployButton {
+  .Root.is-small & {
+    padding: 0 4px 0 8px;
+    min-width: 0;
+  }
+}

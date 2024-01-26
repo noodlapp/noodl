@@ -1,0 +1,952 @@
+/* -------------------------------------------------------------------
+   Projects page
+   ------------------------------------------------------------------- */
+.projects-main {
+  width: 100%;
+  height: 100%;
+  background-color: #131313;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.projects-header-icon-img {
+  filter: grayscale(100%) brightness(150%);
+  opacity: 0.7;
+}
+
+.projects-header-tab-selected .projects-header-icon-img {
+  opacity: 1;
+}
+
+/*.projects-header-icon-img:hover {
+    opacity: 1;
+  }*/
+
+.projects-lab-title {
+  color: white;
+  font: 20px var(--font-family-bold);
+}
+
+.projects-lab-desc {
+  color: #8e8e8e;
+  font: 12px var(--font-family-regular);
+}
+
+.projects-header-tab {
+  color: #8e8e8e;
+  font-size: 15px;
+}
+
+.projects-header-tab:hover {
+  color: white;
+}
+
+.projects-header-tab-selected {
+  color: white;
+  opacity: 1;
+}
+
+.projects-header-tab-small {
+  color: #8e8e8e;
+  font-size: 16px;
+}
+
+.projects-header-tab-small:hover {
+  color: white;
+}
+
+.projects-sign-out-icon {
+  filter: invert(1);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+
+.projects-header-button {
+  background-color: #333;
+  border: none;
+  color: #d4d4d4;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.projects-header-button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.projects-create-new-project-button {
+  background-color: #d49517;
+  border: none;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.projects-create-new-project-button:hover {
+  background-color: #fdb314;
+  color: black;
+}
+
+.projects-create-new-project-button:disabled {
+  opacity: 0.5;
+  background-color: #d49517;
+}
+
+.projects-discord-button {
+  background-image: url(../assets/images/discord-logo-black.svg);
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center 9px;
+  background-size: 80px;
+  cursor: pointer;
+}
+
+.projects-button-grey {
+  background-color: #333;
+  border: none;
+  color: #d4d4d4;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.projects-button-grey:hover {
+  background-color: #555;
+  color: white;
+}
+
+.projects-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #aaa;
+}
+
+.projects-checkmark {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  content: url('../icons/checkmark.svg');
+}
+
+.projects-search-bg {
+  background-color: #191919;
+}
+
+.projects-search-input {
+  background-color: #191919;
+  color: #aaaaaa;
+  border: none;
+  display: block;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  font: 12px var(--font-family-regular);
+}
+
+.projects-project-name-input {
+  background-color: #191919;
+  color: #aaaaaa;
+  border: none;
+  display: block;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  font: 15px var(--font-family-bold);
+}
+
+.projects-header-user {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projects-header-user-label {
+  color: white;
+  font-size: 15px;
+}
+
+.projects-header-user-sublabel {
+  display: inline;
+  color: #aaa;
+  font-size: 11px;
+}
+
+.projects-header-user-expand-menu {
+  color: #ccc;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+.projects-header-workspace-label {
+  color: white;
+  font-size: 11px;
+  margin: 0px;
+  padding: 5px 10px;
+}
+
+.projects-header-workspace-label:hover {
+  background-color: #555;
+}
+
+.projects-header-workspace-label-btn {
+  color: white;
+  font-size: 11px;
+  padding-left: 10px;
+  margin: 0px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.projects-header-workspace-label-btn:hover {
+  background-color: #555;
+}
+
+.projects-header-workspace-divider {
+  height: 0px;
+  border-top: 2px #333 solid;
+}
+
+.projects-header-workspace-title {
+  color: #aaa;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+
+.projects-header-workspaces {
+  background-color: #444;
+}
+
+.projects-header-settings-icon {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  vertical-align: middle;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  content: url('../assets/icons/settings.svg');
+}
+
+.projects-header-settings:hover {
+  background-color: #363637;
+}
+
+.projects-header-settings-icon:hover {
+  opacity: 1;
+}
+
+.projects-header-account-icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(0.7);
+  vertical-align: middle;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  content: url('../assets/outline-account_circle-24px.svg');
+}
+
+.projects-panel-header {
+  background-color: #363637;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+#admin-settings {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #131313;
+}
+
+.projects-feed-title {
+  color: #a3a2a2;
+  font-size: 16px;
+}
+
+.projects-feed-body {
+  color: #838282;
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 5px;
+}
+
+.projects-feed-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 190px;
+}
+
+.projects-feed-image-big {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projects-feed-item:hover .projects-feed-image {
+  filter: none;
+}
+
+.projects-lesson-big-item {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  height: 150px;
+}
+
+.projects-lesson-big-item-plate {
+  background-color: #181818;
+}
+
+.projects-lesson-big-item-plate:hover {
+  background-color: #292929;
+}
+
+.projects-lesson-big-item-label {
+  color: white;
+  font: 16px var(--font-family-bold);
+}
+
+.projects-lesson-big-item-desc {
+  color: #8e8e8e;
+  font: 12px var(--font-family-regular);
+}
+
+.projects-lesson-big-item-progress {
+  color: #181818;
+  background-color: #333333;
+  overflow: hidden;
+}
+
+.projects-lesson-big-item-progress-label-dark {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.projects-lesson-big-item-progress-label {
+  font-size: 15px;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+
+.projects-lesson-item-progress-label {
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+.projects-lesson-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projects-lesson-item {
+  display: inline-block;
+  width: 465px;
+  position: relative;
+  height: 140px;
+}
+
+.projects-lesson-has-completed {
+  opacity: 0.4;
+}
+
+.projects-lesson-completed-icon {
+  font-size: 20px;
+  color: rgb(168, 141, 66);
+}
+
+.projects-lesson-item-progress {
+  color: #8e8e8e;
+  font-size: 15px;
+}
+
+.projects-lesson-item-progress-completed {
+  color: #e4bc4f;
+}
+
+.projects-lesson-item-progress-not-started {
+  color: #838282;
+}
+
+.projects-lesson-item-progress-has-started {
+  color: #af9234;
+}
+
+.projects-lesson-item-progress-has-completed {
+  color: #436845;
+}
+
+.projects-panel-icon {
+  font-size: 20px;
+  color: #737272;
+}
+
+.projects-panel-dark {
+  font-size: 20px;
+  color: #333232;
+}
+
+.projects-panel-icon:hover {
+  color: #c3c2c2;
+}
+
+.projects-panel-circle-ellipse-icon {
+  border-radius: 50%;
+  background-color: #737272;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  color: #464647;
+}
+
+.projects-panel-circle-ellipse-icon:hover {
+  background-color: #c3c2c2;
+}
+
+.projects-panel-icon-show-on-hover {
+  display: none;
+}
+
+.projects-item:hover .projects-panel-icon-show-on-hover {
+  display: inline-block;
+}
+
+.projects-panel-header-icon-show-on-hover {
+  display: none;
+}
+
+.projects-panel-header:hover .projects-panel-header-icon-show-on-hover {
+  display: block;
+}
+
+.projects-section-header {
+  background-color: #171717;
+  color: white;
+  line-height: 30px;
+  padding-left: 5px;
+}
+
+.projects-restore-item {
+  display: inline-block;
+  width: 256px;
+  position: relative;
+  height: 256px;
+}
+
+.projects-item {
+  display: inline-block;
+  width: 256px;
+  position: relative;
+  height: 256px;
+}
+
+.projects-item-plate {
+  background-color: #333;
+}
+
+.projects-item-plate:hover {
+  background-color: #555;
+}
+
+.projects-item-label-bg {
+  background-color: #333333;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.projects-item-thumb {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projects-item-cloud-synced {
+  font: 10px var(--font-family-bold);
+  color: #838282;
+}
+
+.projects-item-cloud-synced-icon {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  filter: invert(0.7);
+  margin-right: 4px;
+  margin-bottom: -1px;
+}
+
+.projects-item-cloud-download {
+  text-align: center;
+  font-size: 40px;
+  color: #777777;
+  display: none;
+  background-color: #222222;
+}
+
+.projects-add-new-item-border {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #888888;
+}
+
+.projects-item-remove-icon {
+  opacity: 0;
+  background-color: #333333;
+  border-color: #333333;
+  border-width: 3px;
+  border-radius: 3px;
+  padding: 5px;
+  color: #aaaaaa;
+}
+
+.projects-item-remove-icon:hover {
+  background-color: #555555;
+  border-color: #555555;
+}
+
+.projects-item:hover .projects-item-remove-icon {
+  opacity: 1;
+}
+
+.projects-item-remove-icon-sticky {
+  opacity: 1;
+}
+
+.projects-update-banner {
+  background-color: #557766;
+  color: #cccccc;
+  border-radius: 2px;
+  padding: 10px;
+  padding-top: 3px;
+  font-size: 14px;
+}
+
+.projects-update-banner:hover {
+  background-color: #779988;
+}
+
+.projects-remote-url-label {
+  color: #888888;
+}
+
+.projects-remote-url-clone-button {
+  background-color: #8f7204;
+  border: none;
+  color: #cccccc;
+  height: 100%;
+  margin-top: 5px;
+  float: right;
+}
+
+.projects-remote-url-clone-button:hover {
+  background-color: #af9224;
+}
+
+.projects-feed-top-item {
+  width: 100%;
+  display: flex;
+}
+
+.projects-feed-top-item-text {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.projects-feed-top-item-title {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.projects-feed-top-item-body {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.projects-feed-top-item-image {
+  background-size: cover;
+  background-position: center;
+}
+
+.projects-feed-item {
+  background-color: #1f1f1f;
+}
+
+.projects-feed-item:hover {
+  background-color: #2f2f2f;
+}
+
+.projects-feed-item-title {
+  color: white;
+  font: 14px var(--font-family-regular);
+}
+
+.projects-feed-item-body {
+  color: #929292;
+  font: 12px var(--font-family-regular);
+}
+
+.projects-create-from-template-title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.projects-title {
+  color: white;
+  font: 24px var(--font-family-semibold);
+  text-transform: capitalize;
+}
+
+.projects-popup-title {
+  color: white;
+  font: 20px var(--font-family-semibold);
+  text-transform: capitalize;
+}
+
+.projects-divider-label {
+  color: white;
+  font: 24px var(--font-family-semibold);
+  text-transform: capitalize;
+}
+
+.projects-sub-divider-label {
+  color: #777;
+  font-weight: 600;
+  font-size: 16px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+}
+
+.projects-label {
+  color: #dedede;
+  font: 14px var(--font-family-bold);
+  opacity: 0.5;
+}
+
+.projects-label.highlighted {
+  color: white;
+}
+
+.projects-label-small {
+  color: #aaaaaa;
+  font: 12px var(--font-family-regular);
+  text-transform: uppercase;
+}
+
+.projects-sublabel {
+  color: #dedede;
+  font: 12px var(--font-family-regular);
+}
+
+.projects-sublabel.highlighted {
+  color: #aaaaaa;
+}
+
+.projects-create-new-project-cs {
+  color: #dedede;
+  font: 14px var(--font-family-bold);
+}
+
+.projects-create-new-project-cs-icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(0.7);
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  content: url('../assets/images/outline-radio_button_unchecked-24px.svg');
+}
+
+.projects-create-new-project-cs-icon.checked {
+  filter: invert(1);
+  content: url('../assets/images/outline-radio_button_checked-24px.svg');
+}
+
+.projects-create-new-project-cs-icon:hover {
+  filter: invert(1);
+}
+
+.projects-exit-big-feed-item-icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(0.7);
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+  content: url('../assets/images/sharp-clear-24px.svg');
+}
+
+.projects-exit-big-feed-item-icon:hover {
+  filter: invert(1);
+}
+
+.projects-template-item {
+  width: 256px;
+  position: relative;
+}
+
+.projects-template-item-title {
+  color: white;
+  font: 14px var(--font-family-semibold);
+  padding-bottom: 4px;
+}
+
+.projects-template-item-body {
+  font: 12px;
+  font-weight: var(--font-weight-regular);
+  color: var(--theme-color-fg-default);
+}
+
+.projects-template-item-details {
+  padding: 12px;
+}
+
+.projects-template-category {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.templates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.projects-back-icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(0.7);
+}
+
+.projects-back-icon:hover {
+  filter: invert(1);
+}
+
+.projects-item-label {
+  color: white;
+  font-weight: var(--font-weight-semibold);
+}
+
+.projects-item-sublabel {
+  font: 10px var(--font-family-bold);
+  color: #838282;
+}
+
+.projects-edit-icon {
+  width: 12px;
+  height: 12px;
+  filter: invert(1);
+}
+
+.projects-remove-icon {
+  filter: invert(0.7);
+}
+
+.projects-remove-icon:hover {
+  filter: invert(1);
+}
+
+.projects-start-pane-label {
+  color: #aaaaaa;
+  font: 16px var(--font-family-regular);
+  text-transform: initial;
+}
+
+.projects-start-pane-feed-big {
+  background-color: #131313dd;
+}
+
+.projects-start-pane-thumb {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*border-radius: 10px;*/
+}
+
+.projects-start-pane-item {
+  background-color: #191919;
+}
+
+.projects-start-pane-item:hover {
+  background-color: #222222;
+}
+
+.projects-rename-input {
+  background-color: #181818;
+  color: white;
+  border: none;
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font: 12px var(--font-family-bold);
+  width: 100%;
+  height: 100%;
+}
+
+.projects-icon {
+  color: #aaaaaa;
+  margin-left: 5px;
+}
+
+.projects-icon.highlighted {
+  color: white;
+  margin-left: 5px;
+}
+
+.projects-cloudservices-bg {
+  background-color: #191919;
+}
+
+.projects-getting-started-item {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-right: 20px;
+}
+
+.projects-getting-started-item:hover {
+  background-color: #333;
+}
+
+.tutorial-items {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tutorial-items.with-lessons {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.tutorial-items::-webkit-scrollbar {
+  display: none;
+}
+
+.lesson-items-scroll-controls {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson-items-scroll-controls > svg.disabled {
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.lesson-items-scroll-controls > svg {
+  cursor: pointer;
+}
+
+.lesson-items-scroll-controls > svg:hover path {
+  stroke: white;
+}
+
+.projects-tutorial-item {
+  position: relative;
+  flex-shrink: 0;
+  /*
+     this fixes an issue where the <div> of a tutorial card becomes slighly taller
+     than the <img> inside of it. Not sure why.
+   */
+  line-height: 0;
+}
+
+.projects-tutorial-item-label {
+  color: black;
+  font: 20px var(--font-family-semibold);
+  line-height: 27px;
+  white-space: normal;
+}
+
+.projects-tutorial-item-sublabel {
+  color: white;
+  font: 12px var(--font-family-regular);
+}
+
+.projects-tutorial-item-thumb {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.projects-tutorial-hover-overlay {
+  position: absolute;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.projects-tutorial-item:hover .projects-tutorial-hover-overlay {
+  opacity: 0.15;
+}
+
+.tutorial-categories {
+  margin-bottom: 15px;
+}
+
+.tutorial-category-item {
+  color: white;
+  font: 24px var(--font-family-semibold);
+  font-weight: 600;
+  margin-right: 40px;
+  opacity: 0.4;
+}
+
+.tutorial-category-item:hover {
+  opacity: 0.7;
+}
+
+.tutorial-category-item.selected {
+  opacity: 1;
+}
+
+.projects-tutorial-item-icon.play {
+  content: url('../assets/icons/play-black.svg');
+}
+
+.projects-tutorial-item-icon.book {
+  content: url('../assets/icons/book-black.svg');
+}
+
+.projects-new-version-available-link {
+  color: #f5bc41;
+}
+
+.projects-new-version-available-link:hover {
+  color: #ffd373;
+  -webkit-app-region: no-drag;
+}
+
+.projects-new-update-available {
+  color: #f5bc41;
+  -webkit-app-region: no-drag;
+}
+
+.projects-new-update-available:hover {
+  color: #ffd373;
+}
+
+.account-menu-workspaces {
+  overflow: hidden overlay;
+  max-height: calc(100vh - 180px);
+}

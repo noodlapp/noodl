@@ -1,0 +1,61 @@
+.Root {
+  position: relative;
+
+  &.is-visible {
+    display: block !important;
+  }
+}
+
+.OptionsDrawer {
+  width: 210px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Option {
+  width: 100%;
+  color: var(--theme-color-fg-highlight);
+  transition: opacity var(--speed-turbo);
+  padding: 8px;
+  cursor: pointer;
+  display: flex;
+  box-sizing: border-box;
+  background-color: var(--theme-color-bg-2);
+
+  .OptionInner {
+    opacity: 0.75;
+    width: 100%;
+  }
+
+  &:hover {
+    .OptionInner {
+      opacity: 1;
+    }
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid var(--theme-color-bg-3);
+  }
+
+  &.is-disabled {
+    cursor: not-allowed;
+
+    .OptionInner {
+      opacity: 0.65 !important;
+    }
+  }
+
+  &.is-hidden {
+    display: none;
+  }
+}
+
+.OptionLabel {
+  flex-grow: 1;
+}
+
+.OptionHelpText {
+  font-size: 10px;
+  color: var(--theme-color-fg-muted);
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,54 @@
+/* -------------------------------------------------------------------
+  Cloud services popup
+   ------------------------------------------------------------------- */
+.csp-header {
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #373737;
+    color: #ccc;
+}
+
+.csp-title {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.csp-sub-title {
+  color: #999;
+  font-size: 12px;
+}
+
+.csp-desc {
+  color: #aaa;
+}
+
+.csp-button {
+  background-color: #D3942B;
+  color:#000;
+  height:30px;
+  line-height:30px;
+  text-align: center;
+  font-family: var(--font-family-bold);
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.csp-button:hover {
+  background-color: #e4b057;
+}
+
+.csp-button.disabled {
+  background-color: #37383A;
+  color: #999;
+}
+
+.csp-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  height: 30px;
+  color: #ccc;
+  font-family: var(--font-family-regular);
+}

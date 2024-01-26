@@ -1,0 +1,926 @@
+[
+    {
+        "title": "Tide Pods Spring Meadow 96 Ct, Laundry Detergent Pacs",
+        "img": "https://i5.walmartimages.com/asr/71d4c3f9-4c2e-4cc0-8a03-b99f4df0575e_2.3d85aab7570aca7c74146a5aa2768527.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Tide Pods Spring Meadow, Laundry Detergent Pacs, 96 ct. : Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li><li>10X cleaning power (Stain removal of one Tide PODS in quick cycle vs. 10 doses of the leading bargain liquid detergent, base variant, in normal wash cycle)</li><li>Dissolves completely in any water conditions</li><li>Works in all washing machines</li><li>Keep out of reach of children</li></ul>",
+            "short": "<ul><li>Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li></ul>"
+        },
+        "price": 21.44,
+        "reviews": {
+            "customerRating": 3.9,
+            "numReviews": 2929
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "96"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "608526496",
+        "variantCategoriesMap": {
+            "count_per_pack": {
+                "id": "count_per_pack",
+                "name": "Count Per Pack",
+                "type": "DROPDOWN",
+                "variants": {
+                    "count_per_pack-42": {
+                        "id": "count_per_pack-42",
+                        "name": "42",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "3MX7P2MF7XR7"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.285,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.285,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "count_per_pack-96": {
+                        "id": "count_per_pack-96",
+                        "name": "96",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "374L5A9YO20I"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 21.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 23.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.223,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 21.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 23.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.223,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "count_per_pack-42"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Pods Plus Febreze Sport Odor Defense, 73 Ct Laundry Detergent Pacs",
+        "img": "https://i5.walmartimages.com/asr/a0d1cd57-b190-4519-9df6-82857cf5461c_2.d965b3518a66e894f8f36ecd05ec4f6a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Tide PODS Plus Febreze, Sport Odor Defense Liquid Laundry Detergent Pacs, Active Fresh Scent, 73 count",
+            "short": "<ul><li>Tide's #1 odor remover</li><li>Reformulated to remove even week-old sweat odors</li></ul>"
+        },
+        "price": 21.44,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 336
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "73"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "542472429",
+        "variantCategoriesMap": {
+            "count_per_pack": {
+                "id": "count_per_pack",
+                "name": "Count Per Pack",
+                "type": "DROPDOWN",
+                "variants": {
+                    "count_per_pack-32": {
+                        "id": "count_per_pack-32",
+                        "name": "32",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "53IWQNHYQC6E"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.374,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 11.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.374,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "count_per_pack-73": {
+                        "id": "count_per_pack-73",
+                        "name": "73",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "1SBHLEURQP02"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 21.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.294,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 21.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.294,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "count_per_pack-32"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Seasonal/Stock Up Essentials/Household Essentials Stock Up/Stock up on Laundry Room Supplies",
+            "path": [
+                {
+                    "name": "Seasonal",
+                    "url": "/cp/1085632"
+                },
+                {
+                    "name": "Stock Up Essentials",
+                    "url": "/cp/9267270"
+                },
+                {
+                    "name": "Household Essentials Stock Up",
+                    "url": "/cp/6133729"
+                },
+                {
+                    "name": "Stock up on Laundry Room Supplies",
+                    "url": "/cp/9058184"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide PODS Liquid Laundry Detergent Pacs, Spring Meadow, 16 count",
+        "img": "https://i5.walmartimages.com/asr/cbbfe9a7-9e1a-4544-b0d3-37c67dc5a412_1.836bfc1a9127e78b92ab2ba17ea68485.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide PODS Liquid Laundry Detergent Pacs, Spring Meadow, 16 count:</h2> <ul> <li>Surprisingly powerful clean in 1 step</li> <li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li> <li>10X cleaning power (Stain removal of one Tide PODS® in quick cycle vs. 10 doses of the leading bargain liquid detergent, base variant, in normal wash cycle)</li> <li>Dissolves completely in any water conditions</li> <li>Works in all washing machines</li> <li>Keep out of reach of children</li> </ul>",
+            "short": "<ul><li>Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li></ul>",
+            "medium": "<p>Tide Pods Spring Meadow Detergent is a detergent, stain remover and brightener all in one that dissolves quickly in hot or cold water to keep clothes looking their best.</p>"
+        },
+        "price": 4.94,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 11183
+        },
+        "size": {
+            "karfGroceryType": "Pods",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "14.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586977200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "19717396",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide PODS Free & Gentle, Liquid Laundry Detergent Pacs, 31 count",
+        "img": "https://i5.walmartimages.com/asr/38d64280-0485-4a19-8571-0affa7f9632f_2.6fdb7e52944c5ce704a36acaeb089d57.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide PODS Free & Gentle, Liquid Laundry Detergent Pacs, 31 count:</h2> <ul> <li>Hypoallergenic. Dermatologist Tested. Free of dyes and perfumes</li> <li>3-in-1: detergent, stain remover, color protector</li> <li>Each pac of Tide Pods Free & Gentle provides a deeper clean (versus the leading Free detergent) that's gentle on skin</li> <li>1 laundry pac for regular loads, 2 pacs for large loads and 3 pacs for extra large loads</li> <li>Tide PODS laundry pacs dissolve quickly in hot & cold</li> <li>Keep out of reach of children</li> </ul>",
+            "short": "<ul><li>Hypoallergenic. Dermatologist Tested. Free of dyes and perfumes</li><li>3-in-1: detergent, stain remover, color protector</li></ul>",
+            "medium": "<p>Pop a Tide Pods Free & Gentle Laundry Detergent Pac in the washer for a perfectly premeasured amount of laundry detergent in any size load, temperature or machine. Taking care of sensitive skin doesn't have to be hard. Each individual pac of Tide Pods Free & Gentle Laundry Detergent fights stains, brightens fabrics and is specially designed to include zero dyes and perfumes. Simply pop one into your wash to get an outstanding Tide clean in any size load, temperature or machine. For a simple, worry-free laundry experience that's gentle on skin, Tide Pods Free & Gentle laundry detergent will keep your family looking and feeling great. Three in One: Laundry Detergent, stain remover and gentle on skin. Tide Pods Free & Gentle Laundry Detergent Pacs is one of three products in the Free & Gentle family which also includes Downy Free Fabric Softener and Bounce Free Dryer Sheets.</p>"
+        },
+        "price": 8.94,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 5483
+        },
+        "size": {
+            "karfGroceryType": "Pods",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "31"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "36544317",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Pods Plus Downy April Fresh, Laundry Detergent Pacs, 61 ct.",
+        "img": "https://i5.walmartimages.com/asr/9c6c14d5-d67a-46c5-abd0-7a85b5773d25_1.66489f6a5b5e49151ca995874ec685ac.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Pods Plus Downy April Fresh, Laundry Detergent Pacs, 61 ct.:</h2><ul><li>Only Tide PODS Plus Downy cleans and conditions in 1 step, helping protect clothes from stretching and fading in the wash.</li> <li>Tide PODS Plus Downy have the signature Downy April Fresh Scent for outstanding freshness</li> <li>10X cleaning power *. (*Stain removal of 1 dose vs. 10X doses of the leading liquid bargain brand</li> <li>Each Tide PODS is 4-in-1 including detergent, stain remover, brightener, and Downy Fabric Protect technology</li> <li>The new special film now dissolves even better in both hot & cold water</li> <li>Tide PODS are formulated with quick collapsing Smart Suds, targets tough stains and works in both HE and standard washing machines</li> <li>Use 1 pac for small/medium loads, 2 pacs for large loads, or 3 pacs for extra-large loads</li> <li>Like any household detergent, keep away from children</li> </ul>",
+            "short": "<ul><li>Only Tide PODS Plus Downy cleans and conditions in 1 step, helping protect clothes from stretching and fading in the wash.</li><li>Tide PODS Plus Downy have the signature Downy April Fresh Scent for outstanding freshness</li></ul>"
+        },
+        "price": 19.97,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 7350
+        },
+        "size": {
+            "karfGroceryType": "Pods",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "61"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "723835749",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Single Unit Dose Laundry Detergent/Tide Pods Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Single Unit Dose Laundry Detergent",
+                    "url": "/cp/5050460"
+                },
+                {
+                    "name": "Tide Pods Laundry Detergent",
+                    "url": "/cp/4543958"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide PODS Ultra Oxi Liquid Laundry Detergent Pacs, 12 Count",
+        "img": "https://i5.walmartimages.com/asr/b7ff6f0e-7af9-4eb3-ba9a-57b946d11384_1.a3798692dc610b40653ea53d6f76568f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide PODS Ultra Oxi Liquid Laundry Detergent Pacs, 12 Count:</h2><ul><li>Tide Power + Ultra Oxi</li><li>10x the cleaning power* (*Stain Removal of 1 dose vs. 10X doses of the leading liquid bargain brand)</li><li>4-in-1 technology: detergent, stain remover, colour protector, built-in pre-treaters</li><li>Dissolves in both hot & cold water</li><li>Helps tackle tough set-in odors</li><li>Keep out of reach of children</li></ul>",
+            "short": "<ul><li>Tide Power + Ultra Oxi</li><li>10x the cleaning power* (*Stain Removal of 1 dose vs. 10X doses of the leading liquid bargain brand)</li></ul>"
+        },
+        "price": 4.94,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 160
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "437497146",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Single Unit Dose Laundry Detergent/Tide Pods Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Single Unit Dose Laundry Detergent",
+                    "url": "/cp/5050460"
+                },
+                {
+                    "name": "Tide Pods Laundry Detergent",
+                    "url": "/cp/4543958"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Simply Pods Refreshing Breeze plus Oxi, 55 count Laundry Detergent Pacs",
+        "img": "https://i5.walmartimages.com/asr/73aff2db-df22-4ff3-8975-57af7fa1fead_2.af43d39309a657436b6ad08ddb5d974d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Simply +Oxi Laundry Detergent Pacs, Refreshing Breeze, 55 count",
+            "short": "Tide Pods Simply Oxi Refresh Breeze 55ct"
+        },
+        "price": 10.94,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 143
+        },
+        "size": {
+            "pricePerUnitUom": "OZ",
+            "pricePerUnitQuantity": "33.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "598798312",
+        "variantCategoriesMap": {
+            "count_per_pack": {
+                "id": "count_per_pack",
+                "name": "Count Per Pack",
+                "type": "DROPDOWN",
+                "variants": {
+                    "count_per_pack-43": {
+                        "id": "count_per_pack-43",
+                        "name": "43",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "24OPZFU8N14W"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 8.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.208,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 8.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.208,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "count_per_pack-55": {
+                        "id": "count_per_pack-55",
+                        "name": "55",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "4FRIVG0F7EUH"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Liquid Laundry Detergent/Tide Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Liquid Laundry Detergent",
+                    "url": "/cp/5250095"
+                },
+                {
+                    "name": "Tide Laundry Detergent",
+                    "url": "/cp/3978991"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Simply Pods Refreshing Breeze plus Oxi, 55 count Laundry Detergent Pacs",
+        "img": "https://i5.walmartimages.com/asr/73aff2db-df22-4ff3-8975-57af7fa1fead_2.af43d39309a657436b6ad08ddb5d974d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Simply +Oxi Laundry Detergent Pacs, Refreshing Breeze, 55 count",
+            "short": "Tide Pods Simply Oxi Refresh Breeze 55ct"
+        },
+        "price": 10.94,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 143
+        },
+        "size": {
+            "pricePerUnitUom": "OZ",
+            "pricePerUnitQuantity": "33.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "598798312",
+        "variantCategoriesMap": {
+            "count_per_pack": {
+                "id": "count_per_pack",
+                "name": "Count Per Pack",
+                "type": "DROPDOWN",
+                "variants": {
+                    "count_per_pack-43": {
+                        "id": "count_per_pack-43",
+                        "name": "43",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "24OPZFU8N14W"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 8.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.208,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 8.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.208,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "count_per_pack-55": {
+                        "id": "count_per_pack-55",
+                        "name": "55",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "4FRIVG0F7EUH"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Liquid Laundry Detergent/Tide Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Liquid Laundry Detergent",
+                    "url": "/cp/5250095"
+                },
+                {
+                    "name": "Tide Laundry Detergent",
+                    "url": "/cp/3978991"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide PODS Liquid Laundry Detergent Pacs, Original, 16 count",
+        "img": "https://i5.walmartimages.com/asr/7f318817-95b7-4fac-8eb6-c2931b0d24ff_1.b3f3354c4e738ffe120159e126660883.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide PODS Liquid Laundry Detergent Pacs, Original, 16 count:</h2><ul><li>Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li><li>10X cleaning power (Stain removal of one Tide PODS in quick cycle vs. 10 doses of the leading bargain liquid detergent, base variant, in normal wash cycle)</li><li>Dissolves completely in any water conditions</li><li>Works in all washing machines</li><li>Keep out of reach of children</li></ul>",
+            "short": "<ul><li>Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li></ul>"
+        },
+        "price": 4.94,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 8603
+        },
+        "size": {
+            "karfGroceryType": "Pods",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "16"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "49292906",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Pods Spring Meadow 42 Ct, Laundry Detergent Pacs",
+        "img": "https://i5.walmartimages.com/asr/750f7121-34ea-43d7-8737-640e62a6d454_1.913bb421999b7e78f5da85149a0527a8.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Pods Spring Meadow, Laundry Detergent Pacs, 42 ct.:</h2><ul><li>Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li><li>10X cleaning power (Stain removal of one Tide PODS® in quick cycle vs. 10 doses of the leading bargain liquid detergent, base variant, in normal wash cycle)</li><li>Dissolves completely in any water conditions</li><li>Works in all washing machines</li><li>Keep out of reach of children</li></ul>",
+            "short": "<ul><li>Surprisingly powerful clean in 1 step</li><li>3-in-1 laundry pacs: super concentrated detergent, extra odor fighters, extra stain removers</li></ul>"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 4.0969,
+            "numReviews": 3569
+        },
+        "size": {
+            "karfGroceryType": "Pods",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "42"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586113200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "50621071",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Laundry Detergents",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Laundry Detergents",
+                    "url": "/cp/1149379"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tide Pods Plus Downy April Fresh, 32 Ct Laundry Detergent Pacs",
+        "img": "https://i5.walmartimages.com/asr/005f3b80-f6fb-4ab5-95b7-d012a71912e0_1.df2dc77be16e82d3e5a49d17fcb25d38.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<h2>Tide Pods Plus Downy April Fresh, Laundry Detergent Pacs, 32 ct.:</h2> <ul> <li>Only Tide PODS Plus Downy cleans and conditions in 1 step, helping protect clothes from stretching and fading in the wash.</li> <li>Tide PODS Plus Downy have the signature Downy April Fresh Scent for outstanding freshness</li> <li>10X cleaning power *. (*Stain removal of 1 dose vs. 10X doses of the leading liquid bargain brand</li> <li>Each Tide PODS is 4-in-1 including detergent, stain remover, brightener, and Downy Fabric Protect technology</li> <li>The new special film now dissolves even better in both hot & cold water</li> <li>Tide PODS are formulated with quick collapsing Smart Suds, targets tough stains and works in both HE and standard washing machines</li> <li>Use 1 pac for small/medium loads, 2 pacs for large loads, or 3 pacs for extra-large loads</li> <li>Like any household detergent, keep away from children</li> </ul>",
+            "short": "<ul><li>Only Tide PODS Plus Downy cleans and conditions in 1 step, helping protect clothes from stretching and fading in the wash.</li><li>Tide PODS Plus Downy have the signature Downy April Fresh Scent for outstanding freshness</li></ul>"
+        },
+        "price": 11.97,
+        "reviews": {
+            "customerRating": 4.2271,
+            "numReviews": 9627
+        },
+        "size": {
+            "karfGroceryType": "Pods",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "32"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "148616343",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Laundry/Single Unit Dose Laundry Detergent/Tide Pods Laundry Detergent",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Laundry",
+                    "url": "/cp/1071967"
+                },
+                {
+                    "name": "Single Unit Dose Laundry Detergent",
+                    "url": "/cp/5050460"
+                },
+                {
+                    "name": "Tide Pods Laundry Detergent",
+                    "url": "/cp/4543958"
+                }
+            ]
+        }
+    }
+]

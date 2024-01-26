@@ -1,0 +1,42 @@
+@use '../../../styles/scss-variables/length.scss';
+
+.Root {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  font-size: 12px;
+  display: flex;
+}
+
+.Option {
+  padding: length.$property-panel-input-padding;
+  position: relative;
+  cursor: pointer;
+  background-color: var(--theme-color-bg-3);
+  user-select: none;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+
+  &:not(:last-child) {
+    border-right: 2px solid var(--theme-color-bg-2);
+  }
+
+  &:hover {
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-selected {
+    background-color: var(--theme-color-bg-1);
+    color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-disabled {
+    color: var(--theme-color-fg-muted);
+    cursor: not-allowed;
+  }
+}
+
+.Input {
+  position: absolute;
+  opacity: 0;
+}

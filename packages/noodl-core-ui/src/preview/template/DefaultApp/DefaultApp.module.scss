@@ -1,0 +1,33 @@
+.Root {
+  --title-bar-height: 30px;
+
+  background-color: var(--theme-color-bg-2);
+  display: grid;
+  grid-template-rows: var(--title-bar-height) auto;
+
+  border-radius: 3px;
+  overflow: hidden;
+
+  width: 1000px;
+  height: 720px;
+}
+
+.TitleBar {
+  grid-row: 1;
+  border-bottom: 2px solid var(--theme-color-bg-1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--theme-color-fg-default);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: 12px;
+
+  user-select: none;
+}
+
+.Main {
+  grid-row: 2;
+}

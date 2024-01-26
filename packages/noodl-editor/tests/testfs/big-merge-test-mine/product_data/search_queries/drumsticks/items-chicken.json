@@ -1,0 +1,442 @@
+[
+    {
+        "title": "Perdue Fresh Chicken Drumsticks Value Pack (4.5-5.75 lbs.)",
+        "img": "https://i5.walmartimages.com/asr/7cef3702-4223-4c72-9035-2d54bfc770a5_1.9fac2e61e2189b3d0b28bca3721e9dfd.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>No Antibiotics Ever</li><li>All Vegetarian Diet</li><li>No Animal By-Products</li><li>Raised Cage Free</li><li>No Hormones or Steroids Added*</li><li>Chicken Hatched Raised and Harvested in the USA</li></ul>",
+            "short": "<ul><li>Fresh chicken drumsticks approximately 14-16 pieces per tray.</li></ul>"
+        },
+        "reviews": {
+            "customerRating": 4,
+            "numReviews": 1
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "158751412",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Marketside Antibiotic-Free Chicken Drumsticks, 1.5 - 2.2 lb",
+        "img": "https://i5.walmartimages.com/asr/3e387076-a218-43a8-bf77-e1770837069d_2.948cccadb5bbb00f49fb51640b760a69.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Marketside Antibiotic-Free  Chicken Drumsticks, 1.5-2.2 lb:</b><ul><li>All natural</li><li>No added hormones or steroids</li><li>No antibiotics ever</li><li>Fed all-vegetarian diet</li><li>Never fed animal by-products</li><li>Raised cage free</li><li>Keep refrigerated or frozen</li><li>Perfect for grilling, baking, and frying</li></ul>",
+            "short": "<ul><li>All natural</li><li>No added hormones or steroids</li><li>No antibiotics ever</li></ul>"
+        },
+        "price": 2.62,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "2.2"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "149101411",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tyson® All Natural* Chicken Drumsticks Family Pack, 4.5 lb",
+        "img": "https://i5.walmartimages.com/asr/599a6b4a-1d7f-4d37-85a4-a56214e9b4fe_2.c04947fd1a8039f258e031fc40784a5f.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Tyson® All Natural* Fresh Chicken Drumsticks</li><li>All-natural, minimally processed chicken with no artificial ingredients</li><li>21 grams of protein and 0 grams of trans fat per serving</li><li>No antibiotics ever</li><li>No added hormones or steroids</li><li>Perfect for grilling and frying</li></ul>",
+            "short": "<ul><li>One package of Tyson® All Natural* Fresh Chicken Drumsticks All-natural, minimally processed chicken with no artificial ingredients 21 grams of protein and 0 grams of trans fat per serving</li></ul>",
+            "medium": "<p>For a fun meal, try Tyson Chicken Drumsticks. Fry them up or put them in the oven for a great meal the whole family will enjoy.</p>"
+        },
+        "reviews": {
+            "customerRating": 3.9,
+            "numReviews": 18
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "4.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10533743",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Freshness Guaranteed Fresh Chicken Drumsticks, 5 lb",
+        "img": "https://i5.walmartimages.com/asr/2d84108a-d314-4772-a285-b3d901d76ec0_5.fa83d5a171259c02d4f040c18d865b13.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Freshness Guaranteed Fresh Chicken Drumsticks</li><li>Perfect for all of your favorite sauces and marinades</li><li>Excellent source of protein - 19 grams per serving</li><li>0 grams of trans fat per serving</li><li>Juicy and tender</li><li>Simple to prepare</li></ul>",
+            "short": "<ul><li>One package of Freshness Guaranteed Fresh Chicken Drumsticks Perfect for all of your favorite sauces and marinades Excellent source of protein - 19 grams per serving</li></ul>"
+        },
+        "price": 4.76,
+        "reviews": {
+            "customerRating": 4,
+            "numReviews": 7
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "5.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "613823324",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Fresh Chicken Drumsticks, 5.0 lb",
+        "img": "https://i5.walmartimages.com/asr/47d2f8ac-a380-4050-b628-52ecf0aab1a8_2.73f652726e947cf8b4f3e7b1c15e5a7d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Chicken Drumsticks make for a great addition to your family dinner</li><li>?</li></ul>",
+            "short": "Chicken Value Bag Drumstick 5lb"
+        },
+        "reviews": {
+            "customerRating": 1,
+            "numReviews": 1
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "197513616",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Freshness Guaranteed Bone-In Chicken Thighs, Drumsticks & Wings, 4.0 - 5.6 lb",
+        "img": "https://i5.walmartimages.com/asr/b702b55d-95ba-477c-b713-a24149c4e949_3.bca1b57b9a57f9d502584660b3394393.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Freshness Guaranteed Bone-In Chicken Thighs, Drumsticks & Wings</li><li>Perfect for all of your favorite sauces, spice rubs and marinades</li><li>Excellent source of protein - 18 grams per serving</li><li>0 grams of trans fat per serving</li><li>Simple to prepare</li><li>USDA Inspected</li></ul>",
+            "short": "<ul><li>One package of Freshness Guaranteed Bone-In Chicken Thighs, Drumsticks & Wings Perfect for all of your favorite sauces, spice rubs and marinades Excellent source of protein - 18 grams per serving</li></ul>"
+        },
+        "price": 7.97,
+        "reviews": {
+            "customerRating": 3.7,
+            "numReviews": 3
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "5.6"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "577327930",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tyson® All Natural* Chicken Drumsticks, 2 lb",
+        "img": "https://i5.walmartimages.com/asr/f1029e57-170a-4b0d-9ba8-5c7ec291889f_4.cc026d427e75e772fcde088a929ab1f5.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Chicken Drumsticks</li><li>All-natural, minimally processed chicken with no artificial ingredients</li><li>21 grams of protein and 0 grams of trans fat per serving</li><li>No antibiotics ever</li><li>No added preservatives</li><li>Perfect for grilling and frying</li></ul>",
+            "short": "<ul><li>One package of Chicken Drumsticks All-natural, minimally processed chicken with no artificial ingredients 21 grams of protein and 0 grams of trans fat per serving</li></ul>"
+        },
+        "reviews": {
+            "customerRating": 2,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "2.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "380575268",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tyson® All Natural* Chicken Drumsticks Family Pack, 4.25 - 6.7 lb",
+        "img": "https://i5.walmartimages.com/asr/7129c2d9-95b1-4f92-890e-d27ddf4747cb_2.038cda3a862b70172b9f8ae9cecaf77d.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One Tyson® All Natural* Chicken Drumsticks Family Pack</li><li>All-natural, minimally processed chicken with no artificial ingredients</li><li>21 grams of protein and 0 grams of trans fat per serving</li><li>No antibiotics ever</li><li>No added preservatives</li><li>Perfect for grilling and frying</li></ul>",
+            "short": "<ul><li>One Tyson® All Natural* Chicken Drumsticks Family Pack All-natural, minimally processed chicken with no artificial ingredients 21 grams of protein and 0 grams of trans fat per serving</li></ul>",
+            "medium": "<p>For a fun meal, try Tyson Chicken Drumsticks. Fry them up or put them in the oven for a great meal the whole family will enjoy.</p>"
+        },
+        "reviews": {
+            "customerRating": 3.5,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "6.7"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "19400233",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Nature Raised Farms® Chicken Drumstick",
+        "img": "https://i5.walmartimages.com/asr/22335b4a-c3b4-4033-8ecd-dac92a28cb81_1.d6230a58bd7a939c822ee5ec5db2de37.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "NatureRaised Farms® Chicken Drumsticks make for a great meal the whole family will enjoy. 100% All Natural, no artificial ingredients, minimally processed. Chicken raised with no added hormones or steroids.",
+            "short": "<li>All natural</li><li>Chicken raised with no added hormones or steroids</li><li>USDA Grade A</li>"
+        },
+        "reviews": {},
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "188200625",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    }
+]

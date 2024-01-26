@@ -1,0 +1,42 @@
+.Root {
+  --title-bar-height: 30px;
+
+  display: grid;
+  grid-template-columns: 280px auto;
+  grid-template-rows: var(--title-bar-height) auto;
+
+  border-radius: 3px;
+  overflow: hidden;
+
+  width: 1000px;
+  height: 720px;
+  
+  background-color: var(--theme-color-bg-1);
+}
+
+.TitleBar {
+  grid-column: 1 / -1;
+  grid-row: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--theme-color-fg-default);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: 12px;
+
+  border-bottom: 2px solid var(--theme-color-bg-1);
+  background-color: var(--theme-color-bg-2);
+
+  user-select: none;
+}
+
+.SidePanel {
+  grid-column: 1;
+  grid-row: 2;
+
+  border-right: 2px solid var(--theme-color-bg-1);
+  background-color: var(--theme-color-bg-2);
+}

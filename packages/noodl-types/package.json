@@ -1,0 +1,8 @@
+{
+  "name": "@noodl/types",
+  "version": "2.7.0",
+  "main": "src/index.d.ts",
+  "description": "",
+  "author": "Noodl <info@noodl.net>",
+  "homepage": "https://noodl.net"
+}

@@ -1,0 +1,658 @@
+/* eslint-disable */
+
+/**
+ * Noodl Frontend API
+ */
+declare namespace Noodl {
+  function getProjectSettings(): any;
+  function getMetaData(): any;
+
+  interface VariablesApi {
+    [K in VariableNames]: any
+  } 
+
+  /**
+   * You can access all variables in your application trough the Noodl.Variables object.
+   * Changing a variable will trigger all connections to be updated for all Variable nodes
+   * in your project with the corresponding variable name.
+   *
+   * Example:
+   * ```ts
+   *  // This will change the variable named MyVariable
+   *  // and trigger all variable nodes in your project
+   *  Noodl.Variables.MyVariable = "Hello";
+   *  
+   *  // Use this if you have spaces in your variable name
+   *  Noodl.Variables["My Variable"] = 10;
+   *  
+   *  Noodl.Variables.userName = "Mickeeeey";
+   *  
+   *  // Reading variables
+   *  console.log(Noodl.Variables.userName);
+   * ```
+   * 
+   * {@link https://docs.noodl.net/#/javascript/reference/variables}
+   */
+  const Variables: VariablesApi;
+
+  /**
+   * One step above Variables are Objects, this is a global data model of Noodl objects.
+   * Each object is referenced with an Id and can contain a set of properties.
+   * You can access all objects in your workspace through their Id and the Noodl.Objects prefix.
+   * Change a property of an object will trigger all connections
+   * from object nodes with the corresponding Id and property.
+   * 
+   * Example:
+   * ```ts
+   *  // This will change the property MyProperty
+   *  // of object with id MyObjectId and trigger
+   *  // all object nodes (with that id) in your project
+   *  Noodl.Objects.MyObjectId.MyProperty = "Hello";
+   *  
+   *  // Use this notation of that object id contains spaces
+   *  Noodl.Objects["Form Values"].input_text = "Whoops";
+   *  
+   *  Noodl.Objects["Form Values"]["A property with spaces"] = 20;
+   *  
+   *  // Reading an object property
+   *  console.log(Noodl.Objects.CurrentUser.Name);
+   *  
+   *  // This will set all properties of the object you assign with
+   *  // to the object with id "SomeId"
+   *  // You cannot set the id property this way,
+   *  // that property will be ignored if part of the object you assign
+   *  Noodl.Objects.SomeId = {
+   *    // ...
+   *  }
+   * ```
+   * 
+   * {@link https://docs.noodl.net/#/javascript/reference/objects}
+   */
+  const Objects: any;
+
+  /**
+   * Allows access to Object from Javascript.
+   *
+   * {@link https://docs.noodl.net/#/javascript/reference/object}
+   */
+  const Object: any;
+
+  /**
+   * Each array is reference by its Id using the Noodl.Arraysprefix,
+   * similar to objects and variables.
+   * Changing an array will trigger an update of all Array node with the corresponding Id.
+   * 
+   * Example:
+   * ```ts
+   *  // This will change the array with id MyArray and update all Arrays nodes
+   *  // with that id.
+   *  Noodl.Arrays.MyArray = [{ Hello: "There" }];
+   *  
+   *  // Use this if you have spaces in your array id
+   *  Noodl.Arrays["Recepie List"] = [{ Name: "Fancy Burger" }];
+   *  
+   *  // Reading arrays
+   *  console.log(Noodl.Arrays.MyArray);
+   *  
+   *  // WARNING, you can access arrays like this but this will not trigger an update
+   *  // in Noodl. You should avoid modifying arrays like this.
+   *  Noodl.Arrays.MyArray.push({ Hello: "Again" });
+   *  
+   *  // Instead, create a new array. This will trigger an update
+   *  // on all Array nodes with id MyArray
+   *  Noodl.Arrays.MyArray = Noodl.Arrays.MyArray.concat([{ Hello: "Again" }]);
+   * ```
+   * 
+   * {@link https://docs.noodl.net/#/javascript/reference/arrays}
+   */
+  const Arrays: any;
+
+  interface EventsApi {
+    /**
+     * Send an event. Works well together with Event Receivers.
+     */
+    emit(eventName: string, data: any): void;
+
+    /**
+     * Receive an event. Works together with Event Senders
+     */
+    on(eventName: string, callback: (data: any) => void): void;
+
+    /**
+     * Receive an event. Works together with Event Senders
+     */
+    once(eventName: string, callback: (data: any) => void): void;
+  }
+
+  /**
+   * This is the Noodl event emitter, you can use it to receive and send events from your scripts.
+   *
+   * {@link https://docs.noodl.net/#/javascript/reference/events}
+   */
+  const Events: EventsApi;
+
+  interface RecordsApi {
+    /**
+     * This is an async function that will query the database using the query
+     * that you provide and return the result or throw an exception if failed.
+     * 
+     * The query parameter has the same format as the advanced query of the Query Records node.
+     * {@link https://docs.noodl.net/#/nodes/data/cloud-data/query-records/#advanced-filters}
+     * 
+     * Example:
+     * ```ts
+     *  const results = await Noodl.Records.query("myClass", {
+     *    Completed: { equalTo: true },
+     *  })
+     * ```
+     * 
+     * The result is an array of Noodl.Object. The options can be used to specify sorting,
+     * it also follows the same pattern as the advanced filters of the Query Records node.
+     * 
+     * Example:
+     * ```ts
+     *  const results = await Noodl.Records.query("myClass", {
+     *    Completed: { equalTo: true },
+     *  }, {
+     *    sort:['createdAt']
+     *  })
+     * ```
+     * 
+     * You can also specify the limit for how many records to return as a maximum (defaults to 100)
+     * with the limit option, and if you want the returned records to start from a given
+     * index specify the skip option.
+     * 
+     * ```ts
+     *  const results = await Noodl.Records.query("myClass", {
+     *    Completed: { equalTo: true },
+     *  }, {
+     *    sort: ['-createdAt'], // use - to sort descending
+     *    skip: 50,
+     *    limit: 200
+     *  })
+     * ```
+     */
+    query(
+      className: RecordClassName,
+      query?: any,
+      options?: {
+        limit?: number;
+        skip?: number;
+        sort?: string[];
+        include?: any;
+        select?: any;
+      }
+    ): Promise<any>;
+
+    /**
+     * This function returns the count of the number of records of a given class,
+     * optionally matching a query filter.
+     * 
+     * Example:
+     * ```ts
+     *  // The number of records of myClass in the database
+     *  const count = await Noodl.Records.count("myClass")
+     * 
+     *  // The number of myClass records in the database that match a query
+     *  const completedCount = await Noodl.Records.count("myClass", {
+     *    Completed: { equalTo: true },
+     *  })
+     * ```
+     */
+    count(className: RecordClassName, query?: any): Promise<number>;
+
+    /**
+     * Use this function to fetch the latest properties of a specific record
+     * from the cloud database. It will return the object / record.
+     * 
+     * Example:
+     * ```ts
+     *  // If you use the a record ID you must also specify the class
+     *  const myRecord = await Noodl.Records.fetch(myRecordId, { className: "myClass" })
+     *  
+     *  // You can also fetch a record you have previously fetched or received from a
+     *  // query, to get the latest properties from the backend
+     *  await Noodl.Records.fetch(myRecord)
+     * ```
+     */
+    fetch(
+      objectOrId: string | { getId(): string; },
+      options?: {
+        className?: RecordClassName;
+      }
+    ): Promise<any>;
+
+    /**
+     * Use this function to write an existing record to the cloud database.
+     * It will attempt to save all properties of the record / object
+     * if you don't specify the optional properties argument,
+     * if so it will set and save those properties.
+     * 
+     * Example:
+     * ```ts
+     *  Noodl.Objects[myRecordId].SomeProperty = "hello"
+     *
+     *  // If you use the record id to save, you need to specify the classname explicitly
+     *  // by specfiying null or undefinded for properties it will save all proporties in
+     *  // the record
+     *  await Noodl.Records.save(myRecordId, null, { className: "myClass" })
+     *
+     *  // Or use the object directly
+     *  await Noodl.Records.save(Noodl.Objects[myRecordId])
+     *
+     *  // Set specified properties and save only those to the backned
+     *  await Noodl.Records.save(myRecord, {
+     *      SomeProperty:'hello'
+     *  })
+     * ```
+     */
+    save(
+      objectOrId: string | { getId(): string; },
+      properties: any,
+      options?: {
+        className?: RecordClassName;
+        acl?: any;
+      }
+    ): Promise<void>;
+
+    /**
+     * This function will increment (or decrease) propertis of a certain record
+     * saving it to the cloud database in a race condition safe way.
+     * That is, normally you would have to first read the current value,
+     * modify it and save it to the database. Here you can do it with one operation.
+     * 
+     * Example:
+     * ```ts
+     *  // Modify the specified numbers in the cloud
+     *  await Noodl.Records.increment(myRecord, {
+     *      Score: 10,
+     *      Life: -1
+     *  })
+     *  
+     *  // Like save, you can use a record Id and class
+     *  await Noodl.Records.save(myRecordId, { Likes: 1 }, { className: "myClass" })
+     * ```
+     * 
+     * Using the options you can also specify access control as described in this guide,
+     * this let's you control which users can access a specific record.
+     * The access control is specified as below:
+     * ```ts
+     *  await Noodl.Records.save(myRecord, null, {
+     *    acl: {
+     *      // "*" means everyone, this rules gives everyone read access but not write
+     *      "*": { read: true, write: false },
+     *      // give a specific user write access
+     *      "a-user-id": { read: true, write: true },
+     *      // give a specific role write access
+     *      "role:a-role-name": { read: true, write: true },
+     *    }
+     *  })
+     * ```
+     */
+    increment(
+      objectOrId: string | { getId(): string; },
+      properties: any,
+      options?: {
+        className?: RecordClassName;
+      }
+    ): Promise<void>;
+
+    /**
+     * This function will create a new record in the cloud database and return
+     * the Noodl.Object of the newly created record.
+     * If it's unsuccessful it will throw an exception.
+     * 
+     * Example:
+     * ```ts
+     *  const myNewRecord = await Noodl.Records.create("myClass",{
+     *    SomeProperty:"Hello"
+     *  })
+     * 
+     *  console.log(myNewRecord.SomeProperty)
+     * ```
+     * 
+     * You can use the options agrument to specify access control rules
+     * as detailed under Noodl.Records.save above.
+     */
+    create(
+      className: RecordClassName,
+      properties: any,
+      options?: {
+        acl?: any
+      }
+    ): Promise<any>;
+
+    /**
+     * Use this function to delete an existing record from the cloud database.
+     * 
+     * Example:
+     * ```ts
+     *  // If you specify the id of a record to be deleted, you must also provide the
+     *  // class name in the options
+     *  await Noodl.Records.delete(myRecordId,{className:"myClass"})
+     * 
+     *  // Or use the object directly (provided it was previously fetched or received via a query)
+     *  await Noodl.Records.delete(Noodl.Objects[myRecordId])
+     * ```
+     */
+    delete(
+      objectOrId: string | { getId(): string; },
+      options?: {
+        className?: RecordClassName;
+      }
+    ): Promise<void>;
+
+    /**
+     * Use this function to add a relation between two records.
+     * 
+     * Example:
+     * ```ts
+     *  // You can either specify the Ids and classes directly
+     *  await Noodl.Records.addRelation({
+     *    className: "myClass",
+     *    recordId: "owning-record-id",
+     *    key: "the-relation-key-on-the-owning-record",
+     *    targetRecordId: "the-id-of-the-record-to-add-a-relation-to",
+     *    targetClassName: "the-class-of-the-target-record"
+     *  })
+     *  
+     *  // Or if you already have two records that have been previously fetched or returned from a
+     *  // query
+     *  await Noodl.Records.addRelation({
+     *    record: myRecord,
+     *    key: 'relation-key',
+     *    targetRecord: theTargetRecord
+     *  })
+     * ```
+     */
+    addRelation(
+      options: {
+        recordId: string | { getId(): string; },
+        className?: RecordClassName,
+        key: string,
+        targetRecordId: string | { getId(): string; },
+        targetClassName?: RecordClassName
+      }
+    ): Promise<void>;
+
+    /**
+     * Use this function to remove a relation between two records.
+     * 
+     * ```ts
+     *  // You can either specify the Ids and classes directly
+     *  await Noodl.Records.removeRelation({
+     *    className: "myClass",
+     *    recordId: "owning-record-id",
+     *    key: "the-relation-key-on-the-owning-record",
+     *    targetRecordId: "the-id-of-the-record-to-remove-a-relation-to",
+     *    targetClassName: "the-class-of-the-target-record"
+     *  })
+     *  
+     *  // Or if you already have two records that have been previously fetched or returned from a
+     *  // query
+     *  await Noodl.Records.removeRelation({
+     *    record: myRecord,
+     *    key: 'relation-key',
+     *    targetRecord: theTargetRecord
+     *  })
+     * ```
+     */
+    removeRelation(
+      options: {
+        recordId: string | { getId(): string; },
+        className?: RecordClassName,
+        key: string,
+        targetRecordId: string | { getId(): string; },
+        targetClassName?: RecordClassName
+      }
+    ): Promise<void>;
+  }
+
+  /**
+   * With Records you can query, read and write records to the cloud database.
+   * All functions are async and will throw an exception if they fail.
+   *
+   * Example:
+   * ```ts
+   *  try {
+   *    await Noodl.Records.delete(myRecord)
+   *  }
+   *  catch(e) {
+   *    console.log(e)
+   *  }
+   * ```
+   * 
+   * {@link https://docs.noodl.net/#/javascript/reference/records}
+   */
+  const Records: RecordsApi;
+
+  interface CurrentUserObject {
+    UserId: string;
+
+    /**
+     * Log out the current user and terminate the session.
+     */
+    logOut(): Promise<void>;
+
+    /**
+     * Attempt to save the properties of the current user.
+     *
+     * If you have made changes to the current() user object you will need
+     * to call this function to write the changes to the backend.
+     */
+    save(): Promise<void>;
+
+    /**
+     * Fetch that laters properties of the user object from the cloud database.
+     * It will throw an exception if the user session has expired.
+     */
+    fetch(): Promise<void>;
+  }
+
+  type UserApiEventNames = 'sessionLost' | 'sessionGained' | 'loggedIn' | 'loggedOut';
+
+  interface UsersApi {
+    /**
+     * Attempt to login to create a user session.
+     *
+     * After a successful login you can access the user object with `Noodl.Users.Current`.
+     */
+    logIn(options: { username: string; password: string }): Promise<any>;
+
+    /**
+     * Attempt to sign up a new user, and if successful that user will become the current user session.
+     * Username, email and password are required options and properties is optional.
+     */
+    signUp(options: {
+      username: string;
+      password: string;
+      email: string;
+      properties?: {
+        [key: string]: any;
+      };
+    }): Promise<any>;
+
+    /**
+     * Attempt to login a user with an existing session token.
+     * Session tokens can be created in cloud functions e.g. using the impersonate function.
+     *
+     * After a successful login you can access the user object with `Noodl.Users.Current`.
+     */
+    become(sessionToken: string): Promise<void>;
+
+    /**
+     * Listen for events related to the user service.
+     */
+    on(eventName: UserApiEventNames, callback: () => void): void;
+
+    /**
+     * Remove an event listener from a specific event.
+     */
+    off(eventName: UserApiEventNames, callback: () => void): void;
+
+    /**
+     * Return the current user object and properties if one exists.
+     */
+    get Current(): CurrentUserObject | undefined;
+  }
+
+  /**
+   * The Noodl.Users object let's you access the current session user.
+   *
+   * {@link https://docs.noodl.net/#/javascript/reference/users}
+   */
+  const Users: UsersApi;
+
+  // TODO: This is actually a class
+  type CloudFile = {
+    name: string;
+    url: string;
+  };
+  
+  interface FilesApi {
+    /**
+     * Allows uploading a file to the backend.
+     * You can specify a progress callback using the options.
+     * 
+     * Example:
+     * ```ts
+     *  const cloudFile = await Noodl.Files.upload(Inputs.File, {
+     *    onProgress: (p) => {
+     *      console.log(p.total, p.loaded)
+     *    }
+     *  })
+     *
+     *  console.log(cloudFile.name)
+     *  console.log(cloudFile.url)
+     * ```
+     */
+    upload(
+      filename: string,
+      options?: {
+        onProgress?: (progress: number) => void;
+      }
+    ): Promise<CloudFile>;
+  }
+
+  /**
+   * The Noodl.Files service lets you access the cloud services files.
+   *
+   * {@link https://docs.noodl.net/#/javascript/reference/files}
+   */
+  const Files: FilesApi;
+
+  interface NavigationApi {
+    /**
+     * Show the provided visual component as a popup.
+     *
+     * Example:
+     * ```ts
+     *  const result = await Noodl.Navigation.showPopup("#mysheet/mypopupcomponent", {
+     *    Message:"hello"
+     *  })
+     *
+     *  console.log(result.action) // The action used to close the popup
+     *  console.log(result.parameters) // The close parameters
+     * ```
+     */
+    showPopup(
+      componentPath: string,
+      params: any
+    ): Promise<{
+      action: string;
+      parameters: any;
+    }>;
+
+    /**
+     * Navigate on a given page router, identified with routerName, to a provided page,
+     * identified with targetPageName (the path to the page component),
+     * and give it the parameters provided in parameters.
+     */
+    navigate(
+      routerName: PageRouterNames & string,
+      targetPageName: keyof PagesSchema & string,
+      params: any
+    ): void;
+
+    /**
+     * Navigate to a specific url path.
+     * You can provide query parameters as an object.
+     * The function will use the current path mode selected in the project, hash or path.
+     * 
+     * Example:
+     * ```ts
+     *  Noodl.Navigation.navigateToPath("/main/details/" + theClickedObjectId, {
+     *    query: {
+     *      filter:true
+     *    }
+     *  })
+     * ```
+     */
+    navigateToPath(path: string, options: any): void;
+  }
+
+  /**
+   * The Noodl.Navigation service lets you perform navigation from functions and scripts.
+   *
+   * {@link https://docs.noodl.net/#/javascript/reference/navigation}
+   */
+  const Navigation: NavigationApi;
+
+  interface CloudFunctionsApi {
+    /**
+     * Call a cloud function in the backend.
+     *
+     * Example:
+     * ```ts
+     *  const result = await Noodl.CloudFunctions.run("myFunctionName", {
+     *    SomeParamater:"yes"
+     *  })
+     * ```
+     */
+    run<T extends keyof CloudFunctionSchema & string>(
+      functionName: T,
+      params: CloudFunctionSchema[T]['inputs']
+    ): Promise<CloudFunctionSchema[T]['outputs']>;
+  }
+
+  /**
+   * The Noodl.CloudFunctions service lets you call Noodl cloud functions.
+   *
+   * {@link https://docs.noodl.net/#/javascript/reference/cloudfunctions}
+   */
+  const CloudFunctions: CloudFunctionsApi;
+}
+
+interface ComponentApi {
+  /**
+   * `Component.Object` is the Component Object of the current component and
+   * you can use it just like any other Noodl.Object.
+   * Most commonly this means accessing the properties of the object.
+   * When you set a property any Component Object node in this component
+   * instance will update accordingly.
+   */
+  Object: any;
+
+  /**
+   * Object is the Parent Component Object,
+   * that is the Component Object of the parent component in the visual heirarchy.
+   * It is also used like any other Noodl.Object.
+   */
+  ParentObject: any;
+
+  /**
+   * If this component is the template of a repeater this will contain
+   * the object of the items array corresponding to this specific component instance.
+   * That is the same object as if you set an object Id Source to From Repeater, as shown below.
+   */
+  RepeaterObject: any;
+}
+
+/**
+ * The `Component` object is ony available in Function and Script nodes and
+ * it contains things related to the component scope where the
+ * Function or Script node is executing.
+ * 
+ * {@link https://docs.noodl.net/#/javascript/reference/component}
+ */
+declare const Component: ComponentApi;

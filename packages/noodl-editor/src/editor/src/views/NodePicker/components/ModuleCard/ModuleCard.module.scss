@@ -1,0 +1,123 @@
+@use '@scss-variables/animation';
+@use '@scss-mixins/layout' as *;
+
+.Root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.ImageContainer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: relative;
+  background-color: var(--theme-color-fg-highlight);
+  @include aspect-ratio(354, 200);
+}
+
+.Image {
+  background-position: center;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.TagContainer {
+  display: block;
+  color: var(--theme-color-secondary-highlight);
+  font-weight: 600;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.Content {
+  position: relative;
+  background-color: var(--theme-color-bg-1);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.HoverOverlay,
+.ImportIndicator,
+.SuccessToast,
+.CancelToast {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--theme-color-bg-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity animation.$speed-quick animation.$easing-base;
+}
+
+.HoverOverlay {
+  .Root:hover &,
+  .Root.is-downloading & {
+    opacity: 1;
+  }
+}
+
+.CtaContainer {
+  display: flex;
+  width: calc(100% - 12px);
+  margin-left: -12px;
+  padding: 24px;
+  transition: transform animation.$speed-quick animation.$easing-base,
+    opacity animation.$speed-quick animation.$easing-base animation.$speed-quick;
+  transform: translateY(10px);
+  opacity: 1;
+
+  .Root:hover & {
+    transform: translateY(0);
+  }
+
+  .Root.is-downloading & {
+    transition: opacity animation.$speed-quick animation.$easing-base;
+    opacity: 0;
+    transform: translateY(0);
+    pointer-events: none;
+  }
+
+  > * {
+    width: 50%;
+  }
+}
+
+.ImportIndicator {
+  pointer-events: none;
+  flex-direction: column;
+
+  .Root.is-downloading & {
+    opacity: 1;
+  }
+}
+
+.SuccessToast {
+  padding: 12px;
+  pointer-events: none;
+  flex-direction: column;
+
+  .Root.is-finished & {
+    opacity: 1;
+  }
+}
+
+.CancelToast {
+  pointer-events: none;
+
+  .Root.is-cancelled & {
+    opacity: 1;
+  }
+}

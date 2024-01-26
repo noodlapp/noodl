@@ -1,0 +1,106 @@
+.property-editor-visual-states {
+  border-bottom: 1px solid var(--theme-color-bg-1);
+  box-sizing: border-box;
+}
+
+.property-editor-visual-state-item:not(:last-child) {
+  border-bottom: 1px solid var(--theme-color-bg-2);
+}
+
+.property-editor-visual-state-item-label {
+  margin: 8px;
+  color: var(--theme-color-fg-default);
+}
+
+.property-editor-visual-state-item-label:hover {
+  color: var(--theme-color-fg-highlight);
+}
+
+.property-editor-visual-state-item-label.selected {
+  color: var(--theme-color-fg-highlight);
+}
+
+.visual-state-transition {
+  padding: 5px;
+  padding-left: 8px;
+}
+
+.visual-state-default-transition {
+  margin-bottom: 3px;
+  width: 230px;
+}
+
+.visual-state-default-transition .label {
+  background-color: #292929;
+  padding: 2px 2px 2px 8px;
+  color: rgba(255, 255, 255, 0.75);
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.visual-state-default-transition.default .label {
+  color: rgba(255, 255, 255, 0.33);
+}
+
+.visual-state-default-transition.selected .label {
+  border: 1px solid var(--theme-color-fg-highlight);
+}
+
+.visual-state-transition-curve-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  background-color: var(--theme-color-bg-3);
+  padding: 2px 0;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 17px;
+  width: 52px;
+  box-sizing: border-box;
+}
+
+.visual-state-transition-curve-button:hover {
+  color: var(--theme-color-fg-highlight);
+  background-color: var(--theme-color-bg-4);
+}
+
+.visual-state-transition-changed-dot {
+  height: 16px;
+  width: 16px;
+  -webkit-mask-size: contain;
+  -webkit-mask-image: url(../assets/icons/editor/reset-to-default.svg);
+  background: var(--theme-color-fg-muted);
+  margin-left: 8px;
+}
+
+.visual-states-group-header {
+  color: var(--theme-color-fg-default);
+  margin-bottom: 3px;
+  margin-top: 15px;
+}
+
+.property-editor-visual-state-transition .label {
+  color: var(--theme-color-fg-highlight);
+}
+
+.visual-states-popup {
+  background-color: var(--theme-color-bg-3);
+  width: 100px;
+}
+
+.visual-states-transition-popup {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--theme-color-bg-3);
+}
+
+.visual-states-transitions-header {
+  background-color: var(--theme-color-bg-2);
+  color: var(--theme-color-fg-default);
+  padding: 4px;
+  padding-left: 10px;
+}

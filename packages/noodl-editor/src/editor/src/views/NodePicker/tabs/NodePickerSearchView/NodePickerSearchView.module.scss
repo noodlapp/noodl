@@ -1,0 +1,37 @@
+@use '@scss-mixins/layout' as *;
+@use '@scss-placeholders/util' as *;
+
+.Root {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.SearchContainer {
+  padding: 0 15px;
+}
+
+.TagList {
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-top: 12px;
+  display: flex;
+
+  > * {
+    margin-right: 5px;
+  }
+}
+
+.GridContainer {
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow-y: overlay;
+  z-index: 0;
+}
+
+.Grid {
+  @extend %reset-styles;
+  @include flex-layout(3);
+  align-items: stretch;
+  padding: 5px 10px 16px 15px;
+}

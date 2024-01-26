@@ -1,0 +1,47 @@
+.Root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.Inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.ChildrenContainer {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &.has-content-scroll {
+    overflow-y: overlay;
+    z-index: 0;
+  }
+
+  &.is-fill {
+    flex: 1;
+  }
+}
+
+.Footer {
+  position: sticky;
+  bottom: 0;
+
+  &::before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 15px var(--theme-color-bg-2);
+    pointer-events: none;
+  }
+}

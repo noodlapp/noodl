@@ -1,0 +1,8 @@
+{
+  "name": "@noodl/platform",
+  "version": "2.7.0",
+  "main": "src/index.ts",
+  "description": "Cross platform implementation of platform specific features.",
+  "author": "Noodl <info@noodl.net>",
+  "homepage": "https://noodl.net"
+}

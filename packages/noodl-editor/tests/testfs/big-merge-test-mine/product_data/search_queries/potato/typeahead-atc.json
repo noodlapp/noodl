@@ -1,0 +1,52 @@
+[
+    {
+        "title": "Simply Perfect Russet Potatoes, 5lb bag",
+        "img": "https://i5.walmartimages.com/asr/4eb3e02d-3afa-4046-8c47-de3681016fd3_1.4acacafcdf69b0b534608a1eeb971f59.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Simply Perfect Russet Potatoes, 5lb bag:</b><ul><li>5-pound bag of russet potatoes</li><li>Perfect for mashing, frying, baking, soups, and French fries</li><li>Rich in potassium, vitamins C and B6</li><li>Cholesterol, fat, and sodium free</li><li>Versatile, flavorful kitchen staple</li></ul>",
+            "short": "<ul><li>5-pound bag of russet potatoes</li><li>Perfect for mashing, frying, baking, soups, and French fries</li><li>Rich in potassium, vitamins C and B6</li></ul>"
+        },
+        "price": 2.27,
+        "reviews": {
+            "customerRating": 3.9,
+            "numReviews": 42
+        },
+        "size": {
+            "karfGroceryType": "Russet Potatoes",
+            "pricePerUnitUom": "LB",
+            "pricePerUnitQuantity": "5.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10447837",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Produce/Fresh Vegetables",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Produce",
+                    "url": "/cp/976793"
+                },
+                {
+                    "name": "Fresh Vegetables",
+                    "url": "/cp/1001435"
+                }
+            ]
+        }
+    }
+]

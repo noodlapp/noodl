@@ -1,0 +1,3148 @@
+[
+    {
+        "title": "Natural Balance Limited Ingredient Diets Sweet Potato & Fish Formula Dry Dog Food, 26 Pounds, Grain Free",
+        "img": "https://i5.walmartimages.com/asr/d73dc63a-eb25-4a81-8262-9ed5f948299c_1.e091b12f8d263f84ea5edf09dfe088d9.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Limited ingredient diet may help avoid certain food sensitivities</li><li>Salmon is a high-quality protein that helps maintain strong muscles</li><li>Natural fiber promotes healthy digestion</li><li>Grain free recipe with no artificial flavors or colors</li><li>Supports healthy skin & coat</li></ul>",
+            "short": "Formulated with a limited list of premium protein and carbohydrate sources, this L.I.D. Limited Ingredient Diets formula is excellent when you are seeking alternative ingredients for your pet. L.I.D. Limited Ingredient Diets Sweet Potato & Fish Formula Dry Dog Food is a grain-free diet that's also designed to maintain your dog's digestive health while supporting healthy skin and a shiny, luxurious coat."
+        },
+        "price": 59.67,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 29
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "26.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "146088404",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-26lbs": {
+                        "id": "size-26lbs",
+                        "name": "26 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "1TZ6A0BA7C4P"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 59.67,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.3,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 59.67,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.3,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-13lbs": {
+                        "id": "size-13lbs",
+                        "name": "13 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "59HTCOO48AYP"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 37.56,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.89,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 37.56,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.89,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-26lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/All Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "All Dry Dog Food",
+                    "url": "/cp/2043546"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Purina Beyond Grain Free Natural High Protein Dry Dog Food Texas Beef & Lentil Recipe - 7 lb. Bag",
+        "img": "https://i5.walmartimages.com/asr/0ed5fee4-8c09-4cf2-a7d2-9f2c8d403b58_3.740998f699ffeea827d10f955a08a801.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Regionally sourced Texas beef is the #1 ingredient</li> <li>Grain-free recipe</li> <li>30% high-protein formula supports healthy muscles</li> <li>Texas beef delivers a source of protein</li> <li>Made without poultry by-product meal</li> </ul>",
+            "short": "<ul><li>Regionally sourced Texas beef is the #1 ingredient</li><li>Grain-free recipe</li><li>30% high-protein formula supports healthy muscles </li></ul>"
+        },
+        "price": 19.59,
+        "reviews": {
+            "customerRating": 4.9,
+            "numReviews": 49
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "7.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586113200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "804256964",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-13lbs": {
+                        "id": "size-13lbs",
+                        "name": "13 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "5F8DDG7DEUR5"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 36.38,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 36.38,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-3lbs": {
+                        "id": "size-3lbs",
+                        "name": "3 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "2HE5J6GKZ3UB"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 12.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 4.33,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 12.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 4.33,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-7lbs": {
+                        "id": "size-7lbs",
+                        "name": "7 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "5RW68X4K5FXL"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.59,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.8,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.59,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.8,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-7lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Purina Beyond Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Purina Beyond Dry Dog Food",
+                    "url": "/cp/9132116"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Pure Balance Lamb & Brown Rice Recipe Dry Dog Food, 30 lb",
+        "img": "https://i5.walmartimages.com/asr/9641be00-9618-4d65-b902-51581b98ea0a_2.1d3d7dfbae5ce91ac4042777efc8bb01.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Real lamb is the first ingredient</li><li>No added corn, wheat, or soy</li><li>Natural ingredients with added vitamins & minerals</li><li>No fillers, artificial flavors, artificial preservatives or artificial colors</li></ul>",
+            "short": "<ul><li>Real lamb is the first ingredient</li><li>No added corn, wheat, or soy</li><li>Natural ingredients with added vitamins & minerals</li></li>"
+        },
+        "price": 39.97,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 4
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "30"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "112793565",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-30lbs": {
+                        "id": "size-30lbs",
+                        "name": "30 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "278OFWZNX8UH"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 39.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 39.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-15lbs": {
+                        "id": "size-15lbs",
+                        "name": "15 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "4UO0D500NJTD"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 17.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.19,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 17.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.19,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Pure Balance Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Pure Balance Dry Dog Food",
+                    "url": "/cp/8279927"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Gentle Giants Canine Nutrition Meat Lovers with Real Beef and Real Bacon Dry Dog Food, 24 lbs",
+        "img": "https://i5.walmartimages.com/asr/67e260dc-9763-4d85-a0a5-69896c727b34_12.f7bc4ccb257d2ad83037edcfe5da7ed5.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<p><i>Key Benefits</i></p> <p>Natural, 100% Poultry Free, Non-GMO Super Premium Ingredients provides complete and balanced nutrition for dogs and puppies of all breeds, all sizes, and all ages, even those with sensitive stomachs</p> <p>Lower saturated fat inside every kibble and no greasy coating of saturated fat on the outside of every kibble maximizes nutrition and supports longevity.<br /> <br /> Added New Zealand Green Mussels is a superfood functional ingredient that helps support your petâs healthy joints, reduces inflammation, and is an excellent natural source of glucosamine and chondroitin</p> <p>Added prebiotics and probiotics support healthy intestinal regularity<br /> <br /> Added Chelated vitamins and minerals, antioxidants and supplements such as Vitamin A, Vitamin B12, Vitamin C, Vitamin E, Taurine and Niacin improves digestion, increases absorption of nutrients, maximizes nutrition, and supports optimal health<br /> <br /> Gentle Giants is a unique rotational diet of dry and wet dog and puppy food that can be fed interchangeably and mixed together with other Gentle Giants dog foods for added taste and variety.</p> <p><i>What Makes Gentle Giants So Healthy and So Different From Other Dog Foods?</i></p> Less Saturated Fat on the inside of each kibble<br /> <br /> No Greasy Coating of Saturated Fat on the outside of each kibble<br /> <br /> No Fillers, No Corn, No Wheat, No Soy, No Gluten, No BHA, No BHT, No Ethoxyquin, No By-Products, No Artificial Colors or Dyes, No Artificial Flavors, and No Artificial Preservatives<br /> <br />",
+            "short": "<ul><li>100% Poultry Free</li><li>Non-GMO Ingredients</li><li>Freshly cooked beef &amp; bacon</li></ul><p></p>"
+        },
+        "price": 34.96,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 71
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "24.00"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586113200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "595408342",
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dog Food by Brand/Gentle Giants Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dog Food by Brand",
+                    "url": "/cp/4978338"
+                },
+                {
+                    "name": "Gentle Giants Dog Food",
+                    "url": "/cp/8793480"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Pure Balance Grain-Free Wild & Free Bison, Pea, Potato & Venison Recipe Dry Dog Food, 24 lb",
+        "img": "https://i5.walmartimages.com/asr/11370751-5ebb-4569-8eda-3d1078ed7c50_1.6e64076fa760c2a50cafc62c70f4469a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>No corn, wheat, soy, or grains</li><li>#1 ingredient is real bison</li><li>Natural ingredients</li><li>Healthy immune system support</li><li>Healthy digestion support</li><li>24lb bag of dog food</li></ul>",
+            "short": "<ul><li>No corn, wheat, soy, or grains</li><li>#1 ingredient is real bison</li><li>Natural ingredients</li></ul>"
+        },
+        "price": 49.94,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 132
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "24"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "119930097",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-24lbs": {
+                        "id": "size-24lbs",
+                        "name": "24 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "4S9A18B5H9YR"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 49.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.08,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 49.94,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.08,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-11lbs": {
+                        "id": "size-11lbs",
+                        "name": "11 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "18GVAVVVV9K3"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 25.64,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.33,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 25.64,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.33,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Pure Balance Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Pure Balance Dry Dog Food",
+                    "url": "/cp/8279927"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Purina Pro Plan Dry Puppy Food FOCUS Lamb & Rice Formula - 34 lb. Bag",
+        "img": "https://i5.walmartimages.com/asr/b14b932d-e154-457c-bee6-4e7911b45678_1.1212fc9dc60509060a5268f4a7b69ccf.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Made with high-quality protein, including real lamb as the #1 ingredient</li> <li>DHA from fish oil helps to nourish brain and vision development</li> <li>Antioxidants help support a puppy's developing immune system</li> <li>Phosphorous, calcium and other minerals build strong teeth and bone</li> <li>Vitamin A and linoleic acid, an omega-6 fatty acid, to promote your puppy's healthy skin and coat</li> </ul>",
+            "short": "<ul><li>Made with high-quality protein, including real lamb as the #1 ingredient</li><li>DHA from fish oil helps to nourish brain and vision development</li><li>Antioxidants help support a puppy's developing immune system</li></ul>"
+        },
+        "price": 47.99,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 99
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "34.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "34198199",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-18lbs": {
+                        "id": "size-18lbs",
+                        "name": "18 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "301795DS7K37"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 38.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.08,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 38.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.08,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-34lbs": {
+                        "id": "size-34lbs",
+                        "name": "34 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "4TQIQ7PV8HLT"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 47.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.39,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 47.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.39,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-18lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/All Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "All Dog Food",
+                    "url": "/cp/1015000"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Purina Dog Chow Dry Dog Food Complete Adult With Real Beef 50 lb. Bag",
+        "img": "https://i5.walmartimages.com/asr/043d6715-b45e-4fa0-879c-5fa5ee4ba0c4_3.e1625ad41c2ad5ed66f6ed145ec5fb78.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Made with real beef</li> <li>100% complete and balanced for adult dogs</li> <li>Contains 23 essential vitamins and minerals</li> <li>Supports your dog's immune system</li> <li>Now available for Walmart Online Grocery Pickup </li> <li>Highly digestible formula</li> <li>High-quality protein for strong muscles</li> <li>Delicious taste of beef that dogs love</li> <li>Crunchy kibble helps keep his teeth clean</li> <li>No artificial flavors</li> </ul>",
+            "short": "<ul><li>Made with real beef</li><li>100% complete and balanced for adult dogs</li><li>Contains 23 essential vitamins and minerals</li></ul>"
+        },
+        "price": 22.98,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 92
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "50.4"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "784167902",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-20lbs": {
+                        "id": "size-20lbs",
+                        "name": "20 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6HXV5VC0BR7L"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 11.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.589,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 11.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.589,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-50lbs": {
+                        "id": "size-50lbs",
+                        "name": "50 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "11HKV7QQCBEV"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 22.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.456,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 22.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.456,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/All Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "All Dry Dog Food",
+                    "url": "/cp/2043546"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Rachael Ray Nutrish Natural Dry Dog Food, Real Chicken & Veggies Recipe, 40 lbs",
+        "img": "https://i5.walmartimages.com/asr/acde6fc7-f0bb-4ee1-80a2-f12df3bba3be_1.a19baaa3cf20297263c5cdecd5ce59f8.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Rachael Ray Nutrish Natural Dry Dog Food, Real Chicken and Veggies Recipe, 40 lbs:</strong><br /><ul><li>U.S. farm-raised chicken is the #1 ingredient</li><li>No poultry by-product meal, filler, wheat or wheat gluten ingredients</li><li>Natural dog food with added vitamins and minerals</li><li>Safely USA cooked with the world's best ingredients</li><li>No artificial flavors or artificial preservatives</li><li>Natural prebiotics help support healthy digestion</li><li>Formulated to meet the nutritional levels established by the AAFCO Dog Food Nutrient Profiles for adult maintenance</li><li>Net weight: 40 lbs</li></ul>",
+            "short": "<ul><li>U.S. farm-raised chicken is the #1 ingredient</li><li>Natural prebiotics help support healthy digestion</li><li>No artificial flavors or artificial preservatives</li></ul>",
+            "medium": "Rachael Ray Nutrish Real Chicken & Veggies Recipe is made with simple, natural ingredients, like real U.S. farm-raised chicken, which is always the number one ingredient, combined with wholesome vegetables."
+        },
+        "price": 41.42,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 3037
+        },
+        "size": {
+            "karfGroceryType": "Dry Dog Foods",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "40.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "35843036",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-28lbs": {
+                        "id": "size-28lbs",
+                        "name": "28 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "3OLQYTVB7I77"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 31.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.13,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 31.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.13,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-15.4lbs": {
+                        "id": "size-15.4lbs",
+                        "name": "15.4 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "3SCHUYHRDOB8"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003
+                    },
+                    "size-40lbs": {
+                        "id": "size-40lbs",
+                        "name": "40 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "5JGUPU8VA8CH"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000005,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 41.42,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 43.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.04,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 41.42,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 43.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.04,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-14lbs": {
+                        "id": "size-14lbs",
+                        "name": "14 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "0UPYVLTS0R3Z"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 16.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 18.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 16.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 18.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-6lbs": {
+                        "id": "size-6lbs",
+                        "name": "6 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "7F0LGTJRF5MQ"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 8.47,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 9.37,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.41,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 8.47,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 9.37,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.41,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-3.5lbs": {
+                        "id": "size-3.5lbs",
+                        "name": "3.5 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "0X2TT90F3KUQ"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.53,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.15,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.53,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.15,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-14lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dog Treats by Brand/All Dog Treats",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dog Treats by Brand",
+                    "url": "/cp/8052432"
+                },
+                {
+                    "name": "All Dog Treats",
+                    "url": "/cp/202087"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Pure Balance Chicken & Brown Rice Recipe Dry Dog Food, 30 lb",
+        "img": "https://i5.walmartimages.com/asr/c81218ec-7144-4383-8b37-745328b48f26_2.fc5ac8d3f8856410a0b14518b3b2a576.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong>Pure Balance Chicken & Brown Rice Recipe Dry Dog Food:<br /></strong><ul><li>Chicken is the first ingredient</li><li>No corn, wheat or soy</li><li>Natural ingredients with added vitamins and minerals</li><li>Pure Balance dog food contains no artificial flavors, artificial preservatives or artificial colors</li></ul>",
+            "short": "<ul><li>Real Chicken is the first ingredient</li><li>No Corn, Wheat or Soy Recipe</li><li>Natural ingredients with added vitamins & minerals</li></ul>",
+            "medium": "<p>Pure Balance Dog Food, Chicken &amp; Brown Rice Recipe, believes in one pure and simple thought--the best nutrition for your dog starts with the best ingredients. That's why each one of their super premium recipes contains no corn, wheat or soy and is made with carefully selected ingredients to ensure your dog gets all the nutrition he needs without any of the extra stuff he doesn't. This chicken and rice dog food contains real chicken to help build lean muscle mass in your dog so he can run, jump and play. Peas, carrots and cranberries combined with vitamins and minerals help to support a healthy immune and other vital systems. Natural omega 6 and 3 fatty acids from flaxseed and poultry fat, which is high in linoleic acid, help keep your dog's coat shiny and his skin healthy. The healthy whole grains like brown rice and oatmeal in this pure dog food deliver natural fiber that aids in digestion and proper elimination.</p>"
+        },
+        "price": 34.44,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 699
+        },
+        "size": {
+            "karfGroceryType": "Dry Dog Foods",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "30"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "21108354",
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Pure Balance Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Pure Balance Dry Dog Food",
+                    "url": "/cp/8279927"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Kibbles 'n Bits Bacon and Steak Dry Dog Food, 17.6-Pound",
+        "img": "https://i5.walmartimages.com/asr/0730552f-0e77-4e4a-a247-09ae9416a7a5_1.9dd195cf39099e6bb7d0705a6baec1e4.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul style=\"box-sizing: inherit; list-style-position: initial; list-style-image: initial; margin-bottom: 20px; padding-left: 2em; font-family: Arial, &quot;Helvetica Neue&quot;, Helvetica, Verdana, sans-serif; color: rgb(102, 102, 102); font-size: 12px;\"><li style=\"box-sizing: inherit; list-style: disc;\">Chewy bits made with real meat</li><li style=\"box-sizing: inherit; list-style: disc;\">Crunchy kibbles and meaty bits your dog craves</li><li style=\"box-sizing: inherit; list-style: disc;\">Dog-approved flavors of bacon and steak in every bite</li><li style=\"box-sizing: inherit; list-style: disc;\">100% complete and balanced for adult dogs</li></ul>",
+            "short": "Kibbles & Bits Knb Bacon/steak 17.6lb"
+        },
+        "price": 10.63,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 341
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "17.6"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "542763315",
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/All Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "All Dog Food",
+                    "url": "/cp/1015000"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Kibbles 'n Bits Bistro Mini Bits Small Breed Oven Roasted Beef Flavor Dog Food, 17.6-Pound",
+        "img": "https://i5.walmartimages.com/asr/39305b15-4429-4d1a-8562-b442d15c2ea6_1.4da77f1041379d047c4a8b4ace700498.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Mini-Sized Pieces that are Easy to Chew</li><li>High-Quality Protein to Help Support Strong Muscles</li><li>Oven Roasted Beef Flavor + Spring Vegetable &amp; Apple Flavors</li><li>Thoughtfully Prepared with Crunchy Kibbles and Tender Meaty Bits</li><li>100% Complete and Balanced Nutrition for All Life Stages</li></ul>",
+            "short": "<li>Mini-Sized Pieces that are Easy to Chew</li><li>High-Quality Protein to Help Support Strong Muscles</li><li>Oven Roasted Beef Flavor plus Spring Vegetable and Apple Flavors</li>"
+        },
+        "price": 10.63,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 105
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "17.6"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "140840074",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-17.6lbs": {
+                        "id": "size-17.6lbs",
+                        "name": "17.6 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "5WO6FR6C89IG"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.63,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.604,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.63,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.604,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-17.6lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/All Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "All Dry Dog Food",
+                    "url": "/cp/2043546"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Purina Moist & Meaty Dry Dog Food, Burger with Cheddar Cheese Flavor, 12 ct. Pouch",
+        "img": "https://i5.walmartimages.com/asr/7eb34017-6601-4d3c-8c44-887f59019171_2.88c7a43e5fe07619fe7f1ab7bbda8564.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Made with Real Beef</li><li>Serve up the Smiles</li><li>Quick</li><li>No Mess</li><li>100% Complete & Balanced Nutrition for Adult Dogs</li></ul>",
+            "short": "<ul> <li>Made with Real Beef</li> <li>Serve up the Smiles</li> <li>Quick, single serve pouches</li> </ul>",
+            "medium": "Purina Moist &amp; Meaty Burger with Cheddar Cheese Flavor is formulated to meet the nutritional levels established by the AAFCO Dog Food Nutrient Profiles for maintenance of adult dogs."
+        },
+        "price": 5.48,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 257
+        },
+        "size": {
+            "karfGroceryType": "Dry Dog Foods",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "4.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "10804980",
+        "variantCategoriesMap": {
+            "count_per_pack": {
+                "id": "count_per_pack",
+                "name": "Count Per Pack",
+                "type": "DROPDOWN",
+                "variants": {
+                    "count_per_pack-1": {
+                        "id": "count_per_pack-1",
+                        "name": "1",
+                        "categoryId": "count_per_pack",
+                        "products": [
+                            "21X6ZXSFEEE3"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 5.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.22,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 5.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.22,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "count_per_pack-1"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/All Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "All Dog Food",
+                    "url": "/cp/1015000"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Rachael Ray Nutrish Natural Premium Dry Dog Food, Real Beef, Pea, & Brown Rice Recipe, 40 Lbs",
+        "img": "https://i5.walmartimages.com/asr/b008c23e-335a-49ac-861b-9198047ec1f1_1.6a62f0e7f79ac1190d7b5ac02fa9c500.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>U.S. farm-raised beef is the #1 ingredient</li><li>Natural prebiotics help support healthy digestion</li><li>No artificial flavors or artificial preservatives</li><li>No poultry by-product meal, filler, wheat, or wheat gluten ingredients</li><li>Natural dog food with added vitamins & minerals</li><li>Safely cooked with the world's best ingredients</li></ul>",
+            "short": "<ul><li>U.S. farm-raised beef is the #1 ingredient</li><li>Natural prebiotics help support healthy digestion</li><li>No artificial flavors or artificial preservatives</li></ul>"
+        },
+        "price": 41.42,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 1824
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "40.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 7,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 7,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "251607370",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-28lbs": {
+                        "id": "size-28lbs",
+                        "name": "28 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6G1Y3QF1IZB4"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 31.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.13,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 31.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.13,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-15.4lbs": {
+                        "id": "size-15.4lbs",
+                        "name": "15.4 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6U8H273E55JA"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003
+                    },
+                    "size-40lbs": {
+                        "id": "size-40lbs",
+                        "name": "40 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "4QCIEACHTHVK"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000005,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 41.42,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.04,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 41.42,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.04,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-14lbs": {
+                        "id": "size-14lbs",
+                        "name": "14 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "70GJAT988G85"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 16.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 16.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-6lbs": {
+                        "id": "size-6lbs",
+                        "name": "6 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "3JVSAZXG4E5J"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 8.47,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 9.37,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.41,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 8.47,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 9.37,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.41,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-3.5lbs": {
+                        "id": "size-3.5lbs",
+                        "name": "3.5 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "774SUBXH18SL"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.32,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.09,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.32,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.09,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-40lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Rachael Ray Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Rachael Ray Dry Dog Food",
+                    "url": "/cp/6660647"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Ol' Roy High Protein with Beef & Lamb Flavor Dry Dog Food, 50 lb",
+        "img": "https://i5.walmartimages.com/asr/195bec9b-403a-47eb-87e9-e0b0d7c03516_2.ee8c705fcf7e0ecc507fac872fe858fb.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Ol' Roy High Protein with Beef & Lamb Flavor Dry Dog Food, 50 lb:</b><ul><li>Specially formulated for active dogs</li><li>New enhanced formula with natural beef and lamb flavor and lowered crude fat</li><li>Formulated with vitamins & minerals to promote overall health</li><li>Calcium and phosphorus for strong teeth and bones</li><li>Healthy fats containing Omega-6 fatty acids to help nourish your dog's skin and promote a shiny, healthy coat</li><li>Nutrient-rich animal proteins to help maintain your dog's muscles and support a healthy immune system</li><li>Wholesome carbohydrates and fiber to provide energy for playtime and support a healthy digestive tract</li></ul>",
+            "short": "<ul><li>Specially formulated for active dogs</li><li>New enhanced formula with natural beef and lamb flavor and lowered crude fat</li><li>Formulated with vitamins & minerals to promote overall health</li></ul>"
+        },
+        "price": 23.98,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 264
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "50"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "287903134",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-50lbs": {
+                        "id": "size-50lbs",
+                        "name": "50 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6GFUIX1XZK86"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 23.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 23.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-15lbs": {
+                        "id": "size-15lbs",
+                        "name": "15 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "3GT9O6XFNNLW"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 10.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.732,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 10.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.732,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-15lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dog Food by Brand/Ol' Roy Dog Supplies",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dog Food by Brand",
+                    "url": "/cp/4978338"
+                },
+                {
+                    "name": "Ol' Roy Dog Supplies",
+                    "url": "/cp/7407440"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Kibbles 'N Bits Bistro Oven Roasted Beef, Spring Vegetable & Apple Flavor Dog Food, 34.1-Pound",
+        "img": "https://i5.walmartimages.com/asr/8fe92fc7-a344-4ead-9dcb-ba1420ea671d_1.56a05e984be5ac88e5b778b40d4f4d02.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Oven Roasted Beef Flavor + Spring Vegetable & Apple Flavors</li><li>Thoughtfully Prepared with Crunchy Kibbles and Tender Meaty Bits</li><li>100% Complete and Balanced Nutrition for All Life Stages</li><li>23 Essential Vitamins & Minerals</li><li>Antioxidant Rich</li></ul>",
+            "short": "<li>Oven Roasted Beef Flavor plus Spring Vegetable and Apple Flavors</li><li>Thoughtfully Prepared with Crunchy Kibbles and Tender Meaty Bits</li><li>Complete and Balanced Nutrition for All Life Stages</li>"
+        },
+        "price": 16.87,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 152
+        },
+        "size": {
+            "karfGroceryType": "Dry Dog Foods",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "34.1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "urgentQuantity": 3,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "145494971",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-34.1lbs": {
+                        "id": "size-34.1lbs",
+                        "name": "34.1 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "5VN9ZMZNMJVO"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 16.87,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.495,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 16.87,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.495,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-34.1lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/All Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "All Dry Dog Food",
+                    "url": "/cp/2043546"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Blue Buffalo Life Protection Formula Chicken and Brown Rice Adult Dry Dog Food, 30-lb",
+        "img": "https://i5.walmartimages.com/asr/d56ae9ec-bb09-4295-95a1-16b06e1b6430_1.c8aba21d44c85bcf7e00a4c788d3434b.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Blue Buffalo Life Protection Formula Natural Adult Dry Dog Food, Chicken and Brown Rice:<br /><br /></strong><ul><li>Over 100 lbs feed 5 cups* plus 1/2 cup for each additional 20 lbs</li><li>81 to 100 lbs 4 1/4 -5 cups*</li><li>61 to 80 lbs 3 1/2 -4 1/4 cups*</li><li>41 to 60 lbs 2 1/2 -3 1/2 cups*</li><li>26 to 40 lbs 1 3/4 -2 1/2 cups*</li><li>16 to 25 lbs 1 1/4 -1 3/4 cups*</li><li>Up to 15 lbs 1/2 - 1 1/4 cups*</li><li>Blue Buffalo dog food chicken is made for adult dogs</li><li>377 kilocalories/cup; 3,613 kilocalories/kg</li><li>Blue Life Protection includes glucosamine for joint health and mobility</li><li>Contains omega-3 and 6 fatty acids for a healthy coat and skin</li><li>No corn, wheat, soy, by-product meals, or artificial flavors and preservatives</li><li>Feeding guidelines: crude protein 24.0% min, crude fat 14.0% min, crude fiber 5.0% max, moisture 10.0% max, calcium 1.0% min, phosphorus 0.7% min, Omega 3 fatty acids* 0.5% min, Omega 6 fatty acids* 3.0% min, glucosamine* 400 mg/kg min</li><li>Available in several sizes, including: 6 lbs, 15 lbs, 24 lbs, 30 lbs</li></ul><br />Blue Buffalo pet foods balance essential nutrients and antioxidants for a holistically healthy diet. Six important nutrient classes (proteins, fats, carbohydrates, vitamins, minerals, and water) serve your pet's growth and energy needs. All Blue Buffalo foods contain no chicken (or poultry) by-product meals, no artificial flavors, colors, or preservatives, and no corn, wheat, or soy. Keep your dog happy and healthy with Blue Buffalo.",
+            "short": "Treat your dog like family with Blue Buffalo, pet food made with natural, high quality ingredients."
+        },
+        "price": 49.98,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 50
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "30"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "140694771",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-30lbs": {
+                        "id": "size-30lbs",
+                        "name": "30 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "38UTAVJSG2SM"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 49.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.67,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 49.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.67,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-24lbs": {
+                        "id": "size-24lbs",
+                        "name": "24 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6RQY85U1COIS"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 38.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.62,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 38.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.62,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-15lbs": {
+                        "id": "size-15lbs",
+                        "name": "15 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "1ZYK49MOJOOU"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 29.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 29.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-6lbs": {
+                        "id": "size-6lbs",
+                        "name": "6 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "4B5JMUYONG9Y"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 15.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 15.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 2.66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Blue Buffalo Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Blue Buffalo Dry Dog Food",
+                    "url": "/cp/2483056"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Pure Balance Grain-Free Small Breed Chicken & Pea Recipe Dry Dog Food, 11 lb",
+        "img": "https://i5.walmartimages.com/asr/9172c557-1e3e-4d47-8403-66778ffdc292_1.22ae3a268807ceb92e43cfdd25220d9d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Grain free formula</li><li>Small bites for small breeds</li><li>Natural ingredients</li><li>#1 ingredient is real chicken</li><li>No corn, wheat, soy, grains, fillers, artificial preservatives, artificial flavors, or artificial colors</li><li>11lb bag</li></ul>",
+            "short": "<ul><li>Grain free formula</li><li>Small bites for small breeds</li><li>Natural ingredients</li></ul>"
+        },
+        "price": 16.22,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 137
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "11"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "685902650",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-11lbs": {
+                        "id": "size-11lbs",
+                        "name": "11 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6JNML94ZFU7C"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 16.22,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.47,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 16.22,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.47,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-4lbs": {
+                        "id": "size-4lbs",
+                        "name": "4 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6Z16C5GX0MO7"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 6.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.75,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 6.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.75,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Pure Balance Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Pure Balance Dry Dog Food",
+                    "url": "/cp/8279927"
+                }
+            ]
+        }
+    },
+    {
+        "title": "(12 Pack) PEDIGREE Chopped Ground Dinner With Beef & With Chicken Adult Canned Wet Dog Food Variety Pack, 13.2 oz. Cans",
+        "img": "https://i5.walmartimages.com/asr/0a9cf158-0a3b-4ff7-898a-7bce23776579_1.f531092c0db0028356001d383b9d63fd.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Contains twelve (12) 13.2-ounce cans of (6) PEDIGREE Meaty Ground Dinner With Chopped Beef and (6) PEDIGREE Meaty Ground Dinner With Chopped Chicken</li><li>USA crafted dog food made with the world's finest ingredients<br></li><li>Made with real chicken or beef for an irresistable taste dogs will love</li><li>PEDIGREE Chopped Ground Dinner adult wet dog food is 100% Complete and Balanced</li><li>Mix PEDIGREE Wet Dog Food into their kibble for added flavor</li><li>PEDIGREE Chopped Ground Dinner dog food is made with the world's finest ingredients.</li><li>Hearty, meaty recipes provide a soft texture for flavor and variety</li></ul>",
+            "short": "<li>Made with real chicken or beef for an irresistable taste dogs will love</li><li>PEDIGREE Chopped Ground Dinner adult wet dog food is 100% Complete and Balanced</li>",
+            "medium": "Help keep your dog healthy and happy every day by feeding a variety of Pedigree Meaty Ground Dinners including Chopped Beef and Chopped Chicken. Delicious and nutritious, your furry friend will get all all the vitamins and minerals needed. These irresistible flavors will quickly become your canine's favorite."
+        },
+        "price": 10.26,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 212
+        },
+        "size": {
+            "karfGroceryType": "Wet Dog Foods",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "158.4"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "14906404",
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Wet Dog Food/All Wet Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Wet Dog Food",
+                    "url": "/cp/1429994"
+                },
+                {
+                    "name": "All Wet Dog Food",
+                    "url": "/cp/2737733"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Purina Moist & Meaty Wet Dog Food Rise & Shine Awaken Bacon & Egg Flavor - 12 ct. Pouch",
+        "img": "https://i5.walmartimages.com/asr/f5e2e90d-dbf9-43ad-8b81-06d6175f660f_2.ab036b3a40633fdd05aa61525598d6f4.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Made with Real Bacon</li> <li>Serve up the Smiles</li> <li>Quick</li> <li>No Mess</li> <li>100% Complete &amp; Balanced Nutrition for Adult Dogs</li> </ul>",
+            "short": "<li>Made with Real Bacon</li><li>Serve up the Smiles</li><li>Quick, single serve pouches</li>",
+            "medium": "Purina Moist and Meaty Rise and Shine Awaken Bacon and Egg Flavor is formulated to meet the nutritional levels established by the AAFCO Dog Food Nutrient Profiles for maintenance of adult dogs."
+        },
+        "price": 5.48,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 90
+        },
+        "size": {
+            "karfGroceryType": "Dry Dog Foods",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "4.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "17252406",
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/All Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "All Dry Dog Food",
+                    "url": "/cp/2043546"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Gentle Giants World Class Canine Nutrition Dog and Puppy Food Classic Quality of Life Chicken Feast, 33-lb",
+        "img": "https://i5.walmartimages.com/asr/dfc87dee-6f7b-4352-96da-a1c09973bace_1.97ec62393386af50177eea24a55678d4.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li><p class=\"MsoNormal\" style=\"line-height: normal; display: inline !important;\"><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: FR-CA\">Natural, Non-GMO Super Premium Ingredients provides complete and balanced nutrition for dogs and puppies of all breeds, all sizes, and all ages, even those with sensitive stomachs</span></p></li><li><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: FR-CA\">Lower saturated fat inside every kibble and no greasy coating of saturated fat on the outside of every kibble maximizes nutrition and supports longevity.</span></li><li><span style=\"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif; mso-fareast-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language: FR-CA\"> Added New Zealand Green Mussels is a superfood functional ingredient that helps support your pet?s healthy joints, reduces inflammation, and is an excellent natural source of glucosamine and chondroitin</span></li><li><span style=\"font-size: 12pt; line-height: 107%; font-family: &quot;Times New Roman&quot;, serif;\">Added prebiotics and probiotics support healthy intestinal regularity</span></li><li><span style=\"font-size: 12pt; line-height: 107%; font-family: &quot;Times New Roman&quot;, serif;\"> Added Chelated vitamins and minerals, antioxidants and supplements such as Vitamin A, Vitamin B12, Vitamin C, Vitamin E, Taurine and Niacin improves digestion, increases absorption of nutrients, maximizes nutrition, and supports optimal health</span></li><li>Gentle Giants is a unique rotational diet of dry and wet dog and puppy food that can be fed interchangeably and mixed together with other Gentle Giants dog foods for added taste and variety.</li></ul>",
+            "short": "<li>Natural dog food</li><li>Safe for sensitive stomachs</li><li>Complete nutrition for all breeds and all ages</li>",
+            "medium": "This natural dog food is made with farm raised chicken, three fruits, 12 vegetables, vitamins, minerals, glucosamine, chondroitin, prebiotics and probiotics. It provides complete nutrition for all breeds of dog at all ages. Gentle Giants is the only food that your dog needs for its entire lifetime &mdash; from the first bites as a puppy to the senior years. Gentle Giants dog food is world class nutrition for every breed of dog, for every age and for every stage of life!<br><br>Burt Ward, Robin the Boy Wonder from the Batman TV series, and his wife, Tracy, have developed a special dog food and a unique feeding and care program that has achieved amazing success."
+        },
+        "price": 34.96,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 953
+        },
+        "size": {
+            "karfGroceryType": "Dry Cat Foods",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "33"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "46701589",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-30lbs": {
+                        "id": "size-30lbs",
+                        "name": "30 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "3M0JC9URIEG7"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 34.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 34.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-33lbs": {
+                        "id": "size-33lbs",
+                        "name": "33 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "5II1ZJXU4NUX"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 34.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.06,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 34.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.06,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-15lbs": {
+                        "id": "size-15lbs",
+                        "name": "15 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "2OHKAAPPAC15"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 21.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.42,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 21.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.42,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-3.5lbs": {
+                        "id": "size-3.5lbs",
+                        "name": "3.5 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "3HVMOSYCR6KM"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 5.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.7,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 5.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.7,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-7.5lbs": {
+                        "id": "size-7.5lbs",
+                        "name": "7.5 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "1F1TRVNUFRLP"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 12.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.73,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 12.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.73,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "size-33lbs"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dog Food by Brand/Gentle Giants Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dog Food by Brand",
+                    "url": "/cp/4978338"
+                },
+                {
+                    "name": "Gentle Giants Dog Food",
+                    "url": "/cp/8793480"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Purina ONE Natural Dry Dog Food SmartBlend Small Bites Beef & Rice Formula 31.1 lb. Bag",
+        "img": "https://i5.walmartimages.com/asr/574b6ec0-fe6f-4ff7-9d63-dccc935cef9e_2.fffc084e31e2dba237e74b52f7011c2b.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Real beef is the #1 ingredient</li> <li>Antioxidant blend to help support a strong immune system</li> <li>Natural sources of glucosamine to promote joint health</li> <li>Omega-6 fatty acids help support healthy skin and coat</li> <li>Now available for Walmart Online Grocery Pickup </li> <li>A combination of tender morsels and small, easy-to-eat, crunchy kibble for a taste dogs love</li> <li>Made with high-quality ingredients</li> <li>Highly-digestible formula, so more nutrition goes to work inside your dog</li> <li>100% complete and balanced nutrition for adult dogs</li> <li>Backed by Purina's 90+ years of innovation</li> </ul>",
+            "short": "<ul><li>Real beef is the #1 ingredient</li><li>Antioxidant blend to help support a strong immune system</li><li>Natural sources of glucosamine to promote joint health</li></ul>",
+            "medium": "Discover what makes SmartBlend smart. Purina ONE is committed to delivering whole body health for your dog today and tomorrow. That's why we are continually exploring possibilities in nutrition and working to turn those possibilities into positive differences in your dog's life."
+        },
+        "price": 33.99,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 336
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "31.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "34201637",
+        "variantCategoriesMap": {
+            "size": {
+                "id": "size",
+                "name": "Size",
+                "type": "DROPDOWN",
+                "variants": {
+                    "size-8lbs": {
+                        "id": "size-8lbs",
+                        "name": "8 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "1LI036TG5T11"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 12.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.55,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 12.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.55,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-31.1lbs": {
+                        "id": "size-31.1lbs",
+                        "name": "31.1 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "2NIT78D8L71S"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 33.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.08,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 33.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 1.08,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "size-4lbs": {
+                        "id": "size-4lbs",
+                        "name": "4 lbs",
+                        "categoryId": "size",
+                        "products": [
+                            "6QPCJCH5JV4V"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 12.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 3.09,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 12.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 3.09,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/Dry Dog Food/Purina One Dry Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "Dry Dog Food",
+                    "url": "/cp/1636265"
+                },
+                {
+                    "name": "Purina One Dry Dog Food",
+                    "url": "/cp/3538741"
+                }
+            ]
+        }
+    },
+    {
+        "title": "(24 Pack) CESAR Wet Dog Food Classic Loaf in Sauce Beef Recipe, Filet Mignon, Grilled Chicken and Porterhouse Steak Variety Pack, 3.5 oz. Easy Peel Trays",
+        "img": "https://i5.walmartimages.com/asr/bd25da63-6f0f-4249-8e4b-578529216ef7_1.c8b81fae3afdddc519ea097be374885a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Contains one (1) 24 count case of 3.5 oz. trays of CESAR Wet Dog Food Classic Loaf in Sauce Beef Recipe, Filet Mignon, Grilled Chicken, and Porterhouse Steak Flavors Variety Pack: (6) Beef Recipe, (6) Filet Mignon Flavor, (6) Grilled Chicken Flavor, (6) Porterhouse Steak Flavor (May receive new or old packaging)</li><li>Crafted without grains and with US Chicken or US Beef as the #1 ingredient</li><li>CESAR Wet Dog Food is complete and balanced and fortified with vitamins and minerals to help dogs of all sizes, especially small breeds, stay healthy</li><li>Cesar makes a great meal on its own or as a dog food topper mixed with dry food</li><li>USA crafted dog food made with the world's finest ingredients<br></li><li>This gourmet dog food is served in convenient trays with easy, peel-away freshness seals</li></ul>",
+            "short": "<ul><li>Cesar makes a great meal on its own or as a dog food topper mixed with dry food</li></ul>",
+            "medium": "Contains 6 with Beef in Meaty Juices, 6 Filet Mignon Flavor in Meaty Juices, 6 Grilled Chicken Flavor in Meaty Juices, 6 Porterhouse Steak Flavor in Meaty Juices.<br>We adore small dogs for their bravado and brains, antics and affection. Relationships with them are special ones. Share cesar canine cuisine with your dog today. After all, shouldn't he enjoy food that's as extraordinary as he is?<br>Nutritional Guarantee: Cesar Canine Cuisine with Beef in Meaty Juices is formulated to meet the nutritional levels established by the AAFCO Dog Food Nutrient Profiles for maintenance. Nutritional Guarantee: Cesar Canine Cuisine Filet Mignon Flavor in Meaty Juices is formulated to meet the nutritional levels established by the AAFCO Dog Food Nutrient Profiles for maintenance.<br>Nutritional Guarantee: Cesar Canine Cuisine Grilled Chicken Flavor in Meaty Juices is formulated to meet the nutritional levels established by the AAFCO."
+        },
+        "price": 19.47,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 276
+        },
+        "size": {
+            "karfGroceryType": "Wet Dog Foods",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "84"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "38026133",
+        "category": {
+            "categoryPath": "Home Page/Pets/Dogs/Dog Food & Treats/All Dog Food",
+            "path": [
+                {
+                    "name": "Pets",
+                    "url": "/cp/5440"
+                },
+                {
+                    "name": "Dogs",
+                    "url": "/cp/202072"
+                },
+                {
+                    "name": "Dog Food & Treats",
+                    "url": "/cp/6432755"
+                },
+                {
+                    "name": "All Dog Food",
+                    "url": "/cp/1015000"
+                }
+            ]
+        }
+    }
+]

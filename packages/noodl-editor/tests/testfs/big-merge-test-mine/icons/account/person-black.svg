@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>person-black</title>
+    <desc>Created with Sketch.</desc>
+    <g id="person-black" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn_18_user">
+            <rect id="boundry" x="0" y="0" width="18" height="18"></rect>
+            <path d="M4.5,5.5 C4.5,3.019 6.519,1 9,1 C11.481,1 13.5,3.019 13.5,5.5 C13.5,7.004 12.791,8.339 11.679,9.157 C13.59,9.676 15,11.427 15,13.5 L15,17 L3,17 L3,13.5 C3,11.411 4.431,9.65 6.364,9.145 C5.235,8.327 4.5,6.997 4.5,5.5 Z M4,16 L14,16 L14,13.5 C14,11.57 12.43,10 10.5,10 L7.5,10 C5.57,10 4,11.57 4,13.5 L4,16 Z M9,2 C7.07,2 5.5,3.57 5.5,5.5 C5.5,7.43 7.07,9 9,9 C10.93,9 12.5,7.43 12.5,5.5 C12.5,3.57 11.02,2 9.091,2 L9,2 Z" id="🎨Color" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

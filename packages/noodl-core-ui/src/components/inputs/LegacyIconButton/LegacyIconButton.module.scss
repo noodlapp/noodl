@@ -1,0 +1,28 @@
+.Root {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  transition: opacity var(--speed-turbo), background-color var(--speed-turbo);
+
+  &:hover {
+    opacity: 1;
+    background-color: var(--theme-color-bg-3);
+  }
+}
+
+.Icon {
+  width: 20px;
+  height: 20px;
+  transition: transform var(--speed-quick) var(--easing-base);
+  pointer-events: none;
+
+  &.is-rotated-180 {
+    transform: rotate(-180deg);
+  }
+}

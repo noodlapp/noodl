@@ -1,0 +1,52 @@
+<div style="position:relative">
+  <!-- string item template -->
+  <div data-template="item" class="proplist-item drop-target">
+    <!-- drop above indicator -->
+    <div class="drop-above-indicator" style="display:none; position:absolute;top:-1px;width:100%;height:2px;background-color:#6c6c6c;pointer-events: none">
+    </div>
+
+    <!-- drop below indicator -->
+    <div class="drop-below-indicator" style="display:none; position:absolute;bottom:-1px;width:100%;height:2px;background-color:#6c6c6c;pointer-events: none">
+    </div>    
+
+    <!-- edit mode -->
+    <div class="header proplist-header">
+        <div class="show-on-edit" style="height:35px; position:relative;">
+            <input type="string" class="sidebar-panel-dark-input name-edit" data-val="name"></input>
+        </div>
+
+        <span data-class="isDefault:stringlist-default-label" class="drag-handle component-ports-label hide-on-edit" data-text="name" data-bind="watch" data-click="onRenameClicked"></span>
+
+        <div class="sidebar-panel-edit-bar hide-on-edit">
+            <!-- rename -->
+            <button type="button" class="sidebar-panel-edit-button" data-click="onRenameClicked"><i class="fa fa-pencil-square-o"></i></button>
+
+            <!-- delete -->
+            <button type="button" data-class="isDefault:hidden" class="sidebar-panel-edit-button" data-click="onDeleteClicked"><i class="fa fa-trash-o"></i></button>
+        </div>
+    </div>
+
+    <div class="props"></div>
+  </div>
+
+  <button type="button" style="position:absolute; right:5px; top:-30px;" class="components-panel-edit-button"
+  data-click="onAddPortClicked"><i class="fa fa-plus"></i></button>
+  </div>
+
+ <!-- <div class="components-panel-header" style="position:relative;" >
+    <span data-text="title"></span>
+    
+    <button type="button" style="position:absolute; right:5px;" class="components-panel-edit-button"
+    data-click="onAddPortClicked"><i class="fa fa-plus"></i></button>
+    </div>-->
+
+  <!-- Items -->
+  <div class="items">
+  </div>
+  
+    <!-- Add entry button -->
+  <!--  <div class="proplist-add-button-container" style="position:absolute; right:5px; top:-30px;">
+        <button type="button" class="sidebar-panel-edit-button" data-click="onAddPortClicked"><i class="fa fa-plus"></i></button>
+    </div> -->
+
+</div>

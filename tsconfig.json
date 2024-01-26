@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["ES2019", "DOM", "DOM.Iterable", "ESNext"],
+    "target": "ES2019",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "module": "CommonJS"
+  },
+  "exclude": ["deps/parse-dashboard", "node_modules"]
+}

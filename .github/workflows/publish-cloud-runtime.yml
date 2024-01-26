@@ -1,0 +1,41 @@
+name: Publish cloud-runtime
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "publish-cloud-runtime"
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies 🏗
+        run: npm install
+
+      - name: Build
+        run: npm run build:cloud-runtime
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          name: "noodl-cloud-runtime"
+          path: "packages/noodl-viewer-cloud/publish"
+          retention-days: "12"
+
+      - name: Publish
+        run: npm publish --access=public
+        working-directory: packages/noodl-viewer-cloud/publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

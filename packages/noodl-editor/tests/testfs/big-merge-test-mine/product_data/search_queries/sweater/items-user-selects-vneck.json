@@ -1,0 +1,1522 @@
+[
+    {
+        "title": "Lands' End Men's Fine Gauge Supima V-Neck Classic Sweater",
+        "img": "https://i5.walmartimages.com/asr/0e6d631c-a4bd-4f65-8886-9e0ec0e8fa7e_1.924e5d4e3861b015e3afab2d8a8ed464.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Classic Fit: Slimmer through the body but not tight Soft, silky 100% Supima® cotton is America?s best Cotton is combed for smoothness and pill resistance Full fashioning ensures a ?made for you? fit Machine wash. Imported",
+            "short": "Merchandise"
+        },
+        "price": 15,
+        "reviews": {},
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "831780124",
+        "category": {
+            "categoryPath": "Home Page/Clothing/Mens Clothing/Mens Sweaters/Mens Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Mens Clothing",
+                    "url": "/cp/133197"
+                },
+                {
+                    "name": "Mens Sweaters",
+                    "url": "/cp/5281276"
+                },
+                {
+                    "name": "Mens Sweaters",
+                    "url": "/cp/1224678"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Nautica Mens Ribbed V-Neck Pullover Sweater Red S",
+        "img": "https://i5.walmartimages.com/asr/db746952-2ee7-410b-82d9-8138cb5a16c4_1.80e83caa0b9aaaf6da3e26fc5c3eb547.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "The easy pullover styling adds comfort, while the multi directional textured knit pattern adds depth and dimension to this must have Nautica v-neck sweater. Regular fit, v-neck, rib-knit wrist cuffs and hem. Soft and comfortable, excellent to wear in cool temperatures",
+            "short": "Nautica has become one of the most recognizable and leading water-inspired lifestyle brands globally. The brand carries men's, women's, and children's apparel as well as accessories and home. The brand is known for it's quality crafted classics and innovative performance capabilities.<ul> </ul>"
+        },
+        "price": 14.44,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 9.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 11.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 24.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_price",
+                "titlePrice": {
+                    "price": 9.99,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "893246594",
+        "variantCategoriesMap": {
+            "clothing_size_type": {
+                "id": "clothing_size_type",
+                "name": "Clothing Size Type",
+                "type": "DROPDOWN",
+                "variants": {
+                    "clothing_size_type-regular": {
+                        "id": "clothing_size_type-regular",
+                        "name": "Regular",
+                        "categoryId": "clothing_size_type",
+                        "products": [
+                            "58LEK8I8U6YB"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 14.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 14.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-s": {
+                        "id": "clothing_size-s",
+                        "name": "S",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "58LEK8I8U6YB"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 14.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 14.44,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Premium Mens Clothing/Premium Mens Sweaters/Premium Mens Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Premium Mens Clothing",
+                    "url": "/cp/1281701"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2027850"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2008826"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Calvin Klein Mens Extra Fine Merino Pullover Sweater",
+        "img": "https://i5.walmartimages.com/asr/d75e366b-a878-45e8-8309-f886f81f3010_1.8d84776b2a923ca000906e8afd86ee30.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Calvin Klein Mens Extra Fine Merino Pullover Sweater",
+            "short": "Brand: Calvin KleinStyle Number: 40J4797Category: SweaterStyle: PulloverCountry of Manufacture: MadagascarGender: MensCollar Style: V-neckMaterial: 100% Merino WoolFeatures: Ribbed Collar,Ribbed Cuffs,Ribbed HemPattern: SolidSeason: All SeasonsOccasion: CasualTheme: Modern"
+        },
+        "price": 48.83,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 1.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 6.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 10.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "969533912",
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Calvin Klein/Calvin Klein Men",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Calvin Klein",
+                    "url": "/cp/8438257"
+                },
+                {
+                    "name": "Calvin Klein Men",
+                    "url": "/cp/8848094"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Calvin Klein Mens Ribbed V-Neck Pullover Sweater",
+        "img": "https://i5.walmartimages.com/asr/c107aee0-b00c-4472-a27f-e6dcbe3a4c84_1.fd0a2e75ce430be4a35b1a4426b8f420.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Calvin Klein Mens Ribbed V-Neck Pullover Sweater",
+            "short": "Brand: Calvin KleinStyle Number: 40L4656Category: SweaterStyle: PulloverCountry of Manufacture: JordanGender: MensCollar Style: V-neckMaterial: 61% Cotton 36% Modal 3% Other FibersFeatures: Ribbed Collar,Ribbed Cuffs,Ribbed HemPattern: RibbedSeason: All SeasonsOccasion: CasualTheme: ModernAdditional"
+        },
+        "price": 52.46,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 5,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 1.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 5,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 6.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "urgentQuantity": 5,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 10.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 5,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 5,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "237128294",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Color",
+                "type": "SWATCH",
+                "categoryType": "IMAGE_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "IMAGE_NONTRANSACTIONAL",
+                "variants": {
+                    "actual_color-white-standardwhite": {
+                        "id": "actual_color-white-standardwhite",
+                        "name": "White - standardwhite",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/2cee6ab4-62c5-4408-9a2b-d9818ae18980_1.92ae23c0ba9c238028c72ac82cd5fe01.jpeg",
+                        "products": [
+                            "5DWC5I5Q7WQR",
+                            "6ZOQYBT29DDZ",
+                            "6UZ7OGOCM6PY"
+                        ],
+                        "images": [
+                            "F88CE85AA8724A078215B530B50B6B4B"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 52.98,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 59.17,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-yellow-buttercup": {
+                        "id": "actual_color-yellow-buttercup",
+                        "name": "Yellow - buttercup",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/8e7faafb-3294-4c36-a5ac-a56c13d9b5c0_1.bab7187fd123c8d01ce6240d0a5f6f1b.jpeg",
+                        "products": [
+                            "3UUIHUO35SW8",
+                            "4BZPI22FM3PW",
+                            "5946D5CY31H5",
+                            "2MGJ6S7J0WX2",
+                            "102SB94FT2QG",
+                            "2GLO9UFH7K9Q"
+                        ],
+                        "images": [
+                            "6317FC9F72C841E9A6514D1CAD05372A",
+                            "55E6CCC007AD4BFEBD2026E3DFD63765"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 33.63,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 59.17,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-blue-atmospherehtr": {
+                        "id": "actual_color-blue-atmospherehtr",
+                        "name": "Blue - atmospherehtr",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/38bf52b9-de6d-49d6-98b4-bbc289278d7a_1.739aa21861484d31697a63acbee4595c.jpeg",
+                        "products": [
+                            "6UWWW7Y1PLBC"
+                        ],
+                        "images": [
+                            "9ED4D8A1F385484B9B7CADEADD540E5C"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 58.51,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 58.51,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-xs": {
+                        "id": "clothing_size-xs",
+                        "name": "XS",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "5946D5CY31H5",
+                            "6UZ7OGOCM6PY"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 56.58,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 59.17,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-2xl": {
+                        "id": "clothing_size-2xl",
+                        "name": "2XL",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "2MGJ6S7J0WX2",
+                            "6UWWW7Y1PLBC",
+                            "6ZOQYBT29DDZ"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000005,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 37.9,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 58.51,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-l": {
+                        "id": "clothing_size-l",
+                        "name": "L",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "4BZPI22FM3PW"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 52.73,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 52.73,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-xl": {
+                        "id": "clothing_size-xl",
+                        "name": "XL",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "102SB94FT2QG",
+                            "5DWC5I5Q7WQR"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 52.46,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 59.17,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-m": {
+                        "id": "clothing_size-m",
+                        "name": "M",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "3UUIHUO35SW8"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 33.63,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 33.63,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-s": {
+                        "id": "clothing_size-s",
+                        "name": "S",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "2GLO9UFH7K9Q"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 53.5,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 53.5,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Lord and Taylor/All Premium Brands",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Lord and Taylor",
+                    "url": "/cp/4686374"
+                },
+                {
+                    "name": "All Premium Brands",
+                    "url": "/cp/9931792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Merino V-Neck Sweater",
+        "img": "https://i5.walmartimages.com/asr/42b0ae30-112b-4338-8a26-ba63c5a2eea5_1.473ac1f0196b3bb969db3561f4edf769.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Merino V-Neck Sweater",
+            "short": "A trusted classic that never goes out of style, this V-neck sweater is crafted from ultra-soft merino wool that helps wick away moisture and regulate body temperature while keeping you toasty.<ul><li>V-neck</li><li>Long sleeves</li><li>Ribbed cuffs and hem</li><li>Pullover style</li><li>Wo</li></ul>"
+        },
+        "price": 113,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1587495600000,
+                        "latestDeliveryDate": 1587754800000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "709464468",
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Premium Mens Clothing/Premium Mens Sweaters/Premium Mens Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Premium Mens Clothing",
+                    "url": "/cp/1281701"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2027850"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2008826"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Nautica NEW Red Mens Size Large L V-Neck Marl Knit Pullover Sweater",
+        "img": "https://i5.walmartimages.com/asr/f748ac8e-1120-4e5a-a43f-e5439e00c8be_1.045c43082839ee4b5fdbcc1b04d79b29.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<li><b>Color:</b> Reds<li><b>Size Type:</b> Regular<li><b>Size (Men's):</b> L<li><b>Style:</b> V-Neck<li><b>Material:</b> 100% Cotton",
+            "short": "Size Type: Regular- Style: V-Neck- Material: 100% Cotton"
+        },
+        "price": 28.74,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 8.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "343483701",
+        "variantCategoriesMap": {
+            "clothing_size_type": {
+                "id": "clothing_size_type",
+                "name": "Clothing Size Type",
+                "type": "DROPDOWN",
+                "variants": {
+                    "clothing_size_type-regular": {
+                        "id": "clothing_size_type-regular",
+                        "name": "Regular",
+                        "categoryId": "clothing_size_type",
+                        "products": [
+                            "14SVLR70200U"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 28.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 28.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-l": {
+                        "id": "clothing_size-l",
+                        "name": "L",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "14SVLR70200U"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 28.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 28.74,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Lord and Taylor/All Premium Brands",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Lord and Taylor",
+                    "url": "/cp/4686374"
+                },
+                {
+                    "name": "All Premium Brands",
+                    "url": "/cp/9931792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Nautica Mens V-Neck Long Sleeves Sweater",
+        "img": "https://i5.walmartimages.com/asr/0d0514cb-5600-4505-b8a9-fec08eae8f5e_1.25e783b54330fad3bb2c1f24dfb38cfc.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Nautica Mens V-Neck Long Sleeves Sweater",
+            "short": "Nautica has become one of the most recognizable and leading water-inspired lifestyle brands globally. The brand carries men's, women's, and children's apparel as well as accessories and home. The brand is known for it's quality crafted classics and innovative performance capabilities.<ul> </ul>"
+        },
+        "price": 80.16,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 1.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 6.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 10.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "385200739",
+        "variantCategoriesMap": {
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-xs": {
+                        "id": "clothing_size-xs",
+                        "name": "XS",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "16YX9A0BK04D"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 33.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 33.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-xxl": {
+                        "id": "clothing_size-xxl",
+                        "name": "XXL",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "41XFP2C2R1PZ"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-l": {
+                        "id": "clothing_size-l",
+                        "name": "L",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "0T6ON5P3O4A0"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 80.16,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 80.16,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-xl": {
+                        "id": "clothing_size-xl",
+                        "name": "XL",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "544A76FXQVQC"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 78.66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 78.66,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Premium Mens Clothing/Premium Mens Sweaters/Premium Mens Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Premium Mens Clothing",
+                    "url": "/cp/1281701"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2027850"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2008826"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Nautica NEW Solid Indigo Blue Mens Size 2XL Pullover V-Neck Sweater",
+        "img": "https://i5.walmartimages.com/asr/498934ed-fd36-44e6-ad5c-9cd92ceb9272_1.529e46dea5744315e542bae35cbc483f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<li><b>Color:</b> Blues<li><b>Size Type:</b> Regular<li><b>Size (Men's):</b> 2XL<li><b>Style:</b> V-Neck<li><b>Material:</b> Cotton Blends",
+            "short": "Size Type: Regular- Style: V-Neck- Material: Cotton Blends"
+        },
+        "price": 66.52,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 1.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 6.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 10.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 1,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 1,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "624374871",
+        "variantCategoriesMap": {
+            "clothing_size_type": {
+                "id": "clothing_size_type",
+                "name": "Clothing Size Type",
+                "type": "DROPDOWN",
+                "variants": {
+                    "clothing_size_type-regular": {
+                        "id": "clothing_size_type-regular",
+                        "name": "Regular",
+                        "categoryId": "clothing_size_type",
+                        "products": [
+                            "2TUA9B1X9F2R"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 66.52,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 66.52,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-2xl": {
+                        "id": "clothing_size-2xl",
+                        "name": "2XL",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "2TUA9B1X9F2R"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 66.52,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 66.52,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Premium Mens Clothing/Premium Mens Sweaters/Premium Mens Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Premium Mens Clothing",
+                    "url": "/cp/1281701"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2027850"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2008826"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Calvin Klein Mens Size Large Merino Wool V-Neck Sweater, Black Combo",
+        "img": "https://i5.walmartimages.com/asr/5f659454-7be8-4f7f-9c38-f7f8468ab541_1.ab439e281dafb3860613543a033829ba.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Calvin Klein Mens Size Large Merino Wool V-Neck Sweater, Black Combo",
+            "short": "Calvin Klein Men's Merino Wool V-Neck SweaterSize: LargeColor: Black ComboMaterial: 50% Merino Wool, 50% AcrylicCare: Machine Wash Cold, Gentle Cycle, Reshape, Flat Dry In Shade"
+        },
+        "price": 26.44,
+        "reviews": {},
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 8.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "598173691",
+        "category": {
+            "categoryPath": "Home Page/Clothing/Premium Brands/Premium Mens Clothing/Premium Mens Sweaters/Premium Mens Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Premium Brands",
+                    "url": "/cp/7151172"
+                },
+                {
+                    "name": "Premium Mens Clothing",
+                    "url": "/cp/1281701"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2027850"
+                },
+                {
+                    "name": "Premium Mens Sweaters",
+                    "url": "/cp/2008826"
+                }
+            ]
+        }
+    },
+    {
+        "title": "ALFANI MEN'S SWEATER VNECK - GREEN OLIVE SMALL - PULLOVER LONG SLEEVE NEW",
+        "img": "https://i5.walmartimages.com/asr/39310448-068d-4301-98f5-4dc42140e859_1.19c415d57614e54fe567976515e869ea.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "ALFANI MEN'S SWEATER VNECK - GREEN OLIVE SMALL - PULLOVER LONG SLEEVE NEW",
+            "short": "ALFANI MEN'S SWEATER VNECK - GREEN OLIVE SMALL - PULLOVER LONG SLEEVE NEW"
+        },
+        "price": 18.71,
+        "reviews": {},
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 1.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 6.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 10.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "103745180",
+        "category": {
+            "categoryPath": "Home Page/Clothing/Mens Clothing/Mens Sweaters/Mens Pullover Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Mens Clothing",
+                    "url": "/cp/133197"
+                },
+                {
+                    "name": "Mens Sweaters",
+                    "url": "/cp/5281276"
+                },
+                {
+                    "name": "Mens Pullover Sweaters",
+                    "url": "/cp/5305859"
+                }
+            ]
+        }
+    }
+]

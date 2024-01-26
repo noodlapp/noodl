@@ -1,0 +1,233 @@
+[
+    {
+        "title": "SAMSUNG 32\" Class HD (720P) Smart LED TV UN32M4500",
+        "img": "https://i5.walmartimages.com/asr/1d5cac3d-d37f-4122-af67-d45d97d7f9e4_1.321f8a38ea181b39be37a03330624470.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong>Samsung 32\" Class HD (720P) LED TV (UN32M4500):</strong><br /><ul><li>Ultra Clean View technology improves visual quality and reduces distortion</li><li>PurColor delivers vibrant detail</li><li>Micro Dimming Pro improves black and white shades</li><li>Wi-Fi connects to web and streaming media</li><li>SAMSUNG Smart LED TV supports mobile to TV mirroring</li><li>HDMI ports: 2</li><li>USB ports: 1</li><li>Ethernet ports: 1</li></ul>",
+            "short": "<ul><li>Diagonal Screen Size: 31.5\"</li><li>Effective Refresh Rate: 60Hz</li><li>HDMI/USB: 2/1</li><li>Wall-Mountable: Yes</li></ul>"
+        },
+        "price": 147.99,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 268
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "urgentQuantity": 7,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 7,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "996476748",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    },
+    {
+        "title": "SAMSUNG 32\" Class FHD (1080P) Smart LED TV (UN32N5300)",
+        "img": "https://i5.walmartimages.com/asr/2b2943fd-73d6-4d7b-9c54-e22db0c660f1_4.e79d68ec3a718064170de6cbd82e6030.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Samsung 32\" Class FHD (1080P) Smart LED TV (UN32N5300)<br><br><br>Key Features<br></b><div><br></div><div><ul><li>Diagonal Screen Size: 31.5\"<br></li><li>Backlight Type: LED<br></li><li>Resolution: 1080P<br></li><li>Effective Refresh Rate: 60Hz<br></li><li>Smart Functionality: yes</li></ul></div><div><br></div><div><b>Connectivity</b></div><div><ul><li>HDMI Inputs: yes, 2<br></li><li>USB Ports: yes, 1<br></li><li>Built-in Wi-Fi: yes<br></li></ul></div><div><br></div><div><b>Smart Connectivity</b></div><div><ul><li>Screen mirroring<br></li><li>ConnectShare Movie</li></ul></div><div><b>Eco Sensor</b></div><div><b><br></b></div><div><b>Audio</b></div><div><ul><li>Dolby Digital Plus<br></li></ul></div><div><br></div><div><b>Included Accessories</b></div><div><ul><li>Standard remote&nbsp;<br></li></ul></div><br><br><br>",
+            "short": "<ul><li>Diagonal Screen Size: 31.5\"<br></li><li>Resolution: 1080P<br></li><li>Refresh Rate: 60Hz<br></li><li>Back light: LED<br></li><li>Smart Functionality: yes<br></li><li>Inputs (HDMI/USB): yes, (2/1)</li><li>Model Year: 2018</li></ul>"
+        },
+        "price": 217,
+        "reviews": {
+            "customerRating": 4.4,
+            "numReviews": 370
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "172813797",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    },
+    {
+        "title": "SAMSUNG 32\" Class 4K UHD (2160P) QLED Smart TV QN32Q50 (2019 Model)",
+        "img": "https://i5.walmartimages.com/asr/370fbb75-eaac-440e-bdc3-d341185a959c_1.65622f0ad5019622079efc4031595f11.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<div class=\"featureBullets\" id=\"featureBullets\"><div><div class=\"featureBullet\"><h3>Product Type </h3><ul><li>QLED</li></ul></div><div class=\"featureBullet\"><h3>Picture</h3><ul><li>100% Color Volume1 with Quantum Dot</li><li>HDR</li><li>Ultra Slim Array</li><li>4K UHD Processor</li><li>4K UHD</li><li>Game Mode</li></ul></div><div class=\"featureBullet\"><h3>Ultra Slim Array</h3><ul><li>The Ultra Slim Array dynamically fine-tunes the deepness of the blacks, to the brightness of the whites, for a picture with sensational contrast.</li></ul></div><div class=\"featureBullet\"><h3>Style</h3><ul><li>Wide Viewing Angle</li><li>360° Design</li><li>Bezel Color: Charcoal Black</li><li>Stand Color: Charcoal Black</li><li>Bezel-free Design</li></ul></div><div class=\"featureBullet\"><h3>Smart</h3><ul><li>Smart TV with Universal Guide Bixby</li><li>Apple TV</li><li>SmartThings Compatible</li></ul></div><div class=\"featureBullet\"><h3>Connections</h3><ul><li>3 HDMI Connections2</li><li>2 USB Connections</li><li>1 Shared A/V & Component Input ? 802.11AC built-in Wi-Fi</li><li>Bluetooth®</li><li>RS232 Control (requires adaptor)3 ? IP Control Support4</li><li>Optical Audio Output Port</li></ul></div><div class=\"featureBullet\"><h3>Audio</h3><ul><li>Dolby® Digital Plus </li><li>20 Watt 2 Channel</li></ul></div><div class=\"featureBullet\"><h3>Included Accessories</h3><ul><li>Standard Remote (TM-1240A)</li></ul></div><div class=\"featureBullet\"><h3>Industry Certifications</h3><ul><li>4K Ultra HD Connected - All Samsung 2019 4K UHD and QLED televisions comply with the CTA 4K Ultra High-Definition Connected definition requirements. The trade organization known as the Consumer Technology Association (CTATM) is considered an industry authority on engineering standards for consumer electronics in the United States. Visit www.cta.tech for more information.</li></ul></div></div></div>",
+            "short": "SAMQN32Q50R  <ul><li> QN32Q50R 32 Q50R QLED Smart 4K UHD TVTM1950A Remote (Black)Remote Control BatteryPower CableUser Manual</li></ul>Q50R TV - 4K Ultra HD ConnectedStep up to a whole new world of color. Quantum Dot technology lets you experience images bursting with a dazzling range of over one bi"
+        },
+        "price": 497.99,
+        "reviews": {
+            "customerRating": 4,
+            "numReviews": 11
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "689218386",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    },
+    {
+        "title": "SAMSUNG 32'' Class FHD (1080P) Smart LED TV UN32M5300",
+        "img": "https://i5.walmartimages.com/asr/06a5f670-9f69-4d06-a55a-e0082cf9b6b0_1.e7e5ee2b2a680bf642d0675718513442.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"221\" style=\"width: 166pt;\"><tbody><tr height=\"365\" style=\"height:273.6pt\"> <td height=\"365\" class=\"xl65\" width=\"221\" style=\"height:273.6pt;width:166pt\"><b>Samsung 32\" class TV (Model#: UN32M5300) <br> <br> Key Features</b><br><ul><li>Diagonal Screen Size: 31.5\"<br></li><li>Backlight Type: LED<br></li><li>Resolution: 1080P<br></li><li>Effective Refresh Rate: 60Hz<br></li><li>Smart Functionality: yes<br></li><li>Smart Connectivity: Screen Mirroring &amp; Connectshare Movie</li></ul><b> Connectivity</b><br><ul><li>HDMI Inputs: yes, 2<br></li><li>Component: yes, 1<br></li><li>Composite: yes, 1 (Shared with AV Component input)<br></li><li>USB Ports: yes, 1<br></li><li>Built-in Wi-Fi: yes<br></li></ul><div><div><b>Audio</b></div><div><ul><li>Dolby Digital Plus<br></li><li>DTS Premium Sound 5.1<br></li></ul></div><div><b>Includes</b></div><div><ul><li>Standard remote control<br></li></ul></div></div></td></tr></tbody></table>",
+            "short": "<div><ul><li>Diagonal Screen Size: 31.5\"</li></ul></div><div><ul><li>Resolution: 1080P</li></ul></div><div><ul><li>Refresh Rate: 60Hz</li></ul></div><div><ul><li>Backlight: LED</li></ul></div><div><ul><li>Smart Functionality: yes</li></ul></div><div><ul><li>Inputs (HDMI/USB): 2/1<br></li></ul></div>"
+        },
+        "price": 196,
+        "reviews": {
+            "customerRating": 3.8,
+            "numReviews": 122
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "947096823",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    }
+]

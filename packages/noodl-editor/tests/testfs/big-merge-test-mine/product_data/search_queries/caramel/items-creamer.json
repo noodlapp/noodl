@@ -1,0 +1,528 @@
+[
+    {
+        "title": "International Delight Caramel Macchiato Coffee Creamer, 1 Quart",
+        "img": "https://i5.walmartimages.com/asr/a1e66b52-3572-458e-9f9c-2d8eea30bae1_1.3a6a5f36b9cc9fdeccc25bc308c8d896.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Non-dairy</li><li>0g trans fat</li><li>Lactose-free</li><li>Gluten-free</li><li>Kosher</li><li>Creamy swirl of pure, fragrant delight</li><li>caramel macchiato flavor</li><li>Delicious 32-oz coffee creamer</li></ul>",
+            "short": "<ul><li>Non-Dairy</li><li>0g trans fat</li><li>Lactose free</li><li>Gluten free</li><li>Kosher</li></ul>",
+            "medium": "<p>Create an original coffeehouse indulgence with bold caramel flavor and notes of sweet cream. It's just what you need to stir up a moment of sweet inspiration and make each cup your own with International Delight.</p>"
+        },
+        "price": 3.18,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 34
+        },
+        "size": {
+            "karfGroceryType": "Dairy-Free",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "32"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "17619683",
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "STARBUCKS Caramel Macchiato Creamer 28 fl. oz. Bottle",
+        "img": "https://i5.walmartimages.com/asr/71f776b3-0304-4e81-abf9-da42ae0a3a86_1.9729307b3a3b2690cc59c48be64245fc.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One (1) 28-ounce bottle of Starbucks Liquid Coffee Creamer, Caramel Flavored (Inspired by Starbucks Caramel Macchiato)</li><li>Flavored creamer with layers of sweet, buttery caramel and hints of vanilla flavor</li><li>A tasty alternative to milk, half and half, and regular creamer in your morning cup</li><li>Pairs well with any brand of coffee, including your favorite Starbucks roast</li><li>Delicious in hot and cold coffee drinks, tea and other beverages</li></ul>",
+            "short": "Starbucks Caramel Macchiato 28oz"
+        },
+        "price": 4.48,
+        "reviews": {
+            "customerRating": 4.1,
+            "numReviews": 139
+        },
+        "size": {
+            "karfGroceryType": "Natural",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "28"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "992382814",
+        "category": {
+            "categoryPath": "Home Page/Shop by Brand/Food & Grocery/Starbucks",
+            "path": [
+                {
+                    "name": "Shop by Brand",
+                    "url": "/cp/3734780"
+                },
+                {
+                    "name": "Food & Grocery",
+                    "url": "/cp/7455738"
+                },
+                {
+                    "name": "Starbucks",
+                    "url": "/cp/2512582"
+                }
+            ]
+        }
+    },
+    {
+        "title": "COFFEE MATE Caramel Latte Powder Coffee Creamer 15 Oz. Canister Non-dairy Lactose Free Creamer",
+        "img": "https://i5.walmartimages.com/asr/c905a135-c41c-4b40-8da3-963ae4fe687e_1.d467db64b46954a01df3a05404e91794.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Coffee mate Caramel Latte Powdered Creamer is smooth and sweet with buttery caramel richness, and at 15 ounces, it's coffee?s perfect mate</li> <li>Treat your taste buds to a flavorful coffeehouse-inspired cup of coffee that?s non-dairy, lactose-free, and gluten-free</li> <li>Whether you?re sharing with a friend or taking a moment to recharge, Coffee mate Caramel Latte is the perfect way to wake up your cup</li> <li>Scoop and stir to find the right amount of flavor to suit your taste and transform your coffee into flavorful deliciousness</li> <li>Think outside of the cup and add the delicious flavors of Coffee mate creamers to recipes to create unique deliciousness that everyone will love</li> </ul>",
+            "short": "<li>Transforms your coffee into creamy deliciousness</li><li>Non-dairy</li><li>Lactose free</li>",
+            "medium": "<p>Enjoy Coffee-mate Caramel Macchiato Powder Coffee Creamer, a cafe favorite that brings together the delicious warmth of caramel with an authentic, smooth latte flavor that you'll never forget.</p>"
+        },
+        "price": 3.52,
+        "reviews": {
+            "customerRating": 4.6308,
+            "numReviews": 65
+        },
+        "size": {
+            "karfGroceryType": "Creamers",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "15"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "21836275",
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "International Delight, Sugar Free Caramel Macchiato Coffee Creamer, 32 Oz.",
+        "img": "https://i5.walmartimages.com/asr/5969d685-4164-4ae3-b1c1-391552d46ef4_1.0453c4c28e7ebb0af33b824de6cb2315.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong>International Delight Sugar Free Caramel Macchiato Gourmet Coffee Creamer:</strong><ul><li>Non-Dairy</li><li>Gluten free</li><li>Lactose free</li><li>0g trans fat</li><li>Kosher</li></ul>",
+            "short": "<li>Tempting layers of creamy caramel and delicate vanilla flavors</li><li>Gluten free</li><li>Lactose free</li>",
+            "medium": "</p>"
+        },
+        "price": 3.18,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 25
+        },
+        "size": {
+            "karfGroceryType": "Sugar-Free",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "32"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "37858327",
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "International Delight Hershey's Chocolate Caramel Coffee Creamer, 1 Quart",
+        "img": "https://i5.walmartimages.com/asr/8da62088-806d-4557-b74c-f88dd929c3e6_1.2c9c15ea2d1bc7836b941942fe15a719.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>International delight Gourmet Coffee Creamer Hershey's Chocolate Caramel.</li> <li>Naturally & artificially flavored.</li> <li>American favorites.</li> <li>Gluten-free.</li> <li>Lactose-free.</li> <li>0g trans fat.</li> <li>Per Tbsp: 35 Calories.</li> <li>1g sat fat, 5% DV.</li> <li>0mg sodium, 0% DV.</li> <li>6g sugars.</li> <li>Lactose Free</li> </ul>",
+            "short": "<ul><li>Non-Dairy Creamer</li><li>0g trans fat</li><li>Lactose free</li><li>Gluten free</li><li>Kosher</li></ul>",
+            "medium": "&nbsp;"
+        },
+        "price": 3.18,
+        "reviews": {
+            "customerRating": 4.7,
+            "numReviews": 52
+        },
+        "size": {
+            "karfGroceryType": "Dairy-Free",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "32"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10898906",
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "COFFEE MATE Sugar Free Vanilla Caramel Powder Coffee Creamer 10.2 Oz. Canister Non-dairy Lactose Free Gluten Free Creamer",
+        "img": "https://i5.walmartimages.com/asr/f1955b3f-4bd1-43e2-928c-fe8792c2726d_1.9d2c330e217bff0b26e694fe00b2e282.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Coffee mate Sugar Free Vanilla Caramel Powdered Creamer has rich indulgent caramel flavor with hints of exotic vanilla, and at 10.2 ounces, it's coffee?s perfect mate</li> <li>Reward your taste buds with a smooth, buttery caramel flavor that?s non-dairy, lactose-free, sugar-free,* and gluten-free</li> <li>Whether you?re sharing with a friend or taking a moment to recharge, Coffee mate Sugar Free Vanilla Caramel is the perfect way to wake up your cup</li> <li>Scoop and stir to find the right amount of flavor to suit your taste and transform your coffee into flavorful deliciousness</li> <li>Think outside of the cup and add the delicious flavors of Coffee mate creamers to recipes to create unique deliciousness that everyone will love</li> </ul>",
+            "short": "<li>Transforms your coffee into creamy deliciousness</li><li>Non-dairy</li><li>Sugar free</li>",
+            "medium": "<p>Nestle Coffee-mate Sugar Free Vanilla Caramel Powder Coffee Creamer is an irresistible sensation that combines the taste of indulgent caramel with rich vanilla flavor. Vanilla caramel evokes the flavors of \"dulce de leche,\" a flavored dessert in Mexico and Latin America.</p>"
+        },
+        "price": 3.52,
+        "reviews": {
+            "customerRating": 4.8404,
+            "numReviews": 94
+        },
+        "size": {
+            "karfGroceryType": "Creamers",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "10.2"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10291898",
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "COFFEE MATE Vanilla Caramel Powder Coffee Creamer 15 Oz. Canister Non-Dairy Lactose-Free Gluten-Free Creamer",
+        "img": "https://i5.walmartimages.com/asr/0948ff6c-c1c7-41ab-bc83-f938e125f524_1.3400913cacc8a6a5591ed7dd35227137.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<object style=\"height: 1px; width: 1px;\" data=\"https://hgfilestore.blob.core.windows.net/richmedia/pt/faj.html\" /><ul> <li>Coffee mate Vanilla Caramel Powdered Creamer has rich, indulgent caramel flavor with hints of vanilla, and at 15 ounces, it's coffee?s perfect mate</li> <li>Reward your taste buds with a smooth, buttery caramel flavor that?s non-dairy, lactose-free, and gluten-free</li> <li>Whether you?re sharing with a friend or taking a moment to recharge, Coffee mate Vanilla Caramel is the perfect way to wake up your cup</li> <li>Pour and stir to find the right amount of flavor to suit your taste and transform your coffee into flavorful deliciousness</li> <li>Think outside of the cup and add the delicious flavors of Coffee mate creamers to recipes to create unique deliciousness that everyone will love</li> </ul>",
+            "short": "<li>Great-tasting Vanilla Caramel flavor</li><li>Non-dairy</li><li>Lactose free</li>",
+            "medium": "<p>Coffee-mate Vanilla Caramel Powder Coffee Creamer is an irresistible sensation that combines the taste of indulgent caramel with rich vanilla flavor. Vanilla caramel evokes the flavors of \"dulce de leche,\" a flavored dessert in Mexico and Latin America.</p>"
+        },
+        "price": 3.48,
+        "reviews": {
+            "customerRating": 4.7091,
+            "numReviews": 55
+        },
+        "size": {
+            "karfGroceryType": "Creamers",
+            "pricePerUnitUom": "Ounce",
+            "pricePerUnitQuantity": "15"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10291874",
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    },
+    {
+        "title": "International Delight Caramel Macchiato Liquid Coffee Creamer Singles, 24 Ct Box",
+        "img": "https://i5.walmartimages.com/asr/22a55f3f-5da2-477d-aa73-4df84b5184d1_1.ac6dd94630b47793a19f932ece00290b.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Dairy-, Gluten- Free</li><li>Caramel Macchiato Flavor</li><li>24 count Single Serve</li></ul>",
+            "short": "<ul><li>Dairy-, Gluten- Free</li><li>Caramel Macchiato Flavor</li><li>24 count Single Serve</li></ul>"
+        },
+        "price": 2.36,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 22
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "24"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "331095257",
+        "variantCategoriesMap": {
+            "multipack_quantity": {
+                "id": "multipack_quantity",
+                "name": "Pack Size",
+                "type": "DROPDOWN",
+                "categoryType": "TRANSACTIONAL_TILE",
+                "categoryTypeAllValues": "TRANSACTIONAL_TILE",
+                "variants": {
+                    "multipack_quantity-6": {
+                        "id": "multipack_quantity-6",
+                        "name": "6 Pack",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "4U2I5KWYUHUF"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 6,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 13.2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.092,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 13.2,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.092,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "multipack_quantity-4": {
+                        "id": "multipack_quantity-4",
+                        "name": "4 Pack",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "4LWEJB2LMM60"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 4,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 8.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.093,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 8.96,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.093,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "multipack_quantity-1": {
+                        "id": "multipack_quantity-1",
+                        "name": "Single",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "3KHWD48MH6J9"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 1,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 2.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.098,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 2.36,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.098,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                },
+                "bestValue": "multipack_quantity-6"
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Food/Coffee/Coffee Creamers/All Creamers",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Coffee",
+                    "url": "/cp/1086446"
+                },
+                {
+                    "name": "Coffee Creamers",
+                    "url": "/cp/1100007"
+                },
+                {
+                    "name": "All Creamers",
+                    "url": "/cp/2319792"
+                }
+            ]
+        }
+    }
+]

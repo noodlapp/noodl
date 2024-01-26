@@ -1,0 +1,131 @@
+$_sidebar-hover-enter-offset: 250ms;
+
+.Root {
+  height: 100%;
+  border-right: 1px solid var(--theme-color-bg-1);
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.Toolbar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 40px;
+  height: 100%;
+  border-right: 2px solid var(--theme-color-bg-1);
+  background-color: var(--theme-color-bg-2);
+  transition: box-shadow var(--speed-quick) var(--easing-base);
+
+  &:has(.Label.is-tooltip-visible) {
+    transition: box-shadow var(--speed-quick) var(--easing-base) $_sidebar-hover-enter-offset;
+    box-shadow: 0 0 30px 5px var(--theme-color-bg-1-transparent);
+  }
+}
+
+.Logo {
+  padding-top: 4px;
+}
+
+.ToolbarIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 8px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  filter: grayscale(100%) brightness(150%);
+  opacity: 0.7;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &.is-active {
+    opacity: 1;
+  }
+}
+
+.Panel {
+  flex: 1;
+  min-height: 100%;
+  position: relative;
+  margin-left: 40px;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--theme-color-bg-2);
+  border-left: 2px solid var(--theme-color-bg-1);
+}
+
+.SideNavigationButton {
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: 4px;
+  cursor: pointer;
+
+  &:hover {
+    path {
+      fill: var(--theme-color-fg-highlight);
+    }
+  }
+}
+
+.Label {
+  max-width: 0;
+  overflow: hidden;
+  transition: max-width var(--speed-quick) var(--easing-base);
+  cursor: pointer;
+
+  &.is-tooltip-visible {
+    transition: max-width var(--speed-quick) var(--easing-base) $_sidebar-hover-enter-offset;
+    max-width: 120px;
+  }
+}
+
+.LabelInner {
+  padding-left: 8px;
+  padding-right: 16px;
+
+  .SideNavigationButton:hover &:not(.is-active) {
+    p {
+      color: var(--theme-color-fg-default);
+    }
+  }
+
+  p {
+    white-space: nowrap;
+  }
+}
+
+.Command {
+  height: 0;
+  transition: height var(--speed-quick) var(--easing-base);
+
+  .SideNavigationButton:hover & {
+    height: 10px;
+  }
+}
+
+.IconButtonContainer {
+  position: relative;
+}
+
+.NotificationBadge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2px 5px;
+  border-radius: 8px;
+  background-color: var(--theme-color-secondary-bright);
+  font-size: 10px;
+  font-weight: 700;
+  font-family: var(--font-family);
+  color: var(--theme-color-on-secondary);
+}

@@ -1,0 +1,9 @@
+@use '@scss-mixins/layout' as *;
+@use '@scss-placeholders/util' as *;
+
+.Grid {
+  @extend %reset-styles;
+  @include flex-layout(3);
+  align-items: stretch;
+  padding: 5px 10px 16px 15px;
+}

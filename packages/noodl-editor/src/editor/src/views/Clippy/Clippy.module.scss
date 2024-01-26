@@ -1,0 +1,568 @@
+:global(.clippy-layer) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.Root {
+  margin-top: 16px;
+  margin-left: 16px;
+  display: inline-block;
+  position: relative;
+  pointer-events: all;
+}
+
+.ClippyContainer {
+  border-radius: 4px;
+  padding: 1px;
+  margin: -1px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, var(--base-color-teal-500), var(--base-color-node-purple-500));
+    z-index: 1;
+    filter: grayscale(30%) brightness(50%);
+    transition: filter var(--speed-quick);
+  }
+
+  &.__isFocused::before {
+    filter: grayscale(0%) brightness(100%);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    border-radius: 4px;
+    background: var(--base-color-node-purple-200);
+    z-index: 2;
+    animation: rotate 1.5s linear infinite;
+    filter: blur(20px);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 30px 4px var(--base-color-node-purple-200);
+    opacity: 0;
+    transition: opacity var(--speed-quick) linear;
+  }
+
+  &.__isThinking::after {
+    opacity: 1;
+  }
+
+  // &::after {
+  //     --angle: 0deg;
+  //     opacity: 0;
+  //     content: "";
+  //     position: absolute;
+  //     box-sizing: border-box;
+  //     top: -1px;
+  //     left: -1px;
+  //     bottom: -1px;
+  //     right: -1px;
+  //     pointer-events: none;
+  //     border-radius: 4px;
+  //     z-index: 2;
+  //     border: 4px solid transparent;
+  //     border-image: conic-gradient(from var(--angle), var(--base-color-node-purple-200) 5%, transparent 15%, transparent 85%, var(--base-color-node-purple-200)) 1;
+  //     animation: border-rotation 2s linear infinite;
+  // }
+}
+
+// @keyframes border-rotation {
+//     from {
+//         --angle: 0deg;
+//     }
+
+//     to {
+//         --angle: 360deg;
+//     }
+// }
+
+// @property --angle {
+//     syntax: '<angle>';
+//     initial-value: 0deg;
+//     inherits: false;
+// }
+
+@keyframes rotate {
+  0% {
+    top: calc(0% - 100px);
+    left: calc(0% - 100px);
+    transform: scale(3, 1) translate(3px, 3px);
+    transform-origin: 0% 100%;
+  }
+
+  30% {
+    top: calc(0% - 100px);
+    left: 100%;
+    transform: scale(1, 0.05);
+    transform-origin: 0% 100%;
+  }
+
+  50% {
+    top: 100%;
+    left: 100%;
+    transform: scale(3, 1) translate(-3px, 3px);
+    transform-origin: 100% 0%;
+  }
+
+  80% {
+    top: 100%;
+    left: calc(0% - 100px);
+    transform: scale(1, 0.05) translate(3px, -3px);
+    transform-origin: 100% 0%;
+  }
+
+  100% {
+    top: calc(0% - 100px);
+    left: calc(0% - 100px);
+    transform: scale(3, 1) translate(3px, 3px);
+    transform-origin: 0% 100%;
+  }
+}
+
+.ClippyContent {
+  background-color: var(--theme-color-bg-2);
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+  z-index: 3;
+  border-radius: 4px;
+  opacity: 1;
+  transition: background-color var(--speed-quick);
+
+  .ClippyContainer.__isFocused & {
+    background-color: var(--theme-color-bg-3);
+  }
+}
+
+.InputContainer {
+  width: 110px;
+  transition: width var(--speed-quick) var(--easing-base) 100ms;
+  overflow: hidden;
+  margin-left: -8px;
+
+  &.__isOpen {
+    width: 500px;
+    transition: width var(--speed-quick) var(--easing-base);
+  }
+}
+
+.InputWrapper {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.ThinkingOverlay {
+  position: absolute;
+  z-index: 4;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  background: var(--theme-color-bg-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--speed-turbo);
+
+  &.__isVisible {
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+.SendIcon {
+  padding: 8px;
+  opacity: 0;
+  transition: opacity var(--speed-quick);
+
+  .ClippyContainer.__isFocused & {
+    opacity: 0.5;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.UglySpacingHackPleaseLookAway {
+  height: 8px;
+  width: 100%;
+}
+
+.ClippyPopup {
+  position: absolute;
+  width: 100%;
+  background-color: var(--theme-color-bg-2);
+  border-radius: 4px;
+  padding-bottom: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--speed-turbo);
+
+  &.__isVisible {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity var(--speed-quick) 300ms;
+  }
+}
+
+.SectionTitle {
+  padding: 16px 12px 8px 12px;
+}
+
+.PromptTagSuggestionRoot {
+  box-sizing: border-box;
+  padding: 0 12px;
+
+  &.__isDisabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+.PromptTagSuggestionItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+
+  .PromptTagSuggestionRoot:hover &,
+  .PromptTagSuggestionRoot.__isHighlighted & {
+    background-color: var(--theme-color-bg-3);
+  }
+}
+
+.PromptTagSuggestionAiIconContainer {
+  mix-blend-mode: lighten;
+}
+
+.TagType {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.is-visual {
+    background-color: var(--base-color-node-blue-600);
+  }
+
+  &.is-data {
+    background-color: var(--base-color-node-green-600);
+  }
+
+  &.is-custom {
+    background-color: var(--base-color-node-pink-600);
+  }
+}
+
+.PromptTagRoot {
+  display: flex;
+  align-items: center;
+  padding: 4px 4px 4px 8px;
+  border-radius: 2px;
+  margin-left: 8px;
+
+  &.is-visual {
+    background-color: var(--base-color-node-blue-600);
+  }
+
+  &.is-data {
+    background-color: var(--base-color-node-green-600);
+  }
+
+  &.is-custom {
+    background-color: var(--base-color-node-pink-600);
+  }
+}
+
+.PromptTagRemove {
+  margin-left: 4px;
+  &:hover {
+    background-color: var(--theme-color-fg-transparent);
+  }
+}
+
+.ExamplePromptRoot {
+  padding: 6px 12px;
+}
+
+.ExamplePrompt {
+  border-radius: 4px;
+  padding: 8px;
+  border: 1px solid var(--theme-color-bg-3);
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--theme-color-bg-3);
+  }
+}
+
+.IconContainer {
+  mix-blend-mode: lighten;
+  position: relative;
+  z-index: 10;
+  align-self: flex-start;
+  margin-top: 2px;
+}
+
+.__isHiddenInput {
+  opacity: 0;
+  pointer-events: none;
+}
+
+// .StarBase {
+//     path:not(:nth-child(4)) {
+//         opacity: 0;
+//     }
+// }
+
+// .Star1Back,
+// .Star1Front,
+// .Star2Back,
+// .Star2Front,
+// .Star3Back,
+// .Star3Front {
+//     position: absolute;
+//     top: 7px;
+//     left: 6px;
+
+//     path {
+//         opacity: 0;
+//     }
+// }
+
+// .Star1Front,
+// .Star1Back {
+//     path:nth-child(1) {
+//         opacity: 1;
+//     }
+// }
+
+// .Star2Front,
+// .Star2Back {
+//     path:nth-child(2) {
+//         opacity: 1;
+//     }
+// }
+
+// .Star3Front,
+// .Star3Back {
+//     path:nth-child(3) {
+//         opacity: 1;
+//     }
+// }
+
+// .Star1Back {
+//     animation: star-blur 5s linear infinite 200ms both;
+// }
+
+// .Star1Front {
+//     animation: star-blink 5s linear infinite 200ms both;
+// }
+
+// .Star2Back {
+//     animation: star-blur 5s linear infinite 100ms both;
+// }
+
+// .Star2Front {
+//     animation: star-blink 5s linear infinite 100ms both;
+// }
+
+// .Star3Back {
+//     animation: star-blur 5s linear infinite both;
+// }
+
+// .Star3Front {
+//     animation: star-blink 5s linear infinite both;
+// }
+
+// @keyframes star-blur {
+//     0% {
+//         opacity: 1;
+//         filter: saturate(100%) blur(0px);
+//     }
+
+//     10% {
+//         opacity: 1;
+//         filter: saturate(150%) blur(3px);
+//     }
+
+//     20% {
+//         opacity: 1;
+//         filter: saturate(100%) blur(0px);
+//     }
+
+//     100% {
+//         opacity: 1;
+//         filter: saturate(100%) blur(0px);
+//     }
+// }
+
+// @keyframes star-blink {
+//     0% {
+//         opacity: 1;
+//         filter: brightness(100%);
+//     }
+
+//     10% {
+//         opacity: 0.4;
+//         filter: brightness(500%) blur(0.5px);
+//     }
+
+//     20% {
+//         opacity: 1;
+//         filter: brightness(100%);
+//     }
+
+//     100% {
+//         opacity: 1;
+//         filter: brightness(100%);
+//     }
+// }
+
+.AiChatItem {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--theme-color-bg-1);
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.ClippyIcon {
+  transition: opacity var(--speed-quick);
+
+  &.__isHidden {
+    opacity: 0;
+  }
+}
+
+.UserBadge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 7px;
+  transition: transform var(--speed-quick), opacity var(--speed-quick);
+
+  &.__isHidden {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+.ClippyNoApiKey {
+  padding: 32px;
+}
+
+.CurrentActivities {
+  position: absolute;
+  top: -1px;
+  left: calc(100% + 7px);
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  height: 49px;
+  flex-wrap: wrap;
+}
+
+.ActivityItem {
+  background-color: var(--theme-color-bg-2);
+  width: 49px;
+  height: 49px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+  transition: background-color var(--speed-turbo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: activity-appear var(--speed-quick) var(--easing-base) var(--speed-base) both;
+
+  &:hover {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 4px;
+  }
+
+  &.is-custom:before {
+    border: 1px solid var(--base-color-node-pink-700);
+  }
+
+  &.is-data:before {
+    border: 1px solid var(--base-color-node-green-700);
+  }
+
+  &.is-visual:before {
+    border: 1px solid var(--base-color-node-blue-700);
+  }
+}
+
+.ActivityLogo {
+  mix-blend-mode: lighten;
+  pointer-events: none;
+  margin-left: -2px;
+}
+
+.TextArea {
+  padding: 0 32px 4px 7px;
+  margin-top: -8px;
+}
+
+@keyframes activity-appear {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.LimitedBetaCard {
+  margin: 16px 12px 4px 12px;
+  padding: 16px;
+  background-color: var(--theme-color-bg-3);
+  border-radius: 4px;
+}
+
+.GptVersionDisplay {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+}

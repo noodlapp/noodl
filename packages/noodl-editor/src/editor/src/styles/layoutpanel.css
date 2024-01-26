@@ -1,0 +1,117 @@
+/* -------------------------------------------------------------------
+   Layout panel
+   ------------------------------------------------------------------- */
+.layout-panel-item {
+/* background-color: #282828;*/
+    width: 100%;
+    cursor: default;
+    color: #cfcfcf;
+    position: relative;
+   /* border-bottom: 1px solid #222222;*/
+}
+
+.layout-panel-item-hover-indicator {
+    background-color: #1f1f1f;
+}
+
+.layout-panel-header {
+    color: white;
+    padding-left: 10px;
+    font: 12px var(--font-family-bold);
+    line-height: 35px; 
+}
+
+.layout-panel-divider {
+    border-bottom: 1px solid #222222;
+}
+
+.layout-panel-item-label {
+    font: 12px var(--font-family-regular);
+    line-height: 30px;
+}
+
+.layout-panel-item-selected {
+    background-color: #14606e;
+    position:absolute;
+    width:100%;
+    height:30px;
+  }
+
+.layout-panel-sheet-label {
+    color: white;
+    font: 12px var(--font-family-regular);
+    line-height: 35px; 
+    color: #aaa;
+}
+
+.layout-panel-sheet-selector:hover .layout-panel-sheet-label {
+    color: white;
+}
+
+.layout-panel-expand-more-icon {
+    content:url("../assets/icons/expand_more.svg");  
+    width:20px;
+    height:20px;
+    opacity: 0.6
+}
+
+.layout-panel-sheet-selector:hover .layout-panel-expand-more-icon {
+    opacity: 1;
+}
+
+.layout-panel-expand-less-icon {
+    content:url("../assets/icons/expand_less.svg");  
+    width:20px;
+    height:20px;
+    opacity: 0.6
+}
+
+.layout-panel-sheet-selector:hover .layout-panel-expand-less-icon {
+    opacity: 1;
+}
+
+.layout-panel-sheet-item {
+    font: 12px var(--font-family-regular);
+    line-height: 30px; 
+    color: #cfcfcf;   
+    padding-left: 10px;
+}
+
+.layout-panel-sheet-item:hover {
+    background-color: #1f1f1f;
+}
+
+.layout-panel-component-item {
+    font: 12px var(--font-family-regular);
+    line-height: 30px; 
+    color: #cfcfcf;   
+    padding-left: 10px;
+}
+
+.layout-panel-component-item:hover {
+    background-color: #1f1f1f;
+}
+
+.layout-panel-edit-button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: #7b7b7b;
+    border: none;
+}
+  
+.layout-panel-edit-button:hover {
+    background-color: #1f1f1f;
+    color: #f8f8f8;
+}
+
+.layout-panel-dark-input {
+   /* background-color: #222222;
+    color: #dddddd;*/
+    border: none;
+    display: block;
+    padding:0 0 0 10px;
+    box-sizing: border-box;
+    font: 12px var(--font-family-regular);
+  }
+

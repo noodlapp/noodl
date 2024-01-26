@@ -1,0 +1,29 @@
+<div style="position:relative">
+  <!-- string item template -->
+  <div data-template="item" class="sidebar-panel-item component-ports-item">
+    <!-- edit mode -->
+    <div class="show-on-edit name-edit-container">
+      <input type="string" class="sidebar-panel-dark-input name-edit" data-val="name"></input>
+    </div>
+
+    <span data-class="isDefault:stringlist-default-label" class="component-ports-label hide-on-edit" data-text="name" data-bind="watch" data-click="onRenameClicked"></span>
+
+    <div class="sidebar-panel-edit-bar hide-on-edit">
+      <!-- rename -->
+      <button type="button" class="sidebar-panel-edit-button" data-click="onRenameClicked"><i class="fa fa-pencil-square-o"></i></button>
+
+      <!-- delete -->
+      <button type="button" data-class="isDefault:hidden" class="sidebar-panel-edit-button" data-click="onDeleteClicked"><i class="fa fa-trash-o"></i></button>
+    </div>
+  </div>
+
+  <!-- Items -->
+  <div class="items">
+  </div>
+  
+  <!-- Add entry button -->
+  <div class="sidebar-panel-edit-bar stringlist-add-button-container">
+    <button type="button" class="sidebar-panel-edit-button" data-click="onAddPortClicked"><i class="fa fa-plus"></i></button>
+  </div>
+
+</div>

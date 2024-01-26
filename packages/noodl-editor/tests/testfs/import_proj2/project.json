@@ -1,0 +1,15 @@
+{
+   "id": "08dbc495-3875-765b-cca2-5a2bb8c6a1e2",
+   "name": "proj1",
+   "components": [
+      {
+         "name": "/Main",
+         "graph": {
+            "connections": [],
+            "roots": [
+            ]
+         }
+      }
+   ],
+   "version": "1"
+}

@@ -1,0 +1,14 @@
+.Root {
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 0;
+  position: relative;
+  z-index: 1;
+  padding: 0px 14px 10px;
+}
+
+.ItemContainer {
+  box-sizing: border-box;
+  list-style-type: none;
+  padding-bottom: 8px;
+}

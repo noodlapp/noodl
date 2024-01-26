@@ -1,0 +1,79 @@
+.Root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  &.is-hover,
+  &:hover:not(&.is-disabled) {
+    background-color: var(--theme-color-bg-3);
+
+    &.is-variant-highlighted,
+    &.is-variant-highlighted-shy {
+      background-color: var(--theme-color-bg-4);
+    }
+  }
+
+  &.is-active {
+    background-color: var(--theme-color-bg-1) !important;
+  }
+
+  &.is-disabled {
+    cursor: default;
+  }
+
+  &.is-variant-shy,
+  &.is-variant-highlighted-shy {
+    path {
+      fill: var(--theme-color-fg-default-shy);
+    }
+  }
+
+  &.is-variant-default-contrast,
+  &.is-variant-default-contrast {
+    path {
+      fill: var(--theme-color-fg-default-contrast);
+    }
+  }
+
+  &.is-showing-affix-on-hover {
+    .Affix {
+      opacity: 0;
+    }
+
+    &:hover .Affix {
+      opacity: 1;
+    }
+  }
+
+  &.is-variant-active {
+    background-color: var(--theme-color-secondary) !important;
+
+    .Prefix path {
+      fill: var(--theme-color-on-secondary) !important;
+    }
+
+    &:hover {
+      background-color: var(--theme-color-secondary-highlight) !important;
+    }
+  }
+}
+
+.Prefix,
+.Affix {
+  flex-basis: 40px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Body {
+  flex: 1 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

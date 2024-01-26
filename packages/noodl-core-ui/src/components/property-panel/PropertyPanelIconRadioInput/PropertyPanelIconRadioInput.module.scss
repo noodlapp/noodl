@@ -1,0 +1,59 @@
+.Root {
+  display: flex;
+  margin-left: -3px; // using -3 for visual compensation
+}
+
+.Option {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  display: block;
+  margin-left: 2px;
+  background-color: var(--theme-color-bg-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+
+  &:hover {
+    svg path {
+      fill: var(--theme-color-fg-highlight);
+    }
+  }
+
+  svg {
+    display: block;
+    pointer-events: none;
+
+    path {
+      fill: var(--theme-color-fg-default);
+    }
+  }
+
+  &.is-selected {
+    background-color: var(--theme-color-bg-1);
+
+    svg {
+      path {
+        fill: var(--theme-color-fg-highlight);
+      }
+    }
+  }
+
+  &.is-disabled {
+    cursor: not-allowed;
+    background-color: var(--theme-color-bg-2);
+
+    svg {
+      path {
+        fill: var(--theme-color-fg-muted);
+      }
+    }
+  }
+}
+
+.Input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+}

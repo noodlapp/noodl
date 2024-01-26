@@ -1,0 +1,43 @@
+.Root {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  min-width: 236px;
+}
+
+.InputContainer {
+  flex: 0 0 49px;
+  padding-left: 4px;
+  padding-right: 4px;
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+.TopContainer,
+.BottomContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.TopContainer {
+  padding-bottom: 4px;
+}
+
+.BottomContainer {
+  padding-top: 4px;
+}
+
+.CenterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.PaddingContainer {
+  padding: 4px;
+  border: 2px solid var(--theme-color-bg-3);
+}

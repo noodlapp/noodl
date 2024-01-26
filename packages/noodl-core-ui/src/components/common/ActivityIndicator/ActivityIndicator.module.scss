@@ -1,0 +1,60 @@
+.Root {
+  &.is-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--theme-color-bg-1-transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Inner {
+  text-align: center;
+  display: flex;
+
+  &.is-size-small {
+    transform: scale(0.7);
+  }
+}
+
+.FirstDot,
+.SecondDot,
+.ThirdDot {
+  width: 8px;
+  height: 8px;
+  margin: 3px;
+
+  border-radius: 100%;
+  animation: bouncedelay 1.4s infinite var(--easing-base) both;
+
+  &.is-color-light {
+    background-color: var(--theme-color-fg-highlight);
+  }
+
+  &.is-color-dark {
+    background-color: var(--theme-color-bg-1);
+  }
+}
+
+.FirstDot {
+  animation-delay: -0.32s;
+}
+
+.SecondDot {
+  animation-delay: -0.16s;
+}
+
+@keyframes bouncedelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}

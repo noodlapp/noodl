@@ -1,0 +1,66 @@
+.Root {
+  display: block;
+
+  path {
+    transition: fill var(--speed-turbo) var(--easing-base);
+  }
+
+  &.is-size-default {
+    width: 24px;
+    height: 24px;
+  }
+
+  &.is-size-large {
+    width: 28px;
+    height: 28px;
+  }
+
+  &.is-size-small {
+    width: 20px;
+    height: 20px;
+  }
+
+  &.is-size-tiny {
+    width: 16px;
+    height: 16px;
+  }
+
+  &.is-variant {
+    &-default path {
+      fill: var(--theme-color-fg-default);
+    }
+
+    &-default-contrast path {
+      fill: var(--theme-color-fg-default-contrast) !important;
+    }
+
+    &-proud path {
+      fill: var(--theme-color-fg-highlight) !important;
+    }
+
+    &-shy path {
+      fill: var(--theme-color-fg-muted) !important;
+    }
+
+    &-success path {
+      fill: var(--theme-color-success) !important;
+    }
+
+    &-notice path {
+      fill: var(--theme-color-notice) !important;
+    }
+
+    &-danger path {
+      fill: var(--theme-color-danger) !important;
+    }
+
+    &-secondary path {
+      fill: var(--theme-color-secondary-as-fg) !important;
+    }
+  }
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}

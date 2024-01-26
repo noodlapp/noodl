@@ -1,0 +1,152 @@
+.Root {
+  display: flex;
+  overflow: hidden;
+
+  border-bottom: 1px solid var(--theme-color-bg-1);
+  background-color: var(--theme-color-bg-2);
+
+  &.can-selected {
+    user-select: none;
+
+    &:hover {
+      background-color: var(--theme-color-bg-3);
+      cursor: pointer;
+    }
+  }
+
+  &.is-selected {
+    background-color: var(--theme-color-secondary);
+
+    &:hover {
+      background-color: var(--theme-color-secondary-highlight);
+    }
+  }
+
+  &.is-first-commit {
+    border-bottom: 0;
+  }
+}
+
+.Item {
+  display: flex;
+  flex: 0 0 auto;
+  width: 80px;
+  position: relative;
+  padding-left: 16px;
+  pointer-events: none;
+
+  svg {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100% + 1px); /* +1 to cover the black border line */
+  }
+}
+
+.Branch {
+  --branch-color-remote-ahead: var(--base-color-teal-800);
+  --branch-color-remote-ahead-hover: var(--base-color-teal-700);
+  --branch-color-remote-ahead-selected: var(--base-color-teal-600);
+  --branch-color-remote-ahead-selected-hover: var(--base-color-teal-500);
+
+  --branch-color-remote: var(--theme-color-secondary);
+  --branch-color-remote-hover: var(--theme-color-secondary-highlight);
+  --branch-color-remote-selected: var(--base-color-teal-600);
+  --branch-color-remote-selected-hover: var(--base-color-teal-500);
+
+  --branch-color-local: var(--theme-color-on-secondary);
+  --branch-color-local-hover: var(--theme-color-on-secondary);
+  --branch-color-local-selected: var(--theme-color-on-secondary);
+  --branch-color-local-selected-hover: var(--theme-color-on-secondary);
+
+  /* --- */
+  fill: var(--theme-color-secondary);
+
+  .BranchTop {
+    stroke: var(--scoped-color);
+  }
+
+  &.is-variant-remote_ahead {
+    --scoped-color: var(--branch-color-remote-ahead);
+  }
+
+  &.is-variant-remote {
+    --scoped-color: var(--branch-color-remote);
+  }
+
+  &.is-variant-local {
+    --scoped-color: var(--branch-color-local);
+  }
+
+  circle,
+  line {
+    stroke: var(--scoped-color);
+  }
+
+  .Head {
+    fill: var(--scoped-color);
+    stroke: none;
+  }
+
+  .Circle {
+    fill: var(--theme-color-bg-2);
+
+    &.is-head {
+      fill: var(--theme-color-fg-highlight) !important;
+    }
+  }
+}
+
+.Root.can-selected:hover .Branch {
+  &.is-variant-remote_ahead {
+    --scoped-color: var(--branch-color-remote-ahead-hover);
+  }
+
+  &.is-variant-remote {
+    --scoped-color: var(--branch-color-remote-hover);
+  }
+
+  &.is-variant-local {
+    --scoped-color: var(--branch-color-local-hover);
+  }
+
+  .Circle {
+    fill: var(--theme-color-bg-3);
+  }
+}
+
+.Root.is-selected .Branch {
+  &.is-variant-remote_ahead {
+    --scoped-color: var(--branch-color-remote-ahead-selected);
+  }
+
+  &.is-variant-remote {
+    --scoped-color: var(--branch-color-remote-selected);
+  }
+
+  &.is-variant-local {
+    --scoped-color: var(--branch-color-local-selected);
+  }
+
+  .Circle {
+    fill: var(--theme-color-secondary);
+  }
+}
+
+.Root.is-selected:hover .Branch {
+  &.is-variant-remote_ahead {
+    --scoped-color: var(--branch-color-remote-ahead-selected-hover);
+  }
+
+  &.is-variant-remote {
+    --scoped-color: var(--branch-color-remote-selected-hover);
+  }
+
+  &.is-variant-local {
+    --scoped-color: var(--branch-color-local-selected-hover);
+  }
+
+  .Circle {
+    fill: var(--theme-color-secondary-highlight);
+  }
+}

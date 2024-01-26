@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Noodl</title>
+    <link href="../assets/lib/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <!-- Libs that don't have npm packaged -->
+    <script type="text/javascript" src="../assets/lib/jquery-min.js"></script>
+    <script type="text/javascript" src="../assets/lib/jquery.autosize.min.js"></script>
+
+    <link rel="preload" href="../assets/Inter/Inter-Light.ttf" as="font" />
+    <link rel="preload" href="../assets/Inter/Inter-Regular.ttf" as="font" />
+    <link rel="preload" href="../assets/Inter/Inter-Medium.ttf" as="font" />
+    <link rel="preload" href="../assets/Inter/Inter-Bold.ttf" as="font" />
+    <link rel="preload" href="../assets/Inter/Inter-SemiBold.ttf" as="font" />
+
+    <script>
+      const path = process.env.devMode !== 'yes' ? '.' : 'http://localhost:8080/src/editor';
+      document.write(`<script defer src="${path}/index.bundle.js"><\/script>`);
+    </script>
+  </head>
+
+  <body>
+    <div id="root" style="position: relative; width: 100vw; height: 100vh; overflow: hidden"></div>
+  </body>
+</html>

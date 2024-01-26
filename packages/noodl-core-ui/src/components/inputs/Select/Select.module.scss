@@ -1,0 +1,144 @@
+$_x-padding: 10px;
+$_y-padding: 8px;
+
+.Root {
+  position: relative;
+  flex-grow: 1;
+
+  &.is-color-theme-transparent {
+    background-color: transparent;
+  }
+
+  &.is-color-theme-dark {
+    background-color: var(--theme-color-bg-2);
+  }
+
+  &.is-color-theme-dark-lighter {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.has-bottom-spacing {
+    margin-bottom: 15px;
+  }
+
+  &.is-focused {
+    background-color: var(--theme-color-bg-1);
+  }
+}
+
+.DisplayContainer {
+  display: flex;
+  justify-content: space-between;
+  transition: opacity var(--speed-turbo);
+  cursor: pointer;
+  padding: 10px $_x-padding 9px;
+  align-items: center;
+}
+
+.DisplayText {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  font-size: 14px;
+  margin-top: -1px;
+
+  &.is-size-small {
+    font-size: 12px;
+  }
+
+  .DisplayContainer:hover & {
+    color: var(--theme-color-fg-default-contrast);
+  }
+
+  &.is-placeholder {
+    color: var(--theme-color-fg-default-shy);
+  }
+
+  .Root.is-focused & {
+    color: var(--theme-color-fg-highlight);
+  }
+}
+
+.Icon {
+  margin-top: calc($_y-padding * -0.5);
+  margin-bottom: calc($_y-padding * -0.5);
+  margin-right: calc($_x-padding * -0.6);
+
+  path {
+    fill: var(--theme-color-fg-default);
+
+    .DisplayContainer:hover & {
+      fill: var(--theme-color-fg-default-contrast);
+    }
+  }
+}
+
+.OptionsContainer {
+  &.is-options-pushing-siblings {
+    position: relative;
+  }
+
+  &.is-options-overlaid {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+  }
+}
+
+.OptionsList {
+  padding: $_x-padding;
+  max-height: 200px;
+  overflow-y: overlay;
+  text-align: left;
+
+  &.is-color-theme-dark {
+    background-color: var(--theme-color-bg-2);
+    border-top: 1px solid var(--theme-color-bg-3);
+  }
+
+  &.is-color-theme-dark-lighter {
+    background-color: var(--theme-color-bg-3);
+    border-top: 1px solid var(--theme-color-fg-muted);
+  }
+}
+
+.Option {
+  color: var(--theme-color-fg-default);
+  opacity: 0.9;
+  transition: color var(--speed-turbo);
+  font-family: var(--font-family);
+  font-size: 14px;
+  cursor: pointer;
+
+  &.is-size-small {
+    font-size: 12px;
+  }
+
+  &:not(:last-child) {
+    padding-bottom: 8px;
+  }
+
+  &.is-disabled {
+    color: var(--theme-color-fg-muted);
+    cursor: not-allowed;
+
+    &:active {
+      color: var(--theme-color-danger);
+    }
+  }
+
+  &.is-selected {
+    &:after {
+      content: '⚈';
+      display: inline-block;
+      padding-left: 10px;
+      color: var(--theme-color-primary);
+    }
+  }
+
+  &:hover:not(.is-disabled) {
+    opacity: 1;
+    color: var(--theme-color-primary);
+  }
+}

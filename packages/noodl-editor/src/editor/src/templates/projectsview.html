@@ -1,0 +1,224 @@
+<div class="projects-main">
+  <!-- project item template -->
+  <div data-template="projects-item" class="projects-item projects-item-plate" data-click="onProjectItemClicked">
+
+      <div class="projects-item-thumb" style="position:absolute; left:0px; top:0px; width:100%; bottom:70px;">
+        <div class="projects-item-cloud-download" style="width:100%; height:100%;">
+          <div style="position:relative; top:70px">
+            <i class="fa fa-cloud-download"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-item-label" style="position:absolute; bottom:36px; left:10px; right:10px;"
+        data-click="onRenameProjectClicked">
+        <span data-text="label" data-test="project-card-label"></span>
+        <img class="projects-edit-icon projects-panel-icon-show-on-hover"
+          style="position:relative; top:2px; margin-left:5px;" src="../assets/images/sharp-edit-24px.svg"></img>
+      </div>
+      <div id="project-name" class="projects-item-label"
+        style="position:absolute; bottom:36px; left:10px; right:10px; display:none;">
+        <input id="project-name-input" class="projects-rename-input"></input>
+      </div>
+
+      <div data-text="latestAccessedTimeAgo" class="projects-item-sublabel"
+        style="position:absolute; bottom:16px; left:10px;"></div>
+
+      <div class="projects-panel-icon-show-on-hover" style="position:absolute;bottom:20px;right:10px" data-click="onDeleteProjectClicked"> 
+        <img class="projects-remove-icon" src="../assets/images/sharp-clear-24px.svg">
+      </div>
+
+  </div>
+
+  <!-- tutorial item template, guides etc (not lessons) -->
+  <div data-template="tutorial-item" class="projects-tutorial-item" data-click="onTutorialItemClicked">
+    <!-- the image will set the size of the card -->
+    <img class="projects-tutorial-item-thumb">
+
+    <div class="projects-tutorial-item-icon" style="position:absolute; left:16px; top:16px; width:20px; height:20px;">
+    </div>
+
+    <div class="projects-tutorial-item-label" style="position:absolute; top:120px; left:16px; right:10px; width:50%;"
+      data-text="label">
+    </div>
+
+    <!--   <div data-text="desc" class="projects-tutorial-item-sublabel"
+        style="position:absolute; bottom:25px; left:10px;"></div> -->
+
+    <div class="projects-tutorial-hover-overlay"></div>
+  </div>
+
+  <!-- lesson card design -->
+  <div data-template="tutorial-lesson-item" class="tutorial-lesson-item" data-class="isFeatureHighlight:is-feature-highlight">
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+    <div class="tutorial-lesson-header">
+      <div data-text="template.header"></div>
+      <div data-text="completionText"></div>
+    </div>
+
+    <div class="content">
+      <div style="position: relative;">
+        <img class="projects-tutorial-item-thumb">
+        <img class="projects-lesson-item-badge" data-class="!completed:hidden">
+      </div>
+
+      <div data-text="template.title" class="title"></div>
+
+      <div class="lesson-completed-text" data-class="!completed:hidden">Lesson completed</div>
+
+      <button data-text="buttonText" data-click="onLessonItemClicked"></button>
+
+      <div class="restart-control" data-class="!showRestart:hidden" data-click="onRestartLessonItemClicked">Reset lesson</div>
+    </div>
+  </div>
+
+  <!-- tutorial category template -->
+  <div data-template="tutorial-category-item" class="tutorial-category-item" data-click="onTutorialCategoryClicked"
+    data-class="selected:selected">
+    <span data-text="name"></span>
+  </div>
+
+  <!-- project template category item -->
+  <div data-template="projects-template-category" class="projects-template-category">
+    <div class="templates"></div>
+  </div>
+
+  <!-- projects template item -->
+  <div data-template="projects-template-item" class="projects-template-item projects-item-plate projects-panel" data-click="onSelectTemplateClicked" data-test="project-template-item">
+      <div class="projects-feed-image feed-item-image"></div>
+
+      <div class="projects-template-item-details">
+        <div data-html="title" class="projects-template-item-title"></div>
+        <div data-html="desc" class="projects-template-item-body"></div>
+      </div>
+  </div>
+
+  <!-- header -->
+  <div style="position:absolute; left:20px; right:20px; height:100%">
+
+    <!-- Projects -->
+    <div id="projectsPane" style="position: absolute; top:0px; bottom: 0px; left:0px; right:0px; ">
+
+      <!-- create new project-->
+      <div class="projects-create-new-project" style="position:relative; display:none; margin-top:60px;">
+        <img style="position:absolute; top:7px; left:10px;" class="projects-back-icon"
+          src="../assets/images/sharp-arrow_back-24px.svg" data-click="onBackToProjectsListClicked"></img>
+        <div style="margin-left:50px; margin-bottom:40px; width:500px; position:relative; top:0px;">
+          <div class="projects-title">Pick a template to start from</div>
+        </div>
+
+        <div style="margin-left:45px;">
+          <div class="projects-create-from-template" style="overflow-y: auto"></div>
+        </div>
+      </div>
+
+      <!-- projects list -->
+      <div class="projects-list">
+        <div style="position:absolute; bottom:74px; top:0px; left:0px; right:0px;overflow-y: auto; padding-top: 20px; ">
+          <div id="get-started" style="margin-top: 14px; margin-bottom: 80px;">
+            <div class="tutorial-categories" style="display:flex; flex-wrap:wrap;"></div>
+            <div class="tutorial-items"></div>
+            <div class="lesson-items-scroll-controls">
+              <svg id="lesson-items-scroll-controls-left" width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg" data-click="onLessonsScrollLeftClicked">
+                <path d="M24 6.99609C14.0589 6.99609 6 15.055 6 24.9961C6 34.9372 14.0589 42.9961 24 42.9961C33.9411 42.9961 42 34.9372 42 24.9961C42 15.055 33.9411 6.99609 24 6.99609Z" stroke="#B8B8B8" stroke-width="2" stroke-miterlimit="10"/>
+                <path d="M22.8563 18.6391L16.5001 24.9953L22.8563 31.3516" stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M31.5 24.9961L16.5 24.9961" stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <svg id="lesson-items-scroll-controls-right" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-click="onLessonsScrollRightClicked">
+                <path d="M24 42C33.9411 42 42 33.9411 42 24C42 14.0589 33.9411 6 24 6C14.0589 6 6 14.0589 6 24C6 33.9411 14.0589 42 24 42Z" stroke="#B8B8B8" stroke-width="2" stroke-miterlimit="10"/>
+                <path d="M25.1437 30.357L31.4999 24.0008L25.1437 17.6445" stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16.5 24H31.5" stroke="#B8B8B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <!-- <div class="lesson-items" style="overflow-x:scroll;white-space: nowrap; margin:5px; margin-top:20px;"></div> -->
+          </div>
+          <div class="projects-divider-label" style="margin-bottom:15px;">Recent projects</div>
+          <div id="local-projects" style="margin-bottom:30px;">
+            <div class="local-projects-items" style="display:flex; flex-wrap:wrap; gap: 10px;"></div>
+          </div>
+          <div id="no-projects" style="margin-bottom:30px;">
+            <div class="projects-sub-divider-label">You don't have any projects yet.</div>
+          </div>
+          <!--  <div class="projects-divider-label" style="margin-top:30px;">Sample projects</div>
+          <div class="sample-projects-items" style="display:flex; flex-wrap:wrap;"></div> -->
+        </div>
+
+        <!-- footer -->
+        <div style="position:absolute; width:100%; bottom:0px; height:54px;">
+          <div style="position:relative;">
+            <button class="projects-create-new-project-button" style="margin-right:10px"
+              data-click="onCreateNewProjectClicked" data-test="create-project-button">Create project</button>
+            <button class="projects-header-button" data-click="onImportExistingProjectClicked">Open folder</button>
+
+            <!-- search -->
+            <!--   <div style="position:absolute; right:10px; width:300px; top:0px; height:35px;display: flex;"
+              class="search projects-search-bg">
+              <div class="projects-icon"
+                style="flex-grow: 0;width:35px;display: flex;justify-content: center;align-items: center;">
+                <i style="vertical-align: middle;margin: 0 auto" class="fa fa-search"></i>
+              </div>
+
+              <input id="search" type="string" class="projects-search-input" style="flex-grow: 1; width:100%;"></input>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <!-- show selected feed item big -->
+    <div id="start-pane-feed-big" class="projects-start-pane-feed-big"
+      style="position:absolute; top:0px; left:0px; right:0px; bottom:0px; display:none;">
+
+      <div class="projects-start-pane-feed-big create-from-template-popup"
+        style="position:absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); margin-left: auto; margin-right: auto; width: 700px;">
+
+        <div style="position:relative; height:100%; display: flex; flex-direction: row; background-color: #222222;">
+          <div id="start-pane-feed-item-big-image" class="projects-feed-image-big"
+            style="flex-shrink:0; height:250px; width:250px; margin-left:0px; margin-top:0px;"></div>
+
+        
+
+          <div id="start-pane-feed-item-big-create-new-project"
+            style="margin-left:20px; margin-top:20px;">
+
+            <div style="margin-left:0px; margin-right:20px;">
+              <div class="projects-popup-title">Create new project from template</div>
+              <div class="projects-sublabel" style="margin-top:5px;" data-bind="watch"
+                data-html="projectTemplateLongDesc"></div>
+            </div>
+
+            <div style="margin-top:20px; margin-bottom:10px;">
+              <div style="margin-bottom:5px;" class="projects-label-small">Project name</div>
+              <div style="display: flex; width:400px; height:35px;" class="projects-search-bg">
+                <input id="create-new-project-from-feed-item-name" type="string" placeholder="Untitled"
+                  class="projects-project-name-input" style="flex-grow: 1; width:100%;" data-test="new-project-name-input"></input>
+              </div>
+            </div>
+
+            <div style="position:absolute; top:10px; right:10px;" data-click="onExitBigFeedItemClicked">
+              <div class="projects-exit-big-feed-item-icon"></div>
+            </div>
+          </div>
+
+          <div style="position:absolute; bottom:20px; right:20px;">
+            <button id="create-new-project-button" class="projects-create-new-project-button" data-test="create-project-from-template-button" style="margin-right:10px; margin-top:10px; float:right;"
+              data-click="onNewProjectFromSampleClicked">Select project folder location</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- spinner -->
+    <div class="spinner page-spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+</div>

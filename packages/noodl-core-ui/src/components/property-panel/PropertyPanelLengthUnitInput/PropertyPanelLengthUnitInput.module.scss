@@ -1,0 +1,27 @@
+.Root {
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  display: flex;
+  position: relative;
+
+  &.is-faux-focused {
+    z-index: 1;
+  }
+}
+
+.UnitContainer {
+  width: 32px;
+  margin-left: 2px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: relative;
+
+  &.has-small-text {
+    width: 24px;
+    margin-left: -4px;
+  }
+
+  input {
+    text-align: center;
+  }
+}

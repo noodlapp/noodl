@@ -1,0 +1,14 @@
+.Root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.TreeViewItemDraggable {
+  user-select: none;
+  cursor: pointer;
+  
+  & * {
+    pointer-events: none;
+  }
+}

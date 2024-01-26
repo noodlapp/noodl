@@ -1,0 +1,32 @@
+name: Test noodl-editor
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  test_platform:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - node: 16
+            os: ubuntu-latest
+            platform: linux-x64
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install dependencies 🏗
+        run: npm install
+
+      - name: Run tests headless
+        run: /usr/bin/xvfb-run --auto-servernum -s "-screen 0 1280x1024x24" npm run test:editor

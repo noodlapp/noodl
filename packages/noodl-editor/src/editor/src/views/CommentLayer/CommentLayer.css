@@ -1,0 +1,196 @@
+#comment-layer-fg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#comment-layer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#comment-layer-bg *,
+#comment-layer-fg * {
+  box-sizing: border-box;
+}
+
+.comment-layer-comments {
+  transform-origin: 0 0;
+}
+
+.comment-layer-comment textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.comment-layer-comment {
+  color: var(--theme-color-fg-default-contrast);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.comment-layer-comment.large-font {
+  font-size: 18px;
+}
+
+.comment-layer-comment.background {
+  left: 0;
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+  border: 2px solid transparent;
+}
+
+.comment-layer-comment.background.fill:not(.selected),
+.comment-layer-comment.background.transparent:not(.selected) {
+  border: 2px solid #00000020;
+}
+
+.comment-layer-comment.background.selected.fill,
+.comment-layer-comment.background.selected.transparent {
+  outline: 1px solid white;
+  outline-offset: 0px;
+}
+
+.comment-layer-comment.background.selected.no-fill {
+  outline: 1px solid white;
+  outline-offset: 4px;
+}
+
+.comment-layer-comment.background .content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.comment-layer-comment.foreground {
+  border: 2px solid transparent; /* need a border to line up correctly with the background version */
+}
+
+.comment-layer-comment.background.no-fill {
+  outline-offset: 4px;
+}
+
+.comment-layer-comment.background.has-annotation.changed {
+  outline: 2px solid #83b8ba;
+}
+
+.comment-layer-comment.background.has-annotation.deleted {
+  outline: 2px solid #f57569;
+}
+
+.comment-layer-comment.background.has-annotation.created {
+  outline: 2px solid #5bf59e;
+}
+
+.comment-drag-area {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-layer-comment textarea {
+  font: inherit;
+  border: none;
+  resize: none;
+  color: inherit;
+  align-self: stretch;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  line-height: inherit;
+  flex-shrink: 0;
+}
+
+/*
+    Control bar on top of comments
+*/
+
+.comment-controls {
+  position: absolute;
+  top: -60px;
+  transform: translateX(-50%);
+  left: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  display: flex;
+  animation-duration: 300ms;
+  animation-name: slideup;
+  background-color: var(--theme-color-bg-2);
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  border-radius: 2px;
+  line-height: 0;
+}
+
+@keyframes slideup {
+  from {
+    top: -30px;
+    opacity: 0;
+  }
+
+  to {
+    top: -60px;
+    opacity: 1;
+  }
+}
+
+.comment-color-picker-icon-parent {
+  width: 36px;
+  height: 36px;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: var(--theme-color-bg-3);
+  cursor: pointer;
+}
+
+.comment-color-picker-icon-parent:hover {
+  background-color: var(--theme-color-bg-1);
+}
+
+.comment-color-picker-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.comment-color-picker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 6px;
+  width: calc(34px * 3);
+  gap: 1px;
+}
+
+.comment-color-picker > div {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: 1px solid var(--theme-color-bg-1-transparent);
+}
+
+.comment-color-picker > div:not(.active):hover {
+  box-shadow: 0 0 0 1px var(--theme-color-fg-transparent) inset, 0 0 0 1px var(--theme-color-fg-transparent) inset;
+}
+
+.comment-color-picker > div:last-child {
+  /* border-right: none; */
+}
+
+.comment-color-picker .active {
+  position: relative;
+  box-shadow: 0 0 0 1px var(--theme-color-fg-default) inset;
+  z-index: 1;
+}

@@ -1,0 +1,151 @@
+[
+    {
+        "title": "Perdue Fresh Chicken Drumsticks Value Pack (4.5-5.75 lbs.)",
+        "img": "https://i5.walmartimages.com/asr/7cef3702-4223-4c72-9035-2d54bfc770a5_1.9fac2e61e2189b3d0b28bca3721e9dfd.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>No Antibiotics Ever</li><li>All Vegetarian Diet</li><li>No Animal By-Products</li><li>Raised Cage Free</li><li>No Hormones or Steroids Added*</li><li>Chicken Hatched Raised and Harvested in the USA</li></ul>",
+            "short": "<ul><li>Fresh chicken drumsticks approximately 14-16 pieces per tray.</li></ul>"
+        },
+        "reviews": {
+            "customerRating": 4,
+            "numReviews": 1
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "158751412",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Marketside Antibiotic-Free Chicken Drumsticks, 1.5 - 2.2 lb",
+        "img": "https://i5.walmartimages.com/asr/3e387076-a218-43a8-bf77-e1770837069d_2.948cccadb5bbb00f49fb51640b760a69.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Marketside Antibiotic-Free  Chicken Drumsticks, 1.5-2.2 lb:</b><ul><li>All natural</li><li>No added hormones or steroids</li><li>No antibiotics ever</li><li>Fed all-vegetarian diet</li><li>Never fed animal by-products</li><li>Raised cage free</li><li>Keep refrigerated or frozen</li><li>Perfect for grilling, baking, and frying</li></ul>",
+            "short": "<ul><li>All natural</li><li>No added hormones or steroids</li><li>No antibiotics ever</li></ul>"
+        },
+        "price": 2.62,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "2.2"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "149101411",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Tyson® All Natural* Chicken Drumsticks Family Pack, 4.5 lb",
+        "img": "https://i5.walmartimages.com/asr/599a6b4a-1d7f-4d37-85a4-a56214e9b4fe_2.c04947fd1a8039f258e031fc40784a5f.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Tyson® All Natural* Fresh Chicken Drumsticks</li><li>All-natural, minimally processed chicken with no artificial ingredients</li><li>21 grams of protein and 0 grams of trans fat per serving</li><li>No antibiotics ever</li><li>No added hormones or steroids</li><li>Perfect for grilling and frying</li></ul>",
+            "short": "<ul><li>One package of Tyson® All Natural* Fresh Chicken Drumsticks All-natural, minimally processed chicken with no artificial ingredients 21 grams of protein and 0 grams of trans fat per serving</li></ul>",
+            "medium": "<p>For a fun meal, try Tyson Chicken Drumsticks. Fry them up or put them in the oven for a great meal the whole family will enjoy.</p>"
+        },
+        "reviews": {
+            "customerRating": 3.9,
+            "numReviews": 18
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "4.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10533743",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Chicken & Poultry",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Chicken & Poultry",
+                    "url": "/cp/1001443"
+                }
+            ]
+        }
+    }
+]

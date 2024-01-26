@@ -1,0 +1,46 @@
+.iconpicker-bg {
+  background-color: #222;
+}
+
+.iconpicker-header {
+  background-color: #292929;
+  flex: 0 0 26px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.iconpicker-search-header {
+  background-color: #292929;
+}
+
+.iconpicker-iconset-header {
+  background-color: #292929;
+  flex: 0 0 26px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+.iconpicker-label {
+  color: #7a7a7a;
+}
+
+.iconpicker-search-input {
+  background-color: #333333;
+  color: #dddddd;
+  border: none;
+  display: block;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  font: 12px var(--font-family-regular);
+}
+
+.iconpicker-icon {
+  color: white;
+  width: 24px;
+  height: 24px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

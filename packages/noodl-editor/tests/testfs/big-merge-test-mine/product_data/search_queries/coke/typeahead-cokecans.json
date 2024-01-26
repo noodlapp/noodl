@@ -1,0 +1,168 @@
+[
+    {
+        "title": "Coca-Cola Soda, 12 Fl. Oz., 24 Count",
+        "img": "https://i5.walmartimages.com/asr/0989e352-9f15-4f08-9fe1-05995a889dc5_1.dbf60d0b8b5348fa5085ce68a01f2b18.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Coca-Cola Cola:</strong><br /><ul><li>140 calories per can</li><li>34mg caffeine per can</li><li>Coke soda with low sodium</li><li>No artificial flavors</li><li>No preservatives added</li><li>39g sugar per can</li></ul>",
+            "short": "<li>140 calories per can</li><li>34mg caffeine per can</li><li>Low sodium</li>",
+            "medium": "<p>Coca-Cola Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.</p>"
+        },
+        "price": 8.78,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 53
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "288"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10535216",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Soda Soft Drink, 12 fl oz, 12 Pack",
+        "img": "https://i5.walmartimages.com/asr/14513f7a-1fa0-4971-94f9-affcfbe4a283_1.6abbc8252177d0448fe8485a1eef5605.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong><br />Coca-Cola Soda Soft Drink, 12 fl oz, 12-pack:</strong><br /><ul><li>Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world</li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton, Coca-Cola was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola syrup with carbonated water</li><li>Bring home the refreshing taste of Coca-Cola</li><li>The 12 fl oz soda is a good size for drinking with meals, on the go or anytime</li><li>For crisp, cold taste, serve chilled at 37 degrees</li><li>Available in a single pack of 12 </li></ul>",
+            "short": "<ul><li>Enjoy the taste of original Coke</li><li>With meals, on the go, or to share</li><li>Serve chilled at 37 degrees</li></ul>",
+            "medium": "<p>Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.</p>"
+        },
+        "price": 4.98,
+        "reviews": {
+            "customerRating": 4.3659,
+            "numReviews": 41
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "144"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "12166733",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Mini Can Soda, 7.5 Fl Oz, 10 Count",
+        "img": "https://i5.walmartimages.com/asr/557a24a2-c971-4fd2-9096-d1762947afbb_4.16e87ddc8ae78b5b2da8e4d188b9bc0a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Coca-Cola Soda Soft Drink, 7.5 fl oz, 10-pack:</strong><br /><ul><li>Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world</li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton, Coca-Cola was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola syrup with carbonated water</li><li>Bring home the refreshing taste of Coca-Cola</li><li>7.5 fl oz soda is a good size for drinking with meals, on the go or anytime</li><li>For crisp, cold taste, serve chilled at 37 degrees</li><li>Available in a single pack of 10</li></ul>",
+            "short": "<div class=\"product-property-value\" style=\"box-sizing: inherit; margin: 0px; padding: 0px; text-overflow: ellipsis; overflow-x: hidden; line-height: 1.4; color: rgb(34, 34, 34); font-family: proxima-nova, &quot;Helvetica Neue&quot;, Helvetica, Helvetica, Arial, sans-serif;\"><div id=\"ember1646\" class=\"ember-view\" style=\"box-sizing: inherit; margin: 0px; padding: 0px;\"><ul><li>Coca-Cola&nbsp;is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world<br></li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton,&nbsp;Coca-Cola&nbsp;was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola&nbsp;syrup with carbonated water<br></li></ul></div></div>"
+        },
+        "price": 3.88,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 54
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "75"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "125411280",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    }
+]

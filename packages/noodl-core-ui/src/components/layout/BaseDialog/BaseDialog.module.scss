@@ -1,0 +1,123 @@
+.Root {
+  border: none;
+  padding: 0;
+  background: transparent;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  &.has-backdrop {
+    background-color: var(--theme-color-bg-1-transparent);
+  }
+
+  &.is-locking-scroll {
+    background-color: transparent;
+  }
+
+  &:not(.has-backdrop):not(.is-locking-scroll) {
+    pointer-events: none;
+  }
+}
+
+.VisibleDialog {
+  filter: drop-shadow(0 4px 15px var(--theme-color-bg-1-transparent-2));
+  box-shadow: 0 0 10px -5px var(--theme-color-bg-1-transparent-2);
+  position: absolute;
+  width: var(--width);
+  pointer-events: all;
+
+  .Root.is-centered & {
+    top: 50%;
+    left: 50%;
+    animation: enter-centered var(--speed-quick) var(--easing-base) both;
+  }
+
+  .Root:not(.is-centered) &.is-visible {
+    &.is-variant-default {
+      animation: enter var(--speed-quick) var(--easing-base) both;
+    }
+
+    &.is-variant-select {
+      transform: translate(var(--offsetX), var(--offsetY));
+    }
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+}
+
+.Arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: var(--arrow-top);
+  left: var(--arrow-left);
+  pointer-events: none;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 11px;
+    height: 11px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: var(--background);
+  }
+
+  &.is-contrast::after {
+    background: var(--backgroundContrast);
+  }
+}
+
+.Title {
+  background-color: var(--backgroundContrast);
+  padding: 12px;
+}
+
+.MeasuringContainer {
+  pointer-events: none;
+  height: 0;
+  overflow: visible;
+  opacity: 0;
+}
+
+.ChildContainer {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes enter {
+  from {
+    opacity: 0;
+    transform: translate(
+      calc(var(--animationStartOffsetX) + var(--offsetX)),
+      calc(var(--animationStartOffsetY) + var(--offsetY))
+    );
+  }
+  to {
+    opacity: 1;
+    transform: translate(var(--offsetX), var(--offsetY));
+  }
+}
+
+@keyframes enter-centered {
+  from {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 16px));
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}

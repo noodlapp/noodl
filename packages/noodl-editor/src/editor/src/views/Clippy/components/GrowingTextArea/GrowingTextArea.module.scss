@@ -1,0 +1,12 @@
+.Root {
+    background: transparent;
+    color: var(--theme-color-fg-highlight);
+    font-family: var(--font-family-regular);
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    resize: none;
+}

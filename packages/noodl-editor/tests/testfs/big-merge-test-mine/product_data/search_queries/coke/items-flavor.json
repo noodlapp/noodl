@@ -1,0 +1,165 @@
+[
+    {
+        "title": "Coca-Cola Cherry Flavored Soda, 12 Fl. Oz., 12 Count",
+        "img": "https://i5.walmartimages.com/asr/e90b4588-0df1-4ffa-8ec2-2a2d91d4fbc4_2.12b0693b9d3e4b30e8170ca5b3e52a8f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<strong>Coca-Cola Soda, Cherry, 12 Fl Oz, 12 Count:</strong><br><ul><li>Delicious taste of Coca-Cola with a sweet, smooth cherry flavor</li><li>Ideal size for drinking with meals, on the go or any time</li><li>Serve ice cold for maximum refreshment</li><li>Comes in a handy pack for storing in a refrigerator or cooler</li><li>Ideal for parties and sharing with family and friends</li><li>Package includes a dozen&nbsp;12 Fl Oz soda cans</li></ul>",
+            "short": "<ul><li>Great taste of Coca-Cola</li><li>Sweet, smooth cherry flavor</li><li>Serve chilled at 37 degrees</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 3.5,
+        "reviews": {
+            "customerRating": 3.6667,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "144"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10291620",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Soda, Vanilla, 12 Fl Oz, 12 Count",
+        "img": "https://i5.walmartimages.com/asr/f9082752-18c6-43a1-9813-ed19bbb2d841_2.b0a74724f6b823c8796a8a57969e027d.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><strong>Coca-Cola Soda, Vanilla, 12 fl oz, 12-count:</strong><br /><ul><li>Refreshingly smooth balance of vanilla flavor and great-tasting Coca-Cola</li><li>Low sodium</li><li>Drink with meals, on the go or to share</li><li>Bring home the refreshing taste of low-sodium soda Vanilla Coke</li><li>For crisp, cold taste, serve chilled at 37 degrees F</li><li>150 calories per serving</li><li>Available in a single pack of 12</li></ul>",
+            "short": "<li>Very low sodium</li><li>Fridge pack</li>",
+            "medium": "</p>"
+        },
+        "price": 3.5,
+        "reviews": {
+            "customerRating": 4.3333,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Cola",
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "144"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "10291625",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Coca-Cola Cherry Soda Soft Drink, 16.9 fl oz, 6 Pack",
+        "img": "https://i5.walmartimages.com/asr/de1385f5-7661-49e1-819a-333cd3781716_2.7cb5b84f024eb6c17795b037549b33a8.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known brand in the world</li><li>Created in 1886 in Atlanta, Georgia, by Dr. John S. Pemberton, Coca-Cola was first offered as a fountain beverage at Jacob's Pharmacy by mixing Coca-Cola syrup with carbonated water</li><li>Bring home the refreshing taste of Coca-Cola</li><li>Perfect size for drinking with meals, on the go, or any time</li><li>For crisp, cold taste, serve chilled at 37 degrees</li></ul>",
+            "short": "Coca-cola Cherry 6-16.9 F"
+        },
+        "price": 2.5,
+        "reviews": {},
+        "size": {
+            "pricePerUnitUom": "Fluid Ounce",
+            "pricePerUnitQuantity": "101.4"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "970175971",
+        "category": {
+            "categoryPath": "Home Page/Food/Beverages/Soda Pop/Coca-Cola/All Coca-Cola",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Beverages",
+                    "url": "/cp/976782"
+                },
+                {
+                    "name": "Soda Pop",
+                    "url": "/cp/1001680"
+                },
+                {
+                    "name": "Coca-Cola",
+                    "url": "/cp/6505121"
+                },
+                {
+                    "name": "All Coca-Cola",
+                    "url": "/cp/8744944"
+                }
+            ]
+        }
+    }
+]

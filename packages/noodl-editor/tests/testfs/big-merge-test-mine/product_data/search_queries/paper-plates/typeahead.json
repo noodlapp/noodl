@@ -1,0 +1,251 @@
+[
+    {
+        "title": "Great Value Everyday Paper Lunch Plates, 8 5/8\", 100 Count",
+        "img": "https://i5.walmartimages.com/asr/ab5bc84e-f26d-4033-8cbf-b2d8e85af2f7_1.ca5b13a44188d7f76fde75cf027aa5bc.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Great Value Everyday Premium Paper Plates, 8 5/8\", 100 Count:</b><ul><li>Microwave Safe</li><li>Ideal for everyday use or special occasions</li><li>Perfect for your next party</li><li>Great alternative to breakable plates</li><li>Makes cleaning parties easyHolds your favorite foods</li></ul>",
+            "short": "<ul><li>Microwave Safe</li><li>Ideal for everyday use or special occasions</li><li>Perfect for your next party</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 3.64,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 278
+        },
+        "size": {
+            "karfGroceryType": "Plates",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "110.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44390998",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Paper & Plastic/Disposable Tabletop/Disposable Plates",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Paper & Plastic",
+                    "url": "/cp/1073264"
+                },
+                {
+                    "name": "Disposable Tabletop",
+                    "url": "/cp/1149388"
+                },
+                {
+                    "name": "Disposable Plates",
+                    "url": "/cp/7986870"
+                }
+            ]
+        }
+    },
+    {
+        "title": "(3 pack) Dixie Everyday Paper Snack/Dessert Plates, 7\", 50 Count",
+        "img": "https://i5.walmartimages.com/asr/3093259c-a5d9-4248-b14c-cb871e0067b2_1.3b36affc6958576b563e09f3df5f445a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "50 plates per pack 7\" paper plates Microwavable, Cut-Resistant Soak Proof Shield Ideal size for snacks and desserts",
+            "short": "Bundle and save. Get more and spend less when you buy these items together. See individual items for a complete description."
+        },
+        "price": 6.97,
+        "reviews": {
+            "customerRating": 4.8,
+            "numReviews": 1367
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "50"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_default"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "542517099",
+        "variantCategoriesMap": {
+            "multipack_quantity": {
+                "id": "multipack_quantity",
+                "name": "Multipack Quantity",
+                "type": "DROPDOWN",
+                "variants": {
+                    "multipack_quantity-3": {
+                        "id": "multipack_quantity-3",
+                        "name": "3",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "3Y2LBKRYI7PU"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 6.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.046,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 6.97,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.046,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "multipack_quantity-1": {
+                        "id": "multipack_quantity-1",
+                        "name": "1",
+                        "categoryId": "multipack_quantity",
+                        "products": [
+                            "28SUSJL5XX85"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 2.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.05,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 2.48,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "UNIT": {
+                                    "price": 0.05,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        },
+                        "checkStore": true
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Paper & Plastic/Disposable Tabletop/Paper Plates",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Paper & Plastic",
+                    "url": "/cp/1073264"
+                },
+                {
+                    "name": "Disposable Tabletop",
+                    "url": "/cp/1149388"
+                },
+                {
+                    "name": "Paper Plates",
+                    "url": "/cp/3938005"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Great Value Ultra Paper Dinner Plates, 10 1/16\", 100 Count",
+        "img": "https://i5.walmartimages.com/asr/8cf3466e-9b03-438e-a0f3-8ab0a34248e3_1.908fae7e54fb625757b8c3fafc630dce.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Great Value Ultra Paper Plates: 6X better soak proof coating Microwave safeSturdy performance Perfect for everyday use10 1/16 inch 100 Plates",
+            "short": "<ul><li>6X better soak proof coating</li><li>Microwave safe</li><li>Sturdy performance</li><li>Perfect for everyday use</li><li>10 1/16 inch</li><li>100 Plates</li></ul>"
+        },
+        "price": 9.64,
+        "reviews": {
+            "customerRating": 4.9,
+            "numReviews": 41
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "100"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "449577508",
+        "category": {
+            "categoryPath": "Home Page/Household Essentials/Paper & Plastic/Disposable Tabletop/Disposable Plates",
+            "path": [
+                {
+                    "name": "Household Essentials",
+                    "url": "/cp/1115193"
+                },
+                {
+                    "name": "Paper & Plastic",
+                    "url": "/cp/1073264"
+                },
+                {
+                    "name": "Disposable Tabletop",
+                    "url": "/cp/1149388"
+                },
+                {
+                    "name": "Disposable Plates",
+                    "url": "/cp/7986870"
+                }
+            ]
+        }
+    }
+]

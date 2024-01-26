@@ -1,0 +1,27 @@
+.Root {
+  position: relative;
+  display: inline-flex;
+  animation-duration: 300ms;
+  animation-name: slideup;
+  filter: drop-shadow(0 4px 15px var(--theme-color-bg-1-transparent-2));
+  box-shadow: 0 0 10px -5px var(--theme-color-bg-1-transparent-2), 0 0 2px -1px var(--theme-color-bg-1);
+  border-radius: 2px;
+}
+
+.IconList {
+  background-color: var(--base-color-grey-900);
+  gap: 1px;
+  border-radius: 2px;
+}
+
+@keyframes slideup {
+  from {
+    top: 10px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}

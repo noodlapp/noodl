@@ -1,0 +1,101 @@
+<div style="width: 400px;" data-indent-offset="20">
+  <!-- Folder template -->
+  <div data-template="folder" class="import-popup-folder" style="width:100%; position:relative;">
+    <div style="width:100%; height:24px; position:relative;">
+      <div class="sidebar-panel-dark-input" style="position:absolute; left:2px; width:24px; top:3px; bottom:3px" data-click="onFolderBoxClicked">
+        <i class="fa fa-check" data-class="!import:hidden,implicit:import-popup-implicit-check,import:import-popup-import-check"
+          style="position:absolute; left:7px; top:5px"></i>
+      </div>
+      <div class="indent-me" style="width:100%; height:24px; position:absolute;" data-click="onFolderClicked">
+        <div style="position:absolute; width:28px; top:4px; bottom:4px">
+          <i class="fa" data-class="open:fa-caret-down,!open:fa-caret-right"></i>
+        </div>
+        <div style="line-height:20px; position:absolute; left:10px; top:3px; bottom:3px; right:3px;" data-text="localName">
+        </div>
+      </div>
+    </div>
+
+    <!-- folder content goes here -->
+    <div class="content" style=""></div>
+  </div>
+
+  <!-- Item template -->
+  <div data-template="item" class="import-popup-item" style="width:100%; height:24px; position:relative;">
+    <div class="sidebar-panel-dark-input" style="position:absolute; left:2px; width:24px; top:3px; bottom:3px" data-click="onBoxClicked">
+      <i class="fa fa-check" data-class="!check:hidden,implicit:import-popup-implicit-check,import:import-popup-import-check"
+        style="position:absolute; left:7px; top:5px"></i>
+    </div>
+
+    <div class="indent-me" style="line-height:20px; position:absolute; top:3px; bottom:3px; right:3px;" data-text="localName">
+    </div>
+  </div>
+
+  <div style="height:500px;overflow:hidden auto;">
+
+    <!-- Components -->
+    <div data-class="!hasComponents:hidden">
+      <label class="popup-group-label">COMPONENTS</label>
+
+      <div class="import-popup-text">
+        Select which components to import from the project.
+      </div>
+      <div class="components" style="margin-top:10px; width:100%;"></div>
+    </div>
+
+    <!-- Resources -->
+    <div data-class="!hasResources:hidden" style="margin-top:20px">
+      <label class="popup-group-label">RESOURCES</label>
+
+      <div class="import-popup-text">
+        Select which resources to import from the project.
+      </div>
+      <div class="resources" style="margin-top:10px; width:100%;"></div>
+    </div>
+
+    <!-- Modules -->
+    <div data-class="!hasModules:hidden" style="margin-top:20px">
+      <label class="popup-group-label">MODULES</label>
+
+      <div class="import-popup-text">
+        Select which modules to import from the project.
+      </div>
+      <div class="modules" style="margin-top:10px; width:100%;"></div>
+    </div>
+
+    <!-- Variants -->
+    <div data-class="!hasVariants:hidden" style="margin-top:20px">
+      <label class="popup-group-label">VARIANTS</label>
+
+      <div class="import-popup-text">
+        Select which variants to import from the project.
+      </div>
+      <div class="variants" style="margin-top:10px; width:100%;"></div>
+    </div>   
+    
+    <!-- Color styles -->
+    <div data-class="!hasColorStyles:hidden" style="margin-top:20px">
+      <label class="popup-group-label">COLOR STYLES</label>
+
+      <div class="import-popup-text">
+        Select which color styles to import from the project.
+      </div>
+      <div class="color-styles" style="margin-top:10px; width:100%;"></div>
+    </div>   
+
+    <!-- Text styles -->
+    <div data-class="!hasTextStyles:hidden" style="margin-top:20px">
+      <label class="popup-group-label">TEXT STYLES</label>
+
+      <div class="import-popup-text">
+        Select which text styles to import from the project.
+      </div>
+      <div class="text-styles" style="margin-top:10px; width:100%;"></div>
+    </div>   
+    
+    <div style="height: 30px; padding: 5px; padding-bottom: 10px; margin-top:20px;">
+      <button class="popup-button" data-click="onOkClicked">IMPORT</button>
+      <button class="popup-button-grey" data-click="onCancelClicked">CANCEL</button>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,485 @@
+[
+    {
+        "title": "Revlon One-Step Hair Dryer & Volumizer Hot Air Brush, Black, RVDR5222",
+        "img": "https://i5.walmartimages.com/asr/5a3888d0-95ff-4de2-ab52-f9f2236a0773_1.e27b0fc7fb5a5b5da84ef29192e77b8a.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b><br>Revlon One Step Hair Dryer Volumizer Brush Product Features: </b><br><p class=\"MsoNormal\" style=\"display: inline !important;\">Revolutionary styling tool with the Power of a Dryer, Volume of a Styler. Less Time, Less Damage.<o:p></o:p></p><p class=\"MsoNormal\"><ul><li>Designed with nylon pin &amp; tufted bristles for detangling, improved volume and control. Unique oval brush design for smoothing the hair, while the round edges create volume and curled ends. </li><li>For extra lift at the roots, hold the volumizer for 2-3 seconds under the roots. 3 Heat/Speed settings for styling flexibility.</li><li>Built with a genuine ION generator to promote fast drying and create styles full of shine and healthy-looking hair. Ceramic coating helps protect hair from over styling with even heat distribution that penetrates hair quickly and dries from the inside out.</li><li>Safety First: The Revlon One Step Hair Dryer and Volumizer meets U.S. safety requirements and proudly features the ETL Certification seal (look for the ?test? button on the plug which is required for all hair dryers in the U.S.).</li><li>The REVLON One Step Unit is designed for 120 Volt USA outlets ONLY. Do NOT use a Voltage Converter as it will damage the Unit. </li><li>4-year limited warranty</li></ul><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><p class=\"MsoNormal\"><o:p></o:p></p><div><br></div><p></p> <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class=\"embed-container\"><iframe src=\"https://www.youtube.com/embed/n8lFAQL8fIA\" frameborder=\"0\" allowfullscreen=\"\"></iframe></div>",
+            "short": "<ul><li>Nylon Pin &amp; Tufted Bristles for detangling, improved volume and control.&nbsp;<br></li><li>Unique Oval Brush Design for Smoothing the Hair, while the Round Edges Create Volume.&nbsp;</li><li>1100-Watt power provides just the right heat.&nbsp;<br></li></ul>"
+        },
+        "price": 45.99,
+        "reviews": {
+            "customerRating": 4.6,
+            "numReviews": 447
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "54931349",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Actual Color",
+                "type": "SWATCH",
+                "variants": {
+                    "actual_color-purple": {
+                        "id": "actual_color-purple",
+                        "name": "Purple",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/771bd18b-1a70-4c4c-8a56-f53093f806ff_1.1e9860c8d928e0e994aabec0e97829be.png",
+                        "products": [
+                            "1E4HXDGAHKV8"
+                        ],
+                        "images": [
+                            "67EF6C54F25E46CD9AECB86ABBAE9152",
+                            "C53958CB34864324831D24F1D9AE1CFF",
+                            "239384AAA5DC4C06972FDB75C4B627D3",
+                            "CB38066BE85F4C84AD2FC66CB6FA7A0F",
+                            "27A20C221A134E918BDCCE9BC54493F3",
+                            "DDB934D2220C48EF8C0089E10F569621",
+                            "69C2DFD5905A4170A0E5FF3DAD64536A",
+                            "09FBFB777638403EA4B99B0A30F3A8F8"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 58,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 58,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-black": {
+                        "id": "actual_color-black",
+                        "name": "Black",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/67454cef-da1d-4de6-9f8a-4247e26f990c_1.6065602593224fb4a2bf9716dab59260.png",
+                        "products": [
+                            "56BAUMEH9VZL"
+                        ],
+                        "images": [
+                            "CEF23F0AF3AC4E6385EAE222A53EA444",
+                            "A3A1C711F27F42F3B6571FA9A3449CF8",
+                            "9348629B75EB4B549AA1EAC6ADA4AE55",
+                            "7E80703DE14B4CC2817FF0501BE7DAA8",
+                            "D272AE4C62DD4F40BA05E2C38B88090C",
+                            "C4948B1960684AB8A18B479A3893B349",
+                            "CF6C831BCF164CBD908F9668B589D035",
+                            "534CD0D9F87B42D7AF198CD73473B9B6",
+                            "10976F0B7C614DACB53D4FB0F0B9C29B",
+                            "A645EEBDF22149C5AA99F661A8A1676A"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 45.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 58,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 45.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 58,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Beauty/Mother's Day/Mother's Day Beauty/Mother's Day Hair Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Mother's Day",
+                    "url": "/cp/4743924"
+                },
+                {
+                    "name": "Mother's Day Beauty",
+                    "url": "/cp/9615757"
+                },
+                {
+                    "name": "Mother's Day Hair Tools",
+                    "url": "/cp/3684200"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Conair 1875W 3-in-1 Ionic One Step Style and Dry Hair Dryer with 3 Attachments",
+        "img": "https://i5.walmartimages.com/asr/043e497f-adda-488f-adf5-97ee5a8acc3a_1.ac0e02ddb881871bf0f16a003cd3fd7f.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<br /><b>Conair 1875 Watt 3-in-1 Styler Dryer, Model SD4NP:</b><br /> <ul><li>3-in-1 styling system</li><li>Unisex design</li><li>1875W of drying power</li><li>3-position switch</li><li>2 heat/speed settings</li><li>Hinged filter</li><li>Bristle brush</li><li>2 comb attachments</li><li>Conair hair dryer, model SD4NP</li><li>Conair 3-in-1 with dual voltage for travel</li><li>Compact size for easy handling and storage</li><li>Cool air shot function</li></ul>",
+            "short": "<ul><li>Conair</li><li>Free Shipping</li><li>Sold Individually</li></ul>",
+            "medium": "Conair Styler/Dryer, Dual Volt w/ Brush, SD4SZ.  This is a Contemporary unisex hair dryer."
+        },
+        "price": 20.02,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 35
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586631600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "9605557",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Dryers/All Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/4100466"
+                },
+                {
+                    "name": "All Hair Dryers",
+                    "url": "/cp/5767156"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Revlon One-Step Hair Dryer & Styler, Black, RVDR5212",
+        "img": "https://i5.walmartimages.com/asr/6bf3ed2b-0127-4d9d-b742-a83b5d47a3ba_1.56f96213e11eecf6d2a11e8c84adf0bf.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<div><b>Revlon One-Step Hair Dryer &amp; Styler, Black Product Features:</b><br></div><ul><li>Smooth Results with Less Frizz in Half the Time - POWER of a Dryer PRECISION of a Styler&nbsp;</li><li>Flexible Tangle Free Bristles Help Dry, Smooth and Style Your Hair&nbsp;</li><li>1100 Watt of Drying Power. Unlike like Conventional Hair Dryers, this styler you can use to dry and style your hair quickly&nbsp;</li><li>IONIC Technology: Negative ions saturate the airflow. This helps condition, smooth and make hair shinier, while reducing frizz and static&nbsp;</li><li>2 Heat/Speed Settings for Styling Flexibility with Cool Option.</li><li><b>Note: </b>Unit is for 120V (Not for use in 240V outlets)</li><li><b>Note: </b>Do not direct hot air toward eyes or other heat-sensitive areas<br></li></ul>",
+            "short": "<ul><li>Smooth Results with Less Frizz in Half the Time - POWER of a Dryer PRECISION of a Styler&nbsp;</li><li>Flexible Tangle Free Bristles Help Dry, Smooth and Style Your Hair&nbsp;</li><li>1100 Watt of Drying Power. Unlike like Conventional Hair Dryers, this styler you can use to dry and style your hair quickly&nbsp;</li></ul>",
+            "medium": "<p>Revlon Pro Collection One-Step Hair Dryer and Styler has 1000 watts of drying power and will not cause flyaways. This allows for styling your hair while drying with ionic conditioning. The tangle-free bristles help to dry, smooth, and style hair in half the time with 2 heat settings and a cold shot function for complete styling flexibility. It&#8217;s a hairdryer, hair styler, hot air brush, 2-in-1, and paddle brush.</p>"
+        },
+        "price": 39.99,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 237
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "RUSH"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 1,
+                "title": "shipping_title_two_day_free"
+            },
+            "nextDayShippingOption": {
+                "index": 0,
+                "title": "shipping_title_one_day_threshold"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "46828785",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Here for Every Beauty/Hair Care & Hair Tools/Hair Dryers",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Here for Every Beauty",
+                    "url": "/cp/7192911"
+                },
+                {
+                    "name": "Hair Care & Hair Tools",
+                    "url": "/cp/7737658"
+                },
+                {
+                    "name": "Hair Dryers",
+                    "url": "/cp/5152410"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Andis Ceramic Ionic Styler 1875-Watt Hair Dryer, Yellow",
+        "img": "https://i5.walmartimages.com/asr/de18c009-19a0-4c4d-b82b-759ebe5f9eb1_1.07d0ea4701757430a9aae118064c5ef8.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b><br />Andis Ceramic Ionic Styler 1875-Watt Hair Dryer, Yellow: </b><br /><ul><li>1875 watts of drying power</li><li>High-velocity airflow with 3 speed and heat settings</li><li>Cool shot button locks in style</li><li>Sleek, gold metallic design</li><li>Dual voltage for worldwide use</li><li>Includes a 100% boar bristle brush attachment, a fine-tooth attachment pick and a wide-tooth attachment pick</li><li>Easy-to-use Andis Ceramic hair dryer</li></ul>",
+            "short": "<ul><li>Hair dryer features 1875 Watts of drying power</li><li>3 speed/ heat settings</li><li>Dual voltage for worldwide use</li></ul>",
+            "medium": "<p>The Andis 82105 Ceramic Ionic Styler Hair Dryer not only gets your hair free of water faster but also allows for various styling touches. The ionic process breaks up water molecules, getting hair dry quickly. High-velocity airflow moves your hair with ease, while three air and heat settings give you precise control. A cool-shot button locks your style in place when you are done. This gold hair dryer uses even-heat ceramic technology to preserve natural oils and seals in moisture for smooth, silky, frizz-free hair.</p>"
+        },
+        "price": 28.14,
+        "reviews": {
+            "customerRating": 4.1,
+            "numReviews": 243
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 9.03,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586286000000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_price",
+                "titlePrice": {
+                    "price": 9.03,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "15048144",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Andis Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Andis Hair Styling Tools",
+                    "url": "/cp/4908345"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Conair Ionic Turbo Styler Hair Dryer, 1875 Watt",
+        "img": "https://i5.walmartimages.com/asr/fb1e00e0-50c5-47d4-8f1b-ea71d91e2ed1_1.926ccf04d4d20956f7d3c5177ff79162.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Ionic Turbo Styler, 1875 Watts</li><li>Model 256R. Less frizz, more control with ionic technology. Dries hair fast. Luxurious diamond finish. 1875 watts. 3 heat/2 speed settings. Cool shot button. Removable filter. Concentrator for pinpoint styling. Cool shot locks style in place. 3 heats and 2 speed settings for precision styling. Hang ring to store easily. Ionic Technology: Clouds of negatively charged ions neutralize positive charges that are in the air and reduce static electricity which causes flyaway frizzies and dulls hair. Hair becomes shinier and more manageable. Removable filter for easy cleaning. ETL Listed. Made in China.</li></ul>",
+            "short": "<li>Ionic technology</li><li>Powerful yet gentle</li><li>3 heat, 2 speed settings</li>",
+            "medium": "Powerful enough to handle hard-to-style hair yet gentle enough for delicate, thin hair, the 1875 watt Ionic Turbo styler features ionic technology for less frizz and more manageability.  3 heat and 2 speed settings customize results while the cool shot button sets style in place.  The concentrator attachment provides pinpoint styling, the removable filter makes it easy to keep the unit in top operating condition and the hang ring makes it convenient to store."
+        },
+        "price": 19.42,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 36
+        },
+        "size": {
+            "karfGroceryType": "Hair Styling Tools",
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586199600000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "urgentQuantity": 2,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "14098215",
+        "category": {
+            "categoryPath": "Home Page/Beauty/Hair Care/Hair Styling Tools/Hair Styling Tool Brands/Conair Hair Styling Tools",
+            "path": [
+                {
+                    "name": "Beauty",
+                    "url": "/cp/1085666"
+                },
+                {
+                    "name": "Hair Care",
+                    "url": "/cp/3147628"
+                },
+                {
+                    "name": "Hair Styling Tools",
+                    "url": "/cp/3847754"
+                },
+                {
+                    "name": "Hair Styling Tool Brands",
+                    "url": "/cp/5169881"
+                },
+                {
+                    "name": "Conair Hair Styling Tools",
+                    "url": "/cp/1561411"
+                }
+            ]
+        }
+    }
+]

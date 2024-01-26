@@ -1,0 +1,198 @@
+.tutorial-lesson-item {
+  width: 240px;
+  height: 360px;
+  position: relative;
+  font-weight: 600;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.tutorial-lesson-item .progress-bar {
+  box-sizing: border-box;
+  background-color: #0000007f;
+  width: 100%;
+  height: 8px;
+}
+
+.tutorial-lesson-item .progress-bar .progress {
+  width: 0%;
+  height: 100%;
+  background-color: var(--theme-color-primary);
+}
+
+.tutorial-lesson-item .tutorial-lesson-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--base-color-grey-900);
+  padding: 12px 16px;
+  color: var(--base-color-grey-100);
+  opacity: 0.65;
+}
+
+.tutorial-lesson-item.in-progress .tutorial-lesson-header {
+  border-bottom: 1px solid var(--base-color-teal-700);
+}
+
+.tutorial-lesson-item.completed .tutorial-lesson-header {
+  border-bottom: 1px solid var(--base-color-teal-900);
+}
+
+.tutorial-lesson-item .content {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.tutorial-lesson-item .content .title {
+  margin-top: 8px;
+  font-size: 25px;
+  color: var(--base-color-grey-100);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 60px;
+}
+
+.tutorial-lesson-item .content button {
+  width: 100%;
+  border: none;
+  height: 36px;
+  margin-top: 36px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tutorial-lesson-item .restart-control {
+  color: var(--base-color-grey-100);
+  margin-top: 12px;
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.tutorial-lesson-item .restart-control:hover {
+  opacity: 0.85;
+}
+
+.tutorial-lesson-item .lesson-completed-text {
+  color: var(--base-color-yellow-300);
+  bottom: 88px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.tutorial-lesson-item button {
+  background-color: var(--base-color-grey-700);
+  color: var(--base-color-grey-100);
+}
+
+.tutorial-lesson-item.in-progress button {
+  background-color: var(--base-color-teal-500);
+  color: var(--base-color-grey-100);
+}
+
+.tutorial-lesson-item.in-progress button:hover {
+  background-color: var(--base-color-teal-400);
+  color: white;
+}
+
+.tutorial-lesson-item button:hover {
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-on-primary);
+}
+
+.tutorial-lesson-item.next-up button {
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-on-primary);
+}
+
+.tutorial-lesson-item.next-up button:hover {
+  background-color: var(--theme-color-primary-highlight);
+  color: var(--theme-color-on-primary);
+}
+
+.tutorial-lesson-item.not-started {
+  background-color: var(--base-color-grey-800);
+}
+
+.tutorial-lesson-item.completed {
+  background-color: var(--base-color-teal-800);
+}
+
+.tutorial-lesson-item.completed button {
+  background-color: var(--base-color-teal-700);
+}
+
+.tutorial-lesson-item.completed button:hover {
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-on-primary);
+}
+
+.tutorial-lesson-item.in-progress,
+.tutorial-lesson-item.next-up {
+  background-color: var(--base-color-teal-600);
+}
+
+.tutorial-lesson-item.in-progress .tutorial-lesson-header,
+.tutorial-lesson-item.next-up .tutorial-lesson-header {
+  color: var(--base-color-teal-100);
+}
+
+.projects-lesson-item-badge {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tutorial-lesson-item.completed .projects-tutorial-item-thumb {
+  mix-blend-mode: multiply;
+}
+
+/***************************/
+/*                         */
+/* Feature highlight theme */
+/*                         */
+/***************************/
+
+.tutorial-lesson-item.not-started.is-feature-highlight,
+.tutorial-lesson-item.in-progress.is-feature-highlight,
+.tutorial-lesson-item.next-up.is-feature-highligh {
+  /*always highligt this*/
+  background-color: #332c7d;
+}
+
+.tutorial-lesson-item.not-started.is-feature-highlight button,
+.tutorial-lesson-item.next-up.is-feature-highlight button {
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-on-primary);
+}
+
+.tutorial-lesson-item.not-started.is-feature-highlight button:hover,
+.tutorial-lesson-item.in-progress.is-feature-highlight button:hover,
+.tutorial-lesson-item.next-up.is-feature-highlight button:hover {
+  background-color: var(--theme-color-primary-highlight);
+  color: var(--theme-color-on-primary);
+}
+
+.tutorial-lesson-item.completed.is-feature-highlight {
+  background-color: #1f1b52;
+}
+
+.tutorial-lesson-item.completed.is-feature-highlight button {
+  background-color: #3a3578;
+  color: var(--base-color-teal-100);
+}
+
+.tutorial-lesson-item.in-progress.is-feature-highlight button {
+  background-color: #5b54a6;
+  color: var(--base-color-teal-100);
+}
+
+.tutorial-lesson-item.completed.is-feature-highlight button:hover {
+  background-color: var(--theme-color-primary);
+  color: var(--theme-color-on-primary);
+}

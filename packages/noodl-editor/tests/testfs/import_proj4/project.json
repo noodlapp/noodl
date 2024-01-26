@@ -1,0 +1,83 @@
+{
+    "name": "Style import test",
+    "components": [
+        {
+            "name": "/Main",
+            "graph": {
+                "connections": [],
+                "roots": [
+                    {
+                        "id": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+                        "type": "Group",
+                        "x": 177,
+                        "y": 141.5,
+                        "parameters": {
+                            "backgroundColor": "#FFFFFF"
+                        },
+                        "ports": [],
+                        "dynamicports": [],
+                        "children": [
+                            {
+                                "id": "40fb0c0f-a379-147d-c85d-6f949eb25031",
+                                "type": "Text",
+                                "x": 20,
+                                "y": 46,
+                                "parameters": {
+                                    "sizeMode": "contentSize",
+                                    "alignX": "center",
+                                    "alignY": "center",
+                                    "text": "Hello",
+                                    "color": "#171717",
+                                    "fontFamily": "Arial",
+                                    "position": "absolute",
+                                    "fontSize": {
+                                        "value": 30,
+                                        "unit": "px"
+                                    }
+                                },
+                                "ports": [],
+                                "dynamicports": [],
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "settings": {},
+    "rootNodeId": "eacc74e7-4dce-2baf-354b-8070e2b2b872",
+    "version": "1",
+    "metadata": {
+        "styles": {
+            "colors": {
+                "Color1": "#FFFFFF",
+                "Color2": "#FF00FF"
+            },
+            "text": {
+                "TS1": {
+                    "fontFamily": "Arial",
+                    "fontSize": {
+                        "value": "20",
+                        "unit": "px"
+                    },
+                    "lineHeight": {
+                        "value": "10",
+                        "unit": "em"
+                    }
+                },
+                "TS2": {
+                    "fontFamily": "Helvetica",
+                    "fontSize": {
+                        "value": "23",
+                        "unit": "px"
+                    },
+                    "lineHeight": {
+                        "value": "5",
+                        "unit": "px"
+                    }
+                }
+            }
+        }
+    }
+}

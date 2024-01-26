@@ -1,0 +1,65 @@
+.Root {
+  display: flex;
+}
+
+.NumberContainer {
+  width: 56px;
+  margin-right: 16px;
+  flex: 0 0 auto;
+}
+
+.Input {
+  flex: 1 1 auto;
+  width: calc(100% - 72px); // .NumberContainer width+margin
+  background-color: transparent;
+  -webkit-appearance: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  @mixin thumb {
+    height: 14px;
+    width: 14px;
+    margin-top: -6px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background-color: var(--theme-color-fg-highlight);
+    border: none;
+  }
+
+  @mixin track {
+    width: 100%;
+    height: 2px;
+    cursor: pointer;
+  }
+
+  &::-moz-range-track {
+    @include track;
+    background: linear-gradient(
+      90deg,
+      var(--theme-color-secondary),
+      calc(var(--thumb-percentage) * 1%),
+      var(--theme-color-bg-4) calc(var(--thumb-percentage) * 1%)
+    );
+  }
+
+  &::-webkit-slider-runnable-track {
+    @include track;
+    background: linear-gradient(
+      90deg,
+      var(--theme-color-secondary),
+      calc(var(--thumb-percentage) * 1%),
+      var(--theme-color-bg-4) calc(var(--thumb-percentage) * 1%)
+    );
+  }
+
+  &::-moz-range-thumb {
+    @include thumb;
+  }
+
+  &::-webkit-slider-thumb {
+    @include thumb;
+  }
+}

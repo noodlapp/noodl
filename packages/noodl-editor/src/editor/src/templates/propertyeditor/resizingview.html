@@ -1,0 +1,51 @@
+<div style="position:relative; height:170px;">
+
+        <!-- dimension input -->
+        <div data-template="dim-input" data-comp="width" style="position:relative; width:50%; height:35px; display:inline-block;">
+            <label class="property-label" style="left:3px; width:10px;" data-text="label"></label>
+    
+            <div class="property-value" style="left:20px; right:45px;">
+                <input type="string" class="sidebar-panel-dark-input" style="position:absolute; width:100%; height:100%" data-val="value" data-class="isConnected:property-input-connected,isFocused:property-input-focused,isDefault:property-input-default" data-change="onPropertyChanged"></input>
+            </div>
+      
+          <div class="sidebar-panel-dark-input property-number-units" style="position:absolute; right:10px; width:33px; top:1px; bottom:1px;padding:0" data-click="onDropDownClicked" tabindex="1">
+            <span data-class="isFocused:property-input-focused,isDefault:property-input-default" style="line-height:35px;" data-text="unit"></span>
+            <div style="position:absolute; top:35px; left:0px; width:100%; display:none;" class="property-input-dropdown" style="display:none;">
+            </div>
+          </div>
+        </div> 
+
+  <div class="marginpadding-border" style="position:absolute; top:10px; left:20px; width:80px; height:80px">
+    <div class="resizing-left resizing-hline" style="position:absolute; left:5px; top:30px; width:10px; height:20px;" data-pin="pinLeft" data-click="onPinClicked"></div>
+
+    <div class="resizing-right resizing-hline" style="position:absolute; right:5px; top:30px; width:10px; height:20px;" data-pin="pinRight" data-click="onPinClicked"></div>
+
+    <div class="resizing-top resizing-vline" style="position:absolute; top:5px; left:30px; width:20px; height:10px;" data-pin="pinTop" data-click="onPinClicked"></div>
+
+    <div class="resizing-bottom resizing-vline" style="position:absolute; bottom:5px; left:30px; width:20px; height:10px;" data-pin="pinBottom" data-click="onPinClicked"></div>
+
+    <div class="resizing-hline" style="position:absolute; bottom:35px; left:20px; width:40px; height:10px;" data-pin="pinVCenter" data-click="onPinClicked"></div>    
+
+    <div class="resizing-vline" style="position:absolute; left:35px; bottom:20px; height:40px; width:10px;" data-pin="pinHCenter" data-click="onPinClicked"></div>    
+  </div>
+
+  <div class="resizing-label" style="position:absolute; left:20px; top:100px; width:80px; height:10px">
+    Pinning    
+</div>
+
+  <div class="marginpadding-border" style="position:absolute; top:10px; right:20px; width:80px; height:80px">
+        <div class="sizemode-v resizing-top resizing-bottom resizing-vline" style="position:absolute; top:5px; left:30px; width:20px; height:70px;" data-pin="sizeHeight" data-click="onPinClicked"></div>
+        <div class="sizemode-h resizing-left resizing-right resizing-hline" style="position:absolute; top:30px; left:5px; width:70px; height:20px;" data-pin="sizeWidth" data-click="onPinClicked"></div>
+    </div>
+
+    <div class="resizing-label" style="position:absolute; right:20px; top:100px; width:80px; height:10px">
+        Sizing    
+    </div>
+
+
+    <div class="dims" style="position:absolute; left:10px; right:10px; top:130px; height:35px;">
+
+    </div>
+    
+
+</div>

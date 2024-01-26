@@ -1,0 +1,1199 @@
+[
+    {
+        "title": "Time and Tru Women's Ribbed Turtleneck Sweater",
+        "img": "https://i5.walmartimages.com/asr/82ca6f21-2a4c-4a74-943c-ce9808d8c90b_1.13acb56a622a89f90d01ab1904e8c463.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Turtle neckline</li><li>Pull-on style</li><li>Long sleeves with buttoned cuffs</li><li>Fitted</li><li>Ribbed knit fabric</li><li>71% rayon, 29% nylon</li><li>Machine wash cold separately or with like colors, gentle cycle, only non-chlorine bleach when needed, tumble dry low, low iron if needed</li><li>Made in China</li></ul>",
+            "short": "Merchandise"
+        },
+        "price": 7.99,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 3
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "770744406",
+        "variantCategoriesMap": {
+            "actual_color": {
+                "id": "actual_color",
+                "name": "Color",
+                "type": "SWATCH",
+                "categoryType": "IMAGE_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "IMAGE_NONTRANSACTIONAL",
+                "variants": {
+                    "actual_color-bluecove": {
+                        "id": "actual_color-bluecove",
+                        "name": "Blue Cove",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/673cbc71-3140-4c74-975e-4b31c5314f4b_1.1ef43f9c482f71dfab517e2886a38e10.png",
+                        "products": [
+                            "18T9PK07S6LG",
+                            "4XT0BFXX8OMD",
+                            "6RMJFVCJW9EQ",
+                            "5BMYC2HAI9SX",
+                            "796K1BMVBNIL"
+                        ],
+                        "images": [
+                            "D17D7FF4CF694C03A56CA7238F5FFE34",
+                            "2F38400444AB4CEF951034F2E8DE0F2A",
+                            "C10EA8DF19A6491DB6F584EBA21255B6",
+                            "FCAB1A554DBA46349FCCF197F4E2D6E1"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-redrover": {
+                        "id": "actual_color-redrover",
+                        "name": "Red Rover",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/89b2e09f-40b8-4158-ab43-4faf2e42b716_1.5b10fa957d8d25f6715ffbf6140ad8c6.png",
+                        "products": [
+                            "63HDSCYR63VN",
+                            "69T47PK4LPXL",
+                            "19LEPHU7M26I",
+                            "2577TR7I44YH"
+                        ],
+                        "images": [
+                            "34B42E34067D4B8AB37E10E227D0095F",
+                            "A45BCBE4397C4EC488ABD08DCC57D100",
+                            "90A9EE0F1DBF43C2941E3ACEC133D22F",
+                            "EC09699BA2654D63B5BAD81BD03980A6"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-blacksoot": {
+                        "id": "actual_color-blacksoot",
+                        "name": "Black Soot",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/ba636376-ce12-4390-8997-de1e7ed1659c_1.f5ff6dad47b630574e17b56bc751404a.jpeg",
+                        "products": [
+                            "4FJ1J54V1CO8",
+                            "4W983OKTA00I",
+                            "3J9UX7MWG0SK",
+                            "3ZQY2F7L3LYP",
+                            "4NXUS59M9UKY"
+                        ],
+                        "images": [
+                            "DEC35F19B94A4D7AA35A9F3C43A2A821",
+                            "D24160FDBC984BCC81ECF687CD3FADC1",
+                            "05177F027F5649428B3880E5B6CFCB51",
+                            "1F77CDD48E1F4A68B860ADF9093368D1"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-mediumgreyheather": {
+                        "id": "actual_color-mediumgreyheather",
+                        "name": "Medium Grey Heather",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/1c0a85fa-9331-441a-9a92-e46a3954f203_1.1c4aa27c3c9209df489123e7b8ad4741.png",
+                        "products": [
+                            "50P8P4X8N5D5",
+                            "6BESIQLOC1VW",
+                            "66YIQTOUCTDC",
+                            "2A3B55U1LOER"
+                        ],
+                        "images": [
+                            "9BC10137020F4B4EA7375DC42FFFF0BB",
+                            "DFC9099763884AB186C2FDEE914CCD49",
+                            "7524B5F3B6604601A4E494A2857469D9",
+                            "DF5426E554B0494CA422A5F911878515"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "actual_color-winterwhite": {
+                        "id": "actual_color-winterwhite",
+                        "name": "Winter White",
+                        "categoryId": "actual_color",
+                        "swatchImageUrl": "https://i5.walmartimages.com/asr/ca821e04-9738-4510-84e7-ee5e6331c24b_1.c207c945a103681b8ec273dde8edd94a.png",
+                        "products": [
+                            "54D41EVNFXQL",
+                            "18D5MPAT1TED",
+                            "7IAKO9H3JOCY",
+                            "687BSWWLNDZD",
+                            "5G04651AVUIX"
+                        ],
+                        "images": [
+                            "228ECFE5E1D740F0AB2A873EDDF5900E",
+                            "24BB2FD29E204DAEBD402ED04B5A2CA2",
+                            "C2AC9E95C54345EA94FF287E9256198F",
+                            "148EA5FAD98F414F94747C85E918B588"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000007,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-xxl": {
+                        "id": "clothing_size-xxl",
+                        "name": "XXL",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "50P8P4X8N5D5",
+                            "18T9PK07S6LG",
+                            "54D41EVNFXQL",
+                            "19LEPHU7M26I",
+                            "4NXUS59M9UKY"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-l": {
+                        "id": "clothing_size-l",
+                        "name": "L",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "4FJ1J54V1CO8",
+                            "6RMJFVCJW9EQ",
+                            "18D5MPAT1TED",
+                            "66YIQTOUCTDC",
+                            "2577TR7I44YH"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-m": {
+                        "id": "clothing_size-m",
+                        "name": "M",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "4W983OKTA00I",
+                            "796K1BMVBNIL",
+                            "69T47PK4LPXL",
+                            "687BSWWLNDZD",
+                            "2A3B55U1LOER"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-xl": {
+                        "id": "clothing_size-xl",
+                        "name": "XL",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "63HDSCYR63VN",
+                            "5BMYC2HAI9SX",
+                            "6BESIQLOC1VW",
+                            "3ZQY2F7L3LYP",
+                            "7IAKO9H3JOCY"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-s": {
+                        "id": "clothing_size-s",
+                        "name": "S",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "4XT0BFXX8OMD",
+                            "3J9UX7MWG0SK",
+                            "5G04651AVUIX"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 7.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 12.88,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Womens Clothing/Womens Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Womens Clothing",
+                    "url": "/cp/133162"
+                },
+                {
+                    "name": "Womens Sweaters",
+                    "url": "/cp/1199498"
+                }
+            ]
+        }
+    },
+    {
+        "title": "SoCal Look Boys Ugly Christmas Sweater Chillin with Snowmies Black",
+        "img": "https://i5.walmartimages.com/asr/49f64b53-a957-46f7-a6a9-a93e83053736_1.1a6b816171c86f29ce9cd44bc42c5c36.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>100% Acrylic</li><li>Black</li><li>pullover-sweaters</li></ul>",
+            "short": "<ul><li>100% Acrylic</li><li>Black</li><li>pullover-sweaters</li></ul>"
+        },
+        "price": 19.99,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1586286000000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 6.95,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 31,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585681200000,
+                        "latestDeliveryDate": 1585767600000
+                    },
+                    "urgentQuantity": 2,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 2,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "573432079",
+        "variantCategoriesMap": {
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-7-8y": {
+                        "id": "clothing_size-7-8y",
+                        "name": "7-8Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "4Z48F5HWPZJH"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-9-10y": {
+                        "id": "clothing_size-9-10y",
+                        "name": "9-10Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "5HHE3WWTVOP1"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-3-4y": {
+                        "id": "clothing_size-3-4y",
+                        "name": "3-4Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "2HZK2ZV5GNUU"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-2y": {
+                        "id": "clothing_size-2y",
+                        "name": "2Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "3OXOYNVLZBXV"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-5-6y": {
+                        "id": "clothing_size-5-6y",
+                        "name": "5-6Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "3AZPL03GIL3M"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-11-12y": {
+                        "id": "clothing_size-11-12y",
+                        "name": "11-12Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "34LSQZ0RYDJK"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000005,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Kids Clothing/Boys Clothing/Big Boys (8-20) Clothing/Big Boys Shirts & Tops/Big Boys Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Kids Clothing",
+                    "url": "/cp/7712430"
+                },
+                {
+                    "name": "Boys Clothing",
+                    "url": "/cp/7809949"
+                },
+                {
+                    "name": "Big Boys (8-20) Clothing",
+                    "url": "/cp/3361927"
+                },
+                {
+                    "name": "Big Boys Shirts & Tops",
+                    "url": "/cp/9073898"
+                },
+                {
+                    "name": "Big Boys Sweaters",
+                    "url": "/cp/6825873"
+                }
+            ]
+        }
+    },
+    {
+        "title": "SoCal Look Boys Ugly Christmas Sweater Santa Pug Pullover Black",
+        "img": "https://i5.walmartimages.com/asr/abf1c3f5-6622-4f17-a0b3-46b010d90a60_1.325cde36e22beefcbe4e6cf9e2780d22.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>100% Acrylic</li><li>Black</li><li>pullover-sweaters</li></ul>",
+            "short": "<ul><li>100% Acrylic</li><li>Black</li><li>pullover-sweaters</li></ul>"
+        },
+        "price": 19.99,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 2
+        },
+        "size": {},
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1586286000000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 6.95,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 31,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585681200000,
+                        "latestDeliveryDate": 1585767600000
+                    },
+                    "urgentQuantity": 3,
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "urgentQuantity": 3,
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 2,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "533419271",
+        "variantCategoriesMap": {
+            "clothing_size": {
+                "id": "clothing_size",
+                "name": "Clothing Size",
+                "type": "DROPDOWN",
+                "categoryType": "TEXT_NONTRANSACTIONAL",
+                "categoryTypeAllValues": "TEXT_NONTRANSACTIONAL",
+                "variants": {
+                    "clothing_size-7-8y": {
+                        "id": "clothing_size-7-8y",
+                        "name": "7-8Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "726GMASSKJ7T"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000003,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-9-10y": {
+                        "id": "clothing_size-9-10y",
+                        "name": "9-10Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "3DC834OMN82W"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000004,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-3-4y": {
+                        "id": "clothing_size-3-4y",
+                        "name": "3-4Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "48WCIMTI879C"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000001,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-2y": {
+                        "id": "clothing_size-2y",
+                        "name": "2Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "5ZPXYRVFG8TL"
+                        ],
+                        "availabilityStatus": "AVAILABLE",
+                        "rank": 10000000,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-5-6y": {
+                        "id": "clothing_size-5-6y",
+                        "name": "5-6Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "54NGEVQ0HYZK"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000002,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 19.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    },
+                    "clothing_size-11-12y": {
+                        "id": "clothing_size-11-12y",
+                        "name": "11-12Y",
+                        "categoryId": "clothing_size",
+                        "products": [
+                            "4ZPJCFGHENXK"
+                        ],
+                        "availabilityStatus": "NOT_AVAILABLE",
+                        "rank": 10000005,
+                        "priceRanges": {
+                            "minPrices": {
+                                "CURRENT": {
+                                    "price": 24.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            },
+                            "maxPrices": {
+                                "CURRENT": {
+                                    "price": 24.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                },
+                                "WAS": {
+                                    "priceType": "LIST PRICE",
+                                    "price": 49.99,
+                                    "currencyUnit": "USD",
+                                    "currencyUnitSymbol": "$"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "category": {
+            "categoryPath": "Home Page/Clothing/Kids Clothing/Boys Clothing/Big Boys (8-20) Clothing/Big Boys Shirts & Tops/Big Boys Sweaters",
+            "path": [
+                {
+                    "name": "Clothing",
+                    "url": "/cp/5438"
+                },
+                {
+                    "name": "Kids Clothing",
+                    "url": "/cp/7712430"
+                },
+                {
+                    "name": "Boys Clothing",
+                    "url": "/cp/7809949"
+                },
+                {
+                    "name": "Big Boys (8-20) Clothing",
+                    "url": "/cp/3361927"
+                },
+                {
+                    "name": "Big Boys Shirts & Tops",
+                    "url": "/cp/9073898"
+                },
+                {
+                    "name": "Big Boys Sweaters",
+                    "url": "/cp/6825873"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,97 @@
+.Root {
+  padding: 4px;
+  max-height: 400px;
+  overflow: hidden overlay;
+
+  &.is-width-small {
+    width: 140px;
+  }
+
+  &.is-width-default {
+    width: 200px;
+  }
+
+  &.is-width-medium {
+    width: 250px;
+  }
+
+  &.is-width-large {
+    width: 400px;
+  }
+}
+
+.Item {
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: background-color var(--speed-turbo) var(--easing-base);
+
+  &.is-highlighted:not(.is-disabled) {
+    background-color: var(--theme-color-secondary-highlight);
+
+    h2 {
+      color: var(--theme-color-on-secondary);
+    }
+  }
+
+  &.is-danger {
+    .Icon path {
+      fill: var(--theme-color-danger) !important;
+    }
+  }
+
+  &.is-disabled {
+    .Icon path {
+      fill: var(--theme-color-fg-muted);
+    }
+
+    .Label span {
+      color: var(--theme-color-fg-muted);
+    }
+  }
+
+  &:not(.has-component):not(.is-highlighted):not(.is-disabled):hover {
+    background-color: var(--theme-color-bg-3);
+
+    .Label span {
+      color: var(--theme-color-fg-highlight);
+    }
+
+    &.is-danger .Label span {
+      color: var(--theme-color-danger);
+    }
+  }
+}
+
+.Label {
+  display: flex;
+  align-items: center;
+
+  &.has-bottom-spacing {
+    padding-bottom: 8px;
+  }
+}
+
+.Icon {
+  margin: -4px 8px -4px 0;
+
+  path {
+    fill: var(--theme-color-fg-default-contrast);
+
+    .Item:not(.has-component):not(.is-disabled):hover & {
+      fill: var(--theme-color-fg-highlight);
+    }
+  }
+}
+
+.Divider {
+  width: calc(100% + 8px);
+  height: 1px;
+  background-color: var(--theme-color-bg-3);
+  margin: 4px -4px;
+}
+
+.EndSlot {
+  display: flex;
+  align-items: center;
+}

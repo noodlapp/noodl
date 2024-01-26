@@ -1,0 +1,68 @@
+.Background {
+  background-color: var(--theme-color-bg-1);
+  background-image: linear-gradient(45deg, var(--theme-color-bg-0) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--theme-color-bg-0) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--theme-color-bg-0) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--theme-color-bg-0) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.ViewportInfo {
+  color: var(--theme-color-fg-default);
+  padding: 8px;
+  font-size: 12px;
+  line-height: 1;
+  position: absolute;
+  background-color: var(--theme-color-bg-3);
+  pointer-events: none;
+}
+
+.WebviewContainer {
+  display: flex;
+  align-self: stretch;
+  flex-grow: 1;
+  overflow: auto;
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--base-color-grey-500);
+    border-radius: 0px;
+    border: none;
+    border-left: 6px solid transparent;
+    border-top: 6px solid transparent;
+    background-clip: padding-box;
+  }
+
+  &::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+  }
+
+  &::-webkit-scrollbar-button,
+  &::-webkit-scrollbar-track-piece,
+  &::-webkit-scrollbar-corner {
+    display: none;
+  }
+}
+
+.Webview {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.Crashed {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--theme-color-bg-2);
+}

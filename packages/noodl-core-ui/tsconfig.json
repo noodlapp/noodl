@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@noodl-core-ui/*": ["./src/*"],
+      "@noodl-hooks/*": ["../noodl-editor/src/editor/src/hooks/*"],
+      "@noodl-utils/*": ["../noodl-editor/src/editor/src/utils/*"],
+      "@noodl-models/*": ["../noodl-editor/src/editor/src/models/*"],
+      "@noodl-constants/*": ["../noodl-editor/src/editor/src/constants/*"],
+      "@noodl-contexts/*": ["../noodl-editor/src/editor/src/contexts/*"],
+      "@noodl-types/*": ["../noodl-editor/src/editor/src/types/*"]
+    }
+  }
+}

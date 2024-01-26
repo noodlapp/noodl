@@ -1,0 +1,63 @@
+[
+    {
+        "title": "TCL 32\" Class 720P HD LED Roku Smart TV 3 Series 32S325",
+        "img": "https://i5.walmartimages.com/asr/4a01b51d-c38e-4f0d-81a7-fe9a10bcb332_2.ac0cdeddd6c541fb7b8a7ca3d2973fe0.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>Smart functionality delivers all your favorite content with over 500,000 movies and TV episodes, accessible through the simple and intuitive Roku TV</li><li>Dimensions (W x H x D): TV without stand: 28.8 x 17.1 x 3.1 Inches, TV with stand:28.8 x 19 x 6.8 Inches</li><li>Direct lit LED produces great picture quality. USB File Format Compatibility - Video- MKV (H.264), MP4, MOV (H.264), TS (H.264) Music- AAC, MP3, WMA, WAV (PCM), AIFF, FLAC, AC3 Photo- JPG, PNG, GIF</li><li>720p HD resolution for a crisp picture</li><li>Inputs: 3 HDMI 2.0 with HDCP 2.2 (one with HDMI ARC), 1 USB (media player), RF, Composite, Headphone Jack, Optical Audio Out</li></ul>",
+            "short": "<p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Diagonal Screen Size: 31.5?<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">High definition (720p) resolution<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Simple, intuitive Roku interface<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Stream over 500,000 movies &amp; TV episodes<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">3 HDMI 1.4 inputs (1 ARC)<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Dual-band Wi-Fi Easy-to-use remote<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Thousands of streaming channels<o:p></o:p></span></p> <p class=\"MsoNormal\" style=\"margin-bottom: 0.0001pt; line-height: normal; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;\"><span style=\"font-size:12.0pt;font-family:&quot;Arial&quot;,sans-serif; mso-fareast-font-family:&quot;Times New Roman&quot;;color:black\">Search across top streaming channels with Roku Search<o:p></o:p></span></p>"
+        },
+        "price": 127.88,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 104
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "975507003",
+        "category": {
+            "categoryPath": "Home Page/Electronics/TV & Video/All TVs",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "TV & Video",
+                    "url": "/cp/1060825"
+                },
+                {
+                    "name": "All TVs",
+                    "url": "/cp/447913"
+                }
+            ]
+        }
+    }
+]

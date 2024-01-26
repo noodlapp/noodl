@@ -1,0 +1,17 @@
+.Root {
+  color: var(--theme-color-fg-highlight);
+  font-size: 14px;
+  display: flex;
+  align-items: top;
+  cursor: pointer;
+  font-family: var(--font-family);
+
+  &:hover {
+    opacity: 1;
+    color: var(--theme-color-fg-highlight);
+  }
+}
+
+.Icon {
+  margin-left: 6px;
+}

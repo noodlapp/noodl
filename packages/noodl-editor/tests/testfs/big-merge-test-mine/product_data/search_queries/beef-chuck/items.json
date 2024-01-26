@@ -1,0 +1,549 @@
+[
+    {
+        "title": "All Natural* 80% Lean/20% Fat Ground Beef Chuck Tray, 1 lb",
+        "img": "https://i5.walmartimages.com/asr/87f2f5e4-0459-4b80-b874-d149badd0af0_3.4df2d3808f0ea5d68b969a3186230aa6.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Tray</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>All natural, minimally processed beef with no artificial ingredients</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Tray Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron All natural, minimally processed beef with no artificial ingredients</li></ul>"
+        },
+        "price": 3.98,
+        "reviews": {
+            "customerRating": 4.5,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "479601462",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll, 1 lb",
+        "img": "https://i5.walmartimages.com/asr/b43863a6-ffa7-4008-88fa-5cecda5f8238_2.dbcb01e83b3af345b65251960fa13e56.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>USDA approved</li><li>All natural, minimally processed beef with no artificial ingredients</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron USDA approved</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 3.78,
+        "reviews": {
+            "customerRating": 3.3,
+            "numReviews": 20
+        },
+        "size": {
+            "karfGroceryType": "80% Lean Ground Beef",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "15136791",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Beef Chuck Roast, 2.25 - 2.9 lb",
+        "img": "https://i5.walmartimages.com/asr/2dd9af27-b84b-4a64-bd2e-1012aed333dd_3.a3f4c3d7a39a8d5eba06c5ca299b08a7.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Beef Chuck Roast</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>Wet Aged for optimal eating experience</li><li>Great for roasting</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of Beef Chuck Roast Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron Wet Aged for optimal eating experience</li></ul>"
+        },
+        "price": 14.28,
+        "reviews": {
+            "customerRating": 4.3,
+            "numReviews": 7
+        },
+        "size": {
+            "karfGroceryType": "Beef Roasts",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "2.9"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "55446514",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "All Natural* 80% Lean/20% Fat Ground Beef Chuck Patties 4 Count, 1.33 lb",
+        "img": "https://i5.walmartimages.com/asr/36e6dd12-5732-4563-b789-6ef3121d3575_3.03ba279733d3e57df55aabe70ab0ddbe.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul style=\"margin-top:0in\" type=\"disc\"> <li class=\"MsoListParagraph\" style=\"margin-left:0in;mso-list:l0 level1 lfo1\">One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Patties<o:p></o:p></li> <li class=\"MsoListParagraph\" style=\"margin-left:0in;mso-list:l0 level1 lfo1\">Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron<o:p></o:p></li> <li class=\"MsoListParagraph\" style=\"margin-left:0in;mso-list:l0 level1 lfo1\">All natural, minimally processed beef with no artificial ingredients<o:p></o:p></li> <li class=\"MsoListParagraph\" style=\"margin-left:0in;mso-list:l0 level1 lfo1\">Delicious addition to your favorite recipes<o:p></o:p></li> </ul>",
+            "short": "All Natural* 80% Lean/20% Fat Ground Beef Chuck Patties 4 Count, 1.33 lb"
+        },
+        "price": 5.47,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 2
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.33"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "167493782",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll, 3 lb",
+        "img": "https://i5.walmartimages.com/asr/d92a1ec3-7c74-433b-9165-ac553bec6c21_2.cf1ed3282221c377a1bc01b827d43f53.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>USDA approved</li><li>All natural, minimally processed beef with no artificial ingredients</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron USDA approved</li></ul>",
+            "medium": "<p>Inspected and passed by the United States Department of Agriculture, 80% lean/20% fat ground chuck. Holds its shape well during cooking, therefore ideal for meatloaf, meatballs and Salisbury steak. When properly cooked, it is moist, juicy and has a slightly firm texture.</p>"
+        },
+        "price": 9.77,
+        "reviews": {
+            "customerRating": 4,
+            "numReviews": 174
+        },
+        "size": {
+            "karfGroceryType": "80% Lean Ground Beef",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "3.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "15136794",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll, 5 lb",
+        "img": "https://i5.walmartimages.com/asr/ccd5b8ce-d272-49df-8915-188fb509c41e_2.8b7ed1d49e5633de10199eda9f0fbaff.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>USDA approved</li><li>All natural, minimally processed beef with no artificial ingredients</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron USDA approved</li></ul>",
+            "medium": "<p>USDA Inspected Ground Chuck holds its shape well during cooking, therefore ideal for meatloaf, meatballs and Salisbury steak. When properly cooked, it is moist, juicy and has a slightly firm texture.</p>"
+        },
+        "price": 13.98,
+        "reviews": {
+            "customerRating": 3.5,
+            "numReviews": 72
+        },
+        "size": {
+            "karfGroceryType": "80% Lean Ground Beef",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "5.0"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "15136796",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Beef Chuck Tender Roast, 1.62 - 2.73 lb",
+        "img": "https://i5.walmartimages.com/asr/65b91479-a93f-43da-9211-6b2421da34bd_7.d5ee9d18d6ae306cd24258577f84b035.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Beef Chuck Tender Roast</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>USDA approved</li><li>Wet aged for optimal eating experience</li><li>Great for roasting</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of Beef Chuck Tender Roast Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron USDA approved</li></ul>"
+        },
+        "price": 14.93,
+        "reviews": {
+            "customerRating": 2.8,
+            "numReviews": 6
+        },
+        "size": {
+            "karfGroceryType": "Beef Roasts",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "2.73"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "21553575",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Beef Chuck Roll, 8.17 - 10.0 lb",
+        "img": "https://i5.walmartimages.com/asr/bcaf0f43-e1ec-48cf-9ab8-de73ac84aec0_2.728bef66695ba1af6811a2f2ff521d16.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Beef Chuck Roll</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin, and iron</li><li>USDA approved</li><li>Wet aged for optimal eating experience</li><li>Great for roasting</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of Beef Chuck Roll Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin, and iron USDA approved</li></ul>"
+        },
+        "reviews": {},
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "250799404",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Beef Chuck Shaved Steak, 0.79 - 1.45 lb",
+        "img": "https://i5.walmartimages.com/asr/6a8a6d11-ea33-496b-8ac3-38c75193cef1_3.e891b4ee7f5088650858f2624c577e09.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Beef Chuck Shaved Steak</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>USDA approved</li><li>Wet aged for optimal eating experience</li><li>Great for marinating or braising</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of Beef Chuck Shaved Steak Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron USDA approved</li></ul>"
+        },
+        "price": 9.4,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.45"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "856441429",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Beef Chuck Steak, 0.42 - 1.42 lb",
+        "img": "https://i5.walmartimages.com/asr/3f01b3cf-70b3-4f73-b9dd-530b5c829812_9.7997b96d3bb6d3e1d21d9c67f9a90f14.png?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>One package of Beef Chuck Steak</li><li>Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron</li><li>USDA approved</li><li>Wet aged for optimal eating experience</li><li>Great for grilling</li><li>Delicious addition to your favorite recipes</li></ul>",
+            "short": "<ul><li>One package of Beef Chuck Steak Excellent source of protein, vitamin B6, vitamin B12, zinc, niacin, selenium and a good source of phosphorous, riboflavin and iron USDA approved</li></ul>",
+            "medium": "</p>"
+        },
+        "price": 6.4,
+        "reviews": {
+            "customerRating": 1,
+            "numReviews": 2
+        },
+        "size": {
+            "karfGroceryType": "Beef Steaks",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "1.42"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "44391395",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Marketside Butcher Grass-Fed Beef Chuck Roast, 1.5-2.5 lb",
+        "img": "https://i5.walmartimages.com/asr/597c72eb-0dbf-4dba-b9dc-09e415e92472_1.a443532027e2d0a593e4d18ddc08c484.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b>Marketside Butcher Grass-Fed Beef Chuck Roast, 1.5-2.5 lb:</b><ul><li>Made from premium cuts of grass-fed beef</li><li>No added hormones or antibiotics</li><li>Always fresh</li><li>Perfect for braising, slow cooking, and baking</li><li>Great for big gatherings with family and friends</li><li>USDA inspected</li></ul>",
+            "short": "<ul><li>Made from premium cuts of grass-fed beef</li><li>No added hormones or antibiotics</li><li>Always fresh</li></ul>"
+        },
+        "price": 12.96,
+        "reviews": {
+            "customerRating": 3.4,
+            "numReviews": 7
+        },
+        "size": {
+            "karfGroceryType": "Fresh",
+            "pricePerUnitUom": "Pound",
+            "pricePerUnitQuantity": "2.5"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "locationSurcharge": false,
+            "highlightedShippingOption": {
+                "index": -1,
+                "title": "shipping_title_not_available"
+            },
+            "pickupable": false,
+            "shippable": false
+        },
+        "itemId": "409114643",
+        "category": {
+            "categoryPath": "Home Page/Food/Fresh Food/Meat, Seafood & Poultry/Beef",
+            "path": [
+                {
+                    "name": "Food",
+                    "url": "/cp/976759"
+                },
+                {
+                    "name": "Fresh Food",
+                    "url": "/cp/1071964"
+                },
+                {
+                    "name": "Meat, Seafood & Poultry",
+                    "url": "/cp/976796"
+                },
+                {
+                    "name": "Beef",
+                    "url": "/cp/1001441"
+                }
+            ]
+        }
+    }
+]

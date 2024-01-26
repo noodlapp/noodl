@@ -1,0 +1,217 @@
+[
+    {
+        "title": "Sunbeam Standard Moist-dry Heating Pad",
+        "img": "https://i5.walmartimages.com/asr/3f62597f-ac9d-4d21-8c6e-643e7edfa6d4_1.7ac214cebc259eff81062ca282f5713e.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<span style=\"font-weight: 700;\"><br>Sunbeam Moist, Dry Heating Pad, Model 731-5:<br></span><ul><li>Trusted for over 100 years</li><li>UltraHeat technology maintains consistent heat</li><li>Sunbeam heating pad is easy to use</li><li>Slide control ideal for arthritis sufferers</li><li>Helps to relieve everyday muscle aches</li><li>Moist heat option for penetrating pain relief</li><li>Soft pad cover is machine washable and dryer-safe</li><li>3 heat settings</li><li>9' power cord for flexibility</li><li>Fast heat-up for quick relief</li><li>Size: 12\" x 15\"</li><li>Model number: 731-5</li><li>Note: For inquiries regarding recycling and proper disposal of this product, please contact your local waste management facility</li><li>Moist heating pad lies flat and can be rolled up to store easily in a drawer or on a shelf until needed</li></ul>",
+            "short": "<ul><li>STD HEAT PAD. LT BLUE. 3HS SLD. SPON SPA</li><li>Std Heat Pad. Lt Blue. 3hs Sld. Spon Spa</li></ul>"
+        },
+        "price": 13.98,
+        "reviews": {
+            "customerRating": 4.2,
+            "numReviews": 57
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "491144515",
+        "category": {
+            "categoryPath": "Home Page/Health/Pain Relievers/Sunbeam",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Pain Relievers",
+                    "url": "/cp/6972993"
+                },
+                {
+                    "name": "Sunbeam",
+                    "url": "/cp/4010396"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Sunbeam King-Size Moist/Dry Heating Pad with UltraHeat Technology and 4 Heat Settings",
+        "img": "https://i5.walmartimages.com/asr/95a20bd6-9c70-4c54-8fdc-bc552970f294_1.68d9cbacdd069e5030902cf6d82e77d9.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>King-size heating pad offers soothing heat therapy over a larger area</li><li>Ideal for soothing arthritic pains, muscle aches, and a variety of other ailments</li><li>Transfers heat to the targeted area to help increase blood flow, relax muscles, and accelerate healing</li><li>Compatible with moist heating for deeper, more penetrating pain relief</li><li>Adjustable heat pad features 4 heat settings and 2-hour auto-shutoff</li><li>Controller features a gliding button and LED indicators for easy operation</li><li>Soft machine-washable cover</li></ul>",
+            "short": "<ul><li>King-size heating pad offers soothing heat therapy over a larger area</li><li>Ideal for soothing arthritic pains, muscle aches, and a variety of other ailments</li><li>Transfers heat to the targeted area to help increase blood flow, relax muscles, and accelerate healing</li></ul>"
+        },
+        "price": 20.67,
+        "reviews": {
+            "customerRating": 3.7,
+            "numReviews": 280
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "690896434",
+        "category": {
+            "categoryPath": "Home Page/Health/Caregiver/Pain Relievers",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Caregiver",
+                    "url": "/cp/2915579"
+                },
+                {
+                    "name": "Pain Relievers",
+                    "url": "/cp/5819635"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Sunbeam King-Size Moist/Dry Heating Pad with UltraHeat Technology and 3 Heat Settings (732-500)",
+        "img": "https://i5.walmartimages.com/asr/117ec2f1-d173-4faf-aedd-b073ae482228_2.8b3691763114bce345fc1ca53c81d78c.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<b><br />Sunbeam King Size Heating Pad with UltraHeat:<br /></b><ul><li>UltraHeat Technology maintains consistent heat</li><li>The Sunbeam King heating pad has 3-heat settings</li><li>9' power cord</li><li>Measures 12\" x 15\"</li><li>Soft, machine-washable blue cover</li><li>Sponge insert for moist heat</li><li>5-year limited warranty</li><li>Available in a single or a 2-pack</li></ul>",
+            "short": "<ul><li>King-size heating pad offers soothing heat therapy and 3 heat settings</li><li>Extra-large heating pad delivers heat over a wider area</li><li>Sponge insert offers moist heating pad option for deep, penetrating therapy</li></ul>",
+            "medium": "<p>Help arthritic pain and everyday muscle aches fade away with the Sunbeam King Size Heating Pad with UltraHeat. Help soothe and relieve discomfort with UltraHeat technology to maintain even, consistent heat to the areas that cause aches. Three heat settings provide the level of intensity you need to begin feeling better. It includes a convenient extra-long, nine-foot power cord.</p>"
+        },
+        "price": 16.67,
+        "reviews": {
+            "customerRating": 4.0842,
+            "numReviews": 95
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 5.99,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free_threshold",
+                "titlePrice": {
+                    "price": 35,
+                    "currencyUnit": "USD",
+                    "currencyUnitSymbol": "$"
+                }
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "22063035",
+        "category": {
+            "categoryPath": "Home Page/Health/Caregiver/Personal Aids/Heating Pads",
+            "path": [
+                {
+                    "name": "Health",
+                    "url": "/cp/976760"
+                },
+                {
+                    "name": "Caregiver",
+                    "url": "/cp/2915579"
+                },
+                {
+                    "name": "Personal Aids",
+                    "url": "/cp/5093072"
+                },
+                {
+                    "name": "Heating Pads",
+                    "url": "/cp/9228090"
+                }
+            ]
+        }
+    }
+]

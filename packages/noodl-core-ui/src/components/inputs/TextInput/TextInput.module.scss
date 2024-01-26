@@ -1,0 +1,177 @@
+@use '../../../styles/scss-variables/length.scss';
+
+// TODO: make level 1 on focus
+
+.Root {
+  flex-grow: 1;
+  font-family: var(--font-family);
+  font-size: 14px;
+
+  &.has-bottom-spacing {
+    margin-bottom: 15px;
+  }
+
+  .Input,
+  .Sizer {
+    padding: 4px 5px;
+  }
+
+  &.has-suffix {
+    .Input,
+    .Sizer {
+      padding-right: 0;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+.InputArea {
+  height: length.$global-input-size;
+  padding: 4px 5px;
+  position: relative;
+  display: flex;
+  cursor: text;
+  transition: margin-bottom var(--speed-quick) var(--easing-base),
+    background-color var(--speed-quick) var(--easing-base);
+
+  .Root.is-variant-default & {
+    background-color: var(--theme-color-bg-3);
+
+    &.is-readonly {
+      background-color: var(--theme-color-bg-4);
+    }
+
+    &.is-focused {
+      background-color: var(--theme-color-bg-1);
+    }
+  }
+
+  .Root.is-variant-in-modal & {
+    background-color: var(--theme-color-bg-2);
+
+    &.is-readonly {
+      background-color: var(--theme-color-bg-3);
+    }
+
+    &.is-focused {
+      background-color: var(--theme-color-bg-1);
+    }
+  }
+
+  .Root.is-variant-opaque-on-hover & {
+    background: transparent;
+    transition-duration: var(--speed-turbo);
+  }
+
+  .Root.is-variant-opaque-on-hover:hover &,
+  .Root.is-variant-opaque-on-hover &.is-focused {
+    background-color: var(--theme-color-bg-3);
+  }
+
+  &.has-message {
+    margin-bottom: 27px;
+  }
+
+  .Root.is-variant-transparent:hover &,
+  .Root.is-variant-transparent &.is-focused {
+    background-color: transparent;
+  }
+}
+
+.TextStyle {
+  font-family: var(--font-family-regular), 'OpenSans', arial;
+  font-size: 14px;
+}
+
+.Sizer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  height: 0;
+  overflow: overlay;
+  white-space: pre;
+}
+
+.InputWrapper {
+  overflow-x: overlay;
+  flex-grow: 1;
+  padding-top: 1px;
+}
+
+.InputWrapperInner {
+  min-width: 100%;
+  min-width: fit-content;
+  display: flex;
+}
+
+.Prefix,
+.Suffix {
+  color: var(--theme-color-fg-muted);
+  white-space: nowrap;
+}
+
+.Suffix {
+  padding: 4px 0px;
+}
+
+.Input {
+  color: var(--theme-color-fg-default);
+  background-color: transparent;
+  border: 0;
+  flex-shrink: 0;
+  min-width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &[disabled],
+  &.is-readonly,
+  &::placeholder {
+    color: var(--theme-color-fg-muted);
+  }
+
+  &.has-suffix {
+    min-width: auto;
+  }
+
+  &.is-div {
+    user-select: text;
+    cursor: text;
+    white-space: nowrap;
+  }
+
+  .InputArea.is-focused & {
+    color: var(--theme-color-fg-highlight);
+  }
+}
+
+.BeforeContainer,
+.AfterContainer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ButtonContainer {
+  margin-left: 4px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity var(--speed-turbo) linear;
+}
+
+.NotificationMessage {
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 1px;
+  right: 1px;
+  text-align: left;
+}

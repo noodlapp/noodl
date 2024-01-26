@@ -1,0 +1,49 @@
+$_x-padding: 10px;
+
+.Root {
+  flex-grow: 1;
+
+  &.has-bottom-spacing {
+    margin-bottom: 15px;
+  }
+}
+
+.InputArea {
+  background-color: var(--theme-color-bg-1);
+  position: relative;
+  transition: opacity var(--speed-turbo) var(--easing-base);
+
+  &.is-disabled {
+    opacity: 0.5;
+  }
+
+  &.has-message {
+    margin-bottom: 4px;
+  }
+}
+
+.Input {
+  padding: 8px $_x-padding;
+  width: 100%;
+  font-size: 14px;
+  font-family: var(--font-family);
+  color: var(--theme-color-fg-default);
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  resize: vertical;
+  min-height: 51px;
+  box-sizing: border-box;
+  user-select: none;
+
+  &::placeholder {
+    color: var(--base-color-grey-600);
+  }
+
+  &.is-resize-disabled {
+    resize: none;
+  }
+
+  &.is-empty {
+  }
+}

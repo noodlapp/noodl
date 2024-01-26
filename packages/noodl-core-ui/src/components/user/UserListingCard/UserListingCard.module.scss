@@ -1,0 +1,48 @@
+.Root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  background-color: var(--theme-color-bg-2);
+
+  &:not(:last-child) {
+    margin-bottom: 4px;
+  }
+
+  &.is-variant-default {
+    padding: 12px 16px;
+
+    // &:hover {
+    //   box-shadow: 0 0 0 4px var(--theme-color-bg-3);
+    //   background-color: var(--theme-color-bg-3);
+    // }
+  }
+
+  &.is-variant-launcher {
+    padding: 0;
+  }
+
+  &.is-variant-in-modal {
+    padding: 18px 16px;
+    background-color: var(--theme-color-bg-3);
+  }
+}
+
+.Information {
+  display: flex;
+  align-items: center;
+}
+
+.Avatar {
+  margin-right: 14px;
+}
+
+.Controls {
+  .Root.is-variant-default:not(.is-interaction-slot-always-visible) & > * {
+    display: none;
+  }
+
+  .Root.is-variant-default:hover & > * {
+    display: block;
+  }
+}

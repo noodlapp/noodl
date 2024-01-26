@@ -1,0 +1,43 @@
+.Root {
+  border-radius: 2px;
+
+  &.is-bg {
+    &-1,
+    &-1-on-hover:hover {
+      background-color: var(--theme-color-bg-1);
+    }
+
+    &-2,
+    &-2-on-hover:hover {
+      background-color: var(--theme-color-bg-2);
+    }
+
+    &-3,
+    &-3-on-hover:hover {
+      background-color: var(--theme-color-bg-3);
+    }
+
+    &-4,
+    &-4-on-hover:hover {
+      background-color: var(--theme-color-bg-4);
+    }
+  }
+
+  &.has-hover-state {
+    cursor: pointer;
+  }
+
+  &.is-padding {
+    &-small {
+      padding: 8px;
+    }
+
+    &-default {
+      padding: 16px;
+    }
+
+    &-large {
+      padding: 32px;
+    }
+  }
+}

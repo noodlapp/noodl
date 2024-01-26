@@ -1,0 +1,370 @@
+[
+    {
+        "title": "Apple MacBook Air 13.3 Inch Laptop MJVE2LL/A Intel Core i5 1.6GHz, 4GB RAM, 128GB SSD (Scratch and Dent Refurbished)",
+        "img": "https://i5.walmartimages.com/asr/11247c97-ef38-4869-9a68-003bb117bad1_1.3594767d28a4cba9c94949c3cc968525.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Apple MacBook Air 13.3 Inch Laptop MJVE2LL/A Intel Core i5 1.6GHz, 4GB RAM, 128GB SSD (Scratch and Dent Refurbished)",
+            "short": "Key Features and Benefits:<ul><li>Long battery lifeFrom your morning coffee till your evening commute, you can work unplugged. When it's time to kick back and relax, you can get long hours of iTunes movie playback. And with long standby time, you can go away for weeks and pick up right whe</li></ul>"
+        },
+        "price": 475.99,
+        "reviews": {
+            "customerRating": 3.6,
+            "numReviews": 52
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586458800000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1586286000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 40,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 70,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585681200000,
+                        "latestDeliveryDate": 1585767600000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {},
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "44635137",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Apple Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Apple Laptops",
+                    "url": "/cp/4431341"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Refurbished - Apple MacBook Air 11.6\" LED Laptop 1.6GHz Intel i5 4GB 128GB SSD MJVM2LLA",
+        "img": "https://i5.walmartimages.com/asr/6a13c20c-beb4-480f-9d8f-7b43ad803b55_1.549cdfcbad835c924aad7bd498bb1acd.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "<ul><li>11.6-inch LED-backlit glossy widescreen display (1366 x 768)</li><li>Intel 5th Gen Broadwell Core i5-5250U Dual-Core 1.6GHz CPU</li><li>4GB 1600MHz LPDDR3 RAM and 128GB Solid State Drive (SSD)</li></ul>",
+            "short": "<li>apple</li>"
+        },
+        "price": 319.91,
+        "reviews": {
+            "customerRating": 1,
+            "numReviews": 1
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_two_day_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "659362999",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Refurbished Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Refurbished Laptops",
+                    "url": "/cp/1230092"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Apple MacBook Pro 13.3\" Intel Dual Core i5 2.5GHz 4GB 500GB Laptop - MD101LLAn (Certified Refurbished)",
+        "img": "https://i5.walmartimages.com/asr/e58a9baa-039c-4c43-ada4-f98ba587a326_1.57915480c13db76acbfd2515776a3796.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "13.3-inch LED-backlit glossy widescreen display with edge-to-edge, uninterrupted glass (1280 x 800-pixel resolution)<br/>2.5 GHz Intel Core i5 dual-core processor (3.1 GHz with Turbo Boost Technology; 3 MB L3 cache)<br/>Intel HD Graphics 4000 integrated graphics processor<br/>500 GB Serial ATA hard drive (5400 RPM)<br/>4 GB installed RAM (1600 MHz DDR3; supports up to 8 GB)<br/>8x slot-loading SuperDrive with double-layer DVD support (DVD&#177;R DL/DVD&#177;RW/CD-RW)<br/>Built-in HD 720p FaceTime HD camera for video chatting<br/>Wi-Fi wireless networking (based on 802.11n specification; 802.11a/b/g compatible)<br/>Gigabit Ethernet wired networking (10/100/1000)<br/>Bluetooth 4.0 for connecting with peripherals such as keyboards, mice and cell phones<br/>Thunderbolt port (up to 10 Gbps) with native video output support for Mini DisplayPort plus DVI, VGA, dual-link DVI, and HDMI (requires adapters, sold separately)<br/>Two USB 3 ports (up to 5 Gbps; backwards compatibility with USB 2)<br/>FireWire 800 port (up to 800 Mbps)<br/>SDXC card slot (supports cards up to 64 GB in size)<br/>Stereo speakers with subwoofers<br/>Combined audio line in/out (digital/analog)<br/>Dimensions: 12.78 x 8.94 x 0.95 inches (WxDxH)<br/>Weight: 4.5 pounds<br/>Up to 7 hours of battery life<br/><br/>Intel Core i5 Dual-Core Processing<br/><br/>Intel Core i5<br/>The MacBook Pro packs plenty of power thanks to the latest Intel Core i5 processor, which features a faster processor, more powerful graphics, and a memory controller integrated into a single chip. The third-generation dual-core Intel Core i5 has a 2.5 GHz speed, which can dynamically accelerate up to 3.1 GHz to match your workload thanks to updated Intel Turbo Boost Technology.<br/><br/>And with the Intel HD Graphics 4000 processor, you get up to 60 percent faster graphics. So the video you watch, the FaceTime calls you make, and pretty much everything else you do is smoother and more detailed.<br/><br/>High-speed Thunderbolt and USB 3 Ports<br/><br/>A high-speed Thunderbolt port allows the MacBook Pro to transfer data at lightning-fast speeds and connect displays like the Apple Thunderbolt Display, enabling you to turn this highly portable notebook into a highly versatile workstation. And with two USB 3 ports, you'll be able to connect the latest USB 3 devices and access a pipeline that's up to 10 times faster than USB 2.<br/><br/>Apple 13.3-inch MacBook Pro<br/>The smooth, buttonless multi-touch trackpad (see larger image).<br/>Because Thunderbolt is based on DisplayPort technology, you'll be able to connect to a high-resolution display from the same port. Any Mini DisplayPort display plugs right into the Thunderbolt port, and you can also connect displays that use DisplayPort, DVI, HDMI, or VGA connections with an existing adapter. You'll also be able to include your display into a daisy-chained set of peripherals.<br/><br/>Integrated HD FaceTime Webcam<br/><br/>You'll be able to easily connect with friends, family, and business colleagues using the MacBook Pro's HD 720p FaceTime camera, which is integrated into the thin bezel",
+            "short": "Apple MacBook Pro 13.3\" Intel Dual Core i5 2.5GHz 4GB 500GB Laptop - MD101LLA"
+        },
+        "price": 349.96,
+        "reviews": {
+            "customerRating": 3.3,
+            "numReviews": 7
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "exactDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "EXPEDITED"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": -1,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_two_day_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "53146887",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Apple Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Apple Laptops",
+                    "url": "/cp/4431341"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Apple MacBook Air - 13.3\" - Core i5 - 8 GB RAM - 128 GB flash storage - English",
+        "img": "https://i5.walmartimages.com/asr/9cae54dd-f1bb-4f48-a46a-d1794eae5978_1.60e6aa8f538b19c636bdad73433e4720.jpeg?odnHeight=215&odnWidth=215&odnBg=FFFFFF",
+        "description": {
+            "detailed": "Apple MacBook Air - 13.3\" - Core i5 - 8 GB RAM - 128 GB flash storage - English",
+            "short": "<ul><li>1.6 GHz dual-core Intel Core i5 (Turbo Boost up to 2.7 GHz) with 3 MB shared L3 cache, 4GB of 1600MHz LPDDR3 onboard memory, 128GB PCIe-based flash storage</li><li>802.11ac Wi-Fi wireless networking5; IEEE 802.11a/b/g/n compatible</li><li>With a Thunderbolt 2 </li></ul>"
+        },
+        "price": 925.99,
+        "reviews": {
+            "customerRating": 5,
+            "numReviews": 3
+        },
+        "size": {
+            "pricePerUnitUom": "Each",
+            "pricePerUnitQuantity": "1.0000"
+        },
+        "fullfilment": {
+            "hasShippingRestrictions": false,
+            "shippingOptions": [
+                {
+                    "fulfillmentPrice": {
+                        "price": 0,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1586199600000,
+                        "latestDeliveryDate": 1586545200000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "VALUE"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 20,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585940400000,
+                        "latestDeliveryDate": 1586372400000
+                    },
+                    "fulfillmentPriceType": "ORDER",
+                    "shipMethod": "STANDARD"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 40,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585854000000,
+                        "latestDeliveryDate": 1585940400000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "EXPEDITED"
+                },
+                {
+                    "fulfillmentPrice": {
+                        "price": 70,
+                        "currencyUnit": "USD",
+                        "currencyUnitSymbol": "$"
+                    },
+                    "fulfillmentDateRange": {
+                        "earliestDeliverDate": 1585767600000,
+                        "latestDeliveryDate": 1585854000000
+                    },
+                    "fulfillmentPriceType": "ITEM",
+                    "shipMethod": "ONE_DAY"
+                }
+            ],
+            "freeShippingThresholdPrice": {
+                "price": 35,
+                "currencyUnit": "USD",
+                "currencyUnitSymbol": "$"
+            },
+            "locationSurcharge": false,
+            "upsellShippingOptionIndex": 3,
+            "highlightedShippingOption": {
+                "index": 0,
+                "title": "shipping_title_free"
+            },
+            "pickupable": false,
+            "shippable": true
+        },
+        "itemId": "192689693",
+        "category": {
+            "categoryPath": "Home Page/Electronics/Computers/Laptops/Shop Laptops by Type/Apple Laptops",
+            "path": [
+                {
+                    "name": "Electronics",
+                    "url": "/cp/3944"
+                },
+                {
+                    "name": "Computers",
+                    "url": "/cp/3951"
+                },
+                {
+                    "name": "Laptops",
+                    "url": "/cp/1089430"
+                },
+                {
+                    "name": "Shop Laptops by Type",
+                    "url": "/cp/1230091"
+                },
+                {
+                    "name": "Apple Laptops",
+                    "url": "/cp/4431341"
+                }
+            ]
+        }
+    }
+]

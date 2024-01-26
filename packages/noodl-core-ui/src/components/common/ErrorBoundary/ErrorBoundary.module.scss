@@ -1,0 +1,35 @@
+.Root {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.Center {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Container {
+  padding: 8px 16px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+
+  pre {
+    overflow-x: auto;
+    padding: 16px 0;
+    margin: 16px 0;
+    background: var(--theme-color-bg-3);
+    color: var(--theme-color-fg-default);
+    border-radius: 4px;
+    user-select: text;
+
+    .Error {
+      display: block;
+      padding: 0 16px;
+    }
+  }
+}

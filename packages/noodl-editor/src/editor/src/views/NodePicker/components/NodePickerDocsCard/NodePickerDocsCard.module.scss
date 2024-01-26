@@ -1,0 +1,42 @@
+@use '@scss-variables/animation';
+@use '@scss-placeholders/util';
+
+.Root {
+  display: block;
+  height: 125px;
+  margin-bottom: 30px;
+  background: linear-gradient(-45deg, var(--theme-color-primary-highlight), var(--theme-color-secondary-highlight));
+  background-size: cover;
+  background-position: center center;
+  padding: 20px;
+  position: relative;
+
+  &:before {
+    @extend %overlay;
+    content: '';
+    background-color: var(--theme-color-bg-1);
+    opacity: 0;
+  }
+
+  &:hover:before {
+    opacity: 0.2;
+  }
+}
+
+.Supertitle,
+.Title {
+  display: block;
+  color: var(--theme-color-fg-highlight);
+  width: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.Supertitle {
+  font-size: 16px;
+}
+
+.Title {
+  font-weight: 700;
+  font-size: 18px;
+}
