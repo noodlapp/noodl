@@ -95,7 +95,7 @@
     "babel-loader": "^8.2.4",
     "concurrently": "^7.4.0",
     "css-loader": "^6.7.1",
-    "electron": "28.1.4",
+    "electron": "28.2.0",
     "electron-builder": "^24.9.1",
     "file-loader": "^6.2.0",
     "html-loader": "^3.1.0",
