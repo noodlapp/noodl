@@ -211,7 +211,7 @@ export default function Clippy() {
     aiAssistantModel.removeActivity(id);
   }
 
-  const initialPlaceholder = isInputOpen ? 'Select (or type) a command below' : 'Ask Noodl AI';
+  const initialPlaceholder = isInputOpen ? 'Select (or type) a command below' : 'Ask AI';
   const isPromptInWrongOrder = Boolean(!selectedOption) && Boolean(secondInputValue);
   const isFullBeta = ['full-beta', 'enterprise'].includes(version);
   const isLimitedBeta = false; // TODO: version === 'limited-beta';

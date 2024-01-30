@@ -154,6 +154,7 @@ export enum IconName {
   RadiobuttonGroup = 'radiobutton_group',
   SlidersFilled = 'sliders_filled',
   Navigate = 'navigate',
+  Neue = 'neue',
   Link = 'link',
   SEO = 'seo'
 }

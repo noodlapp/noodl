@@ -74,7 +74,7 @@ export class ComponentPicker {
         } else if (iconType === ComponentIconType.Page) {
           icon = IconName.File;
         } else if (iconType === ComponentIconType.Neue) {
-          icon = IconName.Code;
+          icon = IconName.Neue;
         } else {
           icon = IconName.Component;
         }

@@ -6,7 +6,7 @@ export enum ComponentIconType {
   Page = IconName.File,
   CloudFunction = IconName.CloudFunction,
   Visual = 2,
-  Neue = IconName.Code
+  Neue = IconName.Neue
 }
 
 const typenames: { [key: string]: ComponentIconType } = {

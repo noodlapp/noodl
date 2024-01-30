@@ -208,14 +208,14 @@ class NeueComponentTemplate extends ComponentTemplate {
     super('Neue Component', IconName.Code);
 
     this.parentTypes = ['folder'];
-    this.runtimeTypes = ['neue', 'cloud'];
+    this.runtimeTypes = ['neue'];
 
     this.template = {
       connections: [],
       roots: [
         {
-          id: 'xxx',
-          type: 'neue',
+          id: 'A',
+          type: 'iENBL Device',
           x: 0,
           y: 0,
           parameters: {},

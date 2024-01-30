@@ -1,7 +1,7 @@
 'use strict';
 
 const DeviceNode = {
-  name: 'Device Node',
+  name: 'iENBL Device',
   docs: 'https://www.neue.se/support-documentation/building-an-app/patches-the-building-blocks/',
   category: 'Neue',
   color: 'neue',
@@ -31,6 +31,18 @@ const DeviceNode = {
             this.flagOutputDirty('result');
           }
         };
+      }
+    }
+  },
+  inputs: {
+    refresh: {
+      type: 'number',
+      displayName: 'Refresh rate (ms)',
+      default: 55,
+      set: function (value) {
+        this._internal.startIndex = value;
+        this._internal.resultDirty = true;
+        this.flagOutputDirty('result');
       }
     }
   },

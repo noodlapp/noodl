@@ -15,6 +15,7 @@ import { ComponentsPanel } from './views/panels/componentspanel';
 import { DesignTokenPanel } from './views/panels/DesignTokenPanel/DesignTokenPanel';
 import { EditorSettingsPanel } from './views/panels/EditorSettingsPanel/EditorSettingsPanel';
 import { FileExplorerPanel } from './views/panels/FileExplorerPanel';
+import { iENBLPanel } from './views/panels/iENBLPanel/iENBLPanel';
 import { NodeReferencesPanel_ID } from './views/panels/NodeReferencesPanel';
 import { NodeReferencesPanel } from './views/panels/NodeReferencesPanel/NodeReferencesPanel';
 import { ProjectSettingsPanel } from './views/panels/ProjectSettingsPanel/ProjectSettingsPanel';
@@ -23,7 +24,6 @@ import { SearchPanel } from './views/panels/search-panel/search-panel';
 import { UndoQueuePanel } from './views/panels/UndoQueuePanel/UndoQueuePanel';
 import { VersionControlPanel_ID } from './views/panels/VersionControlPanel';
 import { VersionControlPanel } from './views/panels/VersionControlPanel/VersionControlPanel';
-import { iENBLPanel } from './views/panels/iENBLPanel/iENBLPanel';
 
 export interface SetupEditorOptions {
   isLesson: boolean;
@@ -61,7 +61,7 @@ export function installSidePanel({ isLesson }: SetupEditorOptions) {
       // This is a temporary solution so we can keep the state of open folder etc
       options: {
         showSheetList: true,
-        hideSheets: ['__cloud__','__neue__']
+        hideSheets: ['__cloud__', '__neue__']
       }
     },
     panel: ComponentsPanel
@@ -86,9 +86,9 @@ export function installSidePanel({ isLesson }: SetupEditorOptions) {
 
   SidebarModel.instance.register({
     id: 'neue',
-    name: 'iENBL Devices',
+    name: 'Neue Playground',
     order: 2,
-    icon: IconName.Code,
+    icon: IconName.Neue,
     onOpen: () => {
       if (appRegistry.CurrentDocumentId !== EditorDocumentProvider.ID) {
         appRegistry.openDocument(EditorDocumentProvider.ID);
