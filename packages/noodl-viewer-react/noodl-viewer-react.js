@@ -17,7 +17,7 @@ function createArgs() {
         getCurrentTime: () => 0,
         objectToString: (o) => JSON.stringify(o, null, 2)
       },
-      componentFilter: (c) => !c.name.startsWith('/#__cloud__/')
+      componentFilter: (c) => !c.name.startsWith('/#__cloud__/') && !c.name.startsWith('/#__neue__/')
     };
   }
 
@@ -28,7 +28,7 @@ function createArgs() {
       getCurrentTime: () => window.performance.now(),
       objectToString: (o) => JSON.stringify(o, null, 2)
     },
-    componentFilter: (c) => !c.name.startsWith('/#__cloud__/')
+    componentFilter: (c) => !c.name.startsWith('/#__cloud__/') && !c.name.startsWith('/#__neue__/')
   };
 }
 

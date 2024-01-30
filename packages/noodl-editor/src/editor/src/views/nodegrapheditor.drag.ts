@@ -1,7 +1,7 @@
 import { ComponentModel } from '@noodl-models/componentmodel';
 import { NodeLibrary } from '@noodl-models/nodelibrary';
 import { ComponentIconType, getComponentIconType } from '@noodl-models/nodelibrary/ComponentIcon';
-import { isComponentModel_CloudRuntime } from '@noodl-utils/NodeGraph';
+import { isComponentModel_CloudRuntime, isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
 
 import { IVector2, NodeGraphEditor } from './nodegrapheditor';
 import { ComponentsPanelFolder } from './panels/componentspanel/ComponentsPanelFolder';
@@ -38,16 +38,27 @@ export function canAcceptDrop(editor: NodeGraphEditor, dragItem: DragItem) {
   }
 
   const activeBackend = isComponentModel_CloudRuntime(editor.activeComponent);
+  const activeNeue = isComponentModel_NeueRuntime(editor.activeComponent);
   // const activeIcon = getComponentIconType(editor.activeComponent);
 
   if (['component', 'folder'].includes(dragItem.type)) {
     const newComponent = getDragItemComponent(dragItem);
     if (newComponent) {
       const newBackend = isComponentModel_CloudRuntime(newComponent);
+      const newNeue= isComponentModel_NeueRuntime(newComponent);
       const newIcon = getComponentIconType(newComponent);
+      
 
       // (Cloud Function) Backend to backend
       if (activeBackend && newBackend && newIcon === ComponentIconType.CloudFunction) {
+        // We dont allow Cloud Functions in Cloud Functions,
+        // they have to be splitted up into logic nodes.
+        PopupLayer.instance.setDragMessage('Cannot create Cloud Function inside Cloud Function.');
+        return false;
+      }
+
+      //Neue
+      if (activeNeue && newNeue && newIcon === ComponentIconType.Neue) {
         // We dont allow Cloud Functions in Cloud Functions,
         // they have to be splitted up into logic nodes.
         PopupLayer.instance.setDragMessage('Cannot create Cloud Function inside Cloud Function.');
@@ -63,6 +74,13 @@ export function canAcceptDrop(editor: NodeGraphEditor, dragItem: DragItem) {
         return true;
       }
 
+      //Neue
+      if (!activeNeue && newNeue && newIcon === ComponentIconType.Neue) {
+        // We will convert it to Neue node
+        PopupLayer.instance.setDragMessage();
+        return true;
+      }
+
       // Backend to frontend
       if (!activeBackend && newBackend) {
         // We don't allow using logic components from the backend in the frontend
@@ -70,8 +88,21 @@ export function canAcceptDrop(editor: NodeGraphEditor, dragItem: DragItem) {
         return false;
       }
 
+      //Neue
+      if (!activeNeue && newNeue) {
+        // We don't allow using logic components from the backend in the frontend
+        PopupLayer.instance.setDragMessage('Cannot mix frontend and Neue nodes.');
+        return false;
+      }
+
       // Frontend to backend
       if (activeBackend && !newBackend) {
+        PopupLayer.instance.setDragMessage('Cannot mix frontend and Cloud nodes.');
+        return false;
+      }
+
+      //Neue
+      if (activeNeue && !newNeue) {
         PopupLayer.instance.setDragMessage('Cannot mix frontend and Cloud nodes.');
         return false;
       }
@@ -100,10 +131,12 @@ export function canAcceptDrop(editor: NodeGraphEditor, dragItem: DragItem) {
 
 export function onDrop(editor: NodeGraphEditor, dragItem: DragItem, position: IVector2): boolean {
   const activeBackend = isComponentModel_CloudRuntime(editor.activeComponent);
+  const activeNeue = isComponentModel_NeueRuntime(editor.activeComponent);
   // const activeIcon = getComponentIconType(editor.activeComponent);
 
   if (dragItem.type === 'component') {
     const newBackend = isComponentModel_CloudRuntime(dragItem.component);
+    const newNeue = isComponentModel_NeueRuntime(dragItem.component);
     const newIcon = getComponentIconType(dragItem.component);
 
     // (Cloud Function) Backend to frontend
@@ -128,10 +161,10 @@ export function onDrop(editor: NodeGraphEditor, dragItem: DragItem, position: IV
     }
 
     //Neue
-    if (!activeBackend && newBackend && newIcon === ComponentIconType.Neue) {
+    if (!activeNeue && newNeue && newIcon === ComponentIconType.Neue) {
       const neueComponent = NodeLibrary.instance.types.find((x) => x.name === 'NeueTypeAdapter');
       if (!neueComponent) {
-        console.error("Cannot find 'Cloud Function' component.");
+        console.error("Cannot find 'iENBL' component.");
         return;
       }
 
@@ -140,7 +173,7 @@ export function onDrop(editor: NodeGraphEditor, dragItem: DragItem, position: IV
       // Create a reference component to the cloud function component.
       editor.createNewNode(neueComponent, position, {
         parameters: {
-          function: functionName
+          neue: functionName
         }
       });
 

@@ -184,12 +184,12 @@ export class PropertyEditor extends View {
     } 
     //Neue
     else if (node.type.name === 'NeueTypeAdapter') {
-      const functionName = '/#__neue__/' + node.parameters.function;
+      const functionName = '/#__neue__/' + node.parameters.neue;
       const component = ProjectModel.instance.getComponentWithName(functionName);
       if (component) {
         NodeGraphContextTmp.switchToComponent(component, { pushHistory: true });
       } else {
-        ToastLayer.showError('Could not find Cloud Function in project.');
+        ToastLayer.showError('Could not find Neue Node in project.');
       }
     } 
     else if (node.type.nodeDoubleClickAction) {

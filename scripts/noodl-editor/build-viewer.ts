@@ -74,4 +74,9 @@ async function buildViewer({ name, relativePath }) {
     relativePath: 'noodl-viewer-cloud',
     name: '@noodl/cloud-runtime'
   });
+
+  await buildViewer({
+    relativePath: 'noodl-viewer-neue',
+    name: '@noodl/neue-runtime'
+  });
 })();

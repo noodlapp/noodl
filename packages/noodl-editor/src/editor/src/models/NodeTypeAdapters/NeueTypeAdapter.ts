@@ -17,14 +17,9 @@ export class NeueTypeAdapter extends NodeTypeAdapter {
       nodeAdded: this.nodeAddedOrRemoved.bind(this),
       nodeRemoved: this.nodeAddedOrRemoved.bind(this),
       'nodeAdded:Neue': this.functionNodeAdded.bind(this),
-      'nodeAdded:noodl.cloud.request': this.updateAllFunctionsPorts.bind(this),
-      'nodeRemoved:noodl.cloud.request': this.updateAllFunctionsPorts.bind(this),
-      'nodeAdded:noodl.cloud.response': this.updateAllFunctionsPorts.bind(this),
-      'nodeRemoved:noodl.cloud.response': this.updateAllFunctionsPorts.bind(this),
+      'nodeRemoved:Neue': this.updateAllFunctionsPorts.bind(this),
       projectLoaded: this.updateAllFunctionsPorts.bind(this),
-      'parametersChanged:noodl.cloud.request': this.updateAllFunctionsPorts.bind(this),
-      'parametersChanged:noodl.cloud.response': this.updateAllFunctionsPorts.bind(this),
-      'parametersChanged:Neue': this.functionParametersChanged.bind(this) //update if a router name has changed
+      'parametersChanged:Neue': this.updateAllFunctionsPorts.bind(this),
     };
   }
 
@@ -45,7 +40,7 @@ export class NeueTypeAdapter extends NodeTypeAdapter {
     const functionNodes = this.findAllNodes();
 
     functionNodes.forEach((f) => {
-      if ('/#__neue__/' + f.parameters['function'] === before) {
+      if ('/#__neue__/' + f.parameters['neue'] === before) {
         f.setParameter('function', after.replace('/#__neue__/', ''));
       }
     });
@@ -57,7 +52,7 @@ export class NeueTypeAdapter extends NodeTypeAdapter {
     const ports = [];
 
     // Collect all cloud function components
-    const functionRequestNodes = ProjectModel.instance.getNodesWithType('noodl.cloud.request');
+    const functionRequestNodes = ProjectModel.instance.getNodesWithType('Neue');
     const functions = functionRequestNodes.map((r) => {
       const component = r.owner.owner;
       return component.fullName;
@@ -71,13 +66,13 @@ export class NeueTypeAdapter extends NodeTypeAdapter {
         ignoreSheetName: true,
         allowEditOnly: true
       },
-      group: 'General',
-      displayName: 'Function',
-      name: 'function'
+      group: 'Neue',
+      displayName: 'Neue',
+      name: 'neue'
     });
 
-    if (node.parameters['function'] !== undefined) {
-      const component = ProjectModel.instance.getComponentWithName('/#__neue__/' + node.parameters['function']);
+    if (node.parameters['neue'] !== undefined) {
+      const component = ProjectModel.instance.getComponentWithName('/#__neue__/' + node.parameters['neue']);
       if (component !== undefined) {
         // Collect inputs from request nodes
         const functionRequests = component.getNodesWithType('Neue');
@@ -101,7 +96,7 @@ export class NeueTypeAdapter extends NodeTypeAdapter {
         }
 
         // Collect outputs from response nodes
-        const functionResponses = component.getNodesWithTypeRecursive('noodl.cloud.response');
+        const functionResponses = component.getNodesWithTypeRecursive('Neue');
         const uniqueNames = {};
 
         functionResponses.forEach((pi) => {
@@ -115,7 +110,7 @@ export class NeueTypeAdapter extends NodeTypeAdapter {
             displayName: inputName,
             type: '*',
             plug: 'output',
-            group: 'Results'
+            group: 'Hardware'
           });
         });
       }

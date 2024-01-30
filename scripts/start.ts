@@ -74,6 +74,14 @@ const cloudRuntimeProcess = attachStdio(
   }
 );
 
+//Neue
+const neueRuntimeProcess = attachStdio(
+  exec(`npx lerna exec --scope @noodl/noodl-viewer-playground -- npm run ${viewerScript}`, processOptions),
+  {
+    prefix: 'Neue',
+    color: ConsoleColor.FgMagenta
+  }
+);
 const editorProcess = attachStdio(exec('npx lerna exec --scope noodl-editor -- npm run start', processOptions), {
   prefix: 'Editor',
   color: ConsoleColor.FgCyan
@@ -83,6 +91,7 @@ editorProcess.on('exit', (code) => {
   if (typeof code === 'number') {
     viewerProcess.kill(0);
     cloudRuntimeProcess.kill(0);
+    neueRuntimeProcess.kill(0);
     process.exit(0);
   }
 });

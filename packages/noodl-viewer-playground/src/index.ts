@@ -53,16 +53,16 @@ export class PlaygroundRunner {
 
       const requestScope = new NodeScope(this.runtime.context);
       requestScope.modelScope = new Model.Scope();
-
+      //Neue
       this.runtime.context
-        .createComponentInstanceNode('/#__playground__/' + functionName, requestId + '-' + functionName, requestScope)
+        .createComponentInstanceNode('/#__neue__/' + functionName, requestId + '-' + functionName, requestScope)
         .then((functionComponent) => {
           // Look for the first request node (should only be one)
-          const requestNode = functionComponent.nodeScope.getNodesWithType('noodl.playground.request')[0];
+          const requestNode = functionComponent.nodeScope.getNodesWithType('Neue')[0];
           if (requestNode) {
             // Look for all response nodes
             let hasResponded = false;
-            const responseNodes = functionComponent.nodeScope.getNodesWithTypeRecursive('noodl.playground.response');
+            const responseNodes = functionComponent.nodeScope.getNodesWithTypeRecursive('Neue');
             responseNodes.forEach((resp) => {
               resp._internal._sendResponseCallback = (resp) => {
                 if (hasResponded) return;

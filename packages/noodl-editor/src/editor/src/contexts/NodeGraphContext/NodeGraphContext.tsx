@@ -91,15 +91,18 @@ export function NodeGraphContextProvider({ children }: NodeGraphContextProviderP
         if (SidebarModel.instance.ActiveId === 'components') {
           SidebarModel.instance.switch('cloud-functions');
         }
-      } else if(isComponentModel_NeueRuntime(model)){
-        setActive('neue');
-        if (SidebarModel.instance.ActiveId === 'neue') {
-          SidebarModel.instance.switch('neue');
-        }
-      }else{
+      } else{
+        if(isComponentModel_NeueRuntime(model)){
+          setActive('neue');
+          if (SidebarModel.instance.ActiveId === 'neue') {
+            SidebarModel.instance.switch('neue');
+          }
+        }else{
+          
         setActive('frontend');
         if (SidebarModel.instance.ActiveId === 'cloud-functions') {
           SidebarModel.instance.switch('components');
+        }
         }
       }
     }

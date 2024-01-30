@@ -125,9 +125,6 @@ export class ComponentsPanelView extends View {
     } else if (this._lockCurrentSheetName === '__playground__') {
       return 'playground';
     }
-    if (this._lockCurrentSheetName === '__neue__') {
-      return 'neue';
-    }
 
     const currentSheetName = this.currentSheet.name;
     return currentSheetName === '#__cloud__' ? 'cloud' : (currentSheetName==='#__neue__'?'neue':'browser');
@@ -1645,14 +1642,6 @@ export class ComponentsPanelView extends View {
     root.addFolder(
       new ComponentsPanelFolder({
         name: '#__cloud__',
-        folders: [],
-        components: []
-      })
-    );
-    // Neue
-    root.addFolder(
-      new ComponentsPanelFolder({
-        name: '#__playground__',
         folders: [],
         components: []
       })

@@ -69,10 +69,6 @@ function registerNodes(noodlRuntime) {
     require('./src/nodes/std-library/user/setuserproperties'),
     require('./src/nodes/std-library/user/user'),
 
-    //Neue
-    require('./src/nodes/std-library/shNodes/shNode'),
-    require('./src/nodes/std-library/shNodes/DeviceNode')
-
   ].forEach((node) => noodlRuntime.registerNode(node));
 }
 

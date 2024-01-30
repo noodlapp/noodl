@@ -2,7 +2,7 @@ import React from 'react';
 
 import { NodeType } from '@noodl-constants/NodeType';
 import { ComponentModel } from '@noodl-models/componentmodel';
-import { isComponentModel_CloudRuntime } from '@noodl-utils/NodeGraph';
+import { isComponentModel_CloudRuntime, isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
 
 import { IconName } from '@noodl-core-ui/components/common/Icon';
 import { PrimaryButton, PrimaryButtonSize, PrimaryButtonVariant } from '@noodl-core-ui/components/inputs/PrimaryButton';
@@ -106,10 +106,12 @@ export function returnWarningItems(warnings: WarningItem[], nodeGraphContext: No
   return insertDividerBetweenAllItems(
     sortedWarnings.map((warning) => {
       function endSlot() {
-        //Neue
         let componentName = warning.ref.component?.name.replace('/#__cloud__', '');
         componentName = warning.ref.component?.name.replace('/#__neue__', '');
+
+        //Neue
         const isCloudComponent = isComponentModel_CloudRuntime(warning.ref.component);
+        const isNeueComponent = isComponentModel_NeueRuntime(warning.ref.component);
 
         if (isMergeConflictWarning(warning)) {
           return (
@@ -119,7 +121,7 @@ export function returnWarningItems(warnings: WarningItem[], nodeGraphContext: No
                 <Label isInline UNSAFE_style={getStyleFromNodeType(warning.ref.node.type)}>
                   {warning.ref.node.label}
                 </Label>{' '}
-                in {isCloudComponent && 'cloud function '}component {componentName}
+                in {isCloudComponent ? 'cloud function ' : isNeueComponent && 'neue '}component {componentName}
               </Text>
               <MergeConflict warning={warning} />
             </VStack>
@@ -131,7 +133,7 @@ export function returnWarningItems(warnings: WarningItem[], nodeGraphContext: No
               <Label isInline UNSAFE_style={getStyleFromNodeType(warning.ref.node.type)}>
                 {warning.ref.node.label}
               </Label>{' '}
-              in {isCloudComponent && 'cloud function '}component {componentName}
+              in {isCloudComponent ? 'cloud function ' : isNeueComponent && 'neue '}component {componentName}
             </Text>
           );
         } else if (warning?.ref?.component) {
@@ -151,7 +153,7 @@ export function returnWarningItems(warnings: WarningItem[], nodeGraphContext: No
               <Label isInline UNSAFE_style={getStyleFromNodeType(targetNode?.type)}>
                 {targetNode?.label || 'undefined'} ({targetPort?.displayName || 'unknown'})
               </Label>{' '}
-              in {isCloudComponent && 'cloud function '}component {componentName}
+              in {isCloudComponent ? 'cloud function ' : isNeueComponent && 'neue '}component {componentName}
             </Text>
           );
         }

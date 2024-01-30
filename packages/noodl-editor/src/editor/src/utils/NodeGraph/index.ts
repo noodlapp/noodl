@@ -7,8 +7,6 @@ export function getComponentModelRuntimeType(node: ComponentModel) {
 
   if (name.startsWith('/#__cloud__/')) {
     return RuntimeType.Cloud;
-  } else if (name.startsWith('/#__playground__/')) {
-    return RuntimeType.Playground;
   }
   //Neue
   else if(name.startsWith('/#__neue__/')){
