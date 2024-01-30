@@ -610,13 +610,13 @@ function generateNodeLibrary(nodeRegister) {
         {
           name: 'Sensors',
           items: [
-            'Neue Node'
+            'Humidity Sensor', 'Temperature Sensor', 'Accelerometer', 'Hardware Clock'
           ]
         },
         {
-          name: 'Hardware',
+          name: 'Communications',
           items: [
-            'Device Node'
+            'Save Telemetry', 'Commands Input', 'Register event'
           ]
         },
       ]
