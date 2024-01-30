@@ -6,13 +6,13 @@ export enum ComponentIconType {
   Page = IconName.File,
   CloudFunction = IconName.CloudFunction,
   Visual = 2,
-  Neue = IconName.Code,
+  Neue = IconName.Code
 }
 
 const typenames: { [key: string]: ComponentIconType } = {
   Page: ComponentIconType.Page,
   'noodl.cloud.request': ComponentIconType.CloudFunction,
-  'Neue': ComponentIconType.Neue
+  Neue: ComponentIconType.Neue
 };
 
 export function getComponentIconType(component: ComponentModel): ComponentIconType {
@@ -27,6 +27,7 @@ export function getComponentIconType(component: ComponentModel): ComponentIconTy
       icon = typenames[component.typename];
     }
   });
+  console.log('icon', icon, component);
 
   return icon;
 }

@@ -7,6 +7,7 @@ const AutoUpdater = require('./src/autoupdater');
 const FloatingWindow = require('./src/floating-window');
 const startServer = require('./src/web-server');
 const { startCloudFunctionServer, closeRuntimeWhenWindowCloses } = require('./src/cloud-function-server');
+const { startNeueServer, closeNeueRuntimeWhenWindowCloses } = require('./src/neue-server');
 const DesignToolImportServer = require('./src/design-tool-import-server');
 const jsonstorage = require('../shared/utils/jsonstorage');
 const StorageApi = require('./src/StorageApi');
@@ -36,7 +37,7 @@ function launchApp() {
   if (!gotTheLock) {
     console.log(`
 -------------------------------
-   Noodl is already running.   
+   Noodl is already running.
 -------------------------------
 
 `);
@@ -191,6 +192,7 @@ function launchApp() {
         reopenWindow = false;
         createWindow();
         closeRuntimeWhenWindowCloses(win);
+        closeNeueRuntimeWhenWindowCloses(win);
       }
     });
 
@@ -547,6 +549,9 @@ function launchApp() {
     startServer(app, projectGetSettings, projectGetInfo, projectGetComponentBundleExport);
 
     startCloudFunctionServer(app, cloudServicesGetActive);
+    // Neue
+    startNeueServer(app, cloudServicesGetActive);
+
     closeRuntimeWhenWindowCloses(win);
 
     DesignToolImportServer.start(projectGetInfo);

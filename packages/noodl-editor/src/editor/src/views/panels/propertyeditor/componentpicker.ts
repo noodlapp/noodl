@@ -73,6 +73,8 @@ export class ComponentPicker {
           icon = IconName.CloudFunction;
         } else if (iconType === ComponentIconType.Page) {
           icon = IconName.File;
+        } else if (iconType === ComponentIconType.Neue) {
+          icon = IconName.Code;
         } else {
           icon = IconName.Component;
         }
@@ -123,9 +125,8 @@ export class ComponentPicker {
       if (isShowingFrontend) {
         return !isCloud;
       } else {
-        if(isCloud){
+        if (isCloud) {
           return isCloud && getComponentIconType(c) !== ComponentIconType.CloudFunction;
-
         }
         const isNeue = isComponentModel_NeueRuntime(c);
         return isNeue && getComponentIconType(c) !== ComponentIconType.Neue;

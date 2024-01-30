@@ -4,7 +4,7 @@ const http = require('http');
 const https = require('https');
 const URL = require('url');
 
-var port = process.env.NOODL_CLOUD_FUNCTIONS_PORT || 8577;
+var port = 8578;
 
 function guid() {
   function s4() {
@@ -47,7 +47,7 @@ function refresh() {
   }
 }
 
-function startCloudFunctionServer(app, cloudServicesGetActive, mainWindow) {
+function startNeueServer(app, cloudServicesGetActive, mainWindow) {
   function startCloudRuntime() {
     const appPath = app.getAppPath();
 
@@ -62,10 +62,11 @@ function startCloudFunctionServer(app, cloudServicesGetActive, mainWindow) {
       show: false
     });
 
-    console.log('starting cloud runtime');
+    console.log('starting neue runtime');
 
     hasLoadedProject = false;
-    sandbox.loadURL('file:///' + appPath + '/src/external/cloudruntime/index.html');
+    // Neue TODO: Move to seperate runtime function
+    sandbox.loadURL('file:///' + appPath + '/src/external/neueruntime/index.html');
     sandbox.webContents.on('did-start-loading', () => {
       //window has been refreshed, we need to wait for the viewer to get the export and load the components before handling the requests
       hasLoadedProject = false;
@@ -249,8 +250,8 @@ function startCloudFunctionServer(app, cloudServicesGetActive, mainWindow) {
   });
 }
 
-function closeRuntimeWhenWindowCloses(window) {
+function closeNeueRuntimeWhenWindowCloses(window) {
   window.on('closed', closeCloudRuntime);
 }
 
-module.exports = { startCloudFunctionServer, openCloudRuntimeDevTools, closeRuntimeWhenWindowCloses };
+module.exports = { startNeueServer, openCloudRuntimeDevTools, closeNeueRuntimeWhenWindowCloses };

@@ -22,11 +22,11 @@ export function iENBLPanel() {
   const componentPanelOptions = {
     showSheetList: false,
     lockCurrentSheetName: '__neue__',
-    componentTitle: 'Neue Components'
+    componentTitle: 'Flows'
   };
-  
+
   return (
-    <BasePanel title="Neue Components" isFill>
+    <BasePanel title="Neue Playground" isFill>
       <Container direction={ContainerDirection.Vertical} isFill>
         <div style={{ flex: '1', overflow: 'hidden' }}>
           <ComponentsPanel options={componentPanelOptions} />
