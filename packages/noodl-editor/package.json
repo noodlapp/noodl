@@ -16,6 +16,12 @@
   },
   "build": {
     "appId": "noodl.net.noodl-editor",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "guid": "noodl.net.noodl-editor"
+    },
     "protocols": {
       "name": "noodl",
       "schemes": [
