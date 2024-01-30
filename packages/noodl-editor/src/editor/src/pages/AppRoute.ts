@@ -1,4 +1,4 @@
-import { AppRouter } from "Noodl-Editor/src/editor/src/pages/AppRouter";
+import { AppRouter } from "noodl-editor/src/editor/src/pages/AppRouter";
 
 export class AppRoute {
   constructor(public readonly router: AppRouter) {}
