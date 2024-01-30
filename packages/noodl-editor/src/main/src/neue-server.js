@@ -245,7 +245,7 @@ function startNeueServer(app, cloudServicesGetActive, mainWindow) {
   });
 
   server.on('listening', (e) => {
-    console.log('noodl cloud functions server running on port', port);
+    console.log('neue server running on port', port);
     process.env.NOODL_CLOUD_FUNCTIONS_PORT = port;
   });
 }
