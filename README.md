@@ -33,3 +33,19 @@ $ npm run dev
 # Start Noodl Editor test runner
 $ npm run test:editor
 ```
+
+## Licenses
+This repository contains two different licenses for different parts of the Noodl platform.
+
+- Components related to the editor, used to edit Noodl projects, are under GPLv3
+- Components related to the end applications, used by the applications Noodl deploys, are under MIT
+
+All of the source code of applications created with Noodl are under MIT. This means you can do project specific changes to the runtime without having to redistribute your changes.
+
+Packaged licensed under MIT:
+- `noodl-runtime`
+- `noodl-viewer-cloud`
+- `noodl-viewer-react`
+You can find a MIT LICENSE file in each of these packages.
+
+The rest of the repository is licensed under GPLv3.
