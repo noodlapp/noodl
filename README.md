@@ -46,6 +46,5 @@ Packaged licensed under MIT:
 - `noodl-runtime`
 - `noodl-viewer-cloud`
 - `noodl-viewer-react`
-You can find a MIT LICENSE file in each of these packages.
-
-The rest of the repository is licensed under GPLv3.
+  
+You can find a MIT LICENSE file in each of these packages. The rest of the repository is licensed under GPLv3.
