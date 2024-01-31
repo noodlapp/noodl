@@ -16,6 +16,7 @@ import { Text } from '@noodl-core-ui/components/typography/Text';
 import { Title, TitleSize } from '@noodl-core-ui/components/typography/Title';
 
 import { ToastLayer } from '../../../ToastLayer/ToastLayer';
+import { PropertyPanelButton } from '@noodl-core-ui/components/property-panel/PropertyPanelButton';
 
 export const AI_ASSISTANT_ENABLED_SUGGESTIONS_KEY = 'aiAssistant.enabledSuggestions';
 
@@ -31,15 +32,14 @@ export function OpenAiSection() {
       const haveGpt4 = !!models['gpt-4'];
       if (haveGpt4) {
         OpenAiStore.setIsAiApiKeyVerified(true);
-        ToastLayer.showSuccess('Open AI, API Key is valid with GPT-4!');
+        ToastLayer.showSuccess('OpenAI API Key is valid with GPT-4!');
       } else {
         OpenAiStore.setIsAiApiKeyVerified(false);
-        ToastLayer.showError('Open AI, API Key is missing gpt-4 model Support!');
+        ToastLayer.showError('OpenAI API Key is missing gpt-4 model Support!');
       }
     } else {
       OpenAiStore.setIsAiApiKeyVerified(false);
-      ToastLayer.showError('Open AI, API Key is invalid!');
-    }
+      ToastLayer.showError('OpenAI API Key is invalid!');
   }
 
   return (
@@ -95,6 +95,20 @@ export function OpenAiSection() {
                   }}
                 />
               </PropertyPanelRow>
+              <PropertyPanelRow label="API Key" isChanged={false}>
+                <PropertyPanelButton
+                  properties={{
+                    isPrimary: true,
+                    buttonLabel: 'Verify API Key',
+                    onClick() {
+                      onVerifyApiKey();
+                    }
+                  }}
+                />
+              </PropertyPanelRow>
+              <Box hasYSpacing>
+                <Text>Verify your OpenAI API key to start using AI Commands.</Text>
+              </Box>
             </>
           )}
 
