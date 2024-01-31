@@ -76,7 +76,7 @@ const cloudRuntimeProcess = attachStdio(
 
 //Neue
 const neueRuntimeProcess = attachStdio(
-  exec(`npx lerna exec --scope @noodl/noodl-viewer-playground -- npm run ${viewerScript}`, processOptions),
+  exec(`npx lerna exec --scope @noodl/noodl-viewer-neue -- npm run ${viewerScript}`, processOptions),
   {
     prefix: 'Neue',
     color: ConsoleColor.FgMagenta
