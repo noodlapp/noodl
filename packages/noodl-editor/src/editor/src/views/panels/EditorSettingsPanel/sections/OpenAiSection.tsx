@@ -7,6 +7,7 @@ import { verifyOpenAiApiKey } from '@noodl-models/AiAssistant/api';
 import { PrimaryButton, PrimaryButtonSize, PrimaryButtonVariant } from '@noodl-core-ui/components/inputs/PrimaryButton';
 import { Box } from '@noodl-core-ui/components/layout/Box';
 import { VStack } from '@noodl-core-ui/components/layout/Stack';
+import { PropertyPanelButton } from '@noodl-core-ui/components/property-panel/PropertyPanelButton';
 import { PropertyPanelRow } from '@noodl-core-ui/components/property-panel/PropertyPanelInput';
 import { PropertyPanelPasswordInput } from '@noodl-core-ui/components/property-panel/PropertyPanelPasswordInput';
 import { PropertyPanelSelectInput } from '@noodl-core-ui/components/property-panel/PropertyPanelSelectInput';
@@ -16,7 +17,6 @@ import { Text } from '@noodl-core-ui/components/typography/Text';
 import { Title, TitleSize } from '@noodl-core-ui/components/typography/Title';
 
 import { ToastLayer } from '../../../ToastLayer/ToastLayer';
-import { PropertyPanelButton } from '@noodl-core-ui/components/property-panel/PropertyPanelButton';
 
 export const AI_ASSISTANT_ENABLED_SUGGESTIONS_KEY = 'aiAssistant.enabledSuggestions';
 
@@ -40,6 +40,7 @@ export function OpenAiSection() {
     } else {
       OpenAiStore.setIsAiApiKeyVerified(false);
       ToastLayer.showError('OpenAI API Key is invalid!');
+    }
   }
 
   return (
