@@ -21,6 +21,7 @@ export enum ComponentListIconName {
   HomeComponent = IconName.Home,
   Folder = IconName.FolderClosed,
   Component = IconName.Components,
+  NeueComponent = IconName.Neue,
   ComponentWithChildren = IconName.ComponentsFill,
   NestedComponent = IconName.NestedComponent
 }

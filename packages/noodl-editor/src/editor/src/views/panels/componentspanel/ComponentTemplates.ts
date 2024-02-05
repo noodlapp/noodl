@@ -205,7 +205,7 @@ class DeviceComponentTemplate extends ComponentTemplate {
 
 class NeueComponentTemplate extends ComponentTemplate {
   constructor() {
-    super('Neue Component', IconName.Code);
+    super('Neue Component', IconName.Neue);
 
     this.parentTypes = ['folder'];
     this.runtimeTypes = ['neue'];

@@ -85,7 +85,7 @@ export function installSidePanel({ isLesson }: SetupEditorOptions) {
   });
 
   SidebarModel.instance.register({
-    id: 'neue',
+    id: 'neuePanel',
     name: 'Neue Playground',
     order: 2,
     icon: IconName.Neue,

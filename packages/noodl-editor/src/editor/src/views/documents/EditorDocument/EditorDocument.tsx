@@ -71,6 +71,9 @@ function EditorDocument() {
 
   const [selectedNodeId, setSelectedNodeId] = useState(null); //The ID of the selected node, as highlighted by the viewer
 
+  //Neue
+  const [isNeuePanelOpen, setIsNeuePanelOpen] = useState(false)
+
   const [hasLoadedEditorSettings, setHasLoadedEditorSettings] = useState(false);
 
   const [_forceUpdate, setForceUpdate] = useState(0);
@@ -83,7 +86,7 @@ function EditorDocument() {
 
   const [previewMode, setPreviewMode] = useState(true);
 
-  const viewerDetached = documentLayout === 'detachedPreview';
+  const viewerDetached = documentLayout === 'detachedPreview' ;
 
   const canvasView = useCanvasView(setNavigationState);
 
@@ -136,6 +139,15 @@ function EditorDocument() {
         const isNodePanel = activeId === 'PropertyEditor' || activeId === 'PortEditor';
         if (isNodePanel === false) {
           setSelectedNodeId(null);
+          setIsNeuePanelOpen(false);
+        }
+          //Neue
+  //hide web viewer on neuePanel
+        if(activeId ==='neuePanel'){
+          setIsNeuePanelOpen(true)
+        }else{
+          setIsNeuePanelOpen(false)
+
         }
       },
       eventGroup
@@ -145,6 +157,7 @@ function EditorDocument() {
       SidebarModel.instance.off(eventGroup);
     };
   }, [nodeGraph]);
+
 
   useEffect(() => {
     if (viewerDetached) {
@@ -226,6 +239,9 @@ function EditorDocument() {
       EventDispatcher.instance.on(
         'viewer-closed',
         () => {
+          // if(!isNeuePanelOpen){
+          //   setDocumentLayout(previousDocumentLayout || 'horizontal');
+          // }
           setDocumentLayout(previousDocumentLayout || 'horizontal');
         },
         eventGroup
@@ -379,7 +395,7 @@ function EditorDocument() {
     }
 
     if (settings.documentLayout) {
-      setDocumentLayout(settings.documentLayout);
+      setDocumentLayout( isNeuePanelOpen ? 'detachedPreview': settings.documentLayout);
     }
 
     if (settings.viewportSize) {
@@ -419,7 +435,7 @@ function EditorDocument() {
 
   return (
     <Container direction={ContainerDirection.Vertical} isFill>
-      <EditorTopbar
+      {!isNeuePanelOpen  && <EditorTopbar
         instance={titlebarViewInstance}
         routes={routes}
         onRouteChanged={onRouteChanged}
@@ -436,10 +452,10 @@ function EditorDocument() {
         previewMode={previewMode}
         nodeGraph={nodeGraph}
         deployIsDisabled={ProjectModel.instance.isLesson()}
-      />
-      {hasLoadedEditorSettings && (
+      />}
+      {(hasLoadedEditorSettings )&& (
         <ViewComponent
-          documentLayout={documentLayout}
+          documentLayout={isNeuePanelOpen ? 'detachedPreview' :documentLayout}
           canvasViewInstance={canvasView}
           nodeGraphEditorInstance={nodeGraph}
           frameDividerSize={frameDividerSize}
