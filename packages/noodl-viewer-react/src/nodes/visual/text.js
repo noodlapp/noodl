@@ -140,7 +140,7 @@ const TextNode = {
 };
 
 NodeSharedPortDefinitions.addDimensions(TextNode, {
-  defaultSizeMode: 'contentHeight',
+  //defaultSizeMode: 'contentHeight', This causes a bug with initial content width taking up entire parent width irrespective of other responsive elements in the parent
   contentLabel: 'Text'
 });
 NodeSharedPortDefinitions.addTextStyleInputs(TextNode);
