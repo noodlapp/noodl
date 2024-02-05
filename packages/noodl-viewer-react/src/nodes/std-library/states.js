@@ -327,7 +327,15 @@ const StatesNode = {
       for (var i in internal.values) {
         var v = internal.values[i];
 
-        internal.currentValues[v] = internal.stateParameters[prefix + v] || 0;
+        // The below code was updated to stop the empty string value outputting as 0
+        // internal.currentValues[v] = internal.stateParameters[prefix + v] || 0;
+        const valueType = internal.stateParameterTypes['type-' + v] || 'number'; // New code to check if the type is defined, defaults to number
+        const parameterValue = internal.stateParameters[prefix + v];
+        if (valueType === 'string') {
+            internal.currentValues[v] = parameterValue !== undefined ? parameterValue : ""; // Outputs "" if value is set to string, otherwise outputs 0
+        } else {
+            internal.currentValues[v] = parameterValue !== undefined ? parameterValue : 0;
+        }
 
         this.flagOutputDirty(v);
       }
