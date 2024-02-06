@@ -324,6 +324,11 @@ export function GitStatusButton({ openGitSettingsPopout }: GitStatusButtonProps)
             });
           } else {
             ToastLayer.showError('Failed to push. ' + error);
+
+            // If the error is a rejected push, we need to fetch again to get the latest state where we can pull and rebase
+            if (error?.toString().includes('rejected')) {
+              await fetchRemote();
+            }
           }
 
           return;
