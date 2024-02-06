@@ -1,4 +1,4 @@
-import { useNodeGraphContext } from '@noodl-contexts/NodeGraphContext/NodeGraphContext';
+import { NodeGraphContextTmp, useNodeGraphContext } from '@noodl-contexts/NodeGraphContext/NodeGraphContext';
 import { useKeyboardCommands } from '@noodl-hooks/useKeyboardCommands';
 import usePrevious from '@noodl-hooks/usePrevious';
 import { OpenAiStore } from '@noodl-store/AiAssistantStore';
@@ -30,6 +30,7 @@ import { useImportNodeset } from './hooks/UseImportNodeset';
 import { useRoutes } from './hooks/UseRoutes';
 import { useSetupNodeGraph } from './hooks/UseSetupNodeGraph';
 import { TitleBar } from './titlebar';
+import { IconName } from '@noodl-core-ui/components/common/Icon';
 
 type DocumentLayout = 'horizontal' | 'vertical' | 'detachedPreview';
 
@@ -86,7 +87,7 @@ function EditorDocument() {
 
   const [previewMode, setPreviewMode] = useState(true);
 
-  const viewerDetached = documentLayout === 'detachedPreview' ;
+  const viewerDetached = documentLayout === 'detachedPreview';
 
   const canvasView = useCanvasView(setNavigationState);
 
@@ -141,13 +142,13 @@ function EditorDocument() {
           setSelectedNodeId(null);
           setIsNeuePanelOpen(false);
         }
-          //Neue
-  //hide web viewer on neuePanel
-        if(activeId ==='neuePanel'){
+        //Neue
+        //hide web viewer on neuePanel
+        const newPanel = NodeGraphContextTmp.active === 'neue';
+        if (newPanel || activeId === 'neuePanel') {
           setIsNeuePanelOpen(true)
-        }else{
+        } else {
           setIsNeuePanelOpen(false)
-
         }
       },
       eventGroup
@@ -284,6 +285,9 @@ function EditorDocument() {
             const component = node.owner.owner;
             nodeGraph.switchToComponent(component, { node: node, pushHistory: true });
           }
+          // if (node.type === 'Neue') {
+          //   setIsNeuePanelOpen(true)
+          // }
         } else {
           const nodes = args.nodeIds.map((id) => ProjectModel.instance.findNodeWithId(id)).filter((node) => !!node);
 
@@ -332,6 +336,7 @@ function EditorDocument() {
         const component = ProjectModel.instance.getComponentWithName(args.componentName);
         if (component) {
           nodeGraph.switchToComponent(component, { pushHistory: true });
+          //setIsNeuePanelOpen(component.name === 'neue')
         }
       },
       eventGroup
@@ -395,7 +400,7 @@ function EditorDocument() {
     }
 
     if (settings.documentLayout) {
-      setDocumentLayout( isNeuePanelOpen ? 'detachedPreview': settings.documentLayout);
+      setDocumentLayout(isNeuePanelOpen ? 'detachedPreview' : settings.documentLayout);
     }
 
     if (settings.viewportSize) {
@@ -435,7 +440,7 @@ function EditorDocument() {
 
   return (
     <Container direction={ContainerDirection.Vertical} isFill>
-      {!isNeuePanelOpen  && <EditorTopbar
+      <EditorTopbar
         instance={titlebarViewInstance}
         routes={routes}
         onRouteChanged={onRouteChanged}
@@ -449,13 +454,14 @@ function EditorDocument() {
         onPreviewSizeChanged={onPreviewSizeChanged}
         previewSize={viewportSize}
         onPreviewModeChanged={setPreviewMode}
-        previewMode={previewMode}
+        previewMode={isNeuePanelOpen === true ? false : previewMode}
         nodeGraph={nodeGraph}
         deployIsDisabled={ProjectModel.instance.isLesson()}
-      />}
-      {(hasLoadedEditorSettings )&& (
+        isNeuePanelOpen={isNeuePanelOpen}
+      />
+      {(hasLoadedEditorSettings) && (
         <ViewComponent
-          documentLayout={isNeuePanelOpen ? 'detachedPreview' :documentLayout}
+          documentLayout={isNeuePanelOpen ? 'detachedPreview' : documentLayout}
           canvasViewInstance={canvasView}
           nodeGraphEditorInstance={nodeGraph}
           frameDividerSize={frameDividerSize}

@@ -51,6 +51,7 @@ export interface EditorTopbarProps {
   onPreviewModeChanged: (previewMode: boolean) => void;
   nodeGraph: NodeGraphEditor;
   deployIsDisabled: boolean;
+  isNeuePanelOpen: boolean;
 }
 
 export function EditorTopbar({
@@ -69,7 +70,8 @@ export function EditorTopbar({
   previewMode,
   onPreviewModeChanged,
   nodeGraph,
-  deployIsDisabled
+  deployIsDisabled,
+  isNeuePanelOpen
 }: EditorTopbarProps) {
   const urlBarRef = useRef<HTMLInputElement>(null);
   const deployButtonRef = useRef();
@@ -200,7 +202,8 @@ export function EditorTopbar({
           </Tooltip>
         </div>
 
-        <div className={css['is-padded']}>
+       {!isNeuePanelOpen &&<>
+       <div className={css['is-padded']}>
           <Tooltip content="Navigate back">
             <IconButton
               variant={IconButtonVariant.Transparent}
@@ -276,9 +279,10 @@ export function EditorTopbar({
             />
           </Tooltip>
         </div>
+       </>}
       </div>
 
-      <div className={css['RightSide']}>
+    { !isNeuePanelOpen && <div className={css['RightSide']}>
         {instance.warningsAmount > 0 && (
           <div className={css['is-padded']} ref={warningButtonRef}>
             <Tooltip content="Show warnings">
@@ -478,7 +482,7 @@ export function EditorTopbar({
             testId="deploy-popup-button"
           />
         </span>
-      </div>
+      </div>}
 
       <DeployPopup isVisible={isDeployVisible} onClose={() => setIsDeployVisible(false)} triggerRef={deployButtonRef} />
 

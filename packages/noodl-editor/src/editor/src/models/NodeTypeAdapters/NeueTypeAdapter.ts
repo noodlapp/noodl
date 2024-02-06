@@ -41,7 +41,7 @@ export class NeueTypeAdapter extends NodeTypeAdapter {
 
     functionNodes.forEach((f) => {
       if ('/#__neue__/' + f.parameters['neue'] === before) {
-        f.setParameter('function', after.replace('/#__neue__/', ''));
+        f.setParameter('neue', after.replace('/#__neue__/', ''));
       }
     });
 
