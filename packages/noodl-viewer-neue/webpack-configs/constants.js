@@ -7,5 +7,5 @@ module.exports = {
   outPath:
     process.env.OUT_PATH ||
     path.resolve(__dirname, "../../noodl-editor/src/external"),
-  runtimeVersion: 'playground-runtime-' + require('../package.json').version.replaceAll('.','-')
+  runtimeVersion: 'neue-runtime-' + require('../package.json').version.replaceAll('.','-')
 };

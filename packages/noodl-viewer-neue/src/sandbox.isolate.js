@@ -137,7 +137,7 @@ const _prepareCloudRunner = async () => {
   if (!_runner) {
     _runner = new CloudRunner({});
     if (typeof _exportedComponents === 'undefined') {
-      throw Error('No playground components present.');
+      throw Error('No neue components present.');
     }
     await _runner.load(_exportedComponents);
   }

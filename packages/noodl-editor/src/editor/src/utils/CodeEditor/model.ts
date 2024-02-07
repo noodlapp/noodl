@@ -15,7 +15,7 @@ import { GetOrCreateViewerReactModel } from '@noodl-utils/CodeEditor/typescript/
 import { getNodeGraphNodeRuntimeType } from '@noodl-utils/NodeGraph';
 
 import { codeEditorTypeToLanguageId } from './mappings';
-import { GetOrCreateViewerPlaygroundModel } from './typescript/viewer-playground';
+import { GetOrCreateViewerNeueModel } from './typescript/viewer-neue';
 
 export interface createModelOptions {
   type: string;
@@ -54,8 +54,8 @@ export function createModel(options: createModelOptions, node: NodeGraphNode): E
         break;
       // Neue
       case RuntimeType.Neue:
-          modules.push(GetOrCreateViewerCloudModel());
-          break;
+        modules.push(GetOrCreateViewerCloudModel());
+        break;
     }
 
     switch (node.typename) {
@@ -80,13 +80,9 @@ export function createModel(options: createModelOptions, node: NodeGraphNode): E
           case RuntimeType.Browser:
             defaultLibs.push('dom', 'es2020');
             break;
-<<<<<<< HEAD
-
-=======
-            case RuntimeType.Neue:
-              defaultLibs.push( 'es2020');
-              break;
->>>>>>> 56a7b1f... neue runtime added with neue component
+          case RuntimeType.Neue:
+            defaultLibs.push('es2020');
+            break;
           case RuntimeType.Cloud:
             defaultLibs.push('es2020');
             break;

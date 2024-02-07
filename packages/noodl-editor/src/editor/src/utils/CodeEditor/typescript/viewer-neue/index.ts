@@ -5,8 +5,8 @@ import { getExternalFolderPath } from '@noodl-utils/compilation/build/deploy-ind
 
 import { TypescriptModule } from '../helper';
 
-export function GetOrCreateViewerPlaygroundModel(): TypescriptModule {
-  const libPathName = 'inmemory://@noodl/viewer/playground/global.d.ts';
+export function GetOrCreateViewerNeueModel(): TypescriptModule {
+  const libPathName = 'inmemory://@noodl/viewer/neue/global.d.ts';
   const libUri = monaco.Uri.parse(libPathName);
 
   const pkg = new TypescriptModule();
@@ -22,7 +22,7 @@ export function GetOrCreateViewerPlaygroundModel(): TypescriptModule {
   }
 
   (async () => {
-    const filePath = filesystem.join(getExternalFolderPath(), 'playgroundruntime', 'global.d.ts.keep');
+    const filePath = filesystem.join(getExternalFolderPath(), 'neueruntime', 'global.d.ts.keep');
     const source = await filesystem.readFile(filePath);
     pkg.setExtraLib(monaco.languages.typescript.javascriptDefaults.addExtraLib(source, libPathName));
     pkg.setSource(source);

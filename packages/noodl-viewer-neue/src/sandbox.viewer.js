@@ -1,9 +1,9 @@
-import { PlaygroundRunner } from '.';
+import { NeueRunner } from '.';
 
-console.log('Noodl Editor Playground Runtime!');
-console.log('Version: ' + _noodl_playground_runtime_version);
+console.log('Noodl Editor Neue Runtime!');
+console.log('Version: ' + _noodl_neue_runtime_version);
 
-const _runner = new PlaygroundRunner({
+const _runner = new NeueRunner({
   webSocketClass: WebSocket,
   connectToEditor: true,
   editorAddress: 'ws://localhost:8574',
@@ -86,11 +86,11 @@ ipcRenderer.on('noodl-cf-fetch-response', async function (event, args) {
 });
 
 ipcRenderer.on('noodl-cf-request', async function (event, args) {
-  if (args.playgroundService) {
-    window._noodl_playgroundservices = {
-      endpoint: args.playgroundService.endpoint,
-      appId: args.playgroundService.appId,
-      masterKey: args.playgroundService.masterKey
+  if (args.neueService) {
+    window._noodl_neueservices = {
+      endpoint: args.neueService.endpoint,
+      appId: args.neueService.appId,
+      masterKey: args.neueService.masterKey
     };
   }
 

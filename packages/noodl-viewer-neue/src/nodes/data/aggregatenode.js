@@ -5,8 +5,8 @@ const CloudStore = require('@noodl/runtime/src/api/cloudstore'),
   QueryUtils = require('@noodl/runtime/src/api/queryutils');
 
 var AggregateNode = {
-  name: 'noodl.playground.aggregate',
-  docs: 'https://docs.noodl.net/nodes/playground-functions/playground-data/aggregate-records',
+  name: 'noodl.neue.aggregate',
+  docs: 'https://docs.noodl.net/nodes/neue-functions/neue-data/aggregate-records',
   displayName: 'Aggregate Records',
   category: 'Cloud Services',
   usePortAsLabel: 'collectionName',
@@ -587,17 +587,17 @@ module.exports = {
         updatePorts(node.id, node.parameters, context.editorConnection, graphModel);
       });
 
-      graphModel.on('metadataChanged.playgroundservices', function (data) {
+      graphModel.on('metadataChanged.neueservices', function (data) {
         CloudStore.instance._initCloudServices();
       });
     }
 
     graphModel.on('editorImportComplete', () => {
-      graphModel.on('nodeAdded.noodl.playground.aggregate', function (node) {
+      graphModel.on('nodeAdded.noodl.neue.aggregate', function (node) {
         _managePortsForNode(node);
       });
 
-      for (const node of graphModel.getNodesWithType('noodl.playground.aggregate')) {
+      for (const node of graphModel.getNodesWithType('noodl.neue.aggregate')) {
         _managePortsForNode(node);
       }
     });

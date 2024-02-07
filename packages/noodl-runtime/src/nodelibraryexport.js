@@ -594,11 +594,11 @@ function generateNodeLibrary(nodeRegister) {
         {
           name: '',
           // Neue NOTE: This does not show up in the library export. Is it not getting web packed correctly?
-          items: ['noodl.playground.request', 'noodl.playground.response']
+          items: ['noodl.neue.request', 'noodl.neue.response']
         },
         {
           name: 'Cloud Data',
-          items: ['noodl.playground.aggregate']
+          items: ['noodl.neue.aggregate']
         }
       ]
     },

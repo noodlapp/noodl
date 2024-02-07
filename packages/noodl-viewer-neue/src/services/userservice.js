@@ -30,12 +30,12 @@ class UserService {
   }
 
   _makeRequest(path, options) {
-    if (typeof _noodl_playgroundservices === 'undefined') {
-      options.error && options.error({ error: 'No active playground service', status: 0 });
+    if (typeof _noodl_neueservices === 'undefined') {
+      options.error && options.error({ error: 'No active neue service', status: 0 });
       return;
     }
 
-    const cs = _noodl_playgroundservices;
+    const cs = _noodl_neueservices;
 
     fetch(cs.endpoint + path, {
       method: options.method || 'GET',

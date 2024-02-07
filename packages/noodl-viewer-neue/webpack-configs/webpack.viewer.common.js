@@ -10,7 +10,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const GenerateJsonPlugin = require('generate-json-webpack-plugin');
 
-const noodlEditorExternalViewerPath = path.join(outPath, 'playgroundruntime');
+const noodlEditorExternalViewerPath = path.join(outPath, 'neueruntime');
 
 function stripStartDirectories(targetPath, numDirs) {
   const p = targetPath.split('/');
@@ -18,7 +18,7 @@ function stripStartDirectories(targetPath, numDirs) {
   return p.join(path.sep);
 }
 
-const prefix = `const { ipcRenderer } = require('electron'); const _noodl_playground_runtime_version = "${runtimeVersion}";`;
+const prefix = `const { ipcRenderer } = require('electron'); const _noodl_neue_runtime_version = "${runtimeVersion}";`;
 
 module.exports = merge(common, {
   entry: {

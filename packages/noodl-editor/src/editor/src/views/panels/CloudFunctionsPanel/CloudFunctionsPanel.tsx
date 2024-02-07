@@ -22,7 +22,7 @@ export function CloudFunctionsPanel() {
   const componentPanelOptions = {
     showSheetList: false,
     // Neue TODO: Move this to seperate panel
-    lockCurrentSheetName: '__playground__',
+    lockCurrentSheetName: '__neue__',
     componentTitle: 'Device Components'
   };
 

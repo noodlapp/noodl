@@ -2,7 +2,7 @@ const path = require('path');
 const { runtimeVersion } = require('./constants.js');
 const webpack = require('webpack');
 
-const prefix = `const _noodl_playground_runtime_version = "${runtimeVersion}";`;
+const prefix = `const _noodl_neue_runtime_version = "${runtimeVersion}";`;
 
 module.exports = {
   mode: 'production',

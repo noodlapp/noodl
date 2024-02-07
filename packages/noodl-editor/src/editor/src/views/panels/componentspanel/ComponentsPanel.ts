@@ -122,12 +122,12 @@ export class ComponentsPanelView extends View {
   private getRuntimeType() {
     if (this._lockCurrentSheetName === '__cloud__') {
       return 'cloud';
-    } else if (this._lockCurrentSheetName === '__playground__') {
-      return 'playground';
+    } else if (this._lockCurrentSheetName === '__neue__') {
+      return 'neue';
     }
 
     const currentSheetName = this.currentSheet.name;
-    return currentSheetName === '#__cloud__' ? 'cloud' : (currentSheetName==='#__neue__'?'neue':'browser');
+    return currentSheetName === '#__cloud__' ? 'cloud' : currentSheetName === '#__neue__' ? 'neue' : 'browser';
   }
 
   setNodeGraphEditor(nodeGraphEditor: NodeGraphEditor) {

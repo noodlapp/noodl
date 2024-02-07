@@ -84,7 +84,7 @@ class LogicComponentTemplate extends ComponentTemplate {
     super('Logic Component', IconName.Component);
 
     this.parentTypes = ['folder', 'component'];
-    this.runtimeTypes = ['cloud', 'browser','neue'];
+    this.runtimeTypes = ['cloud', 'browser', 'neue'];
 
     this.template = {
       connections: [],
@@ -171,7 +171,7 @@ class DeviceComponentTemplate extends ComponentTemplate {
     super('Device Component', IconName.CloudFunction);
 
     this.parentTypes = ['folder'];
-    this.runtimeTypes = ['playground'];
+    this.runtimeTypes = ['neue'];
 
     this.template = {
       connections: [],
@@ -225,7 +225,6 @@ class NeueComponentTemplate extends ComponentTemplate {
         }
       ]
     };
-
   }
 }
 

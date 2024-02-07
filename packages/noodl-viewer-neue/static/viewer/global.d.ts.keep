@@ -80,7 +80,7 @@ declare namespace Noodl {
      * that you provide and return the result or throw an exception if failed.
      *
      * The query parameter has the same format as the advanced query of the Query Records node.
-     * {@link https://docs.noodl.net/#/nodes/data/playground-data/query-records/#advanced-filters}
+     * {@link https://docs.noodl.net/#/nodes/data/neue-data/query-records/#advanced-filters}
      *
      * Example:
      * ```ts
@@ -156,7 +156,7 @@ declare namespace Noodl {
 
     /**
      * Use this function to fetch the latest properties of a specific record
-     * from the playground database. It will return the object / record.
+     * from the neue database. It will return the object / record.
      *
      * Example:
      * ```ts
@@ -176,7 +176,7 @@ declare namespace Noodl {
     ): Promise<any>;
 
     /**
-     * Use this function to write an existing record to the playground database.
+     * Use this function to write an existing record to the neue database.
      * It will attempt to save all properties of the record / object
      * if you don't specify the optional properties argument,
      * if so it will set and save those properties.
@@ -210,13 +210,13 @@ declare namespace Noodl {
 
     /**
      * This function will increment (or decrease) propertis of a certain record
-     * saving it to the playground database in a race condition safe way.
+     * saving it to the neue database in a race condition safe way.
      * That is, normally you would have to first read the current value,
      * modify it and save it to the database. Here you can do it with one operation.
      *
      * Example:
      * ```ts
-     *  // Modify the specified numbers in the playground
+     *  // Modify the specified numbers in the neue
      *  await Noodl.Records.increment(myRecord, {
      *      Score: 10,
      *      Life: -1
@@ -251,7 +251,7 @@ declare namespace Noodl {
     ): Promise<void>;
 
     /**
-     * This function will create a new record in the playground database and return
+     * This function will create a new record in the neue database and return
      * the Noodl.Object of the newly created record.
      * If it's unsuccessful it will throw an exception.
      *
@@ -276,7 +276,7 @@ declare namespace Noodl {
     ): Promise<any>;
 
     /**
-     * Use this function to delete an existing record from the playground database.
+     * Use this function to delete an existing record from the neue database.
      *
      * Example:
      * ```ts
@@ -379,7 +379,7 @@ declare namespace Noodl {
   }
 
   /**
-   * With Records you can query, read and write records to the playground database.
+   * With Records you can query, read and write records to the neue database.
    * All functions are async and will throw an exception if they fail.
    *
    * Example:
@@ -411,7 +411,7 @@ declare namespace Noodl {
     save(): Promise<void>;
 
     /**
-     * Fetch that laters properties of the user object from the playground database.
+     * Fetch that laters properties of the user object from the neue database.
      * It will throw an exception if the user session has expired.
      */
     fetch(): Promise<void>;
@@ -427,7 +427,7 @@ declare namespace Noodl {
 
     /**
      * Get a session token for a user that you can later send to the client to log that user in.
-     * This does not require a password and must be runon a playground function
+     * This does not require a password and must be runon a neue function
      * (since they all have full access to the database).
      *
      * You can provide a duration for the session,
@@ -438,7 +438,7 @@ declare namespace Noodl {
      *
      * __installationId__ is an optional that is a unique id for the client if you don't want
      * to share sessions between different clients. Most common is to generate a random id
-     * on the client and pass to the playground function when you are logging in.
+     * on the client and pass to the neue function when you are logging in.
      */
     impersonate(username: string, options?: { duration?: number, installationID?: string }): Promise<any>;
 
@@ -465,7 +465,7 @@ declare namespace Noodl {
   }
 
   /**
-   * The Noodl.Files service lets you access the playground services files.
+   * The Noodl.Files service lets you access the neue services files.
    *
    * {@link https://docs.noodl.net/#/javascript/reference/files}
    */

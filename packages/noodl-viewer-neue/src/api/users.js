@@ -4,11 +4,11 @@ const NoodlRuntime = require('@noodl/runtime');
 const RecordsAPI = require('@noodl/runtime/src/api/records');
 
 function createUsersAPI(modelScope) {
-  let _playgroundstore;
-  const playgroundstore = () => {
-    // We must create the playground store just in time so all meta data is loaded
-    if (!_playgroundstore) _playgroundstore = new CloudStore(modelScope);
-    return _playgroundstore;
+  let _neuestore;
+  const neuestore = () => {
+    // We must create the neue store just in time so all meta data is loaded
+    if (!_neuestore) _neuestore = new CloudStore(modelScope);
+    return _neuestore;
   };
 
   const Records = RecordsAPI(modelScope);
@@ -102,7 +102,7 @@ function createUsersAPI(modelScope) {
         Properties: (modelScope || Model).get(userId),
         async save(options) {
           return new Promise((resolve, reject) => {
-            playgroundstore().save({
+            neuestore().save({
               collection: '_User',
               objectId: userId,
               data: (modelScope || Model).get(userId).data,
@@ -118,11 +118,11 @@ function createUsersAPI(modelScope) {
         },
         async fetch() {
           return new Promise((resolve, reject) => {
-            playgroundstore().fetch({
+            neuestore().fetch({
               collection: '_User',
               objectId: userId,
               success: function (response) {
-                var record = playgroundstore()._fromJSON(response, '_User');
+                var record = neuestore()._fromJSON(response, '_User');
                 resolve(record);
               },
               error: function (err) {

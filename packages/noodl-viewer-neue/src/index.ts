@@ -10,7 +10,7 @@ import './noodl-js-api';
 
 require('./services/userservice');
 
-export class PlaygroundRunner {
+export class NeueRunner {
   private runtime: NoodlRuntime;
 
   constructor(options: {
@@ -20,7 +20,7 @@ export class PlaygroundRunner {
     editorAddress?: string;
   }) {
     this.runtime = new NoodlRuntime({
-      type: 'playground',
+      type: 'neue',
       platform: {
         requestUpdate: (f: any) => setImmediate(f),
         getCurrentTime: () => new Date().getTime(),
@@ -28,7 +28,7 @@ export class PlaygroundRunner {
         webSocketClass: options.webSocketClass,
         isRunningLocally: () => options.connectToEditor
       },
-      componentFilter: (c) => c.name.startsWith('/#__playground__/'),
+      componentFilter: (c) => c.name.startsWith('/#__neue__/'),
       dontCreateRootComponent: true
     });
 

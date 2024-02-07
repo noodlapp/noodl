@@ -9,7 +9,7 @@ export function getComponentModelRuntimeType(node: ComponentModel) {
     return RuntimeType.Cloud;
   }
   //Neue
-  else if(name.startsWith('/#__neue__/')){
+  else if (name.startsWith('/#__neue__/')) {
     return RuntimeType.Neue;
   }
 
@@ -20,13 +20,12 @@ export const isComponentModel_BrowserRuntime = (node: ComponentModel) =>
   getComponentModelRuntimeType(node) === RuntimeType.Browser;
 export const isComponentModel_CloudRuntime = (node: ComponentModel) =>
   getComponentModelRuntimeType(node) === RuntimeType.Cloud;
-export const isComponentModel_PlaygroundRuntime = (node: ComponentModel) =>
-  getComponentModelRuntimeType(node) === RuntimeType.Playground;
-
-//Neue
 export const isComponentModel_NeueRuntime = (node: ComponentModel) =>
   getComponentModelRuntimeType(node) === RuntimeType.Neue;
-
 export function getNodeGraphNodeRuntimeType(node: NodeGraphNode): RuntimeType {
-  return node?.owner?.owner?.name?.startsWith('/#__cloud__') ? RuntimeType.Cloud : (node?.owner?.owner?.name?.startsWith('/#__neue__')? RuntimeType.Neue :RuntimeType.Browser);
+  return node?.owner?.owner?.name?.startsWith('/#__cloud__')
+    ? RuntimeType.Cloud
+    : node?.owner?.owner?.name?.startsWith('/#__neue__')
+    ? RuntimeType.Neue
+    : RuntimeType.Browser;
 }

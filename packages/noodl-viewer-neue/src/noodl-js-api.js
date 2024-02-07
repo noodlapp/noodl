@@ -22,7 +22,7 @@ JavascriptNodeParser.createNoodlAPI = function (modelScope) {
     Variables: (modelScope || Model).get('--ndl--global-variables'),
     Records: require('@noodl/runtime/src/api/records')(modelScope),
     Users: require('./api/users')(modelScope),
-    //   CloudFunctions: require('./api/playgroundfunctions'),
+    //   CloudFunctions: require('./api/neuefunctions'),
     Files: require('./api/files'),
     Objects: new Proxy(modelScope || Model, {
       get(target, prop, receiver) {
