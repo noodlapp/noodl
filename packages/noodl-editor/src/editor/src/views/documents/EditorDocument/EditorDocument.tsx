@@ -30,7 +30,7 @@ import { useImportNodeset } from './hooks/UseImportNodeset';
 import { useRoutes } from './hooks/UseRoutes';
 import { useSetupNodeGraph } from './hooks/UseSetupNodeGraph';
 import { TitleBar } from './titlebar';
-import { IconName } from '@noodl-core-ui/components/common/Icon';
+import { isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
 
 type DocumentLayout = 'horizontal' | 'vertical' | 'detachedPreview';
 
@@ -129,6 +129,11 @@ function EditorDocument() {
     SidebarModel.instance.on(
       SidebarModelEvent.nodeSelected,
       (nodeId) => {
+        //Neue
+        const node = ProjectModel.instance.findNodeWithId(nodeId);
+        const comp = node.owner.owner
+        setIsNeuePanelOpen(isComponentModel_NeueRuntime(comp) || SidebarModel.instance.ActiveId === 'neuePanel')
+
         setSelectedNodeId(nodeId);
       },
       eventGroup
@@ -144,8 +149,7 @@ function EditorDocument() {
         }
         //Neue
         //hide web viewer on neuePanel
-        const newPanel = NodeGraphContextTmp.active === 'neue';
-        if (newPanel || activeId === 'neuePanel') {
+        if (activeId === 'neuePanel') {
           setIsNeuePanelOpen(true)
         } else {
           setIsNeuePanelOpen(false)
@@ -240,9 +244,6 @@ function EditorDocument() {
       EventDispatcher.instance.on(
         'viewer-closed',
         () => {
-          // if(!isNeuePanelOpen){
-          //   setDocumentLayout(previousDocumentLayout || 'horizontal');
-          // }
           setDocumentLayout(previousDocumentLayout || 'horizontal');
         },
         eventGroup
@@ -285,9 +286,6 @@ function EditorDocument() {
             const component = node.owner.owner;
             nodeGraph.switchToComponent(component, { node: node, pushHistory: true });
           }
-          // if (node.type === 'Neue') {
-          //   setIsNeuePanelOpen(true)
-          // }
         } else {
           const nodes = args.nodeIds.map((id) => ProjectModel.instance.findNodeWithId(id)).filter((node) => !!node);
 
@@ -336,7 +334,6 @@ function EditorDocument() {
         const component = ProjectModel.instance.getComponentWithName(args.componentName);
         if (component) {
           nodeGraph.switchToComponent(component, { pushHistory: true });
-          //setIsNeuePanelOpen(component.name === 'neue')
         }
       },
       eventGroup
@@ -417,6 +414,8 @@ function EditorDocument() {
       const component = ProjectModel.instance.getComponentWithName(settings.selectedComponentName);
       if (component) {
         nodeGraph.switchToComponent(component, { replaceHistory: true });
+        //Neue
+        setIsNeuePanelOpen(SidebarModel.instance.ActiveId === 'neuePanel')
       }
     }
 
