@@ -30,7 +30,7 @@ import { useImportNodeset } from './hooks/UseImportNodeset';
 import { useRoutes } from './hooks/UseRoutes';
 import { useSetupNodeGraph } from './hooks/UseSetupNodeGraph';
 import { TitleBar } from './titlebar';
-import { isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
+import { isComponentModel_CloudRuntime, isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
 
 type DocumentLayout = 'horizontal' | 'vertical' | 'detachedPreview';
 
@@ -132,7 +132,7 @@ function EditorDocument() {
         //Neue
         const node = ProjectModel.instance.findNodeWithId(nodeId);
         const comp = node.owner.owner
-        setIsNeuePanelOpen(isComponentModel_NeueRuntime(comp) || SidebarModel.instance.ActiveId === 'neuePanel')
+        setIsNeuePanelOpen(isComponentModel_NeueRuntime(comp) || SidebarModel.instance.ActiveId === 'neuePanel' || isComponentModel_CloudRuntime(comp) || SidebarModel.instance.ActiveId === 'cloud-functions')
 
         setSelectedNodeId(nodeId);
       },
@@ -149,7 +149,8 @@ function EditorDocument() {
         }
         //Neue
         //hide web viewer on neuePanel
-        if (activeId === 'neuePanel') {
+        if (activeId === 'neuePanel' || activeId === 'cloud-functions') {
+          setDocumentLayout(previousDocumentLayout || 'vertical');
           setIsNeuePanelOpen(true)
         } else {
           setIsNeuePanelOpen(false)
