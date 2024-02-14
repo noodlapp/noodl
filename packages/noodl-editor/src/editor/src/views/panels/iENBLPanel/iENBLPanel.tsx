@@ -1,5 +1,5 @@
 import { useActiveEnvironment } from '@noodl-hooks/useActiveEnvironment';
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { ProjectModel } from '@noodl-models/projectmodel';
 
@@ -13,10 +13,33 @@ import { VStack } from '@noodl-core-ui/components/layout/Stack';
 import { Section, SectionVariant } from '@noodl-core-ui/components/sidebar/Section';
 import { Text } from '@noodl-core-ui/components/typography/Text';
 import { ActivityIndicator } from '@noodl-core-ui/components/common/ActivityIndicator';
+import { NeueService } from '@noodl-models/NeueServices/NeueService';
+import { PropertyPanelTextInput } from '@noodl-core-ui/components/property-panel/PropertyPanelTextInput';
+import { PropertyPanelRow } from '@noodl-core-ui/components/property-panel/PropertyPanelInput';
+import { PropertyPanelPasswordInput } from '@noodl-core-ui/components/property-panel/PropertyPanelPasswordInput';
+import { Label } from '@noodl-core-ui/components/typography/Label';
 
 export function iENBLPanel() {
   const environment = useActiveEnvironment(ProjectModel.instance);
+  const [signedIn, setSignedIn] = useState(false);
+  const [loading, setLoading] = useState(true);
 
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
+  const [devices, setDevices] = useState([]);
+
+  useEffect(() => {
+    NeueService.instance.load().then((result) => {
+      setSignedIn(result);
+      if (result) {
+        fetchDevices();
+      } else {
+        setLoading(false);
+      }
+    });
+  }, [setSignedIn, setLoading]);
 
   const componentPanelOptions = {
     showSheetList: false,
@@ -24,67 +47,114 @@ export function iENBLPanel() {
     componentTitle: 'Neue components'
   };
 
-  const neueService = {
-    backend: {
-      items: ['iENBL 2347854', 'iENBL 2347854', 'iENBL 2347854', 'iENBL 2347854'],
-      hasError: false,
-      isLoading: false
-    }
+  function loginClick() {
+    setLoading(true);
+    NeueService.instance.login(email, password).then(() => {
+      setSignedIn(true);
+      setLoading(false);
+      fetchDevices();
+    }).catch((err) => {
+      setSignedIn(false);
+      setLoading(false);
+      setError(err);
+    });
+  }
+
+  function logoutClick() {
+    NeueService.instance.logout();
+    setSignedIn(false);
+    setLoading(false);
+  }
+
+  function fetchDevices() {
+    setLoading(true);
+    NeueService.instance.fetchDevices().then((response) => {
+      setDevices(response);
+    }).catch((err) => {
+      console.log(err)
+    }).finally(() => {
+      setLoading(false);
+    });
   }
 
   return (
     <BasePanel title="Neue Playground" isFill>
-      <Container direction={ContainerDirection.Vertical} isFill>
-        <Box hasXSpacing hasYSpacing>
-          <VStack>
-            <PrimaryButton label="Publish configuration to device" onClick={() => console.log('press')} />
-          </VStack>
-        </Box>
-        <Section
-          title="Available Devices"
-          variant={SectionVariant.Panel}
-        // actions={
-        //   <IconButton
-        //     icon={IconName.Plus}
-        //     size={IconSize.Small}
-        //     //onClick={() => setIsCreateModalVisible(true)}
-        //     testId="add-cloud-service-tab-button"
-        //   />
-        // }
-        >
-          {neueService.backend.items?.length ? (
+        {!signedIn ? (
+          <Container direction={ContainerDirection.Vertical} isFill>
             <VStack>
-              {neueService.backend.items?.map((environment, i) => (
-                <Text style={{ margin: '10px 0px 15px 50px' }} key={i}>{environment}</Text>
-
-                // <CloudServiceCardItem
-                //   key={environment.id}
-                //   environment={environment}
-                //   deleteEnvironment={deleteEnvironment}
-                // />
-              ))}
+              <PropertyPanelRow label="Email" isChanged={false}>
+                <PropertyPanelTextInput value={email} onChange={(value) => setEmail(value)}/>
+              </PropertyPanelRow>
+              <PropertyPanelRow label="Password" isChanged={false}>
+                <PropertyPanelPasswordInput value={password} onChange={(value) => setPassword(value)}/>
+              </PropertyPanelRow>
+              {error !== '' ? (
+                  <Label>
+                    Invalid email or password...
+                  </Label>
+              ) : null}
+              <PrimaryButton label="Login" onClick={loginClick} />
+              {loading ? (
+                  <Container hasLeftSpacing hasTopSpacing>
+                    <ActivityIndicator />
+                  </Container>
+              ) : null}
             </VStack>
-          ) : neueService.backend.hasError ? (
+          </Container>
+        ) : (
+          <Container direction={ContainerDirection.Vertical} isFill>
             <Box hasXSpacing hasYSpacing>
+            <VStack>
+              <PrimaryButton label="Logout" onClick={logoutClick} />
+            </VStack>
+          </Box>
+          <Section
+            title="Available Devices"
+            variant={SectionVariant.Panel}
+          // actions={
+          //   <IconButton
+          //     icon={IconName.Plus}
+          //     size={IconSize.Small}
+          //     //onClick={() => setIsCreateModalVisible(true)}
+          //     testId="add-cloud-service-tab-button"
+          //   />
+          // }
+          >
+            {devices.length ? (
               <VStack>
-                <Text hasBottomSpacing>Failed to load cloud services</Text>
-                <PrimaryButton label="Try again." />
+                {devices.map((environment, i) => (
+                  <Text style={{ margin: '10px 0px 15px 50px' }} key={i}>{environment}</Text>
+
+                  // <CloudServiceCardItem
+                  //   key={environment.id}
+                  //   environment={environment}
+                  //   deleteEnvironment={deleteEnvironment}
+                  // />
+                ))}
               </VStack>
-            </Box>
-          ) : neueService.backend.isLoading ? (
-            <Container hasLeftSpacing hasTopSpacing>
-              <ActivityIndicator />
-            </Container>
-          ) : (
-            <Container hasLeftSpacing hasTopSpacing>
-              <Text>No cloud services in workspace</Text>
-            </Container>
-          )}
-        </Section>
-        <div style={{ flex: '1', overflow: 'hidden' }}>
-          <ComponentsPanel options={componentPanelOptions} />
-        </div>
-      </Container>
-    </BasePanel>
+            ) : error ? (
+              <Box hasXSpacing hasYSpacing>
+                <VStack>
+                  <Text hasBottomSpacing>Failed to load cloud services</Text>
+                  <PrimaryButton label="Try again." />
+                </VStack>
+              </Box>
+            ) : loading ? (
+              <Container hasLeftSpacing hasTopSpacing>
+                <ActivityIndicator />
+              </Container>
+            ) : (
+              <Container hasLeftSpacing hasTopSpacing>
+                <Text>Empty</Text>
+              </Container>
+            )}
+          </Section>
+          <div style={{ flex: '1', overflow: 'hidden' }}>
+            <ComponentsPanel options={componentPanelOptions} />
+          </div>
+        </Container>
+        )}
+      </BasePanel>
+
   );
 }
