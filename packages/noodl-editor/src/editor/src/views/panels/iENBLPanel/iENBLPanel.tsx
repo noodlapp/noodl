@@ -104,55 +104,60 @@ export function iENBLPanel() {
         ) : (
           <Container direction={ContainerDirection.Vertical} isFill>
             <Box hasXSpacing hasYSpacing>
-            <VStack>
-              <PrimaryButton label="Logout" onClick={logoutClick} />
-            </VStack>
-          </Box>
-          <Section
-            title="Available Devices"
-            variant={SectionVariant.Panel}
-          // actions={
-          //   <IconButton
-          //     icon={IconName.Plus}
-          //     size={IconSize.Small}
-          //     //onClick={() => setIsCreateModalVisible(true)}
-          //     testId="add-cloud-service-tab-button"
-          //   />
-          // }
-          >
-            {devices.length ? (
               <VStack>
-                {devices.map((environment, i) => (
-                  <Text style={{ margin: '10px 0px 15px 50px' }} key={i}>{environment}</Text>
-
-                  // <CloudServiceCardItem
-                  //   key={environment.id}
-                  //   environment={environment}
-                  //   deleteEnvironment={deleteEnvironment}
-                  // />
-                ))}
+                <PrimaryButton label="Push Configuration to Device" onClick={() => console.log("click")} />
               </VStack>
-            ) : error ? (
-              <Box hasXSpacing hasYSpacing>
+            </Box>
+            <Section
+              title="Available Devices"
+              variant={SectionVariant.Panel}
+            // actions={
+            //   <IconButton
+            //     icon={IconName.Plus}
+            //     size={IconSize.Small}
+            //     //onClick={() => setIsCreateModalVisible(true)}
+            //     testId="add-cloud-service-tab-button"
+            //   />
+            // }
+            >
+              {devices.length ? (
                 <VStack>
-                  <Text hasBottomSpacing>Failed to load cloud services</Text>
-                  <PrimaryButton label="Try again." />
+                  {devices.map((environment, i) => (
+                    <Text style={{ margin: '10px 0px 15px 50px' }} key={i}>{environment}</Text>
+
+                    // <CloudServiceCardItem
+                    //   key={environment.id}
+                    //   environment={environment}
+                    //   deleteEnvironment={deleteEnvironment}
+                    // />
+                  ))}
                 </VStack>
-              </Box>
-            ) : loading ? (
-              <Container hasLeftSpacing hasTopSpacing>
-                <ActivityIndicator />
-              </Container>
-            ) : (
-              <Container hasLeftSpacing hasTopSpacing>
-                <Text>Empty</Text>
-              </Container>
-            )}
-          </Section>
-          <div style={{ flex: '1', overflow: 'hidden' }}>
-            <ComponentsPanel options={componentPanelOptions} />
-          </div>
-        </Container>
+              ) : error ? (
+                <Box hasXSpacing hasYSpacing>
+                  <VStack>
+                    <Text hasBottomSpacing>Failed to load cloud services</Text>
+                    <PrimaryButton label="Try again." />
+                  </VStack>
+                </Box>
+              ) : loading ? (
+                <Container hasLeftSpacing hasTopSpacing>
+                  <ActivityIndicator />
+                </Container>
+              ) : (
+                <Container hasLeftSpacing hasTopSpacing>
+                  <Text>Empty</Text>
+                </Container>
+              )}
+            </Section>
+            <div style={{ flex: '1', overflow: 'hidden' }}>
+              <ComponentsPanel options={componentPanelOptions} />
+            </div>
+            <Box hasXSpacing hasYSpacing>
+              <VStack>
+                <PrimaryButton label="Logout" onClick={logoutClick} />
+              </VStack>
+            </Box>
+          </Container>
         )}
       </BasePanel>
 
