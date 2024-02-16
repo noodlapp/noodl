@@ -517,6 +517,11 @@ function createKeyboardCommands(nodeGraph: NodeGraphEditor) {
     keybinding: KeyMod.CtrlCmd | KeyMod.Shift | KeyCode.KEY_Z
   };
 
+  const duplicate: KeyboardCommand = {
+    handler: () => nodeGraph.duplicate(),
+    keybinding: KeyMod.CtrlCmd | KeyCode.KEY_D
+  };
+
   const navBack: KeyboardCommand = {
     handler: () => nodeGraph.navigationHistory.goBack(),
     keybinding: KeyMod.CtrlCmd | KeyCode.US_OPEN_SQUARE_BRACKET
@@ -553,7 +558,7 @@ function createKeyboardCommands(nodeGraph: NodeGraphEditor) {
     keybinding: KeyMod.CtrlCmd | KeyCode.US_SLASH
   };
 
-  return [copy, paste, cut, undo, redo, navBack, navForward, deleteWithBackspace, deleteWithDel, createComment];
+  return [copy, paste, cut, undo, redo, duplicate, navBack, navForward, deleteWithBackspace, deleteWithDel, createComment];
 }
 
 export class EditorDocumentProvider implements IDocumentProvider {
