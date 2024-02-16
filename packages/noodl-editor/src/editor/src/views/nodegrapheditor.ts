@@ -894,9 +894,7 @@ export class NodeGraphEditor extends View {
     } else {
       this.clipboard = undefined;
     }
-
-    ToastLayer.showInteraction('Copied');
-
+    
     return nodeset;
   }
 
@@ -930,6 +928,7 @@ export class NodeGraphEditor extends View {
 
   copy() {
     this.copySelected();
+    ToastLayer.showInteraction('Copied');
   }
 
   cut() {
@@ -1095,6 +1094,25 @@ export class NodeGraphEditor extends View {
     }
   }
 
+  duplicate() {
+    if (this.readOnly) {
+      return false;
+    }
+
+    const nodeset = this.copySelected();
+    if (nodeset === undefined) return;
+
+    const ns = this.getNodeSetFromClipboard() || this.clipboard;
+    if (!ns) return;
+
+    this.insertNodeSet({
+      nodeset: ns,
+      x: this.latestMousePos.x,
+      y: this.latestMousePos.y,
+      toastMessage: 'Duplicate'
+    });
+  }
+  
   getDevicePixelRatio(ctx) {
     const dpr = window.devicePixelRatio || 1;
     const bsr =
