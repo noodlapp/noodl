@@ -1109,7 +1109,7 @@ export class NodeGraphEditor extends View {
       nodeset: ns,
       x: this.latestMousePos.x,
       y: this.latestMousePos.y,
-      toastMessage: 'Duplicate'
+      toastMessage: 'Duplicated'
     });
   }
   
