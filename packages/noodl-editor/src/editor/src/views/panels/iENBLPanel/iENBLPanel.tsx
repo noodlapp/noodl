@@ -18,6 +18,9 @@ import { PropertyPanelTextInput } from '@noodl-core-ui/components/property-panel
 import { PropertyPanelRow } from '@noodl-core-ui/components/property-panel/PropertyPanelInput';
 import { PropertyPanelPasswordInput } from '@noodl-core-ui/components/property-panel/PropertyPanelPasswordInput';
 import { Label } from '@noodl-core-ui/components/typography/Label';
+import { isComponentModel_NeueRuntime } from '@noodl-utils/NodeGraph';
+import { exportComponentsToJSON } from '@noodl-utils/exporter';
+import NeueExportModal from '../../NeueConfigurationExport/NeueExportModal';
 
 export function iENBLPanel() {
   const environment = useActiveEnvironment(ProjectModel.instance);
@@ -29,6 +32,9 @@ export function iENBLPanel() {
   const [error, setError] = useState('');
 
   const [devices, setDevices] = useState([]);
+
+  const [jsonData, setJsonData] = useState([]);
+  const [isExportModalOpen, setIsExportModalOpen] = useState(false)
 
   useEffect(() => {
     NeueService.instance.load().then((result) => {
@@ -77,89 +83,101 @@ export function iENBLPanel() {
     });
   }
 
+  function handleCloseModal() {
+    setJsonData([]);
+    setIsExportModalOpen(false)
+  }
+
+
+  async function getJsonConfiguration() {
+    const allComponents = ProjectModel.instance.components.filter(comp => isComponentModel_NeueRuntime(comp));
+
+    const json = await exportComponentsToJSON(ProjectModel.instance, allComponents, { useBundleHashes: false, useBundles: true }).components
+    //await filesystem.writeJson(__dirname + 'exportTest.json', json);
+
+    setJsonData(json)
+    setIsExportModalOpen(!isExportModalOpen)
+  }
+
+
   return (
     <BasePanel title="Neue Playground" isFill>
-        {!signedIn ? (
-          <Container direction={ContainerDirection.Vertical} isFill>
+      {!signedIn ? (
+        <Container direction={ContainerDirection.Vertical} isFill>
+          <VStack>
+            <PropertyPanelRow label="Email" isChanged={false}>
+              <PropertyPanelTextInput value={email} onChange={(value) => setEmail(value)} />
+            </PropertyPanelRow>
+            <PropertyPanelRow label="Password" isChanged={false}>
+              <PropertyPanelPasswordInput value={password} onChange={(value) => setPassword(value)} />
+            </PropertyPanelRow>
+            {error !== '' ? (
+              <Label>
+                Invalid email or password...
+              </Label>
+            ) : null}
+            <PrimaryButton label="Login" onClick={loginClick} />
+            {loading ? (
+              <Container hasLeftSpacing hasTopSpacing>
+                <ActivityIndicator />
+              </Container>
+            ) : null}
+          </VStack>
+        </Container>
+      ) : (
+        <Container direction={ContainerDirection.Vertical} isFill>
+          <Box hasXSpacing hasYSpacing>
             <VStack>
-              <PropertyPanelRow label="Email" isChanged={false}>
-                <PropertyPanelTextInput value={email} onChange={(value) => setEmail(value)}/>
-              </PropertyPanelRow>
-              <PropertyPanelRow label="Password" isChanged={false}>
-                <PropertyPanelPasswordInput value={password} onChange={(value) => setPassword(value)}/>
-              </PropertyPanelRow>
-              {error !== '' ? (
-                  <Label>
-                    Invalid email or password...
-                  </Label>
-              ) : null}
-              <PrimaryButton label="Login" onClick={loginClick} />
-              {loading ? (
-                  <Container hasLeftSpacing hasTopSpacing>
-                    <ActivityIndicator />
-                  </Container>
-              ) : null}
+              <PrimaryButton label="Push Configuration to Device" onClick={getJsonConfiguration} />
             </VStack>
-          </Container>
-        ) : (
-          <Container direction={ContainerDirection.Vertical} isFill>
-            <Box hasXSpacing hasYSpacing>
-              <VStack>
-                <PrimaryButton label="Push Configuration to Device" onClick={() => console.log("click")} />
-              </VStack>
-            </Box>
-            <Section
-              title="Available Devices"
-              variant={SectionVariant.Panel}
-            // actions={
-            //   <IconButton
-            //     icon={IconName.Plus}
-            //     size={IconSize.Small}
-            //     //onClick={() => setIsCreateModalVisible(true)}
-            //     testId="add-cloud-service-tab-button"
-            //   />
-            // }
-            >
-              {devices.length ? (
-                <VStack>
-                  {devices.map((environment, i) => (
-                    <Text style={{ margin: '10px 0px 15px 50px' }} key={i}>{environment}</Text>
+          </Box>
+          <Section
+            title="Available Devices"
+            variant={SectionVariant.Panel}
 
-                    // <CloudServiceCardItem
-                    //   key={environment.id}
-                    //   environment={environment}
-                    //   deleteEnvironment={deleteEnvironment}
-                    // />
-                  ))}
-                </VStack>
-              ) : error ? (
-                <Box hasXSpacing hasYSpacing>
-                  <VStack>
-                    <Text hasBottomSpacing>Failed to load cloud services</Text>
-                    <PrimaryButton label="Try again." />
-                  </VStack>
-                </Box>
-              ) : loading ? (
-                <Container hasLeftSpacing hasTopSpacing>
-                  <ActivityIndicator />
-                </Container>
-              ) : (
-                <Container hasLeftSpacing hasTopSpacing>
-                  <Text>Empty</Text>
-                </Container>
-              )}
-            </Section>
-            <div style={{ flex: '1', overflow: 'hidden' }}>
-              <ComponentsPanel options={componentPanelOptions} />
-            </div>
-            <Box hasXSpacing hasYSpacing>
+          >
+            {devices.length ? (
               <VStack>
-                <PrimaryButton label="Logout" onClick={logoutClick} />
+                {devices.map((environment, i) => (
+                  <Text style={{ margin: '10px 0px 15px 50px' }} key={i}>{environment}</Text>
+
+                  // <CloudServiceCardItem
+                  //   key={environment.id}
+                  //   environment={environment}
+                  //   deleteEnvironment={deleteEnvironment}
+                  // />
+                ))}
               </VStack>
-            </Box>
-          </Container>
-        )}
-      </BasePanel>
+            ) : error ? (
+              <Box hasXSpacing hasYSpacing>
+                <VStack>
+                  <Text hasBottomSpacing>Failed to load cloud services</Text>
+                  <PrimaryButton label="Try again." />
+                </VStack>
+              </Box>
+            ) : loading ? (
+              <Container hasLeftSpacing hasTopSpacing>
+                <ActivityIndicator />
+              </Container>
+            ) : (
+              <Container hasLeftSpacing hasTopSpacing>
+                <Text>Empty</Text>
+              </Container>
+            )}
+          </Section>
+          <div style={{ flex: '1', overflow: 'hidden' }}>
+            <ComponentsPanel options={componentPanelOptions} />
+          </div>
+          <Box hasXSpacing hasYSpacing>
+            <VStack>
+              <PrimaryButton label="Logout" onClick={logoutClick} />
+            </VStack>
+          </Box>
+        </Container>
+      )}
+
+      <NeueExportModal onClose={handleCloseModal} isVisible={isExportModalOpen} jsonData={jsonData} devices={devices} />
+    </BasePanel>
 
   );
 }
