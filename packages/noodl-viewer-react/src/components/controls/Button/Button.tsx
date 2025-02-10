@@ -7,6 +7,8 @@ import { Noodl, Slot } from '../../../types';
 export interface ButtonProps extends Noodl.ReactProps {
   enabled: boolean;
   buttonType: 'button' | 'submit';
+  
+  attrs: React.Attributes;
 
   textStyle: Noodl.TextStyle;
 
@@ -96,6 +98,7 @@ export function Button(props: ButtonProps) {
 
   return (
     <button
+      {...props.attrs}
       className={className}
       disabled={!props.enabled}
       {...Utils.controlEvents(props)}

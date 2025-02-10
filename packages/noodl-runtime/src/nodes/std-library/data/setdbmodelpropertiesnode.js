@@ -75,12 +75,12 @@ var SetDbModelPropertiedNodeDefinition = {
             _this.setError('Missing Record Id');
             return;
           }
-          var model = internal.model;
-
-          for (var i in internal.inputValues) {
-            model.set(i, internal.inputValues[i], { resolve: true });
+          
+          const model = internal.model;
+          for (const key in internal.inputValues) {
+            model.set(key, internal.inputValues[key], { resolve: true });
           }
-
+          
           CloudStore.forScope(_this.nodeScope.modelScope).save({
             collection: internal.collectionId,
             objectId: model.getId(), // Get the objectId part of the model id

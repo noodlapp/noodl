@@ -72,7 +72,7 @@ export function MenuDialog({
       hasArrow
     >
       <div className={classNames(css['Root'], css[width])} style={{ maxHeight: UNSAFE_maxHeight }}>
-        {items.map((item, i) => {
+        {items.filter(Boolean).map((item, i) => {
           if (item === 'divider') return <div className={css['Divider']} key={i} />;
           if (item?.isHidden) return null;
 

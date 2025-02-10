@@ -10,6 +10,7 @@ export interface ImageProps extends Noodl.ReactProps {
     src: string;
     onLoad?: () => void;
   };
+  attrs: React.Attributes;
 }
 
 export function Image(props: ImageProps) {
@@ -30,5 +31,5 @@ export function Image(props: ImageProps) {
     }
   }
 
-  return <img className={props.className} {...props.dom} {...PointerListeners(props)} style={style} />;
+  return <img {...props.attrs} className={props.className} {...props.dom} {...PointerListeners(props)} style={style} />;
 }

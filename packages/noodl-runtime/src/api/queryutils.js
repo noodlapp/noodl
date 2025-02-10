@@ -36,16 +36,15 @@ function convertVisualFilter(query, options) {
     const _res = {};
     var cond;
     var value = query.input !== undefined ? inputs[query.input] : query.value;
-    
+
     if (query.operator === 'exist') {
-        _res[query.property] = { $exists: true };
-        return _res;
+      _res[query.property] = { $exists: true };
+      return _res;
+    } else if (query.operator === 'not exist') {
+      _res[query.property] = { $exists: false };
+      return _res;
     }
-    else if (query.operator === 'not exist') {
-        _res[query.property] = { $exists: false };
-        return _res;
-    }
-    
+
     if (value === undefined) return;
 
     if (CloudStore._collections[options.collectionName])
@@ -79,7 +78,6 @@ function convertVisualFilter(query, options) {
     } else if (query.operator === 'contain') {
       cond = { $regex: value, $options: 'i' };
     }
-
 
     _res[query.property] = cond;
 
@@ -163,10 +161,22 @@ function _value(v) {
   return v;
 }
 
+/**
+ *
+ * @param {Record<string, unknown>} filter
+ * @param {{
+ *   collectionName?: string;
+ *   modelScope?: unknown;
+ *   error: (error: string) => void;
+ * }} options
+ * @returns
+ */
 function convertFilterOp(filter, options) {
   const keys = Object.keys(filter);
   if (keys.length === 0) return {};
-  if (keys.length !== 1) return options.error('Filter must only have one key found ' + keys.join(','));
+  if (keys.length !== 1) {
+    return options.error('Filter must only have one key found ' + keys.join(','));
+  }
 
   const res = {};
   const key = keys[0];
@@ -179,18 +189,27 @@ function convertFilterOp(filter, options) {
   } else if (filter['idContainedIn'] !== undefined) {
     res['objectId'] = { $in: filter['idContainedIn'] };
   } else if (filter['relatedTo'] !== undefined) {
-    var modelId = filter['relatedTo']['id'];
-    if (modelId === undefined) return options.error('Must provide id in relatedTo filter');
+    const modelId = filter['relatedTo']['id'];
+    if (modelId === undefined) {
+      return options.error('Must provide id in relatedTo filter');
+    }
 
-    var relationKey = filter['relatedTo']['key'];
-    if (relationKey === undefined) return options.error('Must provide key in relatedTo filter');
+    const relationKey = filter['relatedTo']['key'];
+    if (relationKey === undefined) {
+      return options.error('Must provide key in relatedTo filter');
+    }
 
-    var m = (options.modelScope || Model).get(modelId);
+    const className = filter['relatedTo']['className'] || (options.modelScope || Model).get(modelId)?._class;
+    if (typeof className === 'undefined') {
+      // Either the pointer is loaded as an object or we allow passing in the className.
+      return options.error('Must preload the Pointer or include className');
+    }
+
     res['$relatedTo'] = {
       object: {
         __type: 'Pointer',
         objectId: modelId,
-        className: m._class
+        className
       },
       key: relationKey
     };
@@ -208,13 +227,14 @@ function convertFilterOp(filter, options) {
     else if (opAndValue['containedIn'] !== undefined) res[key] = { $in: opAndValue['containedIn'] };
     else if (opAndValue['notContainedIn'] !== undefined) res[key] = { $nin: opAndValue['notContainedIn'] };
     else if (opAndValue['pointsTo'] !== undefined) {
-      var m = (options.modelScope || Model).get(opAndValue['pointsTo']);
-      if (CloudStore._collections[options.collectionName])
-        var schema = CloudStore._collections[options.collectionName].schema;
+      let schema = null;
+      if (CloudStore._collections[options.collectionName]) {
+        schema = CloudStore._collections[options.collectionName].schema;
+      }
 
-      var targetClass =
+      const targetClass =
         schema && schema.properties && schema.properties[key] ? schema.properties[key].targetClass : undefined;
-      var type = schema && schema.properties && schema.properties[key] ? schema.properties[key].type : undefined;
+      const type = schema && schema.properties && schema.properties[key] ? schema.properties[key].type : undefined;
 
       if (type === 'Relation') {
         res[key] = {
@@ -223,13 +243,13 @@ function convertFilterOp(filter, options) {
           className: targetClass
         };
       } else {
-        if (Array.isArray(opAndValue['pointsTo']))
+        if (Array.isArray(opAndValue['pointsTo'])) {
           res[key] = {
             $in: opAndValue['pointsTo'].map((v) => {
               return { __type: 'Pointer', objectId: v, className: targetClass };
             })
           };
-        else
+        } else {
           res[key] = {
             $eq: {
               __type: 'Pointer',
@@ -237,6 +257,7 @@ function convertFilterOp(filter, options) {
               className: targetClass
             }
           };
+        }
       }
     } else if (opAndValue['matchesRegex'] !== undefined) {
       res[key] = {
@@ -257,43 +278,42 @@ function convertFilterOp(filter, options) {
             }
           }
         };
-    // Geo points
+      // Geo points
     } else if (opAndValue['nearSphere'] !== undefined) {
       var _v = opAndValue['nearSphere'];
       res[key] = {
         $nearSphere: {
-          __type: "GeoPoint",
+          __type: 'GeoPoint',
           latitude: _v.latitude,
-          longitude: _v.longitude,
+          longitude: _v.longitude
         },
-        $maxDistanceInMiles:_v.$maxDistanceInMiles,
-        $maxDistanceInKilometers:_v.maxDistanceInKilometers,
-        $maxDistanceInRadians:_v.maxDistanceInRadians
+        $maxDistanceInMiles: _v.$maxDistanceInMiles,
+        $maxDistanceInKilometers: _v.maxDistanceInKilometers,
+        $maxDistanceInRadians: _v.maxDistanceInRadians
       };
     } else if (opAndValue['withinBox'] !== undefined) {
       var _v = opAndValue['withinBox'];
       res[key] = {
-        $within:{
-          $box: _v.map(gp => ({
-            __type:"GeoPoint",
-            latitude:gp.latitude,
-            longitude:gp.longitude
+        $within: {
+          $box: _v.map((gp) => ({
+            __type: 'GeoPoint',
+            latitude: gp.latitude,
+            longitude: gp.longitude
           }))
         }
       };
     } else if (opAndValue['withinPolygon'] !== undefined) {
       var _v = opAndValue['withinPolygon'];
       res[key] = {
-        $geoWithin:{
-          $polygon: _v.map(gp => ({
-            __type:"GeoPoint",
-            latitude:gp.latitude,
-            longitude:gp.longitude
+        $geoWithin: {
+          $polygon: _v.map((gp) => ({
+            __type: 'GeoPoint',
+            latitude: gp.latitude,
+            longitude: gp.longitude
           }))
         }
       };
     }
-
   } else {
     options.error('Unrecognized filter keys ' + keys.join(','));
   }

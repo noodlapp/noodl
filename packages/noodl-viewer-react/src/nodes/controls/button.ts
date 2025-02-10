@@ -30,10 +30,23 @@ const ButtonNode = {
     ]
   },
   initialize() {
+    this.props.attrs = {};
     this.props.layout = 'row'; //Used to tell child nodes what layout to expect
   },
   getReactComponent() {
     return Button;
+  },
+  inputs: {
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
+      }
+    }
   },
   inputCss: {
     backgroundColor: {

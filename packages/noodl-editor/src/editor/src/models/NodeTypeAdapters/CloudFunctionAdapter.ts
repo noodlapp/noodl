@@ -57,10 +57,13 @@ export class CloudFunctionAdapter extends NodeTypeAdapter {
 
     // Collect all cloud function components
     const functionRequestNodes = ProjectModel.instance.getNodesWithType('noodl.cloud.request');
-    const functions = functionRequestNodes.map((r) => {
-      const component = r.owner.owner;
-      return component.fullName;
-    });
+    const functions = functionRequestNodes
+      .map((r) => {
+        const component = r.owner.owner;
+        return component.fullName;
+      })
+      // Remove all the Cloud Trigger functions
+      .filter((x) => !x.startsWith('/#__cloud__/__noodl_cloud_triggers__'));
 
     ports.push({
       plug: 'input',

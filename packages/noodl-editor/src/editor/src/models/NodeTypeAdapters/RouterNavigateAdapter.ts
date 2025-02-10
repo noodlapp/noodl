@@ -1,5 +1,5 @@
 import { NodeGraphNode } from '@noodl-models/nodegraphmodel';
-import { WarningsModel } from '@noodl-models/warningsmodel';
+import { type Warning, WarningsModel } from '@noodl-models/warningsmodel';
 
 import { ProjectModel } from '../projectmodel';
 import NodeTypeAdapter from './NodeTypeAdapter';
@@ -103,7 +103,7 @@ export class RouterNavigateAdapter extends NodeTypeAdapter {
 
     const hasValidTarget = target && pageComponents.includes(target);
 
-    const warning =
+    const warning: Warning =
       hasValidTarget === false
         ? {
             message: "The target page doesn't belong to the target router",

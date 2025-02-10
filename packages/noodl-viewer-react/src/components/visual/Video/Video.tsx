@@ -34,16 +34,14 @@ export interface CachedVideoProps {
 class CachedVideo extends React.PureComponent<CachedVideoProps> {
   video: HTMLVideoElement;
 
-  shouldComponentUpdate(nextProps: CachedVideoProps) {
+  componentDidUpdate() {
     if (this.video) {
-      this.video.muted = nextProps.muted;
-      this.video.loop = nextProps.loop;
-      this.video.volume = nextProps.volume;
-      this.video.autoplay = nextProps.autoplay;
-      this.video.controls = nextProps.controls;
+      this.video.muted = this.props.muted;
+      this.video.loop = this.props.loop;
+      this.video.volume = this.props.volume;
+      this.video.autoplay = this.props.autoplay;
+      this.video.controls = this.props.controls;
     }
-
-    return true;
   }
 
   render() {

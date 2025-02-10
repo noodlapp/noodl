@@ -458,11 +458,11 @@ export class VariantModel extends Model {
             }
           );
         } else if (c.type === 'defaultStateTransition') {
-          var state =
+          const state =
             this.getType().visualStates !== undefined
               ? this.getType().visualStates.find((s) => s.name === c.state)
               : undefined;
-          var stateName = state !== undefined ? state.label : c.state;
+          const stateName = state !== undefined ? state.label : c.state;
 
           WarningsModel.instance.setWarning(
             { key: 'variant-dst-conflict-' + this.name + '-' + this.getType().fullName + '-' + c.state },

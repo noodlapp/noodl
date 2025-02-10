@@ -1,10 +1,9 @@
 'use strict';
 
 const { Node } = require('@noodl/runtime');
+const Model = require('@noodl/runtime/src/model');
 
-var Model = require('@noodl/runtime/src/model');
-
-var VariableNodeDefinition = {
+const VariableNodeDefinition = {
   name: 'Variable',
   docs: 'https://docs.noodl.net/nodes/data/variable',
   category: 'Data',

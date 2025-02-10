@@ -42,7 +42,7 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],
     fallback: {
-      events: require.resolve('events/'),
+      events: require.resolve('events/')
     }
   },
   module: {

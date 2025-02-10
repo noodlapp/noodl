@@ -1,4 +1,4 @@
-name: Test noodl-editor
+name: Test fluxscape-editor
 
 on:
   # Allows you to run this workflow manually from the Actions tab

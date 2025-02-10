@@ -19,6 +19,8 @@ BScroll.use(Slide);
 export interface GroupProps extends Noodl.ReactProps {
   as?: keyof JSX.IntrinsicElements | React.ComponentType<unknown>;
 
+  attrs: React.Attributes;
+
   scrollSnapEnabled: boolean;
   showScrollbar: boolean;
   scrollEnabled: boolean;
@@ -271,6 +273,7 @@ export class Group extends React.Component<GroupProps> {
       <Component
         // @ts-expect-error Lets hope that the type passed here is always static!
         className={props.className}
+        {...props.attrs}
         {...props.dom}
         {...PointerListeners(props)}
         style={style}

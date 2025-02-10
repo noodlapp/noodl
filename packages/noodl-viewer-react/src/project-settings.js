@@ -6,7 +6,7 @@ export default {
       group: 'General',
       plug: 'input',
       type: 'string',
-      default: 'Noodl Viewer',
+      default: 'Fluxscape Viewer',
       tooltip: 'The title that web browsers show',
       ignoreInExport: true
     },

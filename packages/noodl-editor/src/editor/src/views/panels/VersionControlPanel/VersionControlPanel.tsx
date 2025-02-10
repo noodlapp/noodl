@@ -33,30 +33,12 @@ import { History } from './components/History';
 import { LocalChanges } from './components/LocalChanges';
 import { MergeConflicts } from './components/MergeConflicts';
 import { useVersionControlContext, VersionControlProvider } from './context';
+import { convertGitRemoteUrlToRepoUrl } from './github';
 
 enum ViewState {
   Default,
   Branches,
   BranchMerge
-}
-
-function convertGitRemoteUrlToRepoUrl(gitRemoteUrl) {
-  // Remove the .git extension if present
-  gitRemoteUrl = gitRemoteUrl.replace(/\.git$/, '');
-
-  // Extract the repository name and owner from the URL
-  const regex = /^(?:https?:\/\/)?github\.com\/([^/]+)\/([^/]+)$/;
-  const match = gitRemoteUrl.match(regex);
-
-  if (match) {
-    const owner = match[1];
-    const repo = match[2];
-    // Construct the GitHub repository URL
-    const repoUrl = `https://github.com/${owner}/${repo}`;
-    return repoUrl;
-  } else {
-    throw new Error('Invalid GitHub Git remote URL');
-  }
 }
 
 function BaseVersionControlPanel() {
@@ -217,6 +199,7 @@ function BaseVersionControlPanel() {
 
 export function VersionControlPanel() {
   const [git, setGit] = useState<Git>(null);
+  const [state, setState] = useState<'loading' | 'loaded' | 'not-git'>('loading');
 
   async function createGit() {
     const gitClient = new Git(mergeProject);
@@ -224,12 +207,18 @@ export function VersionControlPanel() {
     setGit(gitClient);
   }
 
-  const isGitProject = git === null ? LocalProjectsModel.instance.isGitProject(ProjectModel.instance) : true;
   useEffect(() => {
-    if (isGitProject) {
-      createGit();
-    }
-  }, [isGitProject]);
+    LocalProjectsModel.instance
+      .isGitProject(ProjectModel.instance)
+      .then(async (isGitProject) => {
+        if (isGitProject) {
+          await createGit();
+          setState('loaded');
+        } else {
+          setState('not-git');
+        }
+      });
+  }, []);
 
   async function setupGit() {
     const gitClient = new Git(mergeProject);
@@ -238,7 +227,7 @@ export function VersionControlPanel() {
     setGit(gitClient);
   }
 
-  if (git === null && !isGitProject) {
+  if (git === null && state === 'not-git') {
     return (
       <BasePanel isFill title="Version Control">
         <Box hasXSpacing hasYSpacing>

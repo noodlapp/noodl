@@ -1,14 +1,12 @@
 import { NodeGraphContextTmp } from '@noodl-contexts/NodeGraphContext/NodeGraphContext';
+import { type NodeReference, useNodeReferencesContext } from '@noodl-contexts/NodeReferencesContext';
 import { useFocusRefOnPanelActive } from '@noodl-hooks/useFocusRefOnPanelActive';
 import { useNodeLibraryLoaded } from '@noodl-hooks/useNodeLibraryLoaded';
-import React, { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useMemo, useRef, useState } from 'react';
 
 import { INodeColorScheme } from '@noodl-types/nodeTypes';
-import { ComponentModel } from '@noodl-models/componentmodel';
-import { NodeGraphNode } from '@noodl-models/nodegraphmodel';
-import { NodeLibrary, NodeLibraryNodeType } from '@noodl-models/nodelibrary';
+import { NodeLibrary } from '@noodl-models/nodelibrary';
 import { BasicNodeType } from '@noodl-models/nodelibrary/BasicNodeType';
-import { ProjectModel } from '@noodl-models/projectmodel';
 
 import { EditorNode } from '@noodl-core-ui/components/common/EditorNode';
 import { IconName, IconSize } from '@noodl-core-ui/components/common/Icon';
@@ -26,113 +24,17 @@ import { Section, SectionVariant } from '@noodl-core-ui/components/sidebar/Secti
 import { Label } from '@noodl-core-ui/components/typography/Label';
 
 import { NodeReferencesPanel_ID } from '.';
-import { EventDispatcher } from '../../../../../shared/utils/EventDispatcher';
-
-type ResultItem = {
-  type: NodeLibraryNodeType;
-  displayName: string;
-  referenaces: {
-    displayName: string;
-    node?: NodeGraphNode;
-    component: ComponentModel;
-  }[];
-};
-
-function useNodeReferences() {
-  const [group] = useState({});
-  const [result, setResult] = useState<ResultItem[]>([]);
-
-  useEffect(() => {
-    function updateIndex() {
-      const types: { [key: string]: ResultItem['type'] } = {};
-      const references = new Map<string, ResultItem['referenaces']>();
-
-      function handleComponent(component: ComponentModel) {
-        component.forEachNode((node: NodeGraphNode) => {
-          const name = node.type.name;
-
-          // Add the reference
-          references.set(name, [
-            ...(references.get(name) || []),
-            {
-              displayName: component.displayName || component.name,
-              node,
-              component
-            }
-          ]);
-
-          // Repeater
-          if (name === 'For Each' && node.parameters.template) {
-            const templateComponent = ProjectModel.instance.getComponentWithName(node.parameters.template);
-
-            if (templateComponent) {
-              references.set(templateComponent.fullName, [
-                ...(references.get(templateComponent.fullName) || []),
-                {
-                  displayName: component.displayName || component.name,
-                  node,
-                  component
-                }
-              ]);
-
-              handleComponent(templateComponent);
-            }
-          }
-
-          // Add some metadata for this node if we dont have it yet.
-          if (!types[name]) {
-            types[name] = node.type;
-          }
-        });
-      }
-
-      // Loop all the nodes in the project
-      ProjectModel.instance.forEachComponent(handleComponent);
-
-      // Combine the result to look a little better.
-      const results: ResultItem[] = Array.from(references.keys())
-        .map((key) => ({
-          type: types[key],
-          displayName: types[key]?.displayName || key,
-          referenaces: references.get(key)
-        }))
-        .sort((a, b) => b.referenaces.length - a.referenaces.length);
-
-      setResult(results);
-    }
-
-    updateIndex();
-
-    EventDispatcher.instance.on(
-      [
-        'Model.nodeAdded',
-        'Model.nodeRemoved',
-        'Model.componentAdded',
-        'Model.componentRemoved',
-        'Model.componentRenamed'
-      ],
-      updateIndex,
-      group
-    );
-
-    return function () {
-      EventDispatcher.instance.off(group);
-    };
-  }, []);
-
-  return [result];
-}
 
 export function NodeReferencesPanel() {
   const [searchTerm, setSearchTerm] = useState('');
   const [includeCoreNodes, setIncludeCoreNodes] = useState(false);
   const inputRef = useRef(null);
-  const [result] = useNodeReferences();
+  const { nodeReferences } = useNodeReferencesContext();
   const nodeLibraryLoaded = useNodeLibraryLoaded();
 
   useFocusRefOnPanelActive(inputRef, NodeReferencesPanel_ID);
 
-  function searchFilter(x: ResultItem) {
+  function searchFilter(x: NodeReference) {
     if (x.displayName.toLowerCase().includes(searchTerm)) {
       return true;
     }
@@ -144,7 +46,7 @@ export function NodeReferencesPanel() {
     return false;
   }
 
-  let filteredResult = result.filter(searchFilter);
+  let filteredResult = nodeReferences.filter(searchFilter);
   if (!includeCoreNodes) {
     filteredResult = filteredResult.filter((x) => x.displayName.startsWith('/'));
   }
@@ -185,7 +87,7 @@ export function NodeReferencesPanel() {
 }
 
 interface ItemProps {
-  entry: ResultItem;
+  entry: NodeReference;
 }
 
 function Item({ entry }: ItemProps) {
@@ -245,8 +147,8 @@ function Item({ entry }: ItemProps) {
 }
 
 interface ItemReferenceProps {
-  entry: ResultItem;
-  referenace: ResultItem['referenaces'][0];
+  entry: NodeReference;
+  referenace: NodeReference['referenaces'][0];
   colors: INodeColorScheme;
 }
 

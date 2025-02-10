@@ -3,7 +3,7 @@ import { JSONStorage } from '@noodl/platform';
 import { CreateEnvironment, CreateEnvironmentRequest, UpdateEnvironmentRequest } from '@noodl-models/CloudServices';
 
 /** The data format is separated from our internal model. */
-type EnvironmentDataFormat = {
+export type EnvironmentDataFormat = {
   enabled: boolean;
   id: string;
   name: string;
@@ -52,9 +52,11 @@ export class ExternalCloudService {
     const broker = brokers.find((x) => x.id === options.id);
     if (!broker) return false;
 
-    if (options.name) broker.name = options.name;
-    if (options.description) broker.description = options.description;
-    if (options.masterKey) broker.masterKey = options.masterKey;
+    if (typeof options.name !== undefined) broker.name = options.name;
+    if (typeof options.description !== undefined) broker.description = options.description;
+    if (typeof options.appId !== undefined) broker.appId = options.appId;
+    if (typeof options.masterKey !== undefined) broker.masterKey = options.masterKey;
+    if (typeof options.url !== undefined) broker.endpoint = options.url;
 
     await JSONStorage.set('externalBrokers', { brokers });
 

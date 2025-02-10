@@ -8,6 +8,7 @@ import { Slot } from '@noodl-core-ui/types/global';
 import { doLocalDiff, ProjectLocalDiff } from './DiffUtils';
 import { useVersionControlFetch } from './fetch.context';
 import { BranchStatus, IVersionControlContext } from './types';
+import { ProjectModel } from '@noodl-models/projectmodel';
 
 const VersionControlContext = createContext<IVersionControlContext>({
   git: null,
@@ -57,7 +58,8 @@ export function VersionControlProvider({ git, children }: { git: Git; children: 
     (async () => {
       const currentCommitSha = await git.getHeadCommitId();
       if (currentCommitSha) {
-        const diff = await doLocalDiff(git.repositoryPath, currentCommitSha);
+        const projectPath = ProjectModel.instance._retainedProjectDirectory;
+        const diff = await doLocalDiff(git.repositoryPath, projectPath, currentCommitSha);
         setLocalDiff(diff);
       }
     })();

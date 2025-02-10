@@ -1,6 +1,7 @@
-const { merge } = require("webpack-merge");
-const common = require("./webpack.viewer.common.js");
+const { merge } = require('webpack-merge');
+const common = require('./webpack.viewer.common.js');
 
 module.exports = merge(common, {
-  mode: "production",
+  mode: 'production',
+  devtool: 'source-map'
 });

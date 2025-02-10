@@ -64,17 +64,19 @@ const NavigateBack = {
         return;
       }
 
-      if (name.startsWith('result-'))
+      if (name.startsWith('result-')) {
         return this.registerInput(name, {
           set: this.setResultValue.bind(this, name.substring('result-'.length))
         });
+      }
 
-      if (name.startsWith('backAction-'))
+      if (name.startsWith('backAction-')) {
         return this.registerInput(name, {
-          set: _createSignal({
-            valueChangedToTrue: this.backActionTriggered.bind(this, name)
-          })
+          set: (value) => {
+            value && this.backActionTriggered(name)
+          }
         });
+      }
     }
   }
 };

@@ -16,6 +16,7 @@ import { projectFromDirectory, unzipIntoDirectory } from '../models/projectmodel
 import FileSystem from './filesystem';
 import { tracker } from './tracker';
 import { guid } from './utils';
+import { getTopLevelWorkingDirectory } from '@noodl/git/src/core/open';
 
 export interface ProjectItem {
   id: string;
@@ -267,12 +268,15 @@ export class LocalProjectsModel extends Model {
     });
   }
 
-  isGitProject(project: ProjectModel): boolean {
-    // TODO: check if there's is git in any parent folder too
-
-    // Check if the git folder exists.
-    const gitPath = filesystem.join(project._retainedProjectDirectory, '.git');
-    return filesystem.exists(gitPath);
+  /**
+   * Check if this project is in a git repository.
+   *
+   * @param project 
+   * @returns 
+   */
+  async isGitProject(project: ProjectModel): Promise<boolean> {
+    const gitPath = await getTopLevelWorkingDirectory(project._retainedProjectDirectory);
+    return gitPath !== null;
   }
 
   setCurrentGlobalGitAuth(projectId: string) {

@@ -31,6 +31,7 @@ const CheckBoxNode = {
     ]
   },
   initialize() {
+    this.props.attrs = {};
     this.props.sizeMode = 'explicit';
     this.props.id = 'input-' + guid();
     this.props.checked = this._internal.checked = false;
@@ -93,6 +94,16 @@ const CheckBoxNode = {
         this.forceUpdate();
         this.flagOutputDirty('checked');
         this._updateVisualState();
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
       }
     }
   },

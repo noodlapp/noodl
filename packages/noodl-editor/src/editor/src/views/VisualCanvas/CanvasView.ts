@@ -96,6 +96,12 @@ export class CanvasView extends View {
             });
           }
         });
+
+        // Patch to open the next window in the same webview.
+        // Since we don't support multiple webviews.
+        window.open = function (url) {
+          window.location.href = url;
+        }
       `;
 
       webview.executeJavaScript(code);

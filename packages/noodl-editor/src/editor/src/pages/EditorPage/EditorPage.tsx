@@ -1,4 +1,6 @@
 import { NodeGraphContextProvider } from '@noodl-contexts/NodeGraphContext/NodeGraphContext';
+import { NodeReferencesContextProvider } from '@noodl-contexts/NodeReferencesContext';
+import { PluginContextProvider } from '@noodl-contexts/PluginContext';
 import { ProjectDesignTokenContextProvider } from '@noodl-contexts/ProjectDesignTokenContext';
 import { useKeyboardCommands } from '@noodl-hooks/useKeyboardCommands';
 import { useModel } from '@noodl-hooks/useModel';
@@ -222,26 +224,30 @@ export function EditorPage({ route }: EditorPageProps) {
 
   return (
     <NodeGraphContextProvider>
-      <ProjectDesignTokenContextProvider>
-        <BaseWindow>
-          {isLoading ? (
-            <ActivityIndicator />
-          ) : (
-            <>
-              <FrameDivider
-                first={<SidePanel />}
-                second={<ErrorBoundary>{Boolean(Document) && <Document />}</ErrorBoundary>}
-                sizeMin={200}
-                size={frameDividerSize}
-                horizontal
-                onSizeChanged={setFrameDividerSize}
-              />
+      <NodeReferencesContextProvider>
+        <ProjectDesignTokenContextProvider>
+          <PluginContextProvider>
+            <BaseWindow>
+              {isLoading ? (
+                <ActivityIndicator />
+              ) : (
+                <>
+                  <FrameDivider
+                    first={<SidePanel />}
+                    second={<ErrorBoundary>{Boolean(Document) && <Document />}</ErrorBoundary>}
+                    sizeMin={200}
+                    size={frameDividerSize}
+                    horizontal
+                    onSizeChanged={setFrameDividerSize}
+                  />
 
-              {Boolean(lesson) && <Frame instance={lesson} isContentSize isFitWidth />}
-            </>
-          )}
-        </BaseWindow>
-      </ProjectDesignTokenContextProvider>
+                  {Boolean(lesson) && <Frame instance={lesson} isContentSize isFitWidth />}
+                </>
+              )}
+            </BaseWindow>
+          </PluginContextProvider>
+        </ProjectDesignTokenContextProvider>
+      </NodeReferencesContextProvider>
     </NodeGraphContextProvider>
   );
 }

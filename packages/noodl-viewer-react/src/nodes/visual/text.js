@@ -20,6 +20,9 @@ const TextNode = {
   nodeDoubleClickAction: {
     focusPort: 'text'
   },
+  initialize() {
+    this.props.attrs = {};
+  },
   getReactComponent() {
     return Text;
   },
@@ -134,6 +137,16 @@ const TextNode = {
             this.setStyle({ alignItems: 'flex-end' });
             break;
         }
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
       }
     }
   }

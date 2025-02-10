@@ -9,6 +9,8 @@ export interface CheckboxProps extends Noodl.ReactProps {
   enabled: boolean;
   checked: boolean;
 
+  attrs: React.Attributes;
+
   useLabel: boolean;
   label: string;
   labelSpacing: string;
@@ -47,6 +49,7 @@ export function Checkbox(props: CheckboxProps) {
   Layout.align(style, props);
 
   const inputProps = {
+    ...props.attrs,
     id: props.id,
     className: [props.className, 'ndl-controls-checkbox-2'].join(' '),
     disabled: !props.enabled,

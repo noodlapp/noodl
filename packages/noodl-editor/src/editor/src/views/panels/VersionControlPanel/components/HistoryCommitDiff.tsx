@@ -13,13 +13,15 @@ import { EventDispatcher } from '../../../../../../shared/utils/EventDispatcher'
 import { ToastLayer } from '../../../ToastLayer/ToastLayer';
 import { useVersionControlContext } from '../context';
 import { CommitChangesDiff } from './CommitChangesDiff';
+import { convertGitRemoteUrlToCommitUrl } from '../github';
+import { platform } from '@noodl/platform';
 
 export interface HistoryCommitDiffProps {
   commit: Commit;
 }
 
 export function HistoryCommitDiff({ commit }: HistoryCommitDiffProps) {
-  const { repositoryPath, localChangesCount, fetch } = useVersionControlContext();
+  const { git, repositoryPath, localChangesCount, fetch } = useVersionControlContext();
 
   const [HaveLocalChangesDialog, showHaveLocalChangesDialog] = useConfirmationDialog({
     isCancelButtonHidden: true,
@@ -71,6 +73,13 @@ export function HistoryCommitDiff({ commit }: HistoryCommitDiffProps) {
                 copyValueToClipboard({
                   value: commit.sha
                 })
+            },
+            git.Provider === 'github' && {
+              label: 'View on GitHub',
+              onClick: () => {
+                const commitLink = convertGitRemoteUrlToCommitUrl(git.OriginUrl, commit.sha);
+                platform.openExternal(commitLink);
+              }
             }
           ]}
         />

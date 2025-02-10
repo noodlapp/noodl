@@ -365,7 +365,7 @@ function launchApp() {
       click: () => {
         require('about-window').default({
           icon_path: appPath + '/src/assets/images/icon.png',
-          copyright: 'Copyright (c) 2023 Future Platforms AB',
+          copyright: 'Copyright (c) 2024 Fluxscape LLC',
           description: buildNumber ? 'Build ' + buildNumber : undefined
         });
       }

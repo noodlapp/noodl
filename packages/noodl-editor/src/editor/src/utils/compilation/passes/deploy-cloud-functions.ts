@@ -74,7 +74,13 @@ export const deployCloudFunctionBuildScript: BuildScript = {
               'X-Parse-Application-Id': environment.appId,
               'X-Parse-Master-Key': environment.masterKey
             },
-            body: JSON.stringify({ deploy: json, runtime: manifest.version })
+            body: JSON.stringify({
+              // Project ID, let the server know about which project is pushing changes.
+              projectId: context.project.id,
+              projectName: context.project.name,
+              deploy: json,
+              runtime: manifest.version
+            })
           });
 
           // NOTE: Expecting that we always get a JSON response

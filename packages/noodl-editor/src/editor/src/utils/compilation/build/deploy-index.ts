@@ -67,6 +67,14 @@ async function _writeFileToFolder({
   runtimeType
 }: WriteFileToFolderArgs) {
   const fullPath = filesystem.join(getExternalFolderPath(), runtimeType, url);
+
+  if (!filesystem.exists(fullPath)) {
+    // TODO: Save this warning somewhere, usually, this is not an issue though.
+    // This occurred because building in dev mode does not create the source map
+    // files which it expects to copy over.
+    return;
+  }
+
   let content = await filesystem.readFile(fullPath);
   let filename = url;
 

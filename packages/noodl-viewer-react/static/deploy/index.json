@@ -4,6 +4,7 @@
   {"url":"noodl-app.png"},
   {"url":"load_terminator.js"},
   {"url":"noodl.deploy.js"},
+  {"url":"noodl.deploy.js.map"},
   {"url":"react.production.min.js"},
   {"url":"react-dom.production.min.js"}
 ]

@@ -1,7 +1,6 @@
 import { AppRegistry } from '@noodl-models/app_registry';
 import { SidebarModel } from '@noodl-models/sidebar';
-import { Keybinding } from '@noodl-utils/keyboard/Keybinding';
-import { KeyCode, KeyMod } from '@noodl-utils/keyboard/KeyCode';
+import { Keybindings } from '@noodl-constants/Keybindings';
 
 import { IconName } from '@noodl-core-ui/components/common/Icon';
 
@@ -69,7 +68,7 @@ export function installSidePanel({ isLesson }: SetupEditorOptions) {
   SidebarModel.instance.register({
     id: 'search',
     name: 'Search',
-    fineType: new Keybinding(KeyMod.CtrlCmd, KeyCode.KEY_F).label,
+    fineType: Keybindings.SEARCH.label,
     order: 2,
     icon: IconName.Search,
     panel: SearchPanel

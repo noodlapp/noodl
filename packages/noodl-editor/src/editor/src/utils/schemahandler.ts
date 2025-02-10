@@ -13,6 +13,7 @@ export default class SchemaHandler {
   public dbCollections: TSFixme[];
   public systemCollections: TSFixme[];
   public configSchema: TSFixme;
+  public parseServerVersion: string;
 
   constructor() {
     EventDispatcher.instance.on(
@@ -119,6 +120,20 @@ export default class SchemaHandler {
             console.log(e);
           }
         });
+
+        // Get Parse Server Version & Supported features
+        fetch(environment.url + '/serverInfo', {
+          method: 'POST',
+          body: JSON.stringify({
+            "_method": "GET",
+            "_ApplicationId": environment.appId,
+            "_MasterKey": environment.masterKey,
+          })
+        })
+          .then((response) => response.json())
+          .then((json) => {
+            this.parseServerVersion = json.parseServerVersion;
+          });
       });
     });
   }
@@ -129,10 +144,20 @@ export default class SchemaHandler {
         ProjectModel.instance.setMetaData('dbCollections', this.dbCollections);
         ProjectModel.instance.setMetaData('systemCollections', this.systemCollections);
         ProjectModel.instance.setMetaData('dbConfigSchema', this.configSchema);
+
+        const versionNumbers = this.parseServerVersion?.split(".")
+        if (versionNumbers && versionNumbers.length > 0) {
+          // Let's only save the major version number,
+          // since this will be used to determine which verison of the API to use.
+          ProjectModel.instance.setMetaData('dbVersionMajor', versionNumbers[0]);
+        } else {
+          ProjectModel.instance.setMetaData('dbVersionMajor', undefined);
+        }
       } else {
         ProjectModel.instance.setMetaData('dbCollections', undefined);
         ProjectModel.instance.setMetaData('systemCollections', undefined);
         ProjectModel.instance.setMetaData('dbConfigSchema', undefined);
+        ProjectModel.instance.setMetaData('dbVersionMajor', undefined);
       }
     }
   }

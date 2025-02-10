@@ -10,6 +10,8 @@ export interface RadioButtonProps extends Noodl.ReactProps {
   enabled: boolean;
   value: string;
 
+  attrs: React.Attributes;
+
   useLabel: boolean;
   label: string;
   labelSpacing: string;
@@ -47,6 +49,7 @@ export function RadioButton(props: RadioButtonProps) {
   props.checkedChanged && props.checkedChanged(radioButtonGroup ? radioButtonGroup.selected === props.value : false);
 
   const inputProps = {
+    ...props.attrs,
     id: props.id,
     disabled: !props.enabled,
     className: [props.className, 'ndl-controls-radio-2'].join(' '),

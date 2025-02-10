@@ -1,8 +1,41 @@
-import { ComponentModel } from '@noodl-models/componentmodel';
-import { ProjectModel } from '@noodl-models/projectmodel';
 import { toArray } from 'underscore';
+
+import type { ComponentModel } from '@noodl-models/componentmodel';
+
 import Model from '../../../shared/model';
+import type { NodeGraphNode } from './nodegraphmodel';
 import { NodeLibrary } from './nodelibrary';
+
+export type WarningLabel = 'warning' | 'error';
+
+export type Warning =
+  | {
+      type?: string;
+      level?: WarningLabel;
+      message: string;
+      showGlobally?: boolean;
+    }
+  | {
+      type: 'conflict' | 'conflict-source-code';
+      level?: WarningLabel;
+      message: string;
+      showGlobally?: boolean;
+      conflictMetadata: {
+        parameter: string;
+        ours: string;
+        theirs: string;
+      };
+      onDismiss: () => void;
+      onUseTheirs: () => void;
+    };
+
+export type WarningRef = {
+  key?: string;
+  component?: ComponentModel;
+  connection?: TSFixme;
+  node?: NodeGraphNode;
+  isFromViewer?: boolean;
+};
 
 /**
  * The first level of the warnings object is component name
@@ -14,7 +47,7 @@ interface Warnings {
     [node_connection_id: string]: {
       [warningKey: string]: {
         ref: TSFixme;
-        warning: TSFixme;
+        warning: Warning;
       };
     };
   };
@@ -24,7 +57,7 @@ export class WarningsModel extends Model {
   public static instance = new WarningsModel();
 
   private warnings: Warnings = {};
-  private notifyChangedScheduled: boolean = false;
+  private notifyChangedScheduled = false;
 
   constructor() {
     super();
@@ -35,10 +68,12 @@ export class WarningsModel extends Model {
     });
   }
 
-  public setWarning(ref, warning) {
-    var w = this.getWarningsForRef(ref, warning !== undefined);
+  public setWarning(ref: WarningRef, warning: Warning) {
+    const w = this.getWarningsForRef(ref, warning !== undefined);
     if (!warning) {
-      if (w) delete w[ref.key];
+      if (w) {
+        delete w[ref.key];
+      }
     } else {
       warning.level = warning.level || 'warning';
       w[ref.key] = { ref: ref, warning: warning };
@@ -47,31 +82,34 @@ export class WarningsModel extends Model {
     this.scheduleNotifyChanged();
   }
 
-  public clearWarningsForRef(ref) {
-    var w = this.getWarningsForRef(ref);
+  public clearWarningsForRef(ref: WarningRef) {
+    const w = this.getWarningsForRef(ref);
     if (!w) return;
 
-    for (var i in w) delete w[i];
+    for (const i in w) {
+      delete w[i];
+    }
 
     this.scheduleNotifyChanged();
   }
 
-  public clearAllWarningsForComponent(component) {
+  public clearAllWarningsForComponent(component: ComponentModel) {
     const warnings = this.warnings[component.name];
-
     if (!warnings) return;
 
-    for (let i in warnings) delete warnings[i];
+    for (const i in warnings) {
+      delete warnings[i];
+    }
 
     this.scheduleNotifyChanged();
   }
 
-  public clearWarningsForRefMatching(matchCb) {
+  public clearWarningsForRefMatching(matchFn: (ref: TSFixme) => boolean) {
     for (const cw of Object.values(this.warnings)) {
       for (const ws of Object.values(cw)) {
         for (const key in ws) {
           const w = ws[key];
-          if (matchCb(w.ref)) {
+          if (matchFn(w.ref)) {
             delete ws[key];
           }
         }
@@ -87,15 +125,14 @@ export class WarningsModel extends Model {
     this.scheduleNotifyChanged();
   }
 
-  public getWarnings(ref) {
-    var w = this.getWarningsForRef(ref);
+  public getWarnings(ref: WarningRef) {
+    const w = this.getWarningsForRef(ref);
     if (!w) return;
-
     if (Object.keys(w).length === 0) return;
 
     // Create short message for hover
-    var messages = [];
-    for (var k in w) {
+    const messages = [];
+    for (const k in w) {
       if (w[k].warning) messages.push(w[k].warning.message);
     }
 
@@ -106,13 +143,13 @@ export class WarningsModel extends Model {
   }
 
   public forEachWarningInComponent(c, callback, args) {
-    var cw = this.warnings[c ? c.name : '/'];
+    const cw = this.warnings[c ? c.name : '/'];
     if (!cw) return;
 
-    for (var ref in cw) {
-      var ws = cw[ref];
+    for (const ref in cw) {
+      const ws = cw[ref];
 
-      for (var w in ws) {
+      for (const w in ws) {
         if (!args || !args.levels || args.levels.indexOf(ws[w].warning.level) !== -1) {
           callback(ws[w]);
         }
@@ -121,7 +158,7 @@ export class WarningsModel extends Model {
   }
 
   public getAllWarningsForComponent(c, args) {
-    var warnings = [];
+    const warnings = [];
     this.forEachWarningInComponent(
       c,
       function (warning) {
@@ -152,15 +189,15 @@ export class WarningsModel extends Model {
   }
 
   public getTotalNumberOfWarnings(args) {
-    var total = 0;
-    for (var key in this.warnings) {
+    let total = 0;
+    for (const key in this.warnings) {
       total += this.getNumberOfWarningsForComponent({ name: key }, args);
     }
     return total;
   }
 
   public getTotalNumberOfWarningsMatching(matchCb) {
-    var total = 0;
+    let total = 0;
     this.forEachWarning((c, ref, key, warning) => {
       if (matchCb(key, ref, warning)) total++;
     });
@@ -168,16 +205,16 @@ export class WarningsModel extends Model {
   }
 
   public forEachWarning(callback: (c: string, ref, key, warning) => void) {
-    var w = this.warnings;
+    const w = this.warnings;
     for (const c in w) {
       // Loop over all components
-      var _w = w[c];
+      const _w = w[c];
       for (const ref in _w) {
         // Loop over all refs
-        var __w = _w[ref];
+        const __w = _w[ref];
         for (const key in __w) {
           // Loop over all keys
-          var warning = __w[key];
+          const warning = __w[key];
 
           callback(c, ref, key, warning);
         }
@@ -195,12 +232,12 @@ export class WarningsModel extends Model {
   //    node: nodeRef,
   //    connection: connectionRef,
   //    key: key of warning as string}
-  private getWarningsForRef(ref, create?) {
-    var componentName = ref.component ? ref.component.name : '/';
+  private getWarningsForRef(ref: WarningRef, create?) {
+    const componentName = ref.component ? ref.component.name : '/';
     if (!this.warnings[componentName]) this.warnings[componentName] = {};
-    var cw = this.warnings[componentName];
+    const cw = this.warnings[componentName];
 
-    var key;
+    let key;
     if (ref.node) key = 'node/' + ref.node.id;
     else if (ref.connection)
       key =
@@ -220,7 +257,8 @@ export class WarningsModel extends Model {
 
   /** Batch changed notifications so listeners don't get peppered */
   private scheduleNotifyChanged() {
-    var _this = this;
+    // eslint-disable-next-line @typescript-eslint/no-this-alias
+    const _this = this;
 
     if (this.notifyChangedScheduled) return;
     this.notifyChangedScheduled = true;

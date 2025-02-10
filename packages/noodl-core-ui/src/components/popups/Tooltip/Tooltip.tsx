@@ -11,7 +11,7 @@ import css from './Tooltip.module.scss';
 
 export interface TooltipProps extends UnsafeStyleProps {
   content: SingleSlot;
-  fineType?: string;
+  fineType?: string | string[];
   children: Slot;
   showAfterMs?: number;
 
@@ -79,9 +79,17 @@ export function Tooltip({
 
         {fineType && (
           <div className={css['FineType']}>
-            <Label size={LabelSize.Small} variant={TextType.Secondary}>
-              {fineType}
-            </Label>
+            {Array.isArray(fineType) ? (
+              fineType.map((x) => (
+                <Label size={LabelSize.Small} variant={TextType.Secondary}>
+                  {x}
+                </Label>
+              ))
+            ) : (
+              <Label size={LabelSize.Small} variant={TextType.Secondary}>
+                {fineType}
+              </Label>
+            )}
           </div>
         )}
       </BaseDialog>

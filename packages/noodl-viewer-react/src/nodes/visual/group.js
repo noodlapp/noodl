@@ -11,6 +11,7 @@ const GroupNode = {
     groupPriority: ['General', 'Style', 'Events', 'Mounted', 'Hover Events', 'Pointer Events', 'Focus', 'Scroll']
   },
   initialize() {
+    this.props.attrs = {};
     this._internal = {
       scrollElementDuration: 500,
       scrollIndexDuration: 500,
@@ -142,6 +143,16 @@ const GroupNode = {
       group: 'Focus',
       valueChangedToTrue() {
         this.context.setNodeFocused(this, true);
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
       }
     }
   },

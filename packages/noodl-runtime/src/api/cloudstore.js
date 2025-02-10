@@ -32,12 +32,15 @@ class CloudStore {
 
   _initCloudServices() {
     _collections = undefined; // clear collection cache, so it's refetched
-    const cloudServices = NoodlRuntime.instance.getMetaData('cloudservices');
 
+    const cloudServices = NoodlRuntime.instance.getMetaData('cloudservices');
     if (cloudServices) {
       this.appId = cloudServices.appId;
       this.endpoint = cloudServices.endpoint;
     }
+
+    const dbVersionMajor = NoodlRuntime.instance.getMetaData('dbVersionMajor');
+    this.dbVersionMajor = dbVersionMajor;
   }
 
   on() {
@@ -70,8 +73,9 @@ class CloudStore {
       xhr.open(options.method || 'GET', this.endpoint + path, true);
 
       xhr.setRequestHeader('X-Parse-Application-Id', this.appId);
-      if (typeof _noodl_cloudservices !== 'undefined')
+      if (typeof _noodl_cloudservices !== 'undefined') {
         xhr.setRequestHeader('X-Parse-Master-Key', _noodl_cloudservices.masterKey);
+      }
 
       // Check for current users
       var _cu = localStorage['Parse/' + this.appId + '/currentUser'];
@@ -168,13 +172,10 @@ class CloudStore {
       return;
     }
 
-    if (options.where) args.push('match=' + encodeURIComponent(JSON.stringify(options.where)));
     if (options.limit) args.push('limit=' + options.limit);
     if (options.skip) args.push('skip=' + options.skip);
 
-    const grouping = {
-      objectId: null
-    };
+    const grouping = {};
 
     Object.keys(options.group).forEach((k) => {
       const _g = {};
@@ -188,7 +189,20 @@ class CloudStore {
       grouping[k] = _g;
     });
 
-    args.push('group=' + JSON.stringify(grouping));
+    // I don't know which version the API was changed, lets just say above 4 for now.
+    if (this.dbVersionMajor && this.dbVersionMajor > 4) {
+      grouping._id = null;
+
+      if (options.where) args.push('$match=' + encodeURIComponent(JSON.stringify(options.where)));
+
+      args.push('$group=' + JSON.stringify(grouping));
+    } else {
+      grouping.objectId = null;
+
+      if (options.where) args.push('match=' + encodeURIComponent(JSON.stringify(options.where)));
+
+      args.push('group=' + JSON.stringify(grouping));
+    }
 
     this._makeRequest('/aggregate/' + options.collection + (args.length > 0 ? '?' + args.join('&') : ''), {
       success: function (response) {
@@ -244,11 +258,34 @@ class CloudStore {
     });
   }
 
+  /**
+   *
+   * @param {{
+   *    objectId: string;
+   *    collection: string;
+   *    keys?: string[] | string;
+   *    include?: string[] | string;
+   *    excludeKeys?: string[] | string;
+   *    success: (data: unknown) => void;
+   *    error: (error: unknown) => void;
+   * }} options
+   */
   fetch(options) {
     const args = [];
 
-    if (options.include)
+    if (options.include) {
       args.push('include=' + (Array.isArray(options.include) ? options.include.join(',') : options.include));
+    }
+
+    if (options.keys) {
+      args.push('keys=' + (Array.isArray(options.keys) ? options.keys.join(',') : options.keys));
+    }
+
+    if (options.excludeKeys) {
+      args.push(
+        'excludeKeys=' + (Array.isArray(options.excludeKeys) ? options.excludeKeys.join(',') : options.excludeKeys)
+      );
+    }
 
     this._makeRequest(
       '/classes/' + options.collection + '/' + options.objectId + (args.length > 0 ? '?' + args.join('&') : ''),
@@ -420,6 +457,8 @@ class CloudStore {
    *    file: {
    *      name: string;
    *    }
+   *    success: (data: unknown) => void;
+   *    error: (error: unknown) => void;
    * }} options
    */
   deleteFile(options) {
@@ -432,8 +471,15 @@ class CloudStore {
 }
 
 function _isArrayOfObjects(a) {
-  if (!Array.isArray(a)) return false;
-  for (var i = 0; i < a.length; i++) if (typeof a[i] !== 'object' || a[i] === null) return false;
+  if (!Array.isArray(a)) {
+    return false;
+  }
+
+  for (let i = 0; i < a.length; i++) {
+    if (typeof a[i] !== 'object' || a[i] === null) {
+      return false;
+    }
+  }
 
   return true;
 }
@@ -505,66 +551,104 @@ function _serializeObject(data, collectionName, modelScope) {
   return data;
 }
 
+/**
+ *
+ * @param {unknown} data
+ * @param {string} type
+ * @param {*} modelScope
+ * @returns
+ */
 function _deserializeJSON(data, type, modelScope) {
-  if (data === undefined) return;
+  if (data === undefined) return undefined;
   if (data === null) return null;
 
   if (type === 'Relation' && data.__type === 'Relation') {
     return undefined; // Ignore relation fields
-  } else if (type === 'Pointer' && data.__type === 'Pointer') {
-    // This is a pointer type, resolve into id
+  }
+
+  // This is a pointer type, resolve into id
+  if (type === 'Pointer' && data.__type === 'Pointer') {
     return data.objectId;
-  } else if (type === 'Date' && data.__type === 'Date') {
+  }
+
+  if (type === 'Date' && data.__type === 'Date') {
     return new Date(data.iso);
-  } else if (type === 'Date' && typeof data === 'string') {
+  }
+
+  if (type === 'Date' && typeof data === 'string') {
     return new Date(data);
-  } else if (type === 'File' && data.__type === 'File') {
+  }
+
+  if (type === 'File' && data.__type === 'File') {
     return new CloudFile(data);
-  } else if (type === 'GeoPoint' && data.__type === 'GeoPoint') {
+  }
+
+  if (type === 'GeoPoint' && data.__type === 'GeoPoint') {
     return {
       latitude: data.latitude,
       longitude: data.longitude
     };
-  } else if (_isArrayOfObjects(data)) {
-    var a = [];
-    for (var i = 0; i < data.length; i++) {
+  }
+
+  if (_isArrayOfObjects(data)) {
+    const a = [];
+    for (let i = 0; i < data.length; i++) {
       a.push(_deserializeJSON(data[i], undefined, modelScope));
     }
-    var c = Collection.get();
+    const c = Collection.get();
     c.set(a);
     return c;
-  } else if (Array.isArray(data)) return data;
+  }
+
+  // An array with mixed types
+  if (Array.isArray(data)) {
+    return data;
+  }
+
   // This is an array with mixed data, just return it
-  else if (data && data.__type === 'Object' && data.className !== undefined && data.objectId !== undefined) {
+  if (data && data.__type === 'Object' && data.className !== undefined && data.objectId !== undefined) {
     const _data = Object.assign({}, data);
     delete _data.className;
     delete _data.__type;
     return _fromJSON(_data, data.className, modelScope);
-  } else if (typeof data === 'object' && data !== null) {
-    var m = (modelScope || Model).get();
-    for (var key in data) {
-      m.set(key, _deserializeJSON(data[key], undefined, modelScope));
+  }
+
+  if (typeof data === 'object' && data !== null) {
+    // Try to get the model by id, if it is defined, otherwise we create a new unique id.
+    const model = (modelScope || Model).get(data.id);
+    for (const key in data) {
+      const nestedValue = _deserializeJSON(data[key], undefined, modelScope);
+      model.set(key, nestedValue);
     }
-    return m;
-  } else return data;
+    return model;
+  }
+
+  return data;
 }
 
 function _fromJSON(item, collectionName, modelScope) {
-  const m = (modelScope || Model).get(item.objectId);
-  m._class = collectionName;
+  const modelStore = modelScope || Model;
 
-  if (collectionName !== undefined && CloudStore._collections[collectionName] !== undefined)
-    var schema = CloudStore._collections[collectionName].schema;
+  // Try to get the model by the object id (record) or id, otherwise we create a new unique id.
+  const model = modelStore.get(item.objectId || item.id);
+  model._class = collectionName;
 
-  for (var key in item) {
-    if (key === 'objectId' || key === 'ACL') continue;
-
-    var _type = schema && schema.properties && schema.properties[key] ? schema.properties[key].type : undefined;
-
-    m.set(key, _deserializeJSON(item[key], _type, modelScope));
+  let schema = undefined;
+  if (collectionName !== undefined && CloudStore._collections[collectionName] !== undefined) {
+    schema = CloudStore._collections[collectionName].schema;
   }
 
-  return m;
+  for (const key in item) {
+    if (key === 'objectId' || key === 'ACL') {
+      continue;
+    }
+
+    const _type = schema && schema.properties && schema.properties[key] ? schema.properties[key].type : undefined;
+    const nestedValue = _deserializeJSON(item[key], _type, modelScope);
+    model.set(key, nestedValue);
+  }
+
+  return model;
 }
 
 CloudStore._fromJSON = _fromJSON;

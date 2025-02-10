@@ -1,7 +1,7 @@
 {
   "name": "@noodl/cloud-runtime",
-  "author": "Noodl <info@noodl.net>",
-  "homepage": "https://noodl.net",
+  "author": "Fluxscape <contact@fluxscape.io>",
+  "homepage": "https://fluxscape.io",
   "version": "0.6.3",
   "license": "MIT",
   "main": "dist/main.js",

@@ -27,6 +27,7 @@ const RangeNode = {
     ]
   },
   initialize() {
+    this.props.attrs = {};
     this.props.sizeMode = 'contentHeight';
     this.props.id = 'input-' + guid();
 
@@ -66,6 +67,16 @@ const RangeNode = {
       index: 100,
       set(value) {
         this._setInputValue(value);
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
       }
     }
   },

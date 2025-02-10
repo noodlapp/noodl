@@ -1,10 +1,10 @@
 {
-  "name": "noodl-editor",
-  "productName": "Noodl Editor",
-  "description": "Low-code for when experience matter",
-  "author": "Noodl <info@noodl.net>",
-  "homepage": "https://noodl.net",
-  "version": "1.0.1",
+  "name": "fluxscape-editor",
+  "productName": "Fluxscape",
+  "description": "Node-Based App Builder for Scalability & Rapid Development, a fork of Noodl",
+  "author": "Fluxscape <contact@fluxscape.io>",
+  "homepage": "https://fluxscape.io",
+  "version": "1.1.0",
   "main": "src/main/main.js",
   "scripts": {
     "build": "npx ts-node -P ./tsconfig.build.json ./scripts/build.ts",
@@ -15,17 +15,30 @@
     "test:ci": "webpack-cli --config=webpackconfigs/webpack.test-ci.js && electron test.js"
   },
   "build": {
-    "appId": "noodl.net.noodl-editor",
+    "appId": "fluxscape.net.fluxscape",
+    "afterSign": "./build/macos-notarize.js",
+    "mac": {
+      "hardenedRuntime": true,
+      "entitlements": "build/entitlements.mac.plist",
+      "extendInfo": {
+        "LSMultipleInstancesProhibited": true,
+        "NSMicrophoneUsageDescription": "Allow Fluxscape apps that you create and run to access the microphone?",
+        "NSCameraUsageDescription": "Allow Fluxscape apps that you create and run to access the camera?"
+      }
+    },
     "win": {
       "target": "nsis"
     },
     "nsis": {
-      "guid": "noodl.net.noodl-editor"
+      "guid": "fluxscape.net.fluxscape"
+    },
+    "linux": {
+      "target": "deb"
     },
     "protocols": {
-      "name": "noodl",
+      "name": "fluxscape",
       "schemes": [
-        "noodl"
+        "fluxscape"
       ]
     },
     "npmRebuild": false,
@@ -45,7 +58,7 @@
     ]
   },
   "dependencies": {
-    "@electron/remote": "^2.1.1",
+    "@electron/remote": "^2.1.2",
     "@jaames/iro": "^5.5.2",
     "@microsoft/fetch-event-source": "^2.0.1",
     "@noodl/git": "file:../noodl-git",
@@ -101,7 +114,7 @@
     "babel-loader": "^8.2.4",
     "concurrently": "^7.4.0",
     "css-loader": "^6.7.1",
-    "electron": "28.1.4",
+    "electron": "31.3.1",
     "electron-builder": "^24.9.1",
     "file-loader": "^6.2.0",
     "html-loader": "^3.1.0",

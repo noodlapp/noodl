@@ -1,4 +1,5 @@
 const JavascriptNodeParser = require('../../javascriptnodeparser');
+const { logJavaScriptNodeError } = require('../../utils');
 
 const SimpleJavascriptNode = {
   name: 'JavaScriptFunction',
@@ -139,11 +140,8 @@ const SimpleJavascriptNode = {
           JavascriptNodeParser.getComponentScopeForNode(this)
         ]);
       } catch (e) {
-        console.log(
-          'Error in JS node run code.',
-          Object.getPrototypeOf(e).constructor.name + ': ' + e.message,
-          e.stack
-        );
+        logJavaScriptNodeError(e);
+
         if (this.context.editorConnection && this.context.isWarningTypeEnabled('javascriptExecution')) {
           this.context.editorConnection.sendWarning(
             this.nodeScope.componentOwner.name,

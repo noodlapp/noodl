@@ -11,6 +11,14 @@ export interface ArrayDiff<T> {
   changed: T[];
   unchanged: T[];
 }
+export function createEmptyArrayDiff<T>(): ArrayDiff<T> {
+  return {
+    deleted: [],
+    created: [],
+    changed: [],
+    unchanged: [],
+  }
+}
 
 export interface ProjectDiffItem {
   graph: TSFixme;

@@ -1,8 +1,8 @@
 'use strict';
 
-const Node = require('@noodl/runtime').Node,
-  JavascriptNodeParser = require('@noodl/runtime/src/javascriptnodeparser');
-
+const Node = require('@noodl/runtime').Node;
+const JavascriptNodeParser = require('@noodl/runtime/src/javascriptnodeparser');
+const { logJavaScriptNodeError } = require('@noodl/runtime/src/utils');
 const guid = require('../../guid');
 
 /*const defaultCode = "define({\n"+
@@ -372,7 +372,8 @@ var Javascript = {
           internal.changedInputs
         );
       } catch (e) {
-        console.log('Error in JS node run code.', Object.getPrototypeOf(e).constructor.name + ': ' + e.message);
+        logJavaScriptNodeError(e);
+
         if (this.context.editorConnection && this.context.isWarningTypeEnabled('javascriptExecution')) {
           this.context.editorConnection.sendWarning(this.nodeScope.componentOwner.name, this.id, 'js-run-waring', {
             showGlobally: true,

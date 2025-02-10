@@ -5,6 +5,8 @@ import { useSidePanelKeyboardCommands } from '@noodl-hooks/useKeyboardCommands';
 import classNames from 'classnames';
 import React, { useEffect, useRef, useState } from 'react';
 
+import { ComponentModel } from '@noodl-models/componentmodel';
+import { NodeGraphNode } from '@noodl-models/nodegraphmodel';
 import { KeyCode, KeyMod } from '@noodl-utils/keyboard/KeyCode';
 import { performSearch } from '@noodl-utils/universal-search';
 
@@ -54,7 +56,7 @@ export function SearchPanel() {
     }
   }, [debouncedSearchTerm]);
 
-  function onSearchItemClicked(searchResult) {
+  function onSearchItemClicked(searchResult: SearchResultItem) {
     if (searchResult.type === 'Component') {
       NodeGraphContextTmp.switchToComponent(searchResult.componentTarget, {
         breadcrumbs: false,
@@ -85,29 +87,7 @@ export function SearchPanel() {
 
       <div className={css.SearchResults}>
         {searchResults.map((component) => (
-          <Section
-            title={`${component.componentName} (${component.results.length} result${
-              component.results.length > 1 ? 's' : ''
-            })`}
-            key={component.componentId}
-            variant={SectionVariant.Panel}
-          >
-            {component.results.map((result, index) => (
-              <div
-                className={classNames(
-                  css.SearchResultItem
-                  // lastActiveComponentId === result.componentTarget.id && css['is-active']
-                )}
-                key={index}
-                onClick={() => onSearchItemClicked(result)}
-              >
-                <Label variant={TextType.Proud}>
-                  {result.userLabel ? result.type + ' - ' + result.userLabel : result.type}
-                </Label>
-                <Text>{result.label}</Text>
-              </div>
-            ))}
-          </Section>
+          <SearchItem key={component.componentId} component={component} onSearchItemClicked={onSearchItemClicked} />
         ))}
         {searchResults.length === 0 && debouncedSearchTerm.length > 0 && (
           <Container hasXSpacing hasYSpacing>
@@ -116,5 +96,53 @@ export function SearchPanel() {
         )}
       </div>
     </BasePanel>
+  );
+}
+
+type SearchResultItem = {
+  componentTarget: ComponentModel;
+  label: string;
+  nodeTarget: NodeGraphNode;
+  type: string;
+  userLabel: string;
+};
+
+type SearchItemProps = {
+  component: {
+    componentName: string;
+    componentId: string;
+    results: SearchResultItem[];
+  };
+  onSearchItemClicked: (item: SearchResultItem) => void;
+};
+
+function SearchItem({ component, onSearchItemClicked }: SearchItemProps) {
+  const resultCountText = `${component.results.length} result${component.results.length > 1 ? 's' : ''}`;
+  let titleText = `${component.componentName} (${resultCountText})`;
+
+  // We expect there to always be at least one result, to get the full component name.
+  const isInCloudFunctions = component.results[0].componentTarget.name.startsWith('/#__cloud__/');
+  if (isInCloudFunctions) {
+    titleText += ' (Cloud Function)';
+  }
+
+  return (
+    <Section title={titleText} variant={SectionVariant.Panel}>
+      {component.results.map((result, index) => (
+        <div
+          className={classNames(
+            css.SearchResultItem
+            // lastActiveComponentId === result.componentTarget.id && css['is-active']
+          )}
+          key={index}
+          onClick={() => onSearchItemClicked(result)}
+        >
+          <Label variant={TextType.Proud}>
+            {result.userLabel ? result.type + ' - ' + result.userLabel : result.type}
+          </Label>
+          <Text>{result.label}</Text>
+        </div>
+      ))}
+    </Section>
   );
 }

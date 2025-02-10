@@ -43,6 +43,10 @@ const OpenFilePicker = {
 
         input.accept = this._internal.acceptedFileTypes;
 
+        if (this._internal.capture) {
+          input.capture = this._internal.capture;
+        }
+
         input.onchange = onChange;
         input.click();
       }
@@ -53,6 +57,14 @@ const OpenFilePicker = {
       displayName: 'Accepted file types',
       set(value) {
         this._internal.acceptedFileTypes = value;
+      }
+    },
+    capture: {
+      group: 'General',
+      type: 'string',
+      displayName: 'Capture',
+      set(value) {
+        this._internal.capture = value;
       }
     }
   },

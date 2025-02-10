@@ -67,7 +67,7 @@ function startServer(app, projectGetSettings, projectGetInfo, projectGetComponen
         ProjectModules.instance.injectIntoHtml(info.projectDirectory, data, '/', function (injected) {
           projectGetSettings((settings) => {
             settings = settings || {};
-            injected = injected.replace('{{#title#}}', settings.htmlTitle || 'Noodl Viewer');
+            injected = injected.replace('{{#title#}}', settings.htmlTitle || 'Fluxscape Viewer');
             injected = injected.replace('{{#customHeadCode#}}', settings.headCode || '');
 
             response.writeHead(200, {

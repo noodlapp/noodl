@@ -2,6 +2,8 @@ const StringFormatDefinition = {
   name: 'String Format',
   docs: 'https://docs.noodl.net/nodes/string-manipulation/string-format',
   category: 'String Manipulation',
+  usePortAsLabel: 'format',
+  portLabelTruncationMode: 'length',
   initialize() {
     const internal = this._internal;
     internal.format = '';

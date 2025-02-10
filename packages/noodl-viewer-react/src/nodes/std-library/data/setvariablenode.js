@@ -1,20 +1,24 @@
 'use strict';
 
-const { Node } = require('@noodl/runtime');
-
 const Model = require('@noodl/runtime/src/model');
 const Collection = require('@noodl/runtime/src/collection');
 
-var SetVariableNodeDefinition = {
+const SetVariableNodeDefinition = {
   name: 'Set Variable',
   docs: 'https://docs.noodl.net/nodes/data/variable/set-variable',
   category: 'Data',
   usePortAsLabel: 'name',
   color: 'data',
   initialize: function () {
-    var internal = this._internal;
-
+    const internal = this._internal;
     internal.variablesModel = Model.get('--ndl--global-variables');
+  },
+  getInspectInfo() {
+    if (this._internal.name) {
+      return this._internal.variablesModel.get(this._internal.name);
+    }
+
+    return '[No value set]';
   },
   outputs: {
     done: {
@@ -74,17 +78,22 @@ var SetVariableNodeDefinition = {
       if (this.hasScheduledStore) return;
       this.hasScheduledStore = true;
 
-      var internal = this._internal;
+      const internal = this._internal;
       this.scheduleAfterInputsHaveUpdated(function () {
         this.hasScheduledStore = false;
 
-        var value = internal.setWith === 'emptyString' ? '' : internal.value;
+        let value = internal.setWith === 'emptyString' ? '' : internal.value;
 
-        if (internal.setWith === 'object' && typeof value === 'string') value = Model.get(value); // Can set arrays with "id" or array
-        if (internal.setWith === 'array' && typeof value === 'string') value = Collection.get(value); // Can set arrays with "id" or array
+        // Can set arrays with "id" or array
+        if (internal.setWith === 'object' && typeof value === 'string') value = Model.get(value);
+
+        // Can set arrays with "id" or array
+        if (internal.setWith === 'array' && typeof value === 'string') value = Collection.get(value);
+
         if (internal.setWith === 'boolean') value = !!value;
 
-        //use forceChange to always trigger Variable nodes to send the value on their output, even if it's the same value twice
+        // use forceChange to always trigger Variable nodes to send the value on
+        // their output, even if it's the same value twice
         internal.variablesModel.set(internal.name, value, {
           forceChange: true
         });
@@ -96,10 +105,11 @@ var SetVariableNodeDefinition = {
         return;
       }
 
-      if (name === 'value')
+      if (name === 'value') {
         this.registerInput(name, {
           set: this.setValue.bind(this)
         });
+      }
     }
   }
 };

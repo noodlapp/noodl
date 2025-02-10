@@ -23,7 +23,7 @@ const ColumnsNode = {
     ]
   },
 
-  initialize() {
+  initialize() {    this.props.attrs = {};
     this.props.layoutString = '1 2 1';
     this.props.minWidth = 0;
     this.props.marginX = 16;
@@ -62,6 +62,16 @@ const ColumnsNode = {
           );
         }
 
+        this.forceUpdate();
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
         this.forceUpdate();
       }
     }

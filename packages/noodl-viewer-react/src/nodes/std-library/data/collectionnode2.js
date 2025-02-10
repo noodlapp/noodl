@@ -2,8 +2,7 @@
 
 const { Node } = require('@noodl/runtime');
 
-var Model = require('@noodl/runtime/src/model'),
-  Collection = require('@noodl/runtime/src/collection');
+const Collection = require('@noodl/runtime/src/collection');
 
 var CollectionNode = {
   name: 'Collection2',
@@ -27,6 +26,7 @@ var CollectionNode = {
 
       _this.scheduleAfterInputsHaveUpdated(function () {
         _this.sendSignalOnOutput('changed');
+        _this.flagOutputDirty('firstItemId');
         _this.flagOutputDirty('count');
         collectionChangedScheduled = false;
       });
@@ -117,6 +117,17 @@ var CollectionNode = {
         return this._internal.collection;
       }
     },
+    firstItemId: {
+      type: 'string',
+      displayName: 'First Item Id',
+      group: 'General',
+      getter: function () {
+        if (this._internal.collection) {
+          var firstItem = this._internal.collection.get(0);
+          if (firstItem !== undefined) return firstItem.getId();
+        }
+      }
+    },
     count: {
       type: 'number',
       displayName: 'Count',
@@ -150,6 +161,7 @@ var CollectionNode = {
       collection.on('change', this._internal.collectionChangedCallback);
 
       this.flagOutputDirty('items');
+      this.flagOutputDirty('firstItemId');
       this.flagOutputDirty('count');
     },
     setSourceCollection: function (collection) {

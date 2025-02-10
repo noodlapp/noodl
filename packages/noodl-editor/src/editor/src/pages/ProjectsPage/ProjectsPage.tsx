@@ -109,7 +109,7 @@ function TopBar({ showSpinner, setShowSpinner }: TopBarProps) {
           }}
         />
         <TextButton label="Docs" onClick={() => platform.openExternal(getDocsEndpoint())} />
-        <TextButton label="Community" onClick={() => platform.openExternal('https://www.noodl.net/community')} />
+        <TextButton label="Community" onClick={() => platform.openExternal('https://www.fluxscape.io/community')} />
       </HStack>
     </div>
   );

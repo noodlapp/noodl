@@ -2,10 +2,10 @@
 
 const { Node, EdgeTriggeredInput } = require('../../../../noodl-runtime');
 
-var Model = require('../../../model');
+const Model = require('../../../model');
 const CloudStore = require('../../../api/cloudstore');
 
-var ModelNodeDefinition = {
+const ModelNodeDefinition = {
   name: 'DbModel2',
   docs: 'https://docs.noodl.net/nodes/data/cloud-data/record',
   displayNodeName: 'Record',
@@ -21,11 +21,11 @@ var ModelNodeDefinition = {
     }
   ],
   initialize: function () {
-    var internal = this._internal;
+    const internal = this._internal;
     internal.inputValues = {};
     internal.relationModelIds = {};
 
-    var _this = this;
+    const _this = this;
     this._internal.onModelChangedCallback = function (args) {
       if (_this.isInputConnected('fetch')) return;
 
@@ -109,13 +109,18 @@ var ModelNodeDefinition = {
       displayName: 'Id',
       group: 'General',
       set: function (value) {
-        if (value instanceof Model) value = value.getId();
-        // Can be passed as model as well
-        else if (typeof value === 'object') value = Model.create(value).getId(); // If this is an js object, dereference it
+        if (value instanceof Model) {
+          // Can be passed as model as well
+          value = value.getId();
+        } else if (typeof value === 'object') {
+          // If this is an js object, dereference it
+          value = Model.create(value).getId();
+        }
 
         this._internal.modelId = value; // Wait to fetch data
-        if (this.isInputConnected('fetch') === false) this.setModelID(value);
-        else {
+        if (this.isInputConnected('fetch') === false) {
+          this.setModelID(value);
+        } else {
           this.flagOutputDirty('id');
         }
       }
@@ -138,9 +143,10 @@ var ModelNodeDefinition = {
       this.setModel(model);
     },
     setModel: function (model) {
-      if (this._internal.model)
+      if (this._internal.model) {
         // Remove old listener if existing
         this._internal.model.off('change', this._internal.onModelChangedCallback);
+      }
 
       this._internal.model = model;
       this.flagOutputDirty('id');
@@ -148,7 +154,9 @@ var ModelNodeDefinition = {
 
       // We have a new model, mark all outputs as dirty
       for (var key in model.data) {
-        if (this.hasOutput('prop-' + key)) this.flagOutputDirty('prop-' + key);
+        if (this.hasOutput('prop-' + key)) {
+          this.flagOutputDirty('prop-' + key);
+        }
       }
       this.sendSignalOnOutput('fetched');
     },
@@ -184,7 +192,7 @@ var ModelNodeDefinition = {
       }
     },
     scheduleFetch: function () {
-      var _this = this;
+      const _this = this;
       const internal = this._internal;
 
       this.scheduleOnce('Fetch', function () {
@@ -199,12 +207,13 @@ var ModelNodeDefinition = {
           collection: internal.collectionId,
           objectId: internal.modelId, // Get the objectId part of the model id
           success: function (response) {
-            var model = cloudstore._fromJSON(response, internal.collectionId);
+            const model = cloudstore._fromJSON(response, internal.collectionId);
             if (internal.model !== model) {
               // Check if we need to change model
-              if (internal.model)
+              if (internal.model) {
                 // Remove old listener if existing
                 internal.model.off('change', internal.onModelChangedCallback);
+              }
 
               internal.model = model;
               model.on('change', internal.onModelChangedCallback);
@@ -213,8 +222,10 @@ var ModelNodeDefinition = {
 
             delete response.objectId;
 
-            for (var key in response) {
-              if (_this.hasOutput('prop-' + key)) _this.flagOutputDirty('prop-' + key);
+            for (const key in response) {
+              if (_this.hasOutput('prop-' + key)) {
+                _this.flagOutputDirty('prop-' + key);
+              }
             }
 
             _this.sendSignalOnOutput('fetched');
@@ -226,7 +237,6 @@ var ModelNodeDefinition = {
       });
     },
     scheduleStore: function () {
-      var _this = this;
       var internal = this._internal;
       if (!internal.model) return;
 
@@ -247,8 +257,6 @@ var ModelNodeDefinition = {
         });
     },
     registerInputIfNeeded: function (name) {
-      var _this = this;
-
       if (this.hasInput(name)) {
         return;
       }
@@ -328,8 +336,7 @@ function updatePorts(nodeId, parameters, editorConnection, graphModel) {
         var p = props[key];
         if (ports.find((_p) => _p.name === key)) continue;
 
-        if (p.type === 'Relation') {
-        } else {
+        if (p.type !== 'Relation') {
           // Other schema type ports
           const _typeMap = {
             String: 'string',
@@ -373,16 +380,16 @@ module.exports = {
     function _managePortsForNode(node) {
       updatePorts(node.id, node.parameters, context.editorConnection, graphModel);
 
-      node.on('parameterUpdated', function (event) {
+      node.on('parameterUpdated', function () {
         updatePorts(node.id, node.parameters, context.editorConnection, graphModel);
       });
 
-      graphModel.on('metadataChanged.dbCollections', function (data) {
+      graphModel.on('metadataChanged.dbCollections', function () {
         CloudStore.invalidateCollections();
         updatePorts(node.id, node.parameters, context.editorConnection, graphModel);
       });
 
-      graphModel.on('metadataChanged.systemCollections', function (data) {
+      graphModel.on('metadataChanged.systemCollections', function () {
         CloudStore.invalidateCollections();
         updatePorts(node.id, node.parameters, context.editorConnection, graphModel);
       });

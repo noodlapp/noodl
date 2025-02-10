@@ -131,6 +131,59 @@ declare namespace Noodl {
    */
   const Events: EventsApi;
 
+  type RecordQuery<T> =
+    {
+      lessThan: T
+    } |
+    {
+      lessThanOrEqualTo: T
+    } |
+    {
+      greaterThan: T
+    } |
+    {
+      greaterThanOrEqualTo: T
+    } |
+    {
+      equalTo: T
+    } |
+    {
+      notEqualTo: T
+    } |
+    {
+      containedIn: T
+    } |
+    {
+      notContainedIn : T
+    } |
+    {
+      exists: T
+    } |
+    {
+      matchesRegex: T
+    } |
+    {
+      text: T
+    } |
+    {
+      idEqualTo: T
+    } |
+    {
+      idContainedIn: T
+    } |
+    {
+      pointsTo: T
+    } |
+    {
+      relatedTo: T
+    };
+
+  type RecordQueryField<T> = T extends RecordQuery<any> ?
+    { [K in keyof T]: { [P in K]: T[P] } & Partial<Record<Exclude<keyof T, K>, never>> }[keyof T]
+    : never;
+
+  type RecordSortKey<T extends string> = (`${T}` | `-${T}`)[];
+
   interface RecordsApi {
     /**
      * This is an async function that will query the database using the query
@@ -172,15 +225,17 @@ declare namespace Noodl {
      *  })
      * ```
      */
-    query(
-      className: RecordClassName,
-      query?: any,
+    query<TClassName extends RecordClassName>(
+      className: TClassName,
+      query?:
+        RecordQueryField<{ [K in keyof DatabaseSchema[TClassName]]: RecordQuery<any> }> |
+        { and: RecordQueryField<{ [K in keyof DatabaseSchema[TClassName]]: RecordQuery<any> }>[] },
       options?: {
         limit?: number;
         skip?: number;
-        sort?: string[];
-        include?: any;
-        select?: any;
+        sort?: string | RecordSortKey<keyof DatabaseSchema[TClassName]>;
+        include?: string | (keyof DatabaseSchema[TClassName])[];
+        select?: string | (keyof DatabaseSchema[TClassName])[];
       }
     ): Promise<any>;
 
@@ -219,6 +274,9 @@ declare namespace Noodl {
       objectOrId: string | { getId(): string; },
       options?: {
         className?: RecordClassName;
+        keys?: string[] | string;
+        include?: string[] | string;
+        excludeKeys?: string[] | string;
       }
     ): Promise<any>;
 
@@ -427,7 +485,12 @@ declare namespace Noodl {
   const Records: RecordsApi;
 
   interface CurrentUserObject {
-    UserId: string;
+    id: string;
+    email: string;
+    emailVerified: boolean;
+    username: string;
+
+    Properties: unknown;
 
     /**
      * Log out the current user and terminate the session.

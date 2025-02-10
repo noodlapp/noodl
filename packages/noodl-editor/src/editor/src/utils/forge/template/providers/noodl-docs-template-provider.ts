@@ -6,7 +6,7 @@ import { ITemplateProvider, ProgressCallback, TemplateItem, TemplateListFilter }
  */
 export class NoodlDocsTemplateProvider implements ITemplateProvider {
   get name(): string {
-    return 'https://docs.noodl.net';
+    return this.getDocsEndpoint() || 'https://docs.fluxscape.io';
   }
 
   constructor(private readonly getDocsEndpoint: () => string) {}

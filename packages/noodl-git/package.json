@@ -3,8 +3,8 @@
   "version": "2.7.0",
   "main": "src/index.ts",
   "description": "",
-  "author": "Noodl <info@noodl.net>",
-  "homepage": "https://noodl.net",
+  "author": "Fluxscape <contact@fluxscape.io>",
+  "homepage": "https://fluxscape.io",
   "dependencies": {
     "desktop-trampoline": "https://github.com/desktop/desktop-trampoline/archive/refs/tags/v0.9.8.tar.gz",
     "dugite": "^1.106.0",

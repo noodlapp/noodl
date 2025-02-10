@@ -7,6 +7,8 @@ import { Noodl } from '../../../types';
 export interface TextProps extends Noodl.ReactProps {
   as?: keyof JSX.IntrinsicElements | React.ComponentType<unknown>;
 
+  attrs: React.Attributes;
+
   textStyle: Noodl.TextStyle;
   text: string;
 
@@ -48,6 +50,7 @@ export function Text(props: TextProps) {
   return (
     <Component
       className={['ndl-visual-text', props.className].join(' ')}
+      {...props.attrs}
       {...props.dom}
       {...PointerListeners(props)}
       style={style}

@@ -3,8 +3,8 @@
   "version": "2.7.0",
   "main": "src/index.ts",
   "description": "Cross platform implementation of platform specific features.",
-  "author": "Noodl <info@noodl.net>",
-  "homepage": "https://noodl.net",
+  "author": "Fluxscape <contact@fluxscape.io>",
+  "homepage": "https://fluxscape.io",
   "dependencies": {
     "@noodl/platform": "file:../noodl-platform",
     "@noodl/platform-node": "file:../noodl-platform-node"

@@ -22,7 +22,11 @@ export async function open(basePath: string): Promise<string> {
   //   console.log("VCS error when opening project: " + e);
   // }
 
-  return basePath;
+
+  // Find the relative git repository path
+  const repositoryPath = await getTopLevelWorkingDirectory(basePath);
+
+  return repositoryPath;
 }
 
 /**

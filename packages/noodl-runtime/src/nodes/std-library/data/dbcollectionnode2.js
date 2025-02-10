@@ -28,6 +28,7 @@ var DbCollectionNode = {
       _this.scheduleAfterInputsHaveUpdated(function () {
         _this.flagOutputDirty('count');
         _this.flagOutputDirty('firstItemId');
+        _this.flagOutputDirty('isEmpty');
         collectionChangedScheduled = false;
       });
     };
@@ -66,6 +67,7 @@ var DbCollectionNode = {
 
         _this.flagOutputDirty('count');
         _this.flagOutputDirty('firstItemId');
+        _this.flagOutputDirty('isEmpty');
       }
 
       if (args.type === 'create') {
@@ -91,6 +93,7 @@ var DbCollectionNode = {
 
             _this.flagOutputDirty('count');
             _this.flagOutputDirty('firstItemId');
+            _this.flagOutputDirty('isEmpty');
           } else if (matchesQuery && !_this._internal.collection.contains(m)) {
             // It's not part of the result collection but now matches they query, add it and resort
             _addModelAtCorrectIndex(m);
@@ -106,6 +109,7 @@ var DbCollectionNode = {
 
           _this.flagOutputDirty('count');
           _this.flagOutputDirty('firstItemId');
+          _this.flagOutputDirty('isEmpty');
         }
       }
     };
@@ -153,6 +157,17 @@ var DbCollectionNode = {
         }
       }
     },
+    isEmpty: {
+      type: 'boolean',
+      displayName: 'Is Empty',
+      group: 'General',
+      getter: function () {
+        if (this._internal.collection) {
+          return this._internal.collection.size() === 0;
+        }
+        return true;
+      }
+    },
     count: {
       type: 'number',
       displayName: 'Count',
@@ -189,6 +204,7 @@ var DbCollectionNode = {
     setCollection: function (collection) {
       this.bindCollection(collection);
       this.flagOutputDirty('firstItemId');
+      this.flagOutputDirty('isEmpty');
       this.flagOutputDirty('items');
       this.flagOutputDirty('count');
     },
@@ -257,7 +273,7 @@ var DbCollectionNode = {
         limit: limit,
         skip: skip,
         count: count,
-        success: (results,count) => {
+        success: (results, count) => {
           if (results !== undefined) {
             _c.set(
               results.map((i) => {
@@ -267,10 +283,9 @@ var DbCollectionNode = {
               })
             );
           }
-          if(count !== undefined) {
+          if (count !== undefined) {
             this._internal.storageSettings.storageTotalCount = count;
-            if(this.hasOutput('storageTotalCount')) 
-              this.flagOutputDirty('storageTotalCount');
+            if (this.hasOutput('storageTotalCount')) this.flagOutputDirty('storageTotalCount');
           }
           this.setCollection(_c);
           this.sendSignalOnOutput('fetched');
@@ -383,7 +398,7 @@ var DbCollectionNode = {
       if (!storageSettings['storageEnableLimit']) return;
       else return storageSettings['storageSkip'] || 0;
     },
-    getStorageFetchTotalCount: function() {
+    getStorageFetchTotalCount: function () {
       const storageSettings = this._internal.storageSettings;
 
       return !!storageSettings['storageEnableCount'];

@@ -15,6 +15,8 @@ const SKIP_GIT_CHECK = args.includes('--skip-git');
 
 const WORKSPACE_PATH = path.resolve(__dirname, '..');
 const TARGET_PLATFORM = process.env.TARGET_PLATFORM || getCurrentPlatform();
+const DISABLE_SIGNING = process.env.DISABLE_SIGNING;
+const CSC_NAME = process.env.CSC_NAME;
 
 // Debug Configuration
 console.log('--- Configuration');
@@ -73,6 +75,8 @@ try {
     env: {
       ...process.env,
       WORKSPACE_PATH,
+      DISABLE_SIGNING,
+      CSC_NAME,
     }
   });
 } catch (error) {
@@ -82,7 +86,7 @@ try {
 
   if (process.platform === 'darwin') {
     // NOTE: /node_modules/app-builder-lib/templates/entitlements.mac.plist is missing
-    execSync(`ls /node_modules/app-builder-lib/templates`, {
+    execSync(`ls ./node_modules/app-builder-lib/templates`, {
       stdio: 'inherit',
       env: process.env
     });

@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-var Model = require("./model");
+var Model = require('./model');
 
 // Get and set proxy
 /*const proxies = {}
@@ -221,48 +221,48 @@ Collection.prototype.toJSON = function() {
 }*/
 
 // ----
-Object.defineProperty(Array.prototype, "items", {
+Object.defineProperty(Array.prototype, 'items', {
   enumerable: false,
   get() {
     return this;
   },
   set(data) {
     this.set(data);
-  },
+  }
 });
-Object.defineProperty(Array.prototype, "each", {
+Object.defineProperty(Array.prototype, 'each', {
   enumerable: false,
   writable: false,
-  value: Array.prototype.forEach,
+  value: Array.prototype.forEach
 });
-Object.defineProperty(Array.prototype, "size", {
+Object.defineProperty(Array.prototype, 'size', {
   enumerable: false,
   writable: false,
   value: function () {
     return this.length;
-  },
+  }
 });
-Object.defineProperty(Array.prototype, "get", {
+Object.defineProperty(Array.prototype, 'get', {
   enumerable: false,
   writable: false,
   value: function (index) {
     return this[index];
-  },
+  }
 });
-Object.defineProperty(Array.prototype, "getId", {
+Object.defineProperty(Array.prototype, 'getId', {
   enumerable: false,
   writable: false,
   value: function () {
     return this._id;
-  },
+  }
 });
-Object.defineProperty(Array.prototype, "id", {
+Object.defineProperty(Array.prototype, 'id', {
   enumerable: false,
   get() {
     return this.getId();
-  },
+  }
 });
-Object.defineProperty(Array.prototype, "set", {
+Object.defineProperty(Array.prototype, 'set', {
   enumerable: false,
   writable: false,
   value: function (src) {
@@ -323,10 +323,10 @@ Object.defineProperty(Array.prototype, "set", {
     for (i = aItems.length; i < bItems.length; i++) {
       this.add(bItems[i]);
     }
-  },
+  }
 });
 
-Object.defineProperty(Array.prototype, "notify", {
+Object.defineProperty(Array.prototype, 'notify', {
   enumerable: false,
   writable: false,
   value: async function (event, args) {
@@ -337,80 +337,80 @@ Object.defineProperty(Array.prototype, "notify", {
     for (var i = 0; i < l.length; i++) {
       await l[i](args);
     }
-  },
+  }
 });
 
-Object.defineProperty(Array.prototype, "contains", {
+Object.defineProperty(Array.prototype, 'contains', {
   enumerable: false,
   writable: false,
   value: function (item) {
     return this.indexOf(item) !== -1;
-  },
+  }
 });
 
-Object.defineProperty(Array.prototype, "add", {
+Object.defineProperty(Array.prototype, 'add', {
   enumerable: false,
   writable: false,
   value: async function (item) {
     if (this.contains(item)) return; // Already contains item
 
     this.items.push(item);
-    await this.notify("add", { item: item, index: this.items.length - 1 });
-    await this.notify("change");
-    await item.notify("add", { collection: this });
-  },
+    await this.notify('add', { item: item, index: this.items.length - 1 });
+    await this.notify('change');
+    await item.notify('add', { collection: this });
+  }
 });
 
-Object.defineProperty(Array.prototype, "remove", {
+Object.defineProperty(Array.prototype, 'remove', {
   enumerable: false,
   writable: false,
   value: function (item) {
     var idx = this.items.indexOf(item);
     if (idx !== -1) this.removeAtIndex(idx);
-  },
+  }
 });
 
-Object.defineProperty(Array.prototype, "addAtIndex", {
+Object.defineProperty(Array.prototype, 'addAtIndex', {
   enumerable: false,
   writable: false,
   value: async function (item, index) {
     if (this.contains(item)) return; // Already contains item
 
     this.items.splice(index, 0, item);
-    await this.notify("add", { item: item, index: index });
-    await this.notify("change");
-    await item.notify("add", { collection: this, index: index });
-  },
+    await this.notify('add', { item: item, index: index });
+    await this.notify('change');
+    await item.notify('add', { collection: this, index: index });
+  }
 });
 
-Object.defineProperty(Array.prototype, "removeAtIndex", {
+Object.defineProperty(Array.prototype, 'removeAtIndex', {
   enumerable: false,
   writable: false,
   value: async function (idx) {
     var item = this.items[idx];
     this.items.splice(idx, 1);
-    await this.notify("remove", { item: item, index: idx });
-    await this.notify("change");
-    await item.notify("remove", { collection: this });
-  },
+    await this.notify('remove', { item: item, index: idx });
+    await this.notify('change');
+    await item.notify('remove', { collection: this });
+  }
 });
 
-Object.defineProperty(Array.prototype, "on", {
+Object.defineProperty(Array.prototype, 'on', {
   enumerable: false,
   writable: false,
   value: function (event, listener) {
     if (!this._listeners)
-      Object.defineProperty(this, "_listeners", {
+      Object.defineProperty(this, '_listeners', {
         enumerable: false,
         writable: false,
-        value: {},
+        value: {}
       });
     if (!this._listeners[event]) this._listeners[event] = [];
     this._listeners[event].push(listener);
-  },
+  }
 });
 
-Object.defineProperty(Array.prototype, "off", {
+Object.defineProperty(Array.prototype, 'off', {
   enumerable: false,
   writable: false,
   value: function (event, listener) {
@@ -418,20 +418,20 @@ Object.defineProperty(Array.prototype, "off", {
     if (!this._listeners[event]) return;
     var idx = this._listeners[event].indexOf(listener);
     if (idx !== -1) this._listeners[event].splice(idx, 1);
-  },
+  }
 });
 
 class Collection extends Array {}
 
-var collections = (Collection._collections = {});
+const collections = (Collection._collections = {});
 
 Collection.create = function (items) {
   const name = Model.guid();
   collections[name] = new Collection();
-  Object.defineProperty(collections[name], "_id", {
+  Object.defineProperty(collections[name], '_id', {
     enumerable: false,
     writable: false,
-    value: name,
+    value: name
   });
   if (items) {
     collections[name].set(items);
@@ -439,14 +439,18 @@ Collection.create = function (items) {
   return collections[name];
 };
 
+/**
+ * @param {string} name
+ * @returns {Collection}
+ */
 Collection.get = function (name) {
   if (name === undefined) name = Model.guid();
   if (!collections[name]) {
     collections[name] = new Collection();
-    Object.defineProperty(collections[name], "_id", {
+    Object.defineProperty(collections[name], '_id', {
       enumerable: false,
       writable: false,
-      value: name,
+      value: name
     });
   }
 

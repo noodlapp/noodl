@@ -41,7 +41,7 @@ export class HtmlProcessor {
       baseUrl = baseUrl + '/';
     }
 
-    const title = parameters.title || settings.htmlTitle || 'Noodl Viewer';
+    const title = parameters.title || settings.htmlTitle || 'Fluxscape Viewer';
     let headCode = settings.headCode || '';
 
     if (parameters.headCode) {

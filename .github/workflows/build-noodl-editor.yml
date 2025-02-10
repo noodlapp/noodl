@@ -1,15 +1,15 @@
-name: Build noodl-editor
+name: Build fluxscape-editor
 
 on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-        
+
   # Allows you to run this workflow from another workflow
   workflow_call:
 
   # release:
   #   types: [created]
-    
+
 jobs:
   build_noodl_editor:
     runs-on: ${{ matrix.os }}
@@ -21,22 +21,22 @@ jobs:
           - node: 16
             os: windows-latest
             platform: win32-x64
-          - node: 16
-            os: macos-latest
-            platform: darwin-arm64
-          - node: 16
-            os: macos-latest
-            platform: darwin-x64
           # - node: 16
-          #   os: ubuntu-latest
-          #   platform: linux-x64
+          #   os: macos-latest
+          #   platform: darwin-arm64
+          # - node: 16
+          #   os: macos-latest
+          #   platform: darwin-x64
+          - node: 16
+            os: ubuntu-latest
+            platform: linux-x64
 
     steps:
-      - if: ${{ matrix.platform == 'darwin-arm64' }} 
+      - if: ${{ matrix.platform == 'darwin-arm64' }}
         name: Setup
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' 
+          python-version: '3.11'
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -65,12 +65,13 @@ jobs:
         env:
           WORKSPACE_PATH: .
           TARGET_PLATFORM: ${{ matrix.platform }}
+          DISABLE_SIGNING: true # disable for now
 
       - run: npm run build:editor:pack
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: noodl-editor-${{ matrix.platform }}-${{ github.head_ref }}-${{ github.sha }}
+          name: fluxscape-editor-${{ matrix.platform }}-${{ github.head_ref }}-${{ github.sha }}
           path: publish
-          retention-days: "12"
+          retention-days: '12'

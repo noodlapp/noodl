@@ -12,6 +12,7 @@ function createRecordsAPI(modelScope) {
 
   return {
     async query(className, query, options) {
+      if (typeof className === 'undefined') throw new Error("'className' is undefined");
       return new Promise((resolve, reject) => {
         cloudstore().query({
           collection: className,
@@ -26,9 +27,9 @@ function createRecordsAPI(modelScope) {
           include: options ? options.include : undefined,
           select: options ? options.select : undefined,
           count: options ? options.count : undefined,
-          success: (results,count) => {
+          success: (results, count) => {
             const _results = results.map((r) => cloudstore()._fromJSON(r, className));
-            if(count !== undefined)  resolve({results:_results,count});
+            if (count !== undefined) resolve({ results: _results, count });
             else resolve(_results);
           },
           error: (err) => {
@@ -39,6 +40,7 @@ function createRecordsAPI(modelScope) {
     },
 
     async count(className, query) {
+      if (typeof className === 'undefined') throw new Error("'className' is undefined");
       return new Promise((resolve, reject) => {
         cloudstore().count({
           collection: className,
@@ -60,6 +62,7 @@ function createRecordsAPI(modelScope) {
     },
 
     async distinct(className, property, query) {
+      if (typeof className === 'undefined') throw new Error("'className' is undefined");
       return new Promise((resolve, reject) => {
         cloudstore().distinct({
           collection: className,
@@ -82,6 +85,7 @@ function createRecordsAPI(modelScope) {
     },
 
     async aggregate(className, group, query) {
+      if (typeof className === 'undefined') throw new Error("'className' is undefined");
       return new Promise((resolve, reject) => {
         cloudstore().aggregate({
           collection: className,
@@ -103,19 +107,35 @@ function createRecordsAPI(modelScope) {
       });
     },
 
+    /**
+     *
+     * @param {string | { getId(): string; }} objectOrId
+     * @param {{
+     *    className: string;
+     *    keys?: string[] | string;
+     *    include?: string[] | string;
+     *    excludeKeys?: string[] | string;
+     * }} options
+     * @returns {Promise<unknown>}
+     */
     async fetch(objectOrId, options) {
+      if (typeof objectOrId === 'undefined') return Promise.reject(new Error("'objectOrId' is undefined."));
       if (typeof objectOrId !== 'string') objectOrId = objectOrId.getId();
       const className = (options ? options.className : undefined) || (modelScope || Model).get(objectOrId)._class;
 
       return new Promise((resolve, reject) => {
-        if (!className) return reject('No class name specified');
+        if (!className) {
+          return reject('No class name specified');
+        }
 
         cloudstore().fetch({
           collection: className,
           objectId: objectOrId,
-          include: options ? options.include : undefined,
+          keys: options?.keys,
+          include: options?.include,
+          excludeKeys: options?.excludeKeys,
           success: function (response) {
-            var record = cloudstore()._fromJSON(response, className);
+            const record = cloudstore()._fromJSON(response, className);
             resolve(record);
           },
           error: function (err) {
@@ -126,6 +146,7 @@ function createRecordsAPI(modelScope) {
     },
 
     async increment(objectOrId, properties, options) {
+      if (typeof objectOrId === 'undefined') return Promise.reject(new Error("'objectOrId' is undefined."));
       if (typeof objectOrId !== 'string') objectOrId = objectOrId.getId();
       const className = (options ? options.className : undefined) || (modelScope || Model).get(objectOrId)._class;
 
@@ -149,6 +170,7 @@ function createRecordsAPI(modelScope) {
     },
 
     async save(objectOrId, properties, options) {
+      if (typeof objectOrId === 'undefined') return Promise.reject(new Error("'objectOrId' is undefined."));
       if (typeof objectOrId !== 'string') objectOrId = objectOrId.getId();
       const className = (options ? options.className : undefined) || (modelScope || Model).get(objectOrId)._class;
 
@@ -179,6 +201,7 @@ function createRecordsAPI(modelScope) {
     },
 
     async create(className, properties, options) {
+      if (typeof className === 'undefined') throw new Error("'className' is undefined");
       return new Promise((resolve, reject) => {
         cloudstore().create({
           collection: className,
@@ -197,6 +220,7 @@ function createRecordsAPI(modelScope) {
     },
 
     async delete(objectOrId, options) {
+      if (typeof objectOrId === 'undefined') return Promise.reject(new Error("'objectOrId' is undefined."));
       if (typeof objectOrId !== 'string') objectOrId = objectOrId.getId();
       const className = (options ? options.className : undefined) || (modelScope || Model).get(objectOrId)._class;
 
@@ -265,7 +289,7 @@ function createRecordsAPI(modelScope) {
             resolve();
           },
           error: (err) => {
-            reject(Error(rr || 'Failed to add relation.'));
+            reject(Error(err || 'Failed to add relation.'));
           }
         });
       });

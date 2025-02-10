@@ -42,6 +42,7 @@ export interface BaseDialogProps extends UnsafeStyleProps {
   isVisible?: boolean;
   hasBackdrop?: boolean;
   hasArrow?: boolean;
+  alwaysMounted?: boolean;
 
   children?: Slot;
 
@@ -69,6 +70,7 @@ export function CoreBaseDialog({
   isVisible,
   hasBackdrop,
   hasArrow,
+  alwaysMounted,
 
   children,
 
@@ -261,7 +263,7 @@ export function CoreBaseDialog({
     }
   }, [background]);
 
-  if (!isVisible) return null;
+  if (!isVisible && !alwaysMounted) return null;
 
   return (
     <div
@@ -270,6 +272,7 @@ export function CoreBaseDialog({
         hasBackdrop && css['has-backdrop'],
         isLockingScroll && css['is-locking-scroll'],
         typeof triggerRef === 'undefined' && css['is-centered'],
+        !isVisible && css['is-hidden'],
         css[variant]
       )}
       onClick={onClose}

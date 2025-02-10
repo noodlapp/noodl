@@ -17,9 +17,11 @@ import { EventDispatcher } from '../../../../../shared/utils/EventDispatcher';
 import View from '../../../../../shared/view';
 import { NodeGraphEditor } from '../../nodegrapheditor';
 import * as NewPopupLayer from '../../PopupLayer/index';
+import { type PopupMenuItem } from '../../PopupLayer/index';
 import { ToastLayer } from '../../ToastLayer/ToastLayer';
 import { ComponentsPanelFolder } from './ComponentsPanelFolder';
 import { ComponentTemplates } from './ComponentTemplates';
+import { HACK_findNodeReference } from '@noodl-contexts/NodeReferencesContext';
 
 const PopupLayer = require('@noodl-views/popuplayer');
 const ComponentsPanelTemplate = require('../../../templates/componentspanel.html');
@@ -961,7 +963,7 @@ export class ComponentsPanelView extends View {
       forRuntimeType: this.getRuntimeType()
     });
 
-    let items: TSFixme[] = templates.map((t) => ({
+    let items: PopupMenuItem[] = templates.map((t) => ({
       icon: IconName.Plus,
       label: t.label,
       onClick: () => {
@@ -987,6 +989,10 @@ export class ComponentsPanelView extends View {
       });
     }
 
+    // Find references
+    const nodeReference = HACK_findNodeReference(scope.comp.name);
+    const nodeReferencesText = `Used in ~${nodeReference?.referenaces?.length || 0} places`;
+
     items = items.concat([
       {
         icon: IconName.Pencil,
@@ -1011,6 +1017,9 @@ export class ComponentsPanelView extends View {
           _this.onDeleteClicked(scope, el);
           evt.stopPropagation();
         }
+      },
+      {
+        label: nodeReferencesText
       }
     ]);
 
@@ -1109,6 +1118,16 @@ export class ComponentsPanelView extends View {
         }
       }
     ]);
+
+    if (scope.canBecomeRoot) {
+      // Find references
+      const nodeReference = HACK_findNodeReference(scope.folder.component.name);
+      const nodeReferencesText = `Used in ~${nodeReference?.referenaces?.length || 0} places`;
+
+      items = items.concat([{
+        label: nodeReferencesText
+      }]);
+    }
 
     const menu = new NewPopupLayer.PopupMenu({
       items: items

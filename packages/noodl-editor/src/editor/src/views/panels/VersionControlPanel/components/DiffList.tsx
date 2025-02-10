@@ -61,7 +61,7 @@ export function DiffList({ diff, fileChanges, componentDiffTitle, actions, commi
   const [imageDiff, setImageDiff] = useState<IImageDiff>(null);
 
   const components = diff?.components ? getChangedComponents(diff.components) : [];
-  const files = (fileChanges || [])?.filter((f) => f.path !== 'project.json') || [];
+  const files = (fileChanges || [])?.filter((f) => !f.path.endsWith('project.json')) || [];
   const settings = diff?.settings ? getChangedObjectProperties(diff.settings) : [];
   const colorStyles = diff?.styles.colors ? getChangedObjectProperties(diff.styles.colors) : [];
   const textStyles = diff?.styles.text ? getChangedObjectProperties(diff.styles.text) : [];

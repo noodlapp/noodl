@@ -12,7 +12,9 @@ import { getCurrentPlatform } from '../helper';
 
   // Inputs
   const WORKSPACE_PATH = path.resolve(__dirname, '../..');
+  const DISABLE_SIGNING = process.env.DISABLE_SIGNING;
   const TARGET_PLATFORM = process.env.TARGET_PLATFORM || getCurrentPlatform();
+  const CSC_NAME = process.env.CSC_NAME;
 
   // Variables
   const noodlEditorPath = path.join(WORKSPACE_PATH, 'packages', 'noodl-editor');
@@ -70,10 +72,18 @@ import { getCurrentPlatform } from '../helper';
   // NOTE: Getting error "Cannot set properties of null (setting 'dev')" here,
   //       It basically means that some package is not relative to this path.
   console.log("--- Run 'npm install' ...");
-  execSync(`npm install --arch=${arch} --scope noodl-editor`, {
+
+  if (platform === 'darwin') {
+    execSync(`npm install electron-notarize`, {
+      stdio: 'inherit',
+      env: process.env
+    });
+  }
+
+  execSync(`npm install --arch=${arch} --scope fluxscape-editor`, {
     stdio: 'inherit',
     env: process.env
-  })
+  });
   console.log("--- 'npm install' done!");
 
   // NOTE: npm install --arch=  does this too
@@ -89,11 +99,13 @@ import { getCurrentPlatform } from '../helper';
   // Build: Replace "dugite"
   // Build: Replace "desktop-trampoline"
   console.log("--- Run 'npm run build' ...");
-  execSync('npx lerna exec --scope noodl-editor -- npm run build', {
+  execSync('npx lerna exec --scope fluxscape-editor -- npm run build', {
     stdio: 'inherit',
     env: {
       ...process.env,
-      TARGET_PLATFORM
+      TARGET_PLATFORM,
+      DISABLE_SIGNING,
+      CSC_NAME
     }
   });
   console.log("--- 'npm run build' done!");

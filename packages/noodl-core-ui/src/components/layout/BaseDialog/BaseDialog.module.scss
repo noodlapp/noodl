@@ -9,6 +9,11 @@
   right: 0;
   bottom: 0;
 
+  &.is-hidden {
+    visibility: hidden;
+    pointer-events: none;
+  }
+
   &.has-backdrop {
     background-color: var(--theme-color-bg-1-transparent);
   }

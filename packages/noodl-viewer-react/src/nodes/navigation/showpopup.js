@@ -53,15 +53,24 @@ const ShowPopupNode = {
 
       this.context.showPopup(this._internal.target, this._internal.popupParams, {
         senderNode: this.nodeScope.componentOwner,
+        /**
+         * @param {string | undefined} action
+         * @param {*} results
+         */
         onClosePopup: (action, results) => {
           this._internal.closeResults = results;
 
-          for (var key in results) {
-            if (this.hasOutput('closeResult-' + key)) this.flagOutputDirty('closeResult-' + key);
+          for (const key in results) {
+            if (this.hasOutput('closeResult-' + key)) {
+              this.flagOutputDirty('closeResult-' + key);
+            }
           }
 
-          if (!action) this.sendSignalOnOutput('Closed');
-          else this.sendSignalOnOutput(action);
+          if (!action) {
+            this.sendSignalOnOutput('Closed');
+          } else {
+            this.sendSignalOnOutput(action);
+          }
         }
       });
     },

@@ -1,3 +1,5 @@
+import React from 'react';
+
 import ASyncQueue from '../../async-queue';
 import { createNodeFromReactComponent } from '../../react-component-node';
 
@@ -75,10 +77,13 @@ const PageStack = {
     const info = [{ type: 'text', value: 'Active Components:' }];
 
     return info.concat(
-      this._internal.stack.map((p, i) => ({
-        type: 'text',
-        value: '- ' + this._internal.pages.find((pi) => pi.id === p.pageId).label
-      }))
+      this._internal.stack.map((p) => {
+        const pageInfo = this._findPage(p.pageId);
+        return {
+          type: 'text',
+          value: '- ' + pageInfo.label
+        };
+      })
     );
   },
   defaultCss: {
@@ -170,6 +175,7 @@ const PageStack = {
     topPageName: {
       type: 'string',
       displayName: 'Top Component Name',
+      group: 'General',
       get() {
         return this._internal.topPageName;
       }
@@ -177,6 +183,7 @@ const PageStack = {
     stackDepth: {
       type: 'number',
       displayName: 'Stack Depth',
+      group: 'General',
       get() {
         return this._internal.stackDepth;
       }
@@ -189,12 +196,31 @@ const PageStack = {
     _deregisterPageStack() {
       NavigationHandler.instance.deregisterPageStack(this._internal.name, this);
     },
-    _pageNameForId(id) {
-      if (this._internal.pages === undefined) return;
-      const page = this._internal.pages.find((p) => p.id === id);
-      if (page === undefined) return;
+    /**
+     * @param {String} pageIdOrLabel
+     */
+    _findPage(pageIdOrLabel) {
+      if (this._internal.pageInfo[pageIdOrLabel]) {
+        const pageInfo = this._internal.pageInfo[pageIdOrLabel];
+        const pageRef = this._internal.pages.find((x) => x.id === pageIdOrLabel);
+        return {
+          component: String(pageInfo.component),
+          label: String(pageRef.label),
+          id: String(pageIdOrLabel)
+        };
+      }
 
-      return page.label;
+      const pageRef = this._internal.pages.find((x) => x.label === pageIdOrLabel);
+      if (pageRef) {
+        const pageInfo = this._internal.pageInfo[pageRef.id];
+        return {
+          component: String(pageInfo.component),
+          label: String(pageRef.label),
+          id: String(pageRef.id)
+        };
+      }
+
+      return undefined;
     },
     setPageOutputs(outputs) {
       for (const prop in outputs) {
@@ -230,8 +256,9 @@ const PageStack = {
 
       if (this._internal.pages === undefined || this._internal.pages.length === 0) return;
 
-      var startPageId,
-        params = {};
+      let startPageId;
+      let params = {};
+
       var pageFromUrl = this.matchPageFromUrl();
       if (pageFromUrl !== undefined) {
         // We have an url matching a page, use that page as start page
@@ -239,13 +266,16 @@ const PageStack = {
 
         params = Object.assign({}, pageFromUrl.query, pageFromUrl.params);
       } else {
-        var startPageId = this._internal.startPageId;
+        startPageId = this._internal.startPageId;
         if (startPageId === undefined) startPageId = this._internal.pages[0].id;
       }
 
-      var pageInfo = this._internal.pageInfo[startPageId];
-
-      if (pageInfo === undefined || pageInfo.component === undefined) return; // No component specified for page
+      // Find the page by either ID or by Label
+      const pageInfo = this._findPage(startPageId);
+      if (pageInfo === undefined || pageInfo.component === undefined) {
+        // No page was found
+        return;
+      }
 
       var content = await this.nodeScope.createNode(pageInfo.component, guid());
 
@@ -269,7 +299,7 @@ const PageStack = {
       ];
 
       this.setPageOutputs({
-        topPageName: this._pageNameForId(startPageId),
+        topPageName: pageInfo.label,
         stackDepth: this._internal.stack.length
       });
     },
@@ -458,13 +488,22 @@ const PageStack = {
       this._internal.asyncQueue.enqueue(this.replaceAsync.bind(this, args));
     },
     async replaceAsync(args) {
-      if (this._internal.pages === undefined || this._internal.pages.length === 0) return;
+      if (this._internal.pages === undefined || this._internal.pages.length === 0) {
+        return;
+      }
 
-      if (this._internal.isTransitioning) return;
+      if (this._internal.isTransitioning) {
+        return;
+      }
 
-      var pageId = args.target || this._internal.pages[0].id;
-      var pageInfo = this._internal.pageInfo[pageId];
-      if (pageInfo === undefined || pageInfo.component === undefined) return; // No component specified for page
+      const pageId = args.target || this._internal.pages[0].id;
+
+      // Find the page by either ID or by Label
+      const pageInfo = this._findPage(pageId);
+      if (pageInfo === undefined || pageInfo.component === undefined) {
+        // No page was found
+        return;
+      }
 
       // Remove all current pages in the stack
       var children = this.getChildren();
@@ -498,7 +537,7 @@ const PageStack = {
       ];
 
       this.setPageOutputs({
-        topPageName: this._pageNameForId(pageId),
+        topPageName: pageInfo.label,
         stackDepth: this._internal.stack.length
       });
 
@@ -510,13 +549,22 @@ const PageStack = {
       this._internal.asyncQueue.enqueue(this.navigateAsync.bind(this, args));
     },
     async navigateAsync(args) {
-      if (this._internal.pages === undefined || this._internal.pages.length === 0) return;
+      if (this._internal.pages === undefined || this._internal.pages.length === 0) {
+        return;
+      }
 
-      if (this._internal.isTransitioning) return;
+      if (this._internal.isTransitioning) {
+        return;
+      }
 
-      var pageId = args.target || this._internal.pages[0].id;
-      var pageInfo = this._internal.pageInfo[pageId];
-      if (pageInfo === undefined || pageInfo.component === undefined) return; // No component specified for page
+      const pageId = args.target || this._internal.pages[0].id;
+
+      // Find the page by either ID or by Label
+      const pageInfo = this._findPage(pageId);
+      if (pageInfo === undefined || pageInfo.component === undefined) {
+        // No page was found
+        return;
+      }
 
       // Create the container group
       const group = this.createPageContainer();
@@ -530,7 +578,7 @@ const PageStack = {
       group.addChild(content);
 
       // Connect navigate back nodes
-      var navigateBackNodes = content.nodeScope.getNodesWithType('PageStackNavigateBack');
+      const navigateBackNodes = content.nodeScope.getNodesWithType('PageStackNavigateBack');
       if (navigateBackNodes && navigateBackNodes.length > 0) {
         for (var j = 0; j < navigateBackNodes.length; j++) {
           navigateBackNodes[j]._setBackCallback(this.back.bind(this));
@@ -538,8 +586,8 @@ const PageStack = {
       }
 
       // Push the new top
-      var top = this._internal.stack[this._internal.stack.length - 1];
-      var newTop = {
+      const top = this._internal.stack[this._internal.stack.length - 1];
+      const newTop = {
         from: top.page,
         page: group,
         pageInfo: pageInfo,
@@ -551,7 +599,7 @@ const PageStack = {
       };
       this._internal.stack.push(newTop);
       this.setPageOutputs({
-        topPageName: this._pageNameForId(args.target),
+        topPageName: pageInfo.label,
         stackDepth: this._internal.stack.length
       });
       this._updateUrlWithTopPage();
@@ -584,8 +632,11 @@ const PageStack = {
       this.addChild(top.from, 0);
       top.backCallback && top.backCallback(args.backAction, args.results);
 
+      // Find the page by either ID or by Label
+      const pageInfo = this._findPage(this._internal.stack[this._internal.stack.length - 2].pageId);
+
       this.setPageOutputs({
-        topPageName: this._pageNameForId(this._internal.stack[this._internal.stack.length - 2].pageId),
+        topPageName: pageInfo.label,
         stackDepth: this._internal.stack.length - 1
       });
 

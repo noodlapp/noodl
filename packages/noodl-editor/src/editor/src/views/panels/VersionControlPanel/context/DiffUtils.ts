@@ -1,21 +1,24 @@
+import path from 'path';
+import { getCommit } from '@noodl/git/src/core/logs';
+import { FileStatusKind } from '@noodl/git/src/core/models/status';
+
+import { FeedbackType } from '@noodl-constants/FeedbackType';
+import { applyPatches } from '@noodl-models/ProjectPatches/applypatches';
 import {
   ProjectDiff,
   ProjectDiffItem,
   ProjectBasicDiffItem,
   ArrayDiff,
-  diffProject
+  diffProject,
+  createEmptyArrayDiff
 } from '@noodl-utils/projectmerger.diff';
+
+import { IconName } from '@noodl-core-ui/components/common/Icon';
+import { ListItemProps } from '@noodl-core-ui/components/layout/ListItem';
 
 import { ProjectModel } from '../../../../models/projectmodel';
 
-import { applyPatches } from '@noodl-models/ProjectPatches/applypatches';
-import { FileStatusKind } from '@noodl/git/src/core/models/status';
-import { IconName } from '@noodl-core-ui/components/common/Icon';
-import { ListItemProps } from '@noodl-core-ui/components/layout/ListItem';
-import { FeedbackType } from '@noodl-constants/FeedbackType';
-import { getCommit } from '@noodl/git/src/core/logs';
-
-export interface ProjectLocalDiff extends ProjectDiff{
+export interface ProjectLocalDiff extends ProjectDiff {
   baseProject: TSFixme; //Project model as an object from raw json
   commitShaDiffedTo: string;
 }
@@ -84,17 +87,49 @@ export function getFileStatusIconProps(status: FileStatusKind): Partial<ListItem
   }
 }
 
-export async function doLocalDiff(repositoryPath: string, headCommitId: string): Promise<ProjectLocalDiff> {
-  const baseCommit = await getCommit(repositoryPath, headCommitId);
-  const baseProjectJson = await baseCommit.getFileAsString('project.json');
-  const baseProject = JSON.parse(baseProjectJson);
-  applyPatches(baseProject);
+export function getProjectFilePath(repositoryPath: string, projectPath: string) {
+  const relativePath = path.relative(repositoryPath, projectPath);
+  const projectFilePath = path.join(relativePath, 'project.json').replaceAll('\\', '/');
+  return projectFilePath;
+}
 
-  const diff = diffProject(baseProject, ProjectModel.instance.toJSON());
+export async function doLocalDiff(
+  repositoryPath: string,
+  projectPath: string,
+  headCommitId: string
+): Promise<ProjectLocalDiff> {
+  const projectFilePath = getProjectFilePath(repositoryPath, projectPath);
 
-  return {
-    ...diff,
-    baseProject,
-    commitShaDiffedTo: headCommitId
-  };
+  try {
+    const baseCommit = await getCommit(projectPath, headCommitId);
+    const baseProjectJson = await baseCommit.getFileAsString(projectFilePath);
+    const baseProject = JSON.parse(baseProjectJson);
+    applyPatches(baseProject);
+
+    const diff = diffProject(baseProject, ProjectModel.instance.toJSON());
+
+    return {
+      ...diff,
+      baseProject,
+      commitShaDiffedTo: headCommitId
+    };
+  } catch (error) {
+    if (error.toString().includes('exists on disk, but not in')) {
+      console.warn('project.json does not exist in this commit.');
+    }
+
+    // Return empty state
+    return {
+      baseProject: {},
+      commitShaDiffedTo: headCommitId,
+      components: createEmptyArrayDiff(),
+      variants: createEmptyArrayDiff(),
+      settings: createEmptyArrayDiff(),
+      styles: {
+        colors: createEmptyArrayDiff(),
+        text: createEmptyArrayDiff()
+      },
+      cloudservices: createEmptyArrayDiff()
+    };
+  }
 }

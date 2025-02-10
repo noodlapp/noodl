@@ -12,6 +12,8 @@ export interface SelectProps extends Noodl.ReactProps {
   textStyle: Noodl.TextStyle;
   items: TSFixme;
 
+  attrs: React.Attributes;
+
   placeholder: string;
   placeholderOpacity: string;
 
@@ -81,6 +83,7 @@ export function Select(props: SelectProps) {
   }
 
   const inputProps = {
+    ...props.attrs,
     id: props.id,
     className: props.className,
     style: {

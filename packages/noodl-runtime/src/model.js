@@ -35,6 +35,11 @@ const _modelProxyHandler = {
   }
 };
 
+/**
+ *
+ * @param {*} id
+ * @returns {Model}
+ */
 Model.get = function (id) {
   if (id === undefined) id = Model.guid();
   if (!models[id]) {
@@ -122,13 +127,22 @@ Model.prototype.fill = function (value = null) {
   }
 };
 
+/**
+ * @param {string} name
+ * @param {unknown} value
+ * @param {{
+ *  resolve?: boolean;
+ *  forceChange?: boolean;
+ *  silent?: boolean;
+ * }} args
+ */
 Model.prototype.set = function (name, value, args) {
   if (args && args.resolve && name.indexOf('.') !== -1) {
     // We should resolve path references
-    var path = name.split('.');
-    var model = this;
-    for (var i = 0; i < path.length - 1; i++) {
-      var v = model.get(path[i]);
+    const path = name.split('.');
+    let model = this;
+    for (let i = 0; i < path.length - 1; i++) {
+      const v = model.get(path[i]);
       if (Model.instanceOf(v)) model = v;
       else return; // Path resolve failed
     }
@@ -138,24 +152,35 @@ Model.prototype.set = function (name, value, args) {
 
   const forceChange = args && args.forceChange;
 
-  var oldValue = this.data[name];
+  const oldValue = this.data[name];
   this.data[name] = value;
-  (forceChange || oldValue !== value) &&
-    (!args || !args.silent) &&
+
+  if ((forceChange || oldValue !== value) && (!args || !args.silent)) {
     this.notify('change', { name: name, value: value, old: oldValue });
+  }
 };
 
+/**
+ * @returns {string}
+ */
 Model.prototype.getId = function () {
   return this.id;
 };
 
+/**
+ * @param {string} name
+ * @param {{
+ *  resolve?: boolean;
+ * }} args
+ * @returns {unknown}
+ */
 Model.prototype.get = function (name, args) {
   if (args && args.resolve && name.indexOf('.') !== -1) {
     // We should resolve path references
-    var path = name.split('.');
-    var model = this;
-    for (var i = 0; i < path.length - 1; i++) {
-      var v = model.get(path[i]);
+    const path = name.split('.');
+    let model = this;
+    for (let i = 0; i < path.length - 1; i++) {
+      const v = model.get(path[i]);
       if (Model.instanceOf(v)) model = v;
       else return; // Path resolve failed
     }

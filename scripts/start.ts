@@ -74,7 +74,7 @@ const cloudRuntimeProcess = attachStdio(
   }
 );
 
-const editorProcess = attachStdio(exec('npx lerna exec --scope noodl-editor -- npm run start', processOptions), {
+const editorProcess = attachStdio(exec('npx lerna exec --scope fluxscape-editor -- npm run start', processOptions), {
   prefix: 'Editor',
   color: ConsoleColor.FgCyan
 });

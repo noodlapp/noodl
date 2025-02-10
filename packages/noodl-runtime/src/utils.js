@@ -12,6 +12,24 @@ function getAbsoluteUrl(_url) {
   return (Noodl.baseUrl || '/') + url;
 }
 
+/**
+ * Log an error thrown by the JavaScript nodes.
+ *
+ * @param {any} error 
+ */
+function logJavaScriptNodeError(error) {
+  if (typeof error === 'string') {
+    console.log('Error in JS node run code.', error);
+  } else {
+    console.log(
+      'Error in JS node run code.',
+      Object.getPrototypeOf(error).constructor.name + ': ' + error.message,
+      error.stack
+    );
+  }
+}
+
 module.exports = {
-  getAbsoluteUrl
+  getAbsoluteUrl,
+  logJavaScriptNodeError
 };

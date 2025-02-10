@@ -9,6 +9,8 @@ export interface SliderProps extends Noodl.ReactProps {
   id: string;
   enabled: boolean;
 
+  attrs: React.Attributes;
+
   value: number;
   min: number;
   max: number;
@@ -103,6 +105,7 @@ export function Slider(props: SliderProps) {
   const className = `ndl-controls-range2 ${instanceClassId} ${props.className ? props.className : ''} `;
 
   const inputProps: React.InputHTMLAttributes<HTMLInputElement> = {
+    ...props.attrs,
     id: props.id,
     style: {
       width: '100%',

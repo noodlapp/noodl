@@ -1,20 +1,17 @@
 'use strict';
 
-const { Node, EdgeTriggeredInput } = require('@noodl/runtime');
 const UserService = require('./userservice');
 
-var SignUpNodeDefinition = {
+const SignUpNodeDefinition = {
   name: 'net.noodl.user.SignUp',
   docs: 'https://docs.noodl.net/nodes/data/user/sign-up',
   displayNodeName: 'Sign Up',
   category: 'Cloud Services',
   color: 'data',
-  initialize: function () {
-    var internal = this._internal;
-
+  initialize() {
+    const internal = this._internal;
     internal.userProperties = {};
   },
-  getInspectInfo() {},
   outputs: {
     success: {
       type: 'signal',
@@ -30,7 +27,7 @@ var SignUpNodeDefinition = {
       type: 'string',
       displayName: 'Error',
       group: 'Error',
-      getter: function () {
+      getter() {
         return this._internal.error;
       }
     }
@@ -39,7 +36,7 @@ var SignUpNodeDefinition = {
     signup: {
       displayName: 'Do',
       group: 'Actions',
-      valueChangedToTrue: function () {
+      valueChangedToTrue() {
         this.scheduleSignUp();
       }
     },
@@ -47,7 +44,7 @@ var SignUpNodeDefinition = {
       displayName: 'Username',
       type: 'string',
       group: 'General',
-      set: function (value) {
+      set(value) {
         this._internal.username = value;
       }
     },
@@ -55,7 +52,7 @@ var SignUpNodeDefinition = {
       displayName: 'Password',
       type: 'string',
       group: 'General',
-      set: function (value) {
+      set(value) {
         this._internal.password = value;
       }
     },
@@ -63,13 +60,13 @@ var SignUpNodeDefinition = {
       displayName: 'Email',
       type: 'string',
       group: 'General',
-      set: function (value) {
+      set(value) {
         this._internal.email = value;
       }
     }
   },
   methods: {
-    setError: function (err) {
+    setError(err) {
       this._internal.error = err;
       this.flagOutputDirty('error');
       this.sendSignalOnOutput('failure');
@@ -86,7 +83,7 @@ var SignUpNodeDefinition = {
         this.context.editorConnection.clearWarning(this.nodeScope.componentOwner.name, this.id, 'user-login-warning');
       }
     },
-    scheduleSignUp: function () {
+    scheduleSignUp() {
       const internal = this._internal;
 
       if (this.signUpScheduled === true) return;
@@ -109,23 +106,24 @@ var SignUpNodeDefinition = {
         });
       });
     },
-    setUserProperty: function (name, value) {
+    setUserProperty(name, value) {
       this._internal.userProperties[name] = value;
     },
-    registerInputIfNeeded: function (name) {
+    registerInputIfNeeded(name) {
       if (this.hasInput(name)) {
         return;
       }
 
-      if (name.startsWith('prop-'))
+      if (name.startsWith('prop-')) {
         return this.registerInput(name, {
           set: this.setUserProperty.bind(this, name.substring('prop-'.length))
         });
+      }
     }
   }
 };
 
-function updatePorts(nodeId, parameters, editorConnection, systemCollections) {
+function updatePorts(nodeId, _parameters, editorConnection, systemCollections) {
   var ports = [];
 
   if (systemCollections) {
@@ -169,7 +167,7 @@ function updatePorts(nodeId, parameters, editorConnection, systemCollections) {
 
 module.exports = {
   node: SignUpNodeDefinition,
-  setup: function (context, graphModel) {
+  setup(context, graphModel) {
     if (!context.editorConnection || !context.editorConnection.isRunningLocally()) {
       return;
     }
@@ -177,7 +175,7 @@ module.exports = {
     function _managePortsForNode(node) {
       updatePorts(node.id, node.parameters, context.editorConnection, graphModel.getMetaData('systemCollections'));
 
-      node.on('parameterUpdated', function (event) {
+      node.on('parameterUpdated', function (_event) {
         updatePorts(node.id, node.parameters, context.editorConnection, graphModel.getMetaData('systemCollections'));
       });
 

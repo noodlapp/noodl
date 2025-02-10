@@ -31,6 +31,7 @@ const RadioButtonNode = {
     ]
   },
   initialize() {
+    this.props.attrs = {};
     this.props.sizeMode = 'explicit';
     this.props.id = 'input-' + guid();
 
@@ -60,6 +61,16 @@ const RadioButtonNode = {
       styleTag: 'fill',
       set(value) {
         this.setStyle({ backgroundColor: value }, 'fill');
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
       }
     }
   },

@@ -17,6 +17,8 @@ export interface TextInputProps extends Noodl.ReactProps {
   type: 'text' | 'textArea' | 'email' | 'number' | 'password' | 'url';
   textStyle: Noodl.TextStyle;
 
+  attrs: React.Attributes;
+
   enabled: boolean;
 
   placeholder: string;
@@ -149,6 +151,7 @@ export class TextInput extends React.Component<TextInputProps, State> {
     inputStyles.color = props.noodlNode.context.styles.resolveColor(inputStyles.color);
 
     const inputProps = {
+      ...props.attrs,
       id: props.id,
       value: this.state.value,
       ...Utils.controlEvents(props),

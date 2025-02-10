@@ -1,5 +1,7 @@
 import React, { RefObject } from 'react';
 
+import { ProjectModel } from '@noodl-models/projectmodel';
+
 import { ActivityIndicator } from '@noodl-core-ui/components/common/ActivityIndicator';
 import { BaseDialog } from '@noodl-core-ui/components/layout/BaseDialog';
 import { Tabs } from '@noodl-core-ui/components/layout/Tabs';
@@ -25,7 +27,12 @@ function DeployPopupChild() {
       >
         <PopupSection title="Deploy options" />
 
-        <Tabs tabs={[{ label: 'Self Hosting', content: <DeployToFolderTab />, testId: 'self-hosting-tab-button' }]} />
+        <Tabs
+          tabs={[
+            { label: 'Fluxscape', content: <FluxscapeDeployTab />, testId: 'fluxscape-tab-button' },
+            { label: 'Self Hosting', content: <DeployToFolderTab />, testId: 'self-hosting-tab-button' }
+          ]}
+        />
 
         {hasActivity && <ActivityIndicator isOverlay />}
       </div>
@@ -48,9 +55,28 @@ export function DeployPopup(props: DeployPopupProps) {
         onClose={props.onClose}
         hasArrow
         isLockingScroll
+        alwaysMounted
       >
         <DeployPopupChild />
       </BaseDialog>
     </DeployContextProvider>
+  );
+}
+
+function FluxscapeDeployTab() {
+  const params = {};
+
+  const projectId = ProjectModel.instance.id;
+  if (projectId) {
+    params['projectId'] = projectId;
+  }
+
+  const urlParams = new URLSearchParams(params);
+
+  return (
+    <iframe
+      src={`https://portal.fluxscape.io/?${urlParams.toString()}`}
+      style={{ width: '100%', height: '50vh', borderStyle: 'none' }}
+    />
   );
 }

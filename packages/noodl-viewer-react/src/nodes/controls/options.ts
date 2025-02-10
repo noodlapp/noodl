@@ -31,6 +31,7 @@ const OptionsNode = {
     ]
   },
   initialize: function () {
+    this.props.attrs = {};
     this._itemsChanged = () => {
       this.forceUpdate();
     };
@@ -89,6 +90,16 @@ const OptionsNode = {
           this.forceUpdate();
           this.flagOutputDirty('value');
         }
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
       }
     }
   },

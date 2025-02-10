@@ -6,7 +6,7 @@ import { EventDispatcher } from '../../shared/utils/EventDispatcher';
 import ProjectModules from '../../shared/utils/projectmodules';
 import { NodeLibrary } from './models/nodelibrary';
 import { ProjectModel } from './models/projectmodel';
-import { WarningsModel } from './models/warningsmodel';
+import { WarningRef, WarningsModel } from './models/warningsmodel';
 import DebugInspector from './utils/debuginspector';
 import * as Exporter from './utils/exporter';
 
@@ -112,7 +112,7 @@ export class ViewerConnection extends Model {
     } else if (request.cmd === 'showwarning' && request.type === 'viewer') {
       const content = JSON.parse(request.content);
       if (ProjectModel.instance !== undefined) {
-        const ref = {
+        const ref: WarningRef = {
           component: ProjectModel.instance.getComponentWithName(content.componentName),
           node: ProjectModel.instance.findNodeWithId(content.nodeId),
           key: content.key,
@@ -124,7 +124,7 @@ export class ViewerConnection extends Model {
       }
     } else if (request.cmd === 'clearwarnings' && request.type === 'viewer') {
       const content = JSON.parse(request.content);
-      const ref = {
+      const ref: WarningRef = {
         component: ProjectModel.instance.getComponentWithName(content.componentName),
         node: ProjectModel.instance.findNodeWithId(content.nodeId)
       };

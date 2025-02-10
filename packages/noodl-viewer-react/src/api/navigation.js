@@ -2,12 +2,18 @@ const { RouterHandler } = require('../nodes/navigation/router-handler');
 const NoodlRuntime = require('@noodl/runtime');
 
 const navigation = {
+  /**
+   * This is set by "packages/noodl-viewer-react/src/noodl-js-api.js"
+   * @type {NoodlRuntime}
+   */
+  _noodlRuntime: undefined,
+
   async showPopup(componentPath, params) {
     return new Promise((resolve) => {
       navigation._noodlRuntime.context.showPopup(componentPath, params, {
         onClosePopup: (action, results) => {
           resolve({
-            action: action.replace('closeAction-', ''),
+            action: action?.replace('closeAction-', ''),
             parameters: results
           });
         }

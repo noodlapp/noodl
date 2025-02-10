@@ -43,6 +43,7 @@ const TextInputNode = {
     return TextInput;
   },
   initialize() {
+    this.props.attrs = {};
     this.props.startValue = '';
     this.props.id = this._internal.controlId = 'input-' + guid();
   },
@@ -166,6 +167,16 @@ const TextInputNode = {
             this.setStyle({ textAlign: 'right' }, 'input');
             break;
         }
+      }
+    },
+    testId: {
+      index: 100009,
+      displayName: 'Test ID Attribute',
+      group: 'Advanced HTML',
+      type: 'string',
+      set(value) {
+        this.props.attrs["data-testid"] = value;
+        this.forceUpdate();
       }
     }
   },

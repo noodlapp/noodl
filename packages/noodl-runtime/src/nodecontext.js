@@ -230,7 +230,7 @@ NodeContext.prototype.deregisterComponentModel = function (componentModel) {
 
 NodeContext.prototype.fetchComponentBundle = async function (name) {
   const fetchBundle = async (name) => {
-    let baseUrl = Noodl.Env["BaseUrl"] || '/';
+    let baseUrl = Noodl.Env['BaseUrl'] || '/';
     let bundleUrl = `${baseUrl}noodl_bundles/${name}.json`;
 
     const response = await fetch(bundleUrl);
@@ -455,6 +455,15 @@ NodeContext.prototype.setPopupCallbacks = function ({ onShow, onClose }) {
   this.onClosePopup = onClose;
 };
 
+/**
+ * @param {string} popupComponent
+ * @param {Record<string, unknown>} params
+ * @param {{
+ *  senderNode?: unknown;
+ *  onClosePopup?: (action?: string, results: object) => void;
+ * }} args
+ * @returns
+ */
 NodeContext.prototype.showPopup = async function (popupComponent, params, args) {
   if (!this.onShowPopup) return;
 

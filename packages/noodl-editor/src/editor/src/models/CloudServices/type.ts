@@ -14,7 +14,9 @@ export type UpdateEnvironmentRequest = {
   id: string;
   name: string | undefined;
   description: string | undefined;
+  appId: string | undefined;
   masterKey: string | undefined;
+  url: string | undefined;
 };
 
 export type CreateEnvironment = {

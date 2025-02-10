@@ -7,6 +7,7 @@ import { BuildTarget, getDistPlatform } from './platform/build-platforms';
   // Inputs
   const DISABLE_SIGNING = valueToBoolean(process.env.DISABLE_SIGNING);
   const TARGET_PLATFORM = process.env.TARGET_PLATFORM;
+  const CSC_NAME = process.env.CSC_NAME;
 
   if (!TARGET_PLATFORM) throw new Error('TARGET_PLATFORM is falsy');
 
@@ -48,7 +49,7 @@ import { BuildTarget, getDistPlatform } from './platform/build-platforms';
       DISABLE_SIGNING
         ? {}
         : {
-            // CSC_NAME: 'Add signing name here'
+            CSC_NAME
           },
       process.env
     )
